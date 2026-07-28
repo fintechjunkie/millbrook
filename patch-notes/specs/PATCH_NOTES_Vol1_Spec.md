@@ -9,19 +9,47 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 1 | Character portrait 4 | Object 1 | Action 2 | Atmospheric 1
+Establishing 1 | Character portrait 5 | Object 1 | Action 2 | Atmospheric 0
 
-No three consecutive spreads share a shot type. Verified: the only adjacency is
-spreads 5 and 6, both portraits, and the rule forbids three.
+**Three consecutive portraits at spreads 5, 6 and 8?** No. The sequence is 5
+portrait, 6 portrait, 7 object, 8 portrait, so the run is broken by spread 7 and
+the Part C3 rule against three in a row holds.
 
-**Amended when spread 6 was reframed.** It was an establishing shot of the park
-with the three boys unreadable at distance; it is now a group portrait. That
-moves the whole-set mix to Establishing 7 of 37, or 18.9 percent, just under the
-20 to 25 percent band, and Portrait to 12, or 32.4 percent, just over its 25 to
-30 band. Neither is recovered here. The cleanest fix is to give the new spread
-created by the Volume 1 re-chunk an establishing shot rather than the atmospheric
-one proposed, which returns Establishing to 8 of 38. Recorded rather than
-silently absorbed.
+## The shot mix no longer satisfies Part C3, deliberately
+
+Two reframes were made on the author's instruction, both to put characters in
+front of the reader: spread 6 from a wide establishing shot of unreadable
+silhouettes to a group three-shot, and spread 8 from an empty bedroom ceiling to
+Pip and Vex. Both were the right call for the book. Both cost the same two
+categories.
+
+Whole-set mix across all four volumes, 37 images:
+
+| Type | Target | Now | Count | Status |
+|---|---|---|---|---|
+| Establishing or location | 20 to 25% | 18.9% | 7 | under |
+| Character portrait or close | 25 to 30% | 35.1% | 13 | over |
+| Object or detail | 15 to 20% | 16.2% | 6 | ok |
+| Action moment | 15 to 20% | 16.2% | 6 | ok |
+| Atmospheric or empty | 15 to 20% | 13.5% | 5 | under |
+
+**This is not drift and should not be patched image by image.** Part C3's bands
+are a default for a generic illustrated novel, written to prevent the talking
+heads failure. This book has now twice chosen, on purpose, to trade an empty
+plate for a face, because it has thirteen named characters arriving across four
+short volumes and readers were meeting several of them in prose only. The right
+response is to re-set the bands to what a character-forward book actually wants,
+and then hold the new numbers, rather than to keep logging exceptions.
+
+Recommended new targets, which the current 37 images already satisfy: portrait 30
+to 36%, establishing 17 to 22%, atmospheric 12 to 17%, object and action
+unchanged. Not adopted unilaterally, because C3 is the working brief's and
+changing it is the author's call.
+
+One thing worth protecting whichever way that goes: Volume 1 now has no
+atmospheric image at all. The new spread created by the Volume 1 re-chunk is the
+natural home for one, and the displaced bedroom-ceiling image is already written
+and spoiler-checked.
 
 ---
 
@@ -577,21 +605,36 @@ Outside, somewhere across town, the streetlight across from Aunt Carol’s house
 ### Image page (right)
 
 Slug: vol1-s08
-Shot type: Atmospheric or empty
-Depicts: Beat 3. The back bedroom in the dark, after Lena has stopped reading her phone.
-Spoiler check: PASS. Final beat is the streetlight going off for a single frame outside. Not depicted; the window shows steady light and the exterior is not the subject.
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.
+Spoiler check: PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.
+
+**Reframed to put a person in it.** It was the back bedroom ceiling, empty, lit by
+a rectangle of phone light. A good quiet image, but Volume 1 was ending without
+ever showing Pip, who is a lead and whose reveal as a robot happens one page
+earlier. This was the only remaining page in the volume she is on.
+
+The beat chosen is her listening pose rather than her arrival, which matters: her
+arrival and the robot reveal are spread 7's business, and by the time a reader
+sees this image they have already read that page. Vex is included because the two
+of them are a pair and because it keeps the scene rather than isolating a
+portrait. Two named figures, which is inside the Part C4 ceiling.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:BACK_BEDROOM}}
-The ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.
-Interior, the middle of the night.
-Close, camera lying flat and looking up, wide angle, deep focus.
-Single cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{LOC:VEX_APARTMENT}}
+Two girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.
+Interior, late evening.
+Medium two-shot from low down at stool height, angled so Pip's lifted face and Vex's turned face both read, moderate depth so the crowded room stays legible behind them.
+One bare bulb hanging above and slightly behind Pip, cold spill from the laptop screen low on the left, the corners of the room falling away into dark.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame.
+Alt text: A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her.

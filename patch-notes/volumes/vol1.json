@@ -700,12 +700,12 @@
       "note": null,
       "image": {
         "slug": "vol1-s08",
-        "shotType": "Atmospheric or empty",
-        "depicts": "Beat 3. The back bedroom in the dark, after Lena has stopped reading her phone.",
-        "spoilerCheck": "PASS. Final beat is the streetlight going off for a single frame outside. Not depicted; the window shows steady light and the exterior is not the subject.",
-        "prompt": "{{STYLE}}\n{{LOC:BACK_BEDROOM}}\nThe ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.\nInterior, the middle of the night.\nClose, camera lying flat and looking up, wide angle, deep focus.\nSingle cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Character portrait or close (two-shot)",
+        "depicts": "Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.",
+        "spoilerCheck": "PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.",
+        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:VEX_APARTMENT}}\nTwo girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.\nInterior, late evening.\nMedium two-shot from low down at stool height, angled so Pip's lifted face and Vex's turned face both read, moderate depth so the crowded room stays legible behind them.\nOne bare bulb hanging above and slightly behind Pip, cold spill from the laptop screen low on the left, the corners of the room falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame."
+        "alt": "A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her."
       }
     }
   ]
