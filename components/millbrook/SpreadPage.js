@@ -72,7 +72,10 @@ function Folio({ n, align }) {
  * Losing the end of a paragraph is not an acceptable failure here.
  */
 export function TextPage({ spread, compact }) {
-  const pad = compact ? space(6) : space(9);
+  // 30px rather than 36. Same reasoning as the leading: page height reclaimed
+  // from margin costs nothing, where reclaiming it from the spread map costs a
+  // new spread and a new image.
+  const pad = compact ? space(6) : '30px';
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
 
   // Track whether we are at the first paragraph of a section, since that one
@@ -85,12 +88,15 @@ export function TextPage({ spread, compact }) {
       data-mb-kind="text"
       data-mb-spread={spread.n}
       className="mb-page"
-      style={{ ...PAGE, padding: `${pad} ${pad} ${space(5)}` }}
+      style={{ ...PAGE, padding: `${pad} ${pad} ${compact ? space(5) : '16px'}` }}
     >
       <div
         data-mb-flow
         style={{
           ...type.body,
+          // On a phone the page is already narrower than the measure cap, so the
+          // cap does nothing and the offset would only strand the text.
+          ...(compact ? { maxWidth: 'none' } : type.flowOffset),
           flex: 1,
           minHeight: 0,
           overflowY: 'auto',
