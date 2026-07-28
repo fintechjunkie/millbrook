@@ -1,86 +1,130 @@
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
-import { color, paper, space, type } from '@/lib/millbrook/series';
+import { Banner } from '@/components/millbrook/Banner';
+import { Shelf } from '@/components/millbrook/Shelf';
+import { ARCS, SITE_IMAGES, color, paper, space, type } from '@/lib/millbrook/series';
 
-// The site home. A shelf of properties, of which The Patch Notes is the first.
-const PROPERTIES = [
-  {
-    href: '/patch-notes',
-    kicker: 'A Digital Slop Story',
-    title: 'The Patch Notes',
-    blurb: 'Four illustrated flipbook volumes. Millbrook starts fixing itself, and nobody asked it to.',
-    status: 'In production',
-  },
-];
+export const metadata = {
+  title: 'Millbrook — A Digital Slop Story',
+  description:
+    'Illustrated flipbooks from the town of Millbrook. Something is fixing the '
+    + 'place, and nobody asked it to.',
+};
 
 export default function Home() {
-  const volumes = allVolumes();
-  const words = volumes.reduce((a, v) => a + v.words, 0);
+  const byslug = Object.fromEntries(allVolumes().map((v) => [v.slug, v]));
 
   return (
     <main style={{ minHeight: '100vh', background: color.bg }}>
-      <div style={{ maxWidth: 900, margin: '0 auto', padding: `${space(16)} ${space(5)} ${space(20)}` }}>
-        <header style={{ marginBottom: space(12) }}>
-          <h1 style={{
-            fontFamily: type.body.fontFamily, color: paper.stock, fontSize: 44,
-            margin: `0 0 ${space(3)}`, fontWeight: 700, letterSpacing: '-0.015em',
-          }}>
-            Millbrook
-          </h1>
-          <p style={{
-            fontFamily: type.body.fontFamily, color: '#A29AAC', fontSize: 16,
-            lineHeight: 1.6, maxWidth: '58ch', margin: 0,
-          }}>
-            Digital flipbooks and other assets for the Welcome to Millbrook project.
-          </p>
-        </header>
+      <Banner
+        slug={SITE_IMAGES.banner.slug}
+        aspect={SITE_IMAGES.banner.aspect}
+        kicker="A Digital Slop Story"
+        title="Millbrook"
+        tagline="A small flat town on a grid of wide streets, with nothing worth photographing. Lately it has started repairing itself, and it is keeping a tally."
+      />
 
-        <section aria-label="Properties" style={{ display: 'flex', flexDirection: 'column', gap: space(4) }}>
-          {PROPERTIES.map((p) => (
-            <Link
-              key={p.href}
-              href={p.href}
-              className="focus-ring"
-              style={{
-                textDecoration: 'none',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: space(2),
-                padding: space(6),
-                border: '1px solid rgba(244,239,230,0.14)',
-                borderLeft: `3px solid ${color.accent}`,
-                background: 'rgba(244,239,230,0.035)',
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: space(4) }}>
-                <span style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.22em', color: '#B9A6FF' }}>
-                  {p.kicker}
-                </span>
-                <span style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.18em', color: '#7C7488' }}>
-                  {p.status}
-                </span>
-              </div>
-              <div style={{ fontFamily: type.body.fontFamily, color: paper.stock, fontSize: 26, fontWeight: 700, lineHeight: 1.2 }}>
-                {p.title}
-              </div>
-              <div style={{ fontFamily: type.body.fontFamily, color: '#A29AAC', fontSize: 14.5, lineHeight: 1.55, maxWidth: '62ch' }}>
-                {p.blurb}
-              </div>
-              <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.12em', color: color.accent, marginTop: space(2) }}>
-                Open →
-              </div>
-            </Link>
-          ))}
-        </section>
+      <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
+        {ARCS.map((arc) => {
+          const vols = arc.volumes.map((v) => byslug[v.slug]).filter(Boolean);
+          const words = vols.reduce((a, v) => a + v.words, 0);
+          const spreads = vols.reduce((a, v) => a + v.spreadCount, 0);
+          const images = vols.reduce((a, v) => a + v.imageCount, 0);
 
-        <footer style={{
-          marginTop: space(14), paddingTop: space(4),
-          borderTop: '1px solid rgba(244,239,230,0.1)',
-          fontFamily: type.body.fontFamily, fontSize: 12.5, color: '#7C7488', lineHeight: 1.6,
-        }}>
-          33 text spreads · 37 images · {words.toLocaleString()} words of prose.
-          {' '}<Link href="/checks/overflow" style={{ color: '#9E86F0' }}>Overflow audit</Link>
-          {' '}checks that no page clips its prose.
+          return (
+            <section key={arc.id} style={{ marginBottom: space(16) }}>
+              <header
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  alignItems: 'flex-end',
+                  justifyContent: 'space-between',
+                  gap: space(4),
+                  paddingBottom: space(4),
+                  marginBottom: space(6),
+                  borderBottom: '1px solid rgba(244,239,230,0.14)',
+                }}
+              >
+                <div>
+                  <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
+                    Arc {arc.number} · {arc.status}
+                  </div>
+                  <h2
+                    style={{
+                      fontFamily: type.body.fontFamily,
+                      color: paper.stock,
+                      fontSize: 30,
+                      fontWeight: 700,
+                      letterSpacing: '-0.01em',
+                      margin: `${space(2)} 0 0`,
+                    }}
+                  >
+                    {arc.title}
+                  </h2>
+                  <p
+                    style={{
+                      fontFamily: type.body.fontFamily,
+                      color: '#A29AAC',
+                      fontSize: 14.5,
+                      lineHeight: 1.6,
+                      maxWidth: '62ch',
+                      margin: `${space(3)} 0 0`,
+                    }}
+                  >
+                    {arc.blurb}
+                  </p>
+                </div>
+
+                <Link
+                  href={`/${arc.id}`}
+                  className="focus-ring"
+                  style={{
+                    ...type.utility,
+                    fontSize: 9,
+                    letterSpacing: '0.18em',
+                    color: paper.stock,
+                    textDecoration: 'none',
+                    border: '1px solid rgba(244,239,230,0.28)',
+                    padding: `${space(3)} ${space(5)}`,
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  About this arc →
+                </Link>
+              </header>
+
+              <Shelf arc={arc} volumes={byslug} />
+
+              <div
+                style={{
+                  ...type.utility,
+                  fontSize: 9,
+                  letterSpacing: '0.14em',
+                  color: '#7C7488',
+                  marginTop: space(5),
+                }}
+              >
+                Four volumes · {spreads} spreads · {images} plates · {words.toLocaleString()} words
+              </div>
+            </section>
+          );
+        })}
+
+        <footer
+          style={{
+            paddingTop: space(5),
+            borderTop: '1px solid rgba(244,239,230,0.1)',
+            fontFamily: type.body.fontFamily,
+            fontSize: 12.5,
+            color: '#7C7488',
+            lineHeight: 1.7,
+          }}
+        >
+          <div>More arcs to follow. The Digital Slop Squads will return.</div>
+          <div style={{ marginTop: space(2) }}>
+            <Link href="/checks/overflow" style={{ color: '#9E86F0' }}>Overflow audit</Link>
+            {' · build-time check that no page clips its prose.'}
+          </div>
         </footer>
       </div>
     </main>

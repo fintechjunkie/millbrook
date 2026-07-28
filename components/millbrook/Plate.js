@@ -112,26 +112,46 @@ export function PlatePlaceholder({ slug, shotType, aspect = '2 / 3', fullBleed =
  * objectFit contain rather than cover: these are whole compositions and
  * cropping one to fill a box would cut the framing the prompt specified.
  */
-export function Plate({ slug, alt, shotType, aspect = '2 / 3', fullBleed = false }) {
+export function Plate({
+  slug,
+  alt,
+  shotType,
+  aspect = '2 / 3',
+  fullBleed = false,
+  fit,
+  // An optional second slug to try before giving up. Used for covers: a volume
+  // shows its dedicated cover art if one exists and its chapter opener if not,
+  // so the shelf is never empty and dedicated covers can be added later without
+  // a code change.
+  fallbackSlug,
+}) {
   const [ref, failed, markFailed] = useBrokenImage(slug);
+  const [fellBack, setFellBack] = useState(false);
 
-  if (!slug || failed) {
+  useEffect(() => { setFellBack(false); }, [slug]);
+
+  const primaryGone = !slug || failed;
+  const useFallback = primaryGone && fallbackSlug && !fellBack;
+  const active = useFallback ? fallbackSlug : slug;
+
+  if (primaryGone && !useFallback) {
     return <PlatePlaceholder slug={slug} shotType={shotType} aspect={aspect} fullBleed={fullBleed} />;
   }
 
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      ref={ref}
-      src={srcFor(slug)}
+      key={active}
+      ref={useFallback ? undefined : ref}
+      src={srcFor(active)}
       alt={alt || ''}
-      onError={markFailed}
+      onError={useFallback ? () => setFellBack(true) : markFailed}
       style={{
         display: 'block',
         width: '100%',
         ...(fullBleed
           ? { height: '100%', objectFit: 'cover' }
-          : { aspectRatio: aspect, objectFit: 'contain' }),
+          : { aspectRatio: aspect, objectFit: fit ?? 'contain' }),
         background: paper.stock,
       }}
     />
