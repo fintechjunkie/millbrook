@@ -73,9 +73,17 @@ const nameFor = (token) =>
  */
 const IS_ANIMAL = new Set(['MONKE']);
 
-function expand(prompt) {
+function expand(prompt, hardConstraints) {
   const missing = [];
   const attach = [];
+
+  // Hoisted directly under the style, because that is where a model weights
+  // hardest. Every line in here corresponds to something a generation actually
+  // got wrong while the requirement sat unread in the negative block.
+  const HARD = hardConstraints
+    ? `\n\nMUST HOLD, these override anything below that appears to contradict them:\n${
+      hardConstraints.split(/(?<=\.)\s+(?=[A-Z])/).map((s) => `- ${s.trim()}`).join('\n')}`
+    : '';
 
   const out = prompt
     // The style is named as well as quoted. The generation project resolves
@@ -83,8 +91,8 @@ function expand(prompt) {
     // reading the sheet can see at a glance that the right style is in play.
     .replace(/\{\{STYLE\}\}/g, () =>
       (roster.styleApproved && roster.styleName
-        ? `STYLE: ${roster.styleName} (the project's locked style, reproduced below verbatim)\n\n${STYLE_SLOT}`
-        : STYLE_SLOT))
+        ? `STYLE: ${roster.styleName} (the project's locked style, reproduced below verbatim)\n\n${STYLE_SLOT}${HARD}`
+        : `${STYLE_SLOT}${HARD}`))
     .replace(/\{\{NEGATIVE\}\}/g, roster.negative ?? '>>> NEGATIVE BLOCK MISSING <<<')
     // Character block: named, then told to use the attached canonical image as
     // the authority, then the immutable description. The reference image is what
@@ -148,7 +156,7 @@ function build(volNum) {
   const vol = JSON.parse(readFileSync(join(PN, 'volumes', `vol${volNum}.json`), 'utf8'));
 
   const entries = vol.spreads.map((s) => {
-    const { text, missing, attach } = expand(s.image.prompt);
+    const { text, missing, attach } = expand(s.image.prompt, s.image.hardConstraints);
     return {
       attach,
       spread: s.n,

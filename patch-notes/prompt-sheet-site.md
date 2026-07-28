@@ -144,9 +144,16 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- NO LEGIBLE TEXT ANYWHERE.
+- The shop signboard, the shelf cards and the door sign must all read as worn marks, not words.
+- Do NOT write a shop name.
+- The first pass rendered "MILLBROOK BOOKS" plus four readable shelf cards, which breaks the negative block outright, and named the shop wrongly: in the story it is Hollow Pine Books.
+- Illegible signage is the intended result, not a limitation to work around.
 SETTING:
 The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.**
-A corner bookshop under a navy awning with a window of stacked paperbacks and a fat ginger cat asleep among them, the shopfront reading as though it has stood for thirty years. No figures.
+A corner bookshop under a navy awning with a window of stacked paperbacks and a fat ginger cat asleep among them, the shopfront reading as though it has stood for thirty years. The hand-painted signboard above the awning, the small cards propped among the books, and the carved sign in the door glass are all PRESENT but their lettering is completely ILLEGIBLE: worn, weathered and abstract, readable as marks rather than as words. No word anywhere in the image is spellable. No figures.
 Exterior, flat daylight.
 Centred medium shot, camera square on, shallow depth so the object is unmistakably the subject, generous empty paper around it.
 Soft even light, one clear direction, no dramatic contrast.

@@ -19,6 +19,7 @@
         "shotType": "Establishing (full bleed, both pages)",
         "depicts": "The corner of Maple and Fourth as it currently is. No story beat.",
         "spoilerCheck": "PASS. Deliberately shows the corner in its vape store state. The bookstore is the reveal on text page 2 and must not appear here.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_A}}\nThe corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.\nExterior, first light.\nWide establishing shot from across the intersection, deep focus.\nGrey pre-dawn ambient with the sign's sour electric glow as the only warm note.\n{{NEGATIVE}}\nAspect ratio: 2:1",
         "aspect": "2:1",
         "alt": "A cheap corner storefront under a gray awning at first light, its window sign glowing, the street empty."
@@ -123,12 +124,13 @@
       "note": null,
       "image": {
         "slug": "vol2-s01",
-        "shotType": "Character portrait",
-        "depicts": "Beat 5. Pip at the laundromat table with her hands set flat and slightly too symmetrical.",
-        "spoilerCheck": "PASS. Final beat is Pip's line about noticing being honest. The line is dialogue and the image carries no speech; her mouth is closed.",
-        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:LAUNDROMAT}}\nSeated at a small table with both hands laid flat on the surface in a placement that is a shade too even, head level, mouth closed, gaze steady and slightly past the viewer. No drink in front of her.\nInterior, nine in the morning.\nClose shot, straight on at eye level, hands included at the bottom of frame, shallow depth.\nFlat fluorescent overhead mixed with cold window light from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Action moment",
+        "depicts": "Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.",
+        "spoilerCheck": "PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.",
+        "hardConstraints": null,
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:LAUNDROMAT}}\nTwo girls at a small laundromat table caught mid-exchange. Vex has just pushed a small dashcam across the tabletop and her hand is still on it at full extension, arm straight, weight forward on the seat, chin up and unapologetic, eyebrows raised as though she has said something reasonable. Lena is half out of her seat reaching for it, other hand flat on the table, mouth open on a word, an expression caught between offence and interest. Two paper coffee cups on the table, one nearer Lena. Both faces clearly visible. Exactly two figures in frame.\nInterior, nine in the morning.\nMedium two-shot from the end of the table so the dashcam sits between them at the centre of the composition, camera at seated eye level, moderate depth so the banks of machines read behind them.\nFlat fluorescent overhead mixed with cold window light from the left, no dramatic shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A girl sits at a laundromat table with both hands laid flat and evenly on the surface, looking slightly past the viewer."
+        "alt": "Two girls at a laundromat table, one pushing a small dashcam across it with her arm at full stretch, the other half standing to reach for it."
       }
     },
     {
@@ -209,6 +211,7 @@
         "shotType": "Establishing or location",
         "depicts": "Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.",
         "spoilerCheck": "PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_B}}\nThe same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.\nExterior, mid morning.\nWide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.\nWarm direct morning sun on the awning, deep shade under it.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A corner bookshop with a navy awning and a window display of paperbacks, a ginger cat asleep among them."
@@ -305,12 +308,13 @@
       "note": null,
       "image": {
         "slug": "vol2-s03",
-        "shotType": "Character portrait",
-        "depicts": "Beat 2. The woman behind the counter looking up and smiling.",
-        "spoilerCheck": "PASS. Final beat is the three of them standing on the sidewalk with no answer. Not depicted; scene stays inside the shop. Her smile here is uncomplicated, the flicker belongs to the prose.",
-        "prompt": "{{STYLE}}\n{{CHAR:GREEN_CARDIGAN_WOMAN}}\n{{WARDROBE:CARDIGAN_A}}\n{{LOC:HOLLOW_PINE_INT}}\nStanding behind a wooden counter, looking up from a task and smiling warmly at the viewer, reading glasses down on their chain, hands still resting on whatever she was doing.\nInterior, mid morning.\nMedium close shot, straight on at eye level, shallow depth so the shelves behind go soft.\nWarm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Character portrait or close (two-shot)",
+        "depicts": "Beat 2. The woman behind the counter looking up and smiling at Lena, who has just asked to ask something weird.",
+        "spoilerCheck": "PASS. Final beat is the three of them out on the sidewalk with no answer. Not depicted; the scene stays inside the shop. Her smile is uncomplicated here, and the flicker belongs to the prose.",
+        "hardConstraints": "One button on the green cardigan, the third from the top, is a slightly different green from the rest, and it must be visible without being pointed at. Her smile is warm and completely untroubled; she is never sinister.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:GREEN_CARDIGAN_WOMAN}}\n{{WARDROBE:CARDIGAN_A}}\n{{LOC:HOLLOW_PINE_INT}}\nAn older woman behind a wooden shop counter has just looked up from a task and is smiling warmly and easily at a teenage girl standing at the counter with her. The woman's hands are still resting on whatever she was doing, reading glasses down on their chain. The girl leans in slightly with one hand on the counter edge, shoulders raised, mouth open on the beginning of an awkward question, her expression apologetic. Her satchel strap crosses her chest. Both faces clearly visible. Exactly two figures in frame.\nInterior, mid morning.\nMedium two-shot across the corner of the counter, camera at standing eye level, shallow depth so the shelving behind goes soft.\nWarm tungsten lamplight from above and behind the woman, cool daylight from the shopfront off to the right catching the girl.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A woman in her sixties in a green cardigan smiles from behind a wooden shop counter, reading glasses on a chain."
+        "alt": "A woman in her sixties in a green cardigan smiles from behind a wooden shop counter at a teenage girl who is leaning in to ask her something."
       }
     },
     {
@@ -413,11 +417,12 @@
       "image": {
         "slug": "vol2-s04",
         "shotType": "Action moment",
-        "depicts": "Beat 3. Felix coming up over the back of the couch like a meerkat.",
-        "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; no monitors in frame and Pip is absent.",
-        "prompt": "{{STYLE}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nPopping suddenly upright from behind the back of a sagging couch, both hands on the cushion top, delighted and mid-word, a small gecko clinging to his shoulder.\nInterior, mid morning.\nMedium shot, camera at couch height so he rises into the top of frame, shallow depth.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "depicts": "Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.",
+        "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.",
+        "hardConstraints": "Felix wears the blue and orange floral-patterned bucket hat and the purple polka-dot shirt open over a black turtleneck, and his auburn hair is in two small ponytails on top of his head. The gecko is present. Owen has a fully bald head and NO EYEBROWS AT ALL. Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.",
+        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nA converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.\nInterior, mid morning.\nMedium-wide shot from the back door side of the room, camera at couch height so Felix rises into the upper frame and Owen's turned back anchors the foreground, moderate depth holding both.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor, cold monitor spill on Owen's shoulders.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A grinning teenage boy in a floral bucket hat pops up from behind a couch with a small gecko on his shoulder."
+        "alt": "A grinning teenage boy in a floral bucket hat pops up from behind a couch with a gecko on his shoulder, while another boy at a desk keeps his back turned."
       }
     },
     {
@@ -503,12 +508,13 @@
       "note": null,
       "image": {
         "slug": "vol2-s05",
-        "shotType": "Object or detail",
-        "depicts": "Beat 2. Owen's desk after he has turned back to the keyboard and started typing fast.",
-        "spoilerCheck": "PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the shelves are out of shot.",
-        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA close view across a keyboard and desk edge, a row of dented energy drink cans lined up along the back, cables spilling off the near side, monitor bezels at the top of frame with the screens rendered as pure glow and no legible content. No figures, only a blurred forearm leaving frame at the far edge.\nInterior, mid morning.\nClose shot, camera low and level with the desk surface, very shallow depth on the nearest can.\nCold screen light from above and behind the objects, long shadows pulled toward the viewer.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Action moment",
+        "depicts": "Beat 1. Owen turning slowly in his chair to look at Pip, who has just read his config file from across the room.",
+        "spoilerCheck": "PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the high shelves are out of shot.",
+        "hardConstraints": "Owen has a fully bald head and NO EYEBROWS AT ALL, not faint ones, not thin ones, none. Every screen in frame is pure glow with NO legible interface, no windows, no panels, no readable content of any kind. Pip's posture is a shade too level and she is not mid-blink.",
+        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nOwen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and there are no eyebrows on his face at all. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.\nInterior, mid morning.\nMedium two-shot from the side of the desk so the turn of Owen's shoulders reads against Pip's stillness, camera slightly below eye level, moderate depth so both faces hold.\nCold monitor light from behind Owen rimming his head and collar, dusty window light from high on the left falling on Pip.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A close view along a desk edge past a row of energy drink cans toward the glow of unreadable monitors."
+        "alt": "A bald young man turns in his desk chair to look over his shoulder at a girl standing very still beside the desk, three glowing monitors behind him."
       }
     },
     {
@@ -621,6 +627,7 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Milo sitting down on the couch beside Lena, leaving a careful gap.",
         "spoilerCheck": "PASS. Final beat is Milo saying they will need help. Not depicted; the receipt is not in frame and neither is speaking.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{LOC:WAREHOUSE_PIT}}\nTwo figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.\nInterior, early afternoon.\nMedium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.\nSoft high window light from above and behind, no hard shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "Two teenagers sit at opposite ends of a sagging couch with a gap between them, a pig asleep against one of them."
@@ -709,12 +716,13 @@
       "note": null,
       "image": {
         "slug": "vol2-s07",
-        "shotType": "Atmospheric or empty",
-        "depicts": "Beat 1. The kitchen at dinner time, the small box of papers already open on the table.",
-        "spoilerCheck": "PASS. Final beat is Aunt Carol filing the receipt away as though it belongs there. Not depicted; no hands, no receipt, no figures.",
-        "prompt": "{{STYLE}}\n{{LOC:AUNT_CAROL_KITCHEN}}\nA worn kitchen table with a shoebox of envelopes and receipts open on it, one chair pulled out and empty, a pair of reading glasses folded on the tablecloth, a plate covered with foil pushed to one side. No figures present.\nInterior, dusk.\nMedium-wide shot from the doorway, slightly high angle, deep focus.\nSingle warm bulb hanging low over the table, the corners of the room going to dark blue.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Character portrait or close (two-shot)",
+        "depicts": "Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.",
+        "spoilerCheck": "PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.",
+        "hardConstraints": "Aunt Carol is not defeated and must not be drawn sad. The register is a woman carrying something heavy competently and for a long time. Her reading glasses are on a beaded chain. The receipt is small and its printing is not legible.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:AUNT_CAROL}}\n{{WARDROBE:CAROL_A}}\n{{LOC:AUNT_CAROL_KITCHEN}}\nTwo figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite in a shapeless cardigan, looking down at the slip for a beat longer than she needs to, reading glasses lowered on their beaded chain, one hand paused flat on the table beside it, her face tired and composed rather than sad or surprised. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.\nInterior, dusk.\nMedium two-shot across the corner of the table, camera at seated eye level so both faces read and the receipt sits between them, moderate depth.\nSingle warm bulb hanging low over the table lighting both faces from above, the corners of the room going to dark blue.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A kitchen table under a low hanging bulb with an open shoebox of papers, folded reading glasses, and an empty pulled-out chair."
+        "alt": "A teenage girl pushes a small slip of paper across a kitchen table to an older woman in a cardigan, who looks down at it without touching it."
       }
     },
     {
@@ -791,6 +799,7 @@
         "shotType": "Object or detail",
         "depicts": "Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.",
         "spoilerCheck": "PASS. Final beat is the radio saying hello and then going silent. Not depicted; the radio is inert, the battery door is open and empty, nothing is lit.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.\nInterior, late night.\nClose overhead shot, slight angle, shallow depth on the empty battery compartment.\nOne weak lamp from off to the left, the rest of the floor falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A bin of dead electronics on a floor with a small old transistor radio on top, its empty battery compartment open and corroded."

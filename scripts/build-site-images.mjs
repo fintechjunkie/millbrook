@@ -45,7 +45,19 @@ const ITEMS = [
   },
   ...[
     { n: 1, subject: 'A single fresh patch of asphalt in an otherwise cracked road, seamless and slightly too new, no hole and no patch line. No figures.', loc: 'MAIN_STREET', part: 'The Pothole' },
-    { n: 2, subject: 'A corner bookshop under a navy awning with a window of stacked paperbacks and a fat ginger cat asleep among them, the shopfront reading as though it has stood for thirty years. No figures.', loc: 'MAPLE_AND_FOURTH_B', part: 'The Bookstore That Was Always There' },
+    {
+      n: 2,
+      subject:
+        'A corner bookshop under a navy awning with a window of stacked paperbacks and a fat ginger cat asleep among them, the shopfront reading as though it has stood for thirty years. '
+        + 'The hand-painted signboard above the awning, the small cards propped among the books, and the carved sign in the door glass are all PRESENT but their lettering is completely ILLEGIBLE: '
+        + 'worn, weathered and abstract, readable as marks rather than as words. No word anywhere in the image is spellable. No figures.',
+      loc: 'MAPLE_AND_FOURTH_B',
+      part: 'The Bookstore That Was Always There',
+      hard:
+        'NO LEGIBLE TEXT ANYWHERE. The shop signboard, the shelf cards and the door sign must all read as worn marks, not words. '
+        + 'Do NOT write a shop name. The first pass rendered "MILLBROOK BOOKS" plus four readable shelf cards, which breaks the negative block outright, '
+        + 'and named the shop wrongly: in the story it is Hollow Pine Books. Illegible signage is the intended result, not a limitation to work around.',
+    },
     { n: 3, subject: 'A pair of brand new white running shoes set neatly at the foot of a porch swing, one still carrying a price tag on the tongue. No figures.', loc: 'HENDERSON_PORCH', part: "Mr. Henderson's Knee" },
     { n: 4, subject: 'A bare wooden podium on a low stage with rows of empty folding chairs in front of it and a rigged banner behind, seen almost edge on so no lettering is legible. No figures.', loc: 'TOWN_HALL_SQUARE', part: 'The Press Conference' },
   ].map((v) => ({
@@ -59,6 +71,7 @@ const ITEMS = [
       + 'states the volume\'s object rather than its place. Cropped to fill, so keep '
       + 'the subject central.',
     loc: v.loc,
+    hard: v.hard,
     body: [
       v.subject,
       'Exterior, flat daylight.',
@@ -99,6 +112,11 @@ for (const i of ITEMS) {
   L.push('');
   L.push('```');
   L.push(STYLE);
+  if (i.hard) {
+    L.push('');
+    L.push('MUST HOLD, these override anything below that appears to contradict them:');
+    for (const s of i.hard.split(/(?<=\.)\s+(?=[A-Z])/)) L.push(`- ${s.trim()}`);
+  }
   L.push('SETTING:');
   L.push(LOC(i.loc));
   for (const line of i.body) L.push(line);

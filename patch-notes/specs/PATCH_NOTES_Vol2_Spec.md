@@ -9,9 +9,35 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 3 | Object 2 | Action 1 | Atmospheric 1
+Establishing 2 | Character portrait 3 | Object 1 | Action 3 | Atmospheric 0
 
-No three consecutive spreads share a shot type. Verified.
+Sequence: establishing, action, establishing, portrait, action, action, portrait,
+portrait, object. The only adjacencies are 4 with 5 and 6 with 7, both pairs, and
+the rule forbids three. Verified.
+
+**Rebuilt to be character-forward on author instruction.** Five of the nine images
+had no named figure in them, while Vex appeared in four spreads of this volume with
+no face anywhere, Owen had two scenes and no face, and Aunt Carol had a whole scene
+rendered as an empty kitchen. Four images changed:
+
+| Spread | Was | Now |
+|---|---|---|
+| 1 | Pip alone at the table | Vex slides the dashcam to Lena — introduces Vex |
+| 3 | The cardigan woman alone | Her and Lena across the counter |
+| 4 | Felix alone erupting | Felix erupting while Owen refuses to turn round |
+| 5 | Object study of Owen's desk | Owen turning slowly to face Pip |
+| 7 | The kitchen, empty | Aunt Carol and Lena with the receipt — introduces Carol |
+
+All five are two-handers, and every one stays inside Part C4's ceiling of two named
+figures. Object drops from 2 to 1 and atmospheric from 1 to 0, and spread 8 was
+deliberately left as the object study of the dead radio: it keeps one image in the
+volume that cannot drift, and the volume wants a quiet close.
+
+**Spreads 0 and 2 are deliberately left with no figures.** They are the matched
+pair, the same corner in its vape-store state and its bookshop state from an
+identical camera position, which the roster calls the single highest-value image
+decision in the set. Putting a figure in either would break the match, and the
+match is the reveal.
 
 ---
 
@@ -106,26 +132,34 @@ The door chimed again. The other girl walked in, and Lena felt her brain do a sm
 ### Image page (right)
 
 Slug: vol2-s01
-Shot type: Character portrait
-Depicts: Beat 5. Pip at the laundromat table with her hands set flat and slightly too symmetrical.
-Spoiler check: PASS. Final beat is Pip's line about noticing being honest. The line is dialogue and the image carries no speech; her mouth is closed.
+Shot type: Action moment
+Depicts: Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.
+Spoiler check: PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.
+
+**Reframed to be character-forward.** It was Pip alone at the table with her hands
+set flat. Two problems with that: Pip now gets her introduction in Volume 1
+spread 8, and Volume 2 was giving no face at all to Vex, who is in four of its
+nine spreads and whose apartment closes the volume. This is the moment the two
+girls actually meet, so it is the natural place to spend the image.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{CHAR:PIP}}
-{{WARDROBE:PIP_A}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_B}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
 {{LOC:LAUNDROMAT}}
-Seated at a small table with both hands laid flat on the surface in a placement that is a shade too even, head level, mouth closed, gaze steady and slightly past the viewer. No drink in front of her.
+Two girls at a small laundromat table caught mid-exchange. Vex has just pushed a small dashcam across the tabletop and her hand is still on it at full extension, arm straight, weight forward on the seat, chin up and unapologetic, eyebrows raised as though she has said something reasonable. Lena is half out of her seat reaching for it, other hand flat on the table, mouth open on a word, an expression caught between offence and interest. Two paper coffee cups on the table, one nearer Lena. Both faces clearly visible. Exactly two figures in frame.
 Interior, nine in the morning.
-Close shot, straight on at eye level, hands included at the bottom of frame, shallow depth.
-Flat fluorescent overhead mixed with cold window light from the left.
+Medium two-shot from the end of the table so the dashcam sits between them at the centre of the composition, camera at seated eye level, moderate depth so the banks of machines read behind them.
+Flat fluorescent overhead mixed with cold window light from the left, no dramatic shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A girl sits at a laundromat table with both hands laid flat and evenly on the surface, looking slightly past the viewer.
+Alt text: Two girls at a laundromat table, one pushing a small dashcam across it with her arm at full stretch, the other half standing to reach for it.
 
 ---
 
@@ -240,26 +274,36 @@ Nobody had an answer.
 ### Image page (right)
 
 Slug: vol2-s03
-Shot type: Character portrait
-Depicts: Beat 2. The woman behind the counter looking up and smiling.
-Spoiler check: PASS. Final beat is the three of them standing on the sidewalk with no answer. Not depicted; scene stays inside the shop. Her smile here is uncomplicated, the flicker belongs to the prose.
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 2. The woman behind the counter looking up and smiling at Lena, who has just asked to ask something weird.
+Spoiler check: PASS. Final beat is the three of them out on the sidewalk with no answer. Not depicted; the scene stays inside the shop. Her smile is uncomplicated here, and the flicker belongs to the prose.
+
+Hard constraints: One button on the green cardigan, the third from the top, is a
+slightly different green from the rest, and it must be visible without being
+pointed at. Her smile is warm and completely untroubled; she is never sinister.
+
+**Reframed to be character-forward.** It was her alone behind the counter. Putting
+Lena in it turns a portrait into an exchange, and the whole scene is about a
+question being asked and a smile not quite covering the answer.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_B}}
 {{CHAR:GREEN_CARDIGAN_WOMAN}}
 {{WARDROBE:CARDIGAN_A}}
 {{LOC:HOLLOW_PINE_INT}}
-Standing behind a wooden counter, looking up from a task and smiling warmly at the viewer, reading glasses down on their chain, hands still resting on whatever she was doing.
+An older woman behind a wooden shop counter has just looked up from a task and is smiling warmly and easily at a teenage girl standing at the counter with her. The woman's hands are still resting on whatever she was doing, reading glasses down on their chain. The girl leans in slightly with one hand on the counter edge, shoulders raised, mouth open on the beginning of an awkward question, her expression apologetic. Her satchel strap crosses her chest. Both faces clearly visible. Exactly two figures in frame.
 Interior, mid morning.
-Medium close shot, straight on at eye level, shallow depth so the shelves behind go soft.
-Warm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.
+Medium two-shot across the corner of the counter, camera at standing eye level, shallow depth so the shelving behind goes soft.
+Warm tungsten lamplight from above and behind the woman, cool daylight from the shopfront off to the right catching the girl.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden shop counter, reading glasses on a chain.
+Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden shop counter at a teenage girl who is leaning in to ask her something.
 
 ---
 
@@ -317,25 +361,37 @@ Pip had walked over to Owen’s screens. She was looking at all three of them at
 
 Slug: vol2-s04
 Shot type: Action moment
-Depicts: Beat 3. Felix coming up over the back of the couch like a meerkat.
-Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; no monitors in frame and Pip is absent.
+Depicts: Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.
+Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.
+
+Hard constraints: Felix wears the blue and orange floral-patterned bucket hat and
+the purple polka-dot shirt open over a black turtleneck, and his auburn hair is in
+two small ponytails on top of his head. The gecko is present. Owen has a fully
+bald head and NO EYEBROWS AT ALL. Owen's back is to the room and his face is not
+visible, so this frame carries no risk to his likeness.
+
+**Reframed to be character-forward.** It was Felix alone. The page's joke is that
+Owen will not give the intruders the dignity of turning round, and that only works
+if both are in frame. Two named figures, inside the ceiling.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
 {{CHAR:FELIX}}
 {{WARDROBE:FELIX_A}}
 {{LOC:WAREHOUSE_PIT}}
-Popping suddenly upright from behind the back of a sagging couch, both hands on the cushion top, delighted and mid-word, a small gecko clinging to his shoulder.
+A converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.
 Interior, mid morning.
-Medium shot, camera at couch height so he rises into the top of frame, shallow depth.
-High window light in dusty beams from the left, warm bounce off the concrete floor.
+Medium-wide shot from the back door side of the room, camera at couch height so Felix rises into the upper frame and Owen's turned back anchors the foreground, moderate depth holding both.
+High window light in dusty beams from the left, warm bounce off the concrete floor, cold monitor spill on Owen's shoulders.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A grinning teenage boy in a floral bucket hat pops up from behind a couch with a small gecko on his shoulder.
+Alt text: A grinning teenage boy in a floral bucket hat pops up from behind a couch with a gecko on his shoulder, while another boy at a desk keeps his back turned.
 
 ---
 
@@ -384,24 +440,38 @@ Lena was on the couch with the pig, who had decided she was acceptable. Vex was 
 ### Image page (right)
 
 Slug: vol2-s05
-Shot type: Object or detail
-Depicts: Beat 2. Owen's desk after he has turned back to the keyboard and started typing fast.
-Spoiler check: PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the shelves are out of shot.
+Shot type: Action moment
+Depicts: Beat 1. Owen turning slowly in his chair to look at Pip, who has just read his config file from across the room.
+Spoiler check: PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the high shelves are out of shot.
+
+Hard constraints: Owen has a fully bald head and NO EYEBROWS AT ALL, not faint
+ones, not thin ones, none. Every screen in frame is pure glow with NO legible
+interface, no windows, no panels, no readable content of any kind. Pip's posture is
+a shade too level and she is not mid-blink.
+
+**Reframed to be character-forward.** It was a close object study of the desk with
+no faces. The page is a two-hander in which a machine quietly out-reads the person
+who thought he was the expert, and the beat that carries it is Owen turning round
+slowly because he does not want to.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
 {{LOC:WAREHOUSE_TERMINALS}}
-A close view across a keyboard and desk edge, a row of dented energy drink cans lined up along the back, cables spilling off the near side, monitor bezels at the top of frame with the screens rendered as pure glow and no legible content. No figures, only a blurred forearm leaving frame at the far edge.
+Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and there are no eyebrows on his face at all. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
-Close shot, camera low and level with the desk surface, very shallow depth on the nearest can.
-Cold screen light from above and behind the objects, long shadows pulled toward the viewer.
+Medium two-shot from the side of the desk so the turn of Owen's shoulders reads against Pip's stillness, camera slightly below eye level, moderate depth so both faces hold.
+Cold monitor light from behind Owen rimming his head and collar, dusty window light from high on the left falling on Pip.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A close view along a desk edge past a row of energy drink cans toward the glow of unreadable monitors.
+Alt text: A bald young man turns in his desk chair to look over his shoulder at a girl standing very still beside the desk, three glowing monitors behind him.
 
 ---
 
@@ -532,24 +602,37 @@ Aunt Carol put the receipt back in her box of papers, like it belonged there, an
 ### Image page (right)
 
 Slug: vol2-s07
-Shot type: Atmospheric or empty
-Depicts: Beat 1. The kitchen at dinner time, the small box of papers already open on the table.
-Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away as though it belongs there. Not depicted; no hands, no receipt, no figures.
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.
+Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.
+
+Hard constraints: Aunt Carol is not defeated and must not be drawn sad. The register
+is a woman carrying something heavy competently and for a long time. Her reading
+glasses are on a beaded chain. The receipt is small and its printing is not legible.
+
+**Reframed to be character-forward.** It was the kitchen empty, with the shoebox of
+papers on the table and nobody there. Aunt Carol has a whole scene here and one of
+the best lines in the arc, and until this change she had no face until Volume 4.
+This is the beat where she gives away that she already knows.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_B}}
+{{CHAR:AUNT_CAROL}}
+{{WARDROBE:CAROL_A}}
 {{LOC:AUNT_CAROL_KITCHEN}}
-A worn kitchen table with a shoebox of envelopes and receipts open on it, one chair pulled out and empty, a pair of reading glasses folded on the tablecloth, a plate covered with foil pushed to one side. No figures present.
+Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite in a shapeless cardigan, looking down at the slip for a beat longer than she needs to, reading glasses lowered on their beaded chain, one hand paused flat on the table beside it, her face tired and composed rather than sad or surprised. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
 Interior, dusk.
-Medium-wide shot from the doorway, slightly high angle, deep focus.
-Single warm bulb hanging low over the table, the corners of the room going to dark blue.
+Medium two-shot across the corner of the table, camera at seated eye level so both faces read and the receipt sits between them, moderate depth.
+Single warm bulb hanging low over the table lighting both faces from above, the corners of the room going to dark blue.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A kitchen table under a low hanging bulb with an open shoebox of papers, folded reading glasses, and an empty pulled-out chair.
+Alt text: A teenage girl pushes a small slip of paper across a kitchen table to an older woman in a cardigan, who looks down at it without touching it.
 
 ---
 

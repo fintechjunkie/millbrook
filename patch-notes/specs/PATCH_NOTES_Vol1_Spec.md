@@ -250,6 +250,18 @@ Shot type: Character portrait
 Depicts: Beat 1. Owen at his desk after thirty-one hours awake.
 Spoiler check: PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.
 
+Hard constraints: Owen has NO EYEBROWS AT ALL — not faint, not thin, none, the brow
+is bare skin. Every screen is pure cold glow with NO legible interface: no windows,
+no panels, no charts, no readable content of any kind. The monitor glow is the ONLY
+light source in the frame and everything behind him falls to black; the room is not
+otherwise lit.
+
+**Regenerating.** The first pass gave him dark eyebrows, put legible window and
+panel layouts on all three monitors, and lit the room warmly with the whole
+warehouse visible. All three were already specified, which is why they are now
+hoisted into hard constraints at the head of the prompt rather than left to the
+negative block at the foot.
+
 Prompt:
 
 ```
@@ -257,10 +269,10 @@ Prompt:
 {{CHAR:OWEN}}
 {{WARDROBE:OWEN_A}}
 {{LOC:WAREHOUSE_TERMINALS}}
-Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.
+Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his brow is bare skin with no eyebrows on it at all. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
 Interior, roughly three in the morning.
 Close shot, camera slightly below eye level, monitors framing him on both sides.
-Cold monitor light as the only source, uplighting his face, everything behind him falling to black.
+Cold monitor light as the single and only source in the frame, uplighting his face from below, the room behind him unlit and falling completely to black.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -316,16 +328,30 @@ Shot type: Action moment
 Depicts: Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.
 Spoiler check: PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.
 
+Hard constraints: Monke is a SILHOUETTE, not a character portrait. He is seen from
+behind and side-on, backlit by the screen, and his face is turned away from the
+camera and lost in shadow. NO eye detail, NO facial expression, NO readable features.
+If his face is legible the image is wrong. Palette stays warm off-white paper with
+subdued colour; this is not a purple image.
+
+**Regenerating, and this is the constraint that matters most in the whole set.** The
+first pass gave him a fully resolved, front-lit character face with large expressive
+eyes, and a heavily purple palette. The roster is explicit: he appears exactly twice
+across four volumes, is never given a resolved hero portrait, and is deliberately
+absent from the final image of Volume 4 despite being the subject of its last
+paragraph. How much of Monke a reader is allowed to understand is a decision the
+roster makes on purpose, and a hero portrait quietly unmakes it.
+
 Prompt:
 
 ```
 {{STYLE}}
 {{CHAR:MONKE}}
 {{LOC:WAREHOUSE_TERMINALS}}
-Perched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
+A small monkey perched on top of the middle monitor, seen from behind and slightly to the side, leaning down so one small finger touches the front of the screen. He is rendered as a dark silhouette against the screen glow. His head is turned away from the camera and his face is entirely lost in shadow: no eyes, no expression, no legible features whatsoever. Only the outline of the head, the curve of the spine, the long tail and the reaching arm are readable. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
 Interior, early morning, no daylight.
-Close shot from the side, camera at monitor height, shallow depth on the finger and the glass.
-Screen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.
+Close shot from behind and to the side, camera at monitor height, shallow depth on the finger and the glass.
+Screen glow from in front of him and below, throwing him into near-total shadow with a strong rim light along his back and tail, room otherwise dark. Warm off-white paper palette with restrained colour.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -373,6 +399,14 @@ Shot type: Character portrait
 Depicts: Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.
 Spoiler check: PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.
 
+Hard constraints: The suit is DULL GREY and ill-fitting. Not purple, not lavender,
+not blue. BOTH lenses of the 3D glasses are RED; neither is blue or cyan. The grin is
+tightened and strained at the corners, not a full open salesman's grin.
+
+**Regenerating.** The first pass came back in a lavender suit with one blue lens and
+a wide untroubled grin. The suit colour and the red lenses are permanent signature
+features that recur across three more volumes, so drift there compounds.
+
 Prompt:
 
 ```
@@ -380,10 +414,10 @@ Prompt:
 {{CHAR:MAYOR_DALTON}}
 {{WARDROBE:MAYOR_A}}
 {{LOC:TOWN_HALL_SQUARE}}
-Standing behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.
+Standing behind a plain podium mid-sentence in a dull grey suit that does not fit him, pulling at the button and short in the sleeve. The suit is grey, not purple and not blue. Both lenses of his 3D glasses are the same red. His mouth is held in a grin that has gone tight and strained at the corners, not a wide open one, and there is a single bead of sweat at his temple. Eyes searching off to one side behind the lenses. Podium bare, no signage or lettering.
 Exterior, late morning.
 Close shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.
-Hard overhead sun, specular glare across his red lenses.
+Hard overhead sun, specular glare across both red lenses.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```

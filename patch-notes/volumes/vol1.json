@@ -19,6 +19,7 @@
         "shotType": "Establishing (full bleed, both pages)",
         "depicts": "Millbrook itself, before anyone is awake. No story beat.",
         "spoilerCheck": "PASS. Chapter opener precedes all prose. Deliberately does not show Main Street or the repaired asphalt, which is the reveal on text page 2.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:MILLBROOK_WIDE}}\nEmpty residential streets seen from a slight elevation, water tower on the horizon, no figures anywhere.\nEarly morning before sunrise, blue hour.\nWide establishing shot, high vantage, deep focus.\nFlat pre-dawn light, streetlights still burning, one lit kitchen window.\n{{NEGATIVE}}\nAspect ratio: 2:1",
         "aspect": "2:1",
         "alt": "A small town of low houses seen from above before sunrise, streetlights still on, a water tower in the distance."
@@ -90,6 +91,7 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Lena arriving at the house on Crescent, bag in hand.",
         "spoilerCheck": "PASS. Final beat of this page is Lena hitting record and naming the pothole. Not depicted; no phone raised, no filming.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_A}}\n{{LOC:CRESCENT_HOUSE_EXT}}\nStanding at the foot of the porch steps with a duffel bag at her feet, one hand on the railing, looking up at the house rather than at the camera.\nExterior, mid afternoon.\nMedium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.\nWarm late afternoon sun from the left, hard-edged shadows on the siding.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A teenage girl with a duffel bag at her feet stands at the bottom of a porch's steps, looking up at a yellow house."
@@ -157,6 +159,7 @@
         "shotType": "Action moment",
         "depicts": "Beat 3 of this page. Vex walking away with the stolen dashcam, three steps out and not running.",
         "spoilerCheck": "PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:MAIN_STREET}}\nWalking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.\nExterior sidewalk, late morning.\nMedium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.\nFlat overcast daylight, no strong shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A short girl with mint-green hair in two buns walks away along a sidewalk holding a small camera, glancing back over her shoulder."
@@ -240,7 +243,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Owen at his desk after thirty-one hours awake.",
         "spoilerCheck": "PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.",
-        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nSeated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.\nInterior, roughly three in the morning.\nClose shot, camera slightly below eye level, monitors framing him on both sides.\nCold monitor light as the only source, uplighting his face, everything behind him falling to black.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "Owen has NO EYEBROWS AT ALL — not faint, not thin, none, the brow is bare skin. Every screen is pure cold glow with NO legible interface: no windows, no panels, no charts, no readable content of any kind. The monitor glow is the ONLY light source in the frame and everything behind him falls to black; the room is not otherwise lit.",
+        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nSeated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his brow is bare skin with no eyebrows on it at all. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.\nInterior, roughly three in the morning.\nClose shot, camera slightly below eye level, monitors framing him on both sides.\nCold monitor light as the single and only source in the frame, uplighting his face from below, the room behind him unlit and falling completely to black.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A bald young man sits in a desk chair between three glowing monitors in an otherwise dark room."
       }
@@ -327,7 +331,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.",
         "spoilerCheck": "PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.",
-        "prompt": "{{STYLE}}\n{{CHAR:MONKE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nPerched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.\nInterior, early morning, no daylight.\nClose shot from the side, camera at monitor height, shallow depth on the finger and the glass.\nScreen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "Monke is a SILHOUETTE, not a character portrait. He is seen from behind and side-on, backlit by the screen, and his face is turned away from the camera and lost in shadow. NO eye detail, NO facial expression, NO readable features. If his face is legible the image is wrong. Palette stays warm off-white paper with subdued colour; this is not a purple image.",
+        "prompt": "{{STYLE}}\n{{CHAR:MONKE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA small monkey perched on top of the middle monitor, seen from behind and slightly to the side, leaning down so one small finger touches the front of the screen. He is rendered as a dark silhouette against the screen glow. His head is turned away from the camera and his face is entirely lost in shadow: no eyes, no expression, no legible features whatsoever. Only the outline of the head, the curve of the spine, the long tail and the reaching arm are readable. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.\nInterior, early morning, no daylight.\nClose shot from behind and to the side, camera at monitor height, shallow depth on the finger and the glass.\nScreen glow from in front of him and below, throwing him into near-total shadow with a strong rim light along his back and tail, room otherwise dark. Warm off-white paper palette with restrained colour.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A small monkey perched on top of a computer monitor reaches down and touches one finger to the screen."
       }
@@ -398,7 +403,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.",
         "spoilerCheck": "PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.",
-        "prompt": "{{STYLE}}\n{{CHAR:MAYOR_DALTON}}\n{{WARDROBE:MAYOR_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.\nExterior, late morning.\nClose shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.\nHard overhead sun, specular glare across his red lenses.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "The suit is DULL GREY and ill-fitting. Not purple, not lavender, not blue. BOTH lenses of the 3D glasses are RED; neither is blue or cyan. The grin is tightened and strained at the corners, not a full open salesman's grin.",
+        "prompt": "{{STYLE}}\n{{CHAR:MAYOR_DALTON}}\n{{WARDROBE:MAYOR_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding behind a plain podium mid-sentence in a dull grey suit that does not fit him, pulling at the button and short in the sleeve. The suit is grey, not purple and not blue. Both lenses of his 3D glasses are the same red. His mouth is held in a grin that has gone tight and strained at the corners, not a wide open one, and there is a single bead of sweat at his temple. Eyes searching off to one side behind the lenses. Podium bare, no signage or lettering.\nExterior, late morning.\nClose shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.\nHard overhead sun, specular glare across both red lenses.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A heavyset man in an ill-fitting suit and red glasses stands behind a podium, grinning stiffly, sweating at one temple."
       }
@@ -497,6 +503,7 @@
         "shotType": "Character portrait or close (group three-shot)",
         "depicts": "Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.",
         "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:THE_PARK}}\nThree eighteen year old boys arranged loosely on and around a slatted wooden bench, relaxed and unposed, none of them arranged for the camera. Milo stands at the near end with one forearm resting along the top rail of the bench back, weight on one leg, head turned to watch the fountain. Owen sits at the far end, slumped low with his knees apart, looking down at an oversized phone held in both hands. Felix sits in the middle, leaning forward with his elbows on his knees, mid-bite on a comically oversized sandwich, cheeks full, a small green gecko on his shoulder. All three faces are clearly visible and unobscured. No fourth figure. Nothing is being handed to them and no photograph or screen is being shown to them.\nExterior, midday, in the park.\nMedium-wide three-shot from the far side of the bench, camera at seated eye level and square on so every face reads, the stone fountain running directly behind the bench and the park beyond it, moderate depth so the fountain stays legible while the three faces hold focus.\nHigh midday sun from the front left, faces in clear even light with no face in shadow, the fountain's water catching bright specular highlights behind their heads.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "Three teenage boys on a park bench with a fountain running behind them, one standing and leaning on the bench back, one on his phone, one eating an oversized sandwich."
@@ -588,6 +595,7 @@
         "shotType": "Object or detail",
         "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
         "spoilerCheck": "PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot."
@@ -703,6 +711,7 @@
         "shotType": "Character portrait or close (two-shot)",
         "depicts": "Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.",
         "spoilerCheck": "PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.",
+        "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:VEX_APARTMENT}}\nTwo girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.\nInterior, late evening.\nMedium two-shot from low down at stool height, angled so Pip's lifted face and Vex's turned face both read, moderate depth so the crowded room stays legible behind them.\nOne bare bulb hanging above and slightly behind Pip, cold spill from the laptop screen low on the left, the corners of the room falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her."

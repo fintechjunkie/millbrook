@@ -101,11 +101,20 @@ function between(text, startRe, endRe) {
 function parseImageBlock(chunk) {
   const prompt = fence(chunk);
   const ar = prompt && prompt.match(/^Aspect ratio:[ \t]*(.+)$/m);
+
+  // "Hard constraints:" may wrap over several lines and runs until a blank line.
+  // These are the requirements a generation has actually violated in practice.
+  // They are hoisted to the head of the assembled prompt rather than left in the
+  // negative block at the foot, because a model weights the opening of a prompt
+  // far more heavily and the foot is where these were being ignored.
+  const hc = chunk.match(/^Hard constraints:[ \t]*([\s\S]*?)(?=\n\s*\n)/m);
+
   return {
     slug: field(chunk, 'Slug'),
     shotType: field(chunk, 'Shot type'),
     depicts: field(chunk, 'Depicts'),
     spoilerCheck: field(chunk, 'Spoiler check'),
+    hardConstraints: hc ? hc[1].replace(/\s*\n\s*/g, ' ').trim() : null,
     prompt,
     aspect: ar ? ar[1].trim() : null,
     alt: field(chunk, 'Alt text'),
