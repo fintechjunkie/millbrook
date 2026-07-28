@@ -173,12 +173,12 @@ Each immutable block is one paragraph, pasted verbatim into every prompt in whic
 None of the entries are approved yet. Approval means a canonical portrait has been generated from the style block plus the immutable block alone, iterated until right, and its prompt string, seed and filename recorded. That is a blocking step under Part D4.
 
 ### {{CHAR:LENA}}
-**Immutable:** An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
+**Immutable:** An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair in **two large, uneven side ponytails**, layered and spiky with loose wisps standing up at the crown; the twin ponytails are her dominant silhouette and must never be merged into one. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 **Canonical reference:** `char-lena-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
 ### {{CHAR:MILO}}
-**Immutable:** An eighteen year old boy, tall and lean, fair skin of ordinary healthy tone, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.
+**Immutable:** An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 **Canonical reference:** `char-milo-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** Because the eyes are unavailable, everything expressive has to be carried by mouth, shoulders and the angle of the head. Prompts for him should always specify posture.
 **Amended 2026-07-28: the green tinge is removed.** It said *skin carrying a distinct
@@ -213,13 +213,42 @@ remove the two mint hair buns"* — which is the same decision 1.1 reached, arri
 independently.
 
 ### {{CHAR:PIP}}
-**Immutable:** A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
+**Immutable:** A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a red bandana tied behind the head with a pair of small round aviator goggles resting on top. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 **Canonical reference:** `char-pip-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
+**Mechanical visibility rule, from the lock file, and it modifies the note above.** Pip's
+seams are *not* subtle background detail and must be readable at ordinary illustration
+scale. Never cover every seam with clothing: show construction at the jaw and neck **plus
+at least two limb joints**, and in full-body images show arm and leg articulation wherever
+the pose allows. The rendering note above says the tell is stillness rather than hardware,
+and that stays true of her *acting* — but it must not be read as licence to hide the
+hardware. Both are required.
+
+The bandana and goggles are recurring anchors and should appear in most images. They may be
+omitted only where a scene calls for it, and she must still read through face, hair, purple
+lips, port, seams and posture.
 
 ### {{CHAR:OWEN}}
-**Immutable:** An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.
-**Canonical reference:** `char-owen-canonical.png` · Seed: pending · Approved: no
+**Immutable:** An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
+**Canonical reference:** `char-owen-canonical.png` · Seed: pending · Approved: yes, by the lineup
+**Corrected 2026-07-28, and this one was my error rather than the spec's.** The block said
+*a fully bald head with no eyebrows whatsoever*. Both `MILLBROOK_MAIN_CHARACTER_LOCKS.md`
+and `char-owen-canonical.png` give him **strong dark brows**, clearly and unambiguously.
+
+I made it worse before I found the lock. Volume 1 spread 3's first generation had eyebrows
+and was *correct*; I read it as drift against the roster, wrote `NO EYEBROWS AT ALL` into
+its hard constraints, and had it regenerated to remove them. So three delivered plates now
+disagree with canon on his face because of a constraint I added: `vol1-s03`, `vol1-s06` and
+`vol2-s05`. `vol2-s04` is unaffected, his back is turned.
+
+Also corrected: the outfit is not a *white high-collared jumpsuit zipped up the front*. The
+canonical is a **two-piece** cream technical jacket with a high collar and a small red
+throat closure, worn over a **charcoal undershirt**, with matching trousers, a belt, a
+cargo pocket with a red carabiner, and dark boots. Moved to the wardrobe entry.
+
+The lock adds a warning worth keeping: *"Owen is human. His pale outfit must remain smooth,
+clean, and fabric-based so he never reads as Pip. Pip is segmented and mechanical; Owen is
+minimal and clinical."*
 
 ### {{CHAR:FELIX}}
 **Immutable:** An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
@@ -373,7 +402,7 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:MILO_A}}` | Signature: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes | all |
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
-| `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
+| `{{WARDROBE:OWEN_A}}` | Signature: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented. Unchanged in all four volumes | all |
 | `{{WARDROBE:FELIX_A}}` | Signature: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock. Unchanged in all four volumes | all |
 | `{{WARDROBE:CAROL_A}}` | Signature: dark teal button-up shirt with brass buttons and the sleeves rolled to the forearm, worn over a rust-red knit high-neck layer that shows at the throat and at the cuffs. High-waisted charcoal wide-leg cropped trousers with turn-ups, a brown leather belt with a large square brass buckle, rust-red socks and dark ankle boots with a low heel. A rust-red leather satchel on a long strap worn diagonally across the body from the right shoulder. Unchanged in all four volumes | all |
 | `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |

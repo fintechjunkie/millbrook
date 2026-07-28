@@ -38,6 +38,75 @@ in a face is visible as a run. The spread number is on every entry.
 
 ---
 
+## LENA
+
+Canonical reference: `char-lena-canonical.png` · approved: no
+
+**Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
+
+### [ ] vol3-s06 — spread 6
+
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 1. Mr. Henderson on the porch swing holding his own steady hands up in front of him, Lena beside him on the swing.
+Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to come and ask him for something. Not depicted; he is looking at his hands, not at her, and nothing in the frame anticipates that line.
+Named figures: Lena, Mr. Henderson (2 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-lena-canonical.png` — Lena
+- `char-henderson-canonical.png` — Mr. Henderson
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Mr Henderson has STRONG WHITE SHELF-LIKE EYEBROWS and untidy white hair swept up, not combed flat.
+- He wears the BRAND NEW WHITE RUNNING SHOES and one still carries a price tag on the tongue, because this is after Carter's.
+- His wristwatch is on.
+- Lena's orange hair is in TWO large uneven side ponytails, never merged into one, and her oval pendant is visible at the centre of her chest.
+CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair in **two large, uneven side ponytails**, layered and spiky with loose wisps standing up at the crown; the twin ponytails are her dominant silhouette and must never be merged into one. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+Wardrobe, unchanged for this scene: Same orange collared shirt, worn buttoned, satchel strap present
+CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
+Wardrobe, unchanged for this scene: The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains.
+An old man and a teenage girl sitting together on a two-seat wooden porch swing, turned slightly toward each other but neither looking at the other. The old man has both hands raised in front of his own chest, palms up and fingers spread, studying them with an expression of plain puzzled wonder rather than joy; the hands are completely steady. His brand new white running shoes are planted on the boards and a small price tag still hangs from one tongue. The girl sits at the other end of the swing with her body angled toward him, hands in her lap, watching his hands rather than his face, her expression careful and attentive. Exactly two figures in frame.
+Exterior, mid afternoon.
+Medium two-shot from the porch steps, camera at seated height so both faces and his raised hands read clearly, shallow depth so the clapboard behind goes soft.
+Bright dappled afternoon light through leaves off frame, moving shadow patterns across the boards and across both of them.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol3-s06.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: An elderly man on a porch swing holds his steady hands up in front of him and studies them, while a teenage girl beside him watches his hands.
+
+---
+
 ## VEX
 
 Canonical reference: `char-vex-canonical.png` · approved: yes
@@ -95,6 +164,68 @@ Alt text, already written, do not regenerate: A short girl with mint-green hair 
 
 ---
 
+### [ ] vol3-s07 — spread 7
+
+Shot type: Atmospheric or empty
+Depicts: Beat 1. Vex sitting awake on the floor beside the couch where Cassie is sleeping under a blanket, long after everyone else has gone down.
+Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is absent from the frame entirely and the dark back wall she is standing at is out of shot.
+Named figures: Vex, Cassie (2 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-vex-canonical.png` — Vex
+- `char-cassie-canonical.png` — Cassie
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Cassie's hearing aid is behind her LEFT ear and must remain visible even asleep.
+- Vex's mint-green hair is in TWO high buns.
+- Keep the two figures small in a wide dark frame; this is an atmospheric image with people in it, not a portrait, and no face needs to be readable in close detail.
+CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair in two messy high buns held with a small red tie, with loose pointed strands escaping around the buns and the face; the two buns are her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
+Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
+CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
+Wardrobe, unchanged for this scene: Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+A wide dark converted warehouse interior long after midnight. On a sagging couch in the middle distance a small fifteen year old girl is asleep on her side under a blanket pulled up to her shoulder, her face turned toward the room, the small hearing aid behind her left ear still visible. On the bare concrete floor beside the couch, another girl sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back against the cushion, plainly not sleeping and plainly not going to. Both figures are small within a wide frame and neither face needs to read in fine detail. Further off, other sleeping shapes on couches and one slumped at a workbench, all turned away or covered so no other face is legible. High on a shelf at the top of frame, a small animal silhouette, unresolved. Exactly two named figures.
+Interior, well after midnight.
+Wide shot from the far end of the room, slightly high vantage, deep focus, the two girls small and low in the frame.
+One warm work lamp burning at a distant bench as the only real source, monitors as cold points further off, most of the frame in near darkness with just enough spill to find the pair by.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol3-s07.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A wide dark warehouse after midnight, a girl asleep under a blanket on a couch and another sitting awake on the floor beside her.
+
+---
+
 ## PIP
 
 Canonical reference: `char-pip-canonical.png` · approved: no
@@ -137,7 +268,7 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
+A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a red bandana tied behind the head with a pair of small round aviator goggles resting on top. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
 CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
@@ -369,102 +500,6 @@ Aspect ratio: 3:2
 Save as: **`vol3-s04.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: An abandoned school behind a chain link fence with boarded windows and a swing set stripped of its swings.
-
----
-
-### [ ] vol3-s06 — spread 6
-
-Shot type: Atmospheric or empty
-Depicts: The porch itself, empty, before or after the conversation. Setting only.
-Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to come and ask him for something. Not depicted; no figures at all, and the image gives away nothing that is said.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains.
-An empty porch swing hanging on two chains, still moving very slightly, worn painted floorboards, green shutters and white clapboard behind it, a screen door shut. No figures present.
-Exterior, mid afternoon.
-Medium shot from the porch steps, camera at seat height, shallow depth on the near chain.
-Bright dappled afternoon light through leaves off frame, moving shadow patterns on the boards.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol3-s06.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: An empty porch swing hanging still on its chains in front of white clapboard and green shutters.
-
----
-
-### [ ] vol3-s07 — spread 7
-
-Shot type: Establishing or location
-Depicts: Beat 1. The warehouse after midnight with everyone asleep where they landed.
-Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is not in frame and the back wall is out of shot.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
-A wide dark interior after midnight, sleeping figures scattered across couches and one slumped at a workbench, all of them distant, turned away, or covered so that no face is legible. One work lamp burning at a bench. High on a shelf at the top of frame, a small animal silhouette, unresolved.
-Interior, well after midnight.
-Wide establishing shot from the far end of the room, high vantage, deep focus.
-One warm work lamp as the only source, monitors as distant cold points, most of the frame in near darkness.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol3-s07.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A wide dark warehouse interior after midnight with sleeping figures on couches and a single work lamp burning.
 
 ---
 

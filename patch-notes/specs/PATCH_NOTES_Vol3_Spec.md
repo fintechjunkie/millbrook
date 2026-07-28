@@ -9,9 +9,31 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 3 | Object 1 | Action 1 | Atmospheric 2
+Establishing 2 | Character portrait 4 | Object 1 | Action 1 | Atmospheric 1
 
-No three consecutive spreads share a shot type. Verified.
+Sequence: establishing, portrait, portrait, action, establishing, portrait, portrait,
+atmospheric, object. The adjacent pairs are 1 with 2 and 5 with 6, both pairs, and the rule
+forbids three. Verified.
+
+**Two images reframed character-forward, on the same instruction as Volume 2.** Volume 3 had
+Mr Henderson appearing in one image across the whole arc while carrying the volume's title
+and its central moral question, and it spent its late-night image on anonymous sleeping
+shapes when the prose had Vex sitting awake beside Cassie.
+
+| Spread | Was | Now |
+|---|---|---|
+| 6 | The porch swing, empty | Henderson holding his steady hands up, Lena beside him |
+| 7 | Sleeping shapes, nobody named | Vex awake on the floor beside sleeping Cassie |
+
+Spread 7 stays logged **atmospheric** rather than promoted to a portrait, deliberately: the
+figures are small in a wide dark frame, so the volume keeps its quiet late-night image and
+the mix keeps an atmospheric slot. Object stays at 1 because spread 8 is Pip's hands holding
+the granola bar, which is a character image that cannot drift.
+
+**Left empty on purpose.** Spread 4 is the old elementary school behind its fence, and it
+must stay unpeopled: nobody goes there in this volume, it is the thing at the centre of the
+arc that has not been approached yet, and putting a figure at that fence would promise a
+scene the book does not deliver until later.
 
 ---
 
@@ -412,24 +434,40 @@ He paused. The swing creaked.
 ### Image page (right)
 
 Slug: vol3-s06
-Shot type: Atmospheric or empty
-Depicts: The porch itself, empty, before or after the conversation. Setting only.
-Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to come and ask him for something. Not depicted; no figures at all, and the image gives away nothing that is said.
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 1. Mr. Henderson on the porch swing holding his own steady hands up in front of him, Lena beside him on the swing.
+Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to come and ask him for something. Not depicted; he is looking at his hands, not at her, and nothing in the frame anticipates that line.
+
+Hard constraints: Mr Henderson has STRONG WHITE SHELF-LIKE EYEBROWS and untidy white hair
+swept up, not combed flat. He wears the BRAND NEW WHITE RUNNING SHOES and one still carries
+a price tag on the tongue, because this is after Carter's. His wristwatch is on. Lena's
+orange hair is in TWO large uneven side ponytails, never merged into one, and her oval
+pendant is visible at the centre of her chest.
+
+**Reframed to be character-forward.** It was the porch swing empty, before or after the
+conversation. But this page is the emotional centre of the volume — an eighty-one year old
+man being asked whether he consented to being fixed — and Mr Henderson had exactly one
+image in the whole arc before this. The beat chosen is him holding up his own hands to show
+that the nine-year tremor has stopped, which is the moment the scene turns.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_C}}
+{{CHAR:MR_HENDERSON}}
+{{WARDROBE:HENDERSON_B}}
 {{LOC:HENDERSON_PORCH}}
-An empty porch swing hanging on two chains, still moving very slightly, worn painted floorboards, green shutters and white clapboard behind it, a screen door shut. No figures present.
+An old man and a teenage girl sitting together on a two-seat wooden porch swing, turned slightly toward each other but neither looking at the other. The old man has both hands raised in front of his own chest, palms up and fingers spread, studying them with an expression of plain puzzled wonder rather than joy; the hands are completely steady. His brand new white running shoes are planted on the boards and a small price tag still hangs from one tongue. The girl sits at the other end of the swing with her body angled toward him, hands in her lap, watching his hands rather than his face, her expression careful and attentive. Exactly two figures in frame.
 Exterior, mid afternoon.
-Medium shot from the porch steps, camera at seat height, shallow depth on the near chain.
-Bright dappled afternoon light through leaves off frame, moving shadow patterns on the boards.
+Medium two-shot from the porch steps, camera at seated height so both faces and his raised hands read clearly, shallow depth so the clapboard behind goes soft.
+Bright dappled afternoon light through leaves off frame, moving shadow patterns across the boards and across both of them.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: An empty porch swing hanging still on its chains in front of white clapboard and green shutters.
+Alt text: An elderly man on a porch swing holds his steady hands up in front of him and studies them, while a teenage girl beside him watches his hands.
 
 ---
 
@@ -466,24 +504,43 @@ Another pause. Another hum.
 ### Image page (right)
 
 Slug: vol3-s07
-Shot type: Establishing or location
-Depicts: Beat 1. The warehouse after midnight with everyone asleep where they landed.
-Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is not in frame and the back wall is out of shot.
+Shot type: Atmospheric or empty
+Depicts: Beat 1. Vex sitting awake on the floor beside the couch where Cassie is sleeping under a blanket, long after everyone else has gone down.
+Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is absent from the frame entirely and the dark back wall she is standing at is out of shot.
+
+Hard constraints: Cassie's hearing aid is behind her LEFT ear and must remain visible even
+asleep. Vex's mint-green hair is in TWO high buns. Keep the two figures small in a wide dark
+frame; this is an atmospheric image with people in it, not a portrait, and no face needs to
+be readable in close detail.
+
+**Reframed to be character-forward, without losing the quiet.** It was the room after
+midnight with anonymous sleeping shapes. The prose gives something far better in the same
+beat: *"Vex put a blanket on Cassie and sat on the floor next to the couch, awake, for a
+long time."* That is the whole of what Vex is, in one sentence, and it was being spent on an
+empty-room shot.
+
+Kept as **atmospheric** rather than promoted to a portrait: the figures stay small in a wide
+dark frame, so the volume keeps its quiet late-night image and the shot mix keeps its
+atmospheric slot. Two named figures, inside the ceiling.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:CASSIE}}
+{{WARDROBE:CASSIE_A}}
 {{LOC:WAREHOUSE_PIT}}
-A wide dark interior after midnight, sleeping figures scattered across couches and one slumped at a workbench, all of them distant, turned away, or covered so that no face is legible. One work lamp burning at a bench. High on a shelf at the top of frame, a small animal silhouette, unresolved.
+A wide dark converted warehouse interior long after midnight. On a sagging couch in the middle distance a small fifteen year old girl is asleep on her side under a blanket pulled up to her shoulder, her face turned toward the room, the small hearing aid behind her left ear still visible. On the bare concrete floor beside the couch, another girl sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back against the cushion, plainly not sleeping and plainly not going to. Both figures are small within a wide frame and neither face needs to read in fine detail. Further off, other sleeping shapes on couches and one slumped at a workbench, all turned away or covered so no other face is legible. High on a shelf at the top of frame, a small animal silhouette, unresolved. Exactly two named figures.
 Interior, well after midnight.
-Wide establishing shot from the far end of the room, high vantage, deep focus.
-One warm work lamp as the only source, monitors as distant cold points, most of the frame in near darkness.
+Wide shot from the far end of the room, slightly high vantage, deep focus, the two girls small and low in the frame.
+One warm work lamp burning at a distant bench as the only real source, monitors as cold points further off, most of the frame in near darkness with just enough spill to find the pair by.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A wide dark warehouse interior after midnight with sleeping figures on couches and a single work lamp burning.
+Alt text: A wide dark warehouse after midnight, a girl asleep under a blanket on a couch and another sitting awake on the floor beside her.
 
 ---
 
