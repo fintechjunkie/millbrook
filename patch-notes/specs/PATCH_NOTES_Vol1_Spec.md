@@ -9,9 +9,19 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 3 | Object 1 | Action 2 | Atmospheric 1
+Establishing 1 | Character portrait 4 | Object 1 | Action 2 | Atmospheric 1
 
-No three consecutive spreads share a shot type. Verified.
+No three consecutive spreads share a shot type. Verified: the only adjacency is
+spreads 5 and 6, both portraits, and the rule forbids three.
+
+**Amended when spread 6 was reframed.** It was an establishing shot of the park
+with the three boys unreadable at distance; it is now a group portrait. That
+moves the whole-set mix to Establishing 7 of 37, or 18.9 percent, just under the
+20 to 25 percent band, and Portrait to 12, or 32.4 percent, just over its 25 to
+30 band. Neither is recovered here. The cleanest fix is to give the new spread
+created by the Volume 1 re-chunk an establishing shot rather than the atmospheric
+one proposed, which returns Establishing to 8 of 38. Recorded rather than
+silently absorbed.
 
 ---
 
@@ -403,24 +413,44 @@ Milo looked at it. The bald guy looked at it. The short guy stopped chewing.
 ### Image page (right)
 
 Slug: vol1-s06
-Shot type: Establishing or location
-Depicts: Beat 1. The fountain in the park with the three of them on the bench, seen from Lena's distance.
-Spoiler check: PASS. Final beat is Felix stopping mid-chew when he sees the photo. Not depicted; no faces legible at this distance.
+Shot type: Character portrait or close (group three-shot)
+Depicts: Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.
+Spoiler check: PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.
+
+**Deviation, deliberate: three named characters.** Part C4 sets a hard ceiling of
+two, on the grounds that three will fail at consistency no matter how the prompt
+is written. Overridden here on the author's instruction, and the mitigation is
+that all three canonical references are attached, which is the mechanism C4's
+ceiling was written without. This is the introduction image for Milo and Felix,
+neither of whom otherwise gets a face until Volume 2, so the picture is carrying
+real work. If it drifts, the fallback is the original wide silhouette framing.
+
+**Reframed from the original.** It was a wide establishing shot from across the
+lawn with the three deliberately unreadable as silhouettes. That protected the
+spoiler by distance, but it meant Volume 1 never showed two of its five leads.
+The camera has crossed to the far side of the bench so the fountain sits behind
+them and the light is on their faces.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:MILO}}
+{{WARDROBE:MILO_A}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
+{{CHAR:FELIX}}
+{{WARDROBE:FELIX_A}}
 {{LOC:THE_PARK}}
-A stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.
-Exterior, midday.
-Wide establishing shot from across the lawn, deep focus, figures small in frame.
-Backlit from behind the bench, water throwing highlights, long grass shadows in the foreground.
+Three eighteen year old boys arranged loosely on and around a slatted wooden bench, relaxed and unposed, none of them arranged for the camera. Milo stands at the near end with one forearm resting along the top rail of the bench back, weight on one leg, head turned to watch the fountain. Owen sits at the far end, slumped low with his knees apart, looking down at an oversized phone held in both hands. Felix sits in the middle, leaning forward with his elbows on his knees, mid-bite on a comically oversized sandwich, cheeks full, a small green gecko on his shoulder. All three faces are clearly visible and unobscured. No fourth figure. Nothing is being handed to them and no photograph or screen is being shown to them.
+Exterior, midday, in the park.
+Medium-wide three-shot from the far side of the bench, camera at seated eye level and square on so every face reads, the stone fountain running directly behind the bench and the park beyond it, moderate depth so the fountain stays legible while the three faces hold focus.
+High midday sun from the front left, faces in clear even light with no face in shadow, the fountain's water catching bright specular highlights behind their heads.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit.
+Alt text: Three teenage boys on a park bench with a fountain running behind them, one standing and leaning on the bench back, one on his phone, one eating an oversized sandwich.
 
 ---
 

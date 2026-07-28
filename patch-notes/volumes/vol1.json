@@ -494,12 +494,12 @@
       "note": null,
       "image": {
         "slug": "vol1-s06",
-        "shotType": "Establishing or location",
-        "depicts": "Beat 1. The fountain in the park with the three of them on the bench, seen from Lena's distance.",
-        "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when he sees the photo. Not depicted; no faces legible at this distance.",
-        "prompt": "{{STYLE}}\n{{LOC:THE_PARK}}\nA stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.\nExterior, midday.\nWide establishing shot from across the lawn, deep focus, figures small in frame.\nBacklit from behind the bench, water throwing highlights, long grass shadows in the foreground.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "shotType": "Character portrait or close (group three-shot)",
+        "depicts": "Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.",
+        "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.",
+        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:THE_PARK}}\nThree eighteen year old boys arranged loosely on and around a slatted wooden bench, relaxed and unposed, none of them arranged for the camera. Milo stands at the near end with one forearm resting along the top rail of the bench back, weight on one leg, head turned to watch the fountain. Owen sits at the far end, slumped low with his knees apart, looking down at an oversized phone held in both hands. Felix sits in the middle, leaning forward with his elbows on his knees, mid-bite on a comically oversized sandwich, cheeks full, a small green gecko on his shoulder. All three faces are clearly visible and unobscured. No fourth figure. Nothing is being handed to them and no photograph or screen is being shown to them.\nExterior, midday, in the park.\nMedium-wide three-shot from the far side of the bench, camera at seated eye level and square on so every face reads, the stone fountain running directly behind the bench and the park beyond it, moderate depth so the fountain stays legible while the three faces hold focus.\nHigh midday sun from the front left, faces in clear even light with no face in shadow, the fountain's water catching bright specular highlights behind their heads.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit."
+        "alt": "Three teenage boys on a park bench with a fountain running behind them, one standing and leaning on the bench back, one on his phone, one eating an oversized sandwich."
       }
     },
     {
