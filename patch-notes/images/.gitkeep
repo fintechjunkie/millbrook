@@ -1,0 +1,12 @@
+# Flat image directory. Filenames are slugs, exactly as stated in the specs.
+#
+#   vol1-opener.png   vol1-s01.png ... vol1-s08.png
+#   vol2-opener.png   vol2-s01.png ... vol2-s08.png
+#   vol3-opener.png   vol3-s01.png ... vol3-s08.png
+#   vol4-opener.png   vol4-s01.png ... vol4-s09.png
+#
+#   char-lena-canonical.png, char-milo-canonical.png, ... (13 characters)
+#   loc-residential.png, loc-square.png, ...             (8 locations)
+#
+# No subdirectories. No renaming. A missing file renders as a labelled
+# placeholder in the reader, which is intended behaviour during production.

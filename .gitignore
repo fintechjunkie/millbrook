@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.cache/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Scratch — work-in-progress generations that are not yet approved.
+# Approved images belong in patch-notes/images/ and ARE committed.
+scratch/
+*-wip.png
+*-reject.png
