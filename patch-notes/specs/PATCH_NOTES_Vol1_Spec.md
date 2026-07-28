@@ -413,28 +413,27 @@ Shot type: Character portrait
 Depicts: Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.
 Spoiler check: PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.
 
-Hard constraints: The suit is DULL GREY and ill-fitting. Not purple, not lavender,
-not blue. BOTH lenses of the 3D glasses are RED; neither is blue or cyan. The grin is
-tightened and strained at the corners, not a full open salesman's grin.
+Hard constraints: The suit is MUTED DUSTY PURPLE and ill-fitting. The 3D glasses have
+a RED FRAME with two DIFFERENT lenses: his right lens red, his left lens CYAN. The tie
+is dark red with cream polka dots and there is a red pocket square. His crown is BALD
+with dark brown hair in untidy tufts at the temples only.
 
-**DELIVERED IMAGE ACCEPTED, author decision.** Flagged for regeneration and
-overruled. The delivered plate has a lavender suit, one blue lens and a wide open
-grin rather than a tightened one.
+**DELIVERED IMAGE ACCEPTED, and the roster has been amended to match it.** The plate
+was flagged for regeneration and the author kept it, so the roster now follows the
+image rather than the reverse. He appears in Volumes 1, 3 and 4, so this had to be
+settled before the next Mayor plate or they would have contradicted each other.
 
-**Two roster values are therefore now wrong and need amending, because they recur.**
-The Mayor is in Volumes 1, 3 and 4, so whatever this plate establishes has to hold
-for the rest of the arc:
+Amended in the roster: the suit is muted dusty purple rather than grey, the glasses
+are real anaglyph with one red and one cyan lens rather than two red, the crown is
+bald with tufts at the temples rather than sandy hair combed across, the tie is dark
+red with cream polka dots, and there is a red pocket square. The glasses also moved
+out of the wardrobe entries into the immutable block, where a permanent feature
+belongs.
 
-- `{{WARDROBE:MAYOR_A}}` says *ill-fitting grey suit*. The delivered suit is
-  lavender. If the lavender is the intent, the wardrobe entry should say so, or
-  Volume 3 and 4's Mayor images will contradict this one.
-- The immutable block says *red-lensed 3D glasses*. The delivered pair is red and
-  cyan, which is what real anaglyph glasses are. Worth settling as red-and-cyan in
-  the roster if that reads better.
-
-Neither amendment is made here: the roster is the single source of truth and
-changing an immutable block is an author decision. Flagged so the next Mayor image
-does not drift away from this one.
+This prompt is rewritten to describe the plate that exists, so a future regeneration
+reproduces it instead of fighting it. The `Depicts` line still says the grin is
+tightening, which the prose supports and the delivered plate does not: the delivered
+grin is wide and open. Left as delivered rather than chased.
 
 Prompt:
 
@@ -443,10 +442,10 @@ Prompt:
 {{CHAR:MAYOR_DALTON}}
 {{WARDROBE:MAYOR_A}}
 {{LOC:TOWN_HALL_SQUARE}}
-Standing behind a plain podium mid-sentence in a dull grey suit that does not fit him, pulling at the button and short in the sleeve. The suit is grey, not purple and not blue. Both lenses of his 3D glasses are the same red. His mouth is held in a grin that has gone tight and strained at the corners, not a wide open one, and there is a single bead of sweat at his temple. Eyes searching off to one side behind the lenses. Podium bare, no signage or lettering.
+Standing behind a plain podium mid-sentence, both hands on the podium edge, grinning broadly with his teeth showing, a bead of sweat running from his temple. Eyes hidden behind the mismatched lenses. Podium bare, no signage or lettering, two microphones on short stands in front of him.
 Exterior, late morning.
-Close shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.
-Hard overhead sun, specular glare across both red lenses.
+Close shot from slightly below, straight on, very shallow depth so the small crowd behind reads only as soft shapes and the municipal building behind them goes soft.
+Hard overhead sun, specular glare across the red and the cyan lens.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```

@@ -91,7 +91,7 @@
     },
     "MAYOR_DALTON": {
       "token": "MAYOR_DALTON",
-      "immutable": "A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.",
+      "immutable": "A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.",
       "immutableInactive": null,
       "canonicalRef": "char-dalton-canonical.png",
       "seed": "pending",
@@ -193,12 +193,12 @@
     },
     "MAYOR_A": {
       "token": "MAYOR_A",
-      "value": "Ill-fitting grey suit, red 3D glasses, a tired patterned tie",
+      "value": "Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket",
       "storyTime": "Vols 1 to 3"
     },
     "MAYOR_B": {
       "token": "MAYOR_B",
-      "value": "The same ill-fitting grey suit and red 3D glasses, but a conspicuously **new** tie, stiff and bright and still holding its fold creases",
+      "value": "The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one",
       "storyTime": "Vol 4 only"
     },
     "CRANE_A": {

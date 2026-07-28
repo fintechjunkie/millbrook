@@ -528,7 +528,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.
+A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.

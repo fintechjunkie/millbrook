@@ -69,7 +69,7 @@ CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.p
 A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
 SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 Standing upright in the middle of a cluttered room mid-sentence, one arm out and pointing hard off frame to the left, jaw set, entirely unembarrassed. She is the only figure in frame.
 Interior, late afternoon.
 Medium shot, camera slightly below eye level so she reads taller than she is, moderate depth.
@@ -133,7 +133,7 @@ CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canon
 A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
 Wardrobe, unchanged for this scene: Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket
 SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 One girl kneeling on the floor in front of another who is seated, reaching up with two fingertips resting very lightly on the skin just behind the seated girl's left ear. The kneeling girl's face is calm and measuring rather than tender. Exactly two named figures in frame and no others.
 Interior, mid morning.
 Medium close two shot from the side at kneeling height, shallow depth carried on the touching fingertips.
@@ -193,7 +193,7 @@ CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canon
 A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
 Wardrobe, unchanged for this scene: Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket
 SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A small fifteen year old sitting far back on a sagging couch, shoulders drawn in, one hearing aid visible behind her left ear and the second one lying in her open upturned palm. Eyes red rimmed and dry, mouth closed. One adult-sized hand rests on her back at the very edge of frame, the owner cropped out entirely.
 Interior, mid morning.
 Close shot, camera slightly above eye level looking gently down, shallow depth.
@@ -447,7 +447,7 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A wide dark interior after midnight, sleeping figures scattered across couches and one slumped at a workbench, all of them distant, turned away, or covered so that no face is legible. One work lamp burning at a bench. High on a shelf at the top of frame, a small animal silhouette, unresolved.
 Interior, well after midnight.
 Wide establishing shot from the far end of the room, high vantage, deep focus.
@@ -496,7 +496,7 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A close view of two hands holding an unopened wrapped granola bar level in front of them, held the way a person holds an object they have been given rather than food they intend to eat. The hands have a faintly grey even tone and very fine seams tracking across the backs of the wrists. Wrapper design plain, no legible lettering. No face in frame.
 Interior, the small hours.
 Close shot, camera at hand height and straight on, very shallow depth.

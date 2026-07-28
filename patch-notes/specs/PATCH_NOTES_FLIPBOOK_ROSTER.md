@@ -199,8 +199,28 @@ None of the entries are approved yet. Approval means a canonical portrait has be
 **Rendering note:** She is not defeated and should not be drawn sad. The register is a woman carrying something heavy competently and for a long time.
 
 ### {{CHAR:MAYOR_DALTON}}
-**Immutable:** A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.
+**Immutable:** A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
 **Canonical reference:** `char-dalton-canonical.png` · Seed: pending · Approved: no
+**Amended 2026-07-28 to match the accepted plate.** Volume 1 spread 5 was flagged for
+regeneration and the author kept it, so the roster follows the image rather than the
+reverse. He appears in Volumes 1, 3 and 4, so the block had to move or the later
+plates would have contradicted the one already made. Changed, each against what is
+actually visible in `vol1-s05.png`:
+
+| Was | Now |
+|---|---|
+| `red-lensed 3D glasses` | red frame, right lens red, left lens **cyan** — real anaglyph glasses |
+| `thinning sandy hair combed across` | **bald crown**, dark brown hair in **untidy tufts** at the temples |
+| suit implied grey by the wardrobe entry | **muted dusty purple**, stated here so it cannot drift |
+| no eyebrows specified | thick dark brown, visible above the frame |
+| `pear-shaped, narrow at the shoulders and wide at the waist` | `heavy and thick through the body` |
+
+That last one is the softest change and the reason is worth stating: the accepted
+plate is a low-angle chest-up crop in which his shoulders read broad, contradicting
+`narrow at the shoulders`, but his waist is not in frame at all. Rather than invent a
+silhouette from a crop that cannot show one, the build is described in terms the image
+does support. His full-length canonical portrait, entry 10 on the canonical sheet, is
+what should settle the silhouette properly.
 
 ### {{CHAR:ADMIRAL_CRANE}}
 **Immutable:** A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
@@ -238,8 +258,8 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
 | `{{WARDROBE:FELIX_A}}` | Signature: floral bucket hat, black turtleneck, purple polka-dot button-up | all |
 | `{{WARDROBE:CAROL_A}}` | Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone | all |
-| `{{WARDROBE:MAYOR_A}}` | Ill-fitting grey suit, red 3D glasses, a tired patterned tie | Vols 1 to 3 |
-| `{{WARDROBE:MAYOR_B}}` | The same ill-fitting grey suit and red 3D glasses, but a conspicuously **new** tie, stiff and bright and still holding its fold creases | Vol 4 only |
+| `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |
+| `{{WARDROBE:MAYOR_B}}` | The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one | Vol 4 only |
 | `{{WARDROBE:CRANE_A}}` | Navy dress uniform, full medals, pale blue medical mask | all |
 | `{{WARDROBE:CASSIE_A}}` | Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket | Vol 3 |
 | `{{WARDROBE:CASSIE_B}}` | The same hoodie, plus large over-ear headphones. The hearing aid is still present beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |

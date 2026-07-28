@@ -435,19 +435,19 @@ Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 
 MUST HOLD, these override anything below that appears to contradict them:
-- The suit is DULL GREY and ill-fitting.
-- Not purple, not lavender, not blue.
-- BOTH lenses of the 3D glasses are RED; neither is blue or cyan.
-- The grin is tightened and strained at the corners, not a full open salesman's grin.
+- The suit is MUTED DUSTY PURPLE and ill-fitting.
+- The 3D glasses have a RED FRAME with two DIFFERENT lenses: his right lens red, his left lens CYAN.
+- The tie is dark red with cream polka dots and there is a red pocket square.
+- His crown is BALD with dark brown hair in untidy tufts at the temples only.
 CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.
-Wardrobe, unchanged for this scene: Ill-fitting grey suit, red 3D glasses, a tired patterned tie
+A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
+Wardrobe, unchanged for this scene: Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
-Standing behind a plain podium mid-sentence in a dull grey suit that does not fit him, pulling at the button and short in the sleeve. The suit is grey, not purple and not blue. Both lenses of his 3D glasses are the same red. His mouth is held in a grin that has gone tight and strained at the corners, not a wide open one, and there is a single bead of sweat at his temple. Eyes searching off to one side behind the lenses. Podium bare, no signage or lettering.
+Standing behind a plain podium mid-sentence, both hands on the podium edge, grinning broadly with his teeth showing, a bead of sweat running from his temple. Eyes hidden behind the mismatched lenses. Podium bare, no signage or lettering, two microphones on short stands in front of him.
 Exterior, late morning.
-Close shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.
-Hard overhead sun, specular glare across both red lenses.
+Close shot from slightly below, straight on, very shallow depth so the small crowd behind reads only as soft shapes and the municipal building behind them goes soft.
+Hard overhead sun, specular glare across the red and the cyan lens.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 Aspect ratio: 3:2
 ```
