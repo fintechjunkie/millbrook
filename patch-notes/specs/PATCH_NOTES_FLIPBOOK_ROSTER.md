@@ -116,7 +116,7 @@ craft, the fix belongs in the negative block below, not in this one.
 {{NEGATIVE}} =
 ```
 
-> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
 
 This block grows during production as failures reveal themselves. It lives here so additions propagate to every prompt in one edit.
 
@@ -130,6 +130,17 @@ style and were narrowed rather than dropped:
 - `no 3D render finish` became `no glossy 3D render finish`, matching the style's
   own wording. The style *is* dimensional; what is unwanted is the plastic sheen
   of a render, not depth itself.
+
+**Amended again when Milo's green tinge was removed.** Added: no green or unwell cast
+to any *human* character's skin unless the prompt asks for it by name. In this world
+green skin means somebody is ill, so the colour is a signal and has to stay available
+to mean that. The clause stops it arriving by accident while leaving it usable on
+purpose.
+
+The word *human* is load-bearing. Pip's immutable block specifies **uniform pale
+grey** skin because she is a machine, and Volume 3 spread 8 shows her hands as
+*faintly grey* with fine seams at the wrists. A first draft of this clause excluded
+grey as well and would have fought both of those. Green is the signal; grey is Pip.
 
 `Aspect ratio: 3:2` for every image page. `2:1` for the four chapter openers, which run full bleed across both pages of the spread.
 
@@ -167,9 +178,28 @@ None of the entries are approved yet. Approval means a canonical portrait has be
 **Rendering note:** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
 ### {{CHAR:MILO}}
-**Immutable:** An eighteen year old boy, tall and lean, skin carrying a distinct cool green tinge, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.
+**Immutable:** An eighteen year old boy, tall and lean, fair skin of ordinary healthy tone, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.
 **Canonical reference:** `char-milo-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** Because the eyes are unavailable, everything expressive has to be carried by mouth, shoulders and the angle of the head. Prompts for him should always specify posture.
+**Amended 2026-07-28: the green tinge is removed.** It said *skin carrying a distinct
+cool green tinge*, inherited from the character reference sheet.
+
+**In this world green skin means somebody is ill.** A permanent tinge therefore read
+as Milo being permanently sick, which is not the character and would have quietly
+mistold the reader something every time he appeared. The colour is a signal and it
+has to stay available to mean what it means.
+
+Two things make this a clean amendment rather than a costly one:
+
+- **The prose never says it.** Milo is described only as *tall and dark-haired* with
+  *a jacket that fit him better than most teenage boys could manage*. Unlike the Vex
+  amendment, no sentence of the manuscript has to change.
+- **Both existing plates already omit it.** `vol1-s06` and `vol2-s06` render him with
+  ordinary fair skin, so they become correct retroactively and nothing needs
+  regenerating. They had been drifting toward the right answer for the wrong reason.
+
+See the addition to `{{NEGATIVE}}` in section 2, which keeps green from arriving by
+accident on anybody else while leaving it usable deliberately.
 
 ### {{CHAR:VEX}}
 **Immutable:** A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
