@@ -1,0 +1,712 @@
+{
+  "volume": 1,
+  "source": "WELCOME_TO_MILLBROOK_Patch_Notes_Part_1.md",
+  "chapter": "Part One: The Pothole",
+  "specVersion": "1 | Date: 2026-07-28",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Patch Notes",
+        "part": "Part One: The Pothole"
+      },
+      "image": {
+        "slug": "vol1-opener",
+        "shotType": "Establishing (full bleed, both pages)",
+        "depicts": "Millbrook itself, before anyone is awake. No story beat.",
+        "spoilerCheck": "PASS. Chapter opener precedes all prose. Deliberately does not show Main Street or the repaired asphalt, which is the reveal on text page 2.",
+        "prompt": "{{STYLE}}\n{{LOC:MILLBROOK_WIDE}}\nEmpty residential streets seen from a slight elevation, water tower on the horizon, no figures anywhere.\nEarly morning before sunrise, blue hour.\nWide establishing shot, high vantage, deep focus.\nFlat pre-dawn light, streetlights still burning, one lit kitchen window.\n{{NEGATIVE}}\nAspect ratio: 4:3",
+        "aspect": "4:3",
+        "alt": "A small town of low houses seen from above before sunrise, streetlights still on, a water tower in the distance."
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 308,
+      "words": 304,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Aunt Carol’s House"
+        },
+        {
+          "t": "p",
+          "v": "Aunt Carol’s house was on Crescent. Same yellow siding. Same chain link fence. Same ceramic frog by the front steps with one chipped ear. Lena Marsh dropped her bag on the porch and walked right in, because nobody in this town locked anything and because her aunt didn’t answer doors anyway."
+        },
+        {
+          "t": "p",
+          "v": "“I’m here,” she called."
+        },
+        {
+          "t": "p",
+          "v": "“Back bedroom,” Aunt Carol called from the living room. She was on the couch with her tablet, playing a match-three game with the volume on. She didn’t look up. “Your cousin’s old stuff is still in there. There’s a bed.”"
+        },
+        {
+          "t": "p",
+          "v": "“Thanks for letting me stay.”"
+        },
+        {
+          "t": "p",
+          "v": "“Don’t make it weird.”"
+        },
+        {
+          "t": "p",
+          "v": "The back bedroom smelled like dust and a soccer trophy that had once been gold and was now sort of beige. Her cousin Derek had moved out years ago to do real estate in Miami. The walls still had his posters. Bands she’d never heard of. Athletes who’d probably retired by now. There was a dent in the closet door she remembered hiding from when she was little."
+        },
+        {
+          "t": "p",
+          "v": "She didn’t remember why."
+        },
+        {
+          "t": "p",
+          "v": "Lena sat on the bed and opened her laptop. Her research folder filled the screen. Forum posts. Deleted news clips. Reddit threads with three replies and a vanished account. Nine months of work. Most of it junk. But there was a pattern, and she was the only one who’d noticed it."
+        },
+        {
+          "t": "p",
+          "v": "Things in Millbrook didn’t stay the same. Small things. A stop sign at an intersection that wasn’t there last month, then was, with no city record of installing it. A house number that changed by one. A pothole on Main Street that everyone had complained about for two years, gone overnight."
+        },
+        {
+          "t": "p",
+          "v": "The Mayor had taken credit for the pothole. The Mayor took credit for everything."
+        },
+        {
+          "t": "p",
+          "v": "Lena hit record."
+        },
+        {
+          "t": "p",
+          "v": "“Day one in Millbrook. We’re starting with the pothole.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s01",
+        "shotType": "Character portrait",
+        "depicts": "Beat 1. Lena arriving at the house on Crescent, bag in hand.",
+        "spoilerCheck": "PASS. Final beat of this page is Lena hitting record and naming the pothole. Not depicted; no phone raised, no filming.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_A}}\n{{LOC:CRESCENT_HOUSE_EXT}}\nStanding at the foot of the porch steps with a duffel bag at her feet, one hand on the railing, looking up at the house rather than at the camera.\nExterior, mid afternoon.\nMedium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.\nWarm late afternoon sun from the left, hard-edged shadows on the siding.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A teenage girl with a duffel bag at her feet stands at the bottom of a porch's steps, looking up at a yellow house."
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 229,
+      "words": 222,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Girl Who Stole The Dashcam"
+        },
+        {
+          "t": "p",
+          "v": "Main Street did not have a pothole. That was the whole point."
+        },
+        {
+          "t": "p",
+          "v": "Lena set her phone on a tripod and tried to film a piece to camera, but a guy with a leaf blower kept going past, and a woman with a stroller asked if she was filming a commercial, and on the third interruption Lena gave up."
+        },
+        {
+          "t": "p",
+          "v": "That was when the dashcam came off her car."
+        },
+        {
+          "t": "p",
+          "v": "She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. White hair sticking out from under a beat-up aviator cap with little cat ears on top. Goggles on her forehead. Already three steps away. Walking, not running."
+        },
+        {
+          "t": "p",
+          "v": "“Hey. That’s mine.”"
+        },
+        {
+          "t": "p",
+          "v": "The girl glanced back. Sharp eyes. Mouth that looked like it was about to say something rude. She didn’t say anything. She kept walking."
+        },
+        {
+          "t": "p",
+          "v": "Lena chased her two blocks. The girl turned into an alley between a hardware store and a closed pizza place, and by the time Lena got to the alley, she was gone."
+        },
+        {
+          "t": "p",
+          "v": "“Come on.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena went back to her tripod. The tripod was still there. So was the woman with the stroller, holding it like she was waiting to scold someone."
+        },
+        {
+          "t": "p",
+          "v": "“You shouldn’t leave equipment lying around.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yeah. Got that.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s02",
+        "shotType": "Action moment",
+        "depicts": "Beat 3 of this page. Vex walking away with the stolen dashcam, three steps out and not running.",
+        "spoilerCheck": "PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.",
+        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:MAIN_STREET}}\nWalking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.\nExterior sidewalk, late morning.\nMedium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.\nFlat overcast daylight, no strong shadow.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A short girl in a cap walks away along a sidewalk holding a small camera, glancing back over her shoulder."
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 295,
+      "words": 292,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Warehouse"
+        },
+        {
+          "t": "p",
+          "v": "Owen had been awake for thirty-one hours. He didn’t feel tired. He felt like time had stopped meaning anything, which was a place he liked to live."
+        },
+        {
+          "t": "p",
+          "v": "Three monitors. Left one ran his anomaly tracker, four hundred and seven entries from the last week. Middle one was a map of Millbrook with the anomalies plotted as dots. Right one was a YouTube video of a guy fixing an old Cadillac, which Owen wasn’t watching but which was making the right noise."
+        },
+        {
+          "t": "p",
+          "v": "On the map, the dots formed an arc. Not a complete one. About two-thirds of a circle that bent through the eastern half of town. He’d noticed three days ago. He hadn’t mentioned it yet, because Milo would ask what was at the center, and Owen didn’t have an answer, and Owen hated not having answers."
+        },
+        {
+          "t": "p",
+          "v": "Across the Warehouse, Felix was on the couch killing things in a video game. Monke sat on the back of the couch eating a granola bar, watching the screen with what looked like professional interest."
+        },
+        {
+          "t": "p",
+          "v": "“He’s judging me,” Felix said."
+        },
+        {
+          "t": "p",
+          "v": "“He’s a monkey.”"
+        },
+        {
+          "t": "p",
+          "v": "“He’s judging me, Owen.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo came in through the back door, which Felix had jammed open with a brick again. Two coffees. A paper bag with something greasy in it. He set the coffees down and tossed the bag at Felix without looking. Felix caught it without looking. They’d been doing this for two years."
+        },
+        {
+          "t": "p",
+          "v": "“Anything?”"
+        },
+        {
+          "t": "p",
+          "v": "Owen turned in his chair. “The pothole on Main. The famous one.”"
+        },
+        {
+          "t": "p",
+          "v": "“What about it.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s gone.”"
+        },
+        {
+          "t": "p",
+          "v": "Felix paused his game. The character on screen got hit by something and exploded into polygons. Felix didn’t notice."
+        },
+        {
+          "t": "p",
+          "v": "“Gone like fixed?”"
+        },
+        {
+          "t": "p",
+          "v": "“Gone like the asphalt is fresh and there’s no patch line. Like there was never a hole.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s03",
+        "shotType": "Character portrait",
+        "depicts": "Beat 1. Owen at his desk after thirty-one hours awake.",
+        "spoilerCheck": "PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.",
+        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nSeated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.\nInterior, roughly three in the morning.\nClose shot, camera slightly below eye level, monitors framing him on both sides.\nCold monitor light as the only source, uplighting his face, everything behind him falling to black.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A bald young man sits in a desk chair between three glowing monitors in an otherwise dark room."
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 268,
+      "words": 265,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Milo took a long sip of his coffee. “When.”"
+        },
+        {
+          "t": "p",
+          "v": "“Between two and four AM. Traffic cam at Main and Birch went dark for ninety seconds. When it came back, the pothole was gone.”"
+        },
+        {
+          "t": "p",
+          "v": "“You can’t fix a pothole in ninety seconds.”"
+        },
+        {
+          "t": "p",
+          "v": "“No. You cannot.”"
+        },
+        {
+          "t": "p",
+          "v": "Monke finished his granola bar. He climbed down, crossed the room with that slow purposeful walk monkeys do when they know exactly where they’re going, climbed onto Owen’s desk, and sat on top of the middle monitor. He stared at the map of dots."
+        },
+        {
+          "t": "p",
+          "v": "Then he tapped the screen. Once. With a single finger. Right in the middle of the arc, where the circle wasn’t finished."
+        },
+        {
+          "t": "p",
+          "v": "“He’s sitting on it,” Owen said."
+        },
+        {
+          "t": "p",
+          "v": "“He tapped it,” Felix said."
+        },
+        {
+          "t": "p",
+          "v": "“He taps things, Felix.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo was watching Monke, not the screen. He had a look on his face Owen recognized. The look that meant Milo had decided something he wasn’t going to share yet."
+        },
+        {
+          "t": "p",
+          "v": "“We should look at the pothole.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s not a pothole. It’s an absence of a pothole.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then we’ll look at the absence.”"
+        },
+        {
+          "t": "h",
+          "v": "Press Conference"
+        },
+        {
+          "t": "p",
+          "v": "Mayor Dalton stood in front of Town Hall in his suit and his red 3D glasses, grinning at a crowd of six. The Millbrook Crier guy. A woman with a dog. Four people who’d wandered over because there was a podium."
+        },
+        {
+          "t": "p",
+          "v": "Lena filmed from the back."
+        },
+        {
+          "t": "p",
+          "v": "“My fellow citizens. As of yesterday morning, the longstanding pothole on Main Street has been completely repaired. This is a victory for our infrastructure team. This is a victory for my office, which made this a personal priority during my reelection campaign.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s04",
+        "shotType": "Action moment",
+        "depicts": "Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.",
+        "spoilerCheck": "PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.",
+        "prompt": "{{STYLE}}\n{{CHAR:MONKE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nPerched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.\nInterior, early morning, no daylight.\nClose shot from the side, camera at monitor height, shallow depth on the finger and the glass.\nScreen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A small monkey perched on top of a computer monitor reaches down and touches one finger to the screen."
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 235,
+      "words": 235,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "The Crier guy raised a hand. “Who actually fixed it?”"
+        },
+        {
+          "t": "p",
+          "v": "The Mayor’s grin tightened. “The city fixed it.”"
+        },
+        {
+          "t": "p",
+          "v": "“Right, but Public Works said they didn’t. They said they showed up yesterday morning and it was already done.”"
+        },
+        {
+          "t": "p",
+          "v": "“It was an interdepartmental effort.”"
+        },
+        {
+          "t": "p",
+          "v": "“Which departments.”"
+        },
+        {
+          "t": "p",
+          "v": "“Multiple departments.”"
+        },
+        {
+          "t": "p",
+          "v": "Through her viewfinder, Lena watched the Mayor sweat. Just at the temple. The 3D glasses caught the sun in a way that made his eyes hard to see. He was looking around for the next question the way a man looks for an exit."
+        },
+        {
+          "t": "p",
+          "v": "That was when she noticed the three guys at the edge of the crowd."
+        },
+        {
+          "t": "p",
+          "v": "Not standing together exactly, but in a triangle. The middle one was tall and dark-haired, jacket that fit him better than most teenage boys could manage. The one to his left had a shaved head and was holding a phone, clearly recording. The one to his right was shorter and had a permanent half-grin that meant he’d either made or set fire to something this morning."
+        },
+        {
+          "t": "p",
+          "v": "They were watching her too. The dark-haired one made eye contact, looked away, kept looking anyway."
+        },
+        {
+          "t": "p",
+          "v": "Lena swung her camera off the Mayor and onto them."
+        },
+        {
+          "t": "p",
+          "v": "The bald one elbowed the dark-haired one. The dark-haired one didn’t turn his head, but his shoulders shifted. The Mayor was still talking somewhere behind her."
+        },
+        {
+          "t": "p",
+          "v": "By the time she lowered her phone, the three of them were gone."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s05",
+        "shotType": "Character portrait",
+        "depicts": "Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.",
+        "spoilerCheck": "PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.",
+        "prompt": "{{STYLE}}\n{{CHAR:MAYOR_DALTON}}\n{{WARDROBE:MAYOR_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.\nExterior, late morning.\nClose shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.\nHard overhead sun, specular glare across his red lenses.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A heavyset man in an ill-fitting suit and red glasses stands behind a podium, grinning stiffly, sweating at one temple."
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 292,
+      "words": 289,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Park"
+        },
+        {
+          "t": "p",
+          "v": "Lena found them on a bench by the fountain. Not hiding. Just sitting. The bald one on his phone. The short one eating a sandwich. The dark-haired one watching the fountain like it had told him a secret."
+        },
+        {
+          "t": "p",
+          "v": "She stopped six feet away."
+        },
+        {
+          "t": "p",
+          "v": "“Hi. I’m Lena Marsh. I just moved back to town. The Mayor is full of crap, you guys know that, I know that, can we skip to the part where you tell me who actually fixed the pothole.”"
+        },
+        {
+          "t": "p",
+          "v": "The dark-haired one looked at the bald one. The bald one looked back. They had a whole conversation without saying anything."
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” the dark-haired one said. “What do you want.”"
+        },
+        {
+          "t": "p",
+          "v": "“I told you.”"
+        },
+        {
+          "t": "p",
+          "v": "“Why do you think we know.”"
+        },
+        {
+          "t": "p",
+          "v": "“Because you were watching the Mayor lie. And because Baldy here has been recording for the last four minutes, including this conversation, which is fine, you can keep recording, but you should know I noticed.”"
+        },
+        {
+          "t": "p",
+          "v": "The bald guy lowered his phone. “Milo. She’s not bad.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "The short one held out his sandwich. “You want some? Peanut butter and pickles.”"
+        },
+        {
+          "t": "p",
+          "v": "“No.”"
+        },
+        {
+          "t": "p",
+          "v": "“Your loss.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of.”"
+        },
+        {
+          "t": "p",
+          "v": "“Too late. Someone already stole my dashcam this morning. Short girl, white hair, weird hat. Walked off with it. Pretty sure you know her.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo and the bald guy looked at each other again."
+        },
+        {
+          "t": "p",
+          "v": "“We don’t,” the bald guy said."
+        },
+        {
+          "t": "p",
+          "v": "Lena pulled up the thumbnail she’d captured before the camera came off her windshield. Held it out."
+        },
+        {
+          "t": "p",
+          "v": "Milo looked at it. The bald guy looked at it. The short guy stopped chewing."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s06",
+        "shotType": "Establishing or location",
+        "depicts": "Beat 1. The fountain in the park with the three of them on the bench, seen from Lena's distance.",
+        "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when he sees the photo. Not depicted; no faces legible at this distance.",
+        "prompt": "{{STYLE}}\n{{LOC:THE_PARK}}\nA stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.\nExterior, midday.\nWide establishing shot from across the lawn, deep focus, figures small in frame.\nBacklit from behind the bench, water throwing highlights, long grass shadows in the foreground.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit."
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 289,
+      "words": 282,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Huh,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“You know her now.”"
+        },
+        {
+          "t": "p",
+          "v": "“No. But I’d like to.”"
+        },
+        {
+          "t": "h",
+          "v": "The Apartment Above The Hardware Store"
+        },
+        {
+          "t": "p",
+          "v": "Vex took the dashcam apart on her kitchen counter, which was also her work counter, which was also the only flat surface in her apartment that wasn’t covered in things. The SD card was already in her laptop."
+        },
+        {
+          "t": "p",
+          "v": "The footage was mostly nothing. Driving in. Parking. The new girl walking off-camera. And then, for a single frame, the streetlight across the street had been off."
+        },
+        {
+          "t": "p",
+          "v": "Vex paused. Backed up. Played it again. On. On. On. Off. On. On. On."
+        },
+        {
+          "t": "p",
+          "v": "One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world had been a little bit different, and then it had been the same again."
+        },
+        {
+          "t": "p",
+          "v": "Vex had been collecting frames like this for six months."
+        },
+        {
+          "t": "p",
+          "v": "Three quick knocks. Two slow. She didn’t look up."
+        },
+        {
+          "t": "p",
+          "v": "“It’s open.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with parts. A robot. Skin a shade too even, eyes that tracked a hair too smoothly, a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex had stood close enough."
+        },
+        {
+          "t": "p",
+          "v": "“You heard it,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“Four AM. Twenty-three seconds. It was loud.”"
+        },
+        {
+          "t": "p",
+          "v": "“The pothole.”"
+        },
+        {
+          "t": "p",
+          "v": "“What?”"
+        },
+        {
+          "t": "p",
+          "v": "“The pothole on Main is gone. The Mayor’s already taking credit.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s07",
+        "shotType": "Object or detail",
+        "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
+        "spoilerCheck": "PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.",
+        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot."
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 336,
+      "words": 331,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“It’s getting bigger.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s getting bigger.”"
+        },
+        {
+          "t": "p",
+          "v": "“And nobody’s going to do anything about it.”"
+        },
+        {
+          "t": "p",
+          "v": "“Nobody’s going to do anything about it.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex tapped the laptop. The single dark frame stared back at her. “There’s also a girl. New in town. She has a research folder. I checked her car.”"
+        },
+        {
+          "t": "p",
+          "v": "“You stole a tourist’s dashcam.”"
+        },
+        {
+          "t": "p",
+          "v": "“She’s not a tourist.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip was quiet for a second, eyes tilted at the ceiling like she was reading something off it. “We’re going to talk about boundaries again.”"
+        },
+        {
+          "t": "p",
+          "v": "“We really aren’t.”"
+        },
+        {
+          "t": "h",
+          "v": "End Of Day One"
+        },
+        {
+          "t": "p",
+          "v": "Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had gone to bed at nine. The house was quiet except for the refrigerator."
+        },
+        {
+          "t": "p",
+          "v": "Her phone buzzed. Unknown number."
+        },
+        {
+          "t": "p",
+          "v": "Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at nine. Bring coffee. Don’t bring those guys."
+        },
+        {
+          "t": "p",
+          "v": "Lena read it twice. How did you get my number."
+        },
+        {
+          "t": "p",
+          "v": "Reply, four seconds later."
+        },
+        {
+          "t": "p",
+          "v": "Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it."
+        },
+        {
+          "t": "p",
+          "v": "Across town, Owen was looking at his map again. The arc glowed softly on the middle monitor. He’d added the pothole. The arc was a little more complete now, and the gap in the middle was clearly aiming somewhere."
+        },
+        {
+          "t": "p",
+          "v": "Monke was on the desk, face an inch from the glass."
+        },
+        {
+          "t": "p",
+          "v": "“What are you looking at.”"
+        },
+        {
+          "t": "p",
+          "v": "Monke pointed. Not at the arc this time. At the empty space inside it. There was a building there. The old elementary school, closed since the Event."
+        },
+        {
+          "t": "p",
+          "v": "“Tomorrow,” Owen said. “Tomorrow we’ll look. Get off my desk.”"
+        },
+        {
+          "t": "p",
+          "v": "Monke did not get off his desk. He sat down on the keyboard, which made the screen do something unhelpful, and he stayed there for the rest of the night."
+        },
+        {
+          "t": "p",
+          "v": "Outside, somewhere across town, the streetlight across from Aunt Carol’s house went off for one frame, then on again, and nobody saw it."
+        },
+        {
+          "t": "i",
+          "v": "To be continued in Part Two: The Bookstore That Was Always There"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s08",
+        "shotType": "Atmospheric or empty",
+        "depicts": "Beat 3. The back bedroom in the dark, after Lena has stopped reading her phone.",
+        "spoilerCheck": "PASS. Final beat is the streetlight going off for a single frame outside. Not depicted; the window shows steady light and the exterior is not the subject.",
+        "prompt": "{{STYLE}}\n{{LOC:BACK_BEDROOM}}\nThe ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.\nInterior, the middle of the night.\nClose, camera lying flat and looking up, wide angle, deep focus.\nSingle cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame."
+      }
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 # Flat image directory. Filenames are slugs, exactly as stated in the specs.
 #
+# The build brief puts this at patch-notes/images/. It lives here instead
+# because Next.js only serves static assets from public/. Everything the brief
+# actually asked for holds: one flat directory, filenames are slugs, dropping a
+# file in updates the book with no code change and no build step.
+#
 #   vol1-opener.png   vol1-s01.png ... vol1-s08.png
 #   vol2-opener.png   vol2-s01.png ... vol2-s08.png
 #   vol3-opener.png   vol3-s01.png ... vol3-s08.png

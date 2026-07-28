@@ -1,0 +1,695 @@
+{
+  "volume": 4,
+  "source": "WELCOME_TO_MILLBROOK_Patch_Notes_Part_4.md",
+  "chapter": "Part Four: The Press Conference",
+  "specVersion": "1 | Date: 2026-07-28",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Patch Notes",
+        "part": "Part Four: The Press Conference"
+      },
+      "image": {
+        "slug": "vol4-opener",
+        "shotType": "Establishing (full bleed, both pages)",
+        "depicts": "The square being set up. No story beat.",
+        "spoilerCheck": "PASS. Chapter opener precedes all prose. Empty of people, so it gives away nothing about the conference itself.",
+        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nRows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.\nExterior, early morning before the event.\nWide establishing shot from behind the last row of chairs, low camera, deep focus.\nCool flat early light, long chair shadows raking across the paving.\n{{NEGATIVE}}\nAspect ratio: 4:3",
+        "aspect": "4:3",
+        "alt": "Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind."
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 258,
+      "words": 253,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Renaissance"
+        },
+        {
+          "t": "p",
+          "v": "Mayor Dalton announced a town hall for Friday afternoon. He called it the Millbrook Renaissance. He had a banner made. The banner had a serif font and a leaf motif and the kind of color palette a city council pays a graphic designer eight thousand dollars for."
+        },
+        {
+          "t": "p",
+          "v": "Reporters were coming. Real ones, from outside Millbrook. A station out of the city had picked up the story of the medical patches and decided it was a feel-good piece for sweeps week. The Mayor had agreed to a live segment. He had bought a new tie."
+        },
+        {
+          "t": "p",
+          "v": "Lena watched the announcement on her aunt’s TV. Aunt Carol watched it from the kitchen, drying a dish she had already dried twice."
+        },
+        {
+          "t": "p",
+          "v": "“He’s going to mess this up,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“He’s going to take credit for it,” Aunt Carol said. “Same thing.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s not the same thing.”"
+        },
+        {
+          "t": "p",
+          "v": "“In this town, honey, it kind of is.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena’s phone buzzed. Group chat. Milo."
+        },
+        {
+          "t": "p",
+          "v": "Warehouse. Now. Crane is in town."
+        },
+        {
+          "t": "h",
+          "v": "Crane"
+        },
+        {
+          "t": "p",
+          "v": "Owen had a face on the middle monitor. Older man. Navy uniform. A row of medals. A medical mask covering most of his face. The image was grainy because Owen had pulled it from a security camera at the Hartwell Inn, where Crane had checked in this morning under a name that was almost certainly fake."
+        },
+        {
+          "t": "p",
+          "v": "“Admiral Crane,” Milo said. “He’s here. Today.”"
+        },
+        {
+          "t": "p",
+          "v": "“When does he leave,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“He doesn’t. He’s in town for the press conference.”"
+        },
+        {
+          "t": "p",
+          "v": "“Why.”"
+        },
+        {
+          "t": "p",
+          "v": "“Because whatever’s pushing the patches is finishing the circle today,” Felix said."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s01",
+        "shotType": "Character portrait",
+        "depicts": "Beat 3. Lena and her aunt watching the announcement from two different rooms.",
+        "spoilerCheck": "PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_D}}\n{{CHAR:AUNT_CAROL}}\n{{WARDROBE:CAROL_A}}\n{{LOC:AUNT_CAROL_LIVING_ROOM}}\nA girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.\nInterior, late morning.\nMedium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.\nHard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A girl sits forward on a couch watching an unseen television while an older woman dries a plate in the kitchen doorway behind her."
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 168,
+      "words": 168,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Everyone looked at him. Felix had been at his bench for twelve hours and he had a small device in his hand that looked like a kitchen timer crossed with a smoke detector. He looked tired in the specific way Felix looked tired, which was happy."
+        },
+        {
+          "t": "p",
+          "v": "“I built a thing,” he said. “It counts down to the next patch. It’s tracking the rhythm. The patches are speeding up. There’s a big one coming today. Two thirty-eight PM, give or take a minute.”"
+        },
+        {
+          "t": "p",
+          "v": "“The press conference starts at two thirty,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“The press conference starts at two thirty.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip had been very quiet all morning. She was sitting on Owen’s spare chair, which she had pulled into the corner. She had not said anything in three hours."
+        },
+        {
+          "t": "p",
+          "v": "“Pip,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“Is the next patch a person.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip looked at the floor. Then she looked at Vex. Then she looked at Lena. Then, because she had to, she looked at Milo."
+        },
+        {
+          "t": "p",
+          "v": "“I think it’s the Mayor,” she said."
+        }
+      ],
+      "note": "Short page, deliberate. Lands on Pip naming the Mayor. The hardest hook in the four volumes and it should sit alone at the bottom of a short page.",
+      "image": {
+        "slug": "vol4-s02",
+        "shotType": "Object or detail",
+        "depicts": "Beat 2. Felix's countdown device on the bench after twelve hours of work.",
+        "spoilerCheck": "PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; no figures in frame and the device shows no readable numerals.",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_SHOP}}\nA handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.\nInterior, morning.\nClose shot, camera low and level with the bench, very shallow depth on the display panel.\nSingle clamp lamp from the upper left, hard small shadows, dust visible.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools."
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 287,
+      "words": 281,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Conversation On The Curb"
+        },
+        {
+          "t": "p",
+          "v": "Lena needed air. She walked outside the Warehouse and sat on the curb. After a minute, Pip came out and sat next to her, the slightly-too-still way Pip did everything."
+        },
+        {
+          "t": "p",
+          "v": "“Are you helping them or helping us,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "Pip didn’t pretend not to know what she meant."
+        },
+        {
+          "t": "p",
+          "v": "“I don’t know yet,” she said. “But I want to be helping you.”"
+        },
+        {
+          "t": "p",
+          "v": "“What does that mean.”"
+        },
+        {
+          "t": "p",
+          "v": "“It means somebody made me. I don’t remember who. I came online about a year ago in an empty house on Larkspur and I knew how to read and I knew the names of three people in this town and one of them was Vex. I went to her. She didn’t freak out. So I stayed.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "“The thing pushing the patches talks to me sometimes. It started a month ago. It uses the wires in the walls. It thinks I’m on its team. I have not told it I’m not.”"
+        },
+        {
+          "t": "p",
+          "v": "“Why.”"
+        },
+        {
+          "t": "p",
+          "v": "“Because if I tell it, it stops talking, and then I don’t know what it’s doing. And right now I am the only one who knows what it’s doing.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena took a long breath. Across the street, a kid on a bike rode past with a backpack that was too big for him. The kid waved. Pip waved back. Pip’s wave was a little late."
+        },
+        {
+          "t": "p",
+          "v": "“Is it good or bad,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“It doesn’t know. It thinks it’s helping. It’s not, all the way. The man on the porch is happy. The girl on the couch is not. It can’t tell the difference yet. I’m trying to teach it.”"
+        },
+        {
+          "t": "p",
+          "v": "“You’re trying to teach it.”"
+        },
+        {
+          "t": "p",
+          "v": "“Someone has to.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena thought about that for a while."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s03",
+        "shotType": "Action moment",
+        "depicts": "Beat 6. The kid on the bike going past with a backpack too big for him.",
+        "spoilerCheck": "PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; the two seated figures are cropped and out of focus and the image carries none of the conversation.",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_EXT}}\nA young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.\nExterior, early afternoon.\nMedium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.\nHigh hard afternoon sun, short crisp shadows on the asphalt.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb."
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 207,
+      "words": 204,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Okay,” she said. “When this is over, you’re telling Milo what you told me.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "“And if it asks you to do something to one of us, you’re going to say no.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“Out loud. Promise me.”"
+        },
+        {
+          "t": "p",
+          "v": "“I promise.”"
+        },
+        {
+          "t": "h",
+          "v": "The Square"
+        },
+        {
+          "t": "p",
+          "v": "By two fifteen, the square in front of Town Hall had a banner, a podium, and forty people in folding chairs. Mr. Henderson was in the front row. Cassie was in the second row with her mother, headphones on, holding a piece of paper Vex had written for her that said “BLINK ONCE FOR YES.” The Mayor was doing a sound check. He was wearing the new tie."
+        },
+        {
+          "t": "p",
+          "v": "Admiral Crane stood at the side of the stage. Mask on. Hands behind his back. Watching."
+        },
+        {
+          "t": "p",
+          "v": "Lena set up her tripod near the back. Felix had given her his countdown device. It was in her bag. She didn’t need it. She had a watch."
+        },
+        {
+          "t": "p",
+          "v": "Milo and Owen worked the crowd from opposite sides, pretending to be ordinary kids. Vex stayed with Cassie. Felix was somewhere with a backpack of things that sparked. Pip was on a bench across the square, head tilted, listening."
+        },
+        {
+          "t": "p",
+          "v": "At two twenty-six, Crane walked across the stage and stopped in front of Lena."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s04",
+        "shotType": "Establishing or location",
+        "depicts": "Beat 1. The square at quarter past two, filling up.",
+        "spoilerCheck": "PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.",
+        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nAround forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.\nExterior, early afternoon.\nWide establishing shot from behind the back row, camera at standing height, deep focus.\nHard high sun, chairs and heads throwing short shadows forward.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground."
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 209,
+      "words": 206,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Ms. Marsh.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena did not pretend not to know him."
+        },
+        {
+          "t": "p",
+          "v": "“Admiral.”"
+        },
+        {
+          "t": "p",
+          "v": "“You’re building something interesting. The footage. The pattern work. The way you’ve organized your subscribers.”"
+        },
+        {
+          "t": "p",
+          "v": "“I have three hundred and forty-one subscribers, Admiral.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m not talking about subscribers. I’m talking about the way you see things.”"
+        },
+        {
+          "t": "p",
+          "v": "He held out a card. White. Heavy stock. A phone number. Nothing else."
+        },
+        {
+          "t": "p",
+          "v": "“When you’re tired of playing journalist, I have real work for someone with your skills. We’re hiring people who can pay attention. Most people can’t.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena took the card. She didn’t say yes. She didn’t say no. Crane nodded once, like she had answered something, and walked back to the stage."
+        },
+        {
+          "t": "p",
+          "v": "Lena put the card in her pocket. Her hand was shaking slightly. She made it stop."
+        },
+        {
+          "t": "h",
+          "v": "Two Thirty-Eight"
+        },
+        {
+          "t": "p",
+          "v": "“My fellow citizens of Millbrook,” the Mayor said. “It is my honor to welcome you to a new chapter for our town. The past two weeks have seen extraordinary improvements. A repaired infrastructure. A new local business. Eleven of our neighbors restored to health. I want to be very clear. These changes did not happen by accident. They happened because of the leadership of this office, the dedication of our staff, and a strategic plan that I have personally—”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s05",
+        "shotType": "Character portrait",
+        "depicts": "Beat 1. Crane, having stopped, before anything is offered.",
+        "spoilerCheck": "PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.",
+        "prompt": "{{STYLE}}\n{{CHAR:ADMIRAL_CRANE}}\n{{WARDROBE:CRANE_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.\nExterior, early afternoon.\nMedium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.\nHard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back."
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 281,
+      "words": 281,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Felix’s timer in Lena’s pocket beeped, very softly, and stopped."
+        },
+        {
+          "t": "p",
+          "v": "Two thirty-eight."
+        },
+        {
+          "t": "p",
+          "v": "Mayor Dalton kept talking, but his voice changed."
+        },
+        {
+          "t": "p",
+          "v": "“I didn’t do any of this,” he said."
+        },
+        {
+          "t": "p",
+          "v": "Several people in the front row looked up. The reporter from the city station, who had been checking her phone, lowered it slowly."
+        },
+        {
+          "t": "p",
+          "v": "“I didn’t fix the pothole,” the Mayor said. His voice was the same volume. His face was wrong. “I didn’t open the bookstore. I didn’t fix Mr. Henderson’s knee. I don’t know what is happening in this town. I’m scared. I’ve been scared for years. I am scared right now.”"
+        },
+        {
+          "t": "p",
+          "v": "The square went quiet. Even the wind."
+        },
+        {
+          "t": "p",
+          "v": "“My wife knows. My wife knows that something is wrong here and she doesn’t want to leave because her mother is buried at Saint Anne’s and we can’t take her with us. So we stay. So I keep saying things on television. I am sorry. I am so sorry.”"
+        },
+        {
+          "t": "p",
+          "v": "Mr. Henderson stood up from the front row. Slowly. The way an old man stands up, except his knee was fine."
+        },
+        {
+          "t": "p",
+          "v": "“It’s all right, Tom,” Mr. Henderson said."
+        },
+        {
+          "t": "p",
+          "v": "The Mayor blinked at him."
+        },
+        {
+          "t": "p",
+          "v": "And then it ended. Whatever it was. The Mayor’s face came back together. He looked around the square like he had forgotten where he was. Then his grin returned, the practiced one, like a switch had been flipped."
+        },
+        {
+          "t": "p",
+          "v": "“with a strategic plan I have personally championed,” he finished. “Thank you all for being here today.”"
+        },
+        {
+          "t": "p",
+          "v": "The crowd clapped. Most of them. Some of them did not. The reporter from the city station was looking at her camera operator with an expression that Lena was going to remember for a long time."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s06",
+        "shotType": "Action moment",
+        "depicts": "Beat 6. Mr. Henderson getting up out of the front row.",
+        "spoilerCheck": "PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.",
+        "prompt": "{{STYLE}}\n{{CHAR:MR_HENDERSON}}\n{{WARDROBE:HENDERSON_B}}\n{{LOC:TOWN_HALL_SQUARE}}\nAn old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.\nExterior, early afternoon.\nMedium shot from the side along the front row, camera at seated height, shallow depth.\nHard high sun from behind the stage, the man rim lit, his front in bounced fill off the paving.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "An elderly man rises out of a folding chair in the front row of an outdoor audience, one hand on the chair back."
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 323,
+      "words": 318,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Admiral Crane was looking at Pip."
+        },
+        {
+          "t": "h",
+          "v": "The Warehouse, That Night"
+        },
+        {
+          "t": "p",
+          "v": "They moved Vex’s broken devices into the Warehouse. They moved Pip’s things from the empty house on Larkspur. They cleared out a corner near the back wall and Lena put a small desk there with her laptop on it, near Owen’s setup. Owen did not say anything. He moved his energy drink cans to make room."
+        },
+        {
+          "t": "p",
+          "v": "Cassie went home with her mother. Cassie was going to be okay. Cassie was going to be different, but okay. Vex was going to check on her every day for the rest of her life, and Cassie was going to let her."
+        },
+        {
+          "t": "p",
+          "v": "Pip told Milo everything she had told Lena. Milo listened without interrupting. When she was done, he was quiet for a long time."
+        },
+        {
+          "t": "p",
+          "v": "“You should have told us sooner,” he said."
+        },
+        {
+          "t": "p",
+          "v": "“I know.”"
+        },
+        {
+          "t": "p",
+          "v": "“You’re going to keep telling us. Every conversation. Every time it talks to you. I want to know.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "“Welcome to the team, Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip looked at the floor. “Thank you.”"
+        },
+        {
+          "t": "p",
+          "v": "“Don’t make it weird.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen’s map glowed on the middle monitor. The arc was a complete circle now. The patch on the Mayor had finished it. The center was the old elementary school, a six-acre rectangle of fenced-off ground that nobody had walked on since the Event."
+        },
+        {
+          "t": "p",
+          "v": "“Tomorrow,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“Tomorrow,” Owen agreed."
+        },
+        {
+          "t": "p",
+          "v": "Lena recorded a video that night. Just her, on the Warehouse couch with the pig asleep next to her, the camera on her phone propped against a coffee mug."
+        },
+        {
+          "t": "p",
+          "v": "“This is The Real Feed. There are things happening in this town. Some of them are good. Some of them are not. The man we elected is not telling the truth, and there is a man in a uniform who is not telling the truth either, and I don’t know yet what either of them is hiding. But I’m going to find out. I’m not asking permission.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s07",
+        "shotType": "Object or detail",
+        "depicts": "Beat 3. Room made in the corner. Owen's cans moved without comment.",
+        "spoilerCheck": "PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.\nInterior, night.\nClose shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.\nCold spill from unseen monitors off to the right, one warm lamp far behind.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop."
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 226,
+      "words": 221,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "She paused. She almost cut the recording. She didn’t."
+        },
+        {
+          "t": "p",
+          "v": "“If you’re watching this and you live in Millbrook, you already know. You’ve known for a long time. It’s okay to say it now.”"
+        },
+        {
+          "t": "p",
+          "v": "She posted it. By morning, it had four thousand views."
+        },
+        {
+          "t": "p",
+          "v": "By morning, two of the views were from inside Town Hall."
+        },
+        {
+          "t": "p",
+          "v": "By morning, one of the views was from a hotel room with a navy uniform hanging in the closet."
+        },
+        {
+          "t": "h",
+          "v": "Hollow Pine, Three AM"
+        },
+        {
+          "t": "p",
+          "v": "The bookstore was closed. The lights were on."
+        },
+        {
+          "t": "p",
+          "v": "The woman in the green cardigan stood behind the counter with a cordless phone in her hand. The phone had no buttons and no cord. It glowed faintly at the bottom, a soft pale color that did not match any color the human eye usually sees."
+        },
+        {
+          "t": "p",
+          "v": "She listened for a long time."
+        },
+        {
+          "t": "p",
+          "v": "Then she said, “Yes. They’ve started working together. Just like you said they would.”"
+        },
+        {
+          "t": "p",
+          "v": "She listened again."
+        },
+        {
+          "t": "p",
+          "v": "“The robot is a problem. She’s talking to them now. I can hear her.”"
+        },
+        {
+          "t": "p",
+          "v": "Another pause."
+        },
+        {
+          "t": "p",
+          "v": "“No. I won’t. You said I wouldn’t have to and I’m holding you to that. I like it here. I like the cake.”"
+        },
+        {
+          "t": "p",
+          "v": "She set the phone down on the counter. The glow faded."
+        },
+        {
+          "t": "p",
+          "v": "She looked up, through the window, at the empty street. There was nobody there. There was no reason to look up."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol4-s08",
+        "shotType": "Atmospheric or empty",
+        "depicts": "Beat 4. The hotel room the last view comes from.",
+        "spoilerCheck": "PASS. Final beat is the woman in the bookshop looking up at nothing. Not depicted; the bookshop does not appear.",
+        "prompt": "{{STYLE}}\n{{LOC:HOTEL_ROOM}}\nA tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.\nInterior, late night.\nMedium-wide shot from the doorway, camera at standing height, deep focus.\nLaptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed."
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 123,
+      "words": 123,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "On the high shelf above the cookbooks, Monke was sitting very still. He had been sitting very still for almost an hour."
+        },
+        {
+          "t": "p",
+          "v": "The woman in the green cardigan did not see him."
+        },
+        {
+          "t": "p",
+          "v": "Monke watched her put the phone in a drawer, lock the drawer, walk to the back of the store, and turn off the lights."
+        },
+        {
+          "t": "p",
+          "v": "Then, very quietly, Monke climbed down from the shelf, slipped through a gap in the back of the cookbook display, found the locked drawer, and put one small finger on it."
+        },
+        {
+          "t": "p",
+          "v": "He stayed like that for a long moment. Listening. Or measuring. Or remembering."
+        },
+        {
+          "t": "p",
+          "v": "Then he climbed back up to the shelf and waited for morning."
+        },
+        {
+          "t": "i",
+          "v": "End of “The Patch Notes”"
+        },
+        {
+          "t": "i",
+          "v": "The Digital Slop Squads will return."
+        }
+      ],
+      "note": "Short page, deliberate. Deliberate coda spread. The last text page of the arc is short on purpose so the closing image carries the turn out of the book.",
+      "image": {
+        "slug": "vol4-s09",
+        "shotType": "Atmospheric or empty",
+        "depicts": "The counter after the lights go off. Setting and object only.",
+        "spoilerCheck": "PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.",
+        "prompt": "{{STYLE}}\n{{LOC:HOLLOW_PINE_INT}}\nThe shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.\nInterior, three in the morning.\nClose shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.\nOne narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store."
+      }
+    }
+  ]
+}

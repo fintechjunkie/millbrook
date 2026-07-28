@@ -1,60 +1,94 @@
 # Millbrook
 
-A site hosting digital flipbooks and other digital assets for the **Welcome to Millbrook** project.
+A site hosting digital flipbooks and other digital assets for the **Welcome to
+Millbrook** project.
+
+Next.js App Router, deployed on Vercel. No webfonts, no CSS framework, no
+runtime markdown parsing.
 
 ## Properties
 
 | Property | What it is | Status |
 |---|---|---|
-| `patch-notes/` | *The Patch Notes* — four illustrated flipbook volumes | Spec complete, build not started |
+| `/patch-notes` | *The Patch Notes* — four illustrated flipbook volumes | Readers built, 0 of 37 images generated |
+
+## Running it
+
+```bash
+npm install
+npm run dev
+```
+
+| Route | What it is |
+|---|---|
+| `/` | Site home, a shelf of properties |
+| `/patch-notes` | The four-volume shelf |
+| `/patch-notes/vol1/read` … `vol4` | The readers |
+| `/checks/overflow` | Build-time audit: does any page clip its prose? |
+
+`npm run parse` regenerates the JSON from the markdown specs. It also runs as
+`prebuild`, so the committed data can never drift from the specs.
 
 ## Repository layout
 
 ```
-docs/                       method documents, apply to every flipbook property
-  Narrative_Flipbook_Working_Brief_v1.md    the production bible
-  CLAUDE_CODE_BUILD_BRIEF.md                build instructions for this property
+docs/
+  Narrative_Flipbook_Working_Brief_v1.md   the production bible
+  CLAUDE_CODE_BUILD_BRIEF.md               build instructions for this property
+  FLIPBOOK-EXTRACTION.md                   reader extraction from the Unbroke project
+  DECISIONS.md                             what was chosen and why, plus deviations
 
 patch-notes/
-  specs/                    source markdown, hand-authored, the human-readable truth
-    PATCH_NOTES_FLIPBOOK_ROSTER.md            style, characters, wardrobe, locations
-    PATCH_NOTES_Vol1_Spec.md ... Vol4_Spec.md  spreads, prose, slugs, alt text
-  roster.json               generated from the roster md
-  volumes/vol1.json ...     generated from the volume specs
-  images/                   flat, filenames are slugs, no subdirectories
-  vol1.html ... vol4.html   the four readers
-  prompt-sheet.html         the image generation working document
-  contact-sheet.html        build-time consistency audit tool
-  index.html                the shelf
+  specs/                    hand-authored markdown. The human-readable truth.
+    PATCH_NOTES_FLIPBOOK_ROSTER.md           style, characters, wardrobe, locations
+    PATCH_NOTES_Vol1_Spec.md ... Vol4        spreads, prose, slugs, alt text
+  roster.json               generated. Do not hand-edit; edit the spec.
+  volumes/vol1.json ...     generated. Do not hand-edit; edit the spec.
 
-src/                        shared reader component, styles, page-curl logic
-index.html                  site home
+public/images/              flat, filenames are slugs, no subdirectories
+
+lib/millbrook/
+  series.js                 paper, turn timing, type scale, geometry
+  data.js                   static-import registry
+components/millbrook/
+  FlipBook.js               leaf model, turn reducer, edge stacks, navigation
+  SpreadPage.js             TextPage, GraphicPage, OpenerSpread, BlankPage
+  Plate.js                  grain, image resolution, missing-image placeholder
+scripts/parse-specs.mjs     markdown → JSON, with word-count verification
 ```
 
-## The two rules that matter most
+## The three rules that matter most
 
-**Images resolve by slug from the flat `patch-notes/images/` directory at runtime.**
-No manifest of paths, no imports, no build step to add art. Dropping
-`vol3-s04.png` into that directory gives Volume 3 spread 4 a picture. Do not
-nest by volume. Do not rename.
+**Images resolve by slug from the flat `public/images/` directory at runtime.**
+No manifest of paths, no imports, no build step. Dropping `vol3-s04.png` in
+gives Volume 3 spread 4 a picture. Do not nest by volume. Do not rename.
 
 **The prose is not editable.** The text in `patch-notes/specs/` is verbatim from
 the source manuscripts. Not a typo fix, not a smoothed sentence, not a
-normalized quote mark. See Part B4 of the working brief.
+normalized quote mark. The parser verifies this by recounting every page against
+the word count the spec declares, and fails the build on a mismatch.
+
+**A missing image is a normal state, not an error.** All 37 are missing at the
+start of production and all four books must be readable throughout, so a spread
+with no art shows a labelled placeholder printing the exact filename to
+generate. Nothing blocks on an image.
 
 ## Production status
 
-Four decisions block all image work. They are author decisions and are recorded
-in section 1 of the roster:
+Readers are complete and all four volumes read end to end. This is step 4 of the
+build brief's order of operations, and the last cheap moment to catch a chunking
+problem before image work begins.
+
+Four author decisions in section 1 of the roster block the character lock, and
+therefore all 37 spread images:
 
 - [ ] **1.1** Vex's design — prose version (white hair, cat-ear aviator cap) or reference sheet version (mint-green buns)
 - [ ] **1.2** Goggles assigned to Pip only
 - [ ] **1.3** The single em-dash in Volume 4
-- [ ] **§2** Approve the style block, currently marked PROPOSED, NOT APPROVED
+- [ ] **§2** Approve the style block, currently PROPOSED, NOT APPROVED
 
-Readers can be built and read end to end on placeholders before any of these
-land. That is step 4 of the order of operations and it is the cheapest point at
-which to catch a chunking problem.
+Not yet built: the prompt sheet (G1) and the consistency contact sheet (G3).
+Both come after the decisions above.
 
 ## Production arithmetic
 
@@ -63,7 +97,11 @@ which to catch a chunking problem.
 | Text spreads | 33 |
 | Chapter openers | 4 |
 | Spread images | 37 |
+| Words of prose | 8,138 |
 | Canonical character references | 13 |
 | Canonical location references | 8 |
 | Blocking generations before spread work | 21 |
 | Realistic total generations, including regeneration | 60 to 64 |
+
+Every page fits without scrolling at a viewport height of 855px or more. On a
+1366×768 laptop, 12 of the 33 text pages scroll. See `docs/DECISIONS.md`.

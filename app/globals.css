@@ -36,6 +36,91 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ------------------------------------------------------------
+   The page as a container.
+
+   Body type is sized in cqh against the page, not in vh against the
+   viewport. What constrains the prose is the height of the PAGE; those two
+   coincide only while the book is sized directly from the viewport, and stop
+   coinciding the moment a reader is embedded in a column or a modal.
+   See extraction 6.3.
+
+   container-type: size requires a definite height, which the page has: 100%
+   of a spread whose height comes from a fixed aspect ratio.
+   ------------------------------------------------------------ */
+.mb-page {
+  container-type: size;
+  container-name: page;
+}
+
+/* ------------------------------------------------------------
+   The page turn.
+
+   A curl, not a slide and not a 3D card flip: the sheet rotates about the
+   gutter and casts a moving shadow on the page beneath.
+   ------------------------------------------------------------ */
+
+/* Forward: the right page lifts and rotates left about the gutter. */
+@keyframes mb-turn-fwd {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(-180deg); }
+}
+/* Back: the left page lifts and rotates right. */
+@keyframes mb-turn-back {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(180deg); }
+}
+/* Compact turns a single full-width page about its inner edge. */
+@keyframes mb-turn-fwd-single {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(-170deg); }
+}
+@keyframes mb-turn-back-single {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(170deg); }
+}
+
+/* The shadow the lifting sheet casts on the page beneath. Rises as the sheet
+   passes overhead, falls away as it lands. */
+@keyframes mb-turn-shade {
+  0%   { opacity: 0; }
+  38%  { opacity: 0.42; }
+  70%  { opacity: 0.18; }
+  100% { opacity: 0; }
+}
+
+/* The sheet's own face darkens as it tips away from the light. Together with
+   the layer above, this is what stops the curl reading as a card flip. */
+@keyframes mb-turn-self {
+  0%   { opacity: 0; }
+  50%  { opacity: 0.30; }
+  100% { opacity: 0; }
+}
+
+@keyframes mb-crossfade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Bottom chrome auto-hides. The top chrome never does: auto-hiding the exit
+   means that three seconds into the book there is no way out on screen and no
+   sign there ever was one. */
+.mb-chrome { transition: opacity 260ms cubic-bezier(0.22, 0.61, 0.36, 1); }
+.mb-chrome[data-hidden='true'] { opacity: 0; pointer-events: none; }
+
+/* prefers-reduced-motion: replace the curl with a short crossfade.
+   The global reduce block below zeroes every animation with !important on the
+   universal selector; a class selector outranks * on specificity, so the
+   crossfade survives while the curl does not. */
+@media (prefers-reduced-motion: reduce) {
+  .mb-sheet { display: none !important; }
+  .mb-shade { display: none !important; }
+  .mb-crossfade {
+    animation: mb-crossfade 120ms linear !important;
+    animation-duration: 120ms !important;
+  }
+}
+
 /* Focus rings are never suppressed without replacement. */
 .focus-ring:focus-visible {
   outline: 2px solid #6B52C8;

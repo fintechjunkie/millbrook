@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "parse": "node scripts/parse-specs.mjs",
+    "prebuild": "node scripts/parse-specs.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

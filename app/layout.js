@@ -1,28 +1,16 @@
-import { Libre_Franklin, Barlow } from 'next/font/google';
 import './globals.css';
 
-// Self-hosted at build time by next/font. No runtime request to Google, no
-// FOUT beyond display: swap.
+// No webfonts.
 //
-// Both candidates load regular and bold, upright and italic, because a text
-// page needs all four: body regular, section heading bold, the closing
-// "To be continued" line italic.
-
-const libreFranklin = Libre_Franklin({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-libre-franklin',
-  display: 'swap',
-});
-
-const barlow = Barlow({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-barlow',
-  display: 'swap',
-});
+// The build brief specifies Arial, which is a system font, so nothing is
+// loaded: no next/font, no self-hosted woff2, no FOUT, and no build-time fetch
+// to Google that a locked-down network could fail on (extraction gotcha 7).
+//
+// The choice was measured rather than assumed. Arial was compared against
+// Libre Franklin and Barlow on the densest page in the four volumes, Volume 1
+// spread 8 at 336 words, at true page size. Below 14px all three produced
+// identical line counts, so fit was not a differentiator; above it Arial sat
+// between the two. See docs/DECISIONS.md.
 
 export const metadata = {
   title: 'Millbrook',
@@ -31,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${libreFranklin.variable} ${barlow.variable}`}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

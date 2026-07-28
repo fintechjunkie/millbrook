@@ -1,0 +1,800 @@
+{
+  "volume": 2,
+  "source": "WELCOME_TO_MILLBROOK_Patch_Notes_Part_2.md",
+  "chapter": "Part Two: The Bookstore That Was Always There",
+  "specVersion": "1 | Date: 2026-07-28",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Patch Notes",
+        "part": "Part Two: The Bookstore That Was Always There"
+      },
+      "image": {
+        "slug": "vol2-opener",
+        "shotType": "Establishing (full bleed, both pages)",
+        "depicts": "The corner of Maple and Fourth as it currently is. No story beat.",
+        "spoilerCheck": "PASS. Deliberately shows the corner in its vape store state. The bookstore is the reveal on text page 2 and must not appear here.",
+        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_A}}\nThe corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.\nExterior, first light.\nWide establishing shot from across the intersection, deep focus.\nGrey pre-dawn ambient with the sign's sour electric glow as the only warm note.\n{{NEGATIVE}}\nAspect ratio: 4:3",
+        "aspect": "4:3",
+        "alt": "A cheap corner storefront under a gray awning at first light, its window sign glowing, the street empty."
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 283,
+      "words": 280,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Laundromat"
+        },
+        {
+          "t": "p",
+          "v": "Lena got there at eight forty-five with two coffees, oat milk in one of them, and a head full of questions she’d been writing down all night."
+        },
+        {
+          "t": "p",
+          "v": "The laundromat on Crescent was empty except for a tired-looking woman folding towels and the hum of a dryer that had been running too long. Lena sat on the bench by the window and waited."
+        },
+        {
+          "t": "p",
+          "v": "At nine on the dot, the door chimed."
+        },
+        {
+          "t": "p",
+          "v": "The girl with the white hair walked in, sat down across from her, and slid the dashcam across the table."
+        },
+        {
+          "t": "p",
+          "v": "“Sorry. I needed the SD card.”"
+        },
+        {
+          "t": "p",
+          "v": "“You could have just asked.”"
+        },
+        {
+          "t": "p",
+          "v": "“You would have said no.”"
+        },
+        {
+          "t": "p",
+          "v": "“Fair.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena slid the oat milk coffee across. The girl took it without saying thank you and drank like she’d been awake for a while."
+        },
+        {
+          "t": "p",
+          "v": "“I’m Vex.”"
+        },
+        {
+          "t": "p",
+          "v": "“Lena.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know who you are. I read your folder.”"
+        },
+        {
+          "t": "p",
+          "v": "“You what.”"
+        },
+        {
+          "t": "p",
+          "v": "“Your laptop was open in your aunt’s window when I walked past last night. Your folder is solid. The Reddit thread from December is good. You missed three posts though.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena put her coffee down. “Okay. We’re going to talk about the part where you walked past my aunt’s house at night.”"
+        },
+        {
+          "t": "p",
+          "v": "“We really aren’t.”"
+        },
+        {
+          "t": "p",
+          "v": "The door chimed again. The other girl walked in, and Lena felt her brain do a small recalibration. Goggles in her hair. Patched jacket. Skin a shade too even. Eyes that tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t."
+        },
+        {
+          "t": "p",
+          "v": "“Oh,” Lena said, before she could stop herself. “You’re a robot.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "“Sorry.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s fine. People notice or they don’t. You noticed. That’s honest.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s01",
+        "shotType": "Character portrait",
+        "depicts": "Beat 5. Pip at the laundromat table with her hands set flat and slightly too symmetrical.",
+        "spoilerCheck": "PASS. Final beat is Pip's line about noticing being honest. The line is dialogue and the image carries no speech; her mouth is closed.",
+        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:LAUNDROMAT}}\nSeated at a small table with both hands laid flat on the surface in a placement that is a shade too even, head level, mouth closed, gaze steady and slightly past the viewer. No drink in front of her.\nInterior, nine in the morning.\nClose shot, straight on at eye level, hands included at the bottom of frame, shallow depth.\nFlat fluorescent overhead mixed with cold window light from the left.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A girl sits at a laundromat table with both hands laid flat and evenly on the surface, looking slightly past the viewer."
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 230,
+      "words": 226,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Pip sat down at the table without being invited. She didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical."
+        },
+        {
+          "t": "p",
+          "v": "“She’s not being rude,” Vex said. “Her head’s loud right now.”"
+        },
+        {
+          "t": "p",
+          "v": "“My head is loud,” Pip agreed. “There’s a small one running. Maple and Fourth.”"
+        },
+        {
+          "t": "p",
+          "v": "“A small what.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex pulled out her phone. “We should go.”"
+        },
+        {
+          "t": "h",
+          "v": "Maple And Fourth"
+        },
+        {
+          "t": "p",
+          "v": "Maple and Fourth had a vape store on the corner. Lena remembered it from yesterday because she’d walked past it on her way back from the press conference. Cheap signage. Gray awning. A flickering OPEN light in the window that had been making her eye twitch."
+        },
+        {
+          "t": "p",
+          "v": "It was a bookstore now."
+        },
+        {
+          "t": "p",
+          "v": "The awning was navy blue. Painted lettering said HOLLOW PINE BOOKS. The window had a display of paperbacks, hand-lettered cards with little staff recommendations, and a fat ginger cat sleeping on a stack of cookbooks. The OPEN sign was carved out of wood."
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” Lena said slowly. “Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex was already filming. “You see this. You’re seeing this with your own eyes.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m seeing it.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yesterday this was a vape store.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yesterday this was a vape store.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip stood very still on the sidewalk. Her head was tilted slightly. “It’s settled now. Whatever it was doing, it’s done.”"
+        },
+        {
+          "t": "p",
+          "v": "The bell over the door chimed when Lena pushed it open."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s02",
+        "shotType": "Establishing or location",
+        "depicts": "Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.",
+        "spoilerCheck": "PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.",
+        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_B}}\nThe same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.\nExterior, mid morning.\nWide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.\nWarm direct morning sun on the awning, deep shade under it.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A corner bookshop with a navy awning and a window display of paperbacks, a ginger cat asleep among them."
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 258,
+      "words": 258,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Inside smelled like paper and a cinnamon candle. Wooden shelves. Worn rugs. The kind of store that had been there for thirty years, the kind of store you couldn’t build in a month if you tried. The woman behind the counter looked up and smiled. She was maybe sixty. Reading glasses on a chain. A green cardigan with one button replaced by a different green button."
+        },
+        {
+          "t": "p",
+          "v": "“Morning, ladies.”"
+        },
+        {
+          "t": "p",
+          "v": "“Hi,” Lena said. “Can I ask you something kind of weird.”"
+        },
+        {
+          "t": "p",
+          "v": "“Sure.”"
+        },
+        {
+          "t": "p",
+          "v": "“How long have you been here.”"
+        },
+        {
+          "t": "p",
+          "v": "The woman thought about it the way people think about things they’ve never had to think about. “Oh. Hollow Pine opened in 2019. So six years now.”"
+        },
+        {
+          "t": "p",
+          "v": "“Six years.”"
+        },
+        {
+          "t": "p",
+          "v": "“Mm-hmm.”"
+        },
+        {
+          "t": "p",
+          "v": "“Do you remember opening day.”"
+        },
+        {
+          "t": "p",
+          "v": "The woman’s smile flickered. Just a little. “Well. You know how it is. Long time ago. I remember the cake. Vanilla cake. We ran out by lunch.”"
+        },
+        {
+          "t": "p",
+          "v": "“What was here before.”"
+        },
+        {
+          "t": "p",
+          "v": "“Before Hollow Pine?”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "Another flicker. Longer this time. “I don’t. Hm. I don’t actually remember. Isn’t that funny.”"
+        },
+        {
+          "t": "p",
+          "v": "She kept smiling. The smile didn’t change. The eyes did."
+        },
+        {
+          "t": "p",
+          "v": "Vex was browsing the shelf nearest the counter, pretending to read titles. Pip was by the door, looking at a flyer board, head tilted in that listening way. Lena bought a paperback she didn’t want, said thank you, and walked out."
+        },
+        {
+          "t": "p",
+          "v": "On the sidewalk, all three of them stood there for a second."
+        },
+        {
+          "t": "p",
+          "v": "“She’s real,” Pip said quietly. “Her pulse is real. Her breathing is real. I checked.”"
+        },
+        {
+          "t": "p",
+          "v": "“Is she though,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "Nobody had an answer."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s03",
+        "shotType": "Character portrait",
+        "depicts": "Beat 2. The woman behind the counter looking up and smiling.",
+        "spoilerCheck": "PASS. Final beat is the three of them standing on the sidewalk with no answer. Not depicted; scene stays inside the shop. Her smile here is uncomplicated, the flicker belongs to the prose.",
+        "prompt": "{{STYLE}}\n{{CHAR:GREEN_CARDIGAN_WOMAN}}\n{{WARDROBE:CARDIGAN_A}}\n{{LOC:HOLLOW_PINE_INT}}\nStanding behind a wooden counter, looking up from a task and smiling warmly at the viewer, reading glasses down on their chain, hands still resting on whatever she was doing.\nInterior, mid morning.\nMedium close shot, straight on at eye level, shallow depth so the shelves behind go soft.\nWarm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A woman in her sixties in a green cardigan smiles from behind a wooden shop counter, reading glasses on a chain."
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 288,
+      "words": 284,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Warehouse Door"
+        },
+        {
+          "t": "p",
+          "v": "Owen had been trying to pull the city tax records for the building at Maple and Fourth for forty minutes when the back door opened and three girls he had not invited walked in."
+        },
+        {
+          "t": "p",
+          "v": "“Nope,” he said, without turning around."
+        },
+        {
+          "t": "p",
+          "v": "“Milo here?” Vex asked."
+        },
+        {
+          "t": "p",
+          "v": "“He’s in the back. Get out.”"
+        },
+        {
+          "t": "p",
+          "v": "Felix popped up from the couch like a meerkat. “Hi. Wait. Hi.” He looked at Lena. “You’re the press conference one.” He looked at Vex. “You’re the dashcam one.” He looked at Pip. He stopped. He started again. He blinked. “You’re a robot.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“You’re a robot. In our warehouse.”"
+        },
+        {
+          "t": "p",
+          "v": "“Technically I’m on the welcome mat. I haven’t crossed the threshold yet. Is that a problem.”"
+        },
+        {
+          "t": "p",
+          "v": "“No. No. Come in. Please come in. Owen, look.”"
+        },
+        {
+          "t": "p",
+          "v": "“I heard,” Owen said, still not turning."
+        },
+        {
+          "t": "p",
+          "v": "Milo came out from the back, saw the three of them, and stopped walking."
+        },
+        {
+          "t": "p",
+          "v": "“Oh,” he said."
+        },
+        {
+          "t": "p",
+          "v": "“Oh,” Lena agreed. “Hi. We need to talk. Maple and Fourth is a bookstore now.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s a vape store.”"
+        },
+        {
+          "t": "p",
+          "v": "“It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers a vanilla cake and not what was there before.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing. New entry. Time stamped four minutes ago."
+        },
+        {
+          "t": "p",
+          "v": "“You were there when it happened,” Owen said. He sounded almost personally offended."
+        },
+        {
+          "t": "p",
+          "v": "“We were close.”"
+        },
+        {
+          "t": "p",
+          "v": "“How close.”"
+        },
+        {
+          "t": "p",
+          "v": "“Two blocks.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip had walked over to Owen’s screens. She was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s04",
+        "shotType": "Action moment",
+        "depicts": "Beat 3. Felix coming up over the back of the couch like a meerkat.",
+        "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; no monitors in frame and Pip is absent.",
+        "prompt": "{{STYLE}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nPopping suddenly upright from behind the back of a sagging couch, both hands on the cushion top, delighted and mid-word, a small gecko clinging to his shoulder.\nInterior, mid morning.\nMedium shot, camera at couch height so he rises into the top of frame, shallow depth.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A grinning teenage boy in a floral bucket hat pops up from behind a couch with a small gecko on his shoulder."
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 217,
+      "words": 210,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Owen turned. Slowly. Like a man who didn’t want to acknowledge that someone in the room had just said something true that he hadn’t told them."
+        },
+        {
+          "t": "p",
+          "v": "“It does.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s tuned wrong.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s tuned to what we hear.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s tuned to what your equipment hears. There’s a band above it. The patches don’t live where you’re listening. They live higher. I can hear them. You can’t.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen stared at her. “How do you know what my filter is set to.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m looking at it.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s in a config file.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“You can read a config file from across the room.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen turned back to his keyboard and started typing fast. “Don’t talk to me.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "“I mean it.”"
+        },
+        {
+          "t": "p",
+          "v": "“Okay.”"
+        },
+        {
+          "t": "p",
+          "v": "Felix had his hands on the back of his head. He was grinning. “This is the best day.”"
+        },
+        {
+          "t": "h",
+          "v": "The Pig And The Bookstore Receipt"
+        },
+        {
+          "t": "p",
+          "v": "Lena was on the couch with the pig, who had decided she was acceptable. Vex was inspecting Felix’s Shop and pulling apart his most recent invention without asking. Felix was watching her do it and making small distressed noises he was trying to hide. Pip stood near Owen, not talking, listening to whatever her head was telling her. Monke was on the high shelf, watching everything, granola bar suspended halfway to his mouth."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s05",
+        "shotType": "Object or detail",
+        "depicts": "Beat 2. Owen's desk after he has turned back to the keyboard and started typing fast.",
+        "spoilerCheck": "PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the shelves are out of shot.",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA close view across a keyboard and desk edge, a row of dented energy drink cans lined up along the back, cables spilling off the near side, monitor bezels at the top of frame with the screens rendered as pure glow and no legible content. No figures, only a blurred forearm leaving frame at the far edge.\nInterior, mid morning.\nClose shot, camera low and level with the desk surface, very shallow depth on the nearest can.\nCold screen light from above and behind the objects, long shadows pulled toward the viewer.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A close view along a desk edge past a row of energy drink cans toward the glow of unreadable monitors."
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 229,
+      "words": 229,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Milo sat down next to Lena, careful to leave a polite distance."
+        },
+        {
+          "t": "p",
+          "v": "“You shouldn’t be here,” he said."
+        },
+        {
+          "t": "p",
+          "v": "“Weird thing to say to someone you invited.”"
+        },
+        {
+          "t": "p",
+          "v": "“I didn’t invite you.”"
+        },
+        {
+          "t": "p",
+          "v": "“You didn’t stop me.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo almost smiled. He didn’t quite let it happen."
+        },
+        {
+          "t": "p",
+          "v": "“The woman in the bookstore,” Lena said. “Is she real.”"
+        },
+        {
+          "t": "p",
+          "v": "“I don’t know.”"
+        },
+        {
+          "t": "p",
+          "v": "“Has this happened before. People.”"
+        },
+        {
+          "t": "p",
+          "v": "“Not like this. Buildings. A house number changed once. A road sign. We’ve seen things rewrite. We haven’t seen people rewrite.”"
+        },
+        {
+          "t": "p",
+          "v": "“So either she’s a real person whose history just got rewritten under her, or she didn’t exist this morning and now she does.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yeah.”"
+        },
+        {
+          "t": "p",
+          "v": "“One of those is a lot worse than the other.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yeah.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena pulled the paperback out of her bag. She’d bought it because she’d felt weird leaving without buying anything. It was an old mystery novel with a cracked spine. There was a Hollow Pine receipt sticking out of the top, slightly yellowed, dated 2019."
+        },
+        {
+          "t": "p",
+          "v": "She handed it to Milo."
+        },
+        {
+          "t": "p",
+          "v": "“This was in the book.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo turned it over. The receipt was for the same book she’d just bought. Bought by someone named M. Avery. June 14, 2019."
+        },
+        {
+          "t": "p",
+          "v": "“This receipt is six years old.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yep.”"
+        },
+        {
+          "t": "p",
+          "v": "“You bought this book three minutes ago.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yep.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo looked at the receipt for a long time."
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” he said. “We’re going to need help on this one.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s06",
+        "shotType": "Character portrait",
+        "depicts": "Beat 1. Milo sitting down on the couch beside Lena, leaving a careful gap.",
+        "spoilerCheck": "PASS. Final beat is Milo saying they will need help. Not depicted; the receipt is not in frame and neither is speaking.",
+        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{LOC:WAREHOUSE_PIT}}\nTwo figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.\nInterior, early afternoon.\nMedium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.\nSoft high window light from above and behind, no hard shadow.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "Two teenagers sit at opposite ends of a sagging couch with a gap between them, a pig asleep against one of them."
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 226,
+      "words": 222,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Aunt Carol’s Kitchen"
+        },
+        {
+          "t": "p",
+          "v": "It was almost dinner when Lena walked back into Aunt Carol’s house. Aunt Carol was at the kitchen table, glasses on the end of her nose, sorting through a small box of receipts and old envelopes."
+        },
+        {
+          "t": "p",
+          "v": "“Did you eat,” Aunt Carol said."
+        },
+        {
+          "t": "p",
+          "v": "“Yeah. Sort of.”"
+        },
+        {
+          "t": "p",
+          "v": "“There’s leftover lasagna.”"
+        },
+        {
+          "t": "p",
+          "v": "“Maybe later.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena pulled out a chair and sat down. The receipt from the bookstore was in her pocket. She took it out, set it on the table, and slid it across."
+        },
+        {
+          "t": "p",
+          "v": "“Have you ever heard of a bookstore called Hollow Pine.”"
+        },
+        {
+          "t": "p",
+          "v": "Aunt Carol looked at the receipt. Looked at it for longer than she needed to. Took her glasses off and rubbed the bridge of her nose."
+        },
+        {
+          "t": "p",
+          "v": "“I bought your birthday card there. Two years ago. The one with the dog on it.”"
+        },
+        {
+          "t": "p",
+          "v": "“You remember that.”"
+        },
+        {
+          "t": "p",
+          "v": "“Mm-hmm.”"
+        },
+        {
+          "t": "p",
+          "v": "“It was a vape store yesterday, Aunt Carol.”"
+        },
+        {
+          "t": "p",
+          "v": "Aunt Carol put her glasses back on. She didn’t look surprised. She didn’t look confused. She looked tired in the specific way people look when they’ve been carrying something for a long time."
+        },
+        {
+          "t": "p",
+          "v": "“Honey. This town gives things. Just remember it always wants something back.”"
+        },
+        {
+          "t": "p",
+          "v": "“What does that mean.”"
+        },
+        {
+          "t": "p",
+          "v": "“I don’t know. Nobody knows. We just live here.”"
+        },
+        {
+          "t": "p",
+          "v": "Aunt Carol put the receipt back in her box of papers, like it belonged there, and went back to sorting."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s07",
+        "shotType": "Atmospheric or empty",
+        "depicts": "Beat 1. The kitchen at dinner time, the small box of papers already open on the table.",
+        "spoilerCheck": "PASS. Final beat is Aunt Carol filing the receipt away as though it belongs there. Not depicted; no hands, no receipt, no figures.",
+        "prompt": "{{STYLE}}\n{{LOC:AUNT_CAROL_KITCHEN}}\nA worn kitchen table with a shoebox of envelopes and receipts open on it, one chair pulled out and empty, a pair of reading glasses folded on the tablecloth, a plate covered with foil pushed to one side. No figures present.\nInterior, dusk.\nMedium-wide shot from the doorway, slightly high angle, deep focus.\nSingle warm bulb hanging low over the table, the corners of the room going to dark blue.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A kitchen table under a low hanging bulb with an open shoebox of papers, folded reading glasses, and an empty pulled-out chair."
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 230,
+      "words": 227,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Radio"
+        },
+        {
+          "t": "p",
+          "v": "Late that night, in her apartment above the hardware store, Vex was sitting on the floor going through her bin of broken devices."
+        },
+        {
+          "t": "p",
+          "v": "Most of them were dead. They’d been dead for months. Old radios, busted phones, a pair of walkie-talkies that had been left in the rain, a baby monitor she’d found in a free pile. She kept them because they’d all stopped working at the same time, on the same night, six months ago. The night the patches had started."
+        },
+        {
+          "t": "p",
+          "v": "She’d been telling herself she kept them because they were evidence."
+        },
+        {
+          "t": "p",
+          "v": "She knew that wasn’t why."
+        },
+        {
+          "t": "p",
+          "v": "Tonight, the radio at the bottom of the bin was making a sound."
+        },
+        {
+          "t": "p",
+          "v": "Vex pulled it out slowly. It was a small old transistor radio with a cracked dial. She hadn’t put batteries in it. She had never put batteries in it. The battery compartment was empty and the contacts were green with corrosion."
+        },
+        {
+          "t": "p",
+          "v": "It hummed."
+        },
+        {
+          "t": "p",
+          "v": "She set it on the floor. She stared at it. The hum was very faint, the kind of sound you only heard if you stopped breathing for a second to listen."
+        },
+        {
+          "t": "p",
+          "v": "Then the hum shaped itself into a word. One word. Clear. Quiet. Almost polite."
+        },
+        {
+          "t": "p",
+          "v": "“Hello.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex did not move."
+        },
+        {
+          "t": "p",
+          "v": "The radio waited. Like it was being patient with her."
+        },
+        {
+          "t": "p",
+          "v": "Then it went silent."
+        },
+        {
+          "t": "i",
+          "v": "To be continued in Part Three: Mr. Henderson’s Knee"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s08",
+        "shotType": "Object or detail",
+        "depicts": "Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.",
+        "spoilerCheck": "PASS. Final beat is the radio saying hello and then going silent. Not depicted; the radio is inert, the battery door is open and empty, nothing is lit.",
+        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.\nInterior, late night.\nClose overhead shot, slight angle, shallow depth on the empty battery compartment.\nOne weak lamp from off to the left, the rest of the floor falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 2:3",
+        "aspect": "2:3",
+        "alt": "A bin of dead electronics on a floor with a small old transistor radio on top, its empty battery compartment open and corroded."
+      }
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "specVersion": 1,
+  "styleApproved": false,
+  "style": "Digital painting in the register of contemporary graphic-novel illustration. Soft brush rendering laid over a visible underdrawing, with edges left slightly unresolved rather than cleaned up. Palette restrained to warm neutrals, dusty greens and greyed blues, with one saturated warm accent permitted per image and withheld everywhere else in that image. Line present but broken and variable, never a uniform ink weight. Medium detail: forms fully described, surfaces suggested rather than rendered to photographic fidelity. Mood plain and faintly hollow, ordinary places treated with slightly more seriousness than they have earned.",
+  "negative": "No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no 3D render finish, no anime house style. No borders, frames, panel gutters or drop shadows.",
+  "aspect": {
+    "imagePage": "2:3",
+    "chapterOpener": "4:3"
+  },
+  "characters": {
+    "LENA": {
+      "token": "LENA",
+      "immutable": "An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.",
+      "immutableInactive": null,
+      "canonicalRef": "char-lena-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her."
+    },
+    "MILO": {
+      "token": "MILO",
+      "immutable": "An eighteen year old boy, tall and lean, skin carrying a distinct cool green tinge, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.",
+      "immutableInactive": null,
+      "canonicalRef": "char-milo-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "Because the eyes are unavailable, everything expressive has to be carried by mouth, shoulders and the angle of the head. Prompts for him should always specify posture."
+    },
+    "VEX": {
+      "token": "VEX",
+      "immutable": "A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is white, short and coarse, sticking out in pieces from under a battered brown leather aviator cap with two small stitched cat ears on the crown and unbuckled ear flaps. She wears a black leather jacket with silver zippers over a plain black shirt. No goggles.",
+      "immutableInactive": "identical except that the hair is bright mint green, worn in two messy buns high on either side of the head held with a small red hair tie, and there is no aviator cap.",
+      "canonicalRef": "char-vex-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no, blocked by 1.1",
+      "renderingNote": null
+    },
+    "PIP": {
+      "token": "PIP",
+      "immutable": "A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.",
+      "immutableInactive": null,
+      "canonicalRef": "char-pip-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch."
+    },
+    "OWEN": {
+      "token": "OWEN",
+      "immutable": "An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.",
+      "immutableInactive": null,
+      "canonicalRef": "char-owen-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "FELIX": {
+      "token": "FELIX",
+      "immutable": "An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.",
+      "immutableInactive": null,
+      "canonicalRef": "char-felix-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "MONKE": {
+      "token": "MONKE",
+      "immutable": "A small brown monkey with dark sharp eyes, slender limbs and a long tail.",
+      "immutableInactive": null,
+      "canonicalRef": "char-monke-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "AUNT_CAROL": {
+      "token": "AUNT_CAROL",
+      "immutable": "A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.",
+      "immutableInactive": null,
+      "canonicalRef": "char-carol-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "She is not defeated and should not be drawn sad. The register is a woman carrying something heavy competently and for a long time."
+    },
+    "MAYOR_DALTON": {
+      "token": "MAYOR_DALTON",
+      "immutable": "A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.",
+      "immutableInactive": null,
+      "canonicalRef": "char-dalton-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "ADMIRAL_CRANE": {
+      "token": "ADMIRAL_CRANE",
+      "immutable": "A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.",
+      "immutableInactive": null,
+      "canonicalRef": "char-crane-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "CASSIE": {
+      "token": "CASSIE",
+      "immutable": "A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.",
+      "immutableInactive": null,
+      "canonicalRef": "char-cassie-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "The hearing aid is the whole point and must stay visible in every image of her. In Volume 4 she wears over-ear headphones and the aid is beneath them, so specify that it is still there."
+    },
+    "MR_HENDERSON": {
+      "token": "MR_HENDERSON",
+      "immutable": "A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.",
+      "immutableInactive": null,
+      "canonicalRef": "char-henderson-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "GREEN_CARDIGAN_WOMAN": {
+      "token": "GREEN_CARDIGAN_WOMAN",
+      "immutable": "A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.",
+      "immutableInactive": null,
+      "canonicalRef": "char-cardigan-canonical.png",
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": "Never render her as sinister. The mismatched button is the only thing in the frame that is wrong, and it should be legible without being pointed at."
+    }
+  },
+  "wardrobe": {
+    "LENA_A": {
+      "token": "LENA_A",
+      "value": "Travel clothes, oversized orange collared shirt worn open over a plain tee, satchel strap running diagonally across the chest",
+      "storyTime": "Vol 1, day one"
+    },
+    "LENA_B": {
+      "token": "LENA_B",
+      "value": "Same orange collared shirt, sleeves pushed up, satchel strap present",
+      "storyTime": "Vol 2, day two"
+    },
+    "LENA_C": {
+      "token": "LENA_C",
+      "value": "Same orange collared shirt, worn buttoned, satchel strap present",
+      "storyTime": "Vol 3"
+    },
+    "LENA_D": {
+      "token": "LENA_D",
+      "value": "Same orange collared shirt, visibly creased and slept in, satchel strap present",
+      "storyTime": "Vol 4"
+    },
+    "MILO_A": {
+      "token": "MILO_A",
+      "value": "Signature: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes",
+      "storyTime": "all"
+    },
+    "VEX_A": {
+      "token": "VEX_A",
+      "value": "Signature: aviator cap, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes",
+      "storyTime": "all"
+    },
+    "PIP_A": {
+      "token": "PIP_A",
+      "value": "Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes",
+      "storyTime": "all"
+    },
+    "OWEN_A": {
+      "token": "OWEN_A",
+      "value": "Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes",
+      "storyTime": "all"
+    },
+    "FELIX_A": {
+      "token": "FELIX_A",
+      "value": "Signature: floral bucket hat, black turtleneck, purple polka-dot button-up",
+      "storyTime": "all"
+    },
+    "CAROL_A": {
+      "token": "CAROL_A",
+      "value": "Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone",
+      "storyTime": "all"
+    },
+    "MAYOR_A": {
+      "token": "MAYOR_A",
+      "value": "Ill-fitting grey suit, red 3D glasses, a tired patterned tie",
+      "storyTime": "Vols 1 to 3"
+    },
+    "MAYOR_B": {
+      "token": "MAYOR_B",
+      "value": "The same ill-fitting grey suit and red 3D glasses, but a conspicuously **new** tie, stiff and bright and still holding its fold creases",
+      "storyTime": "Vol 4 only"
+    },
+    "CRANE_A": {
+      "token": "CRANE_A",
+      "value": "Navy dress uniform, full medals, pale blue medical mask",
+      "storyTime": "all"
+    },
+    "CASSIE_A": {
+      "token": "CASSIE_A",
+      "value": "Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket",
+      "storyTime": "Vol 3"
+    },
+    "CASSIE_B": {
+      "token": "CASSIE_B",
+      "value": "The same hoodie, plus large over-ear headphones. The hearing aid is still present beneath them. Holding a folded sheet of paper with handwriting that is not legible",
+      "storyTime": "Vol 4"
+    },
+    "HENDERSON_A": {
+      "token": "HENDERSON_A",
+      "value": "Button-down and khakis, worn old slip-on shoes, no running shoes yet",
+      "storyTime": "Vol 3, Tuesday morning"
+    },
+    "HENDERSON_B": {
+      "token": "HENDERSON_B",
+      "value": "Button-down and khakis with brand new white running shoes, one of which still carries a price tag on the tongue",
+      "storyTime": "Vol 3 afternoon onward, and Vol 4"
+    },
+    "CARDIGAN_A": {
+      "token": "CARDIGAN_A",
+      "value": "Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain",
+      "storyTime": "all"
+    }
+  },
+  "locations": {
+    "MILLBROOK_WIDE": {
+      "token": "MILLBROOK_WIDE",
+      "block": "A small flat American town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon, no hills, no landmarks worth photographing.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "MILLBROOK_RESIDENTIAL": {
+      "token": "MILLBROOK_RESIDENTIAL",
+      "block": "A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.",
+      "uses": 2,
+      "canonicalRef": "loc-residential.png"
+    },
+    "CRESCENT_HOUSE_EXT": {
+      "token": "CRESCENT_HOUSE_EXT",
+      "block": "A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "BACK_BEDROOM": {
+      "token": "BACK_BEDROOM",
+      "block": "A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "AUNT_CAROL_KITCHEN": {
+      "token": "AUNT_CAROL_KITCHEN",
+      "block": "A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "AUNT_CAROL_LIVING_ROOM": {
+      "token": "AUNT_CAROL_LIVING_ROOM",
+      "block": "A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "MAIN_STREET": {
+      "token": "MAIN_STREET",
+      "block": "A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "THE_PARK": {
+      "token": "THE_PARK",
+      "block": "A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "TOWN_HALL_SQUARE": {
+      "token": "TOWN_HALL_SQUARE",
+      "block": "A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.",
+      "uses": 6,
+      "canonicalRef": "loc-square.png"
+    },
+    "WAREHOUSE_PIT": {
+      "token": "WAREHOUSE_PIT",
+      "block": "The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above.",
+      "uses": 7,
+      "canonicalRef": "loc-pit.png"
+    },
+    "WAREHOUSE_TERMINALS": {
+      "token": "WAREHOUSE_TERMINALS",
+      "block": "The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.",
+      "uses": 4,
+      "canonicalRef": "loc-terminals.png"
+    },
+    "WAREHOUSE_SHOP": {
+      "token": "WAREHOUSE_SHOP",
+      "block": "A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "WAREHOUSE_EXT": {
+      "token": "WAREHOUSE_EXT",
+      "block": "The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "VEX_APARTMENT": {
+      "token": "VEX_APARTMENT",
+      "block": "A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.",
+      "uses": 2,
+      "canonicalRef": "loc-vex-apartment.png"
+    },
+    "LAUNDROMAT": {
+      "token": "LAUNDROMAT",
+      "block": "A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "MAPLE_AND_FOURTH_A": {
+      "token": "MAPLE_AND_FOURTH_A",
+      "block": "A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.**",
+      "uses": 1,
+      "canonicalRef": "loc-corner-a.png"
+    },
+    "MAPLE_AND_FOURTH_B": {
+      "token": "MAPLE_AND_FOURTH_B",
+      "block": "The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.**",
+      "uses": 1,
+      "canonicalRef": "loc-corner-b.png"
+    },
+    "HOLLOW_PINE_INT": {
+      "token": "HOLLOW_PINE_INT",
+      "block": "The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.",
+      "uses": 2,
+      "canonicalRef": "loc-hollow-pine-int.png"
+    },
+    "HENDERSON_PORCH": {
+      "token": "HENDERSON_PORCH",
+      "block": "The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "OLD_SCHOOL": {
+      "token": "OLD_SCHOOL",
+      "block": "A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains.",
+      "uses": 1,
+      "canonicalRef": null
+    },
+    "HOTEL_ROOM": {
+      "token": "HOTEL_ROOM",
+      "block": "A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.",
+      "uses": 1,
+      "canonicalRef": null
+    }
+  },
+  "blockingDecisions": [
+    {
+      "title": "Vex looks like two different people",
+      "resolved": false
+    },
+    {
+      "title": "Two goggle girls, introduced eleven pages apart",
+      "resolved": false
+    },
+    {
+      "title": "One em-dash in the source, Part 4",
+      "resolved": false
+    },
+    {
+      "title": "Pip's jacket, minor",
+      "resolved": false
+    }
+  ]
+}
