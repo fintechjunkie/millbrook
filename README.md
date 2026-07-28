@@ -103,5 +103,16 @@ Both come after the decisions above.
 | Blocking generations before spread work | 21 |
 | Realistic total generations, including regeneration | 60 to 64 |
 
-Every page fits without scrolling at a viewport height of 855px or more. On a
-1366×768 laptop, 12 of the 33 text pages scroll. See `docs/DECISIONS.md`.
+## Geometry
+
+A **16:9 spread of two 8:9 pages.** Text left, image right, never alternating.
+Chapter openers are one 16:9 image full-bleed across both pages, which fills the
+spread exactly.
+
+Images are **4:3 landscape** on the image pages and **16:9** on the four
+openers. Both were amended in the specs, by `scripts/migrate-aspect.mjs`, while
+zero images existed and the change was therefore free.
+
+No text page scrolls on any desktop viewport from 1280×720 to 2560×1440. Two
+balanced columns on desktop, one column on a phone, where pages do scroll by up
+to 211px on the densest page. See `docs/DECISIONS.md` for the measurements.

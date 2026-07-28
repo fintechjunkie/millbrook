@@ -46,7 +46,7 @@ Early morning before sunrise, blue hour.
 Wide establishing shot, high vantage, deep focus.
 Flat pre-dawn light, streetlights still burning, one lit kitchen window.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 16:9
 ```
 
 Alt text: A small town of low houses seen from above before sunrise, streetlights still on, a water tower in the distance.
@@ -104,7 +104,7 @@ Exterior, mid afternoon.
 Medium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.
 Warm late afternoon sun from the left, hard-edged shadows on the siding.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A teenage girl with a duffel bag at her feet stands at the bottom of a porch's steps, looking up at a yellow house.
@@ -160,7 +160,7 @@ Exterior sidewalk, late morning.
 Medium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.
 Flat overcast daylight, no strong shadow.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A short girl in a cap walks away along a sidewalk holding a small camera, glancing back over her shoulder.
@@ -224,7 +224,7 @@ Interior, roughly three in the morning.
 Close shot, camera slightly below eye level, monitors framing him on both sides.
 Cold monitor light as the only source, uplighting his face, everything behind him falling to black.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A bald young man sits in a desk chair between three glowing monitors in an otherwise dark room.
@@ -289,7 +289,7 @@ Interior, early morning, no daylight.
 Close shot from the side, camera at monitor height, shallow depth on the finger and the glass.
 Screen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A small monkey perched on top of a computer monitor reaches down and touches one finger to the screen.
@@ -347,7 +347,7 @@ Exterior, late morning.
 Close shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.
 Hard overhead sun, specular glare across his red lenses.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A heavyset man in an ill-fitting suit and red glasses stands behind a podium, grinning stiffly, sweating at one temple.
@@ -417,7 +417,7 @@ Exterior, midday.
 Wide establishing shot from across the lawn, deep focus, figures small in frame.
 Backlit from behind the bench, water throwing highlights, long grass shadows in the foreground.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit.
@@ -483,7 +483,7 @@ Interior, evening.
 Close overhead shot, slight angle, shallow depth on the memory card.
 One bare bulb from above and the laptop's cold spill from the left.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot.
@@ -561,7 +561,7 @@ Interior, the middle of the night.
 Close, camera lying flat and looking up, wide angle, deep focus.
 Single cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.
 {{NEGATIVE}}
-Aspect ratio: 2:3
+Aspect ratio: 4:3
 ```
 
 Alt text: A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame.

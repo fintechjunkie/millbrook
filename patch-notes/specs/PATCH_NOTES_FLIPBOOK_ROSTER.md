@@ -61,7 +61,9 @@ Two notes on why it is built this way. The single-accent rule gives every image 
 
 This block grows during production as failures reveal themselves. It lives here so additions propagate to every prompt in one edit.
 
-`Aspect ratio: 2:3` for every image page. `4:3` for the four chapter openers, which run full bleed across both pages of the spread.
+`Aspect ratio: 4:3` for every image page. `16:9` for the four chapter openers, which run full bleed across both pages of the spread.
+
+Amended from `2:3` and `4:3`. The reader spread is 16:9, made of two 8:9 pages, so an opener at 16:9 fills the spread exactly and a 4:3 plate sits landscape on its page. The previous portrait ratios were set against a 4:3 spread of two 2:3 pages. No images had been generated at the time of the change, so it cost nothing; after spread work begins it would cost a full regeneration.
 
 ---
 

@@ -9,6 +9,17 @@ import { color, grainStyle, paper, space, type } from '@/lib/millbrook/series';
 // measurement. Same reasoning as Unbroke's data-wx-page.
 const PAGE_ATTR = { 'data-mb-page': '' };
 
+/**
+ * "4:3" or "16:9" from a spec prompt into a CSS aspect-ratio value.
+ *
+ * Parsed rather than mapped, so changing a ratio in the specs needs no code
+ * change here. Falls back to 4:3, the standard image page ratio.
+ */
+function cssAspect(spec, fallback = '4 / 3') {
+  const m = /^\s*(\d+(?:\.\d+)?)\s*:\s*(\d+(?:\.\d+)?)\s*$/.exec(spec ?? '');
+  return m ? `${m[1]} / ${m[2]}` : fallback;
+}
+
 const PAGE = {
   position: 'relative',
   // height 100% is load-bearing rather than tidiness. Without it a page takes
@@ -78,7 +89,15 @@ export function TextPage({ spread, compact }) {
     >
       <div
         data-mb-flow
-        style={{ ...type.body, flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}
+        style={{
+          ...type.body,
+          flex: 1,
+          minHeight: 0,
+          overflowY: 'auto',
+          overflowX: 'hidden',
+          // Two columns on the wide spread, one on a phone. See series.js.
+          ...(compact ? {} : type.columns),
+        }}
       >
         {spread.blocks.map((b, i) => {
           if (b.t === 'h') {
@@ -128,10 +147,14 @@ export function TextPage({ spread, compact }) {
  * it means. That is deliberate, so it is used as given.
  */
 export function GraphicPage({ spread, compact }) {
-  const pad = compact ? space(6) : space(8);
+  // Tighter on a phone. A 4:3 plate can only ever occupy about a third of a
+  // 0.51 page, so what padding is left reads as the plate being stranded
+  // rather than as margin. Desktop keeps a generous margin because there the
+  // plate already fills most of the page.
+  const pad = compact ? space(3) : space(8);
   const g = spread.image;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
-  const aspect = g.aspect === '4:3' ? '4 / 3' : '2 / 3';
+  const aspect = cssAspect(g.aspect);
 
   return (
     <div
@@ -179,6 +202,73 @@ export function OpenerSpread({ spread, side, compact }) {
   // is what the compact single-page layout wants.
   const split = side === 'left' || side === 'right';
 
+  const titleBlock = (over) => (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: space(3),
+        textAlign: 'center',
+        color: paper.stock,
+        fontFamily: type.body.fontFamily,
+        ...(over ? { textShadow: '0 1px 14px rgba(0,0,0,0.55)' } : {}),
+      }}
+    >
+      <div style={{ ...type.utility, fontSize: compact ? 15 : 21, letterSpacing: '0.2em', lineHeight: 1.15 }}>
+        {t.title}
+      </div>
+      {t.subtitle && (
+        <div style={{ fontStyle: 'italic', fontSize: compact ? 12 : 15, opacity: 0.9 }}>
+          {t.subtitle}
+        </div>
+      )}
+      <div
+        aria-hidden="true"
+        style={{ width: 54, height: 1, background: paper.stock, opacity: 0.6, margin: `${space(1)} 0` }}
+      />
+      {t.series && (
+        <div style={{ ...type.utility, fontSize: compact ? 11 : 14, letterSpacing: '0.16em' }}>
+          {t.series}
+        </div>
+      )}
+      {t.part && (
+        <div style={{ fontSize: compact ? 12.5 : 16, fontWeight: 700 }}>{t.part}</div>
+      )}
+    </div>
+  );
+
+  // Compact is a genuinely different composition, not a scaled-down one.
+  //
+  // The opener image is 16:9 because it spans both pages of a 16:9 spread. A
+  // phone page is around 0.51, so full-bleeding it there would centre-crop a
+  // panorama down to a narrow vertical slice and throw away roughly three
+  // quarters of the frame, including whatever the prompt actually composed for.
+  // On a phone the image is therefore letterboxed at full width and the title
+  // sits beneath it rather than over it.
+  if (!split) {
+    return (
+      <div
+        {...PAGE_ATTR}
+        data-mb-kind="opener"
+        data-mb-spread={spread.n}
+        className="mb-page"
+        style={{
+          ...PAGE,
+          background: color.ink,
+          justifyContent: 'center',
+          gap: space(8),
+          padding: `${space(6)} ${space(5)}`,
+        }}
+      >
+        <div style={{ width: '100%', flex: 'none' }}>
+          <Plate slug={g.slug} alt={g.alt} shotType={g.shotType} aspect={cssAspect(g.aspect, '16 / 9')} />
+        </div>
+        {titleBlock(false)}
+      </div>
+    );
+  }
+
   return (
     <div
       {...PAGE_ATTR}
@@ -206,7 +296,7 @@ export function OpenerSpread({ spread, side, compact }) {
           slug={g.slug}
           alt={g.alt}
           shotType={g.shotType}
-          aspect="4 / 3"
+          aspect={cssAspect(g.aspect, '16 / 9')}
           fullBleed
         />
 
@@ -228,39 +318,10 @@ export function OpenerSpread({ spread, side, compact }) {
             left: 0,
             right: 0,
             bottom: 0,
-            padding: compact ? `${space(8)} ${space(7)}` : `${space(12)} ${space(14)}`,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: space(3),
-            textAlign: 'center',
-            color: paper.stock,
-            fontFamily: type.body.fontFamily,
-            textShadow: '0 1px 14px rgba(0,0,0,0.55)',
+            padding: `${space(12)} ${space(14)}`,
           }}
         >
-          <div style={{ ...type.utility, fontSize: compact ? 15 : 21, letterSpacing: '0.2em', lineHeight: 1.15 }}>
-            {t.title}
-          </div>
-          {t.subtitle && (
-            <div style={{ fontStyle: 'italic', fontSize: compact ? 12 : 15, opacity: 0.9 }}>
-              {t.subtitle}
-            </div>
-          )}
-          <div
-            aria-hidden="true"
-            style={{ width: 54, height: 1, background: paper.stock, opacity: 0.6, margin: `${space(1)} 0` }}
-          />
-          {t.series && (
-            <div style={{ ...type.utility, fontSize: compact ? 11 : 14, letterSpacing: '0.16em' }}>
-              {t.series}
-            </div>
-          )}
-          {t.part && (
-            <div style={{ fontSize: compact ? 12.5 : 16, fontWeight: 700 }}>
-              {t.part}
-            </div>
-          )}
+          {titleBlock(true)}
         </div>
       </div>
     </div>

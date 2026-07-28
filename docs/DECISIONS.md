@@ -32,6 +32,98 @@ ships, no FOUT, and no build-time fetch that a locked-down network could fail.
 be shortened, so the densest page sets the size for all 33. This is the reverse
 of the Unbroke project, where copy was written to fit a chosen size.
 
+## The spread is 16:9, not 4:3
+
+It began as 4:3, two 2:3 portrait pages, which followed from the image ratios in
+the specs. It moved for a measured reason.
+
+**Height is the binding constraint on any laptop.** For a fixed viewport height
+the spread height is already maxed out, so widening the book buys page area for
+free: the page gets wider without getting shorter. Largest body size at which
+all 33 pages fit:
+
+| | 1920×1080 | 1600×900 | 1366×768 |
+|---|---|---|---|
+| 4:3, one column | 16px | 12.5px | **10px** |
+| 16:9, two columns | 20px+ | 20px+ | 20px+ |
+
+The old geometry needed 10px at 1366×768 to avoid clipping, which is below the
+12px floor — hence 12 pages scrolling there. After the change:
+
+| Viewport | Page | Body | Chars/col | Scrolling |
+|---|---|---|---|---|
+| 2560×1440 | 840×945 | 16.4px | 45 | 0 of 33 |
+| 1920×1080 | 840×945 | 16.4px | 45 | 0 of 33 |
+| 1600×900 | 700×788 | 13.5px | 44 | 0 of 33 |
+| 1440×900 | 696×783 | 13.4px | 44 | 0 of 33 |
+| 1366×768 | 583×656 | 12px | 40 | 0 of 33 |
+| 1280×720 | 540×608 | 12px | 37 | 0 of 33 |
+
+**16:9 rather than 1.9:1** so the four chapter openers, which full-bleed across
+both pages and therefore must match the spread exactly, sit on a native image
+generation ratio and need no crop.
+
+`maxSpreadWidth` was raised from 1320 to 1680 at the same time. At 1320 the cap
+rather than the viewport became binding on a large display and shrank the page
+back down.
+
+### The consequence: two columns
+
+A single column on an 8:9 page runs 92–117 characters, far outside the readable
+45–75 band. Two columns lands at 37–45. This is a register shift, from *novel*
+toward *illustrated book*, and it was a deliberate trade for eliminating
+scrolling everywhere on desktop.
+
+Two columns are impossible on a phone — 24 characters each — so the compact
+layout stays single column and scrolls. `compact` already threaded through every
+page component, so this cost nothing.
+
+### Image aspect ratios changed with it
+
+Amended in the specs by `scripts/migrate-aspect.mjs`, since the roster is the
+source of truth and amendments propagate from it:
+
+| | Before | After |
+|---|---|---|
+| Image pages (33) | 2:3 portrait | **4:3 landscape** |
+| Chapter openers (4) | 4:3 | **16:9** |
+
+Verified that the migration touched only `Aspect ratio:` lines — zero other
+changed lines across all four volume specs. The prose is untouched, and so are
+the composition, framing and lighting lines of every prompt.
+
+**This cost nothing because no images existed.** After spread work begins the
+same change means regenerating everything. 4:3 rather than 3:2 because 4:3 fills
+about 61% of the desktop page against 57%, while still reading as horizontal.
+
+**Not done, and flagged rather than fixed:** a few prompts describe framing
+chosen for a portrait frame. Those are authorial and want a human pass now the
+frame is landscape.
+
+## Mobile is a different composition, not a scaled-down one
+
+The spread ratio is a desktop-only concern. Below the 900px breakpoint a reader
+gets one page at a time and its shape comes from the phone — around 0.51 — so
+none of the above applies.
+
+Measured at 390×844: page 370×724, body 12.6px, single column, 51 characters,
+and the densest page in the set scrolls by 211px. Phones scroll text pages, which
+is expected and is what the other project shipped.
+
+Two things needed handling specifically:
+
+**The opener would have been destroyed.** A 16:9 panorama full-bleeding into a
+0.51 page centre-crops to a narrow vertical slice, throwing away roughly three
+quarters of the frame including whatever the prompt composed for. On compact the
+image is letterboxed whole at full width and the title sits beneath it rather
+than over it. Verified the rendered ratio stays 1.78.
+
+**The image page is tighter on a phone.** A 4:3 plate can only ever occupy about
+a third of a 0.51 page, so the desktop margin read as the plate being stranded.
+Compact padding is reduced, which brings it from 33% to 36%. That the plate is a
+band rather than a full screen is the one real concession to prioritising
+desktop, and it was a deliberate call.
+
 ## Body type is sized against the page, not the viewport
 
 `clamp(12px, 1.58cqh, 16.5px)`, with `container-type: size` on the page.
@@ -55,33 +147,19 @@ it because its copy was written to fit. This prose is verbatim, so losing the
 end of a paragraph is not an acceptable failure and scrolling is strictly
 better.
 
-Measured threshold, from `/checks/overflow`:
+Measured from `/checks/overflow`. **On desktop this is now resolved:** no page
+scrolls at any viewport from 1280×720 to 2560×1440, following the move to a 16:9
+spread with two columns. Phones still scroll, by up to 211px on the densest page,
+which is inherent to a phone screen and not fixable by geometry.
 
-| | |
-|---|---|
-| Every page fits at viewport height | **≥ 855px** |
-| Pages needing more than 768px | 12 of 33 |
-| Pages needing more than 900px | 0 of 33 |
-| Pages that never fit at any size | 0 |
-| Hardest page | vol1 spread 8, needs 855px |
-| Easiest page | vol4 spread 9, needs 600px |
-
-So a 1080p or 1600×900 display shows every spread whole. A 1366×768 laptop
-scrolls 12 of the 33 text pages. **This is worth an explicit call:** if that
-laptop is a supported target, the options are a smaller type floor, a
-re-chunking of the longest pages, or accepting the scroll. Re-chunking is an
-author decision and changes the spread map, so nothing was done silently.
+Historical, before the geometry change, kept because it is what motivated it:
+every page needed a viewport height of 855px or more, 12 of 33 scrolled at
+1366×768, and the worst overflowed by 233px.
 
 ## Paragraphs are indented with no vertical gap
 
 The fiction idiom rather than the article idiom. On a page carrying twenty-two
-paragraphs, as Volume 1 spread 8 does, this is worth roughly 170px of height,
-which is the difference between fitting and not.
-
-Single column, not the two balanced columns Unbroke used. Its pages were nearly
-square, where a single column would run too wide to read; these pages are 2:3
-portrait, which is literally book-shaped, so one column is both correct and
-what the format wants.
+paragraphs, as Volume 1 spread 8 does, this is worth roughly 170px of height.
 
 ## The turn is a reducer, and the animation is decoration
 

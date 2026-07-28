@@ -16,12 +16,16 @@ export const metadata = {
 function Cover({ volume }) {
   const opener = volume.spreads.find((s) => s.kind === 'opener');
   const slug = opener?.image?.slug;
+  // Follows the opener's own ratio from the spec rather than hardcoding one, so
+  // a change in the spec does not silently letterbox or crop the cover.
+  const m = /^(\d+):(\d+)$/.exec(opener?.image?.aspect ?? '');
+  const ratio = m ? `${m[1]} / ${m[2]}` : '16 / 9';
 
   return (
     <div
       style={{
         width: '100%',
-        aspectRatio: '4 / 3',
+        aspectRatio: ratio,
         border: `1px solid ${paper.ruleSoft}`,
         background: paper.stock,
         overflow: 'hidden',
@@ -34,7 +38,7 @@ function Cover({ volume }) {
           The shelf therefore renders the placeholder directly rather than
           attempting the image and falling back: there is nothing to fall back
           from until the art exists. Swap to <Plate> once images land. */}
-      <PlatePlaceholder slug={slug} shotType={opener?.image?.shotType} aspect="4 / 3" />
+      <PlatePlaceholder slug={slug} shotType={opener?.image?.shotType} aspect={ratio} />
     </div>
   );
 }
