@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "parse": "node scripts/parse-specs.mjs",
+    "prompts": "node scripts/parse-specs.mjs && node scripts/build-prompt-sheet.mjs",
     "prebuild": "node scripts/parse-specs.mjs",
     "build": "next build",
     "start": "next start",
