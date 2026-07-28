@@ -364,11 +364,11 @@ Shot type: Action moment
 Depicts: Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.
 Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.
 
-Hard constraints: Felix wears the blue and orange floral-patterned bucket hat and
-the purple polka-dot shirt open over a black turtleneck, and his auburn hair is in
-two small ponytails on top of his head. The gecko is present. Owen has a fully
-bald head and NO EYEBROWS AT ALL. Owen's back is to the room and his face is not
-visible, so this frame carries no risk to his likeness.
+Hard constraints: Felix has a short upright black afro, round glasses with thin red
+frames, and a faded teal denim jacket over a black t-shirt with a strap harness of
+small tools across the chest. The green gecko is present. Owen has a fully bald head
+and NO EYEBROWS AT ALL. Owen's back is to the room and his face is not visible, so
+this frame carries no risk to his likeness.
 
 **Reframed to be character-forward.** It was Felix alone. The page's joke is that
 Owen will not give the intruders the dignity of turning round, and that only works
@@ -391,7 +391,7 @@ High window light in dusty beams from the left, warm bounce off the concrete flo
 Aspect ratio: 3:2
 ```
 
-Alt text: A grinning teenage boy in a floral bucket hat pops up from behind a couch with a gecko on his shoulder, while another boy at a desk keeps his back turned.
+Alt text: A grinning teenage boy in a teal denim jacket pops up from behind a couch with a small green gecko on his shoulder, while another boy at a desk keeps his back turned.
 
 ---
 
@@ -606,9 +606,10 @@ Shot type: Character portrait or close (two-shot)
 Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.
 Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.
 
-Hard constraints: Aunt Carol is not defeated and must not be drawn sad. The register
-is a woman carrying something heavy competently and for a long time. Her reading
-glasses are on a beaded chain. The receipt is small and its printing is not legible.
+Hard constraints: Aunt Carol is not defeated and must not be drawn sad. The register is
+a woman carrying something heavy competently and for a long time. Her silver-white hair
+is swept up with a rust-red headscarf knotted in it. The receipt is small and its
+printing is not legible.
 
 **Reframed to be character-forward.** It was the kitchen empty, with the shoebox of
 papers on the table and nobody there. Aunt Carol has a whole scene here and one of
@@ -624,7 +625,7 @@ Prompt:
 {{CHAR:AUNT_CAROL}}
 {{WARDROBE:CAROL_A}}
 {{LOC:AUNT_CAROL_KITCHEN}}
-Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite in a shapeless cardigan, looking down at the slip for a beat longer than she needs to, reading glasses lowered on their beaded chain, one hand paused flat on the table beside it, her face tired and composed rather than sad or surprised. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
+Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite, upright, looking down at the slip for a beat longer than she needs to, one hand paused flat on the table beside it, her face composed and entirely present rather than sad or surprised, giving away only that she is taking a moment she does not need. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
 Interior, dusk.
 Medium two-shot across the corner of the table, camera at seated eye level so both faces read and the receipt sits between them, moderate depth.
 Single warm bulb hanging low over the table lighting both faces from above, the corners of the room going to dark blue.

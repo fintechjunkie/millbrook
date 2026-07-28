@@ -131,9 +131,11 @@ L.push('action, no story beat, neutral light. Then it is attached to every promp
 L.push('that character or place. The reference image is what holds a face across dozens of');
 L.push('generations; prompt text on its own does not.');
 L.push('');
-L.push('The evidence is already in from Volume 1: Owen came back with eyebrows in one plate');
-L.push('and correctly without them in another, and Felix came back with no bucket hat, the');
-L.push('wrong hair and no gecko. Neither had a reference to match against.');
+L.push('The evidence is already in. Owen came back with eyebrows in one plate and correctly');
+L.push('without them in another. Felix came back twice as a character his roster entry did');
+L.push('not describe at all, consistently enough that the entry was rewritten to match the');
+L.push('art rather than the reverse. Neither had a reference to match against, so nothing');
+L.push('was holding either one still.');
 L.push('');
 L.push('**Record the seed and the exact prompt for each one** and put them back into the');
 L.push('roster, so an approved reference can be reproduced rather than re-rolled.');

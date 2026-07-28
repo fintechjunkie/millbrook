@@ -61,7 +61,7 @@
     },
     "FELIX": {
       "token": "FELIX",
-      "immutable": "An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.",
+      "immutable": "An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.",
       "immutableInactive": null,
       "canonicalRef": "char-felix-canonical.png",
       "seed": "pending",
@@ -81,7 +81,7 @@
     },
     "AUNT_CAROL": {
       "token": "AUNT_CAROL",
-      "immutable": "A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.",
+      "immutable": "A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.",
       "immutableInactive": null,
       "canonicalRef": "char-carol-canonical.png",
       "seed": "pending",
@@ -183,12 +183,12 @@
     },
     "FELIX_A": {
       "token": "FELIX_A",
-      "value": "Signature: floral bucket hat, black turtleneck, purple polka-dot button-up",
+      "value": "Signature: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest. Unchanged in all four volumes",
       "storyTime": "all"
     },
     "CAROL_A": {
       "token": "CAROL_A",
-      "value": "Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone",
+      "value": "Dark teal button-up work shirt with brass buttons, collar up, a rust-red knit layer at the throat, rust-red braces over the shirt, brown leather belt with a brass buckle, charcoal trousers",
       "storyTime": "all"
     },
     "MAYOR_A": {

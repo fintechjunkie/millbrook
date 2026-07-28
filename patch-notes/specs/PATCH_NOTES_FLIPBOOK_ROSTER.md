@@ -215,8 +215,27 @@ accident on anybody else while leaving it usable deliberately.
 **Canonical reference:** `char-owen-canonical.png` · Seed: pending · Approved: no
 
 ### {{CHAR:FELIX}}
-**Immutable:** An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.
+**Immutable:** An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.
 **Canonical reference:** `char-felix-canonical.png` · Seed: pending · Approved: no
+**Rewritten 2026-07-28 to match the art.** The old block described a character the
+project had stopped drawing: *auburn hair in two small ponytails like antennae, a blue
+and orange floral-patterned bucket hat, a black turtleneck, a purple polka-dot
+button-up worn open*. None of that has ever been rendered.
+
+What has been rendered, **consistently and twice**, in `vol1-s06` and `vol2-s04`: deep
+brown skin, a short upright black afro, round glasses with thin red frames, a faded
+teal denim jacket over a black t-shirt, and a strap harness of small hand tools across
+the chest. Two independent generations agreeing with each other and disagreeing with
+the roster is not drift, it is the roster being out of date.
+
+The gecko survived both plates and stays. It was the one element of the old block the
+art kept, which is worth noting: the gecko is named in the prose and the wardrobe was
+not.
+
+**This is why the description had to move rather than the images.** With no reference
+file on disk, the description was the only authority, and it was describing somebody
+who does not exist in this project. Re-rendering the old block would have produced a
+third Felix.
 
 ### {{CHAR:MONKE}}
 **Immutable:** A small brown monkey with dark sharp eyes, slender limbs and a long tail.
@@ -224,9 +243,25 @@ accident on anybody else while leaving it usable deliberately.
 **Rendering note, and this one is a constraint not a preference.** The reference sheet says do not explain Monke, and in this format the image is capable of explaining him whether or not the prose does. He is therefore never given a resolved hero portrait. Across all four volumes he appears twice, once as a shape against screen glow with his face largely in shadow and once as an unresolved silhouette on a high shelf, and he is deliberately absent from the final image of Volume 4 even though he is the subject of its last paragraph. If a later pass wants him more prominent, that is a decision about how much of him the reader is allowed to understand, and it should be made on purpose.
 
 ### {{CHAR:AUNT_CAROL}}
-**Immutable:** A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
+**Immutable:** A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** She is not defeated and should not be drawn sad. The register is a woman carrying something heavy competently and for a long time.
+**Rewritten 2026-07-28 to match the art, on thinner evidence than Felix.** The old
+block read *heavyset, fair skin gone slack at the jaw, a broad face with deep lines at
+the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, grey-brown hair cut
+short and practical, reading glasses on a beaded chain, a shapeless cardigan*. The
+delivered plate contradicts nearly every clause of that.
+
+Worth saying plainly: the delivered Carol serves her own rendering note **better than
+the old description did**. That note says she is not defeated and should not be drawn
+sad, and that the register is competence carried for a long time. *Tired hooded eyes*
+and *a shapeless cardigan* were pulling against it. The plate reads as someone who has
+held a difficult line for thirty years and is still entirely present.
+
+**Caveat, and it is the reason this entry says so.** This is rewritten from **one**
+plate, `vol2-s07`, where Felix had two agreeing ones. She appears again in Volume 4
+spread 1, and that plate will either confirm this block or expose it. If they disagree,
+this entry is the one to doubt.
 
 ### {{CHAR:MAYOR_DALTON}}
 **Immutable:** A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
@@ -286,8 +321,8 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes | all |
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
-| `{{WARDROBE:FELIX_A}}` | Signature: floral bucket hat, black turtleneck, purple polka-dot button-up | all |
-| `{{WARDROBE:CAROL_A}}` | Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone | all |
+| `{{WARDROBE:FELIX_A}}` | Signature: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest. Unchanged in all four volumes | all |
+| `{{WARDROBE:CAROL_A}}` | Dark teal button-up work shirt with brass buttons, collar up, a rust-red knit layer at the throat, rust-red braces over the shirt, brown leather belt with a brass buckle, charcoal trousers | all |
 | `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |
 | `{{WARDROBE:MAYOR_B}}` | The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one | Vol 4 only |
 | `{{WARDROBE:CRANE_A}}` | Navy dress uniform, full medals, pale blue medical mask | all |

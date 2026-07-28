@@ -250,17 +250,17 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - Aunt Carol is not defeated and must not be drawn sad.
 - The register is a woman carrying something heavy competently and for a long time.
-- Her reading glasses are on a beaded chain.
+- Her silver-white hair is swept up with a rust-red headscarf knotted in it.
 - The receipt is small and its printing is not legible.
 CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
 CHARACTER: Aunt Carol. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
-A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
-Wardrobe, unchanged for this scene: Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone
+A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.
+Wardrobe, unchanged for this scene: Dark teal button-up work shirt with brass buttons, collar up, a rust-red knit layer at the throat, rust-red braces over the shirt, brown leather belt with a brass buckle, charcoal trousers
 SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table.
-Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite in a shapeless cardigan, looking down at the slip for a beat longer than she needs to, reading glasses lowered on their beaded chain, one hand paused flat on the table beside it, her face tired and composed rather than sad or surprised. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
+Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite, upright, looking down at the slip for a beat longer than she needs to, one hand paused flat on the table beside it, her face composed and entirely present rather than sad or surprised, giving away only that she is taking a moment she does not need. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
 Interior, dusk.
 Medium two-shot across the corner of the table, camera at seated eye level so both faces read and the receipt sits between them, moderate depth.
 Single warm bulb hanging low over the table lighting both faces from above, the corners of the room going to dark blue.
@@ -379,16 +379,16 @@ Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 
 MUST HOLD, these override anything below that appears to contradict them:
-- Felix wears the blue and orange floral-patterned bucket hat and the purple polka-dot shirt open over a black turtleneck, and his auburn hair is in two small ponytails on top of his head.
-- The gecko is present.
+- Felix has a short upright black afro, round glasses with thin red frames, and a faded teal denim jacket over a black t-shirt with a strap harness of small tools across the chest.
+- The green gecko is present.
 - Owen has a fully bald head and NO EYEBROWS AT ALL.
 - Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.
 CHARACTER: Owen. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.
 Wardrobe, unchanged for this scene: white high-collared jumpsuit, red throat button
 CHARACTER: Felix. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
-An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.
-Wardrobe, unchanged for this scene: floral bucket hat, black turtleneck, purple polka-dot button-up
+An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.
+Wardrobe, unchanged for this scene: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest
 SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.
@@ -401,7 +401,7 @@ Aspect ratio: 3:2
 
 Save as: **`vol2-s04.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: A grinning teenage boy in a floral bucket hat pops up from behind a couch with a gecko on his shoulder, while another boy at a desk keeps his back turned.
+Alt text, already written, do not regenerate: A grinning teenage boy in a teal denim jacket pops up from behind a couch with a small green gecko on his shoulder, while another boy at a desk keeps his back turned.
 
 ---
 

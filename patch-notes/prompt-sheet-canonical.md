@@ -8,9 +8,11 @@ action, no story beat, neutral light. Then it is attached to every prompt that u
 that character or place. The reference image is what holds a face across dozens of
 generations; prompt text on its own does not.
 
-The evidence is already in from Volume 1: Owen came back with eyebrows in one plate
-and correctly without them in another, and Felix came back with no bucket hat, the
-wrong hair and no gecko. Neither had a reference to match against.
+The evidence is already in. Owen came back with eyebrows in one plate and correctly
+without them in another. Felix came back twice as a character his roster entry did
+not describe at all, consistently enough that the entry was rewritten to match the
+art rather than the reverse. Neither had a reference to match against, so nothing
+was holding either one still.
 
 **Record the seed and the exact prompt for each one** and put them back into the
 roster, so an approved reference can be reproduced rather than re-rolled.
@@ -382,7 +384,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.
+An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.
@@ -480,7 +482,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
+A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.
