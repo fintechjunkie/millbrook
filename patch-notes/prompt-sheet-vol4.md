@@ -1,6 +1,6 @@
-# The Patch Notes, Volume 1: image prompt sheet
+# The Patch Notes, Volume 4: image prompt sheet
 
-Part One: The Pothole · 9 images · generated from the specs, do not hand-edit
+Part Four: The Press Conference · 10 images · generated from the specs, do not hand-edit
 
 Work through this one prompt at a time. Each entry gives the prompt as a single
 copyable block, then the exact filename to save the result as. The filename is
@@ -32,15 +32,16 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 
 **Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
-### [ ] vol1-s01 — spread 1
+### [ ] vol4-s01 — spread 1
 
 Shot type: Character portrait
-Depicts: Beat 1. Lena arriving at the house on Crescent, bag in hand.
-Spoiler check: PASS. Final beat of this page is Lena hitting record and naming the pothole. Not depicted; no phone raised, no filming.
-Named figures: Lena (1 of a maximum 2)
+Depicts: Beat 3. Lena and her aunt watching the announcement from two different rooms.
+Spoiler check: PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.
+Named figures: Lena, Aunt Carol (2 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
+- `char-carol-canonical.png` — Aunt Carol
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -68,208 +69,39 @@ Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
-Wardrobe, unchanged for this scene: Travel clothes, oversized orange collared shirt worn open over a plain tee, satchel strap running diagonally across the chest
+Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
+CHARACTER: Aunt Carol. Use the attached canonical reference image "char-carol-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
+Wardrobe, unchanged for this scene: Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone
 SETTING:
-A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off.
-Standing at the foot of the porch steps with a duffel bag at her feet, one hand on the railing, looking up at the house rather than at the camera.
-Exterior, mid afternoon.
-Medium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.
-Warm late afternoon sun from the left, hard-edged shadows on the siding.
+A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen.
+A girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.
+Interior, late morning.
+Medium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.
+Hard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 Aspect ratio: 3:2
 ```
 
-Save as: **`vol1-s01.png`** · aspect 3:2
+Save as: **`vol4-s01.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: A teenage girl with a duffel bag at her feet stands at the bottom of a porch's steps, looking up at a yellow house.
-
----
-
-## VEX
-
-Canonical reference: `char-vex-canonical.png` · approved: yes
-
-### [ ] vol1-s02 — spread 2
-
-Shot type: Action moment
-Depicts: Beat 3 of this page. Vex walking away with the stolen dashcam, three steps out and not running.
-Spoiler check: PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.
-Named figures: Vex (1 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-vex-canonical.png` — Vex
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
-Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
-SETTING:
-A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.
-Walking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.
-Exterior sidewalk, late morning.
-Medium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.
-Flat overcast daylight, no strong shadow.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol1-s02.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A short girl with mint-green hair in two buns walks away along a sidewalk holding a small camera, glancing back over her shoulder.
+Alt text, already written, do not regenerate: A girl sits forward on a couch watching an unseen television while an older woman dries a plate in the kitchen doorway behind her.
 
 ---
 
-## OWEN
+## ADMIRAL CRANE
 
-Canonical reference: `char-owen-canonical.png` · approved: no
+Canonical reference: `char-crane-canonical.png` · approved: no
 
-### [ ] vol1-s03 — spread 3
+### [ ] vol4-s05 — spread 5
 
 Shot type: Character portrait
-Depicts: Beat 1. Owen at his desk after thirty-one hours awake.
-Spoiler check: PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.
-Named figures: Owen (1 of a maximum 2)
+Depicts: Beat 1. Crane, having stopped, before anything is offered.
+Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.
+Named figures: Admiral Crane (1 of a maximum 2)
 
 **Attach these reference images before generating:**
-- `char-owen-canonical.png` — Owen
-- `loc-terminals.png` — location, warehouse terminals
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.
-Wardrobe, unchanged for this scene: white high-collared jumpsuit, red throat button
-SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
-The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
-Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.
-Interior, roughly three in the morning.
-Close shot, camera slightly below eye level, monitors framing him on both sides.
-Cold monitor light as the only source, uplighting his face, everything behind him falling to black.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol1-s03.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A bald young man sits in a desk chair between three glowing monitors in an otherwise dark room.
-
----
-
-## MONKE
-
-Canonical reference: `char-monke-canonical.png` · approved: no
-
-### [ ] vol1-s04 — spread 4
-
-Shot type: Action moment
-Depicts: Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.
-Spoiler check: PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.
-Named figures: Monke (1 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-monke-canonical.png` — Monke
-- `loc-terminals.png` — location, warehouse terminals
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A small brown monkey with dark sharp eyes, slender limbs and a long tail.
-SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
-The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
-Perched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
-Interior, early morning, no daylight.
-Close shot from the side, camera at monitor height, shallow depth on the finger and the glass.
-Screen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol1-s04.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A small monkey perched on top of a computer monitor reaches down and touches one finger to the screen.
-
----
-
-## MAYOR DALTON
-
-Canonical reference: `char-dalton-canonical.png` · approved: no
-
-### [ ] vol1-s05 — spread 5
-
-Shot type: Character portrait
-Depicts: Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.
-Spoiler check: PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.
-Named figures: Mayor Dalton (1 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-dalton-canonical.png` — Mayor Dalton
+- `char-crane-canonical.png` — Admiral Crane
 - `loc-square.png` — location, town hall square
 
 ```
@@ -296,34 +128,93 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A man in his fifties, pear-shaped, narrow at the shoulders and wide at the waist, ruddy fair skin, a full face with heavy jowls, small pale eyes concealed behind red-lensed 3D glasses that he wears at all times both indoors and out, thinning sandy hair combed across, a fleshy nose, and a broad practised salesman's grin. His suit never quite fits, pulling at the button and short in the sleeve.
-Wardrobe, unchanged for this scene: Ill-fitting grey suit, red 3D glasses, a tired patterned tie
+CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
+Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
-Standing behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.
-Exterior, late morning.
-Close shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.
-Hard overhead sun, specular glare across his red lenses.
+Standing squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.
+Exterior, early afternoon.
+Medium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.
+Hard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 Aspect ratio: 3:2
 ```
 
-Save as: **`vol1-s05.png`** · aspect 3:2
+Save as: **`vol4-s05.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: A heavyset man in an ill-fitting suit and red glasses stands behind a podium, grinning stiffly, sweating at one temple.
+Alt text, already written, do not regenerate: An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back.
+
+---
+
+## MR HENDERSON
+
+Canonical reference: `char-henderson-canonical.png` · approved: no
+
+### [ ] vol4-s06 — spread 6
+
+Shot type: Action moment
+Depicts: Beat 6. Mr. Henderson getting up out of the front row.
+Spoiler check: PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.
+Named figures: Mr. Henderson (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-henderson-canonical.png` — Mr. Henderson
+- `loc-square.png` — location, town hall square
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.
+Wardrobe, unchanged for this scene: Button-down and khakis with brand new white running shoes, one of which still carries a price tag on the tongue
+SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+An old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.
+Exterior, early afternoon.
+Medium shot from the side along the front row, camera at seated height, shallow depth.
+Hard high sun from behind the stage, the man rim lit, his front in bounced fill off the paving.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s06.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: An elderly man rises out of a folding chair in the front row of an outdoor audience, one hand on the chair back.
 
 ---
 
 ## LOCATIONS AND OBJECTS, no named character
 
-### [ ] vol1-opener — chapter opener
+### [ ] vol4-opener — chapter opener
 
 Shot type: Establishing (full bleed, both pages)
-Depicts: Millbrook itself, before anyone is awake. No story beat.
-Spoiler check: PASS. Chapter opener precedes all prose. Deliberately does not show Main Street or the repaired asphalt, which is the reveal on text page 2.
+Depicts: The square being set up. No story beat.
+Spoiler check: PASS. Chapter opener precedes all prose. Empty of people, so it gives away nothing about the conference itself.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `loc-square.png` — location, town hall square
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -349,124 +240,27 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
-A small flat American town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon, no hills, no landmarks worth photographing.
-Empty residential streets seen from a slight elevation, water tower on the horizon, no figures anywhere.
-Early morning before sunrise, blue hour.
-Wide establishing shot, high vantage, deep focus.
-Flat pre-dawn light, streetlights still burning, one lit kitchen window.
+SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+Rows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.
+Exterior, early morning before the event.
+Wide establishing shot from behind the last row of chairs, low camera, deep focus.
+Cool flat early light, long chair shadows raking across the paving.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 Aspect ratio: 2:1
 ```
 
-Save as: **`vol1-opener.png`** · aspect 2:1
+Save as: **`vol4-opener.png`** · aspect 2:1
 
-Alt text, already written, do not regenerate: A small town of low houses seen from above before sunrise, streetlights still on, a water tower in the distance.
-
----
-
-### [ ] vol1-s06 — spread 6
-
-Shot type: Establishing or location
-Depicts: Beat 1. The fountain in the park with the three of them on the bench, seen from Lena's distance.
-Spoiler check: PASS. Final beat is Felix stopping mid-chew when he sees the photo. Not depicted; no faces legible at this distance.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
-A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it.
-A stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.
-Exterior, midday.
-Wide establishing shot from across the lawn, deep focus, figures small in frame.
-Backlit from behind the bench, water throwing highlights, long grass shadows in the foreground.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol1-s06.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit.
+Alt text, already written, do not regenerate: Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind.
 
 ---
 
-### [ ] vol1-s07 — spread 7
+### [ ] vol4-s02 — spread 2
 
 Shot type: Object or detail
-Depicts: Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.
-Spoiler check: PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.
-
-**Attach these reference images before generating:**
-- `loc-vex-apartment.png` — location, vex apartment
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-vex-apartment.png" for this location so it stays the same place between spreads.
-A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.
-A small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.
-Interior, evening.
-Close overhead shot, slight angle, shallow depth on the memory card.
-One bare bulb from above and the laptop's cold spill from the left.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol1-s07.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot.
-
----
-
-### [ ] vol1-s08 — spread 8
-
-Shot type: Atmospheric or empty
-Depicts: Beat 3. The back bedroom in the dark, after Lena has stopped reading her phone.
-Spoiler check: PASS. Final beat is the streetlight going off for a single frame outside. Not depicted; the window shows steady light and the exterior is not the subject.
+Depicts: Beat 2. Felix's countdown device on the bench after twelve hours of work.
+Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; no figures in frame and the device shows no readable numerals.
 
 **Attach:** nothing. No named figure and no recurring location in this frame.
 
@@ -495,17 +289,260 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 SETTING:
-A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains.
-The ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.
-Interior, the middle of the night.
-Close, camera lying flat and looking up, wide angle, deep focus.
-Single cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.
+A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
+A handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.
+Interior, morning.
+Close shot, camera low and level with the bench, very shallow depth on the display panel.
+Single clamp lamp from the upper left, hard small shadows, dust visible.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 Aspect ratio: 3:2
 ```
 
-Save as: **`vol1-s08.png`** · aspect 3:2
+Save as: **`vol4-s02.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame.
+Alt text, already written, do not regenerate: A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools.
+
+---
+
+### [ ] vol4-s03 — spread 3
+
+Shot type: Action moment
+Depicts: Beat 6. The kid on the bike going past with a backpack too big for him.
+Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; the two seated figures are cropped and out of focus and the image carries none of the conversation.
+
+**Attach:** nothing. No named figure and no recurring location in this frame.
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING:
+The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
+A young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.
+Exterior, early afternoon.
+Medium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.
+High hard afternoon sun, short crisp shadows on the asphalt.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s03.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb.
+
+---
+
+### [ ] vol4-s04 — spread 4
+
+Shot type: Establishing or location
+Depicts: Beat 1. The square at quarter past two, filling up.
+Spoiler check: PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.
+
+**Attach these reference images before generating:**
+- `loc-square.png` — location, town hall square
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+Around forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.
+Exterior, early afternoon.
+Wide establishing shot from behind the back row, camera at standing height, deep focus.
+Hard high sun, chairs and heads throwing short shadows forward.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s04.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground.
+
+---
+
+### [ ] vol4-s07 — spread 7
+
+Shot type: Object or detail
+Depicts: Beat 3. Room made in the corner. Owen's cans moved without comment.
+Spoiler check: PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.
+
+**Attach these reference images before generating:**
+- `loc-terminals.png` — location, warehouse terminals
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
+The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
+A cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.
+Interior, night.
+Close shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.
+Cold spill from unseen monitors off to the right, one warm lamp far behind.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s07.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop.
+
+---
+
+### [ ] vol4-s08 — spread 8
+
+Shot type: Atmospheric or empty
+Depicts: Beat 4. The hotel room the last view comes from.
+Spoiler check: PASS. Final beat is the woman in the bookshop looking up at nothing. Not depicted; the bookshop does not appear.
+
+**Attach:** nothing. No named figure and no recurring location in this frame.
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING:
+A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.
+A tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.
+Interior, late night.
+Medium-wide shot from the doorway, camera at standing height, deep focus.
+Laptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s08.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed.
+
+---
+
+### [ ] vol4-s09 — spread 9
+
+Shot type: Atmospheric or empty
+Depicts: The counter after the lights go off. Setting and object only.
+Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
+
+**Attach these reference images before generating:**
+- `loc-hollow-pine-int.png` — location, hollow pine int
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
+The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
+The shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.
+Interior, three in the morning.
+Close shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.
+One narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s09.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store.
 
 ---

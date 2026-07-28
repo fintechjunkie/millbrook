@@ -113,7 +113,7 @@ Alt text: A teenage girl with a duffel bag at her feet stands at the bottom of a
 
 ## Spread 2
 
-Pages 5 to 6 | Part One: The Pothole | Words 229
+Pages 5 to 6 | Part One: The Pothole | Words 226
 
 ### Text page (left), verbatim
 
@@ -125,7 +125,7 @@ Lena set her phone on a tripod and tried to film a piece to camera, but a guy wi
 
 That was when the dashcam came off her car.
 
-She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. White hair sticking out from under a beat-up aviator cap with little cat ears on top. Goggles on her forehead. Already three steps away. Walking, not running.
+She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. Mint-green hair in two messy buns, one on either side of her head, tied off with red. Already three steps away. Walking, not running.
 
 “Hey. That’s mine.”
 
@@ -163,7 +163,7 @@ Flat overcast daylight, no strong shadow.
 Aspect ratio: 3:2
 ```
 
-Alt text: A short girl in a cap walks away along a sidewalk holding a small camera, glancing back over her shoulder.
+Alt text: A short girl with mint-green hair in two buns walks away along a sidewalk holding a small camera, glancing back over her shoulder.
 
 ---
 
@@ -390,7 +390,7 @@ The short one held out his sandwich. “You want some? Peanut butter and pickles
 
 Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of.”
 
-“Too late. Someone already stole my dashcam this morning. Short girl, white hair, weird hat. Walked off with it. Pretty sure you know her.”
+“Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
 
 Milo and the bald guy looked at each other again.
 

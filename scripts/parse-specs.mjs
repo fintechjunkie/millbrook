@@ -231,7 +231,19 @@ function parseRoster() {
     return out.join(' ') || null;
   };
 
-  const style = quote('{{STYLE}} = PROPOSED, NOT APPROVED\n```\n');
+  // The style lives in a ```style fence rather than a blockquote, so its
+  // internal structure survives verbatim: the section headings and bullets are
+  // part of the incantation and flattening them to one paragraph would be an
+  // edit. Named styles matter here - the generation project resolves
+  // "Paper-Theater Millbrook" by name - so the name is the first line and is
+  // carried through to every prompt.
+  const styleFence = src.match(/```style\n([\s\S]*?)\n```/);
+  const style = styleFence ? styleFence[1].trim() : null;
+  const styleName = style ? style.split('\n')[0].trim() : null;
+  const styleMarker = src.match(/\{\{STYLE\}\}\s*=\s*(.+)/);
+  const styleApproved = /APPROVED/.test(styleMarker?.[1] ?? '')
+    && !/NOT APPROVED/.test(styleMarker?.[1] ?? '');
+
   const negative = quote('{{NEGATIVE}} =\n```\n');
 
   // Characters: "### {{CHAR:NAME}}" followed by bolded fields.
@@ -308,7 +320,8 @@ function parseRoster() {
 
   return {
     specVersion: 1,
-    styleApproved: false,
+    styleApproved,
+    styleName,
     style,
     negative,
     aspect: { imagePage: '2:3', chapterOpener: '4:3' },
@@ -348,7 +361,7 @@ for (let n = 1; n <= 4; n += 1) {
 }
 
 console.log('\nroster.json');
-console.log(`  style            ${roster.style ? 'parsed' : 'MISSING'} (approved: ${roster.styleApproved})`);
+console.log(`  style            ${roster.styleName ?? 'MISSING'} (approved: ${roster.styleApproved})`);
 console.log(`  negative         ${roster.negative ? 'parsed' : 'MISSING'}`);
 console.log(`  characters       ${Object.keys(roster.characters).length}`);
 console.log(`  wardrobe states  ${Object.keys(roster.wardrobe).length}`);

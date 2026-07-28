@@ -36,38 +36,93 @@ const PN = join(ROOT, 'patch-notes');
 
 const roster = JSON.parse(readFileSync(join(PN, 'roster.json'), 'utf8'));
 
-// The style block is not settled. Roster section 2 carries a proposal marked
-// PROPOSED, NOT APPROVED, and a locked block has been agreed elsewhere but not
-// yet written into the roster. Rather than silently substituting the proposal,
-// every prompt carries a visible slot. Paste the locked block into roster
-// section 2, re-run parse-specs, and re-run this, and it inlines everywhere.
 const STYLE_SLOT = roster.styleApproved && roster.style
   ? roster.style
-  : '>>> PASTE THE LOCKED STYLE BLOCK HERE <<<';
+  : '>>> STYLE BLOCK NOT APPROVED IN THE ROSTER <<<';
 
 const rosterOrder = Object.keys(roster.characters);
 
+/**
+ * Display names.
+ *
+ * The immutable blocks are pure description and deliberately carry no name, so
+ * that no adjective about a locked character can drift. But a prompt that only
+ * describes a figure gives the generator nothing to hang continuity on, and
+ * nothing to match an attached reference against. So every character block is
+ * now introduced by name.
+ *
+ * Derived from the token where a simple title-case is right, and mapped where it
+ * is not. The green cardigan woman has no name in the prose, which is the point
+ * of her, so she gets a descriptive handle instead.
+ */
+const NAMES = {
+  AUNT_CAROL: 'Aunt Carol',
+  MAYOR_DALTON: 'Mayor Dalton',
+  ADMIRAL_CRANE: 'Admiral Crane',
+  MR_HENDERSON: 'Mr. Henderson',
+  GREEN_CARDIGAN_WOMAN: 'the woman in the green cardigan',
+};
+const nameFor = (token) =>
+  NAMES[token]
+  ?? token.split('_').map((w) => w[0] + w.slice(1).toLowerCase()).join(' ');
+
+/**
+ * Monke is an animal, not a person, and the roster is explicit that he is never
+ * given a resolved hero portrait. His reference is still attached for continuity
+ * of build, but the prompt must not invite a portrait of him.
+ */
+const IS_ANIMAL = new Set(['MONKE']);
+
 function expand(prompt) {
   const missing = [];
+  const attach = [];
+
   const out = prompt
-    .replace(/\{\{STYLE\}\}/g, STYLE_SLOT)
+    // The style is named as well as quoted. The generation project resolves
+    // "Paper-Theater Millbrook" by name, and naming it also means a human
+    // reading the sheet can see at a glance that the right style is in play.
+    .replace(/\{\{STYLE\}\}/g, () =>
+      (roster.styleApproved && roster.styleName
+        ? `STYLE: ${roster.styleName} (the project's locked style, reproduced below verbatim)\n\n${STYLE_SLOT}`
+        : STYLE_SLOT))
     .replace(/\{\{NEGATIVE\}\}/g, roster.negative ?? '>>> NEGATIVE BLOCK MISSING <<<')
+    // Character block: named, then told to use the attached canonical image as
+    // the authority, then the immutable description. The reference image is what
+    // actually holds a face across dozens of generations; the text alone will
+    // not. See working brief D4.
     .replace(/\{\{CHAR:([A-Z_0-9]+)\}\}/g, (_, k) => {
       const c = roster.characters[k];
       if (!c?.immutable) { missing.push(`CHAR:${k}`); return `>>> MISSING CHAR:${k} <<<`; }
-      return c.immutable;
+      const name = nameFor(k);
+      const ref = c.canonicalRef;
+      if (ref) attach.push({ file: ref, label: name });
+      const kind = IS_ANIMAL.has(k) ? 'ANIMAL' : 'CHARACTER';
+      const lead = ref
+        ? `${kind}: ${name}. Use the attached canonical reference image `
+          + `"${ref}" as the authority for face, build, hair and proportion. `
+          + `Match it; do not reinterpret it. The description below is a check on `
+          + `that image, not a licence to depart from it.`
+        : `${kind}: ${name}. NO CANONICAL REFERENCE YET - generate the canonical `
+          + `portrait first and do not proceed from description alone.`;
+      return `${lead}\n${c.immutable}`;
     })
     .replace(/\{\{WARDROBE:([A-Z_0-9]+)\}\}/g, (_, k) => {
       const w = roster.wardrobe[k];
       if (!w?.value) { missing.push(`WARDROBE:${k}`); return `>>> MISSING WARDROBE:${k} <<<`; }
-      return cleanWardrobe(w.value);
+      return `Wardrobe, unchanged for this scene: ${cleanWardrobe(w.value)}`;
     })
     .replace(/\{\{LOC:([A-Z_0-9]+)\}\}/g, (_, k) => {
       const l = roster.locations[k];
       if (!l?.block) { missing.push(`LOC:${k}`); return `>>> MISSING LOC:${k} <<<`; }
-      return l.block;
+      if (l.canonicalRef) attach.push({ file: l.canonicalRef, label: `location, ${k.replace(/_/g, ' ').toLowerCase()}` });
+      const lead = l.canonicalRef
+        ? `SETTING: use the attached canonical establishing image "${l.canonicalRef}" `
+          + `for this location so it stays the same place between spreads.`
+        : 'SETTING:';
+      return `${lead}\n${l.block}`;
     });
-  return { text: out, missing };
+
+  return { text: out, missing, attach };
 }
 
 /**
@@ -93,8 +148,9 @@ function build(volNum) {
   const vol = JSON.parse(readFileSync(join(PN, 'volumes', `vol${volNum}.json`), 'utf8'));
 
   const entries = vol.spreads.map((s) => {
-    const { text, missing } = expand(s.image.prompt);
+    const { text, missing, attach } = expand(s.image.prompt);
     return {
+      attach,
       spread: s.n,
       kind: s.kind,
       slug: s.image.slug,
@@ -174,7 +230,16 @@ function build(volNum) {
       L.push(`Shot type: ${e.shotType}`);
       L.push(`Depicts: ${e.depicts}`);
       L.push(`Spoiler check: ${e.spoiler}`);
-      if (e.chars.length) L.push(`Named figures: ${e.chars.join(', ')} (${e.chars.length} of a maximum 2)`);
+      if (e.chars.length) {
+        L.push(`Named figures: ${e.chars.map(nameFor).join(', ')} (${e.chars.length} of a maximum 2)`);
+      }
+      L.push('');
+      if (e.attach.length) {
+        L.push('**Attach these reference images before generating:**');
+        for (const a of e.attach) L.push(`- \`${a.file}\` — ${a.label}`);
+      } else {
+        L.push('**Attach:** nothing. No named figure and no recurring location in this frame.');
+      }
       L.push('');
       L.push('```');
       L.push(e.prompt.trim());

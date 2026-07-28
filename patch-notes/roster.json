@@ -1,8 +1,9 @@
 {
   "specVersion": 1,
-  "styleApproved": false,
-  "style": "Digital painting in the register of contemporary graphic-novel illustration. Soft brush rendering laid over a visible underdrawing, with edges left slightly unresolved rather than cleaned up. Palette restrained to warm neutrals, dusty greens and greyed blues, with one saturated warm accent permitted per image and withheld everywhere else in that image. Line present but broken and variable, never a uniform ink weight. Medium detail: forms fully described, surfaces suggested rather than rendered to photographic fidelity. Mood plain and faintly hollow, ordinary places treated with slightly more seriousness than they have earned.",
-  "negative": "No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no 3D render finish, no anime house style. No borders, frames, panel gutters or drop shadows.",
+  "styleApproved": true,
+  "styleName": "Paper-Theater Millbrook",
+  "style": "Paper-Theater Millbrook\n\nA dimensional-looking but clearly handmade world assembled from flat painted paper shapes.\n\nCharacter treatment\n- Each character is built from layered, articulated paper forms.\n- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.\n- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.\n- Limbs remain long enough for readable full-body gestures.\n- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.\n\nThe result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.\n\nTown treatment\n- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.\n- Paper seams and imperfect cut edges remain visible.\n- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.\n- This physical imperfection naturally supports Millbrook's patched reality.\n\nPalette\nWarm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.",
+  "negative": "No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.",
   "aspect": {
     "imagePage": "2:3",
     "chapterOpener": "4:3"
@@ -30,12 +31,12 @@
     },
     "VEX": {
       "token": "VEX",
-      "immutable": "A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is white, short and coarse, sticking out in pieces from under a battered brown leather aviator cap with two small stitched cat ears on the crown and unbuckled ear flaps. She wears a black leather jacket with silver zippers over a plain black shirt. No goggles.",
-      "immutableInactive": "identical except that the hair is bright mint green, worn in two messy buns high on either side of the head held with a small red hair tie, and there is no aviator cap.",
+      "immutable": "A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.",
+      "immutableInactive": null,
       "canonicalRef": "char-vex-canonical.png",
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no, blocked by 1.1",
+      "approved": true,
+      "approvalNote": "yes, resolved by 1.1",
       "renderingNote": null
     },
     "PIP": {
@@ -167,7 +168,7 @@
     },
     "VEX_A": {
       "token": "VEX_A",
-      "value": "Signature: aviator cap, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes",
+      "value": "Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes",
       "storyTime": "all"
     },
     "PIP_A": {
@@ -361,7 +362,7 @@
   },
   "blockingDecisions": [
     {
-      "title": "Vex looks like two different people",
+      "title": "RESOLVED 2026-07-28 — the reference sheet wins",
       "resolved": false
     },
     {

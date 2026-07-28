@@ -99,8 +99,8 @@
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 229,
-      "words": 222,
+      "declaredWords": 226,
+      "words": 219,
       "blocks": [
         {
           "t": "h",
@@ -120,7 +120,7 @@
         },
         {
           "t": "p",
-          "v": "She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. White hair sticking out from under a beat-up aviator cap with little cat ears on top. Goggles on her forehead. Already three steps away. Walking, not running."
+          "v": "She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. Mint-green hair in two messy buns, one on either side of her head, tied off with red. Already three steps away. Walking, not running."
         },
         {
           "t": "p",
@@ -159,7 +159,7 @@
         "spoilerCheck": "PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.",
         "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:MAIN_STREET}}\nWalking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.\nExterior sidewalk, late morning.\nMedium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.\nFlat overcast daylight, no strong shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A short girl in a cap walks away along a sidewalk holding a small camera, glancing back over her shoulder."
+        "alt": "A short girl with mint-green hair in two buns walks away along a sidewalk holding a small camera, glancing back over her shoulder."
       }
     },
     {
@@ -472,7 +472,7 @@
         },
         {
           "t": "p",
-          "v": "“Too late. Someone already stole my dashcam this morning. Short girl, white hair, weird hat. Walked off with it. Pretty sure you know her.”"
+          "v": "“Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”"
         },
         {
           "t": "p",

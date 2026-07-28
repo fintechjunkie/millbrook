@@ -67,7 +67,7 @@ The laundromat on Crescent was empty except for a tired-looking woman folding to
 
 At nine on the dot, the door chimed.
 
-The girl with the white hair walked in, sat down across from her, and slid the dashcam across the table.
+The girl with the green hair walked in, sat down across from her, and slid the dashcam across the table.
 
 “Sorry. I needed the SD card.”
 

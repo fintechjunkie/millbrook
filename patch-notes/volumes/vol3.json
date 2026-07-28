@@ -456,7 +456,7 @@
         "spoilerCheck": "PASS. Final beat is Mr. Henderson thinking while the porch swing creaks. Not depicted; the scene never leaves the warehouse.",
         "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:WAREHOUSE_PIT}}\nStanding upright in the middle of a cluttered room mid-sentence, one arm out and pointing hard off frame to the left, jaw set, entirely unembarrassed. She is the only figure in frame.\nInterior, late afternoon.\nMedium shot, camera slightly below eye level so she reads taller than she is, moderate depth.\nWarm low window light raking in from the right, dust in the beam, shadow thrown long across the floor.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A short girl in a cap stands in a cluttered room mid-sentence, pointing hard off to one side."
+        "alt": "A short girl with mint-green hair in two buns stands in a cluttered room mid-sentence, pointing hard off to one side."
       }
     },
     {

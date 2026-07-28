@@ -379,7 +379,7 @@ Warm low window light raking in from the right, dust in the beam, shadow thrown 
 Aspect ratio: 3:2
 ```
 
-Alt text: A short girl in a cap stands in a cluttered room mid-sentence, pointing hard off to one side.
+Alt text: A short girl with mint-green hair in two buns stands in a cluttered room mid-sentence, pointing hard off to one side.
 
 ---
 

@@ -12,7 +12,30 @@ Single source of truth for style, negative constraints, characters, wardrobe sta
 
 Items 1 and 2 block the character lock, which per Part H blocks all image work. Neither is mine to resolve.
 
-### 1.1 Vex looks like two different people
+### 1.1 RESOLVED 2026-07-28 — the reference sheet wins
+
+**Author decision: the mint-green buns.** The prose has been amended to match,
+which is the direction this section said would be required if the sheet won.
+Three sentences carried her appearance and all three were changed:
+
+| Where | Was | Now |
+|---|---|---|
+| Vol 1, spread 2 | `White hair sticking out from under a beat-up aviator cap with little cat ears on top. Goggles on her forehead.` | `Mint-green hair in two messy buns, one on either side of her head, tied off with red.` |
+| Vol 1, spread 6 | `Short girl, white hair, weird hat.` | `Short girl, green hair, two buns.` |
+| Vol 2, spread 1 | `The girl with the white hair walked in` | `The girl with the green hair walked in` |
+
+This is the only sanctioned edit to the prose in the project, and it is recorded
+here rather than made quietly, per Part B4. Volume 1 spread 2's declared word
+count went from 229 to 226 and the header was updated to match, so the parser's
+verification still holds. Two alt texts that described a cap were also updated.
+
+**1.2 is resolved as a side effect.** Dropping `Goggles on her forehead` from
+that sentence means goggles now belong to Pip alone, which is what 1.2 below
+recommended. No separate edit was needed.
+
+The original discussion follows, kept because it records why.
+
+#### Original: Vex looks like two different people
 
 The character reference sheet and the Patch Notes prose disagree, and not at the edges.
 
@@ -44,26 +67,73 @@ Prose says a patched-up engineer jacket. The sheet says a slouchy denim jacket w
 ## 2. Style
 
 ```
-{{STYLE}} = PROPOSED, NOT APPROVED
+{{STYLE}} = Paper-Theater Millbrook — APPROVED, locked 2026-07-28
 ```
 
-Part E has this blocking all image work, so here is a candidate to approve, reject or edit. Once it is settled it becomes a fixed incantation, reproduced byte-identically at the head of every prompt, and it does not get tuned per image.
+**Approved.** This resolves the Part E block on all image work. It is a *named*
+style, known to the generation project as `Paper-Theater Millbrook`, and the
+block below is reproduced byte-identically at the head of every prompt. It does
+not get tuned per image. Improving it on spread 20 changes the world from spread
+20 onward and there is no recovery except regeneration.
 
-> Digital painting in the register of contemporary graphic-novel illustration. Soft brush rendering laid over a visible underdrawing, with edges left slightly unresolved rather than cleaned up. Palette restrained to warm neutrals, dusty greens and greyed blues, with one saturated warm accent permitted per image and withheld everywhere else in that image. Line present but broken and variable, never a uniform ink weight. Medium detail: forms fully described, surfaces suggested rather than rendered to photographic fidelity. Mood plain and faintly hollow, ordinary places treated with slightly more seriousness than they have earned.
+```style
+Paper-Theater Millbrook
 
-Two notes on why it is built this way. The single-accent rule gives every image one place for the eye to land, which matters when the image is seen before a word of the facing page is read. The unresolved-edge instruction is doing continuity work rather than aesthetic work: a style that is already loose absorbs small drift between generations that a crisp style would put on display.
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+```
+
+Two notes on why this works for the format. The deliberate imperfection is doing
+continuity work rather than decoration: a world that is *supposed* to have a
+mis-cut edge and a slightly wrong tile absorbs the small variation between
+generations that a crisp style would put on display. And it earns the story's
+premise for free, because a town visibly patched together out of paper is a town
+that can be quietly rewritten overnight.
+
+Note the tension to watch: the style says paper seams and wrong-shade tiles are
+wanted, while `{{NEGATIVE}}` forbids a 3D render finish. Those agree. But if a
+generation starts reading as *clean* paper craft rather than *eccentric* paper
+craft, the fix belongs in the negative block below, not in this one.
 
 ```
 {{NEGATIVE}} =
 ```
 
-> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no 3D render finish, no anime house style. No borders, frames, panel gutters or drop shadows.
+> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole.
 
 This block grows during production as failures reveal themselves. It lives here so additions propagate to every prompt in one edit.
 
+**Amended when the style was approved.** Two clauses fought the Paper-Theater
+style and were narrowed rather than dropped:
+
+- `no drop shadows` became `no graphic or decorative drop shadow applied to the
+  image as a whole`. The unqualified version forbade the soft contact shadows
+  between paper layers, which is the mechanism the entire style uses to build
+  depth. It would have read as an instruction to flatten the artwork.
+- `no 3D render finish` became `no glossy 3D render finish`, matching the style's
+  own wording. The style *is* dimensional; what is unwanted is the plastic sheen
+  of a render, not depth itself.
+
 `Aspect ratio: 3:2` for every image page. `2:1` for the four chapter openers, which run full bleed across both pages of the spread.
 
-Amended from `2:3` and `4:3`. The reader spread is 16:9, made of two 8:9 pages, so an opener at 16:9 fills the spread exactly and a 4:3 plate sits landscape on its page. The previous portrait ratios were set against a 4:3 spread of two 2:3 pages. No images had been generated at the time of the change, so it cost nothing; after spread work begins it would cost a full regeneration.
+Amended twice, from `2:3`/`4:3` and then from `4:3`/`16:9`. The reader spread is now 2:1, made of two square pages, so an opener at 2:1 fills the spread exactly and a 3:2 plate sits landscape on its page. Both changes were made while zero images existed and therefore cost nothing; after spread work begins the same change costs a full regeneration.
 
 ---
 
@@ -102,9 +172,8 @@ None of the entries are approved yet. Approval means a canonical portrait has be
 **Rendering note:** Because the eyes are unavailable, everything expressive has to be carried by mouth, shoulders and the angle of the head. Prompts for him should always specify posture.
 
 ### {{CHAR:VEX}}
-**Immutable, prose version, ACTIVE PENDING 1.1:** A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is white, short and coarse, sticking out in pieces from under a battered brown leather aviator cap with two small stitched cat ears on the crown and unbuckled ear flaps. She wears a black leather jacket with silver zippers over a plain black shirt. No goggles.
-**Immutable, sheet version, INACTIVE:** identical except that the hair is bright mint green, worn in two messy buns high on either side of the head held with a small red hair tie, and there is no aviator cap.
-**Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: no, blocked by 1.1
+**Immutable:** A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
+**Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: yes, resolved by 1.1
 
 ### {{CHAR:PIP}}
 **Immutable:** A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
@@ -164,7 +233,7 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:LENA_C}}` | Same orange collared shirt, worn buttoned, satchel strap present | Vol 3 |
 | `{{WARDROBE:LENA_D}}` | Same orange collared shirt, visibly creased and slept in, satchel strap present | Vol 4 |
 | `{{WARDROBE:MILO_A}}` | Signature: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes | all |
-| `{{WARDROBE:VEX_A}}` | Signature: aviator cap, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes | all |
+| `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes | all |
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
 | `{{WARDROBE:FELIX_A}}` | Signature: floral bucket hat, black turtleneck, purple polka-dot button-up | all |
