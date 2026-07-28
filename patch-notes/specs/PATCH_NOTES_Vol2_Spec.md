@@ -208,15 +208,38 @@ Shot type: Establishing or location
 Depicts: Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.
 Spoiler check: PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.
 
+Hard constraints: ATTACH BOTH `vol2-opener.png` AND the existing `vol2-s02.png`.
+`vol2-opener.png` is the authority for CAMERA ONLY: same position across the
+intersection, same standing height, same distance, same square-on angle to the corner,
+same lens character, and the corner building at the same position and apparent size in
+frame. `vol2-s02.png` is the authority for SUBJECT ONLY: the bookshop, the navy awning,
+the cat. Keep the crosswalk stripes in the near foreground, the utility poles, the
+street receding to the left and the buildings continuing to the right, all as the
+opener has them. Do NOT copy the opener's LIGHT: this is warm mid morning, the opener
+is cold first light. NO LEGIBLE TEXT anywhere; the signboard, the window cards and the
+door sign are worn marks, not words, and no shop name is written.
+
+**Regenerating for the pair match.** The delivered plate is a good image and the wrong
+one. It sits much closer, at a diagonal from the sidewalk, with no crosswalk, no poles
+and no street context, so nothing about it says *this is the corner you were looking at
+two spreads ago*. The reveal in this volume is that a vape store became a thirty-year-old
+bookshop overnight, and the whole of that lands or fails on the reader recognising the
+view.
+
+Note the ratios differ, 2:1 for the opener against 3:2 here, so an identical crop is not
+possible and is not the target. See roster section 6, which used to ask for one. What is
+wanted is the same *view*: this frame is the opener's view cropped in from the sides and
+extended vertically, not a second visit to the same building.
+
 Prompt:
 
 ```
 {{STYLE}}
 {{LOC:MAPLE_AND_FOURTH_B}}
-The same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.
-Exterior, mid morning.
-Wide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.
-Warm direct morning sun on the awning, deep shade under it.
+The same corner storefront seen from the same place across the intersection as the attached opener image, at the same standing height and the same distance, square on to the corner, with the building occupying the same position and the same apparent size in frame. It is now a settled old bookshop: a navy canvas awning over the corner windows, a hand-painted signboard above it whose lettering is worn to illegible marks, a window display of stacked paperbacks with small propped cards whose handwriting is not readable, a fat ginger cat asleep on a stack of books, and a carved wooden sign hanging in the door glass with no readable words. The door is closed and nobody is touching it. Crosswalk stripes across the near foreground, utility poles standing left and right, the street receding away to the left, further storefronts continuing to the right, exactly as in the attached opener. No figures anywhere.
+Exterior, mid morning, well after the opener's dawn.
+Wide establishing shot from across the intersection, camera at standing height, same vantage and lens as the attached opener, deep focus, composed for a taller frame by including more sky above and more roadway below rather than by moving closer.
+Warm direct morning sun full on the awning and the shopfront, deep shade beneath the awning, short shadows. This is NOT the opener's cold flat first light.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```

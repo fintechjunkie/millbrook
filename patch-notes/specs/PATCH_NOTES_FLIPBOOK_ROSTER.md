@@ -365,7 +365,26 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 
-**Location state pattern.** `MAPLE_AND_FOURTH_A` and `B` follow the same discipline Part D3 sets out for damaged wardrobe: B is defined as a change to A rather than as a new place, and the two images are framed identically from the same camera position. The point of the volume is that the corner was one thing and is now another, and a reader who flips back one volume and finds the composition matches will get that for free. It is the single highest-value image decision in the set and it is worth insisting on.
+**Location state pattern.** `MAPLE_AND_FOURTH_A` and `B` follow the same discipline Part D3 sets out for damaged wardrobe: B is defined as a change to A rather than as a new place. The point of the volume is that the corner was one thing and is now another, and a reader who flips back two spreads and finds the view unchanged gets that for free. It is the single highest-value image decision in the set and it is worth insisting on.
+
+**Corrected: "framed identically" was impossible as written.** State A is the chapter
+opener at `2:1`, because it full-bleeds across both pages of the spread. State B is an
+image page at `3:2`. No single crop satisfies both ratios, so an identical frame was
+never achievable and chasing one would waste generations.
+
+What actually delivers the effect, and what the two prompts now require:
+
+- **The same camera position, distance and angle.** Standing height, from across the
+  intersection, square on to the corner.
+- **The same lens character.** Neither wider nor longer than the other.
+- **The corner occupying the same position and the same apparent size** within the
+  frame, so it reads as the same view rather than the same photograph.
+- The 3:2 plate is therefore the 2:1 view **cropped in from the sides and extended
+  vertically**, not a different shot of the same building.
+
+**The lighting must NOT match.** State A is first light and cold; state B is mid
+morning with warm sun on the awning. Time has passed and the prose says so. Only the
+geometry is held; the light is free to move.
 
 ---
 
