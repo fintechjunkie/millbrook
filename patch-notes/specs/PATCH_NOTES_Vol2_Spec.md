@@ -219,12 +219,22 @@ opener has them. Do NOT copy the opener's LIGHT: this is warm mid morning, the o
 is cold first light. NO LEGIBLE TEXT anywhere; the signboard, the window cards and the
 door sign are worn marks, not words, and no shop name is written.
 
-**Regenerating for the pair match.** The delivered plate is a good image and the wrong
-one. It sits much closer, at a diagonal from the sidewalk, with no crosswalk, no poles
-and no street context, so nothing about it says *this is the corner you were looking at
-two spreads ago*. The reveal in this volume is that a vape store became a thirty-year-old
-bookshop overnight, and the whole of that lands or fails on the reader recognising the
-view.
+**Regenerated and accepted. The pair match holds.** The first plate was a good image and
+the wrong one: much closer, diagonal from the sidewalk, no crosswalk, no poles, no street
+context, so nothing about it said *this is the corner you were looking at two spreads
+ago*. The reveal in this volume is that a vape store became a thirty-year-old bookshop
+overnight, and all of it lands or fails on the reader recognising the view.
+
+The second pass holds the vantage and carries the street furniture across intact: the
+left pole with its two blank directional signs, the blank stop sign, the tree at far
+left, the crosswalk stripes, the yellow awning further down the street, the red brick
+building to the right, the right-hand pole and lamp, the dumpster, the blue mailbox and
+the green trash can are all where the opener has them.
+
+Measured rather than eyeballed. Sampling the blue shopfront band across both frames puts
+the corner's horizontal centre **2.1% of frame width apart** and its apparent width
+**1.8% apart**, across two different aspect ratios. And the light correctly does not
+match: cold first light in the opener, warm morning sun here.
 
 Note the ratios differ, 2:1 for the opener against 3:2 here, so an identical crop is not
 possible and is not the target. See roster section 6, which used to ask for one. What is
