@@ -46,7 +46,7 @@ Exterior, just after sunrise.
 Wide low shot from the middle of the empty road, deep focus, strong perspective down the street.
 Low raking sunrise light from the far end of the street, very long shadows across the asphalt, dew haze.
 {{NEGATIVE}}
-Aspect ratio: 16:9
+Aspect ratio: 2:1
 ```
 
 Alt text: An empty residential street just after sunrise with long shadows and a rolled newspaper on a porch step.
@@ -110,7 +110,7 @@ Exterior, early morning.
 Medium shot, camera at chest height, shallow depth so the street behind him softens.
 Low warm sunrise light from behind and to the right, rim lighting his white hair, face in soft fill.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: An elderly man stands on an empty sidewalk with a newspaper under his arm, looking down at his own legs, puzzled.
@@ -170,7 +170,7 @@ Interior, mid morning.
 Close shot, camera slightly above eye level looking gently down, shallow depth.
 Diffuse high window light from the left, the couch and floor falling into shadow.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A small girl sits drawn in on a couch with one hearing aid behind her ear and the other lying in her open palm.
@@ -240,7 +240,7 @@ Interior, mid morning.
 Medium close two shot from the side at kneeling height, shallow depth carried on the touching fingertips.
 Soft directional window light from behind the seated girl, the kneeling girl's face in cool fill.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A girl kneels in front of a seated girl and rests two fingertips lightly on the skin behind her ear.
@@ -304,7 +304,7 @@ Exterior, overcast afternoon.
 Wide establishing shot from outside the fence, fence in the near foreground and slightly out of focus, deep focus beyond it.
 Flat heavy overcast, no shadows, colour drained toward grey green.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: An abandoned school behind a chain link fence with boarded windows and a swing set stripped of its swings.
@@ -376,7 +376,7 @@ Interior, late afternoon.
 Medium shot, camera slightly below eye level so she reads taller than she is, moderate depth.
 Warm low window light raking in from the right, dust in the beam, shadow thrown long across the floor.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A short girl in a cap stands in a cluttered room mid-sentence, pointing hard off to one side.
@@ -426,7 +426,7 @@ Exterior, mid afternoon.
 Medium shot from the porch steps, camera at seat height, shallow depth on the near chain.
 Bright dappled afternoon light through leaves off frame, moving shadow patterns on the boards.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: An empty porch swing hanging still on its chains in front of white clapboard and green shutters.
@@ -480,7 +480,7 @@ Interior, well after midnight.
 Wide establishing shot from the far end of the room, high vantage, deep focus.
 One warm work lamp as the only source, monitors as distant cold points, most of the frame in near darkness.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A wide dark warehouse interior after midnight with sleeping figures on couches and a single work lamp burning.
@@ -538,7 +538,7 @@ Interior, the small hours.
 Close shot, camera at hand height and straight on, very shallow depth.
 One warm lamp far off to the left, most of the frame in low blue darkness.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: Two faintly grey hands with fine seams at the wrists hold an unopened granola bar level, not eating it.

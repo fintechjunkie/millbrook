@@ -19,8 +19,8 @@
         "shotType": "Establishing (full bleed, both pages)",
         "depicts": "Millbrook itself, before anyone is awake. No story beat.",
         "spoilerCheck": "PASS. Chapter opener precedes all prose. Deliberately does not show Main Street or the repaired asphalt, which is the reveal on text page 2.",
-        "prompt": "{{STYLE}}\n{{LOC:MILLBROOK_WIDE}}\nEmpty residential streets seen from a slight elevation, water tower on the horizon, no figures anywhere.\nEarly morning before sunrise, blue hour.\nWide establishing shot, high vantage, deep focus.\nFlat pre-dawn light, streetlights still burning, one lit kitchen window.\n{{NEGATIVE}}\nAspect ratio: 16:9",
-        "aspect": "16:9",
+        "prompt": "{{STYLE}}\n{{LOC:MILLBROOK_WIDE}}\nEmpty residential streets seen from a slight elevation, water tower on the horizon, no figures anywhere.\nEarly morning before sunrise, blue hour.\nWide establishing shot, high vantage, deep focus.\nFlat pre-dawn light, streetlights still burning, one lit kitchen window.\n{{NEGATIVE}}\nAspect ratio: 2:1",
+        "aspect": "2:1",
         "alt": "A small town of low houses seen from above before sunrise, streetlights still on, a water tower in the distance."
       }
     },
@@ -90,8 +90,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Lena arriving at the house on Crescent, bag in hand.",
         "spoilerCheck": "PASS. Final beat of this page is Lena hitting record and naming the pothole. Not depicted; no phone raised, no filming.",
-        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_A}}\n{{LOC:CRESCENT_HOUSE_EXT}}\nStanding at the foot of the porch steps with a duffel bag at her feet, one hand on the railing, looking up at the house rather than at the camera.\nExterior, mid afternoon.\nMedium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.\nWarm late afternoon sun from the left, hard-edged shadows on the siding.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_A}}\n{{LOC:CRESCENT_HOUSE_EXT}}\nStanding at the foot of the porch steps with a duffel bag at her feet, one hand on the railing, looking up at the house rather than at the camera.\nExterior, mid afternoon.\nMedium shot, slightly low angle from the walkway, shallow depth so the house softens behind her.\nWarm late afternoon sun from the left, hard-edged shadows on the siding.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A teenage girl with a duffel bag at her feet stands at the bottom of a porch's steps, looking up at a yellow house."
       }
     },
@@ -157,8 +157,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 3 of this page. Vex walking away with the stolen dashcam, three steps out and not running.",
         "spoilerCheck": "PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.",
-        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:MAIN_STREET}}\nWalking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.\nExterior sidewalk, late morning.\nMedium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.\nFlat overcast daylight, no strong shadow.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:MAIN_STREET}}\nWalking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.\nExterior sidewalk, late morning.\nMedium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.\nFlat overcast daylight, no strong shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A short girl in a cap walks away along a sidewalk holding a small camera, glancing back over her shoulder."
       }
     },
@@ -240,8 +240,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Owen at his desk after thirty-one hours awake.",
         "spoilerCheck": "PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.",
-        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nSeated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.\nInterior, roughly three in the morning.\nClose shot, camera slightly below eye level, monitors framing him on both sides.\nCold monitor light as the only source, uplighting his face, everything behind him falling to black.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nSeated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. Screen contents not legible.\nInterior, roughly three in the morning.\nClose shot, camera slightly below eye level, monitors framing him on both sides.\nCold monitor light as the only source, uplighting his face, everything behind him falling to black.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A bald young man sits in a desk chair between three glowing monitors in an otherwise dark room."
       }
     },
@@ -327,8 +327,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.",
         "spoilerCheck": "PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.",
-        "prompt": "{{STYLE}}\n{{CHAR:MONKE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nPerched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.\nInterior, early morning, no daylight.\nClose shot from the side, camera at monitor height, shallow depth on the finger and the glass.\nScreen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:MONKE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nPerched on top of a monitor, leaning down with one small finger touching the front of the screen. Rendered mostly as a shape against the screen glow, face largely in shadow and not resolved. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.\nInterior, early morning, no daylight.\nClose shot from the side, camera at monitor height, shallow depth on the finger and the glass.\nScreen glow from below and in front, strong rim light on the animal's silhouette, room otherwise dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A small monkey perched on top of a computer monitor reaches down and touches one finger to the screen."
       }
     },
@@ -398,8 +398,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.",
         "spoilerCheck": "PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.",
-        "prompt": "{{STYLE}}\n{{CHAR:MAYOR_DALTON}}\n{{WARDROBE:MAYOR_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.\nExterior, late morning.\nClose shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.\nHard overhead sun, specular glare across his red lenses.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:MAYOR_DALTON}}\n{{WARDROBE:MAYOR_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding behind a plain podium mid-sentence, mouth held in a grin that has gone tight at the corners, a single bead of sweat at the temple, eyes searching off to one side. Podium bare, no signage or lettering.\nExterior, late morning.\nClose shot, straight on at eye level, very shallow depth so the small crowd behind reads only as soft shapes.\nHard overhead sun, specular glare across his red lenses.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A heavyset man in an ill-fitting suit and red glasses stands behind a podium, grinning stiffly, sweating at one temple."
       }
     },
@@ -497,8 +497,8 @@
         "shotType": "Establishing or location",
         "depicts": "Beat 1. The fountain in the park with the three of them on the bench, seen from Lena's distance.",
         "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when he sees the photo. Not depicted; no faces legible at this distance.",
-        "prompt": "{{STYLE}}\n{{LOC:THE_PARK}}\nA stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.\nExterior, midday.\nWide establishing shot from across the lawn, deep focus, figures small in frame.\nBacklit from behind the bench, water throwing highlights, long grass shadows in the foreground.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:THE_PARK}}\nA stone fountain running, a slatted bench beyond it with three seated figures at enough distance that faces are not legible. Figures backlit, turned toward the water, treated as silhouettes rather than portraits.\nExterior, midday.\nWide establishing shot from across the lawn, deep focus, figures small in frame.\nBacklit from behind the bench, water throwing highlights, long grass shadows in the foreground.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A park fountain seen from across a lawn, with three small figures sitting on a bench behind it, backlit."
       }
     },
@@ -588,8 +588,8 @@
         "shotType": "Object or detail",
         "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
         "spoilerCheck": "PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.",
-        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot."
       }
     },
@@ -703,8 +703,8 @@
         "shotType": "Atmospheric or empty",
         "depicts": "Beat 3. The back bedroom in the dark, after Lena has stopped reading her phone.",
         "spoilerCheck": "PASS. Final beat is the streetlight going off for a single frame outside. Not depicted; the window shows steady light and the exterior is not the subject.",
-        "prompt": "{{STYLE}}\n{{LOC:BACK_BEDROOM}}\nThe ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.\nInterior, the middle of the night.\nClose, camera lying flat and looking up, wide angle, deep focus.\nSingle cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:BACK_BEDROOM}}\nThe ceiling and upper wall of a small bedroom seen from the bed, the edge of a dented closet door in frame, old posters going grey in the dark, one phone-sized rectangle of light thrown across the ceiling. No figures visible.\nInterior, the middle of the night.\nClose, camera lying flat and looking up, wide angle, deep focus.\nSingle cold rectangle of phone light on the ceiling, weak amber streetlight bleeding through a gap in the blinds.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A dark bedroom ceiling seen from the bed, lit by a small rectangle of phone light, the edge of a dented closet door in frame."
       }
     }

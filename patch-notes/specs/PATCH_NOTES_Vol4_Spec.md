@@ -46,7 +46,7 @@ Exterior, early morning before the event.
 Wide establishing shot from behind the last row of chairs, low camera, deep focus.
 Cool flat early light, long chair shadows raking across the paving.
 {{NEGATIVE}}
-Aspect ratio: 16:9
+Aspect ratio: 2:1
 ```
 
 Alt text: Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind.
@@ -114,7 +114,7 @@ Interior, late morning.
 Medium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.
 Hard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A girl sits forward on a couch watching an unseen television while an older woman dries a plate in the kitchen doorway behind her.
@@ -166,7 +166,7 @@ Interior, morning.
 Close shot, camera low and level with the bench, very shallow depth on the display panel.
 Single clamp lamp from the upper left, hard small shadows, dust visible.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools.
@@ -230,7 +230,7 @@ Exterior, early afternoon.
 Medium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.
 High hard afternoon sun, short crisp shadows on the asphalt.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb.
@@ -284,7 +284,7 @@ Exterior, early afternoon.
 Wide establishing shot from behind the back row, camera at standing height, deep focus.
 Hard high sun, chairs and heads throwing short shadows forward.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground.
@@ -340,7 +340,7 @@ Exterior, early afternoon.
 Medium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.
 Hard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back.
@@ -400,7 +400,7 @@ Exterior, early afternoon.
 Medium shot from the side along the front row, camera at seated height, shallow depth.
 Hard high sun from behind the stage, the man rim lit, his front in bounced fill off the paving.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: An elderly man rises out of a folding chair in the front row of an outdoor audience, one hand on the chair back.
@@ -466,7 +466,7 @@ Interior, night.
 Close shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.
 Cold spill from unseen monitors off to the right, one warm lamp far behind.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop.
@@ -528,7 +528,7 @@ Interior, late night.
 Medium-wide shot from the doorway, camera at standing height, deep focus.
 Laptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed.
@@ -576,7 +576,7 @@ Interior, three in the morning.
 Close shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.
 One narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store.

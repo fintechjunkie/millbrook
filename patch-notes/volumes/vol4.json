@@ -19,8 +19,8 @@
         "shotType": "Establishing (full bleed, both pages)",
         "depicts": "The square being set up. No story beat.",
         "spoilerCheck": "PASS. Chapter opener precedes all prose. Empty of people, so it gives away nothing about the conference itself.",
-        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nRows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.\nExterior, early morning before the event.\nWide establishing shot from behind the last row of chairs, low camera, deep focus.\nCool flat early light, long chair shadows raking across the paving.\n{{NEGATIVE}}\nAspect ratio: 16:9",
-        "aspect": "16:9",
+        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nRows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.\nExterior, early morning before the event.\nWide establishing shot from behind the last row of chairs, low camera, deep focus.\nCool flat early light, long chair shadows raking across the paving.\n{{NEGATIVE}}\nAspect ratio: 2:1",
+        "aspect": "2:1",
         "alt": "Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind."
       }
     },
@@ -106,8 +106,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 3. Lena and her aunt watching the announcement from two different rooms.",
         "spoilerCheck": "PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.",
-        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_D}}\n{{CHAR:AUNT_CAROL}}\n{{WARDROBE:CAROL_A}}\n{{LOC:AUNT_CAROL_LIVING_ROOM}}\nA girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.\nInterior, late morning.\nMedium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.\nHard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_D}}\n{{CHAR:AUNT_CAROL}}\n{{WARDROBE:CAROL_A}}\n{{LOC:AUNT_CAROL_LIVING_ROOM}}\nA girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.\nInterior, late morning.\nMedium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.\nHard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A girl sits forward on a couch watching an unseen television while an older woman dries a plate in the kitchen doorway behind her."
       }
     },
@@ -165,8 +165,8 @@
         "shotType": "Object or detail",
         "depicts": "Beat 2. Felix's countdown device on the bench after twelve hours of work.",
         "spoilerCheck": "PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; no figures in frame and the device shows no readable numerals.",
-        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_SHOP}}\nA handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.\nInterior, morning.\nClose shot, camera low and level with the bench, very shallow depth on the display panel.\nSingle clamp lamp from the upper left, hard small shadows, dust visible.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_SHOP}}\nA handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.\nInterior, morning.\nClose shot, camera low and level with the bench, very shallow depth on the display panel.\nSingle clamp lamp from the upper left, hard small shadows, dust visible.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools."
       }
     },
@@ -252,8 +252,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 6. The kid on the bike going past with a backpack too big for him.",
         "spoilerCheck": "PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; the two seated figures are cropped and out of focus and the image carries none of the conversation.",
-        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_EXT}}\nA young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.\nExterior, early afternoon.\nMedium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.\nHigh hard afternoon sun, short crisp shadows on the asphalt.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_EXT}}\nA young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.\nExterior, early afternoon.\nMedium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.\nHigh hard afternoon sun, short crisp shadows on the asphalt.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb."
       }
     },
@@ -319,8 +319,8 @@
         "shotType": "Establishing or location",
         "depicts": "Beat 1. The square at quarter past two, filling up.",
         "spoilerCheck": "PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.",
-        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nAround forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.\nExterior, early afternoon.\nWide establishing shot from behind the back row, camera at standing height, deep focus.\nHard high sun, chairs and heads throwing short shadows forward.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\nAround forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.\nExterior, early afternoon.\nWide establishing shot from behind the back row, camera at standing height, deep focus.\nHard high sun, chairs and heads throwing short shadows forward.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground."
       }
     },
@@ -386,8 +386,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Crane, having stopped, before anything is offered.",
         "spoilerCheck": "PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.",
-        "prompt": "{{STYLE}}\n{{CHAR:ADMIRAL_CRANE}}\n{{WARDROBE:CRANE_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.\nExterior, early afternoon.\nMedium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.\nHard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:ADMIRAL_CRANE}}\n{{WARDROBE:CRANE_A}}\n{{LOC:TOWN_HALL_SQUARE}}\nStanding squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.\nExterior, early afternoon.\nMedium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.\nHard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back."
       }
     },
@@ -461,8 +461,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 6. Mr. Henderson getting up out of the front row.",
         "spoilerCheck": "PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.",
-        "prompt": "{{STYLE}}\n{{CHAR:MR_HENDERSON}}\n{{WARDROBE:HENDERSON_B}}\n{{LOC:TOWN_HALL_SQUARE}}\nAn old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.\nExterior, early afternoon.\nMedium shot from the side along the front row, camera at seated height, shallow depth.\nHard high sun from behind the stage, the man rim lit, his front in bounced fill off the paving.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:MR_HENDERSON}}\n{{WARDROBE:HENDERSON_B}}\n{{LOC:TOWN_HALL_SQUARE}}\nAn old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.\nExterior, early afternoon.\nMedium shot from the side along the front row, camera at seated height, shallow depth.\nHard high sun from behind the stage, the man rim lit, his front in bounced fill off the paving.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "An elderly man rises out of a folding chair in the front row of an outdoor audience, one hand on the chair back."
       }
     },
@@ -552,8 +552,8 @@
         "shotType": "Object or detail",
         "depicts": "Beat 3. Room made in the corner. Owen's cans moved without comment.",
         "spoilerCheck": "PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.",
-        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.\nInterior, night.\nClose shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.\nCold spill from unseen monitors off to the right, one warm lamp far behind.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.\nInterior, night.\nClose shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.\nCold spill from unseen monitors off to the right, one warm lamp far behind.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop."
       }
     },
@@ -635,8 +635,8 @@
         "shotType": "Atmospheric or empty",
         "depicts": "Beat 4. The hotel room the last view comes from.",
         "spoilerCheck": "PASS. Final beat is the woman in the bookshop looking up at nothing. Not depicted; the bookshop does not appear.",
-        "prompt": "{{STYLE}}\n{{LOC:HOTEL_ROOM}}\nA tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.\nInterior, late night.\nMedium-wide shot from the doorway, camera at standing height, deep focus.\nLaptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:HOTEL_ROOM}}\nA tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.\nInterior, late night.\nMedium-wide shot from the doorway, camera at standing height, deep focus.\nLaptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed."
       }
     },
@@ -686,8 +686,8 @@
         "shotType": "Atmospheric or empty",
         "depicts": "The counter after the lights go off. Setting and object only.",
         "spoilerCheck": "PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.",
-        "prompt": "{{STYLE}}\n{{LOC:HOLLOW_PINE_INT}}\nThe shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.\nInterior, three in the morning.\nClose shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.\nOne narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:HOLLOW_PINE_INT}}\nThe shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.\nInterior, three in the morning.\nClose shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.\nOne narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store."
       }
     }

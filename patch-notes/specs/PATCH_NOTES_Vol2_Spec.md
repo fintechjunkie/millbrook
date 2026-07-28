@@ -46,7 +46,7 @@ Exterior, first light.
 Wide establishing shot from across the intersection, deep focus.
 Grey pre-dawn ambient with the sign's sour electric glow as the only warm note.
 {{NEGATIVE}}
-Aspect ratio: 16:9
+Aspect ratio: 2:1
 ```
 
 Alt text: A cheap corner storefront under a gray awning at first light, its window sign glowing, the street empty.
@@ -122,7 +122,7 @@ Interior, nine in the morning.
 Close shot, straight on at eye level, hands included at the bottom of frame, shallow depth.
 Flat fluorescent overhead mixed with cold window light from the left.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A girl sits at a laundromat table with both hands laid flat and evenly on the surface, looking slightly past the viewer.
@@ -184,7 +184,7 @@ Exterior, mid morning.
 Wide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.
 Warm direct morning sun on the awning, deep shade under it.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A corner bookshop with a navy awning and a window display of paperbacks, a ginger cat asleep among them.
@@ -256,7 +256,7 @@ Interior, mid morning.
 Medium close shot, straight on at eye level, shallow depth so the shelves behind go soft.
 Warm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden shop counter, reading glasses on a chain.
@@ -332,7 +332,7 @@ Interior, mid morning.
 Medium shot, camera at couch height so he rises into the top of frame, shallow depth.
 High window light in dusty beams from the left, warm bounce off the concrete floor.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A grinning teenage boy in a floral bucket hat pops up from behind a couch with a small gecko on his shoulder.
@@ -398,7 +398,7 @@ Interior, mid morning.
 Close shot, camera low and level with the desk surface, very shallow depth on the nearest can.
 Cold screen light from above and behind the objects, long shadows pulled toward the viewer.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A close view along a desk edge past a row of energy drink cans toward the glow of unreadable monitors.
@@ -480,7 +480,7 @@ Interior, early afternoon.
 Medium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.
 Soft high window light from above and behind, no hard shadow.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: Two teenagers sit at opposite ends of a sagging couch with a gap between them, a pig asleep against one of them.
@@ -546,7 +546,7 @@ Interior, dusk.
 Medium-wide shot from the doorway, slightly high angle, deep focus.
 Single warm bulb hanging low over the table, the corners of the room going to dark blue.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A kitchen table under a low hanging bulb with an open shoebox of papers, folded reading glasses, and an empty pulled-out chair.
@@ -606,7 +606,7 @@ Interior, late night.
 Close overhead shot, slight angle, shallow depth on the empty battery compartment.
 One weak lamp from off to the left, the rest of the floor falling away into dark.
 {{NEGATIVE}}
-Aspect ratio: 4:3
+Aspect ratio: 3:2
 ```
 
 Alt text: A bin of dead electronics on a floor with a small old transistor radio on top, its empty battery compartment open and corroded.

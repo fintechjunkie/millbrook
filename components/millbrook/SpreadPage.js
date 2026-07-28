@@ -95,8 +95,6 @@ export function TextPage({ spread, compact }) {
           minHeight: 0,
           overflowY: 'auto',
           overflowX: 'hidden',
-          // Two columns on the wide spread, one on a phone. See series.js.
-          ...(compact ? {} : type.columns),
         }}
       >
         {spread.blocks.map((b, i) => {
@@ -147,11 +145,10 @@ export function TextPage({ spread, compact }) {
  * it means. That is deliberate, so it is used as given.
  */
 export function GraphicPage({ spread, compact }) {
-  // Tighter on a phone. A 4:3 plate can only ever occupy about a third of a
-  // 0.51 page, so what padding is left reads as the plate being stranded
-  // rather than as margin. Desktop keeps a generous margin because there the
-  // plate already fills most of the page.
-  const pad = compact ? space(3) : space(8);
+  // A 3:2 plate on a square page can only reach about two thirds of the page
+  // height, so padding here is margin the plate cannot afford. Kept tight on
+  // both, and tighter still on a phone where the plate is already a band.
+  const pad = compact ? space(3) : space(5);
   const g = spread.image;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
   const aspect = cssAspect(g.aspect);

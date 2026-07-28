@@ -1,29 +1,29 @@
 #!/usr/bin/env node
 /**
- * One-time migration: portrait pages to a landscape spread.
+ * Set the image aspect ratios in the specs to match the reader geometry.
  *
- * The book was 4:3 (two 2:3 portrait pages). It becomes 16:9 (two 8:9
- * near-square pages), because height is the binding constraint on any laptop
- * and a wider spread buys page area for free. Measured effect on desktop: text
- * overflow goes from 12 of 33 pages scrolling at 1366x768 to none at any size.
+ * Idempotent and re-runnable: it rewrites whatever "Aspect ratio:" value is
+ * present, so it can be re-pointed by editing the two constants below and run
+ * again. The ratios have moved twice during layout work, which is exactly why
+ * this is a script rather than 37 hand edits.
  *
- * Consequently the image aspect ratios change, and this edits the SPEC files,
- * which is deliberate. The roster's own rule is that a needed change is made in
- * the source of truth and propagates, never patched locally.
+ * History, all of it while zero images existed and therefore free:
  *
- *   image pages     2:3 portrait  ->  4:3 landscape
- *   chapter openers 4:3           ->  16:9 (full bleed across both pages,
- *                                     which is now exactly the spread ratio)
+ *   portrait spread 4:3    image pages 2:3   openers 4:3
+ *   wide spread 16:9       image pages 4:3   openers 16:9
+ *   square pages, 2:1      image pages 3:2   openers 2:1     <- current
  *
- * 16:9 rather than 1.9:1 so the openers sit on a native generation ratio and
- * need no crop.
+ * The reader spread is 2:1 made of two square pages. An opener at 2:1 fills the
+ * spread exactly. A 3:2 plate sits landscape on a square page.
+ *
+ * This edits the SPEC files deliberately. The roster's own rule is that a
+ * needed change is made in the source of truth and propagates, never patched
+ * locally.
  *
  * NOT touched: the prose, which is verbatim; and the composition, framing and
- * lighting lines of every prompt, which are authorial. A handful of prompts
- * describe framing chosen for a portrait frame and may deserve a human pass
- * now that the frame is landscape. That is flagged, not fixed.
- *
- * Safe to run once. Re-running is a no-op because the old values are gone.
+ * lighting lines of every prompt, which are authorial. Some prompts were framed
+ * for a portrait frame and want a human pass now the frame is landscape. That
+ * is flagged, not fixed.
  */
 
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -33,31 +33,28 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SPECS = join(ROOT, 'patch-notes', 'specs');
 
-const OPENER_AR = '16:9';
-const PAGE_AR = '4:3';
+const OPENER_AR = '2:1';
+const PAGE_AR = '3:2';
 
-let totalOpeners = 0;
-let totalPages = 0;
+const AR_LINE = /^Aspect ratio: .+$/m;
+
+let openers = 0;
+let pages = 0;
 
 for (let n = 1; n <= 4; n += 1) {
   const path = join(SPECS, `PATCH_NOTES_Vol${n}_Spec.md`);
   const src = readFileSync(path, 'utf8').replace(/\r\n/g, '\n');
 
-  // Split on spread headings so each block can be treated by position. The
-  // opener and the image pages both currently read "Aspect ratio: 4:3" and
-  // "2:3" respectively, so a blind global replace would be ambiguous once the
-  // page value became 4:3.
+  // Split on spread headings so each block is treated by position. A blind
+  // global replace cannot tell an opener's ratio from an image page's.
   const parts = src.split(/(?=\n## Spread )/);
 
   const out = parts.map((part) => {
     const isOpener = /\n## Spread 0, chapter opener/.test(part);
-    if (isOpener) {
-      const next = part.replace(/^Aspect ratio: 4:3$/m, `Aspect ratio: ${OPENER_AR}`);
-      if (next !== part) totalOpeners += 1;
-      return next;
-    }
-    const next = part.replace(/^Aspect ratio: 2:3$/m, `Aspect ratio: ${PAGE_AR}`);
-    if (next !== part) totalPages += 1;
+    const want = isOpener ? OPENER_AR : PAGE_AR;
+    if (!AR_LINE.test(part)) return part;
+    const next = part.replace(AR_LINE, `Aspect ratio: ${want}`);
+    if (isOpener) openers += 1; else pages += 1;
     return next;
   });
 
@@ -67,29 +64,25 @@ for (let n = 1; n <= 4; n += 1) {
 
 // The roster carries the same statement and is the single source of truth.
 const rosterPath = join(SPECS, 'PATCH_NOTES_FLIPBOOK_ROSTER.md');
-let roster = readFileSync(rosterPath, 'utf8').replace(/\r\n/g, '\n');
+const roster = readFileSync(rosterPath, 'utf8').replace(/\r\n/g, '\n');
 
-const before = roster;
-roster = roster.replace(
-  '`Aspect ratio: 2:3` for every image page. `4:3` for the four chapter openers, which run full bleed across both pages of the spread.',
-  `\`Aspect ratio: ${PAGE_AR}\` for every image page. \`${OPENER_AR}\` for the four chapter openers, which run full bleed across both pages of the spread.\n\n`
-  + 'Amended from `2:3` and `4:3`. The reader spread is 16:9, made of two 8:9 '
-  + 'pages, so an opener at 16:9 fills the spread exactly and a 4:3 plate sits '
-  + 'landscape on its page. The previous portrait ratios were set against a 4:3 '
-  + 'spread of two 2:3 pages. No images had been generated at the time of the '
-  + 'change, so it cost nothing; after spread work begins it would cost a full '
-  + 'regeneration.',
-);
-if (roster === before) {
+const stmt = /`Aspect ratio: [^`]+` for every image page\. `[^`]+` for the four chapter openers/;
+if (!stmt.test(roster)) {
   console.error('roster: aspect ratio statement NOT found. Amend it by hand.');
   process.exit(1);
 }
-writeFileSync(rosterPath, roster);
+writeFileSync(
+  rosterPath,
+  roster.replace(
+    stmt,
+    `\`Aspect ratio: ${PAGE_AR}\` for every image page. \`${OPENER_AR}\` for the four chapter openers`,
+  ),
+);
+console.log('roster: amended');
 
-console.log(`roster: amended`);
-console.log(`\n${totalOpeners} openers -> ${OPENER_AR}, ${totalPages} image pages -> ${PAGE_AR}`);
-if (totalOpeners !== 4 || totalPages !== 33) {
-  console.error(`Expected 4 openers and 33 image pages. Got ${totalOpeners} and ${totalPages}.`);
+console.log(`\n${openers} openers -> ${OPENER_AR}, ${pages} image pages -> ${PAGE_AR}`);
+if (openers !== 4 || pages !== 33) {
+  console.error(`Expected 4 openers and 33 image pages. Got ${openers} and ${pages}.`);
   process.exit(1);
 }
 console.log('\nFlagged for a human pass: prompts whose framing was chosen for a');

@@ -19,8 +19,8 @@
         "shotType": "Establishing (full bleed, both pages)",
         "depicts": "The corner of Maple and Fourth as it currently is. No story beat.",
         "spoilerCheck": "PASS. Deliberately shows the corner in its vape store state. The bookstore is the reveal on text page 2 and must not appear here.",
-        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_A}}\nThe corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.\nExterior, first light.\nWide establishing shot from across the intersection, deep focus.\nGrey pre-dawn ambient with the sign's sour electric glow as the only warm note.\n{{NEGATIVE}}\nAspect ratio: 16:9",
-        "aspect": "16:9",
+        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_A}}\nThe corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.\nExterior, first light.\nWide establishing shot from across the intersection, deep focus.\nGrey pre-dawn ambient with the sign's sour electric glow as the only warm note.\n{{NEGATIVE}}\nAspect ratio: 2:1",
+        "aspect": "2:1",
         "alt": "A cheap corner storefront under a gray awning at first light, its window sign glowing, the street empty."
       }
     },
@@ -126,8 +126,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 5. Pip at the laundromat table with her hands set flat and slightly too symmetrical.",
         "spoilerCheck": "PASS. Final beat is Pip's line about noticing being honest. The line is dialogue and the image carries no speech; her mouth is closed.",
-        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:LAUNDROMAT}}\nSeated at a small table with both hands laid flat on the surface in a placement that is a shade too even, head level, mouth closed, gaze steady and slightly past the viewer. No drink in front of her.\nInterior, nine in the morning.\nClose shot, straight on at eye level, hands included at the bottom of frame, shallow depth.\nFlat fluorescent overhead mixed with cold window light from the left.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:LAUNDROMAT}}\nSeated at a small table with both hands laid flat on the surface in a placement that is a shade too even, head level, mouth closed, gaze steady and slightly past the viewer. No drink in front of her.\nInterior, nine in the morning.\nClose shot, straight on at eye level, hands included at the bottom of frame, shallow depth.\nFlat fluorescent overhead mixed with cold window light from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A girl sits at a laundromat table with both hands laid flat and evenly on the surface, looking slightly past the viewer."
       }
     },
@@ -209,8 +209,8 @@
         "shotType": "Establishing or location",
         "depicts": "Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.",
         "spoilerCheck": "PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.",
-        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_B}}\nThe same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.\nExterior, mid morning.\nWide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.\nWarm direct morning sun on the awning, deep shade under it.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:MAPLE_AND_FOURTH_B}}\nThe same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.\nExterior, mid morning.\nWide establishing shot from across the intersection, same vantage and focal length as the volume opener, deep focus.\nWarm direct morning sun on the awning, deep shade under it.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A corner bookshop with a navy awning and a window display of paperbacks, a ginger cat asleep among them."
       }
     },
@@ -308,8 +308,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 2. The woman behind the counter looking up and smiling.",
         "spoilerCheck": "PASS. Final beat is the three of them standing on the sidewalk with no answer. Not depicted; scene stays inside the shop. Her smile here is uncomplicated, the flicker belongs to the prose.",
-        "prompt": "{{STYLE}}\n{{CHAR:GREEN_CARDIGAN_WOMAN}}\n{{WARDROBE:CARDIGAN_A}}\n{{LOC:HOLLOW_PINE_INT}}\nStanding behind a wooden counter, looking up from a task and smiling warmly at the viewer, reading glasses down on their chain, hands still resting on whatever she was doing.\nInterior, mid morning.\nMedium close shot, straight on at eye level, shallow depth so the shelves behind go soft.\nWarm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:GREEN_CARDIGAN_WOMAN}}\n{{WARDROBE:CARDIGAN_A}}\n{{LOC:HOLLOW_PINE_INT}}\nStanding behind a wooden counter, looking up from a task and smiling warmly at the viewer, reading glasses down on their chain, hands still resting on whatever she was doing.\nInterior, mid morning.\nMedium close shot, straight on at eye level, shallow depth so the shelves behind go soft.\nWarm tungsten lamplight from above and behind, cool daylight from the shopfront off to the right.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A woman in her sixties in a green cardigan smiles from behind a wooden shop counter, reading glasses on a chain."
       }
     },
@@ -415,8 +415,8 @@
         "shotType": "Action moment",
         "depicts": "Beat 3. Felix coming up over the back of the couch like a meerkat.",
         "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; no monitors in frame and Pip is absent.",
-        "prompt": "{{STYLE}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nPopping suddenly upright from behind the back of a sagging couch, both hands on the cushion top, delighted and mid-word, a small gecko clinging to his shoulder.\nInterior, mid morning.\nMedium shot, camera at couch height so he rises into the top of frame, shallow depth.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nPopping suddenly upright from behind the back of a sagging couch, both hands on the cushion top, delighted and mid-word, a small gecko clinging to his shoulder.\nInterior, mid morning.\nMedium shot, camera at couch height so he rises into the top of frame, shallow depth.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A grinning teenage boy in a floral bucket hat pops up from behind a couch with a small gecko on his shoulder."
       }
     },
@@ -506,8 +506,8 @@
         "shotType": "Object or detail",
         "depicts": "Beat 2. Owen's desk after he has turned back to the keyboard and started typing fast.",
         "spoilerCheck": "PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the shelves are out of shot.",
-        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA close view across a keyboard and desk edge, a row of dented energy drink cans lined up along the back, cables spilling off the near side, monitor bezels at the top of frame with the screens rendered as pure glow and no legible content. No figures, only a blurred forearm leaving frame at the far edge.\nInterior, mid morning.\nClose shot, camera low and level with the desk surface, very shallow depth on the nearest can.\nCold screen light from above and behind the objects, long shadows pulled toward the viewer.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\nA close view across a keyboard and desk edge, a row of dented energy drink cans lined up along the back, cables spilling off the near side, monitor bezels at the top of frame with the screens rendered as pure glow and no legible content. No figures, only a blurred forearm leaving frame at the far edge.\nInterior, mid morning.\nClose shot, camera low and level with the desk surface, very shallow depth on the nearest can.\nCold screen light from above and behind the objects, long shadows pulled toward the viewer.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A close view along a desk edge past a row of energy drink cans toward the glow of unreadable monitors."
       }
     },
@@ -621,8 +621,8 @@
         "shotType": "Character portrait",
         "depicts": "Beat 1. Milo sitting down on the couch beside Lena, leaving a careful gap.",
         "spoilerCheck": "PASS. Final beat is Milo saying they will need help. Not depicted; the receipt is not in frame and neither is speaking.",
-        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{LOC:WAREHOUSE_PIT}}\nTwo figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.\nInterior, early afternoon.\nMedium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.\nSoft high window light from above and behind, no hard shadow.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{LOC:WAREHOUSE_PIT}}\nTwo figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.\nInterior, early afternoon.\nMedium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.\nSoft high window light from above and behind, no hard shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "Two teenagers sit at opposite ends of a sagging couch with a gap between them, a pig asleep against one of them."
       }
     },
@@ -712,8 +712,8 @@
         "shotType": "Atmospheric or empty",
         "depicts": "Beat 1. The kitchen at dinner time, the small box of papers already open on the table.",
         "spoilerCheck": "PASS. Final beat is Aunt Carol filing the receipt away as though it belongs there. Not depicted; no hands, no receipt, no figures.",
-        "prompt": "{{STYLE}}\n{{LOC:AUNT_CAROL_KITCHEN}}\nA worn kitchen table with a shoebox of envelopes and receipts open on it, one chair pulled out and empty, a pair of reading glasses folded on the tablecloth, a plate covered with foil pushed to one side. No figures present.\nInterior, dusk.\nMedium-wide shot from the doorway, slightly high angle, deep focus.\nSingle warm bulb hanging low over the table, the corners of the room going to dark blue.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:AUNT_CAROL_KITCHEN}}\nA worn kitchen table with a shoebox of envelopes and receipts open on it, one chair pulled out and empty, a pair of reading glasses folded on the tablecloth, a plate covered with foil pushed to one side. No figures present.\nInterior, dusk.\nMedium-wide shot from the doorway, slightly high angle, deep focus.\nSingle warm bulb hanging low over the table, the corners of the room going to dark blue.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A kitchen table under a low hanging bulb with an open shoebox of papers, folded reading glasses, and an empty pulled-out chair."
       }
     },
@@ -791,8 +791,8 @@
         "shotType": "Object or detail",
         "depicts": "Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.",
         "spoilerCheck": "PASS. Final beat is the radio saying hello and then going silent. Not depicted; the radio is inert, the battery door is open and empty, nothing is lit.",
-        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.\nInterior, late night.\nClose overhead shot, slight angle, shallow depth on the empty battery compartment.\nOne weak lamp from off to the left, the rest of the floor falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 4:3",
-        "aspect": "4:3",
+        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.\nInterior, late night.\nClose overhead shot, slight angle, shallow depth on the empty battery compartment.\nOne weak lamp from off to the left, the rest of the floor falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
         "alt": "A bin of dead electronics on a floor with a small old transistor radio on top, its empty battery compartment open and corroded."
       }
     }
