@@ -33,7 +33,7 @@
     },
     "VEX": {
       "token": "VEX",
-      "immutable": "A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.",
+      "immutable": "An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair in two messy high buns held with a small red tie, with loose pointed strands escaping around the buns and the face; the two buns are her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.",
       "immutableInactive": null,
       "canonicalRef": "char-vex-canonical.png",
       "refLocation": null,
@@ -66,7 +66,7 @@
     },
     "FELIX": {
       "token": "FELIX",
-      "immutable": "An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.",
+      "immutable": "An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.",
       "immutableInactive": null,
       "canonicalRef": "char-felix-canonical.png",
       "refLocation": null,
@@ -121,7 +121,7 @@
     },
     "CASSIE": {
       "token": "CASSIE",
-      "immutable": "A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind one ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.",
+      "immutable": "A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.",
       "immutableInactive": null,
       "canonicalRef": "char-cassie-canonical.png",
       "refLocation": null,
@@ -196,7 +196,7 @@
     },
     "FELIX_A": {
       "token": "FELIX_A",
-      "value": "Signature: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest. Unchanged in all four volumes",
+      "value": "Signature: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock. Unchanged in all four volumes",
       "storyTime": "all"
     },
     "CAROL_A": {
@@ -221,12 +221,12 @@
     },
     "CASSIE_A": {
       "token": "CASSIE_A",
-      "value": "Soft sage-green flat cap worn pushed back, sage-green long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind one ear; the second, dead one is loose in her hand or her pocket",
+      "value": "Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props",
       "storyTime": "Vol 3"
     },
     "CASSIE_B": {
       "token": "CASSIE_B",
-      "value": "The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible",
+      "value": "The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid behind her left ear is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible",
       "storyTime": "Vol 4"
     },
     "HENDERSON_A": {

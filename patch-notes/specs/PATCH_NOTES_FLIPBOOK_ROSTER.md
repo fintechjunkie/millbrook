@@ -202,8 +202,15 @@ See the addition to `{{NEGATIVE}}` in section 2, which keeps green from arriving
 accident on anybody else while leaving it usable deliberately.
 
 ### {{CHAR:VEX}}
-**Immutable:** A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
+**Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair in two messy high buns held with a small red tie, with loose pointed strands escaping around the buns and the face; the two buns are her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 **Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: yes, resolved by 1.1
+**Enriched 2026-07-28 from `MILLBROOK_MAIN_CHARACTER_LOCKS.md`.** Adds what the lock file
+specifies and the entry lacked: her height *relative to Lena*, the compact athletic build
+and grounded stance, the guarded resting posture, and the note that the two buns are the
+dominant silhouette. The lock also forbids the discarded alternative in terms worth
+keeping visible — *"do not make the hair pastel blue, white, or dark green"* and *"do not
+remove the two mint hair buns"* — which is the same decision 1.1 reached, arrived at
+independently.
 
 ### {{CHAR:PIP}}
 **Immutable:** A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
@@ -215,7 +222,7 @@ accident on anybody else while leaving it usable deliberately.
 **Canonical reference:** `char-owen-canonical.png` · Seed: pending · Approved: no
 
 ### {{CHAR:FELIX}}
-**Immutable:** An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.
+**Immutable:** An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
 **Canonical reference:** `char-felix-canonical.png` · Seed: pending · Approved: no
 **Rewritten 2026-07-28 to match the art.** The old block described a character the
 project had stopped drawing: *auburn hair in two small ponytails like antennae, a blue
@@ -228,14 +235,27 @@ teal denim jacket over a black t-shirt, and a strap harness of small hand tools 
 the chest. Two independent generations agreeing with each other and disagreeing with
 the roster is not drift, it is the roster being out of date.
 
-The gecko survived both plates and stays. It was the one element of the old block the
-art kept, which is worth noting: the gecko is named in the prose and the wardrobe was
-not.
+**Superseded by `MILLBROOK_MAIN_CHARACTER_LOCKS.md`, which confirms the rewrite and
+corrects it.** The lock file forbids the old block outright — *"Do not use patchwork
+quilting, floral clothing, ponytails, or a mandatory hat"* — and adds three things the
+plate-inferred version missed: **large** round red frames rather than thin ones, a
+**persistent amused half-grin** rather than a wide open one, and a **compact brown
+utility backpack described as part of his default silhouette**. The backpack is now in
+the immutable block.
+
+**Correcting something I asserted earlier and got wrong.** An earlier note here claimed
+the gecko was *named in the prose*. It is not. The gecko appears in **zero** prose blocks
+across all four volumes; it exists only in image prompts, and the lock file does not
+mention it either, listing instead *"small tools, wires, clips, or a handheld
+invention"*. So the gecko was an invention of the original roster with no support in
+either source. It has been rendered once, in `vol2-s04`, and it is charming, so it is
+demoted to optional in the wardrobe rather than deleted — but it is not a lock and
+nothing should be regenerated to obtain it.
 
 **This is why the description had to move rather than the images.** With no reference
-file on disk, the description was the only authority, and it was describing somebody
-who does not exist in this project. Re-rendering the old block would have produced a
-third Felix.
+file on disk, the description was the only authority, and it was describing somebody who
+does not exist in this project. Re-rendering the old block would have produced a third
+Felix.
 
 ### {{CHAR:MONKE}}
 **Immutable:** A small brown monkey with dark sharp eyes, slender limbs and a long tail.
@@ -298,7 +318,7 @@ what should settle the silhouette properly.
 **Canonical reference:** `char-crane-canonical.png` · Seed: pending · Approved: no
 
 ### {{CHAR:CASSIE}}
-**Immutable:** A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind one ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
+**Immutable:** A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 **Canonical reference:** `char-cassie-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** The hearing aid is the whole point and must stay visible in every image of her. In Volume 4 she wears over-ear headphones and the aid is beneath them, so specify that it is still there.
 **Rewritten 2026-07-28 from the canonical sheet.** Changed: the eyes are large and dark,
@@ -306,16 +326,22 @@ not *wide grey-blue*; the eyebrows are dark, not *fine light*; the mouth is clos
 slightly downturned, not *soft and resting slightly open*; the hair falls to the jaw with
 the ends turning out, not *to the shoulders*; and freckles were not previously mentioned.
 
-**One thing needs your confirmation, and it is not cosmetic.** The prose is explicit and
-says so three times: the aid is behind her **left** ear. Volume 3 spread 2 has *"one
-hearing aid visible behind her left ear"*, and Volume 3 spread 3 is built entirely around
-Pip resting *"two fingertips ... just behind the seated girl's left ear"*.
+**The ear is settled: LEFT.** It was briefly written as *behind one ear* because the
+canonical shows her head turned and which of her ears carried the aid could not be read
+off the image with confidence. The project's own
+`MILLBROOK_SECONDARY_CHARACTER_LOCKS.md` states it outright — *hearing aid behind the
+left ear* — which agrees with the prose, and the prose says it three times. Volume 3
+spread 2 has *"one hearing aid visible behind her left ear"*, and Volume 3 spread 3 is
+built entirely around Pip resting *"two fingertips ... just behind the seated girl's
+left ear"*.
 
-In the canonical the aid sits on the ear toward the left of frame, and because her head
-is turned it is genuinely ambiguous which of her ears that is. If the sheet is mirrored
-relative to the prose, every Cassie prompt inherits the wrong side and the Volume 3
-spread 3 image lands on the wrong spot on her head. This entry deliberately says *behind
-one ear* until that is settled, rather than guessing and propagating a guess.
+Worth noting why this was worth stopping over rather than guessing at: had the guess
+gone the other way, every Cassie prompt would have inherited the wrong side and the
+spread 3 image would have landed on the wrong spot on her head, in the one image where
+the exact spot is the subject.
+
+The lock file also names her cap **teal knit**, where the canonical reads as a soft flat
+cap. The wardrobe entry below follows the canonical on shape and the lock file on colour.
 
 ### {{CHAR:MR_HENDERSON}}
 **Immutable:** A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
@@ -348,13 +374,13 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes | all |
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
-| `{{WARDROBE:FELIX_A}}` | Signature: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest. Unchanged in all four volumes | all |
+| `{{WARDROBE:FELIX_A}}` | Signature: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock. Unchanged in all four volumes | all |
 | `{{WARDROBE:CAROL_A}}` | Signature: dark teal button-up shirt with brass buttons and the sleeves rolled to the forearm, worn over a rust-red knit high-neck layer that shows at the throat and at the cuffs. High-waisted charcoal wide-leg cropped trousers with turn-ups, a brown leather belt with a large square brass buckle, rust-red socks and dark ankle boots with a low heel. A rust-red leather satchel on a long strap worn diagonally across the body from the right shoulder. Unchanged in all four volumes | all |
 | `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |
 | `{{WARDROBE:MAYOR_B}}` | The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one | Vol 4 only |
 | `{{WARDROBE:CRANE_A}}` | Navy dress uniform, full medals, pale blue medical mask | all |
-| `{{WARDROBE:CASSIE_A}}` | Soft sage-green flat cap worn pushed back, sage-green long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind one ear; the second, dead one is loose in her hand or her pocket | Vol 3 |
-| `{{WARDROBE:CASSIE_B}}` | The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
+| `{{WARDROBE:CASSIE_A}}` | Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props | Vol 3 |
+| `{{WARDROBE:CASSIE_B}}` | The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid behind her left ear is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
 | `{{WARDROBE:HENDERSON_A}}` | Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet** | Vol 3, Tuesday morning |
 | `{{WARDROBE:HENDERSON_B}}` | The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue | Vol 3 afternoon onward, and Vol 4 |
 | `{{WARDROBE:CARDIGAN_A}}` | Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain | all |
