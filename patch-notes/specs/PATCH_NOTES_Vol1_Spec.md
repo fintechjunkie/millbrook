@@ -256,11 +256,16 @@ no panels, no charts, no readable content of any kind. The monitor glow is the O
 light source in the frame and everything behind him falls to black; the room is not
 otherwise lit.
 
-**Regenerating.** The first pass gave him dark eyebrows, put legible window and
-panel layouts on all three monitors, and lit the room warmly with the whole
-warehouse visible. All three were already specified, which is why they are now
-hoisted into hard constraints at the head of the prompt rather than left to the
-negative block at the foot.
+**REGENERATED AND ACCEPTED.** The first pass gave him dark eyebrows, legible window
+and panel layouts on all three monitors, and a warmly lit room with the whole
+warehouse visible. All three were already specified in the prompt but sat in the
+negative block at the foot, where they were ignored. Hoisting them into hard
+constraints at the head fixed all three at once: the second pass has a bare brow,
+screens that are pure undifferentiated glow, and the monitor light as the only
+source with the room black behind him.
+
+This is the evidence that the hard-constraints field works, and the reason it is
+now applied to every prompt where a specific feature has drifted.
 
 Prompt:
 
@@ -334,13 +339,22 @@ camera and lost in shadow. NO eye detail, NO facial expression, NO readable feat
 If his face is legible the image is wrong. Palette stays warm off-white paper with
 subdued colour; this is not a purple image.
 
-**Regenerating, and this is the constraint that matters most in the whole set.** The
-first pass gave him a fully resolved, front-lit character face with large expressive
-eyes, and a heavily purple palette. The roster is explicit: he appears exactly twice
-across four volumes, is never given a resolved hero portrait, and is deliberately
-absent from the final image of Volume 4 despite being the subject of its last
-paragraph. How much of Monke a reader is allowed to understand is a decision the
-roster makes on purpose, and a hero portrait quietly unmakes it.
+**DELIVERED IMAGE ACCEPTED, author decision.** This was flagged for regeneration and
+that was overruled: the delivered plate gives Monke a resolved, front-lit face with
+large expressive eyes and a heavily purple palette, none of which the prompt asked
+for, and the author prefers it.
+
+**This amends a roster constraint, so it is recorded rather than absorbed.** The
+Monke rendering note says he is never given a resolved hero portrait, and the
+reasoning was that how much of him a reader is allowed to understand should be a
+deliberate choice. It has now been made deliberately, in the other direction. The
+constraint that survives is the numeric one: he still appears only twice across the
+four volumes, and is still absent from the final image of Volume 4 despite being the
+subject of its last paragraph.
+
+The hard constraints above are kept for reference only. They describe the silhouette
+treatment that was NOT used, and they apply only if this plate is ever regenerated
+to the original intent.
 
 Prompt:
 
@@ -403,9 +417,24 @@ Hard constraints: The suit is DULL GREY and ill-fitting. Not purple, not lavende
 not blue. BOTH lenses of the 3D glasses are RED; neither is blue or cyan. The grin is
 tightened and strained at the corners, not a full open salesman's grin.
 
-**Regenerating.** The first pass came back in a lavender suit with one blue lens and
-a wide untroubled grin. The suit colour and the red lenses are permanent signature
-features that recur across three more volumes, so drift there compounds.
+**DELIVERED IMAGE ACCEPTED, author decision.** Flagged for regeneration and
+overruled. The delivered plate has a lavender suit, one blue lens and a wide open
+grin rather than a tightened one.
+
+**Two roster values are therefore now wrong and need amending, because they recur.**
+The Mayor is in Volumes 1, 3 and 4, so whatever this plate establishes has to hold
+for the rest of the arc:
+
+- `{{WARDROBE:MAYOR_A}}` says *ill-fitting grey suit*. The delivered suit is
+  lavender. If the lavender is the intent, the wardrobe entry should say so, or
+  Volume 3 and 4's Mayor images will contradict this one.
+- The immutable block says *red-lensed 3D glasses*. The delivered pair is red and
+  cyan, which is what real anaglyph glasses are. Worth settling as red-and-cyan in
+  the roster if that reads better.
+
+Neither amendment is made here: the roster is the single source of truth and
+changing an immutable block is an author decision. Flagged so the next Mayor image
+does not drift away from this one.
 
 Prompt:
 
