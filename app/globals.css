@@ -53,6 +53,28 @@ body {
   container-name: page;
 }
 
+/* The prose scroller.
+
+   A page should not scroll at all, and after the Volume 1 re-chunk none will.
+   But the fallback has to look like a book rather than a web page, and the
+   default chunky scrollbar did two bad things: it read as browser furniture on a
+   paper page, and it appeared only on the pages that overflowed, which shifted
+   the centred column sideways and made those pages look misaligned.
+
+   scrollbar-gutter: stable reserves the space on every page whether it scrolls
+   or not, so the column sits in the same place throughout. */
+.mb-page [data-mb-flow] {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--paper-rule) transparent;
+}
+.mb-page [data-mb-flow]::-webkit-scrollbar { width: 6px; }
+.mb-page [data-mb-flow]::-webkit-scrollbar-track { background: transparent; }
+.mb-page [data-mb-flow]::-webkit-scrollbar-thumb {
+  background: var(--paper-rule);
+  border-radius: 3px;
+}
+
 /* ------------------------------------------------------------
    The page turn.
 
