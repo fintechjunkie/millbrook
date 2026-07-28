@@ -1,10 +1,18 @@
 # Dependencies
 node_modules/
 
-# Build output
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+
+# Other build output
 dist/
 build/
 .cache/
+
+# Vercel
+.vercel
 
 # Environment
 .env
