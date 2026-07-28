@@ -27,14 +27,32 @@
  * spread number so a reader can find their place either way.
  */
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PN = join(ROOT, 'patch-notes');
+const IMAGES = join(ROOT, 'public', 'images');
 
 const roster = JSON.parse(readFileSync(join(PN, 'roster.json'), 'utf8'));
+
+/**
+ * Does the canonical reference actually exist on disk?
+ *
+ * This check exists because of a real failure. Every prompt was telling the
+ * generator "use the attached canonical reference image X as the authority for
+ * face, build, hair and proportion, match it, do not reinterpret it" while all
+ * 21 of those files were missing. Nothing could be attached, so the generator
+ * fell back to the text description, and the text description was stale. Felix
+ * came back with no bucket hat, the wrong hair and no gecko.
+ *
+ * A prompt that claims an authority it does not have is worse than one that
+ * admits it has none, because it makes the description sound optional at exactly
+ * the moment the description is all there is.
+ */
+const refExists = (file) => Boolean(file) && existsSync(join(IMAGES, file));
+const missingRefs = new Set();
 
 const STYLE_SLOT = roster.styleApproved && roster.style
   ? roster.style
@@ -103,15 +121,22 @@ function expand(prompt, hardConstraints) {
       if (!c?.immutable) { missing.push(`CHAR:${k}`); return `>>> MISSING CHAR:${k} <<<`; }
       const name = nameFor(k);
       const ref = c.canonicalRef;
-      if (ref) attach.push({ file: ref, label: name });
+      const have = refExists(ref);
+      if (ref && !have) missingRefs.add(ref);
+      if (have) attach.push({ file: ref, label: name });
       const kind = IS_ANIMAL.has(k) ? 'ANIMAL' : 'CHARACTER';
-      const lead = ref
+      // Only claim an authority that exists. Where it does not, say so plainly
+      // and put the weight on the description, which is then the only thing
+      // holding the character together.
+      const lead = have
         ? `${kind}: ${name}. Use the attached canonical reference image `
           + `"${ref}" as the authority for face, build, hair and proportion. `
           + `Match it; do not reinterpret it. The description below is a check on `
           + `that image, not a licence to depart from it.`
-        : `${kind}: ${name}. NO CANONICAL REFERENCE YET - generate the canonical `
-          + `portrait first and do not proceed from description alone.`;
+        : `${kind}: ${name}. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. `
+          + `The description below is therefore the ONLY authority and every detail `
+          + `in it is required, not optional. Do not substitute, simplify or invent `
+          + `any feature of the face, hair, headwear or clothing.`;
       return `${lead}\n${c.immutable}`;
     })
     .replace(/\{\{WARDROBE:([A-Z_0-9]+)\}\}/g, (_, k) => {
@@ -122,11 +147,14 @@ function expand(prompt, hardConstraints) {
     .replace(/\{\{LOC:([A-Z_0-9]+)\}\}/g, (_, k) => {
       const l = roster.locations[k];
       if (!l?.block) { missing.push(`LOC:${k}`); return `>>> MISSING LOC:${k} <<<`; }
-      if (l.canonicalRef) attach.push({ file: l.canonicalRef, label: `location, ${k.replace(/_/g, ' ').toLowerCase()}` });
-      const lead = l.canonicalRef
+      const have = refExists(l.canonicalRef);
+      if (l.canonicalRef && !have) missingRefs.add(l.canonicalRef);
+      if (have) attach.push({ file: l.canonicalRef, label: `location, ${k.replace(/_/g, ' ').toLowerCase()}` });
+      const lead = have
         ? `SETTING: use the attached canonical establishing image "${l.canonicalRef}" `
           + `for this location so it stays the same place between spreads.`
-        : 'SETTING:';
+        : 'SETTING: no reference image is attached, so the description below is the only'
+          + ' authority for this place and every element in it is required.';
       return `${lead}\n${l.block}`;
     });
 
@@ -200,6 +228,20 @@ function build(volNum) {
   L.push('');
   L.push('## Before generating');
   L.push('');
+  if (missingRefs.size) {
+    L.push(`- **${missingRefs.size} canonical reference files do not exist**, so nothing is`);
+    L.push('  attached for them and their text descriptions are the only authority. Every');
+    L.push('  such block says so explicitly. This is the reason characters drift: a prompt');
+    L.push('  that claims a reference it does not have makes the description sound optional');
+    L.push('  at the exact moment the description is all there is.');
+    L.push('');
+    L.push('  Missing: ' + [...missingRefs].sort().map((f) => `\`${f}\``).join(', '));
+    L.push('');
+    L.push('  Generate them from `prompt-sheet-canonical.md`, drop them into');
+    L.push('  `public/images/`, and re-run `npm run prompts`. Every affected prompt then');
+    L.push('  switches to attaching the real file with no further edits.');
+    L.push('');
+  }
   if (!roster.styleApproved) {
     L.push('- **The style block is a slot, not a value.** Paste the locked layered-paper');
     L.push('  block into section 2 of `PATCH_NOTES_FLIPBOOK_ROSTER.md`, then re-run');
@@ -278,3 +320,14 @@ for (const n of which) build(n);
 console.log(
   `\nStyle block: ${roster.styleApproved ? 'inlined' : 'SLOT, paste the locked block into the roster'}`,
 );
+
+if (missingRefs.size) {
+  console.warn(`\n!! ${missingRefs.size} canonical reference files are MISSING from public/images/.`);
+  console.warn('   Nothing is attached for these, so the text description is the only');
+  console.warn('   authority and the prompts now say so instead of claiming otherwise.');
+  for (const f of [...missingRefs].sort()) console.warn(`     ${f}`);
+  console.warn('\n   Generate from prompt-sheet-canonical.md, drop into public/images/,');
+  console.warn('   then re-run. No prompt edits needed.\n');
+} else {
+  console.log('All canonical references present and attached.\n');
+}

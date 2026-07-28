@@ -12,6 +12,18 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
+- **20 canonical reference files do not exist**, so nothing is
+  attached for them and their text descriptions are the only authority. Every
+  such block says so explicitly. This is the reason characters drift: a prompt
+  that claims a reference it does not have makes the description sound optional
+  at the exact moment the description is all there is.
+
+  Missing: `char-cardigan-canonical.png`, `char-carol-canonical.png`, `char-cassie-canonical.png`, `char-dalton-canonical.png`, `char-felix-canonical.png`, `char-henderson-canonical.png`, `char-lena-canonical.png`, `char-milo-canonical.png`, `char-monke-canonical.png`, `char-owen-canonical.png`, `char-pip-canonical.png`, `char-vex-canonical.png`, `loc-corner-a.png`, `loc-corner-b.png`, `loc-hollow-pine-int.png`, `loc-pit.png`, `loc-residential.png`, `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
+
+  Generate them from `prompt-sheet-canonical.md`, drop them into
+  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
+  switches to attaching the real file with no further edits.
+
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -37,9 +49,7 @@ Depicts: Beat 1. Vex on her feet in the Pit, ending the two-team argument.
 Spoiler check: PASS. Final beat is Mr. Henderson thinking while the porch swing creaks. Not depicted; the scene never leaves the warehouse.
 Named figures: Vex (1 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-vex-canonical.png` — Vex
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -65,10 +75,10 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Vex. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 Standing upright in the middle of a cluttered room mid-sentence, one arm out and pointing hard off frame to the left, jaw set, entirely unembarrassed. She is the only figure in frame.
 Interior, late afternoon.
@@ -97,10 +107,7 @@ Depicts: Beat 2. Pip kneeling in front of Cassie with two fingertips just behind
 Spoiler check: PASS. Final beat is Felix's conclusion that the patches are payment. Not depicted; the map is not in frame and Felix is absent.
 Named figures: Pip, Cassie (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-pip-canonical.png` — Pip
-- `char-cassie-canonical.png` — Cassie
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -126,13 +133,13 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Pip. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Cassie. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
 Wardrobe, unchanged for this scene: Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 One girl kneeling on the floor in front of another who is seated, reaching up with two fingertips resting very lightly on the skin just behind the seated girl's left ear. The kneeling girl's face is calm and measuring rather than tender. Exactly two named figures in frame and no others.
 Interior, mid morning.
@@ -161,9 +168,7 @@ Depicts: Beat 4. Cassie on the couch in the Pit, one hearing aid still behind he
 Spoiler check: PASS. Final beat is her line about not knowing how to make her brain stop hearing. Not depicted; she is not speaking and her mouth is closed.
 Named figures: Cassie (1 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-cassie-canonical.png` — Cassie
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -189,10 +194,10 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Cassie. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
 Wardrobe, unchanged for this scene: Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A small fifteen year old sitting far back on a sagging couch, shoulders drawn in, one hearing aid visible behind her left ear and the second one lying in her open upturned palm. Eyes red rimmed and dry, mouth closed. One adult-sized hand rests on her back at the very edge of frame, the owner cropped out entirely.
 Interior, mid morning.
@@ -219,9 +224,7 @@ Depicts: Beat 1. Mr. Henderson stopped at the end of the block, newspaper still 
 Spoiler check: PASS. Final beat is Aunt Carol at the coffee pot saying she would have left thirty years ago. Not depicted; the scene never enters the kitchen.
 Named figures: Mr. Henderson (1 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-henderson-canonical.png` — Mr. Henderson
-- `loc-residential.png` — location, millbrook residential
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -247,10 +250,10 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Mr. Henderson. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.
 Wardrobe, unchanged for this scene: Button-down and khakis, worn old slip-on shoes, no running shoes yet
-SETTING: use the attached canonical establishing image "loc-residential.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.
 An old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.
 Exterior, early morning.
@@ -274,8 +277,7 @@ Shot type: Atmospheric (full bleed, both pages)
 Depicts: A Millbrook street at the hour the volume begins. No story beat.
 Spoiler check: PASS. Chapter opener precedes all prose. Shows no figure and no running, so it cannot give away the six miles.
 
-**Attach these reference images before generating:**
-- `loc-residential.png` — location, millbrook residential
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -301,7 +303,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-residential.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.
 A long residential street of modest houses with a rolled newspaper lying on one porch step in the foreground. No figures anywhere.
 Exterior, just after sunrise.
@@ -349,7 +351,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains.
 A long low abandoned school building behind a sagging chain link fence, ground floor windows boarded with plywood, six acres of dead grass, a play structure in the middle distance with the swings removed and only the empty crossbar and hanging chains left. No figures anywhere.
 Exterior, overcast afternoon.
@@ -397,7 +399,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains.
 An empty porch swing hanging on two chains, still moving very slightly, worn painted floorboards, green shutters and white clapboard behind it, a screen door shut. No figures present.
 Exterior, mid afternoon.
@@ -419,8 +421,7 @@ Shot type: Establishing or location
 Depicts: Beat 1. The warehouse after midnight with everyone asleep where they landed.
 Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is not in frame and the back wall is out of shot.
 
-**Attach these reference images before generating:**
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -446,7 +447,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A wide dark interior after midnight, sleeping figures scattered across couches and one slumped at a workbench, all of them distant, turned away, or covered so that no face is legible. One work lamp burning at a bench. High on a shelf at the top of frame, a small animal silhouette, unresolved.
 Interior, well after midnight.
@@ -468,8 +469,7 @@ Shot type: Object or detail
 Depicts: Beat 5. The granola bar Vex hands over, held and not eaten.
 Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; no animal and no couch in frame.
 
-**Attach these reference images before generating:**
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -495,7 +495,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A close view of two hands holding an unopened wrapped granola bar level in front of them, held the way a person holds an object they have been given rather than food they intend to eat. The hands have a faintly grey even tone and very fine seams tracking across the backs of the wrists. Wrapper design plain, no legible lettering. No face in frame.
 Interior, the small hours.

@@ -12,6 +12,18 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
+- **17 canonical reference files do not exist**, so nothing is
+  attached for them and their text descriptions are the only authority. Every
+  such block says so explicitly. This is the reason characters drift: a prompt
+  that claims a reference it does not have makes the description sound optional
+  at the exact moment the description is all there is.
+
+  Missing: `char-cardigan-canonical.png`, `char-carol-canonical.png`, `char-dalton-canonical.png`, `char-felix-canonical.png`, `char-lena-canonical.png`, `char-milo-canonical.png`, `char-monke-canonical.png`, `char-owen-canonical.png`, `char-pip-canonical.png`, `char-vex-canonical.png`, `loc-corner-a.png`, `loc-corner-b.png`, `loc-hollow-pine-int.png`, `loc-pit.png`, `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
+
+  Generate them from `prompt-sheet-canonical.md`, drop them into
+  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
+  switches to attaching the real file with no further edits.
+
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -39,9 +51,7 @@ Depicts: Beat 4. Vex sliding the stolen dashcam back across the laundromat table
 Spoiler check: PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.
 Named figures: Lena, Vex (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-lena-canonical.png` — Lena
-- `char-vex-canonical.png` — Vex
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -67,13 +77,13 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Vex. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead.
 Two girls at a small laundromat table caught mid-exchange. Vex has just pushed a small dashcam across the tabletop and her hand is still on it at full extension, arm straight, weight forward on the seat, chin up and unapologetic, eyebrows raised as though she has said something reasonable. Lena is half out of her seat reaching for it, other hand flat on the table, mouth open on a word, an expression caught between offence and interest. Two paper coffee cups on the table, one nearer Lena. Both faces clearly visible. Exactly two figures in frame.
 Interior, nine in the morning.
@@ -96,10 +106,7 @@ Depicts: Beat 2. The woman behind the counter looking up and smiling at Lena, wh
 Spoiler check: PASS. Final beat is the three of them out on the sidewalk with no answer. Not depicted; the scene stays inside the shop. Her smile is uncomplicated here, and the flicker belongs to the prose.
 Named figures: Lena, the woman in the green cardigan (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-lena-canonical.png` — Lena
-- `char-cardigan-canonical.png` — the woman in the green cardigan
-- `loc-hollow-pine-int.png` — location, hollow pine int
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -129,13 +136,13 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - One button on the green cardigan, the third from the top, is a slightly different green from the rest, and it must be visible without being pointed at.
 - Her smile is warm and completely untroubled; she is never sinister.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-CHARACTER: the woman in the green cardigan. Use the attached canonical reference image "char-cardigan-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: the woman in the green cardigan. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.
 Wardrobe, unchanged for this scene: Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain
-SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
 An older woman behind a wooden shop counter has just looked up from a task and is smiling warmly and easily at a teenage girl standing at the counter with her. The woman's hands are still resting on whatever she was doing, reading glasses down on their chain. The girl leans in slightly with one hand on the counter edge, shoulders raised, mouth open on the beginning of an awkward question, her expression apologetic. Her satchel strap crosses her chest. Both faces clearly visible. Exactly two figures in frame.
 Interior, mid morning.
@@ -158,10 +165,7 @@ Depicts: Beat 1. Milo sitting down on the couch beside Lena, leaving a careful g
 Spoiler check: PASS. Final beat is Milo saying they will need help. Not depicted; the receipt is not in frame and neither is speaking.
 Named figures: Lena, Milo (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-milo-canonical.png` — Milo
-- `char-lena-canonical.png` — Lena
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -187,13 +191,13 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Milo. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old boy, tall and lean, fair skin of ordinary healthy tone, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.
 Wardrobe, unchanged for this scene: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 Two figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.
 Interior, early afternoon.
@@ -216,9 +220,7 @@ Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Au
 Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.
 Named figures: Lena, Aunt Carol (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-lena-canonical.png` — Lena
-- `char-carol-canonical.png` — Aunt Carol
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -250,13 +252,13 @@ MUST HOLD, these override anything below that appears to contradict them:
 - The register is a woman carrying something heavy competently and for a long time.
 - Her reading glasses are on a beaded chain.
 - The receipt is small and its printing is not legible.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-CHARACTER: Aunt Carol. Use the attached canonical reference image "char-carol-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Aunt Carol. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
 Wardrobe, unchanged for this scene: Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table.
 Two figures at a small kitchen table at dinner time, a shoebox of envelopes and receipts open between them. Lena sits forward with one hand still extended from pushing a small slip of paper across the tablecloth, watching the older woman's face rather than the paper, her own expression careful. Aunt Carol sits opposite in a shapeless cardigan, looking down at the slip for a beat longer than she needs to, reading glasses lowered on their beaded chain, one hand paused flat on the table beside it, her face tired and composed rather than sad or surprised. Neither is speaking. The printing on the slip of paper is not legible. A foil-covered plate pushed to one side. Exactly two figures in frame.
 Interior, dusk.
@@ -285,10 +287,7 @@ Depicts: Beat 1. Owen turning slowly in his chair to look at Pip, who has just r
 Spoiler check: PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the high shelves are out of shot.
 Named figures: Pip, Owen (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-pip-canonical.png` — Pip
-- `char-owen-canonical.png` — Owen
-- `loc-terminals.png` — location, warehouse terminals
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -319,13 +318,13 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Owen has a fully bald head and NO EYEBROWS AT ALL, not faint ones, not thin ones, none.
 - Every screen in frame is pure glow with NO legible interface, no windows, no panels, no readable content of any kind.
 - Pip's posture is a shade too level and she is not mid-blink.
-CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Pip. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Owen. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.
 Wardrobe, unchanged for this scene: white high-collared jumpsuit, red throat button
-SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and there are no eyebrows on his face at all. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
@@ -352,10 +351,7 @@ Depicts: Beats 2 and 3. Owen refusing to turn around while Felix erupts from beh
 Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.
 Named figures: Owen, Felix (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-owen-canonical.png` — Owen
-- `char-felix-canonical.png` — Felix
-- `loc-pit.png` — location, warehouse pit
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -387,13 +383,13 @@ MUST HOLD, these override anything below that appears to contradict them:
 - The gecko is present.
 - Owen has a fully bald head and NO EYEBROWS AT ALL.
 - Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Owen. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.
 Wardrobe, unchanged for this scene: white high-collared jumpsuit, red throat button
-CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Felix. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old boy, short and compact, warm mid-toned skin with freckles across the nose, a round open face, bright alert brown eyes set wide, expressive dark eyebrows, a snub nose, and a wide ready grin. Auburn hair pulled into two small ponytails at the top of the head with wispy strands standing out from them like antennae. He wears a blue and orange floral-patterned bucket hat pushed back off the forehead, a black turtleneck, and a purple polka-dot button-up shirt worn open over it. A small green gecko is on his person, either on a shoulder or within reach.
 Wardrobe, unchanged for this scene: floral bucket hat, black turtleneck, purple polka-dot button-up
-SETTING: use the attached canonical establishing image "loc-pit.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.
 Interior, mid morning.
@@ -417,8 +413,7 @@ Shot type: Establishing (full bleed, both pages)
 Depicts: The corner of Maple and Fourth as it currently is. No story beat.
 Spoiler check: PASS. Deliberately shows the corner in its vape store state. The bookstore is the reveal on text page 2 and must not appear here.
 
-**Attach these reference images before generating:**
-- `loc-corner-a.png` — location, maple and fourth a
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -444,7 +439,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-corner-a.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.**
 The corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.
 Exterior, first light.
@@ -466,8 +461,7 @@ Shot type: Establishing or location
 Depicts: Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.
 Spoiler check: PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.
 
-**Attach these reference images before generating:**
-- `loc-corner-b.png` — location, maple and fourth b
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -493,7 +487,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-corner-b.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.**
 The same corner storefront, now a settled old bookshop with a navy awning, a hand-painted sign board, a window display of stacked paperbacks and small hand-lettered cards with illegible writing, a fat ginger cat asleep on a stack of cookbooks, a carved wooden sign hanging in the door glass. No figures. Composition matched as closely as possible to the volume opener, same camera position.
 Exterior, mid morning.
@@ -515,8 +509,7 @@ Shot type: Object or detail
 Depicts: Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.
 Spoiler check: PASS. Final beat is the radio saying hello and then going silent. Not depicted; the radio is inert, the battery door is open and empty, nothing is lit.
 
-**Attach these reference images before generating:**
-- `loc-vex-apartment.png` — location, vex apartment
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -542,7 +535,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-vex-apartment.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.
 A plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.
 Interior, late night.

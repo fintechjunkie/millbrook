@@ -12,6 +12,18 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
+- **21 canonical reference files do not exist**, so nothing is
+  attached for them and their text descriptions are the only authority. Every
+  such block says so explicitly. This is the reason characters drift: a prompt
+  that claims a reference it does not have makes the description sound optional
+  at the exact moment the description is all there is.
+
+  Missing: `char-cardigan-canonical.png`, `char-carol-canonical.png`, `char-cassie-canonical.png`, `char-crane-canonical.png`, `char-dalton-canonical.png`, `char-felix-canonical.png`, `char-henderson-canonical.png`, `char-lena-canonical.png`, `char-milo-canonical.png`, `char-monke-canonical.png`, `char-owen-canonical.png`, `char-pip-canonical.png`, `char-vex-canonical.png`, `loc-corner-a.png`, `loc-corner-b.png`, `loc-hollow-pine-int.png`, `loc-pit.png`, `loc-residential.png`, `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
+
+  Generate them from `prompt-sheet-canonical.md`, drop them into
+  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
+  switches to attaching the real file with no further edits.
+
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -39,9 +51,7 @@ Depicts: Beat 3. Lena and her aunt watching the announcement from two different 
 Spoiler check: PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.
 Named figures: Lena, Aunt Carol (2 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-lena-canonical.png` — Lena
-- `char-carol-canonical.png` — Aunt Carol
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -67,13 +77,13 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Lena. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.
 Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
-CHARACTER: Aunt Carol. Use the attached canonical reference image "char-carol-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Aunt Carol. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A woman in her late fifties, average height and heavyset, fair skin gone slack at the jaw, a broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, and a mouth that rests closed and level. Grey-brown hair cut short and practical. Reading glasses on a beaded chain around her neck, and a shapeless cardigan.
 Wardrobe, unchanged for this scene: Shapeless cardigan over a housedress, reading glasses on their chain at the collarbone
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen.
 A girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.
 Interior, late morning.
@@ -100,9 +110,7 @@ Depicts: Beat 1. Crane, having stopped, before anything is offered.
 Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.
 Named figures: Admiral Crane (1 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-crane-canonical.png` — Admiral Crane
-- `loc-square.png` — location, town hall square
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -128,10 +136,10 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Admiral Crane. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
 Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
 Standing squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.
 Exterior, early afternoon.
@@ -158,9 +166,7 @@ Depicts: Beat 6. Mr. Henderson getting up out of the front row.
 Spoiler check: PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.
 Named figures: Mr. Henderson (1 of a maximum 2)
 
-**Attach these reference images before generating:**
-- `char-henderson-canonical.png` — Mr. Henderson
-- `loc-square.png` — location, town hall square
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -186,10 +192,10 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+CHARACTER: Mr. Henderson. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. The description below is therefore the ONLY authority and every detail in it is required, not optional. Do not substitute, simplify or invent any feature of the face, hair, headwear or clothing.
 A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.
 Wardrobe, unchanged for this scene: Button-down and khakis with brand new white running shoes, one of which still carries a price tag on the tongue
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
 An old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.
 Exterior, early afternoon.
@@ -213,8 +219,7 @@ Shot type: Establishing (full bleed, both pages)
 Depicts: The square being set up. No story beat.
 Spoiler check: PASS. Chapter opener precedes all prose. Empty of people, so it gives away nothing about the conference itself.
 
-**Attach these reference images before generating:**
-- `loc-square.png` — location, town hall square
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -240,7 +245,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
 Rows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.
 Exterior, early morning before the event.
@@ -288,7 +293,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
 A handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.
 Interior, morning.
@@ -336,7 +341,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
 A young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.
 Exterior, early afternoon.
@@ -358,8 +363,7 @@ Shot type: Establishing or location
 Depicts: Beat 1. The square at quarter past two, filling up.
 Spoiler check: PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.
 
-**Attach these reference images before generating:**
-- `loc-square.png` — location, town hall square
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -385,7 +389,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
 Around forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.
 Exterior, early afternoon.
@@ -407,8 +411,7 @@ Shot type: Object or detail
 Depicts: Beat 3. Room made in the corner. Owen's cans moved without comment.
 Spoiler check: PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.
 
-**Attach these reference images before generating:**
-- `loc-terminals.png` — location, warehouse terminals
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -434,7 +437,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 A cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.
 Interior, night.
@@ -482,7 +485,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING:
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.
 A tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.
 Interior, late night.
@@ -504,8 +507,7 @@ Shot type: Atmospheric or empty
 Depicts: The counter after the lights go off. Setting and object only.
 Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
 
-**Attach these reference images before generating:**
-- `loc-hollow-pine-int.png` — location, hollow pine int
+**Attach:** nothing. No named figure and no recurring location in this frame.
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -531,7 +533,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
 The shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.
 Interior, three in the morning.
