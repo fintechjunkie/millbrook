@@ -1,0 +1,52 @@
+/* ============================================================
+   Millbrook — global stylesheet
+   Per section 6.1 of the extraction doc, this project uses a real
+   stylesheet from the first commit rather than inline styles with a
+   CSS file bolted on for the things inline styles cannot express.
+   ============================================================ */
+
+:root {
+  /* Paper. Not welded to the images: Millbrook plates are framed
+     rectangles rather than compositions bleeding into the page ground,
+     so paper colour stays a one-line change. See extraction 6.14. */
+  --paper-stock: #F4EFE6;
+  --paper-stock-edge: #EAE3D6;
+  --paper-rule: #D8CFBE;
+  --paper-rule-soft: #E5DDCD;
+  --gutter-shadow: rgba(40, 38, 44, 0.20);
+
+  --ink: #2A2530;
+  --ink-soft: #6A6270;
+  --bg: #201E24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Focus rings are never suppressed without replacement. */
+.focus-ring:focus-visible {
+  outline: 2px solid #6B52C8;
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
