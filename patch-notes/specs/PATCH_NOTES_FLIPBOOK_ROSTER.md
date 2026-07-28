@@ -266,7 +266,8 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. | 1 | not required |
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 1 | not required |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs. | 6 | `loc-square.png` |
-| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` |
+| `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` |
 | `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` |
 | `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | not required |
 | `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required |
@@ -280,6 +281,52 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 
 **Location state pattern.** `MAPLE_AND_FOURTH_A` and `B` follow the same discipline Part D3 sets out for damaged wardrobe: B is defined as a change to A rather than as a new place, and the two images are framed identically from the same camera position. The point of the volume is that the corner was one thing and is now another, and a reader who flips back one volume and finds the composition matches will get that for free. It is the single highest-value image decision in the set and it is worth insisting on.
+
+---
+
+## 6.1 The Warehouse, and why it gets a master reference
+
+**PIT, TERMINALS and SHOP are three ends of one room, not three rooms.** Eleven of
+the thirty-seven images happen in this building, which is more than twice any other
+location, and the cast is there in every volume.
+
+Generating `loc-pit.png` and `loc-terminals.png` as independent references invites
+the failure this system exists to prevent: two plates that are each internally
+consistent and clearly not the same building. A reader who sees the couches in one
+image and the desk in another has to believe they are forty feet apart.
+
+So `WAREHOUSE_MASTER` is generated **first**, as one wide view of the whole interior
+with all three zones and their spatial relationship visible. The three zone
+references are then generated *from* it, as crops or nearer views of the same space,
+and every spread prompt attaches its zone reference. The master is a reference
+document and is never expanded into a spread prompt.
+
+### Fixed features, assembled from what the prose actually says
+
+Each of these is load-bearing somewhere in the arc, so the master image has to
+establish all of them, and nothing later may contradict them.
+
+| Feature | Where the prose establishes it |
+|---|---|
+| A back door, propped open with a brick | Vol 1 sp3: *"the back door, which Felix had jammed open with a brick again"* |
+| A welcome mat just inside it | Vol 2 sp4: *"Technically I'm on the welcome mat. I haven't crossed the threshold yet."* |
+| Four mismatched sagging couches around a low scarred table, on bare concrete | Roster; Vol 2 sp6 *"either end of a sagging couch"* |
+| A wall of three salvaged televisions behind the couches | Roster |
+| A high shelf, above and overlooking the lounge | Vol 2 sp5, Vol 3 sp7, Vol 3 sp8: Monke sits on it and *"watches everything"* |
+| Owen's long trestle desk: three monitors on stacked books, mechanical keyboard, cables stapled along the brick, a row of dented cans | Roster; Vol 1 sp3 |
+| Felix's Shop: scarred plywood bench under a clamp lamp, pegboard of hand tools, part-built devices, solder spool, scorch marks | Roster; Vol 2 sp5 *"Vex was inspecting Felix's Shop"* |
+| A dark stretch near the back wall with an abandoned second-router attempt | Vol 3 sp7: *"where Felix had once been trying to set up a second router and had given up"* |
+| Exposed steel roof trusses, high dusty clerestory windows far above | Roster |
+| A low brick industrial building with a roller shutter door | `WAREHOUSE_EXT` |
+
+**One thing the master must leave room for.** In Volume 4 they clear a corner near
+the back wall and put a small desk there for Lena, next to Owen's setup, and Owen
+moves his cans to make room. So the master shows that corner **empty and unused**,
+and the Volume 4 plate shows it occupied. That is a state change on the same
+location, the same discipline as the Maple and Fourth pair, and it only works if the
+corner exists in the master and is visibly free.
+
+No figures and no animals in the master. It is the room, not a scene.
 
 ---
 
