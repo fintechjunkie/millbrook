@@ -243,25 +243,31 @@ third Felix.
 **Rendering note, and this one is a constraint not a preference.** The reference sheet says do not explain Monke, and in this format the image is capable of explaining him whether or not the prose does. He is therefore never given a resolved hero portrait. Across all four volumes he appears twice, once as a shape against screen glow with his face largely in shadow and once as an unresolved silhouette on a high shelf, and he is deliberately absent from the final image of Volume 4 even though he is the subject of its last paragraph. If a later pass wants him more prominent, that is a decision about how much of him the reader is allowed to understand, and it should be made on purpose.
 
 ### {{CHAR:AUNT_CAROL}}
-**Immutable:** A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.
+**Immutable:** A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** She is not defeated and should not be drawn sad. The register is a woman carrying something heavy competently and for a long time.
-**Rewritten 2026-07-28 to match the art, on thinner evidence than Felix.** The old
-block read *heavyset, fair skin gone slack at the jaw, a broad face with deep lines at
-the mouth, tired hooded hazel eyes, sparse eyebrows, a broad nose, grey-brown hair cut
-short and practical, reading glasses on a beaded chain, a shapeless cardigan*. The
-delivered plate contradicts nearly every clause of that.
+**Rewritten twice on 2026-07-28. This version is from the canonical sheet and is the
+one to trust.** The original block read *heavyset, fair skin gone slack at the jaw, a
+broad face with deep lines at the mouth, tired hooded hazel eyes, sparse eyebrows, a
+broad nose, grey-brown hair cut short and practical, reading glasses on a beaded chain,
+a shapeless cardigan*. The art contradicts nearly every clause of it.
 
-Worth saying plainly: the delivered Carol serves her own rendering note **better than
+Worth saying plainly: the canonical Carol serves her own rendering note **better than
 the old description did**. That note says she is not defeated and should not be drawn
 sad, and that the register is competence carried for a long time. *Tired hooded eyes*
-and *a shapeless cardigan* were pulling against it. The plate reads as someone who has
-held a difficult line for thirty years and is still entirely present.
+and *a shapeless cardigan* were pulling against it.
 
-**Caveat, and it is the reason this entry says so.** This is rewritten from **one**
-plate, `vol2-s07`, where Felix had two agreeing ones. She appears again in Volume 4
-spread 1, and that plate will either confirm this block or expose it. If they disagree,
-this entry is the one to doubt.
+**The intermediate version got a costume detail wrong, and how it went wrong is worth
+recording.** It was written from `vol2-s07` alone, where she is seated at a table, and
+it described *rust-red braces over the shirt*. There are no braces. The rust-red
+diagonal across her chest is the **strap of a satchel**, which a seated three-quarter
+view cannot distinguish from a suspender. It also called the earring a hoop when it is a
+long brass drop, and missed the darker streaks running through the white hair.
+
+None of those are large on their own. Together they are the argument for canonical
+references existing before spread work rather than after: a full-length neutral figure
+on a plain ground settles in one image what four plates of inference will keep getting
+slightly wrong, and each wrong inference then propagates to every prompt.
 
 ### {{CHAR:MAYOR_DALTON}}
 **Immutable:** A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
@@ -292,13 +298,34 @@ what should settle the silhouette properly.
 **Canonical reference:** `char-crane-canonical.png` · Seed: pending · Approved: no
 
 ### {{CHAR:CASSIE}}
-**Immutable:** A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
+**Immutable:** A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind one ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 **Canonical reference:** `char-cassie-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** The hearing aid is the whole point and must stay visible in every image of her. In Volume 4 she wears over-ear headphones and the aid is beneath them, so specify that it is still there.
+**Rewritten 2026-07-28 from the canonical sheet.** Changed: the eyes are large and dark,
+not *wide grey-blue*; the eyebrows are dark, not *fine light*; the mouth is closed and
+slightly downturned, not *soft and resting slightly open*; the hair falls to the jaw with
+the ends turning out, not *to the shoulders*; and freckles were not previously mentioned.
+
+**One thing needs your confirmation, and it is not cosmetic.** The prose is explicit and
+says so three times: the aid is behind her **left** ear. Volume 3 spread 2 has *"one
+hearing aid visible behind her left ear"*, and Volume 3 spread 3 is built entirely around
+Pip resting *"two fingertips ... just behind the seated girl's left ear"*.
+
+In the canonical the aid sits on the ear toward the left of frame, and because her head
+is turned it is genuinely ambiguous which of her ears that is. If the sheet is mirrored
+relative to the prose, every Cassie prompt inherits the wrong side and the Volume 3
+spread 3 image lands on the wrong spot on her head. This entry deliberately says *behind
+one ear* until that is settled, rather than guessing and propagating a guess.
 
 ### {{CHAR:MR_HENDERSON}}
-**Immutable:** A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.
+**Immutable:** A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
 **Canonical reference:** `char-henderson-canonical.png` · Seed: pending · Approved: no
+**Rewritten 2026-07-28 from the canonical sheet.** Changed: the hair is swept up and
+untidy rather than *combed back*; the eyes read dark rather than *pale blue*; and the
+canonical adds a slight stoop, hollowed cheeks, prominent ears, a resting faint smile and
+a wristwatch, none of which the block had. The watch is worth having in the immutable
+block rather than the wardrobe: it is the kind of small fixed object a reader notices
+across two volumes, and Part D1 puts permanent items there.
 
 ### {{CHAR:GREEN_CARDIGAN_WOMAN}}
 **Immutable:** A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.
@@ -322,14 +349,14 @@ The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:OWEN_A}}` | Signature: white high-collared jumpsuit, red throat button. Unchanged in all four volumes | all |
 | `{{WARDROBE:FELIX_A}}` | Signature: faded teal denim jacket with sleeves pushed up over a plain black t-shirt, orange and brown webbing harness of small hand tools across the chest. Unchanged in all four volumes | all |
-| `{{WARDROBE:CAROL_A}}` | Dark teal button-up work shirt with brass buttons, collar up, a rust-red knit layer at the throat, rust-red braces over the shirt, brown leather belt with a brass buckle, charcoal trousers | all |
+| `{{WARDROBE:CAROL_A}}` | Signature: dark teal button-up shirt with brass buttons and the sleeves rolled to the forearm, worn over a rust-red knit high-neck layer that shows at the throat and at the cuffs. High-waisted charcoal wide-leg cropped trousers with turn-ups, a brown leather belt with a large square brass buckle, rust-red socks and dark ankle boots with a low heel. A rust-red leather satchel on a long strap worn diagonally across the body from the right shoulder. Unchanged in all four volumes | all |
 | `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |
 | `{{WARDROBE:MAYOR_B}}` | The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one | Vol 4 only |
 | `{{WARDROBE:CRANE_A}}` | Navy dress uniform, full medals, pale blue medical mask | all |
-| `{{WARDROBE:CASSIE_A}}` | Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket | Vol 3 |
-| `{{WARDROBE:CASSIE_B}}` | The same hoodie, plus large over-ear headphones. The hearing aid is still present beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
-| `{{WARDROBE:HENDERSON_A}}` | Button-down and khakis, worn old slip-on shoes, no running shoes yet | Vol 3, Tuesday morning |
-| `{{WARDROBE:HENDERSON_B}}` | Button-down and khakis with brand new white running shoes, one of which still carries a price tag on the tongue | Vol 3 afternoon onward, and Vol 4 |
+| `{{WARDROBE:CASSIE_A}}` | Soft sage-green flat cap worn pushed back, sage-green long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind one ear; the second, dead one is loose in her hand or her pocket | Vol 3 |
+| `{{WARDROBE:CASSIE_B}}` | The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
+| `{{WARDROBE:HENDERSON_A}}` | Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet** | Vol 3, Tuesday morning |
+| `{{WARDROBE:HENDERSON_B}}` | The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue | Vol 3 afternoon onward, and Vol 4 |
 | `{{WARDROBE:CARDIGAN_A}}` | Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain | all |
 
 The Mayor's new tie and Mr. Henderson's price-tagged shoes are both stated in the prose, which means an attentive reader can check them. They are the two continuity details most worth getting right.

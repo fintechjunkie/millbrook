@@ -277,12 +277,19 @@ function parseRoster() {
 
     const refLine = text.match(/\*\*Canonical reference:\*\*\s*(.*)/);
     const ref = refLine ? refLine[1] : '';
+    // A parenthetical straight after the filename locates a character within a
+    // SHARED reference sheet, e.g. `ref-secondary-characters.png` (second from
+    // left). Canonical references arrive grouped in practice - main cast,
+    // secondary cast, animals - rather than as one file per character, and a
+    // prompt that attaches a group sheet has to say who in it to look at.
+    const locMatch = ref.match(/`[^`]+`\s*\(([^)]+)\)/);
 
     characters[token] = {
       token,
       immutable: (active ? active[1] : bold('Immutable'))?.trim().replace(/\n+/g, ' ') ?? null,
       immutableInactive: inactive ? inactive[1].trim().replace(/\n+/g, ' ') : null,
       canonicalRef: (ref.match(/`([^`]+)`/) ?? [])[1] ?? null,
+      refLocation: locMatch ? locMatch[1].trim() : null,
       seed: (ref.match(/Seed:\s*([^·]+)/) ?? [])[1]?.trim() ?? null,
       approved: /Approved:\s*yes/i.test(ref),
       approvalNote: (ref.match(/Approved:\s*(.+)$/) ?? [])[1]?.trim() ?? null,

@@ -482,7 +482,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.
+A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.
@@ -628,7 +628,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.
+A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind one ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.
@@ -676,7 +676,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Plain empty background, neutral pose, neutral expression.
 - Every feature in the description above must be visible and correct, because every later image of this character is matched against this one.
 
-A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.
+A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
 Standing squarely facing the camera in a neutral pose, arms relaxed at the sides, neutral expression, doing nothing. No scene, no story action, no props beyond what the description above specifies.
 Plain empty warm off-white paper background. No location, no setting.
 Full figure, head to feet, centred, camera at chest height, straight on, no perspective distortion, nothing cropped.

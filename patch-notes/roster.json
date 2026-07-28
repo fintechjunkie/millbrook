@@ -14,6 +14,7 @@
       "immutable": "An eighteen year old girl of average height and slight build, fair skin with a scatter of freckles across the nose and upper cheeks, an oval face with a soft jaw, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, a wide expressive mouth, and orange hair of medium thickness pulled into two short side ponytails held with small plain hair ties, with wispy loose pieces standing up at the crown. A small oval pendant on a thin chain sits at her throat at all times.",
       "immutableInactive": null,
       "canonicalRef": "char-lena-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -24,6 +25,7 @@
       "immutable": "An eighteen year old boy, tall and lean, fair skin of ordinary healthy tone, a long face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round sunglasses with red lenses, a straight narrow nose, a flat unsmiling mouth, and dark reddish-brown hair falling messily past the jaw. He wears an orange knit beanie pulled low to the eyebrows at all times. The beanie and the red-lensed glasses are permanent and are never removed.",
       "immutableInactive": null,
       "canonicalRef": "char-milo-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -34,6 +36,7 @@
       "immutable": "A short and wiry eighteen year old girl, warm brown skin with freckles across the cheeks, a round face with a pointed chin, large dark eyes usually narrowed, straight dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Her hair is bright mint green, worn in two messy buns high on either side of the head, held with a small red hair tie. She wears a black leather jacket with silver zippers over a plain black shirt. No cap and no goggles.",
       "immutableInactive": null,
       "canonicalRef": "char-vex-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": true,
       "approvalNote": "yes, resolved by 1.1",
@@ -44,6 +47,7 @@
       "immutable": "A short girl of apparently sixteen who is a machine rather than a modified person, of even slender build. Her skin is a uniform pale grey with a faint matte sheen and no variation in tone anywhere. Round face, large expressive eyes with a smooth mechanical iris, fine pale eyebrows, small straight nose, and matte purple lips. On the side of the face nearest the left ear there is a small circular port, and very fine metallic seams run from the jaw down the neck and disappear into her collar. Sandy blonde shoulder-length hair with side-swept bangs, held back by a red bandana pushed up to the hairline with a pair of small round aviator goggles resting on top of it. She wears a slouchy patched denim jacket covered in small hand-drawn doodles over a plain white shirt.",
       "immutableInactive": null,
       "canonicalRef": "char-pip-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -54,6 +58,7 @@
       "immutable": "An eighteen year old boy of average height and thin build, a fully bald head with no eyebrows whatsoever, pale skin with faint shadows under the eyes, a narrow face with prominent cheekbones, dark deep-set eyes held in a permanent slight squint, a thin straight nose, and a mouth pressed into a flat line. He wears a white high-collared jumpsuit zipped up the front with a single small red button at the throat.",
       "immutableInactive": null,
       "canonicalRef": "char-owen-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -64,6 +69,7 @@
       "immutable": "An eighteen year old boy, short and compact, warm deep brown skin, a round open face, bright alert dark eyes set wide behind round glasses with thin red frames, dark eyebrows, a snub nose, and a wide ready grin that shows his teeth. Dense black hair worn in a short upright afro. He wears a faded teal denim jacket with the sleeves pushed up over a plain black t-shirt, and a webbing harness of orange and brown straps across his chest hung with small hand tools, a wrench and a carabiner. A small bright green gecko is on his person, on a shoulder or within reach.",
       "immutableInactive": null,
       "canonicalRef": "char-felix-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -74,6 +80,7 @@
       "immutable": "A small brown monkey with dark sharp eyes, slender limbs and a long tail.",
       "immutableInactive": null,
       "canonicalRef": "char-monke-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -81,9 +88,10 @@
     },
     "AUNT_CAROL": {
       "token": "AUNT_CAROL",
-      "immutable": "A woman in her late fifties, average height and upright, lean rather than soft, warm mid-toned skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure, alert dark eyes under dark eyebrows that contrast strongly with her hair, a straight nose, and a mouth that rests closed and level and goes up at one corner when she is amused. Abundant silver-white hair swept up and back off the face with volume at the crown, held with a patterned rust-red headscarf knotted in it. A single gold hoop earring.",
+      "immutable": "A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.",
       "immutableInactive": null,
       "canonicalRef": "char-carol-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -94,6 +102,7 @@
       "immutable": "A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.",
       "immutableInactive": null,
       "canonicalRef": "char-dalton-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -104,6 +113,7 @@
       "immutable": "A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.",
       "immutableInactive": null,
       "canonicalRef": "char-crane-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -111,9 +121,10 @@
     },
     "CASSIE": {
       "token": "CASSIE",
-      "immutable": "A small slight fifteen year old girl, fair skin, a narrow face with a small chin, wide grey-blue eyes, fine light eyebrows, a small nose, and a soft mouth that rests slightly open. Straight mid-brown hair to the shoulders, tucked behind the left ear so that a small beige hearing aid is visible there.",
+      "immutable": "A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind one ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.",
       "immutableInactive": null,
       "canonicalRef": "char-cassie-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -121,9 +132,10 @@
     },
     "MR_HENDERSON": {
       "token": "MR_HENDERSON",
-      "immutable": "A man of eighty-one, tall and spare with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead and at the eyes, a long face, kind pale blue eyes under heavy white brows, a strong nose, a thin mouth that goes up at one corner, and thick white hair combed back. He wears a plain button-down shirt tucked into khakis.",
+      "immutable": "A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.",
       "immutableInactive": null,
       "canonicalRef": "char-henderson-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -134,6 +146,7 @@
       "immutable": "A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.",
       "immutableInactive": null,
       "canonicalRef": "char-cardigan-canonical.png",
+      "refLocation": null,
       "seed": "pending",
       "approved": false,
       "approvalNote": "no",
@@ -188,7 +201,7 @@
     },
     "CAROL_A": {
       "token": "CAROL_A",
-      "value": "Dark teal button-up work shirt with brass buttons, collar up, a rust-red knit layer at the throat, rust-red braces over the shirt, brown leather belt with a brass buckle, charcoal trousers",
+      "value": "Signature: dark teal button-up shirt with brass buttons and the sleeves rolled to the forearm, worn over a rust-red knit high-neck layer that shows at the throat and at the cuffs. High-waisted charcoal wide-leg cropped trousers with turn-ups, a brown leather belt with a large square brass buckle, rust-red socks and dark ankle boots with a low heel. A rust-red leather satchel on a long strap worn diagonally across the body from the right shoulder. Unchanged in all four volumes",
       "storyTime": "all"
     },
     "MAYOR_A": {
@@ -208,22 +221,22 @@
     },
     "CASSIE_A": {
       "token": "CASSIE_A",
-      "value": "Zip hoodie over a tee, one hearing aid visible behind the left ear, the second one loose in her hand or pocket",
+      "value": "Soft sage-green flat cap worn pushed back, sage-green long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind one ear; the second, dead one is loose in her hand or her pocket",
       "storyTime": "Vol 3"
     },
     "CASSIE_B": {
       "token": "CASSIE_B",
-      "value": "The same hoodie, plus large over-ear headphones. The hearing aid is still present beneath them. Holding a folded sheet of paper with handwriting that is not legible",
+      "value": "The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible",
       "storyTime": "Vol 4"
     },
     "HENDERSON_A": {
       "token": "HENDERSON_A",
-      "value": "Button-down and khakis, worn old slip-on shoes, no running shoes yet",
+      "value": "Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet**",
       "storyTime": "Vol 3, Tuesday morning"
     },
     "HENDERSON_B": {
       "token": "HENDERSON_B",
-      "value": "Button-down and khakis with brand new white running shoes, one of which still carries a price tag on the tongue",
+      "value": "The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue",
       "storyTime": "Vol 3 afternoon onward, and Vol 4"
     },
     "CARDIGAN_A": {

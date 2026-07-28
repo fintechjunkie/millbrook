@@ -123,14 +123,20 @@ function expand(prompt, hardConstraints) {
       const ref = c.canonicalRef;
       const have = refExists(ref);
       if (ref && !have) missingRefs.add(ref);
-      if (have) attach.push({ file: ref, label: name });
+      if (have) attach.push({ file: ref, label: c.refLocation ? `${name} (${c.refLocation})` : name });
       const kind = IS_ANIMAL.has(k) ? 'ANIMAL' : 'CHARACTER';
       // Only claim an authority that exists. Where it does not, say so plainly
       // and put the weight on the description, which is then the only thing
       // holding the character together.
+      // On a shared sheet, say which figure to look at. Attaching a group sheet
+      // without that is an invitation to blend several characters together.
+      const where = c.refLocation
+        ? ` ${name} is the figure ${c.refLocation} in that sheet; ignore the other `
+          + `figures in it, they are different characters.`
+        : '';
       const lead = have
         ? `${kind}: ${name}. Use the attached canonical reference image `
-          + `"${ref}" as the authority for face, build, hair and proportion. `
+          + `"${ref}" as the authority for face, build, hair and proportion.${where} `
           + `Match it; do not reinterpret it. The description below is a check on `
           + `that image, not a licence to depart from it.`
         : `${kind}: ${name}. NO REFERENCE IMAGE IS ATTACHED FOR THIS CHARACTER. `
@@ -286,7 +292,13 @@ function build(volNum) {
       L.push('');
       if (e.attach.length) {
         L.push('**Attach these reference images before generating:**');
-        for (const a of e.attach) L.push(`- \`${a.file}\` — ${a.label}`);
+        // Dedupe by filename: several characters can share one grouped sheet, and
+        // it should be attached once with all of them listed against it.
+        const byFile = new Map();
+        for (const a of e.attach) {
+          byFile.set(a.file, [...(byFile.get(a.file) ?? []), a.label]);
+        }
+        for (const [file, labels] of byFile) L.push(`- \`${file}\` — ${labels.join('; ')}`);
       } else {
         L.push('**Attach:** nothing. No named figure and no recurring location in this frame.');
       }
