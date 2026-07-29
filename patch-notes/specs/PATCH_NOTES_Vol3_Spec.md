@@ -581,21 +581,48 @@ Cassie, in her sleep, stopped frowning.
 ### Image page (right)
 
 Slug: vol3-s08
-Shot type: Object or detail
-Depicts: Beat 5. The granola bar Vex hands over, held and not eaten.
-Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; no animal and no couch in frame.
+Shot type: Character portrait
+Depicts: Beat 4. Monke awake on the high shelf, watching the Pit below, before he climbs down.
+Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; he has not moved, he is still on the shelf, the couch is out of frame below, and nothing in the image shows where he goes next.
+
+Hard constraints: MONKE MUST BE CLEARLY LIT AND FULLY LEGIBLE — his face, both eyes, the tan
+face patch and muzzle, the crown tuft and the curl of his tail all readable. He is charcoal-black
+shaggy paper with TAN face, muzzle, inner ears, hands and feet, and very large round white eyes
+with small black pupils. He is not brown and he is not a silhouette. The frame is night but it is
+NOT murky: keep the shelf, his hoard and the trusses all readable. Nothing on the shelf may look
+sorted, squared, stacked or arranged with intent, and no wrapper may be folded — see the
+guardrail in his roster block.
+
+**Replaced the granola-bar object study, 2026-07-29.** It was two grey hands holding an unopened
+bar. Two things were wrong with it. The wrapper could not read as food once the lettering was
+stripped, because in a style built from faceted paper planes a plain wrapped bar is just another
+faceted plane. More seriously, the beat does not survive translation: the power of *"She held it
+like a person holding something they'd been given"* is the simile and the verb, both of which are
+language. A picture of hands holding a rectangle cannot say it, so the plate duplicated the
+weaker half of a line the prose had already landed, three inches to its right.
+
+Monke was chosen over the alternative — Pip and Vex side by side on the floor — because he is the
+better picture, and the roster's old ban on showing him clearly was lifted on purpose to allow it.
+He had one appearance in the whole arc before this.
+
+**The beat is 4, not 5, and that is what keeps it spoiler-safe.** He is still on the shelf,
+watching, before he decides. The image poses the question the facing text answers.
+
+The granola bar survives here as a prop in his hand rather than as the subject, which also pays
+off Spread 3's *"even Monke, on his shelf, lowered his granola bar."*
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:MONKE}}
 {{LOC:WAREHOUSE_PIT}}
-A close view of two hands holding an unopened wrapped granola bar level in front of them, held the way a person holds an object they have been given rather than food they intend to eat. The hands have a faintly grey even tone and very fine seams tracking across the backs of the wrists. Wrapper design plain, no legible lettering. No face in frame.
+A small monkey sitting alone on a high wooden shelf near the roof of a warehouse, wide awake, leaning forward over the edge with one hand gripping the shelf lip and looking down and off to the right at something below and out of frame. His expression is steady and unhurried, watching rather than reacting. A part-eaten granola bar hangs forgotten and lowered in his other hand, held down by his side rather than up at his mouth. His long tail is hooked once round the upright of the shelf bracket beside him and curls loose at the tip. Scattered along the shelf behind him is a small gathered hoard of objects a monkey would take because they were shiny or interesting rather than because they were useful: a bent spoon, two bottle caps, an empty thread spool, a single lost sneaker on its side, and a loose drift of crumpled granola wrappers. The hoard is untidy and pushed about, nothing sorted, squared, stacked or lined up. He is the only figure in frame.
 Interior, the small hours.
-Close shot, camera at hand height and straight on, very shallow depth.
-One warm lamp far off to the left, most of the frame in low blue darkness.
+Low medium shot from the Pit floor looking up at the shelf so he reads small and high in the frame with the roof trusses and the high dusty clerestory windows behind and above him, moderate depth so the shelf, the hoard and the trusses all stay legible.
+Night, but not murky. Cool blue-white moonlight through the clerestory windows above and behind him gives the trusses and the shelf a clear rim, and a warm workbench lamp far below and off to the left throws soft upward light across his face, chest and hands so his features and both eyes read clearly. The lower warehouse falls away into soft blue shadow beneath him, but nothing in the upper third of the frame is lost to black.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: Two faintly grey hands with fine seams at the wrists hold an unopened granola bar level, not eating it.
+Alt text: A small monkey sits awake on a high warehouse shelf among a scatter of gathered odds and ends, leaning over the edge to watch something below, a part-eaten granola bar lowered in one hand.

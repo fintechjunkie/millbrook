@@ -312,9 +312,17 @@ does not exist in this project. Re-rendering the old block would have produced a
 Felix.
 
 ### {{CHAR:MONKE}}
-**Immutable:** A small brown monkey with dark sharp eyes, slender limbs and a long tail.
+**Immutable:** A small monkey built from shaggy layered charcoal-black paper, with a warm tan face patch, tan muzzle, tan inner ears, tan hands and tan feet, a spiky tuft standing up on the crown, very large round white eyes with small black pupils set wide apart, slender limbs, and a long tail that curls into a loose spiral at the tip.
 **Canonical reference:** `char-monke-canonical.png` · Seed: pending · Approved: no
-**Rendering note, and this one is a constraint not a preference.** The reference sheet says do not explain Monke, and in this format the image is capable of explaining him whether or not the prose does. He is therefore never given a resolved hero portrait. Across all four volumes he appears twice, once as a shape against screen glow with his face largely in shadow and once as an unresolved silhouette on a high shelf, and he is deliberately absent from the final image of Volume 4 even though he is the subject of its last paragraph. If a later pass wants him more prominent, that is a decision about how much of him the reader is allowed to understand, and it should be made on purpose.
+**Colour corrected 2026-07-29.** The block said *a small brown monkey*. `char-monke-canonical.png` and `MILLBROOK_CANONICAL_ANIMAL_LINEUP_v1.png` both show him charcoal-black with tan extremities. `vol1-s04` already followed the image, so the artwork was right and the text was wrong.
+
+**Rendering note, superseded 2026-07-29 and kept here because the reasoning still matters.** The reference sheet says do not explain Monke, so this block used to forbid him a resolved portrait: across four volumes he was to appear only as a shape against screen glow and an unresolved silhouette on a high shelf.
+
+That has now been overruled twice, both times by the same call — `vol1-s04` came back as a fully resolved hero portrait and was accepted, and `vol3-s08` was then commissioned as a lit, legible Monke on purpose. **He is allowed to be seen clearly.** The mystery is carried by what he does, not by whether the reader can make out his face, and the prose is strong enough to hold it alone.
+
+**One guardrail survives, and it is a plot constraint rather than a mood one.** Volume 4 ends with Monke deliberately climbing down, finding a locked drawer and putting a finger on it. That is the arc's reveal that he is not behaving like an animal. So no image before it may give him a *clever* tell: no neatly folded or squared-off wrappers, no sorted or inventoried hoard, no tool held correctly, no object arranged with intent. Things he has plainly gathered are fine and welcome. Things he has plainly **organised** are not, because they spend Volume 4's ending a volume early.
+
+He remains deliberately absent from the final image of Volume 4 even though he is the subject of its last paragraph.
 
 ### {{CHAR:AUNT_CAROL}}
 **Immutable:** A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.

@@ -280,6 +280,70 @@ Alt text, already written, do not regenerate: A girl kneels in front of a seated
 
 ---
 
+## MONKE
+
+Canonical reference: `char-monke-canonical.png` · approved: no
+
+### [ ] vol3-s08 — spread 8
+
+Shot type: Character portrait
+Depicts: Beat 4. Monke awake on the high shelf, watching the Pit below, before he climbs down.
+Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; he has not moved, he is still on the shelf, the couch is out of frame below, and nothing in the image shows where he goes next.
+Named figures: Monke (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-monke-canonical.png` — Monke
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- MONKE MUST BE CLEARLY LIT AND FULLY LEGIBLE — his face, both eyes, the tan face patch and muzzle, the crown tuft and the curl of his tail all readable.
+- He is charcoal-black shaggy paper with TAN face, muzzle, inner ears, hands and feet, and very large round white eyes with small black pupils.
+- He is not brown and he is not a silhouette.
+- The frame is night but it is NOT murky: keep the shelf, his hoard and the trusses all readable.
+- Nothing on the shelf may look sorted, squared, stacked or arranged with intent, and no wrapper may be folded — see the guardrail in his roster block.
+ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A small monkey built from shaggy layered charcoal-black paper, with a warm tan face patch, tan muzzle, tan inner ears, tan hands and tan feet, a spiky tuft standing up on the crown, very large round white eyes with small black pupils set wide apart, slender limbs, and a long tail that curls into a loose spiral at the tip.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+A small monkey sitting alone on a high wooden shelf near the roof of a warehouse, wide awake, leaning forward over the edge with one hand gripping the shelf lip and looking down and off to the right at something below and out of frame. His expression is steady and unhurried, watching rather than reacting. A part-eaten granola bar hangs forgotten and lowered in his other hand, held down by his side rather than up at his mouth. His long tail is hooked once round the upright of the shelf bracket beside him and curls loose at the tip. Scattered along the shelf behind him is a small gathered hoard of objects a monkey would take because they were shiny or interesting rather than because they were useful: a bent spoon, two bottle caps, an empty thread spool, a single lost sneaker on its side, and a loose drift of crumpled granola wrappers. The hoard is untidy and pushed about, nothing sorted, squared, stacked or lined up. He is the only figure in frame.
+Interior, the small hours.
+Low medium shot from the Pit floor looking up at the shelf so he reads small and high in the frame with the roof trusses and the high dusty clerestory windows behind and above him, moderate depth so the shelf, the hoard and the trusses all stay legible.
+Night, but not murky. Cool blue-white moonlight through the clerestory windows above and behind him gives the trusses and the shelf a clear rim, and a warm workbench lamp far below and off to the left throws soft upward light across his face, chest and hands so his features and both eyes read clearly. The lower warehouse falls away into soft blue shadow beneath him, but nothing in the upper third of the frame is lost to black.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol3-s08.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A small monkey sits awake on a high warehouse shelf among a scatter of gathered odds and ends, leaning over the edge to watch something below, a part-eaten granola bar lowered in one hand.
+
+---
+
 ## CASSIE
 
 Canonical reference: `char-cassie-canonical.png` · approved: no
@@ -494,54 +558,5 @@ Aspect ratio: 3:2
 Save as: **`vol3-s04.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: An abandoned school behind a chain link fence with boarded windows and a swing set stripped of its swings.
-
----
-
-### [ ] vol3-s08 — spread 8
-
-Shot type: Object or detail
-Depicts: Beat 5. The granola bar Vex hands over, held and not eaten.
-Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; no animal and no couch in frame.
-
-**Attach these reference images before generating:**
-- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
-A close view of two hands holding an unopened wrapped granola bar level in front of them, held the way a person holds an object they have been given rather than food they intend to eat. The hands have a faintly grey even tone and very fine seams tracking across the backs of the wrists. Wrapper design plain, no legible lettering. No face in frame.
-Interior, the small hours.
-Close shot, camera at hand height and straight on, very shallow depth.
-One warm lamp far off to the left, most of the frame in low blue darkness.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol3-s08.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: Two faintly grey hands with fine seams at the wrists hold an unopened granola bar level, not eating it.
 
 ---
