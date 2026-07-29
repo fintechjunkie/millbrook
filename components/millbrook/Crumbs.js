@@ -64,7 +64,11 @@ export function Crumbs({ trail = [], current, align = 'left' }) {
           <Link href={c.href} className="focus-ring" style={link}>
             {c.label}
           </Link>
-          <span aria-hidden="true" style={{ ...link, color: ui.textFaint }}>
+          {/* An alpha of ink rather than a fixed grey, because this component appears on two
+              different grounds: the off-white site shell and the reader's deeper one. A grey
+              tuned for the lighter of the two measures 2.4:1 on the darker. An alpha tracks
+              whatever it is laid on and stays legible on both. */}
+          <span aria-hidden="true" style={{ ...link, color: 'rgba(42,37,48,0.45)' }}>
             /
           </span>
         </span>

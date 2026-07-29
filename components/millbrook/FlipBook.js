@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Crumbs } from './Crumbs';
 import { useTextEditing } from './useTextEditing';
 import { BlankPage, GraphicPage, OpenerSpread, TextPage } from './SpreadPage';
-import { color, geometry, paper, space, turn as TURN, type, ui } from '@/lib/millbrook/series';
+import { color, geometry, paper, reader, space, turn as TURN, type } from '@/lib/millbrook/series';
 
 // ============================================================
 // Leaves
@@ -177,10 +177,10 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
         position: 'fixed',
         inset: 0,
         zIndex: 40,
-        // Light like everything else. This is a full-screen table of contents rather than a
-        // dialog over content you still want to see, so there is no reason for it to be the
-        // one dark surface left in the reader.
-        background: color.bg,
+        // The reader's own ground, so opening the contents does not change the colour of the
+        // room. It is a full-screen table of contents rather than a dialog over content you
+        // still want to see, which is why it is opaque.
+        background: reader.bg,
         overflowY: 'auto',
         padding: `${space(10)} ${space(5)} ${space(16)}`,
       }}
@@ -194,11 +194,11 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
             gap: space(4),
             marginBottom: space(7),
             paddingBottom: space(3),
-            borderBottom: `1px solid ${ui.rule}`,
+            borderBottom: `1px solid ${reader.rule}`,
           }}
         >
           <div>
-            <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.22em', color: ui.kicker }}>
+            <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.22em', color: color.accent }}>
               Contents
             </div>
             <div style={{ color: color.ink, fontSize: 19, fontWeight: 700, marginTop: 4,
@@ -208,7 +208,7 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
           </div>
           <button className="focus-ring" onClick={onClose}
             style={{ ...type.utility, fontSize: 10, letterSpacing: '0.18em', background: color.bgRaise,
-                     border: `1px solid ${ui.ruleStrong}`, color: ui.textMuted,
+                     border: `1px solid ${reader.ruleStrong}`, color: reader.textMuted,
                      padding: `${space(2)} ${space(4)}`, cursor: 'pointer' }}>
             Close
           </button>
@@ -234,7 +234,7 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
                   borderStyle: 'solid',
                   borderColor: here
                     ? color.accent
-                    : `${ui.ruleStrong} ${ui.rule} ${ui.rule}`,
+                    : `${reader.ruleStrong} ${reader.rule} ${reader.rule}`,
                   borderRadius: 6,
                   padding: space(4),
                   display: 'flex',
@@ -244,7 +244,7 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
                   fontFamily: type.body.fontFamily,
                 }}
               >
-                <span style={{ ...type.utility, fontSize: 9, letterSpacing: '0.16em', color: here ? color.accent : ui.textFaint }}>
+                <span style={{ ...type.utility, fontSize: 9, letterSpacing: '0.16em', color: here ? color.accent : reader.textFaint }}>
                   {l.kind === 'opener' ? 'Opener' : `Spread ${String(s.n).padStart(2, '0')}`}
                 </span>
                 <span style={{ fontSize: 14.5, fontWeight: 700, lineHeight: 1.25 }}>
@@ -253,7 +253,7 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
                     : sections[0] || `Pages ${s.pages}`}
                 </span>
                 {l.kind === 'spread' && (
-                  <span style={{ fontSize: 11.5, color: ui.textMuted, lineHeight: 1.4 }}>
+                  <span style={{ fontSize: 11.5, color: reader.textMuted, lineHeight: 1.4 }}>
                     {sections.length > 1 ? sections.slice(1).join(' · ') + ' · ' : ''}
                     {s.words} words
                   </span>
@@ -390,10 +390,10 @@ function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
     alignItems: 'center',
     background: 'none',
     border: 0,
-    borderBottom: `2px solid ${dead ? 'transparent' : ui.rule}`,
+    borderBottom: `2px solid ${dead ? 'transparent' : reader.rule}`,
     padding: `${space(1)} ${space(3)} ${space(2)}`,
     cursor: dead ? 'default' : 'pointer',
-    color: dead ? ui.textFaint : ui.textMuted,
+    color: dead ? reader.textFaint : reader.textMuted,
     opacity: dead ? 0.45 : 1,
     transition: 'color 160ms ease, border-color 160ms ease',
   });
@@ -416,7 +416,7 @@ function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
           style={{ ...half('back', atStart), flex: 'none' }}>
           <span style={label}>← Back</span>
         </button>
-        <span style={{ ...label, color: ui.textFaint, fontSize: 8 }}>Swipe or tap</span>
+        <span style={{ ...label, color: reader.textFaint, fontSize: 8 }}>Swipe or tap</span>
         <button type="button" className="focus-ring" onClick={onForward} disabled={atEnd}
           style={{ ...half('fwd', atEnd), flex: 'none' }}>
           <span style={label}>Next →</span>
@@ -447,7 +447,7 @@ function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
       </button>
 
       {/* Aligns with the gutter, which is what ties the two halves to the two pages. */}
-      <span aria-hidden="true" style={{ width: 1, background: ui.rule, flex: 'none' }} />
+      <span aria-hidden="true" style={{ width: 1, background: reader.rule, flex: 'none' }} />
 
       <button type="button" className="focus-ring" onClick={onForward} disabled={atEnd}
         aria-label="Go forward one page" style={half('fwd', atEnd)}>
@@ -788,7 +788,9 @@ export default function FlipBook({ volume, next = null }) {
       onTouchEnd={onTouchEnd}
       style={{
         minHeight: '100vh',
-        background: color.bg,
+        // The reader's own ground, deeper than the site shell. A cream page on an off-white
+        // shell measured 1.03:1 and had nothing to sit against; this is 1.77:1. See `reader`.
+        background: reader.bg,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -815,7 +817,7 @@ export default function FlipBook({ volume, next = null }) {
           justifyContent: 'flex-start',
           gap: space(4),
           padding: `${space(3)} ${space(5)}`,
-          background: `linear-gradient(to bottom, ${ui.chrome}, ${ui.chromeFade})`,
+          background: `linear-gradient(to bottom, ${reader.chrome}, ${reader.chromeFade})`,
         }}
       >
         {/* Was a single "← The Patch Notes" and, on the right, the volume title as
@@ -1008,18 +1010,18 @@ export default function FlipBook({ volume, next = null }) {
           flexWrap: 'wrap',
           gap: `${space(2)} ${space(5)}`,
           padding: `${space(4)} ${space(4)}`,
-          background: `linear-gradient(to top, ${ui.chrome}, ${ui.chromeFade})`,
+          background: `linear-gradient(to top, ${reader.chrome}, ${reader.chromeFade})`,
         }}
       >
         {/* The page is clickable, but that is a mouse affordance. These are
             what keyboard and screen-reader users reach for. */}
         <button className="focus-ring" aria-label="Previous page" onClick={() => go('back')} disabled={atStart}
           style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
-                   cursor: atStart ? 'default' : 'pointer', color: atStart ? 'rgba(42,37,48,0.22)' : ui.textMuted }}>
+                   cursor: atStart ? 'default' : 'pointer', color: atStart ? 'rgba(42,37,48,0.22)' : reader.textMuted }}>
           ‹
         </button>
 
-        <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.16em', color: ui.textFaint,
+        <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.16em', color: reader.textFaint,
                       display: 'flex', alignItems: 'center', gap: space(2), minWidth: 128, justifyContent: 'center' }}>
           {spreadNo ? (
             <>
@@ -1033,7 +1035,7 @@ export default function FlipBook({ volume, next = null }) {
               )}
             </>
           ) : (
-            <span style={{ color: ui.kicker }}>Opener</span>
+            <span style={{ color: color.accent }}>Opener</span>
           )}
         </div>
 
@@ -1046,7 +1048,7 @@ export default function FlipBook({ volume, next = null }) {
         ) : (
           <button className="focus-ring" aria-label="Next page" onClick={() => go('fwd')}
             style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
-                     cursor: 'pointer', color: ui.textMuted }}>
+                     cursor: 'pointer', color: reader.textMuted }}>
             ›
           </button>
         )}
@@ -1066,8 +1068,8 @@ export default function FlipBook({ volume, next = null }) {
               fontSize: 9,
               letterSpacing: '0.18em',
               background: edit.editing ? color.accent : 'none',
-              border: `1px solid ${edit.editing ? color.accent : ui.ruleStrong}`,
-              color: edit.editing ? paper.stock : ui.textMuted,
+              border: `1px solid ${edit.editing ? color.accent : reader.ruleStrong}`,
+              color: edit.editing ? paper.stock : reader.textMuted,
               padding: `${space(2)} ${space(3)}`,
               cursor: 'pointer',
               marginLeft: space(2),
@@ -1079,7 +1081,7 @@ export default function FlipBook({ volume, next = null }) {
 
         <button className="focus-ring" onClick={() => setContents(true)}
           style={{ ...type.utility, fontSize: 9, letterSpacing: '0.18em', background: 'none',
-                   border: `1px solid ${ui.ruleStrong}`, color: ui.textMuted,
+                   border: `1px solid ${reader.ruleStrong}`, color: reader.textMuted,
                    padding: `${space(2)} ${space(3)}`, cursor: 'pointer', marginLeft: space(2) }}>
           Contents
         </button>
