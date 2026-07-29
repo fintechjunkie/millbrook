@@ -13,10 +13,6 @@ export const metadata = {
 
 export default function PatchNotesArc() {
   const byslug = Object.fromEntries(allVolumes().map((v) => [v.slug, v]));
-  const vols = ARC.volumes.map((v) => byslug[v.slug]).filter(Boolean);
-  const words = vols.reduce((a, v) => a + v.words, 0);
-  const spreads = vols.reduce((a, v) => a + v.spreadCount, 0);
-  const images = vols.reduce((a, v) => a + v.imageCount, 0);
 
   return (
     <main style={{ minHeight: '100vh', background: color.bg }}>
@@ -56,6 +52,10 @@ export default function PatchNotesArc() {
           {ARC.blurb}
         </p>
 
+        {/* The spread, plate and word totals that used to sit here are gone for the
+            same reason they went from the landing page: they are facts about making
+            the thing, not reasons to read it. What a visitor actually needs from this
+            line is permission to start anywhere, so that is all it says now. */}
         <div
           style={{
             ...type.utility,
@@ -65,8 +65,7 @@ export default function PatchNotesArc() {
             marginBottom: space(9),
           }}
         >
-          Four volumes · {spreads} spreads · {images} plates · {words.toLocaleString()} words ·
-          {' '}each volume opens and reads independently
+          Four volumes · each one opens and reads independently
         </div>
 
         <Shelf arc={ARC} volumes={byslug} />
