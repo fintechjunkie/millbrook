@@ -29,8 +29,8 @@
       "n": 1,
       "kind": "spread",
       "pages": "3 to 4",
-      "declaredWords": 295,
-      "words": 292,
+      "declaredWords": 270,
+      "words": 267,
       "blocks": [
         {
           "t": "h",
@@ -103,7 +103,27 @@
         {
           "t": "p",
           "v": "The door chimed again and the other girl walked in, and Lena felt her brain do a small recalibration. She had goggles pushed up into her hair and a patched jacket, and her skin was a shade too even, and her eyes tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t."
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s01",
+        "shotType": "Action moment",
+        "depicts": "Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.",
+        "spoilerCheck": "PASS. Final beat is now Pip walking in, moving like a person except for the parts where she doesn't, after the four lines of her exchange with Lena were moved to spread 2 on 2026-07-29. Not depicted; the frame holds only Vex and Lena at the table and Pip is absent from it entirely.",
+        "hardConstraints": null,
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:LAUNDROMAT}}\nTwo girls at a small laundromat table caught mid-exchange. Vex has just pushed a small dashcam across the tabletop and her hand is still on it at full extension, arm straight, weight forward on the seat, chin up and unapologetic, eyebrows raised as though she has said something reasonable. Lena is half out of her seat reaching for it, other hand flat on the table, mouth open on a word, an expression caught between offence and interest. Two paper coffee cups on the table, one nearer Lena. Both faces clearly visible. Exactly two figures in frame.\nInterior, nine in the morning.\nMedium two-shot from the end of the table so the dashcam sits between them at the centre of the composition, camera at seated eye level, moderate depth so the banks of machines read behind them.\nFlat fluorescent overhead mixed with cold window light from the left, no dramatic shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "Two girls at a laundromat table, one pushing a small dashcam across it with her arm at full stretch, the other half standing to reach for it."
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 255,
+      "words": 251,
+      "blocks": [
         {
           "t": "p",
           "v": "“Oh,” Lena said, before she could stop herself. “You’re a robot.”"
@@ -119,27 +139,7 @@
         {
           "t": "p",
           "v": "“It’s fine. People notice or they don’t. You noticed. That’s honest.”"
-        }
-      ],
-      "note": null,
-      "image": {
-        "slug": "vol2-s01",
-        "shotType": "Action moment",
-        "depicts": "Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.",
-        "spoilerCheck": "PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.",
-        "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{LOC:LAUNDROMAT}}\nTwo girls at a small laundromat table caught mid-exchange. Vex has just pushed a small dashcam across the tabletop and her hand is still on it at full extension, arm straight, weight forward on the seat, chin up and unapologetic, eyebrows raised as though she has said something reasonable. Lena is half out of her seat reaching for it, other hand flat on the table, mouth open on a word, an expression caught between offence and interest. Two paper coffee cups on the table, one nearer Lena. Both faces clearly visible. Exactly two figures in frame.\nInterior, nine in the morning.\nMedium two-shot from the end of the table so the dashcam sits between them at the centre of the composition, camera at seated eye level, moderate depth so the banks of machines read behind them.\nFlat fluorescent overhead mixed with cold window light from the left, no dramatic shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
-        "aspect": "3:2",
-        "alt": "Two girls at a laundromat table, one pushing a small dashcam across it with her arm at full stretch, the other half standing to reach for it."
-      }
-    },
-    {
-      "n": 2,
-      "kind": "spread",
-      "pages": "5 to 6",
-      "declaredWords": 230,
-      "words": 226,
-      "blocks": [
+        },
         {
           "t": "p",
           "v": "Pip sat down at the table without being invited. She didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical."

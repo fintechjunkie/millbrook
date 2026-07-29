@@ -641,9 +641,9 @@ Pages 17 to 18 | Part One: The Pothole | Words 323
 
 “And nobody’s going to do anything about it.”
 
-Vex tapped the laptop. The single dark frame stared back at her. “There’s also a girl. New in town. She has a research folder. I checked her car.”
+Vex tapped the laptop. The single dark frame stared back at her. “There’s also a new girl in town. She has a research folder. I have her dashcam”
 
-“You stole a tourist’s dashcam.”
+“You stole a tourist’s dashcam?”
 
 “She’s not a tourist.”
 

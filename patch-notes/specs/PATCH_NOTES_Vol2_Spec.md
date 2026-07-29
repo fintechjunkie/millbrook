@@ -81,7 +81,7 @@ Alt text: A cheap corner storefront under a gray awning at first light, its wind
 
 ## Spread 1
 
-Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 295
+Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 270
 
 ### Text page (left), verbatim
 
@@ -121,20 +121,12 @@ Lena put her coffee down. “Okay. We’re going to talk about the part where yo
 
 The door chimed again and the other girl walked in, and Lena felt her brain do a small recalibration. She had goggles pushed up into her hair and a patched jacket, and her skin was a shade too even, and her eyes tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t.
 
-“Oh,” Lena said, before she could stop herself. “You’re a robot.”
-
-“I’m Pip.”
-
-“Sorry.”
-
-“It’s fine. People notice or they don’t. You noticed. That’s honest.”
-
 ### Image page (right)
 
 Slug: vol2-s01
 Shot type: Action moment
 Depicts: Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.
-Spoiler check: PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.
+Spoiler check: PASS. Final beat is now Pip walking in, moving like a person except for the parts where she doesn't, after the four lines of her exchange with Lena were moved to spread 2 on 2026-07-29. Not depicted; the frame holds only Vex and Lena at the table and Pip is absent from it entirely.
 
 **Reframed to be character-forward.** It was Pip alone at the table with her hands
 set flat. Two problems with that: Pip now gets her introduction in Volume 1
@@ -165,9 +157,17 @@ Alt text: Two girls at a laundromat table, one pushing a small dashcam across it
 
 ## Spread 2
 
-Pages 5 to 6 | Part Two: The Bookstore That Was Always There | Words 230
+Pages 5 to 6 | Part Two: The Bookstore That Was Always There | Words 255
 
 ### Text page (left), verbatim
+
+“Oh,” Lena said, before she could stop herself. “You’re a robot.”
+
+“I’m Pip.”
+
+“Sorry.”
+
+“It’s fine. People notice or they don’t. You noticed. That’s honest.”
 
 Pip sat down at the table without being invited. She didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical.
 
