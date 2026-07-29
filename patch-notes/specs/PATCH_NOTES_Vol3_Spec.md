@@ -441,8 +441,8 @@ Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to co
 Hard constraints: Mr Henderson has STRONG WHITE SHELF-LIKE EYEBROWS and untidy white hair
 swept up, not combed flat. He wears the BRAND NEW WHITE RUNNING SHOES and one still carries
 a price tag on the tongue, because this is after Carter's. His wristwatch is on. Lena's
-orange hair is in TWO large uneven side ponytails, never merged into one, and her oval
-pendant is visible at the centre of her chest.
+orange hair is in ONE large uneven side ponytail high on her left, spiky and layered with a
+loose fringe, and her oval pendant is visible at the centre of her chest.
 
 **Reframed to be character-forward.** It was the porch swing empty, before or after the
 conversation. But this page is the emotional centre of the volume — an eighty-one year old
@@ -509,7 +509,7 @@ Depicts: Beat 1. Vex sitting awake on the floor beside the couch where Cassie is
 Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is absent from the frame entirely and the dark back wall she is standing at is out of shot.
 
 Hard constraints: Cassie's hearing aid is behind her LEFT ear and must remain visible even
-asleep. Vex's mint-green hair is in TWO high buns. Keep the two figures small in a wide dark
+asleep. Vex's mint-green hair is spiky with ONE messy high bun at the back left. Keep the two figures small in a wide dark
 frame; this is an atmospheric image with people in it, not a portrait, and no face needs to
 be readable in close detail.
 

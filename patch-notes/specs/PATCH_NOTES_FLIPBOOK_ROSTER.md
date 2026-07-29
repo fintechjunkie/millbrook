@@ -173,7 +173,7 @@ Each immutable block is one paragraph, pasted verbatim into every prompt in whic
 None of the entries are approved yet. Approval means a canonical portrait has been generated from the style block plus the immutable block alone, iterated until right, and its prompt string, seed and filename recorded. That is a blocking step under Part D4.
 
 ### {{CHAR:LENA}}
-**Immutable:** An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair in **two large, uneven side ponytails**, layered and spiky with loose wisps standing up at the crown; the twin ponytails are her dominant silhouette and must never be merged into one. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+**Immutable:** An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven side ponytail** high on her left side, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single off-centre ponytail is her dominant silhouette and it must never be centred or split into a matched pair. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 **Canonical reference:** `char-lena-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
@@ -202,7 +202,7 @@ See the addition to `{{NEGATIVE}}` in section 2, which keeps green from arriving
 accident on anybody else while leaving it usable deliberately.
 
 ### {{CHAR:VEX}}
-**Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair in two messy high buns held with a small red tie, with loose pointed strands escaping around the buns and the face; the two buns are her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
+**Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **one messy high bun** at the back left held with a small red tie, with loose pointed strands escaping the bun and framing the face; the spiky mint mass plus that single offset bun is her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 **Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: yes, resolved by 1.1
 **Enriched 2026-07-28 from `MILLBROOK_MAIN_CHARACTER_LOCKS.md`.** Adds what the lock file
 specifies and the entry lacked: her height *relative to Lena*, the compact athletic build
@@ -213,7 +213,32 @@ remove the two mint hair buns"* — which is the same decision 1.1 reached, arri
 independently.
 
 ### {{CHAR:PIP}}
-**Immutable:** A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a red bandana tied behind the head with a pair of small round aviator goggles resting on top. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+**Immutable:** A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, worn loose, with a pair of small round aviator goggles resting on top of the head and a red bandana knotted at the **neck** as a neckerchief. **See the note below: the delivered plates disagree with this and the point is open.** Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+**Hair and headwear corrected 2026-07-29 against `MILLBROOK_CANONICAL_GIRLS_LINEUP_v1.png`,
+and this was the same class of error as Owen's eyebrows.** The lock file's *written* anchor
+list for all three girls disagrees with the lock file's own *lineup image* — Lena's text says
+two ponytails and the image shows one, Vex's text says two buns and the image shows one, Pip's
+text says a bandana on the head and the image has it at the neck. Section 1 of the lock
+resolves this itself: *"When a written prompt conflicts with the canonical lineup, the lineup
+controls."* So the image wins in all three cases and the roster now follows it.
+
+**Lena and Vex need no regeneration.** Every delivered plate already matches the lineup,
+because the generator attaches the canonical reference and the model followed the picture over
+my text. The artwork was right and the roster was wrong, which is the reverse of the Owen case.
+
+**Pip is the exception and it is a live decision.** Her three delivered plates —
+`vol1-s08`, `vol2-s05`, `vol3-s03` — all put the red bandana on her head with the goggles on
+top, because that is what this roster told them to do. They are consistent with each other and
+inconsistent with the lineup. Nothing is generated against the corrected text yet, so the
+choice is still free:
+
+- **Follow the lineup** (bandana at the neck) and regenerate three plates, or
+- **Follow the delivered plates** (bandana on the head) and amend this block instead, as was
+  done for Mayor Dalton's suit.
+
+Either is defensible. The head bandana arguably reads better at small scale because it breaks
+up the blonde silhouette, and Pip has no further appearances until Volume 4.
+
 **Canonical reference:** `char-pip-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
 **Mechanical visibility rule, from the lock file, and it modifies the note above.** Pip's
