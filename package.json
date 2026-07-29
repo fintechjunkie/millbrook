@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev.mjs",
     "parse": "node scripts/parse-specs.mjs",
     "prompts": "node scripts/parse-specs.mjs && node scripts/build-prompt-sheet.mjs",
     "prebuild": "node scripts/parse-specs.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/smoke.mjs",
+    "dev:plain": "next dev",
+    "text": "node scripts/sync-text.mjs",
+    "text:check": "node scripts/sync-text.mjs --check"
   },
   "dependencies": {
     "next": "14.2.35",
