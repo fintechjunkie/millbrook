@@ -656,7 +656,11 @@ export default function FlipBook({ volume, next = null }) {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        padding: wide ? '44px 24px 64px' : '38px 10px 58px',
+        // Inline padding comes from geometry so the opening transition can size its
+        // clone with the same arithmetic. Hardcoding it here once let the two drift.
+        padding: wide
+          ? `${geometry.readerPad.top}px ${geometry.readerPad.inline}px ${geometry.readerPad.bottom}px`
+          : `${geometry.readerPad.compactTop}px ${geometry.readerPad.compactInline}px ${geometry.readerPad.compactBottom}px`,
       }}
     >
       {/* Top chrome. Never auto-hides. */}

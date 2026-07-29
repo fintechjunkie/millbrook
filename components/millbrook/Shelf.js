@@ -27,7 +27,7 @@ function VolumeCard({ arc, volume, data }) {
       // being added to it.
       onMouseEnter={() => book.prefetch(href)}
       onFocus={() => book.prefetch(href)}
-      onClick={(e) => book.open(e, href, coverRef.current)}
+      onClick={(e) => book.open(e, href, coverRef.current, volume.coverFallback)}
       style={{
         background: paper.stock,
         border: `1px solid ${paper.rule}`,

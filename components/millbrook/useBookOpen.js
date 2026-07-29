@@ -2,7 +2,7 @@
 
 import { useCallback, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { open as OPEN } from '@/lib/millbrook/series';
+import { geometry, open as OPEN } from '@/lib/millbrook/series';
 
 /**
  * The transition from a shelf card into the book.
@@ -42,7 +42,7 @@ export function useBookOpen() {
 
   const at = (ms, fn) => { timers.current.push(setTimeout(fn, ms)); };
 
-  const openBook = useCallback((event, href, coverEl) => {
+  const openBook = useCallback((event, href, coverEl, openerSlug) => {
     // Let modified clicks do what the browser would do: new tab, new window, download.
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
       return;
@@ -76,6 +76,16 @@ export function useBookOpen() {
       height: `${rect.height}px`,
     });
 
+    // The chapter opener, stacked over the cover and dissolved in mid-flight. This is
+    // what removes the abrupt hand-off: by the time the clone fades, it and the page
+    // beneath it are showing the same picture.
+    const opener = document.createElement('img');
+    opener.className = 'mb-open-opener';
+    opener.src = `/images/${openerSlug}.png`;
+    opener.alt = '';
+    opener.style.setProperty('--morph', `${OPEN.morphMs}ms`);
+    clone.append(opener);
+
     // The sheen that sweeps the cover as it opens. A child of the clone rather than a
     // background on it, so it can travel independently of the box being resized.
     const sheen = document.createElement('div');
@@ -91,12 +101,23 @@ export function useBookOpen() {
     document.querySelectorAll('.mb-open-clone, .mb-open-scrim').forEach((n) => n.remove());
     document.body.append(scrim, clone);
 
-    // Target: the reader's own geometry, centred. Capped so a very wide display does
-    // not fling the cover past the width the book will actually occupy.
-    const targetW = Math.min(window.innerWidth * 0.92, 1680);
-    const targetH = targetW / 2;
+    // Target: the SAME formula the reader uses to size its spread, not an approximation
+    // of it. Getting this wrong is the other half of why the hand-off jarred -- the clone
+    // landed at a width the book never occupies, so the swap moved the picture as well as
+    // replacing it. The reader is height-constrained on most laptops, which the old
+    // width-only cap ignored entirely.
+    const targetW = Math.min(
+      geometry.maxSpreadWidth,
+      window.innerWidth - geometry.readerPad.inline * 2,
+      (window.innerHeight - geometry.chromeReserve) * geometry.spreadAspect,
+    );
+    const targetH = targetW / geometry.spreadAspect;
     const targetX = (window.innerWidth - targetW) / 2;
-    const targetY = (window.innerHeight - targetH) / 2;
+    // Vertically the book is margin:auto inside the reader's PADDED box, not centred in
+    // the raw viewport, so it sits a little higher than the middle. Centring in the
+    // viewport left the clone 10px low and the dissolve visibly nudged the picture.
+    const { top: padTop, bottom: padBottom } = geometry.readerPad;
+    const targetY = padTop + (window.innerHeight - padTop - padBottom - targetH) / 2;
 
     // A forced reflow, NOT requestAnimationFrame, and this is the same trap the page
     // turn already documents. rAF does not fire while the page is not compositing --
@@ -123,11 +144,16 @@ export function useBookOpen() {
       });
     });
 
-    // Stage 3: the route changes underneath while the cover is still at full size and
+    // Stage 3: the cover becomes the page. The tilt flattens to square at the same time,
+    // so the object settles into the shape the reader will present rather than being
+    // caught mid-turn when the route changes.
+    at(OPEN.liftMs + OPEN.growMs, () => { clone.dataset.stage = 'morph'; });
+
+    // Stage 4: the route changes underneath while the clone is still at full size and
     // still covering everything, so the swap itself is never visible.
     at(OPEN.navMs, () => router.push(href));
 
-    // Stage 4: dissolve, revealing the opener that is now behind it.
+    // Stage 5: dissolve. Same image on both sides now, so there is nothing to see.
     at(OPEN.navMs + 40, () => {
       clone.dataset.stage = 'leaving';
       scrim.dataset.on = 'false';
