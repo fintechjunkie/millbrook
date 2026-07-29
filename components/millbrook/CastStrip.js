@@ -110,12 +110,17 @@ function CharacterCard({ member, onClose }) {
         aria-label={`${member.name}, character card`}
         tabIndex={-1}
         className="mb-charcard"
+        // Painted from the character rather than from a shared token, because the sheets
+        // do not share one backdrop. borderColor is the fallback under the border-image,
+        // so it has to move with the background or a failed PNG would frame the card in
+        // the wrong colour.
+        style={{ background: member.ground, borderColor: member.ground }}
       >
         <button type="button" className="mb-charcard-x focus-ring" onClick={onClose} aria-label="Close">
           ×
         </button>
 
-        <div className="mb-charcard-art">
+        <div className="mb-charcard-art" style={{ background: member.ground }}>
           <Plate
             slug={member.portrait}
             alt=""
@@ -124,7 +129,7 @@ function CharacterCard({ member, onClose }) {
             // The sheets are 3:4 for the six teenagers and 10:9 for Monke, so at least
             // one of them always letterboxes. Handing the plate the panel colour makes
             // that invisible instead of drawing a white band.
-            ground="var(--portrait-ground)"
+            ground={member.ground}
           />
         </div>
 

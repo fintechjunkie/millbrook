@@ -13,10 +13,12 @@
   --paper-stock-edge: #EAE3D6;
   --paper-rule: #D8CFBE;
   --paper-rule-soft: #E5DDCD;
-  /* The flat backdrop baked into every canonical character sheet, measured off the files
-     rather than guessed: six of the seven are rgb(238,221,197) and Monke is four points
-     warmer, which is imperceptible. Used wherever a portrait sits on the page so the
-     image's own ground and the panel behind it agree exactly. */
+  /* Fallback backdrop for a portrait panel. The real value is per character and comes from
+     cast.js, because the canonical sheets do NOT share one: Felix, Owen and Milo are
+     #EEDDC5, Lena, Pip and Vex are #EFDEC4, and Monke is #EAD6B9. This token was originally
+     used for all seven on the assumption the differences were imperceptible; Monke is
+     twelve points off in blue and showed as a visibly darker rectangle, which is what made
+     it obvious that the colour has to travel with the character. */
   --portrait-ground: #EEDDC5;
   --gutter-shadow: rgba(40, 38, 44, 0.20);
 
@@ -388,26 +390,32 @@ body {
   border-radius: 2px;
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
   animation: mb-card-in 220ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+
+  /* Breathing room INSIDE the border, and it is needed rather than decorative.
+
+     The frame's ink sits 54px into a 140px slice, so at a 34px border the outer rule lands
+     about 13px in and the inner rule about 19px in. Content began at 34px -- a few pixels
+     off the inner rule -- so the portrait was almost touching the ornament on three sides
+     and read as cramped. This pushes it clear. */
+  padding: 18px;
+  gap: 18px;
 }
 /* 34px of frame on each side is 18 per cent of a 375px screen, which is too much of a
    phone to spend on ornament. */
 @media (max-width: 639px) {
-  .mb-charcard { border-width: 20px; }
+  .mb-charcard { border-width: 20px; padding: 12px; gap: 12px; }
 }
 @media (min-width: 640px) {
   .mb-charcard { grid-template-columns: 240px 1fr; }
 }
 
-/* The panel is the portrait's own backdrop colour, and that is the whole fix.
+/* The card is painted in the portrait's own backdrop colour, per character, and that is
+   the whole fix. The inline style from cast.js overrides the token below.
 
    The complaint was a stark white behind the characters. The portraits are not white --
-   they carry a flat sandy ground of rgb(238,221,197) with no alpha channel at all. The
-   panel was paper-edge, four points lighter and seventeen points cooler in blue, so the
-   portrait's ground read as a warm rectangle pasted onto a colder card and made the paper
-   around it look bleached by comparison.
-
-   Matching the panel to the ground means there is no rectangle left to notice: the image
-   dissolves into its panel and the panel reads as a deliberate mount.
+   they carry a flat sandy ground with no alpha channel at all. The panel was paper-edge,
+   cooler and lighter, so the portrait's ground read as a warm rectangle pasted onto a
+   colder card and made the paper around it look bleached by comparison.
 
    A cutout was tried first and abandoned. Flood-filling the backdrop to transparency
    fails on this cast: Owen's ivory outfit measures rgb(231,212,185) against a backdrop of
@@ -415,18 +423,17 @@ body {
    them and the fill travels straight through his clothes. It punched alpha 0 through the
    middle of his jacket. Colour keying is simply the wrong tool when the wardrobe and the
    ground are the same colour, and matching is both safer and better looking. */
+/* No divider rule any more. The 18px gap separates the columns on its own, and a hairline
+   sitting inside a gap that already reads as a division was one line too many. */
 .mb-charcard-art {
   background: var(--portrait-ground);
-  border-bottom: 1px solid rgba(160, 140, 105, 0.34);
   padding: 0;
   display: flex;
   align-items: center;
 }
-@media (min-width: 640px) {
-  .mb-charcard-art { border-bottom: 0; border-right: 1px solid rgba(160, 140, 105, 0.34); }
-}
 
-.mb-charcard-body { padding: 18px 20px 22px; }
+/* The card's own padding now provides the inset, so the body adds none of its own. */
+.mb-charcard-body { padding: 0; }
 
 .mb-charcard-x {
   position: absolute;
