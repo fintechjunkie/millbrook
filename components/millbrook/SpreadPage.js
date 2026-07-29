@@ -1,7 +1,8 @@
 'use client';
 
+import { useEffect, useRef, useState } from 'react';
 import { Plate } from './Plate';
-import { color, grainStyle, paper, space, type } from '@/lib/millbrook/series';
+import { color, grainStyle, pageInset, paper, space, type } from '@/lib/millbrook/series';
 
 // data-mb-page is a verification hook, not decoration. The overflow check
 // needs one stable selector for "a page" to measure against, and screenshots
@@ -56,6 +57,109 @@ function Folio({ n, align }) {
 }
 
 /**
+ * The mark that closes a text page.
+ *
+ * Page length runs 123 to 330 words, so a median page fills about four fifths of
+ * its column and the shortest a little over two fifths. That white space is
+ * inherent to the spread map rather than a layout fault, and several short pages
+ * are called deliberate in the specs.
+ *
+ * Vertically centring the text to disguise it would be the wrong fix. In a printed
+ * book every page starts at the same head margin, and that constancy is much of
+ * what makes a book feel like one; centring would start consecutive pages at
+ * different heights, so every turn would shift the first line.
+ *
+ * So the text stays top-aligned and this closes it instead. A half-full page with a
+ * terminal mark reads as finished; the same page without one reads as cut off. It
+ * is the cheapest available answer to the actual complaint.
+ *
+ * Suppressed in two cases.
+ *
+ * After an italic block, which is how the volume closers are set: those pages already
+ * end on a deliberate sign-off line and do not want a second one.
+ *
+ * And on any page without the room for it, which is measured rather than guessed. The
+ * first pass rendered it unconditionally and cost every page 1.8em, which pushed three
+ * pages that had been at 96.9, 99.6 and 99.7 per cent straight over their column. That
+ * is the mark defeating itself: it exists to resolve leftover white space, so a page
+ * with none neither needs it nor can afford it, and on a page that scrolls it would sit
+ * below the fold where nobody would ever see it.
+ */
+function Terminal({ suppressed }) {
+  if (suppressed) return null;
+  return (
+    <div
+      aria-hidden="true"
+      data-mb-terminal=""
+      style={{
+        flex: 'none',
+        marginTop: '1.6em',
+        display: 'flex',
+        justifyContent: 'center',
+        // Three small lozenges rather than one glyph. A single character would be
+        // set in whatever the body face is and would read as punctuation the reader
+        // has to parse; geometry reads as an ornament and cannot be misread.
+        gap: '0.62em',
+      }}
+    >
+      {[0, 1, 2].map((i) => (
+        <span
+          key={i}
+          style={{
+            width: '0.22em',
+            height: '0.22em',
+            borderRadius: '50%',
+            background: color.inkSoft,
+            // The middle one carries; the outer two are a shade lighter so the
+            // group has a centre instead of reading as a row of three equal dots.
+            opacity: i === 1 ? 0.62 : 0.34,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
+/**
+ * Whether the page has spare height for a terminal mark, measured.
+ *
+ * Measures the gap between the bottom of the last block of prose and the bottom of
+ * the flow's content box. The mark is excluded from that measurement by reading the
+ * last PROSE child rather than the flow's scrollHeight, so the answer does not
+ * depend on whether the mark is currently rendered and cannot oscillate.
+ *
+ * Re-measures on resize, because the page is sized from the viewport and a window
+ * drag changes the answer.
+ */
+function useHasRoomForTerminal(ref, threshold = 2) {
+  const [room, setRoom] = useState(false);
+
+  useEffect(() => {
+    const flow = ref.current;
+    if (!flow) return undefined;
+
+    const measure = () => {
+      const prose = [...flow.children].filter((el) => !el.hasAttribute('data-mb-terminal'));
+      const last = prose[prose.length - 1];
+      if (!last) return setRoom(false);
+      const em = parseFloat(getComputedStyle(flow).fontSize) || 16;
+      // offsetTop is relative to the nearest positioned ancestor, which is the page,
+      // so both values are read in the same coordinate space via getBoundingClientRect
+      // and the flow's own scroll offset cancels out.
+      const used = last.getBoundingClientRect().bottom - flow.getBoundingClientRect().top + flow.scrollTop;
+      return setRoom(flow.clientHeight - used >= threshold * em);
+    };
+
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(flow);
+    return () => ro.disconnect();
+  }, [ref, threshold]);
+
+  return room;
+}
+
+/**
  * The prose page. Always the LEFT page, never alternating.
  *
  * Fixed placement is the point: alternating looks more dynamic in a mock and
@@ -76,7 +180,10 @@ export function TextPage({ spread, compact }) {
   // from margin costs nothing, where reclaiming it from the spread map costs a
   // new spread and a new image.
   const pad = compact ? space(6) : '30px';
+  const top = compact ? pageInset.top.compact : pageInset.top.wide;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
+  const flowRef = useRef(null);
+  const hasRoom = useHasRoomForTerminal(flowRef);
 
   // Track whether we are at the first paragraph of a section, since that one
   // sets flush left and the rest indent.
@@ -88,10 +195,11 @@ export function TextPage({ spread, compact }) {
       data-mb-kind="text"
       data-mb-spread={spread.n}
       className="mb-page"
-      style={{ ...PAGE, padding: `${pad} ${pad} ${compact ? space(5) : '16px'}` }}
+      style={{ ...PAGE, padding: `${top} ${pad} ${compact ? space(5) : '16px'}` }}
     >
       <div
         data-mb-flow
+        ref={flowRef}
         style={{
           ...type.body,
           // On a phone the page is already narrower than the measure cap, so the
@@ -137,6 +245,12 @@ export function TextPage({ spread, compact }) {
             </p>
           );
         })}
+
+        {/* Inside the flow, not pinned to the foot of the page. The mark belongs to
+            the prose it closes, so it sits directly under the last line wherever
+            that falls. Pinned to the bottom it would read as a rule, and on the
+            pages that scroll it would never be reached. */}
+        <Terminal suppressed={!hasRoom || spread.blocks[spread.blocks.length - 1]?.t === 'i'} />
       </div>
 
       <Folio n={pageNumbers[0]} align="left" />
@@ -155,6 +269,10 @@ export function GraphicPage({ spread, compact }) {
   // height, so padding here is margin the plate cannot afford. Kept tight on
   // both, and tighter still on a phone where the plate is already a band.
   const pad = compact ? space(3) : space(5);
+  // The plate's top edge now meets the first line of prose across the gutter,
+  // instead of the plate floating in the middle of its own page while the text
+  // started near the top. Two columns sharing one horizon is the whole gain.
+  const top = `calc(${compact ? pageInset.top.compact : pageInset.top.wide} + ${pageInset.plateCapNudge})`;
   const g = spread.image;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
   const aspect = cssAspect(g.aspect);
@@ -165,7 +283,7 @@ export function GraphicPage({ spread, compact }) {
       data-mb-kind="graphic"
       data-mb-spread={spread.n}
       className="mb-page"
-      style={{ ...PAGE, padding: `${pad} ${pad} ${space(5)}`, justifyContent: 'center' }}
+      style={{ ...PAGE, padding: `${top} ${pad} ${space(5)}`, justifyContent: 'flex-start' }}
     >
       <figure
         style={{
@@ -174,7 +292,10 @@ export function GraphicPage({ spread, compact }) {
           minHeight: 0,
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
+          // flex-start, not center. Centring is what put the plate's top edge at an
+          // arbitrary height; the slack now collects below it, where the prose page
+          // has its own slack too, so the spread reads as one object.
+          justifyContent: 'flex-start',
         }}
       >
         <Plate slug={g.slug} alt={g.alt} shotType={g.shotType} aspect={aspect} />

@@ -513,8 +513,8 @@
       "n": 7,
       "kind": "spread",
       "pages": "15 to 16",
-      "declaredWords": 289,
-      "words": 282,
+      "declaredWords": 295,
+      "words": 288,
       "blocks": [
         {
           "t": "p",
@@ -587,6 +587,14 @@
         {
           "t": "p",
           "v": "Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still."
+        },
+        {
+          "t": "p",
+          "v": "“It’s getting bigger.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s getting bigger.”"
         }
       ],
       "note": null,
@@ -594,7 +602,7 @@
         "slug": "vol1-s07",
         "shotType": "Object or detail",
         "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
-        "spoilerCheck": "PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.",
+        "spoilerCheck": "PASS. Final beat is now the echoed “It’s getting bigger” exchange, moved back from Spread 8 in the 2026-07-29 rebalance. Not depicted; the frame carries no figures and nothing in it refers to the thing that is getting bigger.",
         "hardConstraints": null,
         "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
@@ -605,17 +613,9 @@
       "n": 8,
       "kind": "spread",
       "pages": "17 to 18",
-      "declaredWords": 336,
-      "words": 331,
+      "declaredWords": 330,
+      "words": 325,
       "blocks": [
-        {
-          "t": "p",
-          "v": "“It’s getting bigger.”"
-        },
-        {
-          "t": "p",
-          "v": "“It’s getting bigger.”"
-        },
         {
           "t": "p",
           "v": "“And nobody’s going to do anything about it.”"

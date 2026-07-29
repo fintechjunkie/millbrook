@@ -384,7 +384,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - If his face is legible the image is wrong.
 - Palette stays warm off-white paper with subdued colour; this is not a purple image.
 ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A small brown monkey with dark sharp eyes, slender limbs and a long tail.
+A small monkey built from shaggy layered charcoal-black paper, with a warm tan face patch, tan muzzle, tan inner ears, tan hands and tan feet, a spiky tuft standing up on the crown, very large round white eyes with small black pupils set wide apart, slender limbs, and a long tail that curls into a loose spiral at the tip.
 SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s05.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 A small monkey perched on top of the middle monitor, seen from behind and slightly to the side, leaning down so one small finger touches the front of the screen. He is rendered as a dark silhouette against the screen glow. His head is turned away from the camera and his face is entirely lost in shadow: no eyes, no expression, no legible features whatsoever. Only the outline of the head, the curve of the spine, the long tail and the reaching arm are readable. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
@@ -519,7 +519,7 @@ Alt text, already written, do not regenerate: A small town of low houses seen fr
 
 Shot type: Object or detail
 Depicts: Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.
-Spoiler check: PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.
+Spoiler check: PASS. Final beat is now the echoed “It’s getting bigger” exchange, moved back from Spread 8 in the 2026-07-29 rebalance. Not depicted; the frame carries no figures and nothing in it refers to the thing that is getting bigger.
 
 **Attach these reference images before generating:**
 - `vol1-s07.png` — location, vex apartment (stand-in, a delivered scene plate)

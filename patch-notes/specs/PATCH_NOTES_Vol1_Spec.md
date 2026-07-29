@@ -46,10 +46,17 @@ to 36%, establishing 17 to 22%, atmospheric 12 to 17%, object and action
 unchanged. Not adopted unilaterally, because C3 is the working brief's and
 changing it is the author's call.
 
-One thing worth protecting whichever way that goes: Volume 1 now has no
-atmospheric image at all. The new spread created by the Volume 1 re-chunk is the
-natural home for one, and the displaced bedroom-ceiling image is already written
-and spoiler-checked.
+One thing worth protecting whichever way that goes: Volume 1 has no atmospheric
+image at all. The bedroom-ceiling image displaced from spread 8 is already written
+and spoiler-checked, so it is available the moment a home is found for it.
+
+**The re-chunk was done without adding a spread, 2026-07-29.** Splitting spread 8
+would have meant a tenth spread, a tenth plate, and renumbering every file from
+`vol1-s08.png` onward, which would have orphaned delivered artwork. Measurement made
+that unnecessary: at a 1080p-equivalent page only ONE page in all four volumes
+exceeded its column, spread 8 at 105%, and the median was 79%. Moving the echoed
+“It’s getting bigger” pair back onto spread 7 shed the two lines that mattered.
+One boundary changed, one spoiler check restated, no new image, no renumbering.
 
 ---
 
@@ -560,7 +567,7 @@ Alt text: Three teenage boys on a park bench with a fountain running behind them
 
 ## Spread 7
 
-Pages 15 to 16 | Part One: The Pothole | Words 289
+Pages 15 to 16 | Part One: The Pothole | Words 295
 
 ### Text page (left), verbatim
 
@@ -600,12 +607,16 @@ Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer
 
 Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still.
 
+“It’s getting bigger.”
+
+“It’s getting bigger.”
+
 ### Image page (right)
 
 Slug: vol1-s07
 Shot type: Object or detail
 Depicts: Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.
-Spoiler check: PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.
+Spoiler check: PASS. Final beat is now the echoed “It’s getting bigger” exchange, moved back from Spread 8 in the 2026-07-29 rebalance. Not depicted; the frame carries no figures and nothing in it refers to the thing that is getting bigger.
 
 Prompt:
 
@@ -626,13 +637,9 @@ Alt text: A dashcam taken apart on a cluttered counter beside a laptop, with its
 
 ## Spread 8
 
-Pages 17 to 18 | Part One: The Pothole | Words 336
+Pages 17 to 18 | Part One: The Pothole | Words 330
 
 ### Text page (left), verbatim
-
-“It’s getting bigger.”
-
-“It’s getting bigger.”
 
 “And nobody’s going to do anything about it.”
 
