@@ -425,7 +425,7 @@ Recurring locations get a canonical establishing image before spread work begins
 | Token | Block | Uses | Canonical ref |
 |---|---|---|---|
 | `{{LOC:MILLBROOK_WIDE}}` | A small flat American town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon, no hills, no landmarks worth photographing. | 1 | not required |
-| `{{LOC:MILLBROOK_RESIDENTIAL}}` | A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans. | 2 | `loc-residential.png` |
+| `{{LOC:MILLBROOK_RESIDENTIAL}}` | A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans. | 2 | `loc-residential.png` — no stand-in, see below |
 | `{{LOC:CRESCENT_HOUSE_EXT}}` | A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off. | 1 | not required |
 | `{{LOC:BACK_BEDROOM}}` | A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains. | 1 | not required |
 | `{{LOC:AUNT_CAROL_KITCHEN}}` | A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table. | 1 | not required |
@@ -434,18 +434,49 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 1 | not required |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs. | 6 | `loc-square.png` |
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` |
-| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` |
+| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `vol2-s06.png` |
+| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `vol2-s05.png` |
 | `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | not required |
 | `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required |
-| `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` |
+| `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
-| `{{LOC:MAPLE_AND_FOURTH_A}}` | A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.** | 1 | `loc-corner-a.png` |
-| `{{LOC:MAPLE_AND_FOURTH_B}}` | The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.** | 1 | `loc-corner-b.png` |
+| `{{LOC:MAPLE_AND_FOURTH_A}}` | A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.** | 1 | `loc-corner-a.png` — stand-in: `vol2-opener.png` |
+| `{{LOC:MAPLE_AND_FOURTH_B}}` | The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.** | 1 | `loc-corner-b.png` — stand-in: `vol2-s02.png` |
 | `{{LOC:HOLLOW_PINE_INT}}` | The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it. | 2 | `loc-hollow-pine-int.png` |
 | `{{LOC:HENDERSON_PORCH}}` | The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
+
+**Stand-in location references, decided 2026-07-29.** Only two purpose-made
+establishing shots were generated, `loc-square.png` and `loc-hollow-pine-int.png`.
+The rest are not worth a generation each, because the places are already on the page
+in delivered scene plates and those plates are what the reader will actually see. A
+location cell may therefore name a scene plate as `stand-in:`, and the generator
+attaches it with an explicit instruction to take the room from it and nothing else —
+not its characters, staging, camera angle or time of day, all of which belong to that
+plate's own page.
+
+A stand-in is a fallback and never a peer. If a purpose-made `loc-` file later
+appears, `refExists` finds it first and the stand-in is ignored with no edit needed.
+
+| Location | Stand-in | Why this plate |
+|---|---|---|
+| `WAREHOUSE_PIT` | `vol2-s06.png` | The fullest view of the lounge end in the set: all four couches, the scarred low table, the three salvaged televisions on their shelf, the roof trusses and the clerestory windows, and the terminals visible at the left edge for how the two ends relate. |
+| `WAREHOUSE_TERMINALS` | `vol2-s05.png` | Daylight, so the desk, brick, conduit and crates all read. `vol1-s03.png` is the better *portrait* but its room falls to black by design, which makes it useless as a record of the place. |
+| `VEX_APARTMENT` | `vol1-s07.png` | A wide object study with no figure in it, which is as close to a purpose-made establishing shot as the delivered set gets. Bed, milk-crate stools, bare bulb, the counter used as a workbench and the pinned walls are all present. |
+| `MAPLE_AND_FOURTH_A` | `vol2-opener.png` | This plate *is* state A. |
+| `MAPLE_AND_FOURTH_B` | `vol2-s02.png` | This plate *is* state B, and the pair was already matched by hand in `FIX-corner-pair-match.md`. Generating separate references for these two would risk breaking a match that is currently correct. |
+
+**`MILLBROOK_RESIDENTIAL` has no stand-in and is the one real gap.** Both spreads that
+use it are in Volume 3, so nothing delivered shows the street. It stays description-only
+until Volume 3 is generated, at which point whichever of `vol3-s01` or `vol3-s02` reads
+wider should be entered here as the stand-in for the other.
+
+**One divergence this mapping exposes.** The warehouse brick is purple in `vol2-s06`
+and warm brown in `vol2-s05`, and they are meant to be two ends of one room. Worth
+resolving against `loc-warehouse-canonical.png` before either is leaned on as a
+location authority, and worth deciding rather than drifting, because seven spreads use
+the pit and four use the terminals.
 
 **Location state pattern.** `MAPLE_AND_FOURTH_A` and `B` follow the same discipline Part D3 sets out for damaged wardrobe: B is defined as a change to A rather than as a new place. The point of the volume is that the corner was one thing and is now another, and a reader who flips back two spreads and finds the view unchanged gets that for free. It is the single highest-value image decision in the set and it is worth insisting on.
 

@@ -12,13 +12,13 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **8 canonical reference files do not exist**, so nothing is
+- **1 canonical reference files do not exist**, so nothing is
   attached for them and their text descriptions are the only authority. Every
   such block says so explicitly. This is the reason characters drift: a prompt
   that claims a reference it does not have makes the description sound optional
   at the exact moment the description is all there is.
 
-  Missing: `loc-corner-a.png`, `loc-corner-b.png`, `loc-hollow-pine-int.png`, `loc-pit.png`, `loc-residential.png`, `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
+  Missing: `loc-residential.png`
 
   Generate them from `prompt-sheet-canonical.md`, drop them into
   `public/images/`, and re-run `npm run prompts`. Every affected prompt then
@@ -120,6 +120,7 @@ Named figures: Vex (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -148,7 +149,7 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair in two messy high buns held with a small red tie, with loose pointed strands escaping around the buns and the face; the two buns are her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 Standing upright in the middle of a cluttered room mid-sentence, one arm out and pointing hard off frame to the left, jaw set, entirely unembarrassed. She is the only figure in frame.
 Interior, late afternoon.
@@ -174,6 +175,7 @@ Named figures: Vex, Cassie (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
 - `char-cassie-canonical.png` — Cassie
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -210,7 +212,7 @@ Wardrobe, unchanged for this scene: black leather jacket with silver zippers ove
 CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 Wardrobe, unchanged for this scene: Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A wide dark converted warehouse interior long after midnight. On a sagging couch in the middle distance a small fifteen year old girl is asleep on her side under a blanket pulled up to her shoulder, her face turned toward the room, the small hearing aid behind her left ear still visible. On the bare concrete floor beside the couch, another girl sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back against the cushion, plainly not sleeping and plainly not going to. Both figures are small within a wide frame and neither face needs to read in fine detail. Further off, other sleeping shapes on couches and one slumped at a workbench, all turned away or covered so no other face is legible. High on a shelf at the top of frame, a small animal silhouette, unresolved. Exactly two named figures.
 Interior, well after midnight.
@@ -242,6 +244,7 @@ Named figures: Pip, Cassie (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
 - `char-cassie-canonical.png` — Cassie
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -273,7 +276,7 @@ Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doo
 CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 Wardrobe, unchanged for this scene: Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 One girl kneeling on the floor in front of another who is seated, reaching up with two fingertips resting very lightly on the skin just behind the seated girl's left ear. The kneeling girl's face is calm and measuring rather than tender. Exactly two named figures in frame and no others.
 Interior, mid morning.
@@ -304,6 +307,7 @@ Named figures: Cassie (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-cassie-canonical.png` — Cassie
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -332,7 +336,7 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
 Wardrobe, unchanged for this scene: Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A small fifteen year old sitting far back on a sagging couch, shoulders drawn in, one hearing aid visible behind her left ear and the second one lying in her open upturned palm. Eyes red rimmed and dry, mouth closed. One adult-sized hand rests on her back at the very edge of frame, the owner cropped out entirely.
 Interior, mid morning.
@@ -509,7 +513,8 @@ Shot type: Object or detail
 Depicts: Beat 5. The granola bar Vex hands over, held and not eaten.
 Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; no animal and no couch in frame.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -535,7 +540,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A close view of two hands holding an unopened wrapped granola bar level in front of them, held the way a person holds an object they have been given rather than food they intend to eat. The hands have a faintly grey even tone and very fine seams tracking across the backs of the wrists. Wrapper design plain, no legible lettering. No face in frame.
 Interior, the small hours.

@@ -321,7 +321,14 @@ function parseRoster() {
         token,
         block: r[1],
         uses: Number(r[2]) || null,
-        canonicalRef: (r[3] ?? '').match(/`([^`]+)`/)?.[1] ?? null,
+        canonicalRef:
+          (r[3] ?? '').split(/stand-in:/i)[0].match(/`([^`]+)`/)?.[1] ?? null,
+        // A location may name a delivered scene plate as its authority instead
+        // of a purpose-made establishing shot. Cheaper than generating a
+        // dedicated reference, and it has the advantage of being a frame the
+        // reader will actually see. Everything after "stand-in:" in the cell.
+        standInRef:
+          (r[3] ?? '').match(/stand-in:\s*`([^`]+)`/i)?.[1] ?? null,
       };
     }
   }

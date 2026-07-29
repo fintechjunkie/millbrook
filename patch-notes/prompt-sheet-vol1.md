@@ -12,18 +12,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **3 canonical reference files do not exist**, so nothing is
-  attached for them and their text descriptions are the only authority. Every
-  such block says so explicitly. This is the reason characters drift: a prompt
-  that claims a reference it does not have makes the description sound optional
-  at the exact moment the description is all there is.
-
-  Missing: `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
-
-  Generate them from `prompt-sheet-canonical.md`, drop them into
-  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
-  switches to attaching the real file with no further edits.
-
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -238,6 +226,7 @@ Named figures: Vex, Pip (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
 - `char-pip-canonical.png` — Pip
+- `vol1-s07.png` — location, vex apartment (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -269,7 +258,7 @@ Wardrobe, unchanged for this scene: black leather jacket with silver zippers ove
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a red bandana tied behind the head with a pair of small round aviator goggles resting on top. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol1-s07.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.
 Two girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.
 Interior, late evening.
@@ -298,6 +287,7 @@ Named figures: Owen (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
+- `vol2-s05.png` — location, warehouse terminals (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -331,7 +321,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s05.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes, dark against very pale skin. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
 Interior, roughly three in the morning.
@@ -360,6 +350,7 @@ Named figures: Monke (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
+- `vol2-s05.png` — location, warehouse terminals (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -394,7 +385,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Palette stays warm off-white paper with subdued colour; this is not a purple image.
 ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small brown monkey with dark sharp eyes, slender limbs and a long tail.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s05.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 A small monkey perched on top of the middle monitor, seen from behind and slightly to the side, leaning down so one small finger touches the front of the screen. He is rendered as a dark silhouette against the screen glow. His head is turned away from the camera and his face is entirely lost in shadow: no eyes, no expression, no legible features whatsoever. Only the outline of the head, the curve of the spine, the long tail and the reaching arm are readable. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
 Interior, early morning, no daylight.
@@ -423,6 +414,7 @@ Named figures: Mayor Dalton (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-dalton-canonical.png` — Mayor Dalton
+- `loc-square.png` — location, town hall square
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -457,7 +449,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
 Wardrobe, unchanged for this scene: Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
 Standing behind a plain podium mid-sentence, both hands on the podium edge, grinning broadly with his teeth showing, a bead of sweat running from his temple. Eyes hidden behind the mismatched lenses. Podium bare, no signage or lettering, two microphones on short stands in front of him.
 Exterior, late morning.
@@ -529,7 +521,8 @@ Shot type: Object or detail
 Depicts: Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.
 Spoiler check: PASS. Final beat is Pip sitting slightly too still on the milk crate stool. Not depicted; no figures in frame.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol1-s07.png` — location, vex apartment (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -555,7 +548,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol1-s07.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.
 A small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.
 Interior, evening.

@@ -12,18 +12,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **7 canonical reference files do not exist**, so nothing is
-  attached for them and their text descriptions are the only authority. Every
-  such block says so explicitly. This is the reason characters drift: a prompt
-  that claims a reference it does not have makes the description sound optional
-  at the exact moment the description is all there is.
-
-  Missing: `loc-corner-a.png`, `loc-corner-b.png`, `loc-hollow-pine-int.png`, `loc-pit.png`, `loc-square.png`, `loc-terminals.png`, `loc-vex-apartment.png`
-
-  Generate them from `prompt-sheet-canonical.md`, drop them into
-  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
-  switches to attaching the real file with no further edits.
-
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -111,6 +99,7 @@ Named figures: Lena, the woman in the green cardigan (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
 - `char-cardigan-canonical.png` — the woman in the green cardigan
+- `loc-hollow-pine-int.png` — location, hollow pine int
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -146,7 +135,7 @@ Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed u
 CHARACTER: the woman in the green cardigan. Use the attached canonical reference image "char-cardigan-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.
 Wardrobe, unchanged for this scene: Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
 The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
 An older woman behind a wooden shop counter has just looked up from a task and is smiling warmly and easily at a teenage girl standing at the counter with her. The woman's hands are still resting on whatever she was doing, reading glasses down on their chain. The girl leans in slightly with one hand on the counter edge, shoulders raised, mouth open on the beginning of an awkward question, her expression apologetic. Her satchel strap crosses her chest. Both faces clearly visible. Exactly two figures in frame.
 Interior, mid morning.
@@ -172,6 +161,7 @@ Named figures: Lena, Milo (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
 - `char-lena-canonical.png` — Lena
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -203,7 +193,7 @@ Wardrobe, unchanged for this scene: orange beanie, red-lensed round glasses, bla
 CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair in **two large, uneven side ponytails**, layered and spiky with loose wisps standing up at the crown; the twin ponytails are her dominant silhouette and must never be merged into one. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 Two figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.
 Interior, early afternoon.
@@ -298,6 +288,7 @@ Named figures: Pip, Owen (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
 - `char-owen-canonical.png` — Owen
+- `vol2-s05.png` — location, warehouse terminals (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -334,7 +325,7 @@ Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doo
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s05.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
@@ -364,6 +355,7 @@ Named figures: Owen, Felix (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
 - `char-felix-canonical.png` — Felix
+- `vol2-s06.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -401,7 +393,7 @@ Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a hig
 CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
 Wardrobe, unchanged for this scene: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s06.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
 A converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.
 Interior, mid morning.
@@ -425,7 +417,8 @@ Shot type: Establishing (full bleed, both pages)
 Depicts: The corner of Maple and Fourth as it currently is. No story beat.
 Spoiler check: PASS. Deliberately shows the corner in its vape store state. The bookstore is the reveal on text page 2 and must not appear here.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol2-opener.png` — location, maple and fourth a (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -451,7 +444,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-opener.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.**
 The corner storefront closed up and empty of people, cheap signage, gray awning, a flickering illuminated sign in the window rendered as glow only with no legible lettering.
 Exterior, first light.
@@ -473,7 +466,8 @@ Shot type: Establishing or location
 Depicts: Beat 4. The same corner, now Hollow Pine Books. Deliberately paired with the volume opener.
 Spoiler check: PASS. Final beat is the door bell chiming as Lena pushes it open. Not depicted; the door is closed and no figure touches it.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol2-s02.png` — location, maple and fourth b (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -505,7 +499,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Keep the crosswalk stripes in the near foreground, the utility poles, the street receding to the left and the buildings continuing to the right, all as the opener has them.
 - Do NOT copy the opener's LIGHT: this is warm mid morning, the opener is cold first light.
 - NO LEGIBLE TEXT anywhere; the signboard, the window cards and the door sign are worn marks, not words, and no shop name is written.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol2-s02.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.**
 The same corner storefront seen from the same place across the intersection as the attached opener image, at the same standing height and the same distance, square on to the corner, with the building occupying the same position and the same apparent size in frame. It is now a settled old bookshop: a navy canvas awning over the corner windows, a hand-painted signboard above it whose lettering is worn to illegible marks, a window display of stacked paperbacks with small propped cards whose handwriting is not readable, a fat ginger cat asleep on a stack of books, and a carved wooden sign hanging in the door glass with no readable words. The door is closed and nobody is touching it. Crosswalk stripes across the near foreground, utility poles standing left and right, the street receding away to the left, further storefronts continuing to the right, exactly as in the attached opener. No figures anywhere.
 Exterior, mid morning, well after the opener's dawn.
@@ -527,7 +521,8 @@ Shot type: Object or detail
 Depicts: Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.
 Spoiler check: PASS. Final beat is the radio saying hello and then going silent. Not depicted; the radio is inert, the battery door is open and empty, nothing is lit.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol1-s07.png` — location, vex apartment (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -553,7 +548,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol1-s07.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.
 A plastic bin on a bare floor holding dead electronics, two rain-swollen walkie talkies, a cracked phone, a nursery monitor, tangled cords. Sitting on top, a small old transistor radio with a cracked tuning dial, its battery door lifted off to show an empty compartment and green corrosion on the contacts. Nothing illuminated, no indicator lights. No figures.
 Interior, late night.

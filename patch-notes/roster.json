@@ -250,133 +250,155 @@
       "token": "MILLBROOK_WIDE",
       "block": "A small flat American town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon, no hills, no landmarks worth photographing.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "MILLBROOK_RESIDENTIAL": {
       "token": "MILLBROOK_RESIDENTIAL",
       "block": "A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.",
       "uses": 2,
-      "canonicalRef": "loc-residential.png"
+      "canonicalRef": "loc-residential.png",
+      "standInRef": null
     },
     "CRESCENT_HOUSE_EXT": {
       "token": "CRESCENT_HOUSE_EXT",
       "block": "A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "BACK_BEDROOM": {
       "token": "BACK_BEDROOM",
       "block": "A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "AUNT_CAROL_KITCHEN": {
       "token": "AUNT_CAROL_KITCHEN",
       "block": "A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "AUNT_CAROL_LIVING_ROOM": {
       "token": "AUNT_CAROL_LIVING_ROOM",
       "block": "A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "MAIN_STREET": {
       "token": "MAIN_STREET",
       "block": "A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "THE_PARK": {
       "token": "THE_PARK",
       "block": "A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "TOWN_HALL_SQUARE": {
       "token": "TOWN_HALL_SQUARE",
       "block": "A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.",
       "uses": 6,
-      "canonicalRef": "loc-square.png"
+      "canonicalRef": "loc-square.png",
+      "standInRef": null
     },
     "WAREHOUSE_MASTER": {
       "token": "WAREHOUSE_MASTER",
       "block": "The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1.",
       "uses": null,
-      "canonicalRef": "loc-warehouse-canonical.png"
+      "canonicalRef": "loc-warehouse-canonical.png",
+      "standInRef": null
     },
     "WAREHOUSE_PIT": {
       "token": "WAREHOUSE_PIT",
       "block": "The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.",
       "uses": 7,
-      "canonicalRef": "loc-pit.png"
+      "canonicalRef": "loc-pit.png",
+      "standInRef": "vol2-s06.png"
     },
     "WAREHOUSE_TERMINALS": {
       "token": "WAREHOUSE_TERMINALS",
       "block": "The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.",
       "uses": 4,
-      "canonicalRef": "loc-terminals.png"
+      "canonicalRef": "loc-terminals.png",
+      "standInRef": "vol2-s05.png"
     },
     "WAREHOUSE_SHOP": {
       "token": "WAREHOUSE_SHOP",
       "block": "A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "WAREHOUSE_EXT": {
       "token": "WAREHOUSE_EXT",
       "block": "The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "VEX_APARTMENT": {
       "token": "VEX_APARTMENT",
       "block": "A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench.",
       "uses": 2,
-      "canonicalRef": "loc-vex-apartment.png"
+      "canonicalRef": "loc-vex-apartment.png",
+      "standInRef": "vol1-s07.png"
     },
     "LAUNDROMAT": {
       "token": "LAUNDROMAT",
       "block": "A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "MAPLE_AND_FOURTH_A": {
       "token": "MAPLE_AND_FOURTH_A",
       "block": "A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.**",
       "uses": 1,
-      "canonicalRef": "loc-corner-a.png"
+      "canonicalRef": "loc-corner-a.png",
+      "standInRef": "vol2-opener.png"
     },
     "MAPLE_AND_FOURTH_B": {
       "token": "MAPLE_AND_FOURTH_B",
       "block": "The same corner unit, same footprint and same window and door positions, now presenting as a long-established bookshop: navy canvas awning, hand-painted signboard, window display of stacked paperbacks and small hand-lettered cards, a carved wooden sign in the door glass. **State B of the same location, and the framing of any image of it must match state A exactly.**",
       "uses": 1,
-      "canonicalRef": "loc-corner-b.png"
+      "canonicalRef": "loc-corner-b.png",
+      "standInRef": "vol2-s02.png"
     },
     "HOLLOW_PINE_INT": {
       "token": "HOLLOW_PINE_INT",
       "block": "The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.",
       "uses": 2,
-      "canonicalRef": "loc-hollow-pine-int.png"
+      "canonicalRef": "loc-hollow-pine-int.png",
+      "standInRef": null
     },
     "HENDERSON_PORCH": {
       "token": "HENDERSON_PORCH",
       "block": "The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "OLD_SCHOOL": {
       "token": "OLD_SCHOOL",
       "block": "A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     },
     "HOTEL_ROOM": {
       "token": "HOTEL_ROOM",
       "block": "A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.",
       "uses": 1,
-      "canonicalRef": null
+      "canonicalRef": null,
+      "standInRef": null
     }
   },
   "blockingDecisions": [

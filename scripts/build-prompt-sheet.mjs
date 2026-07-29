@@ -153,14 +153,33 @@ function expand(prompt, hardConstraints) {
     .replace(/\{\{LOC:([A-Z_0-9]+)\}\}/g, (_, k) => {
       const l = roster.locations[k];
       if (!l?.block) { missing.push(`LOC:${k}`); return `>>> MISSING LOC:${k} <<<`; }
+      const pretty = k.replace(/_/g, ' ').toLowerCase();
       const have = refExists(l.canonicalRef);
-      if (l.canonicalRef && !have) missingRefs.add(l.canonicalRef);
-      if (have) attach.push({ file: l.canonicalRef, label: `location, ${k.replace(/_/g, ' ').toLowerCase()}` });
-      const lead = have
-        ? `SETTING: use the attached canonical establishing image "${l.canonicalRef}" `
-          + `for this location so it stays the same place between spreads.`
-        : 'SETTING: no reference image is attached, so the description below is the only'
+      // A stand-in only counts when there is no purpose-made reference. It is a
+      // fallback, not a peer, so a real establishing shot always wins.
+      const standIn = !have && refExists(l.standInRef) ? l.standInRef : null;
+      if (l.canonicalRef && !have && !standIn) missingRefs.add(l.canonicalRef);
+
+      let lead;
+      if (have) {
+        attach.push({ file: l.canonicalRef, label: `location, ${pretty}` });
+        lead = `SETTING: use the attached canonical establishing image "${l.canonicalRef}" `
+          + `for this location so it stays the same place between spreads.`;
+      } else if (standIn) {
+        attach.push({ file: standIn, label: `location, ${pretty} (stand-in, a delivered scene plate)` });
+        // The distinction matters. A scene plate carries people, staging and a
+        // time of day that belong to its own page, and copying those across
+        // would import the wrong scene wholesale. Only the room is authority.
+        lead = `SETTING: no purpose-made establishing shot exists for this place, so use the `
+          + `attached scene plate "${standIn}" as the authority for the LOCATION ONLY — `
+          + `its architecture, materials, colours, furniture and the position of things in `
+          + `the room. Ignore everything else in that image: ignore its characters, their `
+          + `poses and wardrobe, its staging, its camera angle and its time of day. Those `
+          + `belong to a different page and this prompt specifies its own below.`;
+      } else {
+        lead = 'SETTING: no reference image is attached, so the description below is the only'
           + ' authority for this place and every element in it is required.';
+      }
       return `${lead}\n${l.block}`;
     });
 
