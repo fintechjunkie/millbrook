@@ -14,7 +14,16 @@ Items 1 and 2 block the character lock, which per Part H blocks all image work. 
 
 ### 1.1 RESOLVED 2026-07-28 — the reference sheet wins
 
-**Author decision: the mint-green buns.** The prose has been amended to match,
+**Author decision: the mint-green buns — TWO of them, one on each side.** Confirmed again by
+the author on 2026-07-29 after a new plate came back with a single bun. The cause was this
+document contradicting itself: the reference-sheet note above and the wardrobe table both said
+"buns", plural, while the immutable block in Part 2 had been amended to "one messy high bun at
+the back left". The immutable block is the text pasted verbatim into every prompt, so the one
+wrong line was the only one the generator ever saw, and it obediently produced one bun.
+
+The lesson is the standing one in this file, arrived at from the wrong direction: check the
+canonical image, and when the prose disagrees with itself, the block that reaches the prompt is
+the one that matters. The prose has been amended to match,
 which is the direction this section said would be required if the sheet won.
 Three sentences carried her appearance and all three were changed:
 
@@ -202,7 +211,7 @@ See the addition to `{{NEGATIVE}}` in section 2, which keeps green from arriving
 accident on anybody else while leaving it usable deliberately.
 
 ### {{CHAR:VEX}}
-**Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **one messy high bun** at the back left held with a small red tie, with loose pointed strands escaping the bun and framing the face; the spiky mint mass plus that single offset bun is her dominant silhouette. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
+**Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 **Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: yes, resolved by 1.1
 **Enriched 2026-07-28 from `MILLBROOK_MAIN_CHARACTER_LOCKS.md`.** Adds what the lock file
 specifies and the entry lacked: her height *relative to Lena*, the compact athletic build
@@ -503,7 +512,7 @@ of the token split and it is worth not eroding.
 | `{{WARDROBE:LENA_C}}` | Same orange collared shirt, worn buttoned, satchel strap present | Vol 3 |
 | `{{WARDROBE:LENA_D}}` | Same orange collared shirt, visibly creased and slept in, satchel strap present | Vol 4 |
 | `{{WARDROBE:MILO_A}}` | Signature: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt. Unchanged in all four volumes | all |
-| `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers over plain black shirt, mint-green buns tied with red. Unchanged in all four volumes | all |
+| `{{WARDROBE:VEX_A}}` | Signature: black leather jacket with silver zippers and a small red shoulder patch, worn open over a plain dark top, a studded choker, olive-green cargo trousers with visible patches and deep turn-ups, a silver chain looping from the belt at the hip, green socks and black high-top boots with pale toe caps. Mint-green buns tied with red. Unchanged in all four volumes | all |
 | `{{WARDROBE:PIP_A}}` | Signature: red bandana with goggles on top, patched doodled denim jacket over plain white shirt. Unchanged in all four volumes | all |
 | `{{WARDROBE:OWEN_A}}` | Signature: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented. Unchanged in all four volumes | all |
 | `{{WARDROBE:FELIX_A}}` | Signature: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock. Unchanged in all four volumes | all |

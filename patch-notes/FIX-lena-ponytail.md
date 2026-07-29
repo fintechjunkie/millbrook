@@ -8,6 +8,23 @@ are not blank, so these can be swapped whenever.
 
 ---
 
+## MUST FIX — Vex's buns, in one image
+
+`vol2-s04b` (the map) gave Vex a **single** bun. It should be **two messy buns, one high on each
+side of her head**, each with a small red tie.
+
+**I got this wrong in the first version of this file and told you the opposite.** The cause was
+not the plate — it was this project's own paperwork contradicting itself, and I had put the
+contradiction there. The roster's reference-sheet note said "two messy buns high on either side"
+and the wardrobe table said "buns", plural, but the **immutable block** — the text pasted
+verbatim into every single prompt — had been amended to "one messy high bun at the back left".
+That one line is the only one a generator ever sees, so it produced exactly what it was asked
+for. Fixed at the source now, so every future prompt carries two.
+
+Included in the Lena edit instruction below, since both are the same image.
+
+---
+
 ## MUST FIX — Lena's ponytail, in two images
 
 `vol2-s04b` (the map) and `vol4-s07b` (Lena recording) both gave Lena a **centred, symmetrical
@@ -34,6 +51,13 @@ image you are editing, and give it this:
 > a small band, sticking out clearly past the silhouette of her head, exactly as in the attached
 > reference sheet. Leave a loose fringe over her forehead and a few wisps standing up at the
 > crown. It must not be centred, must not be symmetrical, and must not be split into two.
+
+**For `vol2-s04b` only, add this to the same instruction** (Vex is the girl in the black leather
+jacket with mint-green hair, standing on the right with her arms folded):
+
+> Also change the green-haired girl's hair, and nothing else about her. She currently has a
+> single bun. Give her TWO messy buns, one high on each side of her head, each held with a small
+> red tie, with loose pointed strands escaping them. Not one bun, not a ponytail.
 
 ### Option B — full regeneration
 
@@ -78,14 +102,21 @@ down to the teal knit cap, the brass buttons and the dead hearing aid in her ope
 
 ---
 
-## Two observations, no action needed
+## Also fixed at the source — Vex's trousers
 
-**Vex's bun.** The new map plate gives her one high bun, which matches her canonical sheet and
-the roster text. The delivered `vol2-s01` gives her two side tufts, so those two plates disagree
-with each other inside the same volume. The new one is the correct one. Flagging it only because
-you may notice it; I have not touched the old plate.
+The new plate put Vex in black trousers; her canonical and every delivered plate show
+**olive-green cargo trousers**. This turned out not to be drift either. `VEX_A` only ever
+specified her jacket, top and hair — no trousers, no boots — while `OWEN_A` and `FELIX_A` both
+specify a full outfit. With nothing to follow, the generator reasonably improvised from "black
+leather jacket... plain black shirt" and made the trousers black too.
 
-**Vex's trousers.** Her canonical shows olive cargo trousers, the wardrobe table says "plain
-black". The new plate follows the table. This is the same text-versus-image conflict section 1
-of the lock already resolves in favour of the image, and it is pre-existing across the whole
-set rather than anything this batch introduced.
+`VEX_A` now describes the whole outfit: olive cargo trousers with patches and turn-ups, the
+chain at the hip, green socks, black high-tops with pale toe caps. Worth having regardless of
+this batch, because it was going to keep happening.
+
+Folded into the `vol2-s04b` edit below if you are touching that image anyway; otherwise it is
+subtle enough to leave.
+
+> Also change the green-haired girl's trousers from black to olive-green cargo trousers with
+> visible patches and deep turn-ups, with a silver chain looping from her belt at the hip.
+> Change nothing else.

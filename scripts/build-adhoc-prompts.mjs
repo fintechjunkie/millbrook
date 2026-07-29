@@ -79,6 +79,9 @@ const ENTRIES = [
       + 'sticking out clearly past the silhouette of her head. It must NOT be a centred, '
       + 'symmetrical or evenly spiky mass, and it must NOT be split into two. That single '
       + 'off-centre ponytail is the whole of her silhouette and it is how a reader finds her. '
+      + 'Vex’s mint-green hair MUST be in TWO messy buns, one high on each side of her head, '
+      + 'each tied with a small red tie. It must NOT be a single bun and must NOT be one '
+      + 'ponytail. '
       + 'The streets on the monitor must read as a rectangular GRID of straight lines, because '
       + 'Millbrook is a flat town on a grid; not as a radial spider-web pattern.',
     prompt: `{{STYLE}}
