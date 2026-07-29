@@ -45,6 +45,13 @@ JSON; it is generated and should never be hand-touched.
 **The declared word count is a tripwire, not bookkeeping.** Do not make `parse` repair
 it silently. Two commands for two cases is the point.
 
+**`/checks/overflow` cannot be trusted in a non-compositing preview pane.** It measures inside
+a double `requestAnimationFrame`, which never fires while the page is not painting, so every
+row sits at `—` forever and the table looks broken rather than pending. To measure fill without
+it, walk `[data-mb-page][data-mb-kind="text"]` and read each `[data-mb-flow]` with `flex`
+temporarily set to `none` — a stretching flow box reports `scrollHeight === clientHeight`, so
+overflow silently reads as zero otherwise.
+
 ---
 
 ## Hard-won rules
@@ -86,8 +93,8 @@ delivered artwork was right and the roster text was wrong.
 ## Prose style
 
 `patch-notes/specs/PROSE_STYLE.md` is the register the author revised to on 2026-07-29 and it
-was derived from their own edits rather than invented. Volume 1 spreads 1 to 6 are in it;
-everything else is still in the original draft register and should be brought across.
+was derived from their own edits rather than invented. **All four volumes are now in it**, so
+new prose should be written to it rather than converted later.
 
 The short version: fewer fragments, joined into sentences; adjacent sentences get an explicit
 connective; definite articles restored; simpler diction; implied things said out loud; warmer

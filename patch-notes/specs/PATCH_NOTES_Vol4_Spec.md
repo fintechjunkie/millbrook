@@ -89,15 +89,15 @@ Alt text: Rows of empty folding chairs face a bare podium in a town square early
 
 ## Spread 1
 
-Pages 3 to 4 | Part Four: The Press Conference | Words 258
+Pages 3 to 4 | Part Four: The Press Conference | Words 263
 
 ### Text page (left), verbatim
 
 ### The Renaissance
 
-Mayor Dalton announced a town hall for Friday afternoon. He called it the Millbrook Renaissance. He had a banner made. The banner had a serif font and a leaf motif and the kind of color palette a city council pays a graphic designer eight thousand dollars for.
+Mayor Dalton announced a town hall for Friday afternoon. He called it the Millbrook Renaissance and he had a banner made. The banner had a serif font, a leaf motif and the kind of color palette a city council pays a graphic designer eight thousand dollars for.
 
-Reporters were coming. Real ones, from outside Millbrook. A station out of the city had picked up the story of the medical patches and decided it was a feel-good piece for sweeps week. The Mayor had agreed to a live segment. He had bought a new tie.
+Reporters were coming, real ones from outside Millbrook. A station out of the city had picked up the story of the medical patches and decided it was a feel-good piece for sweeps week. The Mayor had agreed to a live segment. He had bought a new tie.
 
 Lena watched the announcement on her aunt’s TV. Aunt Carol watched it from the kitchen, drying a dish she had already dried twice.
 
@@ -115,7 +115,7 @@ Warehouse. Now. Crane is in town.
 
 ### Crane
 
-Owen had a face on the middle monitor. Older man. Navy uniform. A row of medals. A medical mask covering most of his face. The image was grainy because Owen had pulled it from a security camera at the Hartwell Inn, where Crane had checked in this morning under a name that was almost certainly fake.
+Owen had a face on the middle monitor: an older man in a navy uniform with a row of medals and a medical mask covering most of his face. The image was grainy because Owen had pulled it from a security camera at the Hartwell Inn, where Crane had checked in this morning under a name that was almost certainly fake.
 
 “Admiral Crane,” Milo said. “He’s here. Today.”
 
@@ -313,7 +313,7 @@ Alt text: Two teenage girls sit side by side on a kerb outside a brick building,
 
 ## Spread 4
 
-Pages 9 to 10 | Part Four: The Press Conference | Words 207
+Pages 9 to 10 | Part Four: The Press Conference | Words 212
 
 ### Text page (left), verbatim
 
@@ -333,9 +333,9 @@ Pages 9 to 10 | Part Four: The Press Conference | Words 207
 
 By two fifteen, the square in front of Town Hall had a banner, a podium, and forty people in folding chairs. Mr. Henderson was in the front row. Cassie was in the second row with her mother, headphones on, holding a piece of paper Vex had written for her that said “BLINK ONCE FOR YES.” The Mayor was doing a sound check. He was wearing the new tie.
 
-Admiral Crane stood at the side of the stage. Mask on. Hands behind his back. Watching.
+Admiral Crane stood at the side of the stage with his mask on and his hands behind his back. Watching.
 
-Lena set up her tripod near the back. Felix had given her his countdown device. It was in her bag. She didn’t need it. She had a watch.
+Lena set up her tripod near the back. Felix had given her his countdown device and it was in her bag. She didn’t need it. She had a watch.
 
 Milo and Owen worked the crowd from opposite sides, pretending to be ordinary kids. Vex stayed with Cassie. Felix was somewhere with a backpack of things that sparked. Pip was on a bench across the square, head tilted, listening.
 
@@ -367,7 +367,7 @@ Alt text: Forty people seen from behind in folding chairs facing an empty podium
 
 ## Spread 5
 
-Pages 11 to 12 | Part Four: The Press Conference | Words 209
+Pages 11 to 12 | Part Four: The Press Conference | Words 212
 
 ### Text page (left), verbatim
 
@@ -383,7 +383,7 @@ Lena did not pretend not to know him.
 
 “I’m not talking about subscribers. I’m talking about the way you see things.”
 
-He held out a card. White. Heavy stock. A phone number. Nothing else.
+He held out a card, white, heavy stock, with a phone number on it. Nothing else.
 
 “When you’re tired of playing journalist, I have real work for someone with your skills. We’re hiring people who can pay attention. Most people can’t.”
 
@@ -443,7 +443,7 @@ The square went quiet. Even the wind.
 
 “My wife knows. My wife knows that something is wrong here and she doesn’t want to leave because her mother is buried at Saint Anne’s and we can’t take her with us. So we stay. So I keep saying things on television. I am sorry. I am so sorry.”
 
-Mr. Henderson stood up from the front row. Slowly. The way an old man stands up, except his knee was fine.
+Mr. Henderson stood up from the front row. Slowly, the way an old man stands up, except his knee was fine.
 
 “It’s all right, Tom,” Mr. Henderson said.
 
@@ -483,7 +483,7 @@ Alt text: An elderly man rises out of a folding chair in the front row of an out
 
 ## Spread 7
 
-Pages 15 to 16 | Part Four: The Press Conference | Words 323
+Pages 15 to 16 | Part Four: The Press Conference | Words 322
 
 ### Text page (left), verbatim
 
@@ -491,7 +491,7 @@ Admiral Crane was looking at Pip.
 
 ### The Warehouse, That Night
 
-They moved Vex’s broken devices into the Warehouse. They moved Pip’s things from the empty house on Larkspur. They cleared out a corner near the back wall and Lena put a small desk there with her laptop on it, near Owen’s setup. Owen did not say anything. He moved his energy drink cans to make room.
+They moved Vex’s broken devices into the Warehouse, and Pip’s things from the empty house on Larkspur. They cleared out a corner near the back wall and Lena put a small desk there with her laptop on it, near Owen’s setup. Owen did not say anything. He moved his energy drink cans to make room.
 
 Cassie went home with her mother. Cassie was going to be okay. Cassie was going to be different, but okay. Vex was going to check on her every day for the rest of her life, and Cassie was going to let her.
 

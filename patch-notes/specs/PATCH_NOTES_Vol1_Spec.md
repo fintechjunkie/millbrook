@@ -573,9 +573,9 @@ Pages 15 to 16 | Part One: The Pothole | Words 332
 
 Milo was visibly confused. “How do we not know her,” he said.
 
-“Maybe she doesn't want to be known,” grinned Lena.
+“Maybe she doesn’t want to be known,” grinned Lena.
 
-“True. But, knowing things is what we're good at.”
+“True. But knowing things is what we’re good at.”
 
 ### The Apartment Above The Hardware Store
 
@@ -585,7 +585,7 @@ The footage was mostly nothing. Driving in. Parking. The new girl walking off-ca
 
 Vex paused. Backed up. Played it again. On. On. On. Off. On. On. On.
 
-One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world didn't look right. When the streetlight was off, the world changed. And when it turned back on, the world was right again.
+One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world didn’t look right. When the streetlight was off, the world changed. And when it turned back on, the world was right again.
 
 Vex had been collecting frames like this for six months.
 
@@ -593,7 +593,7 @@ Three quick knocks followed by two slow ones. She didn’t look up.
 
 “It’s open.”
 
-Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn't think anything of it.
+Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn’t think anything of it.
 
 “When did you hear the noise,” Vex asked.
 
@@ -645,7 +645,7 @@ Vex tapped the laptop. The single dark frame stared back at her. “There’s al
 
 “You stole a tourist’s dashcam?”
 
-“She’s not a tourist. She's staying with her Aunt.”
+“She’s not a tourist. She’s staying with her aunt.”
 
 Pip was quiet for a second, eyes tilted at the ceiling like she was reading something off it. “We should talk about boundaries again.”
 
@@ -657,13 +657,13 @@ Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had g
 
 Her phone buzzed with an incoming text from an unknown number.
 
-The message said: "Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at 9am. Bring coffee and DON'T bring those guys."
+The message said: “Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at 9am. Bring coffee and DON’T bring those guys.”
 
-Lena read it twice. She texted back. "How did you get my number."
+Lena read it twice. She texted back. “How did you get my number.”
 
 The reply came four seconds later.
 
-"Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it."
+“Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it.”
 
 Across town, Owen was looking at his map again. The arc glowed softly on the middle monitor. He’d added the pothole. The arc was a little more complete now, and the gap in the middle was clearly aiming somewhere.
 

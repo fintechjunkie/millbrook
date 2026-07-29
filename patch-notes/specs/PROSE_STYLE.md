@@ -2,8 +2,18 @@
 
 Derived from the author's own edits to Volume 1 spreads 1 to 6 on 2026-07-29, by diffing them
 against the original draft. These are descriptive rather than invented: every rule below is a
-pattern the author applied repeatedly and consistently. Volumes 2, 3 and 4 are still in the
-original register and should be brought to this one.
+pattern the author applied repeatedly and consistently.
+
+**Status: all four volumes are now in this register.** Volumes 2, 3 and 4 were brought across
+on 2026-07-29 — 17 edits to Volume 2, 8 to Volume 3, 8 to Volume 4. Volume 2 needed by far the
+most, because it carried the heaviest fragment stacking; Volumes 3 and 4 were already close.
+Volume 1 spreads 7 and 8, which the author wrote last, needed only mechanics: straight
+apostrophes and quotes, one miscapitalised *Aunt*, and a comma splitting *But, knowing*.
+
+**Section 5 was applied sparingly and on purpose.** On these pages the implied beats were
+consistently the best writing in the book, and the note at the foot of this document said to
+expect that. Everything listed under "what survived" below is a place where closing the gap
+would have cost more than it bought.
 
 The summary in the author's words: *less choppy, fewer fragments, more strung-together
 sentences, a little simpler language at times.*
@@ -107,6 +117,42 @@ See the note at the foot.
   occupies a whole line however short it is. Joining fragments therefore usually makes a page
   SHORTER even while adding words, which is why the Volume 1 edits added 43 words to spread 1
   without pushing it over.
+
+  **But do not expect this pass to buy room on a dialogue-heavy page, and this was measured
+  rather than assumed.** Almost every fragment this style joins sits *inside* a paragraph, so
+  joining it reclaims part of a line. What actually fills these pages is one paragraph per line
+  of speech, and two speakers can never be merged. On vol2 spread 4, 16 of 21 paragraphs are
+  dialogue and 12 of those occupy a full line while using a fraction of it. The whole Volume 2
+  pass moved that page from 100.1% to 99.7% and left its paragraph count at 21, unchanged.
+  Relief on the tight pages has to come from re-cutting page boundaries, not from register.
+
+---
+
+## What survived the pass, and why
+
+Recorded so a later pass does not "finish the job" and flatten them. Each of these is a
+fragment stack that was deliberately left alone, because the fragmentation is doing work:
+
+- *She kept smiling. The smile didn't change. The eyes did.* (vol2 s3) — the whole point.
+- *She was not crying. She had been crying. Her eyes were the way eyes get after.* (vol3 s2)
+- Felix's triple-take at Pip: *He looked at Pip. He stopped. He started again. He blinked.*
+  (vol2 s4) — the staccato IS the joke.
+- *She hadn't put batteries in it. She had never put batteries in it.* (vol2 s8) — the
+  escalation, and the page's climax.
+- *He didn't make a sound. He just sat there. He stayed.* (vol3 s8) — the volume's last beat.
+- The three *By morning…* paragraphs (vol4 s8) — the arc's best structural move.
+- *The Mayor had agreed to a live segment. He had bought a new tie.* (vol4 s1) — deadpan
+  juxtaposition; a connective would explain the joke.
+- The anaphora roll-calls: *Milo wanted… Owen wanted… Felix wanted…* (vol3 s4), *Lena fell
+  asleep… Felix fell asleep…* (vol3 s7), *Cassie went home… Cassie was going to be okay…*
+  (vol4 s7).
+- Clipped dialogue that is characterisation rather than register: Pip throughout, Crane's
+  military clipping in vol4 s5, Mr. Henderson's dropped subjects in vol3 s5.
+
+The recurring move that DID apply, and is worth naming because it appears six times: where a
+fragment stack ends on a punch, join the list and keep the punch. *Owen turned. Slowly. Like a
+man who…* → *Owen turned. Slowly, like a man who…* Same for *Mask on. Hands behind his back.
+Watching.* → *…with his mask on and his hands behind his back. Watching.*
 
 ---
 

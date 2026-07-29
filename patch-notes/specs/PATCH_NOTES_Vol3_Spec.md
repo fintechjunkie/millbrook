@@ -77,7 +77,7 @@ Alt text: An empty residential street just after sunrise with long shadows and a
 
 ## Spread 1
 
-Pages 3 to 4 | Part Three: Mr. Henderson's Knee | Words 269
+Pages 3 to 4 | Part Three: Mr. Henderson's Knee | Words 271
 
 ### Text page (left), verbatim
 
@@ -85,7 +85,7 @@ Pages 3 to 4 | Part Three: Mr. Henderson's Knee | Words 269
 
 Mr. Henderson was eighty-one years old, and on Tuesday morning he ran six miles.
 
-He hadn’t meant to. He’d gone out to get the paper. His knee, which had been bad since 1978, had felt fine when he stood up. He’d gone down the porch steps without holding the rail. He’d kept walking. By the time he noticed he wasn’t in pain anymore, he was at the end of the block. By the time he noticed he wasn’t tired, he was at the park.
+He hadn’t meant to. He’d gone out to get the paper, and his knee, which had been bad since 1978, had felt fine when he stood up. He’d gone down the porch steps without holding the rail and he’d kept walking. By the time he noticed he wasn’t in pain anymore, he was at the end of the block. By the time he noticed he wasn’t tired, he was at the park.
 
 He came home and his wife cried, and then she made him sit down because she didn’t trust the knee, and then he stood up again because the knee was fine.
 
@@ -103,7 +103,7 @@ Lena was at the kitchen table eating cereal when Aunt Carol set the local paper 
 
 “He just made it up.”
 
-Aunt Carol poured herself coffee. She was not looking at the paper. She had not looked at the paper since she’d brought it inside.
+Aunt Carol poured herself coffee. She was not looking at the paper, and she had not looked at it since she’d brought it inside.
 
 “Aunt Carol.”
 
@@ -141,7 +141,7 @@ Alt text: An elderly man stands on an empty sidewalk with a newspaper under his 
 
 ## Spread 2
 
-Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 280
+Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 281
 
 ### Text page (left), verbatim
 
@@ -163,7 +163,7 @@ Cassie was sitting on the couch in the Pit when Lena got there. She was small, b
 
 She was not crying. She had been crying. Her eyes were the way eyes get after.
 
-Vex sat next to her. Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did.
+Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did.
 
 “Tell her,” Vex said softly.
 
@@ -201,7 +201,7 @@ Alt text: A small girl sits drawn in on a couch with one hearing aid behind her 
 
 ## Spread 3
 
-Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 280
+Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 276
 
 ### Text page (left), verbatim
 
@@ -233,11 +233,11 @@ Vex looked at Pip. “Or you’re the same kind of thing.”
 
 Owen put the medical patches on the map. He didn’t want to. He did anyway.
 
-There were eleven dots that hadn’t been there last week. The knee. The chemo. The diabetic kid down the street whose pump now read zero need. A woman who’d been blind in one eye since a car accident. A man whose tremor had stopped. Cassie, on Vex’s street.
+There were eleven dots that hadn’t been there last week: the knee, the chemo, the diabetic kid down the street whose pump now read zero need, a woman who’d been blind in one eye since a car accident, a man whose tremor had stopped, and Cassie, on Vex’s street.
 
 All eleven were inside the arc.
 
-All eleven were inside, and the arc was almost a full circle now. There was a small piece missing on the western side. Three or four more patches would close it.
+The arc was almost a full circle now. There was a small piece missing on the western side. Three or four more patches would close it.
 
 “It’s a containment field,” Felix said. He had walked over without anyone noticing. He was holding a soldering iron. “Whatever’s doing this, it’s drawing a circle around something. The patches inside the circle aren’t random. They’re payment.”
 
@@ -271,7 +271,7 @@ Alt text: A girl kneels in front of a seated girl and rests two fingertips light
 
 ## Spread 4
 
-Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 223
+Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 226
 
 ### Text page (left), verbatim
 
@@ -285,7 +285,7 @@ Milo had come over. He stood with his hands in his jacket pockets and looked at 
 
 “What’s in the middle.”
 
-Owen zoomed in. The center of the almost-circle was the old elementary school, abandoned since the Event. Six acres of fenced-off property. Boarded windows. A play structure with the swings removed. The kind of building everybody in town knew not to think about.
+Owen zoomed in. The center of the almost-circle was the old elementary school, abandoned since the Event: six acres of fenced-off property, boarded windows and a play structure with the swings removed. It was the kind of building everybody in town knew not to think about.
 
 “Great,” Vex said. She had walked over too. “It’s the school. It’s always the school.”
 
@@ -473,7 +473,7 @@ Alt text: An elderly man on a porch swing holds his steady hands up in front of 
 
 ## Spread 7
 
-Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 246
+Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 248
 
 ### Text page (left), verbatim
 
@@ -493,7 +493,7 @@ She listened.
 
 Then she said, quietly, to nobody who was visible, “You shouldn’t have done the girl.”
 
-There was a pause. A hum, almost too soft to hear, in the wires of the wall.
+There was a pause, and then a hum, almost too soft to hear, in the wires of the wall.
 
 “I know,” Pip said. “I know you didn’t mean to. But she’s a person. The man on the porch is a person. You can’t keep doing this and pretending it’s the same as fixing the road.”
 
@@ -578,7 +578,7 @@ Alt text: A wide warehouse interior after midnight with six teenagers asleep on 
 
 ## Spread 8
 
-Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 167
+Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 169
 
 Short page, deliberate. Volume closer. The final beats are Monke crossing the floor and Cassie unclenching in her sleep, and they want air around them rather than company on the page.
 
@@ -600,7 +600,7 @@ Pip stood there for another minute. Then she walked back to the Pit and sat down
 
 “Not yet.”
 
-Vex didn’t push. She handed Pip a granola bar. Pip didn’t eat. She held it like a person holding something they’d been given.
+Vex didn’t push. She handed Pip a granola bar, and Pip didn’t eat it. She held it like a person holding something they’d been given.
 
 From the high shelf, Monke was awake. He had been awake the whole time. He was watching Pip with an expression that, if you didn’t know better, looked like he was deciding something.
 

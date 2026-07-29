@@ -121,8 +121,8 @@
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 255,
-      "words": 251,
+      "declaredWords": 262,
+      "words": 258,
       "blocks": [
         {
           "t": "p",
@@ -142,7 +142,7 @@
         },
         {
           "t": "p",
-          "v": "Pip sat down at the table without being invited. She didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical."
+          "v": "Pip sat down at the table without being invited and she didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical."
         },
         {
           "t": "p",
@@ -166,7 +166,7 @@
         },
         {
           "t": "p",
-          "v": "Maple and Fourth had a vape store on the corner. Lena remembered it from yesterday because she’d walked past it on her way back from the press conference. Cheap signage. Gray awning. A flickering OPEN light in the window that had been making her eye twitch."
+          "v": "Maple and Fourth had a vape store on the corner. Lena remembered it from yesterday because she’d walked past it on her way back from the press conference. It had cheap signage, a gray awning and a flickering OPEN light in the window that had been making her eye twitch."
         },
         {
           "t": "p",
@@ -174,7 +174,7 @@
         },
         {
           "t": "p",
-          "v": "The awning was navy blue. Painted lettering said HOLLOW PINE BOOKS. The window had a display of paperbacks, hand-lettered cards with little staff recommendations, and a fat ginger cat sleeping on a stack of cookbooks. The OPEN sign was carved out of wood."
+          "v": "The awning was navy blue and the painted lettering said HOLLOW PINE BOOKS. The window had a display of paperbacks, hand-lettered cards with little staff recommendations, and a fat ginger cat sleeping on a stack of cookbooks. The OPEN sign was carved out of wood."
         },
         {
           "t": "p",
@@ -198,7 +198,7 @@
         },
         {
           "t": "p",
-          "v": "Pip stood very still on the sidewalk. Her head was tilted slightly. “It’s settled now. Whatever it was doing, it’s done.”"
+          "v": "Pip stood very still on the sidewalk with her head tilted slightly. “It’s settled now. Whatever it was doing, it’s done.”"
         },
         {
           "t": "p",
@@ -221,12 +221,12 @@
       "n": 3,
       "kind": "spread",
       "pages": "7 to 8",
-      "declaredWords": 258,
-      "words": 258,
+      "declaredWords": 267,
+      "words": 267,
       "blocks": [
         {
           "t": "p",
-          "v": "Inside smelled like paper and a cinnamon candle. Wooden shelves. Worn rugs. The kind of store that had been there for thirty years, the kind of store you couldn’t build in a month if you tried. The woman behind the counter looked up and smiled. She was maybe sixty. Reading glasses on a chain. A green cardigan with one button replaced by a different green button."
+          "v": "Inside it smelled like paper and a cinnamon candle, and there were wooden shelves and worn rugs. It was the kind of store that had been there for thirty years, the kind of store you couldn’t build in a month if you tried. The woman behind the counter looked up and smiled. She was maybe sixty, with reading glasses on a chain and a green cardigan with one button replaced by a different green button."
         },
         {
           "t": "p",
@@ -321,8 +321,8 @@
       "n": 4,
       "kind": "spread",
       "pages": "9 to 10",
-      "declaredWords": 288,
-      "words": 284,
+      "declaredWords": 290,
+      "words": 286,
       "blocks": [
         {
           "t": "h",
@@ -390,7 +390,7 @@
         },
         {
           "t": "p",
-          "v": "Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing. New entry. Time stamped four minutes ago."
+          "v": "Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago."
         },
         {
           "t": "p",
@@ -410,7 +410,7 @@
         },
         {
           "t": "p",
-          "v": "Pip had walked over to Owen’s screens. She was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”"
+          "v": "Pip had walked over to Owen’s screens and she was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”"
         }
       ],
       "note": null,
@@ -429,12 +429,12 @@
       "n": 5,
       "kind": "spread",
       "pages": "11 to 12",
-      "declaredWords": 217,
-      "words": 210,
+      "declaredWords": 218,
+      "words": 211,
       "blocks": [
         {
           "t": "p",
-          "v": "Owen turned. Slowly. Like a man who didn’t want to acknowledge that someone in the room had just said something true that he hadn’t told them."
+          "v": "Owen turned. Slowly, like a man who didn’t want to acknowledge that someone in the room had just said something true that he hadn’t told them."
         },
         {
           "t": "p",
@@ -494,7 +494,7 @@
         },
         {
           "t": "p",
-          "v": "Felix had his hands on the back of his head. He was grinning. “This is the best day.”"
+          "v": "Felix had his hands on the back of his head and he was grinning. “This is the best day.”"
         },
         {
           "t": "h",
@@ -521,8 +521,8 @@
       "n": 6,
       "kind": "spread",
       "pages": "13 to 14",
-      "declaredWords": 229,
-      "words": 229,
+      "declaredWords": 233,
+      "words": 233,
       "blocks": [
         {
           "t": "p",
@@ -546,7 +546,7 @@
         },
         {
           "t": "p",
-          "v": "Milo almost smiled. He didn’t quite let it happen."
+          "v": "Milo almost smiled, but he didn’t quite let it happen."
         },
         {
           "t": "p",
@@ -562,7 +562,7 @@
         },
         {
           "t": "p",
-          "v": "“Not like this. Buildings. A house number changed once. A road sign. We’ve seen things rewrite. We haven’t seen people rewrite.”"
+          "v": "“Not like this. Buildings, yes. A house number changed once, and a road sign. We’ve seen things rewrite. We haven’t seen people rewrite.”"
         },
         {
           "t": "p",
@@ -594,7 +594,7 @@
         },
         {
           "t": "p",
-          "v": "Milo turned it over. The receipt was for the same book she’d just bought. Bought by someone named M. Avery. June 14, 2019."
+          "v": "Milo turned it over. The receipt was for the same book she’d just bought, bought by someone named M. Avery on June 14, 2019."
         },
         {
           "t": "p",
@@ -637,8 +637,8 @@
       "n": 7,
       "kind": "spread",
       "pages": "15 to 16",
-      "declaredWords": 226,
-      "words": 222,
+      "declaredWords": 227,
+      "words": 223,
       "blocks": [
         {
           "t": "h",
@@ -674,7 +674,7 @@
         },
         {
           "t": "p",
-          "v": "Aunt Carol looked at the receipt. Looked at it for longer than she needed to. Took her glasses off and rubbed the bridge of her nose."
+          "v": "Aunt Carol looked at the receipt, looked at it for longer than she needed to, then took her glasses off and rubbed the bridge of her nose."
         },
         {
           "t": "p",
@@ -742,7 +742,7 @@
         },
         {
           "t": "p",
-          "v": "Most of them were dead. They’d been dead for months. Old radios, busted phones, a pair of walkie-talkies that had been left in the rain, a baby monitor she’d found in a free pile. She kept them because they’d all stopped working at the same time, on the same night, six months ago. The night the patches had started."
+          "v": "Most of them were dead and had been for months. Old radios, busted phones, a pair of walkie-talkies that had been left in the rain, a baby monitor she’d found in a free pile. She kept them because they’d all stopped working at the same time, on the same night, six months ago. The night the patches had started."
         },
         {
           "t": "p",
@@ -766,7 +766,7 @@
         },
         {
           "t": "p",
-          "v": "She set it on the floor. She stared at it. The hum was very faint, the kind of sound you only heard if you stopped breathing for a second to listen."
+          "v": "She set it on the floor and stared at it. The hum was very faint, the kind of sound you only heard if you stopped breathing for a second to listen."
         },
         {
           "t": "p",
@@ -782,7 +782,7 @@
         },
         {
           "t": "p",
-          "v": "The radio waited. Like it was being patient with her."
+          "v": "The radio waited, like it was being patient with her."
         },
         {
           "t": "p",
