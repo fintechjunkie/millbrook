@@ -373,8 +373,15 @@ body {
   overflow-y: auto;
   display: grid;
   grid-template-columns: 1fr;
-  background: var(--paper-stock);
-  border: 34px solid var(--paper-stock);
+  /* The card is ONE warm ground, panel and body alike.
+
+     Paper stock is #F4EFE6 and the portraits' ground is #EEDDC5 -- thirty-three points
+     apart in blue, so a paper body beside a sandy panel read as a white block with a tan
+     patch in it. Paper is right for a book page, where the plates are framed rectangles
+     laid on it. A character card is not a page; it is a printed card, and a printed card
+     is one stock throughout. */
+  background: var(--portrait-ground);
+  border: 34px solid var(--portrait-ground);
   border-image-source: url('/images/card-frame.png');
   border-image-slice: 140;
   border-image-repeat: stretch;
@@ -410,13 +417,13 @@ body {
    ground are the same colour, and matching is both safer and better looking. */
 .mb-charcard-art {
   background: var(--portrait-ground);
-  border-bottom: 1px solid var(--paper-rule);
+  border-bottom: 1px solid rgba(160, 140, 105, 0.34);
   padding: 0;
   display: flex;
   align-items: center;
 }
 @media (min-width: 640px) {
-  .mb-charcard-art { border-bottom: 0; border-right: 1px solid var(--paper-rule); }
+  .mb-charcard-art { border-bottom: 0; border-right: 1px solid rgba(160, 140, 105, 0.34); }
 }
 
 .mb-charcard-body { padding: 18px 20px 22px; }

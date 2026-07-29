@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Plate } from './Plate';
 import { CAST } from '@/lib/millbrook/cast';
-import { SITE_IMAGES, color, paper, space, type } from '@/lib/millbrook/series';
+import { SITE_IMAGES, color, space, type } from '@/lib/millbrook/series';
 
 /**
  * The cast strip, with a hotspot over each figure.
@@ -83,10 +83,14 @@ export function CastStrip() {
 /**
  * The card itself.
  *
- * Bordered on purpose and to a brief: a double rule in the paper palette, so it reads
- * as a printed card laid on the page rather than as a browser dialog. The portrait is
- * the canonical reference sheet, which is the one image of each character guaranteed
- * to be a clean full figure against plain ground.
+ * Bordered with the drawn ornament, wired as a border-image in globals.css, so it reads
+ * as a printed card laid on the page rather than as a browser dialog. The portrait is the
+ * canonical reference sheet, which is the one image of each character guaranteed to be a
+ * clean full figure against plain ground.
+ *
+ * The card is one warm stock throughout rather than paper with a tinted panel: the sheets
+ * carry a sandy ground of their own, and a paper body beside it read as a white block with
+ * a tan patch in it.
  */
 function CharacterCard({ member, onClose }) {
   const panel = useRef(null);
@@ -162,11 +166,13 @@ function CharacterCard({ member, onClose }) {
             {member.role}
           </div>
 
+          {/* Warm, not paper.rule. A #D8CFBE hairline is a cool grey on a warm sand
+              ground and reads as a slightly dirty line rather than a rule. */}
           <hr
             style={{
               border: 0,
               height: 1,
-              background: paper.rule,
+              background: 'rgba(160, 140, 105, 0.4)',
               margin: `${space(4)} 0`,
             }}
           />
