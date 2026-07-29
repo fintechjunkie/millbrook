@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 1: Flip Book Spec
+# The Patch, Volume 1: Flip Book Spec
 
 Source: `WELCOME_TO_MILLBROOK_Patch_Notes_Part_1.md`
 Chapter: Part One: The Pothole
@@ -70,7 +70,7 @@ Renders differently: one full bleed image across both pages with the chapter tit
 
 *A Digital Slop Story*
 
-## The Patch Notes
+## The Patch
 
 ### Part One: The Pothole
 

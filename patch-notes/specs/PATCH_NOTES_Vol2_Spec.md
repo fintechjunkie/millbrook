@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 2: Flip Book Spec
+# The Patch, Volume 2: Flip Book Spec
 
 Source: `WELCOME_TO_MILLBROOK_Patch_Notes_Part_2.md`
 Chapter: Part Two: The Bookstore That Was Always There
@@ -51,7 +51,7 @@ Renders differently: one full bleed image across both pages with the chapter tit
 
 *A Digital Slop Story*
 
-## The Patch Notes
+## The Patch
 
 ### Part Two: The Bookstore That Was Always There
 

@@ -50,15 +50,11 @@ export function Crumbs({ trail = [], current, align = 'left' }) {
       >
         <span
           aria-hidden="true"
+          className="mb-mark"
           style={{
             width: 20,
             height: 20,
-            display: 'block',
-            borderRadius: '50%',
             backgroundImage: `url(/images/${SITE_IMAGES.mark.slug}.png)`,
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
           }}
         />
       </Link>

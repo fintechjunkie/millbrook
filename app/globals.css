@@ -599,3 +599,23 @@ body {
   .mb-card:hover::after { animation: none; }
   .mb-open-scrim, .mb-open-clone, .mb-open-shade { display: none !important; }
 }
+
+/* ------------------------------------------------------------
+   The Digital Slop mark.
+
+   The source PNG is an orange disc on a white square, so it needs the white removed
+   before it can sit on a dark ground. Clipping with border-radius: 50% at
+   background-size: contain puts the clip exactly on the disc's own edge, which shaves
+   the antialiased rim and leaves a white fringe -- the "slightly cut off" look.
+
+   106% oversizes the disc a touch so the clip falls INSIDE the orange. The rim is then
+   clean at every size and nothing white survives.
+   ------------------------------------------------------------ */
+.mb-mark {
+  display: block;
+  flex: none;
+  border-radius: 50%;
+  background-size: 106%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

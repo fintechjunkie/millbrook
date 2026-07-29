@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 4: Flip Book Spec
+# The Patch, Volume 4: Flip Book Spec
 
 Source: `WELCOME_TO_MILLBROOK_Patch_Notes_Part_4.md`
 Chapter: Part Four: The Press Conference
@@ -59,7 +59,7 @@ Renders differently: one full bleed image across both pages with the chapter tit
 
 *A Digital Slop Story*
 
-## The Patch Notes
+## The Patch
 
 ### Part Four: The Press Conference
 
@@ -646,7 +646,7 @@ Alt text: A woman in a green cardigan stands behind the counter of a lit but clo
 
 ## Spread 9
 
-Pages 19 to 20 | Part Four: The Press Conference | Words 123
+Pages 19 to 20 | Part Four: The Press Conference | Words 122
 
 Short page, deliberate. Deliberate coda spread. The last text page of the arc is short on purpose so the closing image carries the turn out of the book.
 
@@ -664,7 +664,7 @@ He stayed like that for a long moment. Listening. Or measuring. Or remembering.
 
 Then he climbed back up to the shelf and waited for morning.
 
-*End of “The Patch Notes”*
+*End of “The Patch”*
 
 *The Digital Slop Squads will return.*
 

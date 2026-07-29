@@ -11,7 +11,7 @@
       "title": {
         "title": "WELCOME TO MILLBROOK",
         "subtitle": "A Digital Slop Story",
-        "series": "The Patch Notes",
+        "series": "The Patch",
         "part": "Part Four: The Press Conference"
       },
       "image": {
@@ -653,8 +653,8 @@
       "n": 9,
       "kind": "spread",
       "pages": "19 to 20",
-      "declaredWords": 123,
-      "words": 123,
+      "declaredWords": 122,
+      "words": 122,
       "blocks": [
         {
           "t": "p",
@@ -682,7 +682,7 @@
         },
         {
           "t": "i",
-          "v": "End of “The Patch Notes”"
+          "v": "End of “The Patch”"
         },
         {
           "t": "i",

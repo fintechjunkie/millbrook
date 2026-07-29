@@ -46,7 +46,7 @@ export function CastStrip() {
       <div style={{ position: 'relative' }}>
         <Plate
           slug={SITE_IMAGES.cast.slug}
-          alt="The cast of The Patch Notes: five teenagers, a robot girl and a small monkey, standing together."
+          alt="The cast of The Patch: five teenagers, a robot girl and a small monkey, standing together."
           shotType="Cast strip, the whole ensemble in one frame"
           aspect={SITE_IMAGES.cast.aspect}
           fit="cover"
@@ -124,7 +124,7 @@ function CharacterCard({ member, onClose }) {
               color: color.accent,
             }}
           >
-            The Patch Notes
+            The Patch
           </div>
 
           <h3

@@ -12,7 +12,7 @@ export function generateMetadata({ params }) {
   const volume = loadVolume(params.vol);
   if (!volume) return {};
   return {
-    title: `${volume.chapter} · The Patch Notes · Millbrook`,
+    title: `${volume.chapter} · The Patch · Millbrook`,
   };
 }
 

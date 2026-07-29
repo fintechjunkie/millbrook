@@ -126,10 +126,25 @@ export function Shelf({ arc, volumes }) {
  */
 export function ComingShelf({ arc }) {
   return (
-    <section aria-label={`${arc.title}, not yet published`} className="mb-shelf">
+    <section aria-label={`Arc ${arc.number}, coming soon`} className="mb-shelf">
       {Array.from({ length: arc.volumeCount }, (_, i) => (
         <div key={i} className="mb-card-ghost" aria-hidden="true">
-          <div style={{ width: '100%', aspectRatio: '2 / 1' }} />
+          {/* "Coming soon" sits in the cover area rather than under it, because that is
+              where a cover would be and it is the part of the card a reader scans. */}
+          <div
+            style={{
+              width: '100%',
+              aspectRatio: '2 / 1',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              ...type.utility,
+              fontSize: 9,
+              letterSpacing: '0.22em',
+            }}
+          >
+            Coming soon
+          </div>
           <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em' }}>
             Volume {i + 1}
           </div>

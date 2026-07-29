@@ -8,7 +8,7 @@ import { ARCS, color, paper, space, type } from '@/lib/millbrook/series';
 const ARC = ARCS.find((a) => a.id === 'patch-notes');
 
 export const metadata = {
-  title: 'The Patch Notes — Millbrook',
+  title: 'The Patch — Millbrook',
   description: ARC.tagline,
 };
 

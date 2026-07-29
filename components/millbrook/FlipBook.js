@@ -690,7 +690,7 @@ export default function FlipBook({ volume, next = null }) {
         <Crumbs
           trail={[
             { label: 'Millbrook', href: '/' },
-            { label: 'The Patch Notes', href: '/patch-notes' },
+            { label: 'The Patch', href: '/patch-notes' },
           ]}
           // "Part Two: The Bookstore That Was Always There" wraps to two lines at
           // 375px and pushes the fixed chrome to 74px, which is a lot of a phone

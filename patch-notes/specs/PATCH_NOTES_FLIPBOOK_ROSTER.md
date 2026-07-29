@@ -1,4 +1,4 @@
-# The Patch Notes: Flip Book Roster
+# The Patch: Flip Book Roster
 
 Single source of truth for style, negative constraints, characters, wardrobe states and locations across all four volumes. Spec version 1, dated 2026-07-28.
 

@@ -268,15 +268,11 @@ export default function Home() {
                 glyph next to the wordmark it is supposed to accompany. */}
             <span
               aria-hidden="true"
+              className="mb-mark"
               style={{
                 width: 34,
                 height: 34,
-                flex: 'none',
-                borderRadius: '50%',
                 backgroundImage: `url(/images/${SITE_IMAGES.mark.slug}.png)`,
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
               }}
             />
             <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
@@ -294,10 +290,6 @@ export default function Home() {
             >
               {`${UNIVERSE.collection.label} on ${UNIVERSE.collection.host} ↗`}
             </a>
-          </p>
-          <p style={{ marginTop: space(5), fontSize: 12, color: '#6E6779' }}>
-            <Link href="/checks/overflow" style={{ color: '#6E6779' }}>Overflow audit</Link>
-            {' · build-time check that no page clips its prose.'}
           </p>
         </footer>
       </div>

@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 3: Flip Book Spec
+# The Patch, Volume 3: Flip Book Spec
 
 Source: `WELCOME_TO_MILLBROOK_Patch_Notes_Part_3.md`
 Chapter: Part Three: Mr. Henderson's Knee
@@ -47,7 +47,7 @@ Renders differently: one full bleed image across both pages with the chapter tit
 
 *A Digital Slop Story*
 
-## The Patch Notes
+## The Patch
 
 ### Part Three: Mr. Henderson’s Knee
 
