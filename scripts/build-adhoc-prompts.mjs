@@ -69,6 +69,18 @@ const ENTRIES = [
       + 'it does not otherwise have — a diagram — while still being character-forward, because '
       + 'four faces are watching it. Watch the lettering rule: a map wants street names and '
       + 'the negative block forbids lettering, so this has to read as pure geometry.',
+    // Added after the first generation came back with Lena's hair as a centred symmetrical
+    // spiky mass and no ponytail at all. Her canonical sheet clearly shows the big off-centre
+    // side ponytail and the roster text says it "must never be centred", so this was real
+    // drift rather than the roster being wrong — which is the other way this has gone before,
+    // and worth checking in that order every time.
+    hard:
+      'Lena’s hair MUST be gathered into one large uneven side ponytail high on her LEFT side, '
+      + 'sticking out clearly past the silhouette of her head. It must NOT be a centred, '
+      + 'symmetrical or evenly spiky mass, and it must NOT be split into two. That single '
+      + 'off-centre ponytail is the whole of her silhouette and it is how a reader finds her. '
+      + 'The streets on the monitor must read as a rectangular GRID of straight lines, because '
+      + 'Millbrook is a flat town on a grid; not as a radial spider-web pattern.',
     prompt: `{{STYLE}}
 {{CHAR:LENA}}
 {{WARDROBE:LENA_B}}
@@ -98,6 +110,12 @@ Aspect ratio: 3:2`,
       'Lena is a broadcaster and the book has never once shown her broadcasting, which is odd '
       + 'given it is the whole shape of her arc. Also the first plate to use a screen as the '
       + 'key light on a single face, and the pig finally gets a proper appearance.',
+    // Same drift as vol2-s04b, in the same batch. See the note there.
+    hard:
+      'Lena’s hair MUST be gathered into one large uneven side ponytail high on her LEFT side, '
+      + 'sticking out clearly past the silhouette of her head. It must NOT be a centred, '
+      + 'symmetrical or evenly spiky mass, and it must NOT be split into two. That single '
+      + 'off-centre ponytail is the whole of her silhouette and it is how a reader finds her.',
     prompt: `{{STYLE}}
 {{CHAR:LENA}}
 {{WARDROBE:LENA_D}}
@@ -231,7 +249,10 @@ L.push('---');
 L.push('');
 
 for (const e of ENTRIES) {
-  const { text, missing, attach } = expand(e.prompt, null);
+  // `hard` is hoisted directly under the style block as a MUST HOLD list, because that is
+  // where a model weights hardest. Every line that ends up in one of these corresponds to
+  // something a generation actually got wrong once — see the Lena entries below.
+  const { text, missing, attach } = expand(e.prompt, e.hard ?? null);
 
   L.push(`## [ ] ${e.slug} — ${e.title}`);
   L.push('');

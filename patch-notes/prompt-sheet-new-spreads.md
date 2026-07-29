@@ -65,6 +65,12 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Lena’s hair MUST be gathered into one large uneven side ponytail high on her LEFT side, sticking out clearly past the silhouette of her head.
+- It must NOT be a centred, symmetrical or evenly spiky mass, and it must NOT be split into two.
+- That single off-centre ponytail is the whole of her silhouette and it is how a reader finds her.
+- The streets on the monitor must read as a rectangular GRID of straight lines, because Millbrook is a flat town on a grid; not as a radial spider-web pattern.
 CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven side ponytail** high on her left side, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single off-centre ponytail is her dominant silhouette and it must never be centred or split into a matched pair. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
@@ -129,6 +135,11 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Lena’s hair MUST be gathered into one large uneven side ponytail high on her LEFT side, sticking out clearly past the silhouette of her head.
+- It must NOT be a centred, symmetrical or evenly spiky mass, and it must NOT be split into two.
+- That single off-centre ponytail is the whole of her silhouette and it is how a reader finds her.
 CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven side ponytail** high on her left side, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single off-centre ponytail is her dominant silhouette and it must never be centred or split into a matched pair. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
