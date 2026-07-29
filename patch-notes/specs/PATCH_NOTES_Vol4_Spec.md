@@ -530,6 +530,11 @@ Shot type: Object or detail
 Depicts: Beat 3. Room made in the corner. Owen's cans moved without comment.
 Spoiler check: PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.
 
+Hard constraints: BRIGHT ENOUGH TO READ CLEARLY. The purple brick of the wall behind the desk
+must read as purple, the cans must read as individually dented, and the grain of the desk must
+be visible. This is a night scene but it is NOT a dark image and nothing in it falls to
+featureless black. See the warehouse lighting floor in section 6.1a of the roster.
+
 Prompt:
 
 ```
@@ -538,7 +543,7 @@ Prompt:
 A cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.
 Interior, night.
 Close shot, camera low and level with the desk, shallow depth on the gap between the cans and the laptop.
-Cold spill from unseen monitors off to the right, one warm lamp far behind.
+Night, but not murky, and lit from three directions so nothing is lost. A warm desk lamp just out of frame to the left is the key and falls fully across the cans, the laptop and the bare desk surface. Cold monitor spill from the right separates the cans from the wall behind them. A soft ambient fill lifts the whole frame so the purple brick reads as purple and the shadows stay warm and detailed rather than going to black.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```

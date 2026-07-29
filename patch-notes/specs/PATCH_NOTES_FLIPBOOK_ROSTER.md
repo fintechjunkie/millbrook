@@ -116,7 +116,7 @@ craft, the fix belongs in the negative block below, not in this one.
 {{NEGATIVE}} =
 ```
 
-> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+> No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 
 This block grows during production as failures reveal themselves. It lives here so additions propagate to every prompt in one edit.
 
@@ -584,6 +584,50 @@ What actually delivers the effect, and what the two prompts now require:
 **The lighting must NOT match.** State A is first light and cold; state B is mid
 morning with warm sun on the awning. Time has passed and the prose says so. Only the
 geometry is held; the light is free to move.
+
+---
+
+## 6.1a Warehouse lighting floor
+
+**Standing instruction from the author, 2026-07-29: stop making the warehouse scenes so dark.**
+Several delivered plates had to be lightened by hand. The note behind the instruction is worth
+keeping, because it is a judgement about the book rather than about realism: *when it is too
+dark it is not as fun to read and look at.*
+
+That is correct and it outranks plausibility. A converted warehouse with high dirty windows
+genuinely would be gloomy, and the reader did not come here for an accurate exposure reading.
+Twelve spreads happen in this building, so a dim default compounds into a book that feels
+like one long night.
+
+**The floor, and it applies whatever the hour:**
+
+- **Wall colour reads.** The brick is purple and a reader should be able to see that it is
+  purple. If the walls have gone to grey-black, the frame is too dark.
+- **Every face in frame reads.** Both eyes, and the expression. Rim light alone is not enough.
+- **Furniture keeps its colour.** The couches are brown, olive and purple; they should not
+  resolve into three identical dark lumps.
+- **No large area of featureless black.** Shadow should stay blue or warm and keep some
+  detail in it rather than going to nothing.
+
+**Practical prompt language, reusable.** Night scenes in the warehouse take *two* sources, not
+one: an ambient fill that establishes the room, plus a motivated key on the subject. The phrase
+that worked on `vol3-s08` is the model —
+
+> Night, but not murky. Cool blue-white moonlight through the clerestory windows gives the
+> trusses and the walls a clear rim, and a warm workbench lamp off to the left throws soft
+> light across the faces so features read clearly. The lower room falls away into soft blue
+> shadow, but nothing is lost to black.
+
+**One named exception, and only one.** `vol1-s03` is Owen alone at three in the morning with
+the monitor as the single source and the room black behind him. That is a hard constraint on
+that prompt, it is the point of the image, and it was accepted. It stays. Nothing else in the
+warehouse gets to be that dark, and any future prompt that wants it must say so in its hard
+constraints and give a reason.
+
+**Where this was already wrong and has been fixed:** `vol4-s07` asked for *cold spill from
+unseen monitors off to the right, one warm lamp far behind*, which is one and a half sources
+for a night interior and would have produced exactly the plate that needed lightening. It was
+still unbuilt, so it was rewritten rather than regenerated.
 
 ---
 
