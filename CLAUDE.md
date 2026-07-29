@@ -83,6 +83,20 @@ delivered artwork was right and the roster text was wrong.
 
 ---
 
+## Prose style
+
+`patch-notes/specs/PROSE_STYLE.md` is the register the author revised to on 2026-07-29 and it
+was derived from their own edits rather than invented. Volume 1 spreads 1 to 6 are in it;
+everything else is still in the original draft register and should be brought across.
+
+The short version: fewer fragments, joined into sentences; adjacent sentences get an explicit
+connective; definite articles restored; simpler diction; implied things said out loud; warmer
+dialogue. Curly apostrophes in prose, always.
+
+**The one rule to apply with judgement** is "implied things get said". It is the author's
+style and it is also the rule most able to cost the book something, because the beats the
+original left implied were often its best. Each time, ask whether the gap was a gap or a joke.
+
 ## Standing authorial instructions
 
 - **Character-forward.** Prefer a plate with faces doing something over an empty room.

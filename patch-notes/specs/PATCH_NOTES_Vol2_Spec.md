@@ -81,7 +81,7 @@ Alt text: A cheap corner storefront under a gray awning at first light, its wind
 
 ## Spread 1
 
-Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 283
+Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 295
 
 ### Text page (left), verbatim
 
@@ -89,7 +89,7 @@ Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 283
 
 Lena got there at eight forty-five with two coffees, oat milk in one of them, and a head full of questions she’d been writing down all night.
 
-The laundromat on Crescent was empty except for a tired-looking woman folding towels and the hum of a dryer that had been running too long. Lena sat on the bench by the window and waited.
+The laundromat on Crescent was empty except for a tired-looking woman folding towels and the hum of a dryer that had been running too long, so Lena sat on the bench by the window and waited.
 
 At nine on the dot, the door chimed.
 
@@ -119,7 +119,7 @@ Lena put her coffee down. “Okay. We’re going to talk about the part where yo
 
 “We really aren’t.”
 
-The door chimed again. The other girl walked in, and Lena felt her brain do a small recalibration. Goggles in her hair. Patched jacket. Skin a shade too even. Eyes that tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t.
+The door chimed again and the other girl walked in, and Lena felt her brain do a small recalibration. She had goggles pushed up into her hair and a patched jacket, and her skin was a shade too even, and her eyes tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t.
 
 “Oh,” Lena said, before she could stop herself. “You’re a robot.”
 
