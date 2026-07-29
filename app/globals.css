@@ -509,8 +509,7 @@ body {
     height var(--grow, 820ms) cubic-bezier(0.16, 0.84, 0.24, 1),
     transform var(--grow, 820ms) cubic-bezier(0.16, 0.84, 0.24, 1),
     border-radius var(--grow, 820ms) ease,
-    box-shadow var(--grow, 820ms) ease,
-    opacity var(--fade, 460ms) ease;
+    box-shadow var(--grow, 820ms) ease;
 }
 .mb-open-clone img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
@@ -529,42 +528,45 @@ body {
   box-shadow: 0 60px 160px rgba(0,0,0,0.75), 0 0 120px rgba(107,82,200,0.42);
 }
 
-/* Stage 3. Morph: the tilt flattens to square while the cover dissolves into the
-   chapter opener, so the object settles into exactly the shape and picture the reader
-   is about to present. Tilt and dissolve run on the same beat because settling and
-   becoming are one action, not two. */
-.mb-open-clone[data-stage='morph'],
-.mb-open-clone[data-stage='leaving'] {
-  transition-duration: var(--morph, 520ms);
+/* Stage 3. Hold: the tilt flattens to square and the cover simply sits there at full
+   size. Nothing else happens on purpose -- this is the beat the effect exists for. */
+.mb-open-clone[data-stage='hold'] {
+  transition-duration: 420ms;
   transform: perspective(1800px) rotateY(0deg) rotateX(0deg);
   border-radius: 3px;
   box-shadow: 0 40px 130px rgba(0,0,0,0.7);
 }
 
-/* The opener, stacked over the cover. Fading THIS in rather than swapping the src is
-   what makes the change a dissolve instead of a flicker, and it means the browser has
-   the whole lift and grow to decode the file. */
-.mb-open-opener {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity var(--morph, 520ms) ease;
-}
-.mb-open-clone[data-stage='morph'] .mb-open-opener,
-.mb-open-clone[data-stage='leaving'] .mb-open-opener { opacity: 1; }
+/* Stage 4. Swing: the cover opens about its left edge, which is what a cover does and
+   what the page turn inside the book already does, so the two share a language.
 
-/* Stage 5. Dissolve into the page. Both sides are the same image by now, so this is
-   only removing a duplicate rather than replacing a picture. */
-.mb-open-clone[data-stage='leaving'] {
-  opacity: 0;
+   backface-visibility: hidden is what makes it disappear cleanly. Past ninety degrees
+   the sheet would otherwise flip round and present a mirrored copy of the cover art,
+   which looks like a bug; hidden means it simply stops being drawn and clears the frame.
+
+   Rotated past ninety on purpose so it is unambiguously gone rather than edge-on. */
+.mb-open-clone[data-stage='swing'] {
   transition:
-    opacity var(--fade, 420ms) ease,
-    transform var(--morph, 520ms) cubic-bezier(0.16, 0.84, 0.24, 1),
-    box-shadow var(--morph, 520ms) ease;
+    transform var(--swing, 820ms) cubic-bezier(0.42, 0.02, 0.32, 1),
+    box-shadow var(--swing, 820ms) ease;
+  transform: perspective(1800px) rotateY(-108deg);
+  backface-visibility: hidden;
+  box-shadow: 60px 40px 140px rgba(0,0,0,0.55);
 }
+
+/* The shadow the opening cover throws across the page it is revealing. A child so it can
+   fade on its own clock while the parent rotates. */
+.mb-open-shade {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(100deg, rgba(10,8,14,0.55) 0%, rgba(10,8,14,0.16) 38%, transparent 62%);
+  transition: opacity var(--swing, 820ms) ease;
+}
+.mb-open-shade[data-on='true'] { opacity: 1; }
+.mb-open-shade[data-on='false'] { opacity: 0; }
 
 /* The sheen. One pass across the cover during the grow, which is the moment that
    makes it read as a transformation rather than a resize. */
@@ -595,5 +597,5 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .mb-card:hover { transform: none; }
   .mb-card:hover::after { animation: none; }
-  .mb-open-scrim, .mb-open-clone { display: none !important; }
+  .mb-open-scrim, .mb-open-clone, .mb-open-shade { display: none !important; }
 }

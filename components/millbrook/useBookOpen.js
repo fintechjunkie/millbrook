@@ -13,11 +13,16 @@ import { geometry, open as OPEN } from '@/lib/millbrook/series';
  * first page is a full-bleed 2:1 chapter opener, so the shape the cover grows into is
  * the shape already waiting there.
  *
- * **Staged, and that is the fix for the first version.** It ran the whole move in
- * 460ms and read as a glitch: too fast to register as motion, so the eye saw only the
- * before and after and assumed something had broken. It now runs in three stages with
- * their own durations -- lift, grow, hold -- which is what makes it read as intent
- * rather than as either a cut or a sluggish tween. Timings live in series.js.
+ * **Four beats: lift, grow, hold, swing.** The cover comes off the shelf, opens out to
+ * the reader's own geometry, rests there long enough to be looked at, and then swings
+ * open about its left edge and is gone -- revealing a reader that was already rendered
+ * behind it. Timings live in series.js.
+ *
+ * The first version ran everything in 460ms and read as a glitch. The second added a
+ * mid-flight dissolve from cover to chapter opener, which was worse in a subtler way: the
+ * reader shows that same opener with its title over it, so the sequence gained a third
+ * visual state that changed almost nothing. Two states and a real exit beats three states
+ * and a fade.
  *
  * Built on a FLIP-style clone rather than a route animation, because it has to run
  * before the destination exists and must not depend on the App Router's transition
@@ -42,7 +47,7 @@ export function useBookOpen() {
 
   const at = (ms, fn) => { timers.current.push(setTimeout(fn, ms)); };
 
-  const openBook = useCallback((event, href, coverEl, openerSlug) => {
+  const openBook = useCallback((event, href, coverEl) => {
     // Let modified clicks do what the browser would do: new tab, new window, download.
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
       return;
@@ -68,23 +73,13 @@ export function useBookOpen() {
     clone.className = 'mb-open-clone';
     clone.style.setProperty('--lift', `${OPEN.liftMs}ms`);
     clone.style.setProperty('--grow', `${OPEN.growMs}ms`);
-    clone.style.setProperty('--fade', `${OPEN.fadeMs}ms`);
+    clone.style.setProperty('--swing', `${OPEN.swingMs}ms`);
     Object.assign(clone.style, {
       top: `${rect.top}px`,
       left: `${rect.left}px`,
       width: `${rect.width}px`,
       height: `${rect.height}px`,
     });
-
-    // The chapter opener, stacked over the cover and dissolved in mid-flight. This is
-    // what removes the abrupt hand-off: by the time the clone fades, it and the page
-    // beneath it are showing the same picture.
-    const opener = document.createElement('img');
-    opener.className = 'mb-open-opener';
-    opener.src = `/images/${openerSlug}.png`;
-    opener.alt = '';
-    opener.style.setProperty('--morph', `${OPEN.morphMs}ms`);
-    clone.append(opener);
 
     // The sheen that sweeps the cover as it opens. A child of the clone rather than a
     // background on it, so it can travel independently of the box being resized.
@@ -97,9 +92,18 @@ export function useBookOpen() {
     scrim.className = 'mb-open-scrim';
     scrim.style.setProperty('--lift', `${OPEN.liftMs}ms`);
 
+    // The shadow the opening cover throws across the page it is revealing. Without it the
+    // page underneath is evenly lit the whole way through the swing, which makes the cover
+    // look like it is sliding off a picture rather than opening away from one.
+    const shade = document.createElement('div');
+    shade.className = 'mb-open-shade';
+    shade.style.setProperty('--swing', `${OPEN.swingMs}ms`);
+
     // Clear anything a previous run left behind before adding more.
-    document.querySelectorAll('.mb-open-clone, .mb-open-scrim').forEach((n) => n.remove());
-    document.body.append(scrim, clone);
+    document
+      .querySelectorAll('.mb-open-clone, .mb-open-scrim, .mb-open-shade')
+      .forEach((n) => n.remove());
+    document.body.append(scrim, shade, clone);
 
     // Target: the SAME formula the reader uses to size its spread, not an approximation
     // of it. Getting this wrong is the other half of why the hand-off jarred -- the clone
@@ -144,24 +148,34 @@ export function useBookOpen() {
       });
     });
 
-    // Stage 3: the cover becomes the page. The tilt flattens to square at the same time,
-    // so the object settles into the shape the reader will present rather than being
-    // caught mid-turn when the route changes.
-    at(OPEN.liftMs + OPEN.growMs, () => { clone.dataset.stage = 'morph'; });
+    // Stage 3: hold. The tilt flattens to square so the cover settles, and it simply
+    // sits there at full size. This is the beat the whole effect exists for.
+    at(OPEN.liftMs + OPEN.growMs, () => { clone.dataset.stage = 'hold'; });
 
-    // Stage 4: the route changes underneath while the clone is still at full size and
-    // still covering everything, so the swap itself is never visible.
+    // Stage 4: the route changes while the cover still covers the viewport entirely, so
+    // the reader is fully rendered and waiting behind it before anything opens.
     at(OPEN.navMs, () => router.push(href));
 
-    // Stage 5: dissolve. Same image on both sides now, so there is nothing to see.
-    at(OPEN.navMs + 40, () => {
-      clone.dataset.stage = 'leaving';
+    // Stage 5: the cover swings open about its left edge, the way a cover does, and the
+    // page that was already behind it is simply there. backface-visibility does the rest:
+    // as the sheet passes ninety degrees it stops being drawn at all, so it clears the
+    // frame instead of flipping to show its own back.
+    at(OPEN.navMs + 60, () => {
+      clone.dataset.stage = 'swing';
       scrim.dataset.on = 'false';
+      shade.dataset.on = 'true';
     });
 
-    at(OPEN.navMs + 40 + OPEN.fadeMs, () => {
+    // The cast shadow lifts before the cover has finished travelling, so the page is
+    // clear by the time the sheet leaves rather than brightening after it has gone.
+    at(OPEN.navMs + 60 + Math.round(OPEN.swingMs * 0.45), () => {
+      shade.dataset.on = 'false';
+    });
+
+    at(OPEN.navMs + 60 + OPEN.swingMs, () => {
       clone.remove();
       scrim.remove();
+      shade.remove();
       going.current = false;
       setBusy(false);
     });
