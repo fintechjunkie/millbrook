@@ -35,6 +35,9 @@ function VolumeCard({ arc, volume, data }) {
         padding: space(3),
         color: color.ink,
         boxShadow: '0 1px 3px rgba(0,0,0,0.22)',
+        // Radius is in CSS with the hover rules, since the shell has to clip the accent
+        // bar and the cover art to the same curve.
+        borderRadius: 12,
       }}
     >
       <div
