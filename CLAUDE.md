@@ -60,6 +60,19 @@ can pass against a bundle compiled before the edit. Trust `npm run smoke` and se
 HTML over the browser console, whose log is a retained buffer and will keep reporting
 errors that no longer exist.
 
+**Never colour-key a background out of a character plate.** The canonical sheets are RGB
+with no alpha and a flat sandy ground of `rgb(238,221,197)`. Owen's ivory outfit measures
+`rgb(231,212,185)` — a maximum channel difference of **twelve**, so no tolerance separates
+them, and a flood fill travels straight through his clothes and punches alpha 0 through
+his jacket. Pip's cream overalls and Felix's pale sneakers are the same trap. When a
+portrait has to sit on a panel, set the panel to `--portrait-ground` so the image's own
+ground and the panel agree, and there is no rectangle left to see.
+
+**Read the alpha channel before believing a preview.** The card frame looked opaque with a
+violet glow and a dark centre; decoding it showed alpha 0 across the whole middle. The
+viewer was compositing RGB behind an opaque background. `scripts/lib-png.mjs` decodes type
+2 and type 6 with no dependency — use it rather than guessing from a thumbnail.
+
 **Check `git status -sb` when the author cannot see a change.** Local commits were once
 16 behind the remote for a whole session.
 

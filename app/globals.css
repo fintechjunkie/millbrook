@@ -13,6 +13,11 @@
   --paper-stock-edge: #EAE3D6;
   --paper-rule: #D8CFBE;
   --paper-rule-soft: #E5DDCD;
+  /* The flat backdrop baked into every canonical character sheet, measured off the files
+     rather than guessed: six of the seven are rgb(238,221,197) and Monke is four points
+     warmer, which is imperceptible. Used wherever a portrait sits on the page so the
+     image's own ground and the panel behind it agree exactly. */
+  --portrait-ground: #EEDDC5;
   --gutter-shadow: rgba(40, 38, 44, 0.20);
 
   --ink: #2A2530;
@@ -386,10 +391,27 @@ body {
   .mb-charcard { grid-template-columns: 240px 1fr; }
 }
 
+/* The panel is the portrait's own backdrop colour, and that is the whole fix.
+
+   The complaint was a stark white behind the characters. The portraits are not white --
+   they carry a flat sandy ground of rgb(238,221,197) with no alpha channel at all. The
+   panel was paper-edge, four points lighter and seventeen points cooler in blue, so the
+   portrait's ground read as a warm rectangle pasted onto a colder card and made the paper
+   around it look bleached by comparison.
+
+   Matching the panel to the ground means there is no rectangle left to notice: the image
+   dissolves into its panel and the panel reads as a deliberate mount.
+
+   A cutout was tried first and abandoned. Flood-filling the backdrop to transparency
+   fails on this cast: Owen's ivory outfit measures rgb(231,212,185) against a backdrop of
+   rgb(238,221,197), a maximum channel difference of twelve, so no tolerance can separate
+   them and the fill travels straight through his clothes. It punched alpha 0 through the
+   middle of his jacket. Colour keying is simply the wrong tool when the wardrobe and the
+   ground are the same colour, and matching is both safer and better looking. */
 .mb-charcard-art {
-  background: var(--paper-stock-edge);
+  background: var(--portrait-ground);
   border-bottom: 1px solid var(--paper-rule);
-  padding: 10px;
+  padding: 0;
   display: flex;
   align-items: center;
 }
