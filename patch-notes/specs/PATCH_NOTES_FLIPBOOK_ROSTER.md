@@ -213,7 +213,7 @@ remove the two mint hair buns"* — which is the same decision 1.1 reached, arri
 independently.
 
 ### {{CHAR:PIP}}
-**Immutable:** A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, worn loose, with a pair of small round aviator goggles resting on top of the head and a red bandana knotted at the **neck** as a neckerchief. **See the note below: the delivered plates disagree with this and the point is open.** Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+**Immutable:** A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 **Hair and headwear corrected 2026-07-29 against `MILLBROOK_CANONICAL_GIRLS_LINEUP_v1.png`,
 and this was the same class of error as Owen's eyebrows.** The lock file's *written* anchor
 list for all three girls disagrees with the lock file's own *lineup image* — Lena's text says
@@ -226,18 +226,21 @@ controls."* So the image wins in all three cases and the roster now follows it.
 because the generator attaches the canonical reference and the model followed the picture over
 my text. The artwork was right and the roster was wrong, which is the reverse of the Owen case.
 
-**Pip is the exception and it is a live decision.** Her three delivered plates —
-`vol1-s08`, `vol2-s05`, `vol3-s03` — all put the red bandana on her head with the goggles on
-top, because that is what this roster told them to do. They are consistent with each other and
-inconsistent with the lineup. Nothing is generated against the corrected text yet, so the
-choice is still free:
+**Pip's bandana resolved 2026-07-29: it is worn on the HEAD.** The delivered plates win
+over the lineup here, the same way Mayor Dalton's suit did.
 
-- **Follow the lineup** (bandana at the neck) and regenerate three plates, or
-- **Follow the delivered plates** (bandana on the head) and amend this block instead, as was
-  done for Mayor Dalton's suit.
+Three plates — `vol1-s08`, `vol2-s05`, `vol3-s03` — already tie the bandana across her head
+with the goggles resting on top, because this roster told them to. They agree with each other,
+the arrangement reads better at thumbnail scale because it breaks up the blonde silhouette,
+and following the lineup instead would have cost three regenerations to fix nothing a reader
+can see.
 
-Either is defensible. The head bandana arguably reads better at small scale because it breaks
-up the blonde silhouette, and Pip has no further appearances until Volume 4.
+**One wrinkle worth knowing, because it is visible on the busiest page of the site.**
+`site-cast.png` gives her *both*: bandana tied on the head **and** a red neckerchief at the
+throat. That is not in either the lineup or these plates, and it is the first image a visitor
+sees. It is also the better design — the neckerchief picks up the red at her collar and the
+head tie keeps the silhouette — so the block below now specifies both, and the cast strip is
+the reference for it rather than the exception to it.
 
 **Canonical reference:** `char-pip-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
@@ -426,6 +429,38 @@ across two volumes, and Part D1 puts permanent items there.
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.
 
+### 5.1 Wardrobe is allowed to change between installments
+
+**Standing instruction from the author, 2026-07-29.** The cast will change clothes in later
+arcs. This is expected and should be planned for rather than resisted: a signature outfit that
+never varies across five arcs stops reading as a character choice and starts reading as a
+costume the book cannot afford to change.
+
+**The rule that makes it safe is the split this roster already enforces.** Identity lives in
+the immutable block; clothing lives in the wardrobe table. So a new outfit is a new wardrobe
+row, never an edit to a character block, and a reader recognises somebody from the things that
+did not move:
+
+- **Never negotiable, whatever they are wearing.** Face, build, relative height, skin tone,
+  hair construction and colour, and the permanent features named as such — Milo's beanie and
+  red lenses, Felix's red glasses, Pip's visible seams and port, Lena's single side ponytail
+  and oval pendant, Vex's mint bun, Owen's brows and bald head, Monke's tan face patch.
+- **Free to change.** Garment type, cut, layering, condition and season. A character may move
+  from a jacket to a coat, from trousers to shorts, from clean to filthy.
+- **Change one anchor at a time, and never the colour and the silhouette together.** Vex in a
+  different jacket is still obviously Vex; Vex in a different jacket *and* without the mint bun
+  is a new character. If an accent colour is doing identifying work — Lena's orange, Felix's
+  teal, Owen's ivory, Vex's black-and-mint — carry it into the new outfit somewhere, even if
+  the garment carrying it changes.
+- **A new arc gets new letters, not rewritten ones.** `LENA_A` through `LENA_D` are the first
+  arc and stay put, because the delivered plates depend on them. Arc two starts at `LENA_E`.
+  Nothing already generated should be invalidated by a wardrobe decision made later.
+
+**Practical consequence for prompts.** Because wardrobe is a separate token, a change costs one
+table row and nothing else: no character block edits, no regeneration of the canonical sheets,
+and the generator keeps attaching the same reference image for the face. That is the whole point
+of the token split and it is worth not eroding.
+
 | Token | Value | Story time |
 |---|---|---|
 | `{{WARDROBE:LENA_A}}` | Travel clothes, oversized orange collared shirt worn open over a plain tee, satchel strap running diagonally across the chest | Vol 1, day one |
@@ -467,9 +502,9 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 1 | not required |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs. | 6 | `loc-square.png` |
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `vol2-s06.png` |
-| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `vol2-s05.png` |
-| `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | not required |
+| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | stand-in: `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required |
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
@@ -494,8 +529,9 @@ appears, `refExists` finds it first and the stand-in is ignored with no edit nee
 
 | Location | Stand-in | Why this plate |
 |---|---|---|
-| `WAREHOUSE_PIT` | `vol2-s06.png` | The fullest view of the lounge end in the set: all four couches, the scarred low table, the three salvaged televisions on their shelf, the roof trusses and the clerestory windows, and the terminals visible at the left edge for how the two ends relate. |
-| `WAREHOUSE_TERMINALS` | `vol2-s05.png` | Daylight, so the desk, brick, conduit and crates all read. `vol1-s03.png` is the better *portrait* but its room falls to black by design, which makes it useless as a record of the place. |
+| `WAREHOUSE_PIT` | `loc-warehouse-canonical.png` | See the note below. The master reference shows all three ends of the room in one frame and is canonical, which a scene plate is not. |
+| `WAREHOUSE_TERMINALS` | `loc-warehouse-canonical.png` | As above. |
+| `WAREHOUSE_SHOP` | `loc-warehouse-canonical.png` | As above. |
 | `VEX_APARTMENT` | `vol1-s07.png` | A wide object study with no figure in it, which is as close to a purpose-made establishing shot as the delivered set gets. Bed, milk-crate stools, bare bulb, the counter used as a workbench and the pinned walls are all present. |
 | `MAPLE_AND_FOURTH_A` | `vol2-opener.png` | This plate *is* state A. |
 | `MAPLE_AND_FOURTH_B` | `vol2-s02.png` | This plate *is* state B, and the pair was already matched by hand in `FIX-corner-pair-match.md`. Generating separate references for these two would risk breaking a match that is currently correct. |
@@ -507,11 +543,26 @@ parked sedans, and Mr Henderson's rolled newspaper on the steps at the left edge
 better record of the street than either spread that uses the token, so no dedicated
 `loc-residential.png` is needed at all.
 
-**One divergence this mapping exposes.** The warehouse brick is purple in `vol2-s06`
-and warm brown in `vol2-s05`, and they are meant to be two ends of one room. Worth
-resolving against `loc-warehouse-canonical.png` before either is leaned on as a
-location authority, and worth deciding rather than drifting, because seven spreads use
-the pit and four use the terminals.
+**Warehouse brick resolved 2026-07-29: it is PURPLE.** The mapping exposed a
+divergence — purple in `vol2-s06`, warm brown in `vol2-s05`, two ends of one room —
+and `loc-warehouse-canonical.png` settles it unambiguously in favour of purple. So
+`vol2-s05` is the outlier and `vol2-s06` was right.
+
+**That also replaced all three warehouse stand-ins with the master reference**, which
+is the better answer and was available the whole time. `loc-warehouse-canonical.png`
+shows the terminal desk, the lounge and the workbench in one frame, so it covers
+`WAREHOUSE_PIT`, `WAREHOUSE_TERMINALS` and `WAREHOUSE_SHOP` at once — twelve spreads
+between them. It is also *canonical*, where a scene plate is only consistent with
+itself, and it cannot pass on a wrong wall colour the way `vol2-s05` would have.
+
+Section 6.1 created the master reference for exactly this and it should have been the
+first thing reached for. Using a delivered plate as a stand-in remains right where no
+purpose-made reference exists; it is wrong when one does.
+
+**`vol2-s05` is not being regenerated over the brick.** It is one plate, its walls are
+warm brown rather than a different building, and no reader compares it to a canonical
+sheet. It is logged here so the divergence is a known exception rather than a
+precedent, and every future terminals prompt now inherits purple from the reference.
 
 **Location state pattern.** `MAPLE_AND_FOURTH_A` and `B` follow the same discipline Part D3 sets out for damaged wardrobe: B is defined as a change to A rather than as a new place. The point of the volume is that the corner was one thing and is now another, and a reader who flips back two spreads and finds the view unchanged gets that for free. It is the single highest-value image decision in the set and it is worth insisting on.
 
@@ -599,12 +650,37 @@ This is a comfortable number. Part B5 warns about novel length, where the count 
 
 ## 8. Shot mix, all four volumes
 
+**Bands re-set 2026-07-29, and these are now the targets.** Part C3's original bands were
+a default for a generic illustrated novel, written to prevent the talking-heads failure. This
+book has a different problem: thirteen named characters arrive across four short volumes and
+several were being met in prose only. Volumes 1, 3 and 4 each traded an unpeopled plate for a
+face on the author's instruction, so the honest response is to state what a character-forward
+book wants and hold it, rather than log a fourth exception against numbers nobody intends to
+meet.
+
 | Type | Target | Actual | Count |
 |---|---|---|---|
-| Establishing or location | 20 to 25% | 21.6% | 8 |
-| Character portrait or close | 25 to 30% | 29.7% | 11 |
+| Character portrait or close | 30 to 36% | 35.1% | 13 |
+| Establishing or location | 17 to 22% | 18.9% | 7 |
 | Object or detail | 15 to 20% | 16.2% | 6 |
 | Action moment | 15 to 20% | 16.2% | 6 |
-| Atmospheric or empty | 15 to 20% | 16.2% | 6 |
+| Atmospheric or empty | 12 to 17% | 13.5% | 5 |
 
-All five bands satisfied. No three consecutive spreads share a shot type in any volume. Portraits sit at the top of their band deliberately: eight new named characters arrive across these four volumes and each one needs at least one image in which a reader can learn their face.
+All five bands satisfied. No three consecutive spreads share a shot type in any volume.
+
+**What the old bands were protecting, and how it is protected now.** The talking-heads
+failure is real, and raising the portrait ceiling does not license it. Three rules carry that
+weight instead, and they are the ones to enforce:
+
+- No three consecutive spreads share a shot type. Unchanged, and it is the rule that actually
+  prevents a run of faces.
+- A portrait must contain a *beat*, not a pose. Every portrait in these four volumes shows
+  somebody doing or withholding something — Henderson holding up steady hands, Owen refusing
+  to turn round, Pip looking at the floor while Felix celebrates.
+- Where a wordless object carries a beat better than a face, keep the object. Volume 4 spread
+  7 stays an object study for exactly this reason: *Owen moved his energy drink cans to make
+  room* is acceptance without a line of dialogue, and a face would explain it and spoil it.
+
+Atmospheric is the band that gave up the most, and it is worth watching. Volume 1 has none at
+all, and the displaced bedroom-ceiling prompt is still written and spoiler-checked if a home
+is found for it.

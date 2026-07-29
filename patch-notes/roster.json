@@ -44,7 +44,7 @@
     },
     "PIP": {
       "token": "PIP",
-      "immutable": "A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, worn loose, with a pair of small round aviator goggles resting on top of the head and a red bandana knotted at the **neck** as a neckerchief. **See the note below: the delivered plates disagree with this and the point is open.** Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.",
+      "immutable": "A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.",
       "immutableInactive": null,
       "canonicalRef": "char-pip-canonical.png",
       "refLocation": null,
@@ -321,21 +321,21 @@
       "block": "The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.",
       "uses": 7,
       "canonicalRef": "loc-pit.png",
-      "standInRef": "vol2-s06.png"
+      "standInRef": "loc-warehouse-canonical.png"
     },
     "WAREHOUSE_TERMINALS": {
       "token": "WAREHOUSE_TERMINALS",
       "block": "The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.",
       "uses": 4,
       "canonicalRef": "loc-terminals.png",
-      "standInRef": "vol2-s05.png"
+      "standInRef": "loc-warehouse-canonical.png"
     },
     "WAREHOUSE_SHOP": {
       "token": "WAREHOUSE_SHOP",
       "block": "A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.",
       "uses": 1,
       "canonicalRef": null,
-      "standInRef": null
+      "standInRef": "loc-warehouse-canonical.png"
     },
     "WAREHOUSE_EXT": {
       "token": "WAREHOUSE_EXT",
