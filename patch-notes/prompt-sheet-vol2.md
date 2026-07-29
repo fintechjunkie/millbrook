@@ -36,7 +36,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 
 Shot type: Action moment
 Depicts: Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.
-Spoiler check: PASS. Final beat is Pip's line about noticing being honest. Pip has not entered the room in this frame and is absent from it.
+Spoiler check: PASS. Final beat is now Pip walking in, moving like a person except for the parts where she doesn't, after the four lines of her exchange with Lena were moved to spread 2 on 2026-07-29. Not depicted; the frame holds only Vex and Lena at the table and Pip is absent from it entirely.
 Named figures: Lena, Vex (2 of a maximum 2)
 
 **Attach these reference images before generating:**

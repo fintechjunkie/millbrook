@@ -276,7 +276,7 @@
       "block": "A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off.",
       "uses": 1,
       "canonicalRef": null,
-      "standInRef": null
+      "standInRef": "vol1-s01.png"
     },
     "BACK_BEDROOM": {
       "token": "BACK_BEDROOM",
