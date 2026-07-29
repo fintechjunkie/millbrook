@@ -119,6 +119,16 @@ export function Plate({
   aspect = '2 / 3',
   fullBleed = false,
   fit,
+  // What shows in the letterbox when objectFit is contain and the plate's own aspect
+  // does not match the box.
+  //
+  // Paper is right for a book page and wrong on a character card. The canonical sheets
+  // carry a flat sandy ground of their own, so a paper letterbox drew a white band above
+  // and below the figure and left the panel's matching colour visible only where the
+  // image pixels actually were -- which is exactly the "white background" that survived
+  // the first attempt at this fix. Making it a prop turns the letterbox colour into a
+  // decision instead of an inherited default.
+  ground = paper.stock,
   // An optional second slug to try before giving up. Used for covers: a volume
   // shows its dedicated cover art if one exists and its chapter opener if not,
   // so the shelf is never empty and dedicated covers can be added later without
@@ -152,7 +162,7 @@ export function Plate({
         ...(fullBleed
           ? { height: '100%', objectFit: 'cover' }
           : { aspectRatio: aspect, objectFit: fit ?? 'contain' }),
-        background: paper.stock,
+        background: ground,
       }}
     />
   );

@@ -112,7 +112,16 @@ function CharacterCard({ member, onClose }) {
         </button>
 
         <div className="mb-charcard-art">
-          <Plate slug={member.portrait} alt="" aspect="3 / 4" fit="contain" />
+          <Plate
+            slug={member.portrait}
+            alt=""
+            aspect="3 / 4"
+            fit="contain"
+            // The sheets are 3:4 for the six teenagers and 10:9 for Monke, so at least
+            // one of them always letterboxes. Handing the plate the panel colour makes
+            // that invisible instead of drawing a white band.
+            ground="var(--portrait-ground)"
+          />
         </div>
 
         <div className="mb-charcard-body">
