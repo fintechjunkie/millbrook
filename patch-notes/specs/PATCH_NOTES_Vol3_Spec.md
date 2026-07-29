@@ -504,43 +504,75 @@ Another pause. Another hum.
 ### Image page (right)
 
 Slug: vol3-s07
-Shot type: Atmospheric or empty
-Depicts: Beat 1. Vex sitting awake on the floor beside the couch where Cassie is sleeping under a blanket, long after everyone else has gone down.
-Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Not depicted; Pip is absent from the frame entirely and the dark back wall she is standing at is out of shot.
+Shot type: Atmospheric or empty (ensemble tableau)
+Depicts: Beats 2 to 5. The whole group bedded down in the Warehouse after midnight, the pig on the couch with Lena, Vex awake on the floor beside Cassie, and Pip alone and still in the dark part at the back.
+Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Pip is present but SILENT and standing, not speaking, and the wall she faces is an ordinary wall: nothing in the frame glows, hums, answers or hints that anything is inside it. The reader learns what she is doing from the facing prose, not from the plate.
 
-Hard constraints: Cassie's hearing aid is behind her LEFT ear and must remain visible even
-asleep. Vex's mint-green hair is spiky with ONE messy high bun at the back left. Keep the two figures small in a wide dark
-frame; this is an atmospheric image with people in it, not a portrait, and no face needs to
-be readable in close detail.
+Hard constraints: EVERY ONE OF THE SEVEN NAMED FIGURES IS IN FRAME, PLUS THE PIG. Nobody is
+omitted and nobody is doubled.
+The room is NOT murky. See the warehouse lighting floor in roster section 6.1a: the purple
+brick must read as purple, the couches must keep their separate brown, olive and purple, and
+every figure must be findable at a glance. This is a night scene, not a dark image.
+The back wall Pip faces is a plain brick wall with NO glow, NO light seeping from it, NO
+visible cable run lighting up and nothing embedded in it. Pip's mouth is closed.
+Cassie's hearing aid is behind her LEFT ear and stays visible while she sleeps.
+Vex's mint-green hair is spiky with ONE messy high bun at the back left.
+The pig is placid livestock, asleep. He is not reacting to anything and not looking at the
+camera.
 
-**Reframed to be character-forward, without losing the quiet.** It was the room after
-midnight with anonymous sleeping shapes. The prose gives something far better in the same
-beat: *"Vex put a blanket on Cassie and sat on the floor next to the couch, awake, for a
-long time."* That is the whole of what Vex is, in one sentence, and it was being spent on an
-empty-room shot.
+**Rebuilt 2026-07-29, and the previous version was simply wrong about the scene.** It showed
+two figures, Vex and Cassie, in an otherwise anonymous dark room. But the prose puts the
+entire cast in this one space, by name, each doing a specific thing: *"Lena fell asleep on a
+couch with the pig. Felix fell asleep at his bench with his face on his arms. Owen fell asleep
+in his chair, which he denied later. Vex put a blanket on Cassie and sat on the floor next to
+the couch, awake, for a long time. Milo was in the back, on the phone with his mom, lying about
+where he was. Pip was alone."*
 
-Kept as **atmospheric** rather than promoted to a portrait: the figures stay small in a wide
-dark frame, so the volume keeps its quiet late-night image and the shot mix keeps its
-atmospheric slot. Two named figures, inside the ceiling.
+That is the group portrait of the whole arc, and it was being spent on a two-hander. The
+sleeping cast is also what makes Pip's isolation land: she is apart from six people who trust
+her enough to sleep in the same room.
+
+**The pig had no roster block until now**, which is why he was absent rather than declined.
+His canonical sheet arrived with the others and nothing referenced it, so the generator could
+not see him. Added as `{{CHAR:PIG}}`.
+
+**Deviation, deliberate: seven named characters plus an animal.** Part C4 sets a ceiling of
+two, and this breaks it by five. The ceiling exists to stop a story page turning into a
+crowd nobody can read, and it is the right default. It is the wrong rule for the one plate in
+the arc whose subject IS the group: staging seven sleeping people is legible in a way that
+seven talking people would not be, because six of them are still and the composition can lead
+the eye from the couches to the single standing figure at the back. Kept in the atmospheric
+band, which is where it belongs by register and which leaves Volume 3's mix unchanged.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_C}}
 {{CHAR:VEX}}
 {{WARDROBE:VEX_A}}
 {{CHAR:CASSIE}}
 {{WARDROBE:CASSIE_A}}
+{{CHAR:FELIX}}
+{{WARDROBE:FELIX_A}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
+{{CHAR:MILO}}
+{{WARDROBE:MILO_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:PIG}}
 {{LOC:WAREHOUSE_PIT}}
-A wide dark converted warehouse interior long after midnight. On a sagging couch in the middle distance a small fifteen year old girl is asleep on her side under a blanket pulled up to her shoulder, her face turned toward the room, the small hearing aid behind her left ear still visible. On the bare concrete floor beside the couch, another girl sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back against the cushion, plainly not sleeping and plainly not going to. Both figures are small within a wide frame and neither face needs to read in fine detail. Further off, other sleeping shapes on couches and one slumped at a workbench, all turned away or covered so no other face is legible. High on a shelf at the top of frame, a small animal silhouette, unresolved. Exactly two named figures.
+A wide converted warehouse interior after midnight with the whole group bedded down in it, staged in clear depth so every figure is findable. NEAR LEFT, on a sagging brown couch, Lena is asleep on her back with one arm over her eyes and the pink pig asleep along her legs, placid and heavy. NEAR CENTRE, on a second couch, Cassie is asleep on her side under a blanket pulled to her shoulder, face turned toward the room, the small beige hearing aid behind her left ear visible. On the bare concrete floor beside that couch Vex sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back, wide awake and not going to sleep. MIDDLE RIGHT, at the workbench, Felix is asleep sitting up with his face down on his folded arms among his tools. BEHIND HIM at the desk, Owen is asleep in his swivel chair, slumped sideways with his head against the backrest. FAR RIGHT in the middle distance, Milo stands half turned away with a phone to his ear, one hand on the back of his neck, talking quietly. FAR BACK, alone at the plain brick end wall and separated from all of them by empty floor, Pip stands perfectly upright and perfectly still, facing the wall, arms at her sides, mouth closed, doing nothing at all. Exactly seven named human figures and one pig. No other figures.
 Interior, well after midnight.
-Wide shot from the far end of the room, slightly high vantage, deep focus, the two girls small and low in the frame.
-One warm work lamp burning at a distant bench as the only real source, monitors as cold points further off, most of the frame in near darkness with just enough spill to find the pair by.
+Wide shot from the near end of the room at standing height, deep focus so every plane stays sharp, the sleeping group filling the lower two thirds and Pip small and alone against the back wall in the upper right.
+Night, but not murky, and lit from four directions so nothing is lost. The three salvaged televisions on their shelf throw a broad cold blue-white fill across the couches and the sleepers. A warm clamp lamp still burning over Felix's bench is the warm key on the right. Owen's monitors add a second cold pool behind him. Cool moonlight through the high clerestory windows rims the roof trusses and lays a soft wash down the back wall so Pip reads clearly as a pale upright figure. The purple brick reads as purple throughout, the couches keep their separate brown, olive and purple, and no part of the frame falls to featureless black.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A wide dark warehouse after midnight, a girl asleep under a blanket on a couch and another sitting awake on the floor beside her.
+Alt text: A wide warehouse interior after midnight with six teenagers asleep on couches, at a workbench and in a desk chair, a pig asleep beside one of them, one girl sitting awake on the floor, and a robot girl standing alone and still at the far brick wall.
 
 ---
 

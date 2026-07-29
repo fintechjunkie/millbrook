@@ -327,6 +327,12 @@ That has now been overruled twice, both times by the same call — `vol1-s04` ca
 
 He remains deliberately absent from the final image of Volume 4 even though he is the subject of its last paragraph.
 
+### {{CHAR:PIG}}
+**Immutable:** A plump pink pig built from layered paper in a soft dusty rose, with a large round darker-rose snout carrying two clear nostrils, small floppy triangular ears lined a deeper pink, round white eyes with black pupils set wide and a thin dark brow above each, a short curled tail wound into a tight spiral, and four stubby dark brown hooves. He is broad and low, roughly the size of a large dog, and his default expression is placid and faintly pleased.
+**Canonical reference:** `char-pig-canonical.png` · Seed: pending · Approved: yes, by the animal lineup
+**Added 2026-07-29.** The sheet had existed since the canonical drop but the pig had no roster block, so the one scene that calls for him by name -- Volume 3 spread 7, where Lena falls asleep on a couch with him -- had no token to reference and he was simply left out of the image. An animal with a delivered canonical and no roster entry is invisible to the generator.
+**Rendering note.** He is livestock, not a mascot: he is never doing anything clever, never reacting to plot, and never given an expression that implies he understands. He sleeps, stands and leans on people. Monke carries all of the project's animal ambiguity and the pig carries none of it, which is what keeps Monke unsettling.
+
 ### {{CHAR:AUNT_CAROL}}
 **Immutable:** A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no

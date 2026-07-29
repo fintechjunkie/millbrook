@@ -86,6 +86,17 @@
       "approvalNote": "no",
       "renderingNote": null
     },
+    "PIG": {
+      "token": "PIG",
+      "immutable": "A plump pink pig built from layered paper in a soft dusty rose, with a large round darker-rose snout carrying two clear nostrils, small floppy triangular ears lined a deeper pink, round white eyes with black pupils set wide and a thin dark brow above each, a short curled tail wound into a tight spiral, and four stubby dark brown hooves. He is broad and low, roughly the size of a large dog, and his default expression is placid and faintly pleased.",
+      "immutableInactive": null,
+      "canonicalRef": "char-pig-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, by the animal lineup",
+      "renderingNote": null
+    },
     "AUNT_CAROL": {
       "token": "AUNT_CAROL",
       "immutable": "A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.",
