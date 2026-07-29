@@ -1,6 +1,9 @@
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
+import { Plate } from '@/components/millbrook/Plate';
 import { ComingShelf, Shelf } from '@/components/millbrook/Shelf';
 import {
   ARCS,
@@ -79,6 +82,20 @@ const DESCRIPTION =
   'Illustrated flipbooks from the town of Millbrook. Something is fixing the '
   + 'place, and nobody asked it to.';
 
+/**
+ * Prefer the purpose-made share card, fall back to the landing banner.
+ *
+ * Resolved at build time rather than hardcoded so that dropping site-social.png
+ * into public/images/ switches it over with no code change, and so that a missing
+ * file can never produce a share card that 404s. Same drop-in rule the plates
+ * follow, applied to metadata.
+ */
+const shareImage = existsSync(
+  join(process.cwd(), 'public', 'images', `${SITE_IMAGES.social.slug}.png`),
+)
+  ? { url: `/images/${SITE_IMAGES.social.slug}.png`, width: 1200, height: 630 }
+  : { url: `/images/${SITE_IMAGES.banner.slug}.png`, width: 2172, height: 724 };
+
 export const metadata = {
   title: 'Millbrook — A Digital Slop Story',
   description: DESCRIPTION,
@@ -90,13 +107,13 @@ export const metadata = {
     title: 'Millbrook — A Digital Slop Story',
     description: DESCRIPTION,
     type: 'website',
-    images: [{ url: `/images/${SITE_IMAGES.banner.slug}.png`, width: 2172, height: 724 }],
+    images: [shareImage],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Millbrook — A Digital Slop Story',
     description: DESCRIPTION,
-    images: [`/images/${SITE_IMAGES.banner.slug}.png`],
+    images: [shareImage.url],
   },
 };
 
@@ -135,6 +152,21 @@ export default function Home() {
         </a>
       </Banner>
 
+      {/* The cast band. A visitor who scrolls past the banner otherwise meets five
+          empty town landscapes before a single face, and the characters are the
+          reason to read. Full width and flush under the banner so it reads as part
+          of the masthead rather than as the first content section. Plate shows its
+          labelled placeholder until site-cast.png exists. */}
+      <div style={{ borderBottom: '1px solid rgba(244,239,230,0.1)', background: color.bg }}>
+        <Plate
+          slug={SITE_IMAGES.cast.slug}
+          alt="The cast of The Patch Notes: five teenagers, a robot girl and a small monkey, standing together on cracked concrete with the town behind them."
+          shotType="Cast strip, the whole ensemble in one frame"
+          aspect={SITE_IMAGES.cast.aspect}
+          fit="cover"
+        />
+      </div>
+
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
         {/* Each arc is one band of four volumes. The production totals that used to
             close every band are gone: spreads, plates and word counts are facts about
@@ -171,8 +203,31 @@ export default function Home() {
         {UPCOMING_ARCS.map((arc) => (
           <section key={arc.id} style={{ marginBottom: space(14) }}>
             <hr className="mb-arc-seam" style={{ marginBottom: space(14) }} />
-            <ArcHeader arc={arc} dim />
-            <ComingShelf arc={arc} />
+            {/* The backdrop is a CSS background rather than a Plate on purpose: a
+                missing background-image renders as nothing at all, whereas a missing
+                Plate renders its "not yet generated" panel. That panel is right on a
+                spread, where it tells you which file to make, and wrong behind four
+                dashed cards, where it would just look broken. */}
+            <div
+              style={{
+                position: 'relative',
+                backgroundImage: `url(/images/${SITE_IMAGES.arc2.slug}.png)`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: 3,
+                padding: space(6),
+                margin: `0 -${space(6)}`,
+              }}
+            >
+              <div
+                aria-hidden="true"
+                style={{ position: 'absolute', inset: 0, background: 'rgba(20,18,24,0.84)', borderRadius: 3 }}
+              />
+              <div style={{ position: 'relative' }}>
+                <ArcHeader arc={arc} dim />
+                <ComingShelf arc={arc} />
+              </div>
+            </div>
           </section>
         ))}
 
@@ -186,8 +241,26 @@ export default function Home() {
             lineHeight: 1.75,
           }}
         >
-          <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
-            {UNIVERSE.name}
+          <div style={{ display: 'flex', alignItems: 'center', gap: space(3) }}>
+            {/* Background image again rather than an <img>, for the same reason: the
+                mark is decoration and its absence should be invisible, not a broken
+                glyph next to the wordmark it is supposed to accompany. */}
+            <span
+              aria-hidden="true"
+              style={{
+                width: 34,
+                height: 34,
+                flex: 'none',
+                borderRadius: '50%',
+                backgroundImage: `url(/images/${SITE_IMAGES.mark.slug}.png)`,
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+              }}
+            />
+            <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
+              {UNIVERSE.name}
+            </div>
           </div>
           <p style={{ maxWidth: '68ch', margin: `${space(3)} 0 0` }}>{UNIVERSE.blurb}</p>
           <p style={{ margin: `${space(4)} 0 0` }}>
