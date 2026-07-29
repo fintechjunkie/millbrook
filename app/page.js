@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { closeSync, existsSync, openSync, readSync } from 'node:fs';
 import { join } from 'node:path';
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
@@ -89,20 +89,41 @@ const DESCRIPTION =
  * into public/images/ switches it over with no code change, and so that a missing
  * file can never produce a share card that 404s. Same drop-in rule the plates
  * follow, applied to metadata.
+ *
+ * Dimensions are read out of the PNG header rather than written down. Declaring a
+ * size that does not match the file is worse than declaring none — some scrapers
+ * reserve the wrong box and letterbox the card — and a hardcoded pair silently
+ * goes stale the first time an image is regenerated at a different size.
  */
-const shareImage = existsSync(
+function pngSize(file) {
+  // IHDR width and height are two big-endian uint32s at bytes 16 and 20 of every
+  // PNG, so 24 bytes is always enough and no image library is needed.
+  const fd = openSync(file, 'r');
+  try {
+    const head = Buffer.alloc(24);
+    readSync(fd, head, 0, 24, 0);
+    return { width: head.readUInt32BE(16), height: head.readUInt32BE(20) };
+  } finally {
+    closeSync(fd);
+  }
+}
+
+const shareSlug = existsSync(
   join(process.cwd(), 'public', 'images', `${SITE_IMAGES.social.slug}.png`),
 )
-  ? { url: `/images/${SITE_IMAGES.social.slug}.png`, width: 1200, height: 630 }
-  : { url: `/images/${SITE_IMAGES.banner.slug}.png`, width: 2172, height: 724 };
+  ? SITE_IMAGES.social.slug
+  : SITE_IMAGES.banner.slug;
+
+const shareImage = {
+  url: `/images/${shareSlug}.png`,
+  ...pngSize(join(process.cwd(), 'public', 'images', `${shareSlug}.png`)),
+};
 
 export const metadata = {
   title: 'Millbrook — A Digital Slop Story',
   description: DESCRIPTION,
   // Share cards. Without these a pasted link renders as a bare URL, which is the
-  // cheapest way for a project to look unfinished. Pointed at the landing banner
-  // for now; a purpose-made 1200x630 crop would frame better, since a 3:1 image
-  // gets centre-cropped by most platforms.
+  // cheapest way for a project to look unfinished.
   openGraph: {
     title: 'Millbrook — A Digital Slop Story',
     description: DESCRIPTION,
