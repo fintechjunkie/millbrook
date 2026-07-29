@@ -100,7 +100,7 @@ Alt text: A small town of low houses seen from above before sunrise, streetlight
 
 ## Spread 1
 
-Pages 3 to 4 | Part One: The Pothole | Words 353
+Pages 3 to 4 | Part One: The Pothole | Words 354
 
 ### Text page (left), verbatim
 
@@ -110,17 +110,17 @@ Aunt Carol’s house was on Crescent Street. It was the same yellow siding, the 
 
 “I’m here,” she called.
 
-“Drop your stuff in the back bedroom,” Aunt Carol called from the living room. She was on the couch with her tablet, playing a match-three game with the volume on. She didn’t look up. “Sorry your cousin’s old stuff is still in there. But there’s a bed and it's all yours.”
+“Drop your stuff in the back bedroom,” Aunt Carol called from the living room. She was on the couch with her tablet, playing a match-three game with the volume on. She didn’t look up. “Sorry your cousin’s old stuff is still in there. But there’s a bed and it’s all yours.”
 
 “Thanks for letting me stay.”
 
 “Of course! Having you around will liven the place up a bit.”
 
-The back bedroom smelled like dust and a soccer trophy that had once been gold was now sort of beige. Her cousin Derek had moved out years ago but the walls still had posters of bands she’d never heard of and athletes who’d probably retired by now. There was a dent in the door of the closet she remembered hiding in when she was little.
+The back bedroom smelled like dust and a soccer trophy that had once been gold and was now sort of beige. Her cousin Derek had moved out years ago but the walls still had posters of bands she’d never heard of and athletes who’d probably retired by now. There was a dent in the door of the closet she remembered hiding in when she was little.
 
 The place was full of good memories.
 
-Lena sat on the bed and opened her laptop. Her research folder filled the screen with forum posts, deleted news clips, and Reddit threads with three replies. It reflected nine months of work with most of it leading nowhere. But there was a pattern, and she seems to be the only one who’d noticed it.
+Lena sat on the bed and opened her laptop. Her research folder filled the screen with forum posts, deleted news clips, and Reddit threads with three replies. It reflected nine months of work with most of it leading nowhere. But there was a pattern, and she seemed to be the only one who’d noticed it.
 
 Things in Millbrook didn’t stay the same. Small things changed. A stop sign appeared at an intersection last month with no city record of installing it. A house number changed by one and somehow this was OK. A pothole on Main Street that everyone had complained about for two years was gone overnight.
 
@@ -128,7 +128,7 @@ Nobody had worked on the pothole according to official records, but the Mayor wa
 
 Lena hit record.
 
-“Day one in Millbrook. I'm starting with the pothole.”
+“Day one in Millbrook. I’m starting with the pothole.”
 
 ### Image page (right)
 
@@ -176,15 +176,15 @@ She turned because her senses told her to. A girl about her age was walking away
 
 The girl glanced back, her sharp eyes cutting the space between them like a laser. And her mouth looked like it was about to say something rude. But she didn’t say anything. She just kept walking.
 
-Lena chased her for two blocks when the girl suddenly turned into an alley between a hardware store and a closed pizza place. By the time Lena got to the alley, she was gone.
+Lena chased her for two blocks before the girl turned suddenly into an alley between a hardware store and a closed pizza place. By the time Lena got to the alley, she was gone.
 
-“Really? You've got to be kidding me!”
+“Really? You’ve got to be kidding me!”
 
 Lena went back to her car. The tripod was still there and so was the woman with the stroller, holding it like she was waiting to scold someone. The glove box was hanging open. Nothing else was missing.
 
 “You shouldn’t leave equipment lying around.”
 
-“Yeah. I think you're right.”
+“Yeah. I think you’re right.”
 
 ### Image page (right)
 
@@ -214,7 +214,7 @@ Alt text: A short girl with mint-green hair in two buns walks away along a sidew
 
 ## Spread 3
 
-Pages 7 to 8 | Part One: The Pothole | Words 325
+Pages 7 to 8 | Part One: The Pothole | Words 324
 
 ### Text page (left), verbatim
 
@@ -222,7 +222,7 @@ Pages 7 to 8 | Part One: The Pothole | Words 325
 
 Owen had been awake for thirty-one hours. He didn’t feel tired. He felt like time had stopped meaning anything, which was a place he liked to live.
 
-Three monitors had his attention. The left one ran his anomaly tracker, four hundred and seven entries from the last week. The middle one was a map of Millbrook with the anomalies plotted as dots. And the right one was a YouTube video of a guy fixing an old Cadillac, which Owen was half-watching because he put the odds pretty low that he'd ever get it fixed.
+Three monitors had his attention. The left one ran his anomaly tracker, four hundred and seven entries from the last week. The middle one was a map of Millbrook with the anomalies plotted as dots. And the right one was a YouTube video of a guy fixing an old Cadillac, which Owen was half-watching because he put the odds pretty low that he’d ever get it fixed.
 
 On the map, the dots formed an arc. Not a complete one, but about two-thirds of a circle that bent around the eastern half of town. He’d noticed the pattern three days ago and hadn’t mentioned it yet because Milo would ask what was at the center. Owen didn’t have an answer yet and Owen hated not having answers.
 
@@ -244,7 +244,7 @@ Owen turned in his chair. “You know the pothole on Main? The famous one.”
 
 “It’s gone.”
 
-Felix looked up from his game. The on screen character got hit by something and exploded into polygons. Felix didn’t notice.
+Felix looked up from his game. The on-screen character got hit by something and exploded into polygons. Felix didn’t notice.
 
 “Gone like fixed?”
 
@@ -323,7 +323,7 @@ Then he tapped the screen. Once. With a single finger. Right at the top of the a
 
 “He tapped it twice like he knows something,” Felix said.
 
-“He taps things, Felix. He's just playing around.”
+“He taps things, Felix. He’s just playing around.”
 
 Milo was watching Monke, not the screen. He had a look on his face Owen recognized. The look that meant Milo had decided something he wasn’t going to share yet.
 
@@ -411,9 +411,9 @@ Through her viewfinder, Lena watched the Mayor sweat. Just at the temple. The 3D
 
 That was when she noticed the three guys at the edge of the crowd.
 
-Not standing together exactly, but in a triangle. The middle one was tall and dark-haired, wearing a jacket that fit him perfectly. The one to his left had a shaved head and was holding a phone, clearly recording the Mayor's speech. The one to his right was shorter and had a permanent half-grin that gave off the vibe that he’d either made or set fire to something this morning.
+Not standing together exactly, but in a triangle. The middle one was tall and dark-haired, wearing a jacket that fit him perfectly. The one to his left had a shaved head and was holding a phone, clearly recording the Mayor’s speech. The one to his right was shorter and had a permanent half-grin that gave off the vibe that he’d either made or set fire to something this morning.
 
-They were watching her too. The dark-haired one made eye contact, looked away, and then looked back. He wasn't very good at being sneaky.
+They were watching her too. The dark-haired one made eye contact, looked away, and then looked back. He wasn’t very good at being sneaky.
 
 Lena swung her camera off the Mayor and onto them.
 
@@ -495,7 +495,7 @@ The one in the beanie looked at the one with the phone. The phone came down an i
 
 The bald guy lowered his phone. “Milo. She’s pretty good at this.”
 
-“I know, Owen,” Milo said. "Scary good."
+“I know, Owen,” Milo said. “Scary good.”
 
 The third one held out his sandwich. “I’m Felix. You want some? Peanut butter and pickles.”
 
@@ -503,7 +503,7 @@ The third one held out his sandwich. “I’m Felix. You want some? Peanut butte
 
 “Your loss.”
 
-Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it's serious stuff.”
+Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it’s serious stuff.”
 
 “Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
 
