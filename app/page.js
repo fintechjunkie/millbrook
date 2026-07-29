@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
-import { Plate } from '@/components/millbrook/Plate';
+import { CastStrip } from '@/components/millbrook/CastStrip';
 import { ComingShelf, Shelf } from '@/components/millbrook/Shelf';
 import {
   ARCS,
@@ -186,15 +186,7 @@ export default function Home() {
           reason to read. Full width and flush under the banner so it reads as part
           of the masthead rather than as the first content section. Plate shows its
           labelled placeholder until site-cast.png exists. */}
-      <div style={{ borderBottom: '1px solid rgba(244,239,230,0.1)', background: color.bg }}>
-        <Plate
-          slug={SITE_IMAGES.cast.slug}
-          alt="The cast of The Patch Notes: five teenagers, a robot girl and a small monkey, standing together on cracked concrete with the town behind them."
-          shotType="Cast strip, the whole ensemble in one frame"
-          aspect={SITE_IMAGES.cast.aspect}
-          fit="cover"
-        />
-      </div>
+      <CastStrip />
 
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
         {/* Each arc is one band of four volumes. The production totals that used to

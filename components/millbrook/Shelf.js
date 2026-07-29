@@ -1,7 +1,9 @@
 'use client';
 
+import { useRef } from 'react';
 import Link from 'next/link';
 import { Plate } from './Plate';
+import { useBookOpen } from './useBookOpen';
 import { color, paper, space, type } from '@/lib/millbrook/series';
 
 /**
@@ -13,11 +15,19 @@ import { color, paper, space, type } from '@/lib/millbrook/series';
  */
 function VolumeCard({ arc, volume, data }) {
   const sections = (data?.sections ?? []).map((s) => s.title);
+  const href = `/patch-notes/${volume.slug}/read`;
+  const coverRef = useRef(null);
+  const book = useBookOpen();
 
   return (
     <Link
-      href={`/patch-notes/${volume.slug}/read`}
+      href={href}
       className="mb-card focus-ring"
+      // Prefetched on hover so the opening animation covers real loading rather than
+      // being added to it.
+      onMouseEnter={() => book.prefetch(href)}
+      onFocus={() => book.prefetch(href)}
+      onClick={(e) => book.open(e, href, coverRef.current)}
       style={{
         background: paper.stock,
         border: `1px solid ${paper.rule}`,
@@ -27,7 +37,11 @@ function VolumeCard({ arc, volume, data }) {
         boxShadow: '0 1px 3px rgba(0,0,0,0.22)',
       }}
     >
-      <div style={{ width: '100%', aspectRatio: '2 / 1', overflow: 'hidden', background: paper.stock }}>
+      <div
+        ref={coverRef}
+        className="mb-card-cover"
+        style={{ width: '100%', aspectRatio: '2 / 1', overflow: 'hidden', background: paper.stock }}
+      >
         <Plate
           slug={volume.cover}
           fallbackSlug={volume.coverFallback}
@@ -82,7 +96,7 @@ function VolumeCard({ arc, volume, data }) {
           color: color.accent,
         }}
       >
-        Read →
+        Read <span className="mb-read-arrow" aria-hidden="true">→</span>
       </div>
     </Link>
   );
