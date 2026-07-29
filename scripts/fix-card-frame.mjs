@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 /**
- * Crop card-frame.png so its ornament sits the same distance from every edge.
+ * Crop a card frame so its ornament sits the same distance from opposite edges.
+ *
+ *   node scripts/fix-card-frame.mjs            # card-frame
+ *   node scripts/fix-card-frame.mjs card-frame-b
  *
  * The generated frame is beautiful and very slightly off-centre: the ink runs from 54px
  * to 968px horizontally but only to 937px vertically, so the bottom margin is 87px
@@ -28,8 +31,9 @@ import { fileURLToPath } from 'node:url';
 import { decodePng, encodePng } from './lib-png.mjs';
 
 const IMAGES = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'images');
-const target = join(IMAGES, 'card-frame.png');
-const source = join(IMAGES, 'card-frame-source.png');
+const name = process.argv[2] ?? 'card-frame';
+const target = join(IMAGES, `${name}.png`);
+const source = join(IMAGES, `${name}-source.png`);
 
 // Keep the original exactly as delivered, and always work from it, so running this twice
 // crops once rather than compounding.
@@ -53,11 +57,13 @@ for (let y = 0; y < h; y += 1) {
 console.log(`ink bbox  x ${minX}..${maxX}   y ${minY}..${maxY}`);
 console.log(`margins   left ${minX}  top ${minY}  right ${w - 1 - maxX}  bottom ${h - 1 - maxY}`);
 
-// Keep the top-left margin and trim right and bottom to match it, so the ornament is
-// equidistant from all four edges and the corner reach measured earlier still holds.
-const m = Math.min(minX, minY);
-const newW = maxX + 1 + m;
-const newH = maxY + 1 + m;
+// Mirror the LEFT margin on the right and the TOP margin on the bottom, rather than
+// collapsing all four to the smallest. A frame may legitimately want a different horizontal
+// and vertical inset -- card-frame-b does, at 60 across and 89 down -- and forcing them equal
+// would crop 66px off the bottom to fix a 37px surplus, breaking the vertical balance to
+// chase a symmetry the artwork never claimed.
+const newW = maxX + 1 + minX;
+const newH = maxY + 1 + minY;
 
 if (newW === w && newH === h) {
   console.log('\nAlready symmetric. Nothing written.');

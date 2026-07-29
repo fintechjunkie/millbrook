@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Plate } from './Plate';
 import { CAST } from '@/lib/millbrook/cast';
-import { SITE_IMAGES, color, space, type } from '@/lib/millbrook/series';
+import { SITE_IMAGES, cardFrame, color, space, type } from '@/lib/millbrook/series';
 
 /**
  * The cast strip, with a hotspot over each figure.
@@ -114,7 +114,15 @@ function CharacterCard({ member, onClose }) {
         // do not share one backdrop. borderColor is the fallback under the border-image,
         // so it has to move with the background or a failed PNG would frame the card in
         // the wrong colour.
-        style={{ background: member.ground, borderColor: member.ground }}
+        //
+        // The frame comes from series.js so the two designs can be swapped in one line.
+        // Slice travels with the slug because it is measured off that file, not chosen.
+        style={{
+          background: member.ground,
+          borderColor: member.ground,
+          borderImageSource: `url(/images/${cardFrame.slug}.png)`,
+          borderImageSlice: cardFrame.slice,
+        }}
       >
         <button type="button" className="mb-charcard-x focus-ring" onClick={onClose} aria-label="Close">
           ×

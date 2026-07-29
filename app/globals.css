@@ -384,6 +384,8 @@ body {
      is one stock throughout. */
   background: var(--portrait-ground);
   border: 34px solid var(--portrait-ground);
+  /* Source and slice are set inline from series.js so the frame can be swapped in one
+     line. These stay as the fallback if that ever fails to render. */
   border-image-source: url('/images/card-frame.png');
   border-image-slice: 140;
   border-image-repeat: stretch;
