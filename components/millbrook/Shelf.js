@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import { Plate } from './Plate';
 import { useBookOpen } from './useBookOpen';
-import { color, paper, space, type } from '@/lib/millbrook/series';
+import { color, paper, space, type, ui } from '@/lib/millbrook/series';
 
 /**
  * One volume card.
@@ -30,11 +30,20 @@ function VolumeCard({ arc, volume, data }) {
       onClick={(e) => book.open(e, href, coverRef.current)}
       style={{
         background: paper.stock,
-        border: `1px solid ${paper.rule}`,
-        borderTop: `3px solid ${color.accent}`,
+        // All-longhand rather than `border` plus a `borderTop` override. React warns on that
+        // combination — "Updating border borderTop" — because on a rerender it removes the
+        // shorthand while the longhand is still set, and the order the two are applied in is
+        // not guaranteed. It showed up in the console as a real warning against this
+        // component, not a theoretical one.
+        borderWidth: '3px 1px 1px',
+        borderStyle: 'solid',
+        borderColor: `${color.accent} ${paper.rule} ${paper.rule}`,
         padding: space(3),
         color: color.ink,
-        boxShadow: '0 1px 3px rgba(0,0,0,0.22)',
+        // Warm rather than neutral black. A card at #FBF8F2 on a shell at #F7F4EE is only
+        // four points brighter than what it sits on, so the shadow is doing most of the
+        // work of separating them and it has to look like a shadow on paper.
+        boxShadow: ui.shadow,
         // Radius is in CSS with the hover rules, since the shell has to clip the accent
         // bar and the cover art to the same curve.
         borderRadius: 12,

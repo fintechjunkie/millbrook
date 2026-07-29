@@ -11,8 +11,10 @@ import { color, paper, type } from '@/lib/millbrook/series';
  * text baked into a plate cannot be restyled, translated, selected or read by a
  * screen reader.
  *
- * Degrades to the paper ground with the type still legible if the art is absent,
- * so the page is presentable before `site-banner.png` exists.
+ * Degrades to a dark ground if the art is absent, so the page is presentable before
+ * `site-banner.png` exists. This used to say paper, and it was wrong: every string in
+ * here is light, so a paper fallback put a near-white title on near-white paper. The
+ * fallback lives in `.mb-banner` in globals.css.
  */
 export function Banner({ slug, aspect = '3 / 1', kicker, title, tagline, children }) {
   return (

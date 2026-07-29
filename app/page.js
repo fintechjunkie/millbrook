@@ -15,6 +15,7 @@ import {
   paper,
   space,
   type,
+  ui,
 } from '@/lib/millbrook/series';
 
 /**
@@ -34,8 +35,11 @@ function ArcHeader({ arc, action, dim = false }) {
         gap: space(4),
         paddingBottom: space(4),
         marginBottom: space(6),
-        borderBottom: '1px solid rgba(244,239,230,0.14)',
-        opacity: dim ? 0.52 : 1,
+        borderBottom: `1px solid ${ui.rule}`,
+        // 0.52 was dimming light text against a dark band. Ink at 0.52 on a light band
+        // goes weak and grey rather than quiet, so the reserved arc holds more of its
+        // opacity and gets its recessive quality from muted colour instead.
+        opacity: dim ? 0.78 : 1,
       }}
     >
       <div>
@@ -44,7 +48,7 @@ function ArcHeader({ arc, action, dim = false }) {
             ...type.utility,
             fontSize: 9.5,
             letterSpacing: '0.24em',
-            color: dim ? '#7C7488' : '#B9A6FF',
+            color: dim ? ui.textFaint : ui.kicker,
           }}
         >
           Arc {arc.number} · {arc.status}
@@ -56,7 +60,7 @@ function ArcHeader({ arc, action, dim = false }) {
         <h2
           style={{
             fontFamily: type.body.fontFamily,
-            color: paper.stock,
+            color: dim ? ui.textMuted : color.ink,
             fontSize: 30,
             fontWeight: 700,
             letterSpacing: '-0.01em',
@@ -72,7 +76,7 @@ function ArcHeader({ arc, action, dim = false }) {
         <p
           style={{
             fontFamily: type.body.fontFamily,
-            color: '#A29AAC',
+            color: ui.textMuted,
             fontSize: 14.5,
             lineHeight: 1.6,
             maxWidth: '62ch',
@@ -170,8 +174,11 @@ export default function Home() {
             letterSpacing: '0.18em',
             color: paper.stock,
             textDecoration: 'none',
-            border: '1px solid rgba(244,239,230,0.4)',
-            background: 'rgba(20,18,24,0.34)',
+            border: '1px solid rgba(244,239,230,0.55)',
+            // 0.34 left this 9px label depending on the artwork behind it to carry its
+            // contrast, which measured 2.19 against a light patch. A chip needs its own
+            // ground rather than borrowing one it cannot predict.
+            background: 'rgba(28,22,18,0.62)',
             padding: `${space(3)} ${space(5)}`,
             alignSelf: 'flex-start',
             marginTop: space(6),
@@ -212,9 +219,10 @@ export default function Home() {
                     ...type.utility,
                     fontSize: 9,
                     letterSpacing: '0.18em',
-                    color: paper.stock,
+                    color: color.accent,
                     textDecoration: 'none',
-                    border: '1px solid rgba(244,239,230,0.28)',
+                    border: `1px solid ${ui.ruleStrong}`,
+                    background: color.bgRaise,
                     padding: `${space(3)} ${space(5)}`,
                     whiteSpace: 'nowrap',
                   }}
@@ -246,9 +254,20 @@ export default function Home() {
                 margin: `0 -${space(6)}`,
               }}
             >
+              {/* The veil over the arc-two artwork inverted with the shell, and it had
+                  to: everything inside this band — the header, the four ghost slots — is
+                  now ink on light, so a 0.84 black overlay would have put dark text on a
+                  dark field. A pale veil keeps the art as a ghost of itself, which is the
+                  point, and lets the band recede by going FLATTER than the shell rather
+                  than darker. */}
               <div
                 aria-hidden="true"
-                style={{ position: 'absolute', inset: 0, background: 'rgba(20,18,24,0.84)', borderRadius: 3 }}
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: 'rgba(237,231,219,0.90)',
+                  borderRadius: 3,
+                }}
               />
               <div style={{ position: 'relative' }}>
                 <ArcHeader arc={arc} dim />
@@ -261,10 +280,10 @@ export default function Home() {
         <footer
           style={{
             paddingTop: space(6),
-            borderTop: '1px solid rgba(244,239,230,0.1)',
+            borderTop: `1px solid ${ui.rule}`,
             fontFamily: type.body.fontFamily,
             fontSize: 13,
-            color: '#8E8699',
+            color: ui.textMuted,
             lineHeight: 1.75,
           }}
         >
@@ -281,7 +300,7 @@ export default function Home() {
                 backgroundImage: `url(/images/${SITE_IMAGES.mark.slug}.png)`,
               }}
             />
-            <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
+            <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: ui.kicker }}>
               {UNIVERSE.name}
             </div>
           </div>
@@ -292,7 +311,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="focus-ring"
-              style={{ color: '#B9A6FF', textDecoration: 'none', borderBottom: '1px solid rgba(185,166,255,0.4)' }}
+              style={{ color: color.accent, textDecoration: 'none', borderBottom: `1px solid ${color.accent}55` }}
             >
               {`${UNIVERSE.collection.label} on ${UNIVERSE.collection.host} ↗`}
             </a>

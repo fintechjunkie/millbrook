@@ -3,7 +3,7 @@ import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
 import { Crumbs } from '@/components/millbrook/Crumbs';
 import { Shelf } from '@/components/millbrook/Shelf';
-import { ARCS, color, paper, space, type } from '@/lib/millbrook/series';
+import { ARCS, color, space, type, ui } from '@/lib/millbrook/series';
 
 const ARC = ARCS.find((a) => a.id === 'patch-notes');
 
@@ -33,7 +33,7 @@ export default function PatchNotesArc() {
         <p
           style={{
             fontFamily: type.body.fontFamily,
-            color: '#CFC8D4',
+            color: color.ink,
             fontSize: 16,
             lineHeight: 1.65,
             maxWidth: '64ch',
@@ -52,7 +52,7 @@ export default function PatchNotesArc() {
             ...type.utility,
             fontSize: 9,
             letterSpacing: '0.14em',
-            color: '#7C7488',
+            color: ui.textFaint,
             marginBottom: space(9),
           }}
         >
@@ -67,7 +67,7 @@ export default function PatchNotesArc() {
               ...type.utility,
               fontSize: 10,
               letterSpacing: '0.22em',
-              color: '#B9A6FF',
+              color: ui.kicker,
               margin: `0 0 ${space(4)}`,
             }}
           >
@@ -76,15 +76,16 @@ export default function PatchNotesArc() {
           <p
             style={{
               fontFamily: type.body.fontFamily,
-              color: '#A29AAC',
+              color: ui.textMuted,
               fontSize: 14.5,
               lineHeight: 1.7,
               margin: 0,
             }}
           >
             Each volume opens as a two-page spread: prose on the left, a plate on the
-            right, never alternating. Turn with the arrow keys, by clicking either
-            page, or by swiping. Press <strong style={{ color: paper.stock }}>C</strong>
+            right, never alternating. Click the right-hand page to go forward and the
+            left-hand page to go back, or use the arrow keys, or swipe. Press{' '}
+            <strong style={{ color: color.ink }}>C</strong>
             {' '}for contents. On a phone a spread becomes two swipes.
           </p>
         </section>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Crumbs } from './Crumbs';
 import { useTextEditing } from './useTextEditing';
 import { BlankPage, GraphicPage, OpenerSpread, TextPage } from './SpreadPage';
-import { color, geometry, paper, space, turn as TURN, type } from '@/lib/millbrook/series';
+import { color, geometry, paper, space, turn as TURN, type, ui } from '@/lib/millbrook/series';
 
 // ============================================================
 // Leaves
@@ -177,7 +177,10 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
         position: 'fixed',
         inset: 0,
         zIndex: 40,
-        background: 'rgba(24,22,28,0.97)',
+        // Light like everything else. This is a full-screen table of contents rather than a
+        // dialog over content you still want to see, so there is no reason for it to be the
+        // one dark surface left in the reader.
+        background: color.bg,
         overflowY: 'auto',
         padding: `${space(10)} ${space(5)} ${space(16)}`,
       }}
@@ -191,20 +194,21 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
             gap: space(4),
             marginBottom: space(7),
             paddingBottom: space(3),
-            borderBottom: '1px solid rgba(244,239,230,0.18)',
+            borderBottom: `1px solid ${ui.rule}`,
           }}
         >
           <div>
-            <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.22em', color: '#A29AAC' }}>
+            <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.22em', color: ui.kicker }}>
               Contents
             </div>
-            <div style={{ color: paper.stock, fontSize: 19, fontWeight: 700, marginTop: 4 }}>
+            <div style={{ color: color.ink, fontSize: 19, fontWeight: 700, marginTop: 4,
+                          fontFamily: type.body.fontFamily }}>
               {volume.chapter}
             </div>
           </div>
           <button className="focus-ring" onClick={onClose}
-            style={{ ...type.utility, fontSize: 10, letterSpacing: '0.18em', background: 'none',
-                     border: '1px solid rgba(244,239,230,0.3)', color: paper.stock,
+            style={{ ...type.utility, fontSize: 10, letterSpacing: '0.18em', background: color.bgRaise,
+                     border: `1px solid ${ui.ruleStrong}`, color: ui.textMuted,
                      padding: `${space(2)} ${space(4)}`, cursor: 'pointer' }}>
             Close
           </button>
@@ -223,17 +227,24 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
                 style={{
                   textAlign: 'left',
                   cursor: 'pointer',
-                  background: here ? 'rgba(107,82,200,0.16)' : 'rgba(244,239,230,0.045)',
-                  border: `1px solid ${here ? color.accent : 'rgba(244,239,230,0.14)'}`,
-                  borderTop: `3px solid ${here ? color.accent : 'rgba(244,239,230,0.22)'}`,
+                  background: here ? 'rgba(91,63,196,0.09)' : paper.stock,
+                  // Longhand, not `border` + `borderTop`: React warns on that pair, and this
+                  // one rerenders on every pick, which is exactly when the hazard bites.
+                  borderWidth: '3px 1px 1px',
+                  borderStyle: 'solid',
+                  borderColor: here
+                    ? color.accent
+                    : `${ui.ruleStrong} ${ui.rule} ${ui.rule}`,
+                  borderRadius: 6,
                   padding: space(4),
                   display: 'flex',
                   flexDirection: 'column',
                   gap: space(2),
-                  color: paper.stock,
+                  color: color.ink,
+                  fontFamily: type.body.fontFamily,
                 }}
               >
-                <span style={{ ...type.utility, fontSize: 9, letterSpacing: '0.16em', color: here ? '#B9A6FF' : '#A29AAC' }}>
+                <span style={{ ...type.utility, fontSize: 9, letterSpacing: '0.16em', color: here ? color.accent : ui.textFaint }}>
                   {l.kind === 'opener' ? 'Opener' : `Spread ${String(s.n).padStart(2, '0')}`}
                 </span>
                 <span style={{ fontSize: 14.5, fontWeight: 700, lineHeight: 1.25 }}>
@@ -242,7 +253,7 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
                     : sections[0] || `Pages ${s.pages}`}
                 </span>
                 {l.kind === 'spread' && (
-                  <span style={{ fontSize: 11.5, color: '#A29AAC', lineHeight: 1.4 }}>
+                  <span style={{ fontSize: 11.5, color: ui.textMuted, lineHeight: 1.4 }}>
                     {sections.length > 1 ? sections.slice(1).join(' · ') + ' · ' : ''}
                     {s.words} words
                   </span>
@@ -294,11 +305,14 @@ function EndOfVolume({ next, wide }) {
         href="/"
         className="focus-ring"
         aria-label="Arc complete. Back to Millbrook."
+        // Ink, not paper. This used to be a paper-coloured button with shell-coloured text,
+        // which worked when the shell was near-black and became invisible the moment it went
+        // off-white — light type on a light button on a light bar.
         style={{
           ...base,
-          color: color.bg,
-          background: paper.stock,
-          border: `1px solid ${paper.stock}`,
+          color: paper.stock,
+          background: color.ink,
+          border: `1px solid ${color.ink}`,
         }}
       >
         {wide ? 'Arc complete · back to Millbrook →' : 'Millbrook →'}
@@ -313,13 +327,135 @@ function EndOfVolume({ next, wide }) {
       aria-label={`Read ${next.part}: ${next.title}`}
       style={{
         ...base,
-        color: color.bg,
+        color: paper.stock,
         background: color.accent,
         border: `1px solid ${color.accent}`,
       }}
     >
       {wide ? `Read ${next.part} →` : `${next.part} →`}
     </Link>
+  );
+}
+
+/**
+ * The turn guide: the bar above the book that says which side does what.
+ *
+ * The reported problem was that readers did not know clicking the right-hand page
+ * advances and the left-hand page goes back. That is a fair complaint, because until
+ * now the ONLY hint was the mouse cursor changing to `e-resize` over the right half
+ * and `w-resize` over the left. A cursor is the weakest affordance available: it is
+ * invisible until the pointer is already inside the region, invisible on any touch
+ * device, invisible in a screenshot, and even when seen, a resize cursor says "drag
+ * this edge" rather than "click to turn the page".
+ *
+ * **The fix is spatial rather than verbal, and that is the whole design.** A legend
+ * that says "click right to go forward" makes the reader hold a sentence in their head
+ * and map it onto the layout themselves. Two halves sitting directly above the two
+ * halves they describe, each the exact width of the page below it, means there is
+ * nothing to map: the label is already over the thing it labels. The centre divider
+ * lines up with the gutter for the same reason.
+ *
+ * They are real buttons, not a caption. A reader who reaches for the label instead of
+ * the page gets what they wanted rather than discovering the sign is not a control —
+ * and it makes the reader keyboard-operable from the top of the document instead of
+ * only from the auto-hiding bar at the bottom.
+ *
+ * Deliberately NOT auto-hiding, unlike the bottom chrome. This exists for somebody who
+ * has not worked out the interaction yet, and a control that vanishes after three
+ * seconds is no use to exactly that person.
+ *
+ * On the compact layout the two halves become one row of two buttons, because there is
+ * no left and right page to sit above — a spread is two swipes there, so the spatial
+ * argument does not apply and the plain controls are the honest presentation.
+ */
+function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
+  const label = {
+    ...type.utility,
+    fontSize: 8.5,
+    letterSpacing: '0.16em',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: space(2),
+    whiteSpace: 'nowrap',
+  };
+
+  const half = (dir, dead) => ({
+    flex: 1,
+    minWidth: 0,
+    display: 'flex',
+    // Each label sits toward the OUTER edge of its half, over the part of the page a
+    // reader's hand actually goes to. Centred in the half, both labels would crowd the
+    // gutter and point at the one place clicking does the least obvious thing.
+    justifyContent: dir === 'back' ? 'flex-start' : 'flex-end',
+    alignItems: 'center',
+    background: 'none',
+    border: 0,
+    borderBottom: `2px solid ${dead ? 'transparent' : ui.rule}`,
+    padding: `${space(1)} ${space(3)} ${space(2)}`,
+    cursor: dead ? 'default' : 'pointer',
+    color: dead ? ui.textFaint : ui.textMuted,
+    opacity: dead ? 0.45 : 1,
+    transition: 'color 160ms ease, border-color 160ms ease',
+  });
+
+  if (!wide) {
+    return (
+      <div
+        className="mb-turnguide"
+        style={{
+          width: `min(${geometry.compactMaxWidth}px, 100%)`,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: space(3),
+          marginBottom: space(2),
+          flex: 'none',
+        }}
+      >
+        <button type="button" className="focus-ring" onClick={onBack} disabled={atStart}
+          style={{ ...half('back', atStart), flex: 'none' }}>
+          <span style={label}>← Back</span>
+        </button>
+        <span style={{ ...label, color: ui.textFaint, fontSize: 8 }}>Swipe or tap</span>
+        <button type="button" className="focus-ring" onClick={onForward} disabled={atEnd}
+          style={{ ...half('fwd', atEnd), flex: 'none' }}>
+          <span style={label}>Next →</span>
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className="mb-turnguide"
+      // Exactly the book's own width arithmetic, so the divider below lands on the
+      // gutter and each half measures the page beneath it. Duplicating the expression
+      // is the cost of the alignment; getting it from geometry keeps the two in step.
+      style={{
+        width: `min(${geometry.maxSpreadWidth}px, 100%, calc((100vh - ${geometry.chromeReserve}px) * ${geometry.spreadAspect}))`,
+        display: 'flex',
+        alignItems: 'stretch',
+        marginBottom: space(2),
+        flex: 'none',
+      }}
+    >
+      <button type="button" className="focus-ring" onClick={onBack} disabled={atStart}
+        aria-label="Go back one page" style={half('back', atStart)}>
+        <span style={label} aria-hidden="true">
+          ← Click this side to go back
+        </span>
+      </button>
+
+      {/* Aligns with the gutter, which is what ties the two halves to the two pages. */}
+      <span aria-hidden="true" style={{ width: 1, background: ui.rule, flex: 'none' }} />
+
+      <button type="button" className="focus-ring" onClick={onForward} disabled={atEnd}
+        aria-label="Go forward one page" style={half('fwd', atEnd)}>
+        <span style={label} aria-hidden="true">
+          {atEnd ? 'End of this part' : 'Click this side to go forward'} →
+        </span>
+      </button>
+    </div>
   );
 }
 
@@ -679,7 +815,7 @@ export default function FlipBook({ volume, next = null }) {
           justifyContent: 'flex-start',
           gap: space(4),
           padding: `${space(3)} ${space(5)}`,
-          background: 'linear-gradient(to bottom, rgba(32,30,36,0.96), rgba(32,30,36,0))',
+          background: `linear-gradient(to bottom, ${ui.chrome}, ${ui.chromeFade})`,
         }}
       >
         {/* Was a single "← The Patch Notes" and, on the right, the volume title as
@@ -699,6 +835,34 @@ export default function FlipBook({ volume, next = null }) {
           current={wide ? volume.chapter : (volume.chapter.match(/^Part\s+\w+/i)?.[0] ?? volume.chapter)}
         />
       </div>
+
+      {/* Guide and book travel together in one auto-margined column.
+          The book used to carry `margin: auto` itself; with a sibling above it, those auto
+          margins would have opened a gap between the guide and the spread it labels and
+          broken the one thing the guide depends on — sitting directly over the pages. */}
+      <div
+        // width: 100% is load-bearing, not tidiness. Without it this wrapper is a flex item
+        // in a column with align-items: center, so it shrink-wraps its contents -- and the
+        // book sizes itself with `min(..., 100%, ...)`, which then resolves against the
+        // wrapper the book is defining. That circularity collapsed the spread from 1148px to
+        // 423px. Before the wrapper existed, the book was a direct child of main and its 100%
+        // resolved against main's content box, which is what this restores.
+        style={{
+          margin: 'auto',
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          minWidth: 0,
+        }}
+      >
+      <TurnGuide
+        wide={wide}
+        atStart={atStart}
+        atEnd={atEnd}
+        onBack={() => go('back')}
+        onForward={() => go('fwd')}
+      />
 
       {/* The book. */}
       <section
@@ -721,8 +885,9 @@ export default function FlipBook({ volume, next = null }) {
           // On the container, not the sheet. Without a perspective on an
           // ancestor the rotation is an affine squash with no depth.
           perspective: 2400,
-          boxShadow: '0 2px 6px rgba(0,0,0,0.22), 0 30px 70px rgba(0,0,0,0.42)',
-          margin: 'auto',
+          // Warm and softer. The book is cream on an off-white shell, so the shadow is
+          // what separates them, and a neutral-black shadow on a warm ground goes grey.
+          boxShadow: '0 3px 8px rgba(58,48,38,0.13), 0 26px 60px rgba(58,48,38,0.20)',
         }}
       >
         <EdgeStack side="left" count={pos.idx} />
@@ -822,6 +987,7 @@ export default function FlipBook({ volume, next = null }) {
           </div>
         )}
       </section>
+      </div>
 
       {/* Bottom chrome. */}
       <div
@@ -842,22 +1008,22 @@ export default function FlipBook({ volume, next = null }) {
           flexWrap: 'wrap',
           gap: `${space(2)} ${space(5)}`,
           padding: `${space(4)} ${space(4)}`,
-          background: 'linear-gradient(to top, rgba(32,30,36,0.96), rgba(32,30,36,0))',
+          background: `linear-gradient(to top, ${ui.chrome}, ${ui.chromeFade})`,
         }}
       >
         {/* The page is clickable, but that is a mouse affordance. These are
             what keyboard and screen-reader users reach for. */}
         <button className="focus-ring" aria-label="Previous page" onClick={() => go('back')} disabled={atStart}
           style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
-                   cursor: atStart ? 'default' : 'pointer', color: atStart ? '#4A4550' : '#A29AAC' }}>
+                   cursor: atStart ? 'default' : 'pointer', color: atStart ? 'rgba(42,37,48,0.22)' : ui.textMuted }}>
           ‹
         </button>
 
-        <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.16em', color: '#A29AAC',
+        <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.16em', color: ui.textFaint,
                       display: 'flex', alignItems: 'center', gap: space(2), minWidth: 128, justifyContent: 'center' }}>
           {spreadNo ? (
             <>
-              <span style={{ color: paper.stock }}>{spreadNo}</span>
+              <span style={{ color: color.ink }}>{spreadNo}</span>
               <span>/ {total}</span>
               {!wide && (
                 <span aria-hidden="true" style={{ display: 'inline-flex', gap: 3, marginLeft: 3 }}>
@@ -867,7 +1033,7 @@ export default function FlipBook({ volume, next = null }) {
               )}
             </>
           ) : (
-            <span style={{ color: '#B9A6FF' }}>Opener</span>
+            <span style={{ color: ui.kicker }}>Opener</span>
           )}
         </div>
 
@@ -880,7 +1046,7 @@ export default function FlipBook({ volume, next = null }) {
         ) : (
           <button className="focus-ring" aria-label="Next page" onClick={() => go('fwd')}
             style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
-                     cursor: 'pointer', color: '#A29AAC' }}>
+                     cursor: 'pointer', color: ui.textMuted }}>
             ›
           </button>
         )}
@@ -900,8 +1066,8 @@ export default function FlipBook({ volume, next = null }) {
               fontSize: 9,
               letterSpacing: '0.18em',
               background: edit.editing ? color.accent : 'none',
-              border: `1px solid ${edit.editing ? color.accent : 'rgba(244,239,230,0.24)'}`,
-              color: edit.editing ? paper.stock : '#A29AAC',
+              border: `1px solid ${edit.editing ? color.accent : ui.ruleStrong}`,
+              color: edit.editing ? paper.stock : ui.textMuted,
               padding: `${space(2)} ${space(3)}`,
               cursor: 'pointer',
               marginLeft: space(2),
@@ -913,7 +1079,7 @@ export default function FlipBook({ volume, next = null }) {
 
         <button className="focus-ring" onClick={() => setContents(true)}
           style={{ ...type.utility, fontSize: 9, letterSpacing: '0.18em', background: 'none',
-                   border: '1px solid rgba(244,239,230,0.24)', color: '#A29AAC',
+                   border: `1px solid ${ui.ruleStrong}`, color: ui.textMuted,
                    padding: `${space(2)} ${space(3)}`, cursor: 'pointer', marginLeft: space(2) }}>
           Contents
         </button>

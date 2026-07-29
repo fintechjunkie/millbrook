@@ -1,5 +1,5 @@
 import { PRIMER } from '@/lib/millbrook/lore';
-import { color, paper, space, type } from '@/lib/millbrook/series';
+import { color, paper, space, type, ui } from '@/lib/millbrook/series';
 
 /**
  * The reader's primer, between the cast and the shelf.
@@ -24,11 +24,14 @@ export function Primer() {
           maxWidth: 1000,
           margin: '0 auto',
           background: paper.stock,
-          border: `1px solid ${paper.rule}`,
-          borderTop: `3px solid ${color.accent}`,
+          // Longhand throughout: mixing `border` with a `borderTop` override makes React
+          // warn about removing a shorthand during rerender while the longhand is still set.
+          borderWidth: '3px 1px 1px',
+          borderStyle: 'solid',
+          borderColor: `${color.accent} ${paper.rule} ${paper.rule}`,
           borderRadius: 10,
           padding: `${space(8)} ${space(7)} ${space(7)}`,
-          boxShadow: '0 2px 4px rgba(0,0,0,0.24), 0 22px 50px rgba(0,0,0,0.38)',
+          boxShadow: ui.shadowLift,
         }}
       >
         <div style={{ ...type.utility, fontSize: 9, letterSpacing: '0.24em', color: color.accent }}>

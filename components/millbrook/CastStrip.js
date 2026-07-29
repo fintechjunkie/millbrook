@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Plate } from './Plate';
 import { CAST } from '@/lib/millbrook/cast';
-import { SITE_IMAGES, cardFrame, color, space, type } from '@/lib/millbrook/series';
+import { SITE_IMAGES, cardFrame, color, space, type, ui } from '@/lib/millbrook/series';
 
 /**
  * The cast strip, with a hotspot over each figure.
@@ -42,7 +42,7 @@ export function CastStrip() {
   }, [open, close]);
 
   return (
-    <div style={{ borderBottom: '1px solid rgba(244,239,230,0.1)', background: color.bg }}>
+    <div style={{ borderBottom: `1px solid ${ui.rule}`, background: color.bg }}>
       <div style={{ position: 'relative' }}>
         <Plate
           slug={SITE_IMAGES.cast.slug}

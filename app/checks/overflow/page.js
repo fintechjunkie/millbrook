@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { allVolumes } from '@/lib/millbrook/data';
 import { TextPage } from '@/components/millbrook/SpreadPage';
-import { color, geometry, paper, space, type } from '@/lib/millbrook/series';
+import { color, geometry, paper, space, type, ui } from '@/lib/millbrook/series';
 
 // ============================================================
 // Overflow audit. A build-time page, not part of any reader.
@@ -110,10 +110,10 @@ export default function OverflowCheck() {
     <main style={{ minHeight: '100vh', background: color.bg, padding: `${space(8)} ${space(6)} ${space(20)}`,
                    fontFamily: type.body.fontFamily }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-        <h1 style={{ color: paper.stock, fontSize: 24, margin: `0 0 ${space(2)}`, fontWeight: 700 }}>
+        <h1 style={{ color: color.ink, fontSize: 24, margin: `0 0 ${space(2)}`, fontWeight: 700 }}>
           Overflow audit
         </h1>
-        <p style={{ color: '#A29AAC', fontSize: 13.5, lineHeight: 1.55, maxWidth: '76ch', margin: `0 0 ${space(6)}` }}>
+        <p style={{ color: ui.textMuted, fontSize: 13.5, lineHeight: 1.55, maxWidth: '76ch', margin: `0 0 ${space(6)}` }}>
           All {pages.length} text pages, measured at the page size the reader would use for a
           given viewport. The reader scrolls rather than clips, so a page over its height loses
           nothing, but it stops being a spread. Body type is set by a container query against
@@ -122,45 +122,45 @@ export default function OverflowCheck() {
 
         <div style={{ display: 'flex', gap: space(3), flexWrap: 'wrap', alignItems: 'center',
                       marginBottom: space(5), padding: `${space(3)} ${space(4)}`,
-                      background: 'rgba(244,239,230,0.05)', border: '1px solid rgba(244,239,230,0.12)' }}>
+                      background: paper.stock, border: `1px solid ${ui.rule}` }}>
           {PRESETS.map((p) => (
             <button key={p.label} className="focus-ring" onClick={() => setVh(p.vh)}
               style={{ ...type.utility, fontSize: 9, letterSpacing: '0.12em', cursor: 'pointer',
                        padding: `${space(2)} ${space(3)}`,
-                       background: vh === p.vh ? 'rgba(107,82,200,0.3)' : 'none',
-                       border: `1px solid ${vh === p.vh ? color.accent : 'rgba(244,239,230,0.22)'}`,
-                       color: paper.stock }}>
+                       background: vh === p.vh ? color.accent : 'none',
+                       border: `1px solid ${vh === p.vh ? color.accent : ui.ruleStrong}`,
+                       color: vh === p.vh ? paper.stock : ui.textMuted }}>
               {p.label}
             </button>
           ))}
           <button className="focus-ring" onClick={runSweep}
             style={{ ...type.utility, fontSize: 9, letterSpacing: '0.12em', cursor: 'pointer',
                      padding: `${space(2)} ${space(3)}`, background: 'none',
-                     border: '1px solid rgba(185,166,255,0.5)', color: '#B9A6FF', marginLeft: 'auto' }}>
+                     border: `1px solid ${color.accent}`, color: color.accent, marginLeft: 'auto' }}>
             Find threshold per page
           </button>
         </div>
 
-        <div style={{ color: paper.stock, fontSize: 14, marginBottom: space(5), lineHeight: 1.6 }}>
+        <div style={{ color: color.ink, fontSize: 14, marginBottom: space(5), lineHeight: 1.6 }}>
           Viewport height <strong>{vh}px</strong> → page {Math.round(pageW)} × {Math.round(pageH)},
           body {byKey[pages[0]?.key]?.bodyPx ?? '?'}px.{' '}
           {rows.length === 0 ? 'Measuring…' : failing.length === 0 ? (
-            <span style={{ color: '#7FD6A9', fontWeight: 700 }}>
+            <span style={{ color: '#1F7A4D', fontWeight: 700 }}>
               All {rows.length} pages fit. No page scrolls.
             </span>
           ) : (
-            <span style={{ color: '#F08A72', fontWeight: 700 }}>
+            <span style={{ color: '#B03A1A', fontWeight: 700 }}>
               {failing.length} of {rows.length} pages scroll. Worst: {worst.key} by {worst.over}px.
             </span>
           )}
         </div>
 
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12.5, color: '#CFC8D4' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12.5, color: ui.text }}>
           <thead>
-            <tr style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.14em', color: '#7C7488' }}>
+            <tr style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.14em', color: ui.textFaint }}>
               {['Page', 'Words', 'Body', 'Content', 'Available', 'Overflow', 'Fits above'].map((h) => (
                 <th key={h} style={{ textAlign: h === 'Page' ? 'left' : 'right', padding: `${space(2)} ${space(2)}`,
-                                     borderBottom: '1px solid rgba(244,239,230,0.16)' }}>
+                                     borderBottom: `1px solid ${ui.ruleStrong}` }}>
                   {h}
                 </th>
               ))}
@@ -171,9 +171,9 @@ export default function OverflowCheck() {
               const r = byKey[p.key];
               const bad = r && r.over > 0;
               return (
-                <tr key={p.key} style={{ background: bad ? 'rgba(240,138,114,0.09)' : 'transparent' }}>
-                  <td style={{ padding: `${space(2)} ${space(2)}`, borderBottom: '1px solid rgba(244,239,230,0.07)' }}>
-                    <span style={{ color: paper.stock, fontWeight: 700 }}>vol{p.vol}</span>
+                <tr key={p.key} style={{ background: bad ? 'rgba(176,58,26,0.08)' : 'transparent' }}>
+                  <td style={{ padding: `${space(2)} ${space(2)}`, borderBottom: `1px solid ${ui.ruleSoft}` }}>
+                    <span style={{ color: color.ink, fontWeight: 700 }}>vol{p.vol}</span>
                     {' '}spread {String(p.spread.n).padStart(2, '0')}
                   </td>
                   {[
@@ -186,8 +186,8 @@ export default function OverflowCheck() {
                   ].map((v, i) => (
                     <td key={i} style={{
                       textAlign: 'right', padding: `${space(2)} ${space(2)}`,
-                      borderBottom: '1px solid rgba(244,239,230,0.07)',
-                      color: i === 4 && bad ? '#F08A72' : undefined,
+                      borderBottom: `1px solid ${ui.ruleSoft}`,
+                      color: i === 4 && bad ? '#B03A1A' : undefined,
                       fontWeight: i === 4 && bad ? 700 : undefined,
                     }}>
                       {v}

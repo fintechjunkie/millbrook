@@ -9,10 +9,10 @@
   /* Paper. Not welded to the images: Millbrook plates are framed
      rectangles rather than compositions bleeding into the page ground,
      so paper colour stays a one-line change. See extraction 6.14. */
-  --paper-stock: #F4EFE6;
-  --paper-stock-edge: #EAE3D6;
-  --paper-rule: #D8CFBE;
-  --paper-rule-soft: #E5DDCD;
+  --paper-stock: #FBF8F2;
+  --paper-stock-edge: #F2ECE0;
+  --paper-rule: #DED5C4;
+  --paper-rule-soft: #EBE4D6;
   /* Fallback backdrop for a portrait panel. The real value is per character and comes from
      cast.js, because the canonical sheets do NOT share one: Felix, Owen and Milo are
      #EEDDC5, Lena, Pip and Vex are #EFDEC4, and Monke is #EAD6B9. This token was originally
@@ -20,11 +20,31 @@
      twelve points off in blue and showed as a visibly darker rectangle, which is what made
      it obvious that the colour has to travel with the character. */
   --portrait-ground: #EEDDC5;
-  --gutter-shadow: rgba(40, 38, 44, 0.20);
+  --gutter-shadow: rgba(40, 38, 44, 0.16);
 
   --ink: #2A2530;
   --ink-soft: #6A6270;
-  --bg: #201E24;
+
+  /* The shell. Light, and a few points DEEPER than the paper, so a page still reads
+     as an object resting on a surface rather than as a hole cut in the background.
+     See the note on `color` in series.js for why this inverted. */
+  --bg: #F7F4EE;
+  --bg-sunk: #EDE7DB;
+  --bg-raise: #FCFAF5;
+  /* The old shell, kept for the two places a dark field is still correct: behind a
+     full-bleed chapter opener, and under a modal scrim. */
+  --dark: #201E24;
+
+  --accent: #5B3FC4;
+  --text-muted: #5E5768;
+  --text-faint: #857D91;
+
+  /* Rules and borders were all some alpha of PAPER over dark and are now some alpha
+     of INK over light. The alphas are lower, not merely inverted: a dark mark on a
+     light field reads considerably stronger than the reverse at the same opacity. */
+  --rule: rgba(42, 37, 48, 0.13);
+  --rule-soft: rgba(42, 37, 48, 0.07);
+  --rule-strong: rgba(42, 37, 48, 0.24);
 }
 
 * {
@@ -131,6 +151,17 @@ body {
   100% { opacity: 1; }
 }
 
+/* The turn guide above the spread.
+
+   Hover lights up the half you are pointing at, which is the second half of the lesson:
+   the bar says which side does what, and hovering confirms that this half and the page
+   under it are the same target. The underline thickens rather than the text moving,
+   because anything that shifts would draw the eye away from the book. */
+.mb-turnguide button:not(:disabled):hover {
+  color: var(--accent) !important;
+  border-bottom-color: var(--accent) !important;
+}
+
 /* Bottom chrome auto-hides. The top chrome never does: auto-hiding the exit
    means that three seconds into the book there is no way out on screen and no
    sign there ever was one. */
@@ -191,23 +222,46 @@ body {
    image, and text baked into a plate cannot be restyled, translated or made
    accessible.
    ------------------------------------------------------------ */
+/* The fallback ground is DARK, and this corrects a latent bug rather than following the
+   theme. Everything typeset in this banner is light, because it sits over artwork. The
+   fallback was paper, so if site-banner.png were ever missing or slow the result was a
+   near-white title on near-white paper — invisible, and the component's own comment
+   claimed the opposite. A contrast audit of the landing page surfaced it: the h1 measured
+   1.00 against the ground it would fall back to.
+
+   A dark fallback means the light type always has something to sit on, whatever happens
+   to the image. It was wrong under the dark theme too; the inversion just made it
+   testable. */
 .mb-banner {
   position: relative;
   width: 100%;
   overflow: hidden;
   border-radius: 3px;
-  background: var(--paper-stock);
+  background: #2E2620;
 }
 .mb-banner-art { position: absolute; inset: 0; }
 .mb-banner-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* The hero scrim stays DARK, and that is a deliberate exception to the light shell.
+
+   Everything typeset over this banner is light — a near-white title, a pale violet
+   kicker, a cream tagline — because it sits over artwork whose content is unknown at
+   layout time. Fading the scrim out to warm white, which is what a light theme would
+   suggest, would put near-white type on a near-white field wherever the underlying
+   plate happens to be bright. A full-bleed image with light type over it is the normal
+   idiom for a hero on a light page, so the fix for "too dark" here is not to invert it
+   but to stop it being so heavy: 0.82 at the foot was crushing the art into a black
+   band, and 0.55 lets the plate through while still carrying the type.
+
+   The last stop pulls slightly toward the warm shell rather than to neutral black, so
+   the banner's bottom edge meets what follows it without a cold seam. */
 .mb-banner-scrim {
   position: absolute;
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(20, 18, 24, 0.28) 0%,
-    rgba(20, 18, 24, 0.12) 40%,
-    rgba(20, 18, 24, 0.82) 100%
+    rgba(28, 22, 18, 0.20) 0%,
+    rgba(28, 22, 18, 0.06) 42%,
+    rgba(32, 26, 20, 0.55) 100%
   );
 }
 .mb-banner-type {
@@ -230,11 +284,13 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 12px;
-  border: 1px dashed rgba(244, 239, 230, 0.16);
-  border-top: 3px solid rgba(244, 239, 230, 0.1);
-  border-radius: 2px;
-  color: rgba(244, 239, 230, 0.26);
-  background: rgba(244, 239, 230, 0.014);
+  /* Was alphas of paper over dark; now alphas of ink over light. The radius matches
+     .mb-card so a reserved slot reads as the same kind of object as a real one. */
+  border: 1px dashed rgba(42, 37, 48, 0.18);
+  border-top: 3px solid rgba(42, 37, 48, 0.1);
+  border-radius: 12px;
+  color: rgba(42, 37, 48, 0.4);
+  background: rgba(42, 37, 48, 0.02);
 }
 
 /* The seam between arcs. A rule that fades at both ends reads as a division in a
@@ -245,10 +301,10 @@ body {
   margin: 0;
   background: linear-gradient(
     to right,
-    rgba(244, 239, 230, 0) 0%,
-    rgba(244, 239, 230, 0.18) 22%,
-    rgba(244, 239, 230, 0.18) 78%,
-    rgba(244, 239, 230, 0) 100%
+    rgba(42, 37, 48, 0) 0%,
+    rgba(42, 37, 48, 0.16) 22%,
+    rgba(42, 37, 48, 0.16) 78%,
+    rgba(42, 37, 48, 0) 100%
   );
 }
 
@@ -272,7 +328,7 @@ body {
 
 /* Focus rings are never suppressed without replacement. */
 .focus-ring:focus-visible {
-  outline: 2px solid #6B52C8;
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
   border-radius: 3px;
 }
@@ -309,15 +365,23 @@ body {
      UI box dropped on the artwork; a wash reads as a light coming up on them. */
   transition: background-color 160ms ease, box-shadow 160ms ease;
 }
+/* The wash is VIOLET now, not pale.
+
+   It used to be paper at 0.10, which worked because the strip sat on a dark shell and
+   the figures were lit from a dark surround. The cast plate's own ground is a light
+   sand, so a near-white wash laid over it changes almost nothing — the hover state was
+   effectively invisible once the shell went light. A tinted wash still reads as a light
+   coming up on the figure rather than as a UI box dropped on the artwork, which was the
+   original point, and it survives being placed on a pale image. */
 @media (hover: hover) {
   .mb-hotspot:hover {
-    background: rgba(244, 239, 230, 0.10);
-    box-shadow: inset 0 -2px 0 0 rgba(185, 166, 255, 0.85);
+    background: rgba(91, 63, 196, 0.11);
+    box-shadow: inset 0 -2px 0 0 rgba(91, 63, 196, 0.9);
   }
 }
 .mb-hotspot:focus-visible {
-  background: rgba(244, 239, 230, 0.10);
-  box-shadow: inset 0 -2px 0 0 rgba(185, 166, 255, 0.85);
+  background: rgba(91, 63, 196, 0.11);
+  box-shadow: inset 0 -2px 0 0 rgba(91, 63, 196, 0.9);
 }
 
 .mb-hotspot-name {
@@ -344,7 +408,11 @@ body {
   position: fixed;
   inset: 0;
   z-index: 60;
-  background: rgba(18, 16, 22, 0.78);
+  /* This one stays dark on purpose, unlike the opening scrim. A modal has to detach
+     from the page behind it, and a pale veil under a pale card gives it nothing to
+     detach from — the card would float in a white void with no edge. Warmed and
+     lightened from 0.78, which was heavier than a card this bright needs. */
+  background: rgba(38, 28, 20, 0.58);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -377,7 +445,7 @@ body {
   grid-template-columns: 1fr;
   /* The card is ONE warm ground, panel and body alike.
 
-     Paper stock is #F4EFE6 and the portraits' ground is #EEDDC5 -- thirty-three points
+     Paper stock is #FBF8F2 and the portraits' ground is #EEDDC5 -- forty-five points
      apart in blue, so a paper body beside a sandy panel read as a white block with a tan
      patch in it. Paper is right for a book page, where the plates are framed rectangles
      laid on it. A character card is not a page; it is a printed card, and a printed card
@@ -390,7 +458,7 @@ body {
   border-image-slice: 140;
   border-image-repeat: stretch;
   border-radius: 2px;
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 24px 70px rgba(40, 30, 20, 0.42);
   animation: mb-card-in 220ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
 
   /* Breathing room INSIDE the border, and it is needed rather than decorative.
@@ -478,6 +546,20 @@ body {
 /* The glow lives on a pseudo-element rather than the card's own box-shadow so it can
    be animated independently of the lift, and so a bright halo never has to fight the
    card's real drop shadow for the same property. */
+/* Re-tuned for a light ground, and the reason is worth writing down because the
+   original took three passes to get right and a naive port would have silently undone
+   all of it.
+
+   On the dark shell this was a PALE violet halo — rgba(185,166,255) — because glow on a
+   dark ground is literally adding light, and a pale tint is what added light looks like.
+   On an off-white shell there is no light left to add: a pale violet halo over #F7F4EE
+   is very nearly the same value as the shell, so the whole effect disappeared.
+
+   What reads as "lit" on a light ground is different: a SATURATED ring, so the edge
+   gains colour rather than brightness, plus a deeper and warmer drop shadow so the card
+   reads as having risen off the surface. Same two cues the eye uses on paper. The pulse
+   survives unchanged in structure — it swells the same way, it just swells in saturation
+   instead of in brightness. */
 .mb-card::after {
   content: '';
   position: absolute;
@@ -487,18 +569,20 @@ body {
   opacity: 0;
   transition: opacity 220ms ease;
   box-shadow:
-    inset 0 0 0 1px rgba(185, 166, 255, 0.9),
-    0 0 0 1px rgba(185, 166, 255, 0.55),
-    0 0 18px 2px rgba(139, 108, 255, 0.55),
-    0 0 46px 6px rgba(107, 82, 200, 0.45),
-    0 0 96px 18px rgba(107, 82, 200, 0.28);
+    inset 0 0 0 1.5px rgba(91, 63, 196, 0.95),
+    0 0 0 3px rgba(91, 63, 196, 0.15),
+    0 0 22px 2px rgba(91, 63, 196, 0.26),
+    0 0 54px 10px rgba(91, 63, 196, 0.15);
 }
 .mb-card { position: relative; }
 
 @media (hover: hover) {
   .mb-card:hover {
     transform: translateY(-10px) scale(1.025);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24), 0 26px 52px rgba(0, 0, 0, 0.5);
+    /* Warm and softer than the black it replaces. A hard neutral-black shadow on an
+       off-white ground is the single fastest way to make a light theme look cheap;
+       shadows on paper are brown, not grey. */
+    box-shadow: 0 3px 6px rgba(58, 48, 38, 0.12), 0 28px 56px rgba(58, 48, 38, 0.22);
     z-index: 2;
   }
   .mb-card:hover::after { opacity: 1; animation: mb-card-pulse 2.1s ease-in-out infinite; }
@@ -515,17 +599,15 @@ body {
    reads as something lit rather than something flashing. */
 @keyframes mb-card-pulse {
   0%, 100% { box-shadow:
-    inset 0 0 0 1px rgba(185, 166, 255, 0.9),
-    0 0 0 1px rgba(185, 166, 255, 0.55),
-    0 0 18px 2px rgba(139, 108, 255, 0.55),
-    0 0 46px 6px rgba(107, 82, 200, 0.45),
-    0 0 96px 18px rgba(107, 82, 200, 0.28); }
+    inset 0 0 0 1.5px rgba(91, 63, 196, 0.95),
+    0 0 0 3px rgba(91, 63, 196, 0.15),
+    0 0 22px 2px rgba(91, 63, 196, 0.26),
+    0 0 54px 10px rgba(91, 63, 196, 0.15); }
   50% { box-shadow:
-    inset 0 0 0 1px rgba(206, 191, 255, 1),
-    0 0 0 1px rgba(185, 166, 255, 0.8),
-    0 0 26px 4px rgba(139, 108, 255, 0.72),
-    0 0 66px 12px rgba(107, 82, 200, 0.6),
-    0 0 130px 26px rgba(107, 82, 200, 0.36); }
+    inset 0 0 0 2px rgba(74, 48, 175, 1),
+    0 0 0 5px rgba(91, 63, 196, 0.22),
+    0 0 32px 4px rgba(91, 63, 196, 0.40),
+    0 0 78px 16px rgba(91, 63, 196, 0.22); }
 }
 
 .mb-card-cover img { transition: transform 420ms cubic-bezier(0.22, 0.61, 0.36, 1); }
@@ -533,11 +615,22 @@ body {
 
 /* ---- The opening ---- */
 
+/* The scrim's JOB is unchanged and its colour is inverted.
+
+   What it does is strip contrast from everything that is not the cover, so the cover
+   becomes the only thing the eye can settle on. On the dark shell that meant darkening
+   the surroundings toward black. On a light shell the same job is done by washing them
+   out toward white — and it has to be done this way round, because darkening a light
+   page mid-click reads as the screen glitching, which is exactly the complaint that
+   killed the first version of this transition.
+
+   Warm white, not pure: the veil sits over the shell it is hiding, and a neutral veil
+   over a warm ground goes faintly grey. */
 .mb-open-scrim {
   position: fixed;
   inset: 0;
   z-index: 90;
-  background: radial-gradient(120% 90% at 50% 45%, rgba(32,30,36,0.55) 0%, rgba(14,12,18,0.985) 100%);
+  background: radial-gradient(120% 90% at 50% 45%, rgba(247,244,238,0.70) 0%, rgba(251,249,244,0.985) 100%);
   opacity: 0;
   transition: opacity var(--lift, 300ms) ease;
   pointer-events: none;
@@ -574,14 +667,16 @@ body {
 .mb-open-clone[data-stage='lift'] {
   transition-duration: var(--lift, 300ms);
   transform: translateY(-14px) scale(1.04);
-  box-shadow: 0 30px 60px rgba(0,0,0,0.55), 0 0 40px rgba(139,108,255,0.4);
+  /* Warm shadow, and the violet halo saturated rather than pale, for the same reason
+     the card hover was re-tuned: on a light ground colour reads and brightness does not. */
+  box-shadow: 0 30px 60px rgba(58,48,38,0.28), 0 0 40px rgba(91,63,196,0.32);
 }
 
 /* Stage 2. Open: grows to the reader's 2:1 and tips about its left edge. */
 .mb-open-clone[data-stage='grow'] {
   transform: perspective(1800px) rotateY(-9deg) rotateX(1.5deg);
   border-radius: 4px;
-  box-shadow: 0 60px 160px rgba(0,0,0,0.75), 0 0 120px rgba(107,82,200,0.42);
+  box-shadow: 0 60px 160px rgba(58,48,38,0.36), 0 0 120px rgba(91,63,196,0.30);
 }
 
 /* Stage 3. Hold: the tilt flattens to square and the cover simply sits there at full
@@ -590,7 +685,7 @@ body {
   transition-duration: 420ms;
   transform: perspective(1800px) rotateY(0deg) rotateX(0deg);
   border-radius: 3px;
-  box-shadow: 0 40px 130px rgba(0,0,0,0.7);
+  box-shadow: 0 40px 130px rgba(58,48,38,0.32);
 }
 
 /* Stage 4. Swing: the cover opens about its left edge, which is what a cover does and
@@ -607,7 +702,7 @@ body {
     box-shadow var(--swing, 820ms) ease;
   transform: perspective(1800px) rotateY(-108deg);
   backface-visibility: hidden;
-  box-shadow: 60px 40px 140px rgba(0,0,0,0.55);
+  box-shadow: 60px 40px 140px rgba(58,48,38,0.30);
 }
 
 /* The shadow the opening cover throws across the page it is revealing. A child so it can
@@ -618,7 +713,10 @@ body {
   z-index: 90;
   pointer-events: none;
   opacity: 0;
-  background: linear-gradient(100deg, rgba(10,8,14,0.55) 0%, rgba(10,8,14,0.16) 38%, transparent 62%);
+  /* Still a real cast shadow — a cover swinging open over a page throws one whatever
+     colour the room is — but much lighter and warm, because it now falls across a cream
+     page rather than across a dark one. At the old 0.55 it read as a black wipe. */
+  background: linear-gradient(100deg, rgba(58,48,38,0.30) 0%, rgba(58,48,38,0.10) 38%, transparent 62%);
   transition: opacity var(--swing, 820ms) ease;
 }
 .mb-open-shade[data-on='true'] { opacity: 1; }

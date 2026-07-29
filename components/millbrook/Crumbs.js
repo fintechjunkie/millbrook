@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SITE_IMAGES, paper, space, type } from '@/lib/millbrook/series';
+import { SITE_IMAGES, color, space, type, ui } from '@/lib/millbrook/series';
 
 /**
  * The navigation trail, shared by the arc page and the reader.
@@ -25,7 +25,7 @@ export function Crumbs({ trail = [], current, align = 'left' }) {
     ...type.utility,
     fontSize: 9.5,
     letterSpacing: '0.18em',
-    color: '#C9C1D4',
+    color: ui.textMuted,
     textDecoration: 'none',
     whiteSpace: 'nowrap',
   };
@@ -64,7 +64,7 @@ export function Crumbs({ trail = [], current, align = 'left' }) {
           <Link href={c.href} className="focus-ring" style={link}>
             {c.label}
           </Link>
-          <span aria-hidden="true" style={{ ...link, color: '#6E6779' }}>
+          <span aria-hidden="true" style={{ ...link, color: ui.textFaint }}>
             /
           </span>
         </span>
@@ -73,7 +73,7 @@ export function Crumbs({ trail = [], current, align = 'left' }) {
       {current && (
         <span
           aria-current="page"
-          style={{ ...link, color: paper.stock, whiteSpace: 'normal', minWidth: 0 }}
+          style={{ ...link, color: color.ink, whiteSpace: 'normal', minWidth: 0 }}
         >
           {current}
         </span>
