@@ -258,7 +258,7 @@
       "block": "A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.",
       "uses": 2,
       "canonicalRef": "loc-residential.png",
-      "standInRef": null
+      "standInRef": "vol3-opener.png"
     },
     "CRESCENT_HOUSE_EXT": {
       "token": "CRESCENT_HOUSE_EXT",

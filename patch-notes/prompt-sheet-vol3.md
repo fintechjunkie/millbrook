@@ -12,18 +12,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **1 canonical reference files do not exist**, so nothing is
-  attached for them and their text descriptions are the only authority. Every
-  such block says so explicitly. This is the reason characters drift: a prompt
-  that claims a reference it does not have makes the description sound optional
-  at the exact moment the description is all there is.
-
-  Missing: `loc-residential.png`
-
-  Generate them from `prompt-sheet-canonical.md`, drop them into
-  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
-  switches to attaching the real file with no further edits.
-
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -365,6 +353,7 @@ Named figures: Mr. Henderson (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-henderson-canonical.png` — Mr. Henderson
+- `vol3-opener.png` — location, millbrook residential (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -393,7 +382,7 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
 Wardrobe, unchanged for this scene: Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet**
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol3-opener.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.
 An old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.
 Exterior, early morning.
@@ -417,7 +406,8 @@ Shot type: Atmospheric (full bleed, both pages)
 Depicts: A Millbrook street at the hour the volume begins. No story beat.
 Spoiler check: PASS. Chapter opener precedes all prose. Shows no figure and no running, so it cannot give away the six miles.
 
-**Attach:** nothing. No named figure and no recurring location in this frame.
+**Attach these reference images before generating:**
+- `vol3-opener.png` — location, millbrook residential (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -443,7 +433,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol3-opener.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.
 A long residential street of modest houses with a rolled newspaper lying on one porch step in the foreground. No figures anywhere.
 Exterior, just after sunrise.

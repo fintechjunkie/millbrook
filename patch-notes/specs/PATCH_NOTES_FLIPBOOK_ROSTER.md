@@ -450,7 +450,7 @@ Recurring locations get a canonical establishing image before spread work begins
 | Token | Block | Uses | Canonical ref |
 |---|---|---|---|
 | `{{LOC:MILLBROOK_WIDE}}` | A small flat American town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon, no hills, no landmarks worth photographing. | 1 | not required |
-| `{{LOC:MILLBROOK_RESIDENTIAL}}` | A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans. | 2 | `loc-residential.png` — no stand-in, see below |
+| `{{LOC:MILLBROOK_RESIDENTIAL}}` | A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans. | 2 | `loc-residential.png` — stand-in: `vol3-opener.png` |
 | `{{LOC:CRESCENT_HOUSE_EXT}}` | A small single-storey house with pale yellow aluminium siding, a chain link fence across the front, three concrete porch steps with a plain iron rail, and a chipped ceramic frog ornament beside the bottom step with one ear broken off. | 1 | not required |
 | `{{LOC:BACK_BEDROOM}}` | A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains. | 1 | not required |
 | `{{LOC:AUNT_CAROL_KITCHEN}}` | A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table. | 1 | not required |
@@ -492,10 +492,12 @@ appears, `refExists` finds it first and the stand-in is ignored with no edit nee
 | `MAPLE_AND_FOURTH_A` | `vol2-opener.png` | This plate *is* state A. |
 | `MAPLE_AND_FOURTH_B` | `vol2-s02.png` | This plate *is* state B, and the pair was already matched by hand in `FIX-corner-pair-match.md`. Generating separate references for these two would risk breaking a match that is currently correct. |
 
-**`MILLBROOK_RESIDENTIAL` has no stand-in and is the one real gap.** Both spreads that
-use it are in Volume 3, so nothing delivered shows the street. It stays description-only
-until Volume 3 is generated, at which point whichever of `vol3-s01` or `vol3-s02` reads
-wider should be entered here as the stand-in for the other.
+**`MILLBROOK_RESIDENTIAL` closed 2026-07-29 with `vol3-opener.png`.** This was the last
+gap. The opener is a full-bleed `2:1` dawn view straight down the street — modest
+single-storey houses set back behind short lawns, chain link, cracked sidewalk, power lines,
+parked sedans, and Mr Henderson's rolled newspaper on the steps at the left edge. It is a
+better record of the street than either spread that uses the token, so no dedicated
+`loc-residential.png` is needed at all.
 
 **One divergence this mapping exposes.** The warehouse brick is purple in `vol2-s06`
 and warm brown in `vol2-s05`, and they are meant to be two ends of one room. Worth

@@ -12,18 +12,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **1 canonical reference files do not exist**, so nothing is
-  attached for them and their text descriptions are the only authority. Every
-  such block says so explicitly. This is the reason characters drift: a prompt
-  that claims a reference it does not have makes the description sound optional
-  at the exact moment the description is all there is.
-
-  Missing: `loc-residential.png`
-
-  Generate them from `prompt-sheet-canonical.md`, drop them into
-  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
-  switches to attaching the real file with no further edits.
-
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
