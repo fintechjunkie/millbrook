@@ -9,9 +9,16 @@ import { useCallback, useEffect, useRef, useState } from 'react';
  * that is the same guard the write route enforces. If the route says no, the button
  * never appears, so a production build cannot show an affordance that cannot work.
  *
- * The state is deliberately not persisted. Edit mode changes what a click does --
- * place a cursor instead of turn a page -- and a mode that survives a reload is a
+ * The state is deliberately not persisted between visits. Edit mode changes what a click
+ * does -- place a cursor instead of turn a page -- and a mode that survives a reload is a
  * mode you forget you are in.
+ *
+ * But it IS addressable by URL, with `?edit=1`, and that is what makes the "enter edit mode"
+ * request in CLAUDE.md actually deliverable. Without it the mode could only be switched on
+ * in whichever browser did the clicking, so telling the author it was on for them was
+ * either untrue or depended on them using the same window. A link works anywhere.
+ *
+ * Read on the client, like `?spread=`, so the route stays static.
  */
 export function useTextEditing() {
   const [available, setAvailable] = useState(false);
@@ -29,7 +36,11 @@ export function useTextEditing() {
   }, []);
 
   useEffect(() => {
-    if (!available) setEditing(false);
+    if (!available) { setEditing(false); return; }
+    // Only honour the parameter once the server has confirmed writes are possible, so a
+    // production URL carrying ?edit=1 cannot put a reader into a mode that cannot save.
+    const wanted = new URLSearchParams(window.location.search).get('edit');
+    if (wanted === '1' || wanted === 'true') setEditing(true);
   }, [available]);
 
   const flash = useCallback((next) => {
