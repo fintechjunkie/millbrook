@@ -258,7 +258,70 @@ function Contents({ volume, leaves, current, onPick, onClose }) {
 // The reader
 // ============================================================
 
-export default function FlipBook({ volume }) {
+/**
+ * What the reader is offered on the last page.
+ *
+ * Deliberately a link and not an automatic advance. Turning past the last page
+ * into the next volume would mean one more click of the same gesture silently
+ * changed which book you were in, and a mis-click at the end of a chapter is the
+ * worst possible place to lose your position. So the forward controls stay dead at
+ * the end and this appears instead, in the slot they occupied.
+ *
+ * `next` is null on the final volume, which is the cue to send the reader back to
+ * the shelf rather than onward.
+ */
+function EndOfVolume({ next, wide }) {
+  const base = {
+    ...type.utility,
+    fontSize: 9,
+    letterSpacing: '0.18em',
+    textDecoration: 'none',
+    padding: `${space(2)} ${space(4)}`,
+    whiteSpace: 'nowrap',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: space(2),
+  };
+
+  // The bottom bar also carries the counter and Contents, and at 375px the full
+  // labels push it past the viewport. aria-label keeps the long form for screen
+  // readers, where there is no width to run out of.
+  if (!next) {
+    return (
+      <Link
+        href="/"
+        className="focus-ring"
+        aria-label="Arc complete. Back to Millbrook."
+        style={{
+          ...base,
+          color: color.bg,
+          background: paper.stock,
+          border: `1px solid ${paper.stock}`,
+        }}
+      >
+        {wide ? 'Arc complete · back to Millbrook →' : 'Millbrook →'}
+      </Link>
+    );
+  }
+
+  return (
+    <Link
+      href={next.href}
+      className="focus-ring"
+      aria-label={`Read ${next.part}: ${next.title}`}
+      style={{
+        ...base,
+        color: color.bg,
+        background: color.accent,
+        border: `1px solid ${color.accent}`,
+      }}
+    >
+      {wide ? `Read ${next.part} →` : `${next.part} →`}
+    </Link>
+  );
+}
+
+export default function FlipBook({ volume, next = null }) {
   const leaves = useMemo(() => buildLeaves(volume), [volume]);
 
   const [state, dispatch] = useReducer(reducer, undefined, () => initial(0));
@@ -637,8 +700,12 @@ export default function FlipBook({ volume }) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: space(5),
-          padding: `${space(4)} ${space(5)}`,
+          // Wrap rather than overflow. The end-of-volume link is the widest thing
+          // that ever lands in this bar, and a bottom bar that scrolls sideways is
+          // a bar the reader cannot finish reaching.
+          flexWrap: 'wrap',
+          gap: `${space(2)} ${space(5)}`,
+          padding: `${space(4)} ${space(4)}`,
           background: 'linear-gradient(to top, rgba(32,30,36,0.96), rgba(32,30,36,0))',
         }}
       >
@@ -668,11 +735,19 @@ export default function FlipBook({ volume }) {
           )}
         </div>
 
-        <button className="focus-ring" aria-label="Next page" onClick={() => go('fwd')} disabled={atEnd}
-          style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
-                   cursor: atEnd ? 'default' : 'pointer', color: atEnd ? '#4A4550' : '#A29AAC' }}>
-          ›
-        </button>
+        {/* At the end, the dead forward arrow is replaced rather than sat beside.
+            A greyed-out control next to a live one asks the reader to work out
+            which of two adjacent things to press; swapping it means the slot they
+            were already aiming at is the thing that carries them on. */}
+        {atEnd ? (
+          <EndOfVolume next={next} wide={wide} />
+        ) : (
+          <button className="focus-ring" aria-label="Next page" onClick={() => go('fwd')}
+            style={{ background: 'none', border: 'none', fontSize: 17, lineHeight: 1, padding: `0 ${space(1)}`,
+                     cursor: 'pointer', color: '#A29AAC' }}>
+            ›
+          </button>
+        )}
 
         <button className="focus-ring" onClick={() => setContents(true)}
           style={{ ...type.utility, fontSize: 9, letterSpacing: '0.18em', background: 'none',

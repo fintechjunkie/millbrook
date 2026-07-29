@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { loadVolume, VOLUME_SLUGS } from '@/lib/millbrook/data';
+import { loadVolume, nextVolume, VOLUME_SLUGS } from '@/lib/millbrook/data';
 import FlipBook from '@/components/millbrook/FlipBook';
 
 export const dynamic = 'force-static';
@@ -23,5 +23,5 @@ export function generateMetadata({ params }) {
 export default function ReadPage({ params }) {
   const volume = loadVolume(params.vol);
   if (!volume) notFound();
-  return <FlipBook volume={volume} />;
+  return <FlipBook volume={volume} next={nextVolume(params.vol)} />;
 }
