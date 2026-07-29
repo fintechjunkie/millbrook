@@ -1,14 +1,103 @@
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
-import { Shelf } from '@/components/millbrook/Shelf';
-import { ARCS, SITE_IMAGES, color, paper, space, type } from '@/lib/millbrook/series';
+import { ComingShelf, Shelf } from '@/components/millbrook/Shelf';
+import {
+  ARCS,
+  SITE_IMAGES,
+  UNIVERSE,
+  UPCOMING_ARCS,
+  color,
+  paper,
+  space,
+  type,
+} from '@/lib/millbrook/series';
+
+/**
+ * The label that opens an arc band.
+ *
+ * Shared by published and unpublished arcs so the two are unmistakably the same
+ * kind of thing, which is the whole point of showing the empty one.
+ */
+function ArcHeader({ arc, action, dim = false }) {
+  return (
+    <header
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'flex-end',
+        justifyContent: 'space-between',
+        gap: space(4),
+        paddingBottom: space(4),
+        marginBottom: space(6),
+        borderBottom: '1px solid rgba(244,239,230,0.14)',
+        opacity: dim ? 0.52 : 1,
+      }}
+    >
+      <div>
+        <div
+          style={{
+            ...type.utility,
+            fontSize: 9.5,
+            letterSpacing: '0.24em',
+            color: dim ? '#7C7488' : '#B9A6FF',
+          }}
+        >
+          Arc {arc.number} · {arc.status}
+        </div>
+        <h2
+          style={{
+            fontFamily: type.body.fontFamily,
+            color: paper.stock,
+            fontSize: 30,
+            fontWeight: 700,
+            letterSpacing: '-0.01em',
+            margin: `${space(2)} 0 0`,
+          }}
+        >
+          {arc.title}
+        </h2>
+        <p
+          style={{
+            fontFamily: type.body.fontFamily,
+            color: '#A29AAC',
+            fontSize: 14.5,
+            lineHeight: 1.6,
+            maxWidth: '62ch',
+            margin: `${space(3)} 0 0`,
+          }}
+        >
+          {arc.blurb}
+        </p>
+      </div>
+      {action}
+    </header>
+  );
+}
+
+const DESCRIPTION =
+  'Illustrated flipbooks from the town of Millbrook. Something is fixing the '
+  + 'place, and nobody asked it to.';
 
 export const metadata = {
   title: 'Millbrook — A Digital Slop Story',
-  description:
-    'Illustrated flipbooks from the town of Millbrook. Something is fixing the '
-    + 'place, and nobody asked it to.',
+  description: DESCRIPTION,
+  // Share cards. Without these a pasted link renders as a bare URL, which is the
+  // cheapest way for a project to look unfinished. Pointed at the landing banner
+  // for now; a purpose-made 1200x630 crop would frame better, since a 3:1 image
+  // gets centre-cropped by most platforms.
+  openGraph: {
+    title: 'Millbrook — A Digital Slop Story',
+    description: DESCRIPTION,
+    type: 'website',
+    images: [{ url: `/images/${SITE_IMAGES.banner.slug}.png`, width: 2172, height: 724 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Millbrook — A Digital Slop Story',
+    description: DESCRIPTION,
+    images: [`/images/${SITE_IMAGES.banner.slug}.png`],
+  },
 };
 
 export default function Home() {
@@ -22,59 +111,41 @@ export default function Home() {
         kicker="A Digital Slop Story"
         title="Millbrook"
         tagline="A small flat town on a grid of wide streets, with nothing worth photographing. Lately it has started repairing itself, and it is keeping a tally."
-      />
+      >
+        <a
+          href={UNIVERSE.collection.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="focus-ring"
+          style={{
+            ...type.utility,
+            fontSize: 9,
+            letterSpacing: '0.18em',
+            color: paper.stock,
+            textDecoration: 'none',
+            border: '1px solid rgba(244,239,230,0.4)',
+            background: 'rgba(20,18,24,0.34)',
+            padding: `${space(3)} ${space(5)}`,
+            alignSelf: 'flex-start',
+            marginTop: space(6),
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {`View the ${UNIVERSE.name} collection ↗`}
+        </a>
+      </Banner>
 
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
-        {ARCS.map((arc) => {
-          const vols = arc.volumes.map((v) => byslug[v.slug]).filter(Boolean);
-          const words = vols.reduce((a, v) => a + v.words, 0);
-          const spreads = vols.reduce((a, v) => a + v.spreadCount, 0);
-          const images = vols.reduce((a, v) => a + v.imageCount, 0);
-
-          return (
-            <section key={arc.id} style={{ marginBottom: space(16) }}>
-              <header
-                style={{
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  alignItems: 'flex-end',
-                  justifyContent: 'space-between',
-                  gap: space(4),
-                  paddingBottom: space(4),
-                  marginBottom: space(6),
-                  borderBottom: '1px solid rgba(244,239,230,0.14)',
-                }}
-              >
-                <div>
-                  <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
-                    Arc {arc.number} · {arc.status}
-                  </div>
-                  <h2
-                    style={{
-                      fontFamily: type.body.fontFamily,
-                      color: paper.stock,
-                      fontSize: 30,
-                      fontWeight: 700,
-                      letterSpacing: '-0.01em',
-                      margin: `${space(2)} 0 0`,
-                    }}
-                  >
-                    {arc.title}
-                  </h2>
-                  <p
-                    style={{
-                      fontFamily: type.body.fontFamily,
-                      color: '#A29AAC',
-                      fontSize: 14.5,
-                      lineHeight: 1.6,
-                      maxWidth: '62ch',
-                      margin: `${space(3)} 0 0`,
-                    }}
-                  >
-                    {arc.blurb}
-                  </p>
-                </div>
-
+        {/* Each arc is one band of four volumes. The production totals that used to
+            close every band are gone: spreads, plates and word counts are facts about
+            making the thing, not reasons to read it, and they undercut a shelf of
+            covers by ending it on arithmetic. */}
+        {ARCS.map((arc, i) => (
+          <section key={arc.id} style={{ marginBottom: space(14) }}>
+            {i > 0 && <hr className="mb-arc-seam" style={{ marginBottom: space(14) }} />}
+            <ArcHeader
+              arc={arc}
+              action={(
                 <Link
                   href={`/${arc.id}`}
                   className="focus-ring"
@@ -91,40 +162,49 @@ export default function Home() {
                 >
                   About this arc →
                 </Link>
-              </header>
+              )}
+            />
+            <Shelf arc={arc} volumes={byslug} />
+          </section>
+        ))}
 
-              <Shelf arc={arc} volumes={byslug} />
-
-              <div
-                style={{
-                  ...type.utility,
-                  fontSize: 9,
-                  letterSpacing: '0.14em',
-                  color: '#7C7488',
-                  marginTop: space(5),
-                }}
-              >
-                Four volumes · {spreads} spreads · {images} plates · {words.toLocaleString()} words
-              </div>
-            </section>
-          );
-        })}
+        {UPCOMING_ARCS.map((arc) => (
+          <section key={arc.id} style={{ marginBottom: space(14) }}>
+            <hr className="mb-arc-seam" style={{ marginBottom: space(14) }} />
+            <ArcHeader arc={arc} dim />
+            <ComingShelf arc={arc} />
+          </section>
+        ))}
 
         <footer
           style={{
-            paddingTop: space(5),
+            paddingTop: space(6),
             borderTop: '1px solid rgba(244,239,230,0.1)',
             fontFamily: type.body.fontFamily,
-            fontSize: 12.5,
-            color: '#7C7488',
-            lineHeight: 1.7,
+            fontSize: 13,
+            color: '#8E8699',
+            lineHeight: 1.75,
           }}
         >
-          <div>More arcs to follow. The Digital Slop Squads will return.</div>
-          <div style={{ marginTop: space(2) }}>
-            <Link href="/checks/overflow" style={{ color: '#9E86F0' }}>Overflow audit</Link>
-            {' · build-time check that no page clips its prose.'}
+          <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.24em', color: '#B9A6FF' }}>
+            {UNIVERSE.name}
           </div>
+          <p style={{ maxWidth: '68ch', margin: `${space(3)} 0 0` }}>{UNIVERSE.blurb}</p>
+          <p style={{ margin: `${space(4)} 0 0` }}>
+            <a
+              href={UNIVERSE.collection.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring"
+              style={{ color: '#B9A6FF', textDecoration: 'none', borderBottom: '1px solid rgba(185,166,255,0.4)' }}
+            >
+              {`${UNIVERSE.collection.label} on ${UNIVERSE.collection.host} ↗`}
+            </a>
+          </p>
+          <p style={{ marginTop: space(5), fontSize: 12, color: '#6E6779' }}>
+            <Link href="/checks/overflow" style={{ color: '#6E6779' }}>Overflow audit</Link>
+            {' · build-time check that no page clips its prose.'}
+          </p>
         </footer>
       </div>
     </main>

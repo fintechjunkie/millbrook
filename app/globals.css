@@ -215,6 +215,36 @@ body {
   .mb-banner-type { min-height: 42vh; padding: 72px 56px 44px; }
 }
 
+/* Reserved slot for an unpublished volume. Same box as .mb-card so a future arc
+   occupies visibly the same footprint, but dashed and unlit so it never invites a
+   click. Deliberately no hover state. */
+.mb-card-ghost {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border: 1px dashed rgba(244, 239, 230, 0.16);
+  border-top: 3px solid rgba(244, 239, 230, 0.1);
+  border-radius: 2px;
+  color: rgba(244, 239, 230, 0.26);
+  background: rgba(244, 239, 230, 0.014);
+}
+
+/* The seam between arcs. A rule that fades at both ends reads as a division in a
+   continuing series rather than the bottom of the page. */
+.mb-arc-seam {
+  height: 1px;
+  border: 0;
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    rgba(244, 239, 230, 0) 0%,
+    rgba(244, 239, 230, 0.18) 22%,
+    rgba(244, 239, 230, 0.18) 78%,
+    rgba(244, 239, 230, 0) 100%
+  );
+}
+
 /* Focus rings are never suppressed without replacement. */
 .focus-ring:focus-visible {
   outline: 2px solid #6B52C8;

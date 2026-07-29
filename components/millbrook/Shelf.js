@@ -69,20 +69,20 @@ function VolumeCard({ arc, volume, data }) {
         </div>
       )}
 
+      {/* Spread counts used to sit here. They were production bookkeeping shown to
+          readers: a number nobody browsing a shelf has any use for, repeated four
+          times, drawing the eye to the least interesting fact on the card. */}
       <div
         style={{
           paddingTop: space(2),
           borderTop: `1px solid ${paper.ruleSoft}`,
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'baseline',
           ...type.utility,
           fontSize: 8.5,
           letterSpacing: '0.1em',
+          color: color.accent,
         }}
       >
-        <span style={{ color: color.accent }}>Read →</span>
-        <span style={{ color: color.inkSoft }}>{data?.spreadCount ?? '—'} spreads</span>
+        Read →
       </div>
     </Link>
   );
@@ -94,6 +94,29 @@ export function Shelf({ arc, volumes }) {
     <section aria-label={`${arc.title}, volumes`} className="mb-shelf">
       {arc.volumes.map((v) => (
         <VolumeCard key={v.slug} arc={arc} volume={v} data={volumes[v.slug]} />
+      ))}
+    </section>
+  );
+}
+
+/**
+ * A reserved shelf for an arc that does not exist yet.
+ *
+ * Deliberately the same grid and the same card proportions as a real shelf, so it
+ * reads as space being held rather than as a gap. Not links, not focusable, and
+ * hidden from assistive tech beyond a single label on the section — there is
+ * nothing here to navigate to, and four empty tab stops would be a nuisance.
+ */
+export function ComingShelf({ arc }) {
+  return (
+    <section aria-label={`${arc.title}, not yet published`} className="mb-shelf">
+      {Array.from({ length: arc.volumeCount }, (_, i) => (
+        <div key={i} className="mb-card-ghost" aria-hidden="true">
+          <div style={{ width: '100%', aspectRatio: '2 / 1' }} />
+          <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em' }}>
+            Volume {i + 1}
+          </div>
+        </div>
       ))}
     </section>
   );
