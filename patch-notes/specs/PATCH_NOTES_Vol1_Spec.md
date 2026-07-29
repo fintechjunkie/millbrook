@@ -257,16 +257,23 @@ no panels, no charts, no readable content of any kind. The monitor glow is the O
 light source in the frame and everything behind him falls to black; the room is not
 otherwise lit.
 
-**REGENERATED AND ACCEPTED.** The first pass gave him dark eyebrows, legible window
-and panel layouts on all three monitors, and a warmly lit room with the whole
-warehouse visible. All three were already specified in the prompt but sat in the
-negative block at the foot, where they were ignored. Hoisting them into hard
-constraints at the head fixed all three at once: the second pass has a bare brow,
-screens that are pure undifferentiated glow, and the monitor light as the only
-source with the room black behind him.
+**REGENERATED THREE TIMES. THIRD PASS ACCEPTED 2026-07-29.**
 
-This is the evidence that the hard-constraints field works, and the reason it is
-now applied to every prompt where a specific feature has drifted.
+Pass 1 had legible window and panel layouts on all three monitors and a warmly lit
+room with the whole warehouse visible. Both were already specified in the prompt but
+sat in the negative block at the foot, where they were ignored. Hoisting them into
+hard constraints at the head fixed both — that part of the lesson stands, and is the
+reason the hard-constraints field is now applied to every prompt where a specific
+feature has drifted.
+
+Pass 1 *also* had dark eyebrows, and I wrongly read that as drift too, because the
+roster then said Owen had none. It was correct. Pass 2 removed them on a constraint
+I invented, which is the error described in the roster's Owen block. Pass 3 restores
+them and keeps the screen and lighting discipline from pass 2, so it is right on all
+three counts at once.
+
+The wider lesson: a hard constraint is only as good as the roster line behind it.
+Hoisting a wrong fact to the head of a prompt makes the model obey it *harder*.
 
 Prompt:
 
