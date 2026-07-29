@@ -250,8 +250,9 @@ Shot type: Character portrait
 Depicts: Beat 1. Owen at his desk after thirty-one hours awake.
 Spoiler check: PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.
 
-Hard constraints: Owen has NO EYEBROWS AT ALL — not faint, not thin, none, the brow
-is bare skin. Every screen is pure cold glow with NO legible interface: no windows,
+Hard constraints: Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly
+present and clearly dark against very pale skin — bald scalp, but never a bare brow.
+Every screen is pure cold glow with NO legible interface: no windows,
 no panels, no charts, no readable content of any kind. The monitor glow is the ONLY
 light source in the frame and everything behind him falls to black; the room is not
 otherwise lit.
@@ -274,7 +275,7 @@ Prompt:
 {{CHAR:OWEN}}
 {{WARDROBE:OWEN_A}}
 {{LOC:WAREHOUSE_TERMINALS}}
-Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his brow is bare skin with no eyebrows on it at all. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
+Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes, dark against very pale skin. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
 Interior, roughly three in the morning.
 Close shot, camera slightly below eye level, monitors framing him on both sides.
 Cold monitor light as the single and only source in the frame, uplighting his face from below, the room behind him unlit and falling completely to black.
@@ -506,6 +507,12 @@ Slug: vol1-s06
 Shot type: Character portrait or close (group three-shot)
 Depicts: Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.
 Spoiler check: PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.
+
+Hard constraints: Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly
+present and clearly dark against very pale skin — bald scalp, but never a bare brow.
+Milo's red-lensed glasses and orange beanie are both present and never removed. Felix
+wears large round red-framed glasses with clear lenses. Exactly three figures, no
+fourth. Nothing is being handed to any of them.
 
 **Deviation, deliberate: three named characters.** Part C4 sets a hard ceiling of
 two, on the grounds that three will fail at consistency no matter how the prompt

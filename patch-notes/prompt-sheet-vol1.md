@@ -139,6 +139,13 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly present and clearly dark against very pale skin — bald scalp, but never a bare brow.
+- Milo's red-lensed glasses and orange beanie are both present and never removed.
+- Felix wears large round red-framed glasses with clear lenses.
+- Exactly three figures, no fourth.
+- Nothing is being handed to any of them.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 Wardrobe, unchanged for this scene: orange beanie, red-lensed round glasses, black leather jacket with silver zippers over plain black shirt
@@ -318,7 +325,7 @@ Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 
 MUST HOLD, these override anything below that appears to contradict them:
-- Owen has NO EYEBROWS AT ALL — not faint, not thin, none, the brow is bare skin.
+- Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly present and clearly dark against very pale skin — bald scalp, but never a bare brow.
 - Every screen is pure cold glow with NO legible interface: no windows, no panels, no charts, no readable content of any kind.
 - The monitor glow is the ONLY light source in the frame and everything behind him falls to black; the room is not otherwise lit.
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -326,7 +333,7 @@ An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
 SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
-Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his brow is bare skin with no eyebrows on it at all. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
+Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes, dark against very pale skin. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
 Interior, roughly three in the morning.
 Close shot, camera slightly below eye level, monitors framing him on both sides.
 Cold monitor light as the single and only source in the frame, uplighting his face from below, the room behind him unlit and falling completely to black.

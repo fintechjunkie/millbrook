@@ -400,7 +400,7 @@ Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tra
 Hard constraints: Felix has a short upright black afro, round glasses with thin red
 frames, and a faded teal denim jacket over a black t-shirt with a strap harness of
 small tools across the chest. The green gecko is present. Owen has a fully bald head
-and NO EYEBROWS AT ALL. Owen's back is to the room and his face is not visible, so
+and strong dark eyebrows. Owen's back is to the room and his face is not visible, so
 this frame carries no risk to his likeness.
 
 **Reframed to be character-forward.** It was Felix alone. The page's joke is that
@@ -477,8 +477,9 @@ Shot type: Action moment
 Depicts: Beat 1. Owen turning slowly in his chair to look at Pip, who has just read his config file from across the room.
 Spoiler check: PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the high shelves are out of shot.
 
-Hard constraints: Owen has a fully bald head and NO EYEBROWS AT ALL, not faint
-ones, not thin ones, none. Every screen in frame is pure glow with NO legible
+Hard constraints: Owen has a fully bald head AND STRONG DARK EYEBROWS, clearly
+present and clearly dark against very pale skin — bald scalp, but never a bare
+brow. Every screen in frame is pure glow with NO legible
 interface, no windows, no panels, no readable content of any kind. Pip's posture is
 a shade too level and she is not mid-blink.
 
@@ -496,7 +497,7 @@ Prompt:
 {{CHAR:OWEN}}
 {{WARDROBE:OWEN_A}}
 {{LOC:WAREHOUSE_TERMINALS}}
-Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and there are no eyebrows on his face at all. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
+Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
 Medium two-shot from the side of the desk so the turn of Owen's shoulders reads against Pip's stillness, camera slightly below eye level, moderate depth so both faces hold.
 Cold monitor light from behind Owen rimming his head and collar, dusty window light from high on the left falling on Pip.

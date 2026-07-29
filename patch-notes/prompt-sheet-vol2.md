@@ -325,7 +325,7 @@ Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 
 MUST HOLD, these override anything below that appears to contradict them:
-- Owen has a fully bald head and NO EYEBROWS AT ALL, not faint ones, not thin ones, none.
+- Owen has a fully bald head AND STRONG DARK EYEBROWS, clearly present and clearly dark against very pale skin — bald scalp, but never a bare brow.
 - Every screen in frame is pure glow with NO legible interface, no windows, no panels, no readable content of any kind.
 - Pip's posture is a shade too level and she is not mid-blink.
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -336,7 +336,7 @@ An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
 SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
-Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and there are no eyebrows on his face at all. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
+Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
 Medium two-shot from the side of the desk so the turn of Owen's shoulders reads against Pip's stillness, camera slightly below eye level, moderate depth so both faces hold.
 Cold monitor light from behind Owen rimming his head and collar, dusty window light from high on the left falling on Pip.
@@ -393,7 +393,7 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - Felix has a short upright black afro, round glasses with thin red frames, and a faded teal denim jacket over a black t-shirt with a strap harness of small tools across the chest.
 - The green gecko is present.
-- Owen has a fully bald head and NO EYEBROWS AT ALL.
+- Owen has a fully bald head and strong dark eyebrows.
 - Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
