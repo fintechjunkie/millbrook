@@ -245,6 +245,24 @@ body {
   );
 }
 
+/* Edit mode. Development only, so this styling never reaches a reader.
+
+   The tint is on hover and focus rather than always on: a permanent box around every
+   paragraph would change how the page reads, and judging the prose is the point of
+   editing here rather than in a text editor. */
+[data-mb-editable] {
+  cursor: text;
+  transition: background-color 120ms linear, box-shadow 120ms linear;
+}
+[data-mb-editable]:hover {
+  background: rgba(107, 82, 200, 0.07);
+  box-shadow: 0 0 0 3px rgba(107, 82, 200, 0.07);
+}
+[data-mb-editable]:focus {
+  background: rgba(107, 82, 200, 0.11);
+  box-shadow: 0 0 0 3px rgba(107, 82, 200, 0.11);
+}
+
 /* Focus rings are never suppressed without replacement. */
 .focus-ring:focus-visible {
   outline: 2px solid #6B52C8;

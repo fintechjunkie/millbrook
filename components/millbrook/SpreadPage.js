@@ -175,7 +175,7 @@ function useHasRoomForTerminal(ref, threshold = 2) {
  * cannot be shortened, so on a viewport too small for it the page must scroll.
  * Losing the end of a paragraph is not an acceptable failure here.
  */
-export function TextPage({ spread, compact }) {
+export function TextPage({ spread, compact, editing = false, onEditParagraph }) {
   // 30px rather than 36. Same reasoning as the leading: page height reclaimed
   // from margin costs nothing, where reclaiming it from the spread map costs a
   // new spread and a new image.
@@ -239,8 +239,39 @@ export function TextPage({ spread, compact }) {
 
           const indent = atSectionStart ? 0 : type.indent;
           atSectionStart = false;
+
+          if (!editing) {
+            return (
+              <p key={i} style={{ margin: 0, textIndent: indent }}>
+                {b.v}
+              </p>
+            );
+          }
+
+          // suppressContentEditableWarning because React is right in general and wrong
+          // here: the DOM being edited out from under it is the entire feature.
+          //
+          // The original text is carried on the node rather than in React state so the
+          // save is content-addressed from what was actually on screen. onBlur, not
+          // onInput: saving per keystroke would write the file dozens of times a
+          // sentence and fight the watcher rebuilding the JSON underneath.
           return (
-            <p key={i} style={{ margin: 0, textIndent: indent }}>
+            <p
+              key={i}
+              data-mb-editable=""
+              data-mb-before={b.v}
+              contentEditable
+              suppressContentEditableWarning
+              spellCheck
+              onBlur={(e) => onEditParagraph?.(e.currentTarget, b.v)}
+              onKeyDown={(e) => {
+                // Enter would insert a <br> and a paragraph cannot contain one; the
+                // spec's page boundaries are the only thing allowed to add lines.
+                if (e.key === 'Enter') { e.preventDefault(); e.currentTarget.blur(); }
+                if (e.key === 'Escape') { e.currentTarget.textContent = b.v; e.currentTarget.blur(); }
+              }}
+              style={{ margin: 0, textIndent: indent, outline: 'none', borderRadius: 2 }}
+            >
               {b.v}
             </p>
           );

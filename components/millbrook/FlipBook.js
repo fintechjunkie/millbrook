@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react';
 import Link from 'next/link';
 import { Crumbs } from './Crumbs';
+import { useTextEditing } from './useTextEditing';
 import { BlankPage, GraphicPage, OpenerSpread, TextPage } from './SpreadPage';
 import { color, geometry, paper, space, turn as TURN, type } from '@/lib/millbrook/series';
 
@@ -322,12 +323,100 @@ function EndOfVolume({ next, wide }) {
   );
 }
 
+/**
+ * Live fill readout for the page being edited.
+ *
+ * Polls rather than observing, because the text is edited by the browser's own
+ * contenteditable machinery and there is no React state change to hang off. 250ms is
+ * below the threshold at which a number feels laggy and far above the cost of one
+ * scrollHeight read.
+ *
+ * Measures with flex temporarily off, for the reason that cost real time three
+ * separate occasions on this project: a stretching flow box reports scrollHeight
+ * equal to clientHeight, so overflow silently reads as zero.
+ */
+function FillMeter({ status }) {
+  const [fill, setFill] = useState(null);
+
+  useEffect(() => {
+    const read = () => {
+      const flow = document.querySelector('[data-mb-kind="text"] [data-mb-flow]');
+      if (!flow) { setFill(null); return; }
+      const prev = flow.style.flex;
+      flow.style.flex = 'none';
+      const content = flow.scrollHeight;
+      flow.style.flex = prev;
+      const avail = flow.clientHeight;
+      setFill(avail ? Math.round((content / avail) * 100) : null);
+    };
+    read();
+    const id = setInterval(read, 250);
+    return () => clearInterval(id);
+  }, []);
+
+  const over = fill != null && fill > 100;
+  const tight = fill != null && fill > 94 && !over;
+  const tone = over ? '#E0704F' : tight ? '#D8B24A' : '#8FB98A';
+
+  return (
+    <div
+      role="status"
+      aria-live="polite"
+      style={{
+        position: 'fixed',
+        bottom: 62,
+        left: 0,
+        right: 0,
+        zIndex: 31,
+        display: 'flex',
+        justifyContent: 'center',
+        gap: space(3),
+        pointerEvents: 'none',
+        ...type.utility,
+        fontSize: 9,
+        letterSpacing: '0.16em',
+      }}
+    >
+      <span
+        style={{
+          background: 'rgba(32,30,36,0.94)',
+          border: `1px solid ${tone}`,
+          color: tone,
+          padding: `${space(2)} ${space(3)}`,
+          borderRadius: 2,
+        }}
+      >
+        {fill == null ? 'page —' : `page ${fill}%${over ? ' · OVER' : ''}`}
+      </span>
+
+      {status && (
+        <span
+          style={{
+            background: 'rgba(32,30,36,0.94)',
+            border: `1px solid ${status.kind === 'error' ? '#E0704F' : 'rgba(244,239,230,0.24)'}`,
+            color: status.kind === 'error' ? '#E0704F' : '#A29AAC',
+            padding: `${space(2)} ${space(3)}`,
+            borderRadius: 2,
+            maxWidth: '60ch',
+            whiteSpace: 'normal',
+            textTransform: 'none',
+            letterSpacing: '0.04em',
+          }}
+        >
+          {status.text}
+        </span>
+      )}
+    </div>
+  );
+}
+
 export default function FlipBook({ volume, next = null }) {
   const leaves = useMemo(() => buildLeaves(volume), [volume]);
 
   const [state, dispatch] = useReducer(reducer, undefined, () => initial(0));
   const { pos, anim } = state;
 
+  const edit = useTextEditing();
   const [wide, setWide] = useState(true);
   const [reduced, setReduced] = useState(false);
   const [contents, setContents] = useState(false);
@@ -395,6 +484,12 @@ export default function FlipBook({ volume, next = null }) {
         return;
       }
       if (e.target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
+      // Space, arrows and C are all letters somebody is trying to type.
+      if (e.target && e.target.isContentEditable) return;
+      if (e.key === 'e' || e.key === 'E') {
+        if (edit.available) { e.preventDefault(); edit.toggle(); }
+        return;
+      }
       if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { e.preventDefault(); go('fwd'); }
       else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go('back'); }
       else if (e.key === 'Home') { e.preventDefault(); jumpTo(0); }
@@ -403,7 +498,7 @@ export default function FlipBook({ volume, next = null }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [go, jumpTo, leaves.length, contents]);
+  }, [go, jumpTo, leaves.length, contents, edit]);
 
   // Bottom chrome only. The top bar never hides, so the way out is always on
   // screen.
@@ -442,6 +537,9 @@ export default function FlipBook({ volume, next = null }) {
   // sit above the prose and would swallow every link and selection on it.
   const onBookClick = (e) => {
     if (e.target.closest && e.target.closest('button, a, input, textarea, select, [role="dialog"]')) return;
+    // In edit mode a click on the prose places a cursor. Turning the page out from
+    // under someone mid-sentence is the one thing this feature must never do.
+    if (edit.editing && e.target.closest && e.target.closest('[data-mb-editable], [data-mb-flow]')) return;
     const d = down.current;
     down.current = null;
     // A drag is a selection gesture, not a page turn.
@@ -457,10 +555,31 @@ export default function FlipBook({ volume, next = null }) {
 
   const leaf = leaves[pos.idx];
 
+  /**
+   * Persist an edited paragraph, and roll the DOM back if the server refuses.
+   *
+   * Rolling back matters: without it a rejected save leaves the page showing text
+   * that is not in the file, which is the most dangerous state this feature could
+   * produce -- it looks saved.
+   */
+  const onEditParagraph = async (el, before) => {
+    const after = el.textContent.replace(/\s+/g, ' ').trim();
+    if (!after) { el.textContent = before; return; }
+    if (after === before) return;
+
+    const ok = await edit.save({
+      vol: volume.slug,
+      spread: Number(el.closest('[data-mb-spread]')?.dataset.mbSpread),
+      before,
+      after,
+    });
+    if (!ok) el.textContent = before;
+  };
+
   const renderLeft = (l) => {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side="left" />;
-    return <TextPage spread={l.spread} compact={false} />;
+    return <TextPage spread={l.spread} compact={false} editing={edit.editing} onEditParagraph={onEditParagraph} />;
   };
   const renderRight = (l) => {
     if (!l) return <BlankPage />;
@@ -474,7 +593,7 @@ export default function FlipBook({ volume, next = null }) {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side={null} compact />;
     return p.half === 0
-      ? <TextPage spread={l.spread} compact />
+      ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} />
       : <GraphicPage spread={l.spread} compact />;
   };
 
@@ -762,6 +881,32 @@ export default function FlipBook({ volume, next = null }) {
           </button>
         )}
 
+        {/* Discoverable, not a secret shortcut: the button is how you find edit mode
+            and E is how you stop reaching for the button. Rendered only when the
+            server says writes are possible, so a production build never shows an
+            affordance that cannot work. */}
+        {edit.available && (
+          <button
+            className="focus-ring"
+            onClick={edit.toggle}
+            aria-pressed={edit.editing}
+            title="Edit the prose in place (E)"
+            style={{
+              ...type.utility,
+              fontSize: 9,
+              letterSpacing: '0.18em',
+              background: edit.editing ? color.accent : 'none',
+              border: `1px solid ${edit.editing ? color.accent : 'rgba(244,239,230,0.24)'}`,
+              color: edit.editing ? paper.stock : '#A29AAC',
+              padding: `${space(2)} ${space(3)}`,
+              cursor: 'pointer',
+              marginLeft: space(2),
+            }}
+          >
+            {edit.editing ? 'Editing' : 'Edit'}
+          </button>
+        )}
+
         <button className="focus-ring" onClick={() => setContents(true)}
           style={{ ...type.utility, fontSize: 9, letterSpacing: '0.18em', background: 'none',
                    border: '1px solid rgba(244,239,230,0.24)', color: '#A29AAC',
@@ -769,6 +914,12 @@ export default function FlipBook({ volume, next = null }) {
           Contents
         </button>
       </div>
+
+      {/* The reason to edit here rather than in a text editor: the constraint on this
+          prose is page FIT, and fit is only visible on the page. This reports the
+          measured fill of the live text page and turns red the moment a sentence
+          pushes it past its column, which no editor can tell you. */}
+      {edit.editing && <FillMeter status={edit.status} />}
 
       {contents && (
         <Contents
