@@ -98,6 +98,10 @@ See the note at the foot.
   narration is close third on Lena, so she cannot use a name she has not been told, but the
   moment a name is spoken aloud the narration uses it and never goes back. If a character
   needs naming, the cheapest fix is four words of dialogue rather than a rewrite.
+- **Identical adjacent paragraphs cannot be edited in place.** The save is
+  content-addressed, so if the same line appears twice on a page the server cannot tell which
+  one you meant and refuses rather than guessing. Ask for the change instead; it is a spec
+  edit. Deleting a paragraph is also a spec job, since edit mode can only replace text.
 - Page fit is the hard constraint. Every text page must stay under 100% of its column, and the
   cost of prose is **paragraph count** far more than word count, because a one-line paragraph
   occupies a whole line however short it is. Joining fragments therefore usually makes a page

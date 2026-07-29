@@ -185,9 +185,21 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
   const flowRef = useRef(null);
   const hasRoom = useHasRoomForTerminal(flowRef);
 
-  // Track whether we are at the first paragraph of a section, since that one
-  // sets flush left and the rest indent.
-  let atSectionStart = true;
+  // Track whether we are at the first paragraph of a section, since that one sets flush
+  // left and the rest indent.
+  //
+  // FALSE to start, and that is the fix for a real bug rather than a preference. It used
+  // to start true, which meant EVERY page opened flush left -- but only 13 of the 33 pages
+  // begin a new section. The other 20 open mid-scene, continuing the page before, and a
+  // flush first line there tells the reader a new section has started when it has not.
+  //
+  // An indent's job is to say "new paragraph". At the top of a section there is nothing
+  // above to separate from, so it is suppressed; on a continuation page there very much is.
+  // Print does exactly this, which is why a page opening mid-scene looks wrong without it.
+  //
+  // No special case is needed for pages that DO open with a heading: the heading branch
+  // below sets the flag before the first paragraph renders.
+  let atSectionStart = false;
 
   return (
     <div

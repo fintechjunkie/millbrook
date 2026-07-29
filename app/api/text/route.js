@@ -80,7 +80,14 @@ export async function POST(request) {
     return bad(409, 'That paragraph is no longer in the spec. Reload and try again.');
   }
   if (hits > 1) {
-    return bad(409, `That paragraph appears ${hits} times in this page, so the edit is ambiguous.`);
+    // Say what to do about it. The first wording only stated the problem, which read as
+    // "these are duplicates so they need no change" rather than "I cannot tell which one
+    // you mean".
+    return bad(
+      409,
+      `This exact line appears ${hits} times on the page, so the save cannot tell which one `
+      + 'you edited and will not guess. Ask for this one and it will be changed in the spec.',
+    );
   }
 
   if (after.trim() === before.trim()) return Response.json({ ok: true, unchanged: true });

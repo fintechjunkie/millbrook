@@ -513,20 +513,20 @@
       "n": 7,
       "kind": "spread",
       "pages": "15 to 16",
-      "declaredWords": 295,
-      "words": 288,
+      "declaredWords": 332,
+      "words": 325,
       "blocks": [
         {
           "t": "p",
-          "v": "“Huh,” Milo said."
+          "v": "Milo was visibly confused. “How do we not know her,” he said."
         },
         {
           "t": "p",
-          "v": "“You know her now.”"
+          "v": "“Maybe she doesn't want to be known,” grinned Lena."
         },
         {
           "t": "p",
-          "v": "“No. But I’d like to.”"
+          "v": "“True. But, knowing things is what we're good at.”"
         },
         {
           "t": "h",
@@ -546,7 +546,7 @@
         },
         {
           "t": "p",
-          "v": "One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world had been a little bit different, and then it had been the same again."
+          "v": "One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world didn't look right. When the streetlight was off, the world changed. And when it turned back on, the world was right again."
         },
         {
           "t": "p",
@@ -554,7 +554,7 @@
         },
         {
           "t": "p",
-          "v": "Three quick knocks. Two slow. She didn’t look up."
+          "v": "Three quick knocks followed by two slow ones. She didn’t look up."
         },
         {
           "t": "p",
@@ -562,15 +562,15 @@
         },
         {
           "t": "p",
-          "v": "Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with parts. A robot. Skin a shade too even, eyes that tracked a hair too smoothly, a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex had stood close enough."
+          "v": "Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn't think anything of it."
         },
         {
           "t": "p",
-          "v": "“You heard it,” Vex said."
+          "v": "“When did you hear the noise,” Vex asked."
         },
         {
           "t": "p",
-          "v": "“Four AM. Twenty-three seconds. It was loud.”"
+          "v": "“Four AM. Twenty-three seconds. It was loud. Any idea what it was?”"
         },
         {
           "t": "p",
@@ -590,11 +590,7 @@
         },
         {
           "t": "p",
-          "v": "“It’s getting bigger.”"
-        },
-        {
-          "t": "p",
-          "v": "“It’s getting bigger.”"
+          "v": "“The changes are getting bigger.”"
         }
       ],
       "note": null,
@@ -613,16 +609,12 @@
       "n": 8,
       "kind": "spread",
       "pages": "17 to 18",
-      "declaredWords": 330,
-      "words": 325,
+      "declaredWords": 323,
+      "words": 318,
       "blocks": [
         {
           "t": "p",
           "v": "“And nobody’s going to do anything about it.”"
-        },
-        {
-          "t": "p",
-          "v": "“Nobody’s going to do anything about it.”"
         },
         {
           "t": "p",

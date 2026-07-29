@@ -567,15 +567,15 @@ Alt text: Three teenage boys on a park bench with a fountain running behind them
 
 ## Spread 7
 
-Pages 15 to 16 | Part One: The Pothole | Words 295
+Pages 15 to 16 | Part One: The Pothole | Words 332
 
 ### Text page (left), verbatim
 
-“Huh,” Milo said.
+Milo was visibly confused. “How do we not know her,” he said.
 
-“You know her now.”
+“Maybe she doesn't want to be known,” grinned Lena.
 
-“No. But I’d like to.”
+“True. But, knowing things is what we're good at.”
 
 ### The Apartment Above The Hardware Store
 
@@ -585,19 +585,19 @@ The footage was mostly nothing. Driving in. Parking. The new girl walking off-ca
 
 Vex paused. Backed up. Played it again. On. On. On. Off. On. On. On.
 
-One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world had been a little bit different, and then it had been the same again.
+One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world didn't look right. When the streetlight was off, the world changed. And when it turned back on, the world was right again.
 
 Vex had been collecting frames like this for six months.
 
-Three quick knocks. Two slow. She didn’t look up.
+Three quick knocks followed by two slow ones. She didn’t look up.
 
 “It’s open.”
 
-Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with parts. A robot. Skin a shade too even, eyes that tracked a hair too smoothly, a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex had stood close enough.
+Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn't think anything of it.
 
-“You heard it,” Vex said.
+“When did you hear the noise,” Vex asked.
 
-“Four AM. Twenty-three seconds. It was loud.”
+“Four AM. Twenty-three seconds. It was loud. Any idea what it was?”
 
 “The pothole.”
 
@@ -607,9 +607,7 @@ Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer
 
 Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still.
 
-“It’s getting bigger.”
-
-“It’s getting bigger.”
+“The changes are getting bigger.”
 
 ### Image page (right)
 
@@ -637,13 +635,11 @@ Alt text: A dashcam taken apart on a cluttered counter beside a laptop, with its
 
 ## Spread 8
 
-Pages 17 to 18 | Part One: The Pothole | Words 330
+Pages 17 to 18 | Part One: The Pothole | Words 323
 
 ### Text page (left), verbatim
 
 “And nobody’s going to do anything about it.”
-
-“Nobody’s going to do anything about it.”
 
 Vex tapped the laptop. The single dark frame stared back at her. “There’s also a girl. New in town. She has a research folder. I checked her car.”
 
