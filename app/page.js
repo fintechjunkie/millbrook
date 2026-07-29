@@ -48,6 +48,10 @@ function ArcHeader({ arc, action, dim = false }) {
         >
           Arc {arc.number} · {arc.status}
         </div>
+        {/* The title is the thing a reader reaches for, so it is the link. Leaving it
+            as dead text and putting the only route in a small "About this arc" button
+            beside it was a click people were already trying and not getting. An
+            unpublished arc has no href and stays plain text. */}
         <h2
           style={{
             fontFamily: type.body.fontFamily,
@@ -58,7 +62,11 @@ function ArcHeader({ arc, action, dim = false }) {
             margin: `${space(2)} 0 0`,
           }}
         >
-          {arc.title}
+          {dim ? arc.title : (
+            <Link href={`/${arc.id}`} className="focus-ring" style={{ color: 'inherit', textDecoration: 'none' }}>
+              {arc.title}
+            </Link>
+          )}
         </h2>
         <p
           style={{

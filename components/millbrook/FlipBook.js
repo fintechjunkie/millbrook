@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react';
 import Link from 'next/link';
+import { Crumbs } from './Crumbs';
 import { BlankPage, GraphicPage, OpenerSpread, TextPage } from './SpreadPage';
 import { color, geometry, paper, space, turn as TURN, type } from '@/lib/millbrook/series';
 
@@ -549,19 +550,31 @@ export default function FlipBook({ volume, next = null }) {
           zIndex: 30,
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'space-between',
+          // flex-start now the trail is one element rather than a link and a title
+          // pushed to opposite ends. space-between with a single child would strand
+          // it left anyway, but stating it stops the next edit being surprised.
+          justifyContent: 'flex-start',
           gap: space(4),
           padding: `${space(3)} ${space(5)}`,
           background: 'linear-gradient(to bottom, rgba(32,30,36,0.96), rgba(32,30,36,0))',
         }}
       >
-        <Link href="/patch-notes" className="focus-ring"
-          style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.18em', color: '#A29AAC', textDecoration: 'none' }}>
-          ← The Patch Notes
-        </Link>
-        <div style={{ ...type.utility, fontSize: 9.5, letterSpacing: '0.16em', color: '#A29AAC', textAlign: 'right' }}>
-          {volume.chapter}
-        </div>
+        {/* Was a single "← The Patch Notes" and, on the right, the volume title as
+            dead text. That left a reader inside a book with no route to the home page
+            at all: one level up, then hunt for a second link. The trail makes every
+            ancestor a target and puts the volume title where it already was, so the
+            chrome gains a destination without gaining a row. */}
+        <Crumbs
+          trail={[
+            { label: 'Millbrook', href: '/' },
+            { label: 'The Patch Notes', href: '/patch-notes' },
+          ]}
+          // "Part Two: The Bookstore That Was Always There" wraps to two lines at
+          // 375px and pushes the fixed chrome to 74px, which is a lot of a phone
+          // screen spent on a title the browser tab already carries. The part number
+          // alone is enough to say where you are, and the counter below gives the rest.
+          current={wide ? volume.chapter : (volume.chapter.match(/^Part\s+\w+/i)?.[0] ?? volume.chapter)}
+        />
       </div>
 
       {/* The book. */}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
+import { Crumbs } from '@/components/millbrook/Crumbs';
 import { Shelf } from '@/components/millbrook/Shelf';
 import { ARCS, color, paper, space, type } from '@/lib/millbrook/series';
 
@@ -25,19 +26,9 @@ export default function PatchNotesArc() {
       />
 
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(8)} ${space(5)} ${space(20)}` }}>
-        <Link
-          href="/"
-          className="focus-ring"
-          style={{
-            ...type.utility,
-            fontSize: 9.5,
-            letterSpacing: '0.18em',
-            color: '#A29AAC',
-            textDecoration: 'none',
-          }}
-        >
-          ← Millbrook
-        </Link>
+        {/* Was a bare "← Millbrook" in 9.5px low-contrast utility type under a
+            full-bleed banner: present, and invisible. */}
+        <Crumbs trail={[{ label: 'Millbrook', href: '/' }]} current={ARC.title} />
 
         <p
           style={{
