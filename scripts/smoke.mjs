@@ -52,7 +52,11 @@ for (const route of routes) {
     const res = await fetch(base + route, { redirect: 'manual' });
     results.push({ route, status: res.status, ok: res.status === 200 });
   } catch (err) {
-    results.push({ route, status: err.code ?? 'UNREACHABLE', ok: false });
+    // fetch wraps the socket error, so the useful code is on err.cause. Reading only
+    // err.code reported every dead server as "UNREACHABLE" and then printed the advice
+    // for a 500, which sent me looking for a stack trace that did not exist.
+    const code = err.cause?.code ?? err.code ?? 'UNREACHABLE';
+    results.push({ route, status: code, ok: false, down: true });
   }
 }
 
@@ -64,8 +68,9 @@ for (const r of results) {
 const failed = results.filter((r) => !r.ok);
 if (failed.length) {
   console.error(`\n${failed.length} of ${results.length} routes did not return 200.`);
-  if (failed.every((f) => f.status === 'ECONNREFUSED')) {
-    console.error('Nothing is listening. Start the dev server first.');
+  if (failed.every((f) => f.down)) {
+    console.error(`Nothing is listening on ${port}. The dev server is not running:`);
+    console.error('  npm run dev');
   } else {
     console.error('Read the server output for the stack trace; a 500 here is a real');
     console.error('module-level error that a linter cannot see.');

@@ -100,7 +100,7 @@ Alt text: A small town of low houses seen from above before sunrise, streetlight
 
 ## Spread 1
 
-Pages 3 to 4 | Part One: The Pothole | Words 351
+Pages 3 to 4 | Part One: The Pothole | Words 353
 
 ### Text page (left), verbatim
 
@@ -124,7 +124,7 @@ Lena sat on the bed and opened her laptop. Her research folder filled the screen
 
 Things in Millbrook didn’t stay the same. Small things changed. A stop sign appeared at an intersection last month with no city record of installing it. A house number changed by one and somehow this was OK. A pothole on Main Street that everyone had complained about for two years was gone overnight.
 
-Nobody had worked on the pothole according to official records, but the Mayor had taken credit for the fix because the Mayor took credit for everything.
+Nobody had worked on the pothole according to official records, but the Mayor was about to take credit for the fix because the Mayor took credit for everything.
 
 Lena hit record.
 
@@ -214,7 +214,7 @@ Alt text: A short girl with mint-green hair in two buns walks away along a sidew
 
 ## Spread 3
 
-Pages 7 to 8 | Part One: The Pothole | Words 295
+Pages 7 to 8 | Part One: The Pothole | Words 325
 
 ### Text page (left), verbatim
 
@@ -222,29 +222,29 @@ Pages 7 to 8 | Part One: The Pothole | Words 295
 
 Owen had been awake for thirty-one hours. He didn’t feel tired. He felt like time had stopped meaning anything, which was a place he liked to live.
 
-Three monitors. Left one ran his anomaly tracker, four hundred and seven entries from the last week. Middle one was a map of Millbrook with the anomalies plotted as dots. Right one was a YouTube video of a guy fixing an old Cadillac, which Owen wasn’t watching but which was making the right noise.
+Three monitors had his attention. The left one ran his anomaly tracker, four hundred and seven entries from the last week. The middle one was a map of Millbrook with the anomalies plotted as dots. And the right one was a YouTube video of a guy fixing an old Cadillac, which Owen was half-watching because he put the odds pretty low that he'd ever get it fixed.
 
-On the map, the dots formed an arc. Not a complete one. About two-thirds of a circle that bent through the eastern half of town. He’d noticed three days ago. He hadn’t mentioned it yet, because Milo would ask what was at the center, and Owen didn’t have an answer, and Owen hated not having answers.
+On the map, the dots formed an arc. Not a complete one, but about two-thirds of a circle that bent around the eastern half of town. He’d noticed the pattern three days ago and hadn’t mentioned it yet because Milo would ask what was at the center. Owen didn’t have an answer yet and Owen hated not having answers.
 
-Across the Warehouse, Felix was on the couch killing things in a video game. Monke sat on the back of the couch eating a granola bar, watching the screen with what looked like professional interest.
+Across the Warehouse, Felix was on the couch killing things in a video game and Monke sat on the back of the couch eating a granola bar, watching the screen with what looked like professional interest.
 
 “He’s judging me,” Felix said.
 
 “He’s a monkey.”
 
-“He’s judging me, Owen.”
+“I know. But he’s judging me, Owen.”
 
-Milo came in through the back door, which Felix had jammed open with a brick again. Two coffees. A paper bag with something greasy in it. He set the coffees down and tossed the bag at Felix without looking. Felix caught it without looking. They’d been doing this for two years.
+Milo came in through the back door, which Felix had jammed open with a brick again. He was holding two coffees and a paper bag with something greasy in it. He set the coffees down and tossed the bag at Felix. Felix caught it without looking. He never missed because they’d been doing this for two years.
 
 “Anything?”
 
-Owen turned in his chair. “The pothole on Main. The famous one.”
+Owen turned in his chair. “You know the pothole on Main? The famous one.”
 
 “What about it.”
 
 “It’s gone.”
 
-Felix paused his game. The character on screen got hit by something and exploded into polygons. Felix didn’t notice.
+Felix looked up from his game. The on screen character got hit by something and exploded into polygons. Felix didn’t notice.
 
 “Gone like fixed?”
 
@@ -303,31 +303,31 @@ Alt text: A bald young man sits in a desk chair between three glowing monitors i
 
 ## Spread 4
 
-Pages 9 to 10 | Part One: The Pothole | Words 268
+Pages 9 to 10 | Part One: The Pothole | Words 293
 
 ### Text page (left), verbatim
 
 Milo took a long sip of his coffee. “When.”
 
-“Between two and four AM. Traffic cam at Main and Birch went dark for ninety seconds. When it came back, the pothole was gone.”
+“Between two and four AM. The traffic cam at Main and Birch went dark for ninety seconds and when it came back, the pothole was gone.”
 
 “You can’t fix a pothole in ninety seconds.”
 
-“No. You cannot.”
+“No. No you cannot.”
 
 Monke finished his granola bar. He climbed down, crossed the room with that slow purposeful walk monkeys do when they know exactly where they’re going, climbed onto Owen’s desk, and sat on top of the middle monitor. He stared at the map of dots.
 
-Then he tapped the screen. Once. With a single finger. Right in the middle of the arc, where the circle wasn’t finished.
+Then he tapped the screen. Once. With a single finger. Right at the top of the arc and then where the middle of a circle would be.
 
-“He’s sitting on it,” Owen said.
+“He’s sitting on your screen again,” Owen said.
 
-“He tapped it,” Felix said.
+“He tapped it twice like he knows something,” Felix said.
 
-“He taps things, Felix.”
+“He taps things, Felix. He's just playing around.”
 
 Milo was watching Monke, not the screen. He had a look on his face Owen recognized. The look that meant Milo had decided something he wasn’t going to share yet.
 
-“We should look at the pothole.”
+“We should take a look at the pothole.”
 
 “It’s not a pothole. It’s an absence of a pothole.”
 
@@ -335,7 +335,7 @@ Milo was watching Monke, not the screen. He had a look on his face Owen recogniz
 
 ### Press Conference
 
-Mayor Dalton stood in front of Town Hall in his suit and his red 3D glasses, grinning at a crowd of six. The Millbrook Crier guy. A woman with a dog. Four people who’d wandered over because there was a podium.
+Mayor Dalton stood in front of Town Hall in his suit and his 3D glasses, grinning at a crowd of six. The Millbrook mailman on his lunch break, a woman with a dog and four other people who’d wandered over because there was a podium.
 
 Lena filmed from the back.
 
@@ -391,15 +391,15 @@ Alt text: A small monkey perched on top of a computer monitor reaches down and t
 
 ## Spread 5
 
-Pages 11 to 12 | Part One: The Pothole | Words 235
+Pages 11 to 12 | Part One: The Pothole | Words 262
 
 ### Text page (left), verbatim
 
-The Crier guy raised a hand. “Who actually fixed it?”
+The mailman raised a hand. “Who actually fixed it?”
 
 The Mayor’s grin tightened. “The city fixed it.”
 
-“Right, but Public Works said they didn’t. They said they showed up yesterday morning and it was already done.”
+“Right, but Public Works said they didn’t. They said they found out it was fixed when someone called to thank them.”
 
 “It was an interdepartmental effort.”
 
@@ -411,15 +411,15 @@ Through her viewfinder, Lena watched the Mayor sweat. Just at the temple. The 3D
 
 That was when she noticed the three guys at the edge of the crowd.
 
-Not standing together exactly, but in a triangle. The middle one was tall and dark-haired, jacket that fit him better than most teenage boys could manage. The one to his left had a shaved head and was holding a phone, clearly recording. The one to his right was shorter and had a permanent half-grin that meant he’d either made or set fire to something this morning.
+Not standing together exactly, but in a triangle. The middle one was tall and dark-haired, wearing a jacket that fit him perfectly. The one to his left had a shaved head and was holding a phone, clearly recording the Mayor's speech. The one to his right was shorter and had a permanent half-grin that gave off the vibe that he’d either made or set fire to something this morning.
 
-They were watching her too. The dark-haired one made eye contact, looked away, kept looking anyway.
+They were watching her too. The dark-haired one made eye contact, looked away, and then looked back. He wasn't very good at being sneaky.
 
 Lena swung her camera off the Mayor and onto them.
 
-The bald one elbowed the dark-haired one. The dark-haired one didn’t turn his head, but his shoulders shifted. The Mayor was still talking somewhere behind her.
+The one with the phone elbowed the one in the beanie, who didn’t move his head but shifted enough for Lena to know he was uncomfortable. The Mayor was still talking so she turned to hear the last of the speech.
 
-By the time she lowered her phone, the three of them were gone.
+By the time the speech was over, the three of them were gone.
 
 ### Image page (right)
 
@@ -471,49 +471,49 @@ Alt text: A heavyset man in an ill-fitting suit and red glasses stands behind a 
 
 ## Spread 6
 
-Pages 13 to 14 | Part One: The Pothole | Words 292
+Pages 13 to 14 | Part One: The Pothole | Words 307
 
 ### Text page (left), verbatim
 
 ### The Park
 
-Lena found them on a bench by the fountain. Not hiding. Just sitting. The bald one on his phone. The short one eating a sandwich. The dark-haired one watching the fountain like it had told him a secret.
+Lena found them on a bench by the fountain. Not hiding. Just sitting. One of them was on his phone, one was eating a sandwich, and the one in the beanie was watching the fountain like it was about to tell him a secret.
 
 She stopped six feet away.
 
-“Hi. I’m Lena Marsh. I just moved back to town. The Mayor is full of crap, you guys know that, I know that, can we skip to the part where you tell me who actually fixed the pothole.”
+“Hi. I’m Lena Marsh. I just moved back to town. The Mayor is full of crap, but you guys already know that. We can skip to the part where you tell me who actually fixed the pothole.”
 
-The dark-haired one looked at the bald one. The bald one looked back. They had a whole conversation without saying anything.
+The one in the beanie looked at the one with the phone. The phone came down an inch. They had a whole conversation without saying anything.
 
-“Okay,” the dark-haired one said. “What do you want.”
+“Hello. Nice to meet you,” the one in the beanie said sarcastically. “What do you want from us?”
 
 “I told you.”
 
 “Why do you think we know.”
 
-“Because you were watching the Mayor lie. And because Baldy here has been recording for the last four minutes, including this conversation, which is fine, you can keep recording, but you should know I noticed.”
+“Because you were watching the Mayor closely. And baldy here has been recording for the last four minutes, which is fine, but you should know I noticed.”
 
-The bald guy lowered his phone. “Milo. She’s not bad.”
+The bald guy lowered his phone. “Milo. She’s pretty good at this.”
 
-“I know,” Milo said.
+“I know, Owen,” Milo said. "Scary good."
 
-The short one held out his sandwich. “You want some? Peanut butter and pickles.”
+The third one held out his sandwich. “I’m Felix. You want some? Peanut butter and pickles.”
 
 “No.”
 
 “Your loss.”
 
-Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of.”
+Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it's serious stuff.”
 
 “Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
 
-Milo and the bald guy looked at each other again.
+Milo and Owen looked at each other again.
 
-“We don’t,” the bald guy said.
+“We don’t,” Owen said.
 
 Lena pulled up the thumbnail she’d captured before the camera came off her windshield. Held it out.
 
-Milo looked at it. The bald guy looked at it. The short guy stopped chewing.
+Milo looked at it. Owen looked at it. Felix stopped chewing.
 
 ### Image page (right)
 
