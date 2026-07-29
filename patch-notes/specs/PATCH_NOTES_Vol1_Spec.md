@@ -100,35 +100,35 @@ Alt text: A small town of low houses seen from above before sunrise, streetlight
 
 ## Spread 1
 
-Pages 3 to 4 | Part One: The Pothole | Words 308
+Pages 3 to 4 | Part One: The Pothole | Words 351
 
 ### Text page (left), verbatim
 
 ### Aunt Carol’s House
 
-Aunt Carol’s house was on Crescent. Same yellow siding. Same chain link fence. Same ceramic frog by the front steps with one chipped ear. Lena Marsh dropped her bag on the porch and walked right in, because nobody in this town locked anything and because her aunt didn’t answer doors anyway.
+Aunt Carol’s house was on Crescent Street. It was the same yellow siding, the same chain link fence and the same ceramic frog by the front steps that she remembered. Lena Marsh dropped her bag on the porch and walked right in, because nobody in this town locked anything and because her aunt didn’t answer doors anyway.
 
 “I’m here,” she called.
 
-“Back bedroom,” Aunt Carol called from the living room. She was on the couch with her tablet, playing a match-three game with the volume on. She didn’t look up. “Your cousin’s old stuff is still in there. There’s a bed.”
+“Drop your stuff in the back bedroom,” Aunt Carol called from the living room. She was on the couch with her tablet, playing a match-three game with the volume on. She didn’t look up. “Sorry your cousin’s old stuff is still in there. But there’s a bed and it's all yours.”
 
 “Thanks for letting me stay.”
 
-“Don’t make it weird.”
+“Of course! Having you around will liven the place up a bit.”
 
-The back bedroom smelled like dust and a soccer trophy that had once been gold and was now sort of beige. Her cousin Derek had moved out years ago to do real estate in Miami. The walls still had his posters. Bands she’d never heard of. Athletes who’d probably retired by now. There was a dent in the closet door she remembered hiding from when she was little.
+The back bedroom smelled like dust and a soccer trophy that had once been gold was now sort of beige. Her cousin Derek had moved out years ago but the walls still had posters of bands she’d never heard of and athletes who’d probably retired by now. There was a dent in the door of the closet she remembered hiding in when she was little.
 
-She didn’t remember why.
+The place was full of good memories.
 
-Lena sat on the bed and opened her laptop. Her research folder filled the screen. Forum posts. Deleted news clips. Reddit threads with three replies and a vanished account. Nine months of work. Most of it junk. But there was a pattern, and she was the only one who’d noticed it.
+Lena sat on the bed and opened her laptop. Her research folder filled the screen with forum posts, deleted news clips, and Reddit threads with three replies. It reflected nine months of work with most of it leading nowhere. But there was a pattern, and she seems to be the only one who’d noticed it.
 
-Things in Millbrook didn’t stay the same. Small things. A stop sign at an intersection that wasn’t there last month, then was, with no city record of installing it. A house number that changed by one. A pothole on Main Street that everyone had complained about for two years, gone overnight.
+Things in Millbrook didn’t stay the same. Small things changed. A stop sign appeared at an intersection last month with no city record of installing it. A house number changed by one and somehow this was OK. A pothole on Main Street that everyone had complained about for two years was gone overnight.
 
-The Mayor had taken credit for the pothole. The Mayor took credit for everything.
+Nobody had worked on the pothole according to official records, but the Mayor had taken credit for the fix because the Mayor took credit for everything.
 
 Lena hit record.
 
-“Day one in Millbrook. We’re starting with the pothole.”
+“Day one in Millbrook. I'm starting with the pothole.”
 
 ### Image page (right)
 
@@ -158,7 +158,7 @@ Alt text: A teenage girl with a duffel bag at her feet stands at the bottom of a
 
 ## Spread 2
 
-Pages 5 to 6 | Part One: The Pothole | Words 226
+Pages 5 to 6 | Part One: The Pothole | Words 300
 
 ### Text page (left), verbatim
 
@@ -166,25 +166,25 @@ Pages 5 to 6 | Part One: The Pothole | Words 226
 
 Main Street did not have a pothole. That was the whole point.
 
-Lena set her phone on a tripod and tried to film a piece to camera, but a guy with a leaf blower kept going past, and a woman with a stroller asked if she was filming a commercial, and on the third interruption Lena gave up.
+Lena parked at the kerb right where the pothole used to be, left the driver’s window down because the afternoon was warm and because nobody in this town locked anything, and set her phone on a tripod on the sidewalk. She tried to record herself by the fresh patch of asphalt, but a guy with a leaf blower kept going past, and a woman with a stroller asked if she was filming a commercial. On the third interruption Lena gave up.
 
-That was when the dashcam came off her car.
+That was when she heard her own car door close.
 
-She turned because the back of her neck told her to. The small dashcam she’d suction-cupped to her windshield was already in someone else’s hand. A girl about her age. Short. Mint-green hair in two messy buns, one on either side of her head, tied off with red. Already three steps away. Walking, not running.
+She turned because her senses told her to. A girl about her age was walking away from the driver’s side with Lena’s dashcam in one hand, the suction cup still wet, the cable trailing. Short, mint-green hair in two messy buns, one on either side of her head, tied off with red. She was already three steps away. Walking, not running.
 
 “Hey. That’s mine.”
 
-The girl glanced back. Sharp eyes. Mouth that looked like it was about to say something rude. She didn’t say anything. She kept walking.
+The girl glanced back, her sharp eyes cutting the space between them like a laser. And her mouth looked like it was about to say something rude. But she didn’t say anything. She just kept walking.
 
-Lena chased her two blocks. The girl turned into an alley between a hardware store and a closed pizza place, and by the time Lena got to the alley, she was gone.
+Lena chased her for two blocks when the girl suddenly turned into an alley between a hardware store and a closed pizza place. By the time Lena got to the alley, she was gone.
 
-“Come on.”
+“Really? You've got to be kidding me!”
 
-Lena went back to her tripod. The tripod was still there. So was the woman with the stroller, holding it like she was waiting to scold someone.
+Lena went back to her car. The tripod was still there and so was the woman with the stroller, holding it like she was waiting to scold someone. The glove box was hanging open. Nothing else was missing.
 
 “You shouldn’t leave equipment lying around.”
 
-“Yeah. Got that.”
+“Yeah. I think you're right.”
 
 ### Image page (right)
 
