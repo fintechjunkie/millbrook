@@ -690,3 +690,16 @@ body {
     object-fit: contain;
   }
 }
+
+/* The reader's primer. Three entries side by side on a desktop so the whole frame is
+   takeable in one look, stacked below that because three columns of 14px prose on a
+   phone is four words a line. */
+.mb-primer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+  margin-top: 26px;
+}
+@media (min-width: 820px) {
+  .mb-primer-grid { grid-template-columns: repeat(3, 1fr); gap: 30px; }
+}

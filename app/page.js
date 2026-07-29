@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
 import { CastStrip } from '@/components/millbrook/CastStrip';
+import { Primer } from '@/components/millbrook/Primer';
 import { ComingShelf, Shelf } from '@/components/millbrook/Shelf';
 import {
   ARCS,
@@ -187,6 +188,11 @@ export default function Home() {
           of the masthead rather than as the first content section. Plate shows its
           labelled placeholder until site-cast.png exists. */}
       <CastStrip />
+
+      {/* Between the cast and the shelf. The terms it explains appear on the first text
+          page of Volume 1, so a reader needs them before the shelf, not after; and faces
+          earn attention while exposition spends it, so the cast goes first. */}
+      <Primer />
 
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
         {/* Each arc is one band of four volumes. The production totals that used to

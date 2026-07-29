@@ -635,7 +635,7 @@ Alt text: A dashcam taken apart on a cluttered counter beside a laptop, with its
 
 ## Spread 8
 
-Pages 17 to 18 | Part One: The Pothole | Words 323
+Pages 17 to 18 | Part One: The Pothole | Words 356
 
 ### Text page (left), verbatim
 
@@ -645,39 +645,39 @@ Vex tapped the laptop. The single dark frame stared back at her. “There’s al
 
 “You stole a tourist’s dashcam?”
 
-“She’s not a tourist.”
+“She’s not a tourist. She's staying with her Aunt.”
 
-Pip was quiet for a second, eyes tilted at the ceiling like she was reading something off it. “We’re going to talk about boundaries again.”
+Pip was quiet for a second, eyes tilted at the ceiling like she was reading something off it. “We should talk about boundaries again.”
 
-“We really aren’t.”
+“Nope. Boundaries are for suckers.”
 
 ### End Of Day One
 
-Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had gone to bed at nine. The house was quiet except for the refrigerator.
+Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had gone to bed at nine so the house was quiet except for the hum of the refrigerator.
 
-Her phone buzzed. Unknown number.
+Her phone buzzed with an incoming text from an unknown number.
 
-Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at nine. Bring coffee. Don’t bring those guys.
+The message said: "Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at 9am. Bring coffee and DON'T bring those guys."
 
-Lena read it twice. How did you get my number.
+Lena read it twice. She texted back. "How did you get my number."
 
-Reply, four seconds later.
+The reply came four seconds later.
 
-Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it.
+"Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it."
 
 Across town, Owen was looking at his map again. The arc glowed softly on the middle monitor. He’d added the pothole. The arc was a little more complete now, and the gap in the middle was clearly aiming somewhere.
 
-Monke was on the desk, face an inch from the glass.
+Monke was on the desk, his face an inch from the glass.
 
 “What are you looking at.”
 
-Monke pointed. Not at the arc this time. At the empty space inside it. There was a building there. The old elementary school, closed since the Event.
+Monke pointed. Not at the arc, but at the empty space inside it. There was an old elementary school there which had been closed since the Great Event.
 
-“Tomorrow,” Owen said. “Tomorrow we’ll look. Get off my desk.”
+“Tomorrow,” Owen said. “Tomorrow we’ll take a look. Now get off my desk!”
 
-Monke did not get off his desk. He sat down on the keyboard, which made the screen do something unhelpful, and he stayed there for the rest of the night.
+Monke did not get off the desk. He sat down on the keyboard, which made the screen do something unhelpful, and he stayed there for the rest of the night.
 
-Outside, somewhere across town, the streetlight across from Aunt Carol’s house went off for one frame, then on again, and nobody saw it.
+Outside, somewhere across town, the streetlight across from Aunt Carol’s house went off for a fraction of a second, then on again, and nobody saw it.
 
 *To be continued in Part Two: The Bookstore That Was Always There*
 

@@ -431,6 +431,35 @@ across two volumes, and Part D1 puts permanent items there.
 
 ---
 
+## 4.1 The Great Event
+
+**Established 2026-07-29, and it is canon rather than website copy.** The prose names it three
+times and never explains it, correctly: every character was there, so none of them would ever
+explain it to another. That works inside the book and strands a reader outside it, which is why
+a primer now sits on the landing page. This is the version it is built on.
+
+**Twelve years ago, on an ordinary Thursday afternoon in October, every clock in Millbrook lost
+the same ninety seconds.** The elementary school on the east side was emptied that afternoon and
+never reopened. A chain link fence went up around its six acres within a week and has never come
+down. Nobody was hurt, no building fell, and nobody in Millbrook remembers being frightened.
+What the town lost was not really the ninety seconds. It was the habit of asking about them.
+
+**The ninety seconds is the load-bearing part and it was already in the text.** Volume 1 spread
+4: *"The traffic cam at Main and Birch went dark for ninety seconds and when it came back, the
+pothole was gone."* The Event and every patch since share one signature, which means the Event
+was the first patch and the largest, and the reason the town can be patched at all. That
+connection was sitting in the draft unremarked; naming the Event this way makes it retroactive
+rather than invented.
+
+It also explains, without any new machinery, three things the prose already relies on: why the
+school is fenced and central, why residents cannot hold a change in mind long enough to question
+it, and why a man in a navy dress uniform turns up in Volume 4 and does not take his mask off.
+
+**What stays unwritten, and must.** What was switched on, who switched it, what is in the walls,
+why it talks to Pip, and what is left standing inside the fence. The primer gives the reader only
+what a resident could tell them. Nothing above may be contradicted by later prose; nothing below
+it may be revealed early.
+
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.
