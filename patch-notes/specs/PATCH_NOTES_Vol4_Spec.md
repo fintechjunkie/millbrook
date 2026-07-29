@@ -9,9 +9,43 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 2 | Object 2 | Action 2 | Atmospheric 2
+Establishing 2 | Character portrait 5 | Object 1 | Action 2 | Atmospheric 1
 
-No three consecutive spreads share a shot type. Verified.
+No three consecutive spreads share a shot type. Verified after the reframes below.
+
+## Rebuilt character-forward, 2026-07-29
+
+Volume 4 arrived the thinnest of the four on faces: four named figures across ten plates,
+with five plates carrying nobody at all. That is the wrong shape for the volume where the
+arc pays off, and it left three of the arc's best scenes illustrated by furniture.
+
+Three reframes, all on the same principle used in Volume 3 — spend the plate on the scene
+the page is actually about:
+
+| Spread | Was | Now |
+|---|---|---|
+| 2 | The countdown device alone on a bench | **Felix presenting it, tired and delighted, with Pip silent in the corner behind him** |
+| 3 | A passing child on a bicycle, Lena and Pip cropped out and out of focus | **Lena and Pip on the kerb, both faces clear, the child demoted to the background** |
+| 8 | The empty hotel room the last view came from | **The woman in the green cardigan on a phone with no buttons, at three in the morning** |
+
+Spread 3 was the worst of the three and the clearest to call. Its page is the conversation
+where Pip admits the thing in the walls talks to her and that she has not told it whose side
+she is on. The image threw both speakers out of focus to hold a passing extra sharp.
+
+**Spread 7 was deliberately left as an object study.** *Owen moved his energy drink cans to
+make room* is the most eloquent line in the volume and it is wordless acceptance — a face
+would explain it and spoil it. It is also now the volume's only object plate, which is the
+right one to keep.
+
+**Spreads 4 and 9 also stay unpeopled, for different reasons.** Spread 4 is the crowd filling
+the square, where the crowd is the subject. Spread 9 is protected by the guardrail in Monke's
+roster block: he is absent from the arc's final image although he is the subject of its last
+paragraph, and the drawer must be shut.
+
+**Whole-set consequence.** These three trade one object and one atmospheric for three
+portraits, which pushes the set further from Part C3's bands in the same direction Volumes 1
+and 3 already did. The recommendation in Volume 1's spec stands: re-set the bands to what a
+character-forward book wants rather than keep logging exceptions. Still the author's call.
 
 ---
 
@@ -152,24 +186,43 @@ Pip looked at the floor. Then she looked at Vex. Then she looked at Lena. Then, 
 ### Image page (right)
 
 Slug: vol4-s02
-Shot type: Object or detail
-Depicts: Beat 2. Felix's countdown device on the bench after twelve hours of work.
-Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; no figures in frame and the device shows no readable numerals.
+Shot type: Character portrait
+Depicts: Beat 2. Felix showing the countdown device he has just spent twelve hours building, with Pip silent in the corner behind him.
+Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; her mouth is closed, she is looking at the floor rather than at anybody, nothing in the frame refers to the Mayor, and the device shows no readable numerals.
+
+Hard constraints: The device shows NO legible numerals or characters of any kind on its
+display; it is a dark panel. Felix reads TIRED AND DELIGHTED at the same time, not merely
+cheerful and not sad. Pip is behind him and OUT OF THE CONVERSATION: seated, hands
+symmetrical, looking at the floor, unnaturally still, her expression closed rather than
+sad. Exactly two figures. Felix has a short upright black afro, round red-framed glasses
+with clear lenses and a faded teal work jacket.
+
+**Reframed to be character-forward.** It was the device alone on a bench. Felix has had one
+image in the entire arc, this is his moment in it, and an object cannot be tired and happy
+at the same time, which is the thing the prose says about him.
+
+Putting Pip in the same frame is the real gain. The page is Felix's triumph and Pip's dread
+happening in one room, and the reader is meant to notice her silence before it is
+explained. A wide two-shot delivers that in a glance; two separate images could not.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:FELIX}}
+{{WARDROBE:FELIX_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
 {{LOC:WAREHOUSE_SHOP}}
-A handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.
+A teenage boy standing at a scarred workbench holding a handmade device up in front of him in both hands, presenting it to people out of frame rather than looking at it himself. The device is roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters on it. His shoulders are down and his eyes are heavy but he is plainly delighted, the specific tiredness of somebody who has been up all night on purpose. Solder spool, cutters and a cold half-drunk mug on the bench beside him. Behind him and to one side, a robot girl sits on a plain spare chair pulled into the corner, feet level, hands loose and symmetrical in her lap, head tipped down, looking at the floor and not at him, entirely still and entirely closed off. Exactly two figures in frame.
 Interior, morning.
-Close shot, camera low and level with the bench, very shallow depth on the display panel.
-Single clamp lamp from the upper left, hard small shadows, dust visible.
+Wide medium shot from the side of the bench so both figures read at once, camera at chest height, moderate depth so the boy is sharp and the seated girl behind him stays clearly legible.
+Single clamp lamp from the upper left picking out the device and his face, the corner behind her falling into cooler shadow but never to black, dust visible in the beam.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools.
+Alt text: A tired but delighted teenage boy holds up a handmade device at a workbench while a robot girl sits silently in the corner behind him, looking at the floor.
 
 ---
 
@@ -216,24 +269,45 @@ Lena thought about that for a while.
 ### Image page (right)
 
 Slug: vol4-s03
-Shot type: Action moment
-Depicts: Beat 6. The kid on the bike going past with a backpack too big for him.
-Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; the two seated figures are cropped and out of focus and the image carries none of the conversation.
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 4. Lena and Pip on the kerb outside the Warehouse, mid-conversation, as the kid on the bike goes past behind them.
+Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; they are still talking, both are turned toward each other rather than staring away, and nothing in the frame carries the content of what Pip has admitted.
+
+Hard constraints: EXACTLY TWO NAMED FIGURES, Lena and Pip, seated side by side on the kerb,
+and BOTH FACES CLEARLY VISIBLE. The child on the bicycle is a third figure but he is small,
+far back across the road, seen from behind, and HIS FACE IS NOT VISIBLE and not a focal
+point; he must not read as a portrait. Pip sits a shade too level and too symmetrical
+beside the slouch of the other girl, and that contrast is the picture. Pip's seams are
+clearly visible at the jaw, neck and at least two limb joints.
+
+**Reframed to be character-forward.** It was the child on the bike, with Lena and Pip
+cropped out of frame and thrown out of focus. That inverted the page. This is the
+conversation where Pip admits the thing in the walls talks to her and that she has not told
+it whose side she is on, and it is one of the two or three most important scenes in the arc.
+Spending its only image on a passing extra was the wrong call.
+
+The kid stays, small and in the background, because he is what the scene is doing while they
+talk and because Pip's late wave is the whole of her in one gesture. He is demoted rather
+than deleted.
 
 Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_D}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
 {{LOC:WAREHOUSE_EXT}}
-A young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.
+Two eighteen year old girls sitting side by side on a concrete kerb outside a low brick industrial building, turned slightly toward each other, mid-conversation. The one on the left sits the way a tired person sits, elbows on her knees, shoulders rounded, hands loose, looking sideways at the other with a careful searching expression. The one on the right is a robot and sits noticeably too level and too symmetrical, back straight, both feet flat and side by side, hands placed identically on her knees, meeting the other girl's look without any defensiveness in it; one of her hands has just begun to lift in a small wave, a beat later than it should have. Far back across the road behind them, small in the frame, a young child rides a bicycle past with a backpack much too large for him, one hand off the bars, seen from behind so his face is not visible. He is a background detail and not a subject. Exactly two named figures in the foreground.
 Exterior, early afternoon.
-Medium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.
-High hard afternoon sun, short crisp shadows on the asphalt.
+Medium two-shot from across the pavement, camera low at seated height so their faces read against the wall behind them, moderate depth so both faces stay sharp and the child behind softens without disappearing.
+High hard afternoon sun from the front right, short crisp shadows on the asphalt, both faces in clear light with neither in shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb.
+Alt text: Two teenage girls sit side by side on a kerb outside a brick building, talking, one slouched and one sitting unnaturally straight, while a child on a bicycle rides past in the distance.
 
 ---
 
@@ -514,24 +588,54 @@ She looked up, through the window, at the empty street. There was nobody there. 
 ### Image page (right)
 
 Slug: vol4-s08
-Shot type: Atmospheric or empty
-Depicts: Beat 4. The hotel room the last view comes from.
-Spoiler check: PASS. Final beat is the woman in the bookshop looking up at nothing. Not depicted; the bookshop does not appear.
+Shot type: Character portrait
+Depicts: Beat 7. The woman in the green cardigan behind her counter at three in the morning, listening to the phone that has no buttons and no cord.
+Spoiler check: PASS, and it is a narrow pass worth stating. The final beat is her looking up through the window at an empty street for no reason. NOT depicted: she is looking down at the counter, the window is behind her and out of the frame, and she is mid-listen rather than finished. The drawer the phone ends up in is also not in frame, which keeps Spread 9 intact.
+
+Hard constraints: THE PHONE HAS NO BUTTONS, NO KEYPAD, NO SCREEN AND NO CORD. It is a plain
+smooth handset-shaped object, and the ONLY light it emits is a soft glow at its lower end.
+She is LISTENING, not speaking: mouth closed, head slightly inclined, eyes down. She is NOT
+looking up and NOT looking at the window. No window is visible. No animal anywhere in the
+frame and the high shelf above the cookbooks is out of shot. The shop is closed but every
+lamp is on. Her green cardigan has ONE button, the third from the top, in a slightly
+different green from the rest.
+
+**Reframed, and this is the biggest single upgrade available in Volume 4.** It was the empty
+hotel room the last view came from. That image is fine and the sentence behind it is good,
+but it is the fourth unpeopled plate in a ten-plate volume and it spends the arc's
+cliffhanger on furniture.
+
+The page contains the reveal that the pleasant woman who has been selling books since
+Volume 2 is reporting on the children to something that is not a person. Putting her on the
+page, lit, calm, unbothered, holding an object that should not exist, is the image that
+makes a reader turn back through the book. She has had no plate in the arc until now.
+
+**The trade, stated rather than hidden.** This retires the Crane thread's second image;
+Admiral Crane now appears once, at Spread 5. The displaced hotel-room prompt is written and
+spoiler-checked above and can be recovered if a later pass wants it.
+
+**Why the glow is specified so tightly.** The prose says the light is *a soft pale color that
+did not match any color the human eye usually sees*, which no prompt can literally deliver.
+Asking for one small soft glow and forbidding every ordinary phone feature gets closer than
+asking for an impossible colour, because what unsettles is the absence of buttons rather than
+the hue.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:HOTEL_ROOM}}
-A tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.
-Interior, late night.
-Medium-wide shot from the doorway, camera at standing height, deep focus.
-Laptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.
+{{CHAR:GREEN_CARDIGAN_WOMAN}}
+{{WARDROBE:CARDIGAN_A}}
+{{LOC:HOLLOW_PINE_INT}}
+A woman of about sixty standing behind the wooden counter of a closed second-hand bookshop in the middle of the night, holding a smooth handset-shaped object to her ear with one hand. The object has no buttons, no keypad, no screen and no cord, and a soft pale glow comes from its lower end and lights the underside of her jaw and her hand. Her other hand rests flat and relaxed on the counter. She is listening rather than speaking: mouth closed, head inclined a little, eyes lowered to the counter in front of her. Her expression is calm and faintly pleasant, entirely untroubled, the face of somebody receiving ordinary instructions. Every lamp in the shop is lit and there is nobody else in the room. No window is visible in the frame, no high shelf is visible, and there is no animal anywhere.
+Interior, three in the morning.
+Medium shot from in front of the counter, camera at chest height and slightly to one side, moderate depth so her face and the object both read and the shelving behind her stays legible.
+Warm lamplight through the shop from behind and above her, plus the small cold pale glow of the object under her jaw, the two sources meeting on her face and not agreeing with each other.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed.
+Alt text: A woman in a green cardigan stands behind the counter of a lit but closed bookshop at night, listening to a smooth handset with no buttons that glows faintly at one end.
 
 ---
 

@@ -89,6 +89,139 @@ Alt text, already written, do not regenerate: A girl sits forward on a couch wat
 
 ---
 
+### [ ] vol4-s03 — spread 3
+
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 4. Lena and Pip on the kerb outside the Warehouse, mid-conversation, as the kid on the bike goes past behind them.
+Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; they are still talking, both are turned toward each other rather than staring away, and nothing in the frame carries the content of what Pip has admitted.
+Named figures: Lena, Pip (2 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-lena-canonical.png` — Lena
+- `char-pip-canonical.png` — Pip
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- EXACTLY TWO NAMED FIGURES, Lena and Pip, seated side by side on the kerb, and BOTH FACES CLEARLY VISIBLE.
+- The child on the bicycle is a third figure but he is small, far back across the road, seen from behind, and HIS FACE IS NOT VISIBLE and not a focal point; he must not read as a portrait.
+- Pip sits a shade too level and too symmetrical beside the slouch of the other girl, and that contrast is the picture.
+- Pip's seams are clearly visible at the jaw, neck and at least two limb joints.
+CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven side ponytail** high on her left side, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single off-centre ponytail is her dominant silhouette and it must never be centred or split into a matched pair. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
+CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, worn loose, with a pair of small round aviator goggles resting on top of the head and a red bandana knotted at the **neck** as a neckerchief. **See the note below: the delivered plates disagree with this and the point is open.** Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
+Two eighteen year old girls sitting side by side on a concrete kerb outside a low brick industrial building, turned slightly toward each other, mid-conversation. The one on the left sits the way a tired person sits, elbows on her knees, shoulders rounded, hands loose, looking sideways at the other with a careful searching expression. The one on the right is a robot and sits noticeably too level and too symmetrical, back straight, both feet flat and side by side, hands placed identically on her knees, meeting the other girl's look without any defensiveness in it; one of her hands has just begun to lift in a small wave, a beat later than it should have. Far back across the road behind them, small in the frame, a young child rides a bicycle past with a backpack much too large for him, one hand off the bars, seen from behind so his face is not visible. He is a background detail and not a subject. Exactly two named figures in the foreground.
+Exterior, early afternoon.
+Medium two-shot from across the pavement, camera low at seated height so their faces read against the wall behind them, moderate depth so both faces stay sharp and the child behind softens without disappearing.
+High hard afternoon sun from the front right, short crisp shadows on the asphalt, both faces in clear light with neither in shadow.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s03.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: Two teenage girls sit side by side on a kerb outside a brick building, talking, one slouched and one sitting unnaturally straight, while a child on a bicycle rides past in the distance.
+
+---
+
+## PIP
+
+Canonical reference: `char-pip-canonical.png` · approved: no
+
+**Rendering note.** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
+
+### [ ] vol4-s02 — spread 2
+
+Shot type: Character portrait
+Depicts: Beat 2. Felix showing the countdown device he has just spent twelve hours building, with Pip silent in the corner behind him.
+Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; her mouth is closed, she is looking at the floor rather than at anybody, nothing in the frame refers to the Mayor, and the device shows no readable numerals.
+Named figures: Pip, Felix (2 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-felix-canonical.png` — Felix
+- `char-pip-canonical.png` — Pip
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- The device shows NO legible numerals or characters of any kind on its display; it is a dark panel.
+- Felix reads TIRED AND DELIGHTED at the same time, not merely cheerful and not sad.
+- Pip is behind him and OUT OF THE CONVERSATION: seated, hands symmetrical, looking at the floor, unnaturally still, her expression closed rather than sad.
+- Exactly two figures.
+- Felix has a short upright black afro, round red-framed glasses with clear lenses and a faded teal work jacket.
+CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
+Wardrobe, unchanged for this scene: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock
+CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, worn loose, with a pair of small round aviator goggles resting on top of the head and a red bandana knotted at the **neck** as a neckerchief. **See the note below: the delivered plates disagree with this and the point is open.** Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
+SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
+A teenage boy standing at a scarred workbench holding a handmade device up in front of him in both hands, presenting it to people out of frame rather than looking at it himself. The device is roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters on it. His shoulders are down and his eyes are heavy but he is plainly delighted, the specific tiredness of somebody who has been up all night on purpose. Solder spool, cutters and a cold half-drunk mug on the bench beside him. Behind him and to one side, a robot girl sits on a plain spare chair pulled into the corner, feet level, hands loose and symmetrical in her lap, head tipped down, looking at the floor and not at him, entirely still and entirely closed off. Exactly two figures in frame.
+Interior, morning.
+Wide medium shot from the side of the bench so both figures read at once, camera at chest height, moderate depth so the boy is sharp and the seated girl behind him stays clearly legible.
+Single clamp lamp from the upper left picking out the device and his face, the corner behind her falling into cooler shadow but never to black, dust visible in the beam.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s02.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A tired but delighted teenage boy holds up a handmade device at a workbench while a robot girl sits silently in the corner behind him, looking at the floor.
+
+---
+
 ## ADMIRAL CRANE
 
 Canonical reference: `char-crane-canonical.png` · approved: no
@@ -205,6 +338,76 @@ Alt text, already written, do not regenerate: An elderly man rises out of a fold
 
 ---
 
+## GREEN CARDIGAN WOMAN
+
+Canonical reference: `char-cardigan-canonical.png` · approved: no
+
+**Rendering note.** Never render her as sinister. The mismatched button is the only thing in the frame that is wrong, and it should be legible without being pointed at.
+
+### [ ] vol4-s08 — spread 8
+
+Shot type: Character portrait
+Depicts: Beat 7. The woman in the green cardigan behind her counter at three in the morning, listening to the phone that has no buttons and no cord.
+Spoiler check: PASS, and it is a narrow pass worth stating. The final beat is her looking up through the window at an empty street for no reason. NOT depicted: she is looking down at the counter, the window is behind her and out of the frame, and she is mid-listen rather than finished. The drawer the phone ends up in is also not in frame, which keeps Spread 9 intact.
+Named figures: the woman in the green cardigan (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-cardigan-canonical.png` — the woman in the green cardigan
+- `loc-hollow-pine-int.png` — location, hollow pine int
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- THE PHONE HAS NO BUTTONS, NO KEYPAD, NO SCREEN AND NO CORD.
+- It is a plain smooth handset-shaped object, and the ONLY light it emits is a soft glow at its lower end.
+- She is LISTENING, not speaking: mouth closed, head slightly inclined, eyes down.
+- She is NOT looking up and NOT looking at the window.
+- No window is visible.
+- No animal anywhere in the frame and the high shelf above the cookbooks is out of shot.
+- The shop is closed but every lamp is on.
+- Her green cardigan has ONE button, the third from the top, in a slightly different green from the rest.
+CHARACTER: the woman in the green cardigan. Use the attached canonical reference image "char-cardigan-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A woman of about sixty, average height and comfortably built, fair skin with fine lines, a soft round face, warm brown eyes, faded eyebrows, a small nose, and a genuinely warm smile that sits easily on her. Salt-and-pepper hair gathered in a low bun at the nape. Reading glasses on a chain. She wears a soft green cardigan on which one button, the third from the top, is a slightly different green from the rest.
+Wardrobe, unchanged for this scene: Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain
+SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
+The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
+A woman of about sixty standing behind the wooden counter of a closed second-hand bookshop in the middle of the night, holding a smooth handset-shaped object to her ear with one hand. The object has no buttons, no keypad, no screen and no cord, and a soft pale glow comes from its lower end and lights the underside of her jaw and her hand. Her other hand rests flat and relaxed on the counter. She is listening rather than speaking: mouth closed, head inclined a little, eyes lowered to the counter in front of her. Her expression is calm and faintly pleasant, entirely untroubled, the face of somebody receiving ordinary instructions. Every lamp in the shop is lit and there is nobody else in the room. No window is visible in the frame, no high shelf is visible, and there is no animal anywhere.
+Interior, three in the morning.
+Medium shot from in front of the counter, camera at chest height and slightly to one side, moderate depth so her face and the object both read and the shelving behind her stays legible.
+Warm lamplight through the shop from behind and above her, plus the small cold pale glow of the object under her jaw, the two sources meeting on her face and not agreeing with each other.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s08.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A woman in a green cardigan stands behind the counter of a lit but closed bookshop at night, listening to a smooth handset with no buttons that glows faintly at one end.
+
+---
+
 ## LOCATIONS AND OBJECTS, no named character
 
 ### [ ] vol4-opener — chapter opener
@@ -253,102 +456,6 @@ Aspect ratio: 2:1
 Save as: **`vol4-opener.png`** · aspect 2:1
 
 Alt text, already written, do not regenerate: Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind.
-
----
-
-### [ ] vol4-s02 — spread 2
-
-Shot type: Object or detail
-Depicts: Beat 2. Felix's countdown device on the bench after twelve hours of work.
-Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; no figures in frame and the device shows no readable numerals.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
-A handmade device on a scarred workbench, roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters. Around it, solder spool, cutters, a cold half-drunk mug. No figures.
-Interior, morning.
-Close shot, camera low and level with the bench, very shallow depth on the display panel.
-Single clamp lamp from the upper left, hard small shadows, dust visible.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol4-s02.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A handmade device the size of a kitchen timer sits on a scarred workbench among solder and tools.
-
----
-
-### [ ] vol4-s03 — spread 3
-
-Shot type: Action moment
-Depicts: Beat 6. The kid on the bike going past with a backpack too big for him.
-Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; the two seated figures are cropped and out of focus and the image carries none of the conversation.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
-A young child riding a bicycle past on the road with a backpack visibly too large for him, one hand off the bars in a wave, caught mid pedal. In the near foreground, cropped at the bottom of frame and thrown well out of focus, the shoulders of two figures seated on a curb, faces not visible.
-Exterior, early afternoon.
-Medium-wide shot from the curb, camera very low, shallow depth holding the cyclist sharp.
-High hard afternoon sun, short crisp shadows on the asphalt.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol4-s03.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A child on a bicycle with an oversized backpack waves as he rides past, seen over two out-of-focus figures sitting on a curb.
 
 ---
 
@@ -447,54 +554,6 @@ Aspect ratio: 3:2
 Save as: **`vol4-s07.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop.
-
----
-
-### [ ] vol4-s08 — spread 8
-
-Shot type: Atmospheric or empty
-Depicts: Beat 4. The hotel room the last view comes from.
-Spoiler check: PASS. Final beat is the woman in the bookshop looking up at nothing. Not depicted; the bookshop does not appear.
-
-**Attach:** nothing. No named figure and no recurring location in this frame.
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.
-A tidy budget hotel room at night, a navy dress uniform jacket heavy with medals hanging in an open closet, an open laptop on the made bed throwing light at the ceiling, screen content not legible. No figures present.
-Interior, late night.
-Medium-wide shot from the doorway, camera at standing height, deep focus.
-Laptop glow as the main source from low on the bed, one weak bedside lamp, the closet in cold half light.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol4-s08.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A tidy hotel room at night with a medal-heavy navy uniform hanging in an open closet and an open laptop glowing on the bed.
 
 ---
 
