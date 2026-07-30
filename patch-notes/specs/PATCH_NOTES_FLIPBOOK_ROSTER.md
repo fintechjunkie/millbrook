@@ -406,19 +406,26 @@ not *wide grey-blue*; the eyebrows are dark, not *fine light*; the mouth is clos
 slightly downturned, not *soft and resting slightly open*; the hair falls to the jaw with
 the ends turning out, not *to the shoulders*; and freckles were not previously mentioned.
 
-**The ear is settled: LEFT.** It was briefly written as *behind one ear* because the
-canonical shows her head turned and which of her ears carried the aid could not be read
-off the image with confidence. The project's own
-`MILLBROOK_SECONDARY_CHARACTER_LOCKS.md` states it outright — *hearing aid behind the
-left ear* — which agrees with the prose, and the prose says it three times. Volume 3
-spread 2 has *"one hearing aid visible behind her left ear"*, and Volume 3 spread 3 is
-built entirely around Pip resting *"two fingertips ... just behind the seated girl's
-left ear"*.
+**The ear is settled: RIGHT. Reversed on author instruction, 2026-07-30, and this overrides an
+explicit lock.** It was LEFT until now, and the reasoning for LEFT was not weak: the
+project’s own `MILLBROOK_SECONDARY_CHARACTER_LOCKS.md` said *hearing aid behind the left ear*
+in its anchor list, repeated it in the mandatory prompt block, and gated it in the approval
+checklist as a reject criterion. The prose agreed with it in three places.
 
-Worth noting why this was worth stopping over rather than guessing at: had the guess
-gone the other way, every Cassie prompt would have inherited the wrong side and the
-spread 3 image would have landed on the wrong spot on her head, in the one image where
-the exact spot is the subject.
+**Both delivered plates show it on her right.** `vol3-s02b` and `vol3-s03` put the aid on the
+viewer’s left of a near-frontal head, which is her right ear, and `vol3-s03` confirms it
+independently of any reading of her face: Pip is seated at Cassie’s viewer-left, which is her
+right-hand side, and that is the ear Pip reaches for. The two plates agree with each other.
+
+So this was a real conflict between a locked spec and delivered art, not the usual case of stale
+prose. The author chose the art. Every reference was changed in the same pass -- the two Volume 3
+prose mentions, four image blocks, `CASSIE_A`, `CASSIE_B`, and all three statements in the lock
+file -- because leaving any one of them saying LEFT would recreate exactly the failure that
+produced Vex’s single bun: one wrong line surviving in the document that feeds the prompts,
+invisible because everything around it was right.
+
+The alternative was regenerating two delivered plates, and it was available. If the lock is ever
+restored to LEFT, those two plates have to be regenerated with it.
 
 The lock file also names her cap **teal knit**, where the canonical reads as a soft flat
 cap. The wardrobe entry below follows the canonical on shape and the lock file on colour.
@@ -606,8 +613,8 @@ of the token split and it is worth not eroding.
 | `{{WARDROBE:MAYOR_A}}` | Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket | Vols 1 to 3 |
 | `{{WARDROBE:MAYOR_B}}` | The same ill-fitting purple suit and red pocket square, but a conspicuously **new** tie, stiff and bright and still holding its fold creases, replacing the polka-dot one | Vol 4 only |
 | `{{WARDROBE:CRANE_A}}` | Navy dress uniform, full medals, pale blue medical mask | all |
-| `{{WARDROBE:CASSIE_A}}` | Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props | Vol 3 |
-| `{{WARDROBE:CASSIE_B}}` | The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid behind her left ear is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
+| `{{WARDROBE:CASSIE_A}}` | Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her right ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props | Vol 3 |
+| `{{WARDROBE:CASSIE_B}}` | The same cap, top, dungarees and sneakers, plus large over-ear headphones worn over the cap. The hearing aid behind her right ear is still present and still visible beneath them. Holding a folded sheet of paper with handwriting that is not legible | Vol 4 |
 | `{{WARDROBE:HENDERSON_A}}` | Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet** | Vol 3, Tuesday morning |
 | `{{WARDROBE:HENDERSON_B}}` | The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue | Vol 3 afternoon onward, and Vol 4 |
 | `{{WARDROBE:CARDIGAN_A}}` | Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain | all |

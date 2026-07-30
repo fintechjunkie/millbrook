@@ -113,8 +113,8 @@
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 181,
-      "words": 179,
+      "declaredWords": 236,
+      "words": 234,
       "blocks": [
         {
           "t": "h",
@@ -138,6 +138,14 @@
         },
         {
           "t": "p",
+          "v": "“Is she okay.”"
+        },
+        {
+          "t": "p",
+          "v": "“She’s not hurt.” Something moved behind Vex’s voice, wind or traffic or both. “It’s not that kind of okay.”"
+        },
+        {
+          "t": "p",
           "v": "“Who is Cassie.”"
         },
         {
@@ -146,11 +154,19 @@
         },
         {
           "t": "p",
+          "v": "“Vex, it’s nine fifteen in the morning. Can you at least tell me what I’m walking into.”"
+        },
+        {
+          "t": "p",
+          "v": "“No.” Then, after a second, in a voice Lena had not heard her use before: “Please.”"
+        },
+        {
+          "t": "p",
           "v": "Vex had never once asked Lena for anything. Lena worked that out somewhere on the walk over, and walked faster."
         },
         {
           "t": "p",
-          "v": "Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her left ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud."
+          "v": "Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her right ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud."
         },
         {
           "t": "p",
@@ -177,8 +193,8 @@
       "n": 3,
       "kind": "spread",
       "pages": "7 to 8",
-      "declaredWords": 159,
-      "words": 159,
+      "declaredWords": 267,
+      "words": 267,
       "blocks": [
         {
           "t": "p",
@@ -190,11 +206,23 @@
         },
         {
           "t": "p",
+          "v": "Cassie looked at Vex first rather than at Lena, and waited until Vex nodded before she started. Whatever the arrangement between those two was, it had been made before Lena got there."
+        },
+        {
+          "t": "p",
           "v": "“I woke up,” Cassie said. “And I could hear my mom in the kitchen, and the dog two doors down, and a guy yelling at his dog four blocks away, and the freezer compressor at the corner store, and the bus on Crescent. All at the same time. I can hear all of it right now. Your shoes have a squeak in them. The left one. There’s a wasp in the wall above that vent. The thing in your jacket pocket is buzzing on silent.”"
         },
         {
           "t": "p",
           "v": "Lena pulled her phone out of her jacket pocket. It was buzzing on silent."
+        },
+        {
+          "t": "p",
+          "v": "She turned it face down on the arm of the couch and left it there. Her camera was in her bag and it was going to stay in her bag, and she decided that twice on purpose, because the first time had not felt like it would hold."
+        },
+        {
+          "t": "p",
+          "v": "It was the best story she had found since she got to Millbrook, and it was a fifteen-year-old girl on a couch who had not agreed to anything."
         },
         {
           "t": "p",
@@ -208,7 +236,7 @@
         "depicts": "Beat 3. What Cassie is hearing while she lists it — the wasp in the wall, the freezer compressor, the phone buzzing on silent in Lena’s pocket.",
         "spoilerCheck": "HOLD ONE THING. The rings must read as SOUND and nothing else. They must not read as a signal, a transmission or a network, must have no source and no direction, and nothing in the walls may be visible. That the patches live on a frequency, and that something is in the wiring, are both later reveals.",
         "hardConstraints": "The rings are thin, soft-edged, translucent and colourless, like ripples on water seen from above, and they clearly pass through solid objects. They are never beams, never rays, never coloured and never bright. No source glows. No machinery, wiring or device is visible anywhere in the frame. The room is lit as ordinary warm daylight.",
-        "prompt": "{{STYLE}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nA fifteen-year-old girl sitting upright on a worn couch, filling the near half of the frame, seen slightly from the side. One hearing aid sits behind her left ear and the other lies in her open palm on her knee. She is not crying but has been, and her eyes are wide and fixed on nothing in particular, her shoulders slightly raised as though braced. Her expression is overwhelmed rather than frightened. Behind and around her the room is drawn normally, except that faint pale concentric rings spread outward through it from several separate ordinary places at once, overlapping each other where they cross: from a small point inside the wall behind her, from a chest freezer far off through the doorway, from a coat pocket on a chair nearby, from somewhere beyond the far wall. Exactly one figure in frame.\nInterior, mid-morning.\nMedium close portrait from just off her eyeline, camera at seated eye level, shallow enough depth that she is crisp and the ringed room behind her is soft.\nBright and warm and completely ordinary. Generous daylight from high windows so her face and the whole room read at full colour, with no dramatic shadow and no coloured light. The rings are the only unusual element and they are pale and low-contrast against a normally lit room.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "prompt": "{{STYLE}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nA fifteen-year-old girl sitting upright on a worn couch, filling the near half of the frame, seen slightly from the side. One hearing aid sits behind her right ear and the other lies in her open palm on her knee. She is not crying but has been, and her eyes are wide and fixed on nothing in particular, her shoulders slightly raised as though braced. Her expression is overwhelmed rather than frightened. Behind and around her the room is drawn normally, except that faint pale concentric rings spread outward through it from several separate ordinary places at once, overlapping each other where they cross: from a small point inside the wall behind her, from a chest freezer far off through the doorway, from a coat pocket on a chair nearby, from somewhere beyond the far wall. Exactly one figure in frame.\nInterior, mid-morning.\nMedium close portrait from just off her eyeline, camera at seated eye level, shallow enough depth that she is crisp and the ringed room behind her is soft.\nBright and warm and completely ordinary. Generous daylight from high windows so her face and the whole room read at full colour, with no dramatic shadow and no coloured light. The rings are the only unusual element and they are pale and low-contrast against a normally lit room.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A girl sits on a couch holding a hearing aid in her open palm, while faint pale rings spread through the room behind her."
       }
@@ -234,7 +262,7 @@
         },
         {
           "t": "p",
-          "v": "Pip put two fingertips just behind Cassie’s left ear, very lightly, for about three seconds. Then she sat back on her heels."
+          "v": "Pip put two fingertips just behind Cassie’s right ear, very lightly, for about three seconds. Then she sat back on her heels."
         },
         {
           "t": "p",
@@ -297,10 +325,10 @@
       "image": {
         "slug": "vol3-s03",
         "shotType": "Action moment",
-        "depicts": "Beat 2. Pip kneeling in front of Cassie with two fingertips just behind her left ear.",
+        "depicts": "Beat 2. Pip kneeling in front of Cassie with two fingertips just behind her right ear.",
         "spoilerCheck": "PASS. Final beat is Felix's conclusion that the patches are payment. Not depicted; the map is not in frame and Felix is absent.",
         "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nOne girl kneeling on the floor in front of another who is seated, reaching up with two fingertips resting very lightly on the skin just behind the seated girl's left ear. The kneeling girl's face is calm and measuring rather than tender. Exactly two named figures in frame and no others.\nInterior, mid morning.\nMedium close two shot from the side at kneeling height, shallow depth carried on the touching fingertips.\nSoft directional window light from behind the seated girl, the kneeling girl's face in cool fill.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "prompt": "{{STYLE}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nOne girl kneeling on the floor in front of another who is seated, reaching up with two fingertips resting very lightly on the skin just behind the seated girl's right ear. The kneeling girl's face is calm and measuring rather than tender. Exactly two named figures in frame and no others.\nInterior, mid morning.\nMedium close two shot from the side at kneeling height, shallow depth carried on the touching fingertips.\nSoft directional window light from behind the seated girl, the kneeling girl's face in cool fill.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A girl kneels in front of a seated girl and rests two fingertips lightly on the skin behind her ear."
       }
@@ -620,7 +648,7 @@
         "depicts": "Beats 2 to 5. The whole group bedded down in the Warehouse after midnight, the pig on the couch with Lena, Vex awake on the floor beside Cassie, and Pip alone and still in the dark part at the back.",
         "spoilerCheck": "PASS. Final beat is Pip's threat to the thing in the wall. Pip is present but SILENT and standing, not speaking, and the wall she faces is an ordinary wall: nothing in the frame glows, hums, answers or hints that anything is inside it. The reader learns what she is doing from the facing prose, not from the plate.",
         "hardConstraints": "EVERY ONE OF THE SEVEN NAMED FIGURES IS IN FRAME, PLUS THE PIG. Nobody is omitted and nobody is doubled. The room is NOT murky. See the warehouse lighting floor in roster section 6.1a: the purple brick must read as purple, the couches must keep their separate brown, olive and purple, and every figure must be findable at a glance. This is a night scene, not a dark image. The back wall Pip faces is a plain brick wall with NO glow, NO light seeping from it, NO visible cable run lighting up and nothing embedded in it. Pip's mouth is closed. Cassie's hearing aid is behind her LEFT ear and stays visible while she sleeps. Vex's mint-green hair is spiky with ONE messy high bun at the back left. The pig is placid livestock, asleep. He is not reacting to anything and not looking at the camera.",
-        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_C}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:PIG}}\n{{LOC:WAREHOUSE_PIT}}\nA wide converted warehouse interior after midnight with the whole group bedded down in it, staged in clear depth so every figure is findable. NEAR LEFT, on a sagging brown couch, Lena is asleep on her back with one arm over her eyes and the pink pig asleep along her legs, placid and heavy. NEAR CENTRE, on a second couch, Cassie is asleep on her side under a blanket pulled to her shoulder, face turned toward the room, the small beige hearing aid behind her left ear visible. On the bare concrete floor beside that couch Vex sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back, wide awake and not going to sleep. MIDDLE RIGHT, at the workbench, Felix is asleep sitting up with his face down on his folded arms among his tools. BEHIND HIM at the desk, Owen is asleep in his swivel chair, slumped sideways with his head against the backrest. FAR RIGHT in the middle distance, Milo stands half turned away with a phone to his ear, one hand on the back of his neck, talking quietly. FAR BACK, alone at the plain brick end wall and separated from all of them by empty floor, Pip stands perfectly upright and perfectly still, facing the wall, arms at her sides, mouth closed, doing nothing at all. Exactly seven named human figures and one pig. No other figures.\nInterior, well after midnight.\nWide shot from the near end of the room at standing height, deep focus so every plane stays sharp, the sleeping group filling the lower two thirds and Pip small and alone against the back wall in the upper right.\nNight, but not murky, and lit from four directions so nothing is lost. The three salvaged televisions on their shelf throw a broad cold blue-white fill across the couches and the sleepers. A warm clamp lamp still burning over Felix's bench is the warm key on the right. Owen's monitors add a second cold pool behind him. Cool moonlight through the high clerestory windows rims the roof trusses and lays a soft wash down the back wall so Pip reads clearly as a pale upright figure. The purple brick reads as purple throughout, the couches keep their separate brown, olive and purple, and no part of the frame falls to featureless black.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_C}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:PIG}}\n{{LOC:WAREHOUSE_PIT}}\nA wide converted warehouse interior after midnight with the whole group bedded down in it, staged in clear depth so every figure is findable. NEAR LEFT, on a sagging brown couch, Lena is asleep on her back with one arm over her eyes and the pink pig asleep along her legs, placid and heavy. NEAR CENTRE, on a second couch, Cassie is asleep on her side under a blanket pulled to her shoulder, face turned toward the room, the small beige hearing aid behind her right ear visible. On the bare concrete floor beside that couch Vex sits awake with her back against the couch frame, knees drawn up, arms loosely around them, head tipped back, wide awake and not going to sleep. MIDDLE RIGHT, at the workbench, Felix is asleep sitting up with his face down on his folded arms among his tools. BEHIND HIM at the desk, Owen is asleep in his swivel chair, slumped sideways with his head against the backrest. FAR RIGHT in the middle distance, Milo stands half turned away with a phone to his ear, one hand on the back of his neck, talking quietly. FAR BACK, alone at the plain brick end wall and separated from all of them by empty floor, Pip stands perfectly upright and perfectly still, facing the wall, arms at her sides, mouth closed, doing nothing at all. Exactly seven named human figures and one pig. No other figures.\nInterior, well after midnight.\nWide shot from the near end of the room at standing height, deep focus so every plane stays sharp, the sleeping group filling the lower two thirds and Pip small and alone against the back wall in the upper right.\nNight, but not murky, and lit from four directions so nothing is lost. The three salvaged televisions on their shelf throw a broad cold blue-white fill across the couches and the sleepers. A warm clamp lamp still burning over Felix's bench is the warm key on the right. Owen's monitors add a second cold pool behind him. Cool moonlight through the high clerestory windows rims the roof trusses and lays a soft wash down the back wall so Pip reads clearly as a pale upright figure. The purple brick reads as purple throughout, the couches keep their separate brown, olive and purple, and no part of the frame falls to featureless black.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A wide warehouse interior after midnight with six teenagers asleep on couches, at a workbench and in a desk chair, a pig asleep beside one of them, one girl sitting awake on the floor, and a robot girl standing alone and still at the far brick wall."
       }

@@ -98,7 +98,7 @@ Permanent anchors:
 - small teenage build
 - warm natural skin tone
 - short brown hair tucked beneath a muted teal knit cap
-- hearing aid behind the left ear
+- hearing aid behind the right ear
 - large, observant eyes and a quiet, uncertain expression
 - teal long-sleeve shirt
 - dark blue denim overalls with rolled cuffs
@@ -153,13 +153,13 @@ Do not equalize their heights, age, posture, hair, or wardrobe language.
 
 ## Mandatory Secondary Female Prompt Block
 
-> Use the canonical Millbrook secondary female models from `MILLBROOK_CANONICAL_SECONDARY_FEMALE_LINEUP_v1.png` and the locked specifications in `MILLBROOK_SECONDARY_CHARACTER_LOCKS.md`. Preserve facial geometry, age, full-body proportions, natural skin tone, posture, relative height, silhouette, and recurring identity anchors exactly. Cassie remains a small fifteen-year-old girl with brown hair under a muted teal knit cap, a left-ear hearing aid, teal shirt, dark denim overalls, rolled cuffs, black high-top sneakers, and a quiet cautious posture. Aunt Carol remains a stylish middle-aged woman with swept silver-white hair, red headscarf, teal structured top, warm red accents, wide charcoal trousers, ankle boots, and a confident fashion-aware silhouette. The Woman in the Green Cardigan remains an approximately sixty-year-old woman with a neat low bun, bold white hair streak, green reading glasses on a chain, dark green cardigan with one mismatched green button, patterned blouse, brown plaid skirt, sensible shoes, and a composed customer-service smile. Render all three as flat layered paper puppets in the official Millbrook style.
+> Use the canonical Millbrook secondary female models from `MILLBROOK_CANONICAL_SECONDARY_FEMALE_LINEUP_v1.png` and the locked specifications in `MILLBROOK_SECONDARY_CHARACTER_LOCKS.md`. Preserve facial geometry, age, full-body proportions, natural skin tone, posture, relative height, silhouette, and recurring identity anchors exactly. Cassie remains a small fifteen-year-old girl with brown hair under a muted teal knit cap, a right-ear hearing aid, teal shirt, dark denim overalls, rolled cuffs, black high-top sneakers, and a quiet cautious posture. Aunt Carol remains a stylish middle-aged woman with swept silver-white hair, red headscarf, teal structured top, warm red accents, wide charcoal trousers, ankle boots, and a confident fashion-aware silhouette. The Woman in the Green Cardigan remains an approximately sixty-year-old woman with a neat low bun, bold white hair streak, green reading glasses on a chain, dark green cardigan with one mismatched green button, patterned blouse, brown plaid skirt, sensible shoes, and a composed customer-service smile. Render all three as flat layered paper puppets in the official Millbrook style.
 
 ## Secondary Female Approval Checklist
 
 Reject or regenerate when any answer is no:
 
-- Does Cassie retain the approved hat-wearing source-character look, brown hair, left-ear hearing aid, small teenage build, teal shirt, and denim overalls?
+- Does Cassie retain the approved hat-wearing source-character look, brown hair, right-ear hearing aid, small teenage build, teal shirt, and denim overalls?
 - Does Cassie read as fifteen rather than as a child or adult?
 - Does Aunt Carol remain stylish, tall, sharp, and visually distinct from the older bookstore woman?
 - Does Aunt Carol retain her swept silver-white hair, red headscarf, teal structured clothing, wide dark trousers, and fashion-aware posture?

@@ -648,7 +648,7 @@ The approved full-body models for Cassie, Aunt Carol, and the Woman in the Green
 
 These files override all earlier exploratory secondary-female images and written approximations.
 
-Cassie's approved design must follow the original source-character tile closely: muted teal knit cap, short brown hair, left-ear hearing aid, teal shirt, dark denim overalls, rolled cuffs, black high-top sneakers, small teenage build, and cautious expression.
+Cassie's approved design must follow the original source-character tile closely: muted teal knit cap, short brown hair, right-ear hearing aid, teal shirt, dark denim overalls, rolled cuffs, black high-top sneakers, small teenage build, and cautious expression.
 
 Aunt Carol is locked as a stylish middle-aged woman with swept silver-white hair, a red headscarf, structured teal clothing, warm red accents, wide charcoal trousers, boots, and a confident fashion-aware silhouette.
 
