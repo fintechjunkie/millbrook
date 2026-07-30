@@ -9,9 +9,20 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 5 | Object 1 | Action 2 | Atmospheric 1
+Establishing 2 | Character portrait 6 | Object 1 | Action 2 | Atmospheric 1
 
 No three consecutive spreads share a shot type. Verified after the reframes below.
+
+**Eleven images now, not ten.** Spread 7 was the fullest page in the arc after the Volume 2
+split, at 99.3 per cent of its column. It was cut after the second of the two identical
+"Okay." lines, the one answering "Don’t make it weird" — 445 and 291 pixels of content. The
+new spread 8 carries the arc closing into a complete circle, the two "Tomorrow" lines and
+Lena recording The Real Feed.
+
+The new plate is a portrait, which puts it next to the existing portrait on the spread now
+numbered 9. That is a pair and the rule forbids three, so the mix still holds — but it is the
+tightest the sequence gets in this volume and is worth knowing before a twelfth image is ever
+added here.
 
 ## Rebuilt character-forward, 2026-07-29
 
@@ -483,7 +494,7 @@ Alt text: An elderly man rises out of a folding chair in the front row of an out
 
 ## Spread 7
 
-Pages 15 to 16 | Part Four: The Press Conference | Words 322
+Pages 15 to 16 | Part Four: The Press Conference | Words 177
 
 ### Text page (left), verbatim
 
@@ -512,16 +523,6 @@ Pip looked at the floor. “Thank you.”
 “Don’t make it weird.”
 
 “Okay.”
-
-Owen’s map glowed on the middle monitor. The arc was a complete circle now. The patch on the Mayor had finished it. The center was the old elementary school, a six-acre rectangle of fenced-off ground that nobody had walked on since the Event.
-
-“Tomorrow,” Milo said.
-
-“Tomorrow,” Owen agreed.
-
-Lena recorded a video that night. Just her, on the Warehouse couch with the pig asleep next to her, the camera on her phone propped against a coffee mug.
-
-“This is The Real Feed. There are things happening in this town. Some of them are good. Some of them are not. The man we elected is not telling the truth, and there is a man in a uniform who is not telling the truth either, and I don’t know yet what either of them is hiding. But I’m going to find out. I’m not asking permission.”
 
 ### Image page (right)
 
@@ -554,7 +555,62 @@ Alt text: Dented energy drink cans pushed tightly to one side of a desk to make 
 
 ## Spread 8
 
-Pages 17 to 18 | Part Four: The Press Conference | Words 226
+Pages 17 to 18 | Part Four: The Press Conference | Words 145
+
+### Text page (left), verbatim
+
+Owen’s map glowed on the middle monitor. The arc was a complete circle now. The patch on the Mayor had finished it. The center was the old elementary school, a six-acre rectangle of fenced-off ground that nobody had walked on since the Event.
+
+“Tomorrow,” Milo said.
+
+“Tomorrow,” Owen agreed.
+
+Lena recorded a video that night. Just her, on the Warehouse couch with the pig asleep next to her, the camera on her phone propped against a coffee mug.
+
+“This is The Real Feed. There are things happening in this town. Some of them are good. Some of them are not. The man we elected is not telling the truth, and there is a man in a uniform who is not telling the truth either, and I don’t know yet what either of them is hiding. But I’m going to find out. I’m not asking permission.”
+
+### Image page (right)
+
+Slug: vol4-s07b
+Shot type: Character portrait
+Depicts: Beat 4. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
+Spoiler check: PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.
+
+Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side. The phone screen shows no text, no interface and no image.
+
+**Why this plate exists.** Lena is a broadcaster and across four volumes the book had
+never once shown her broadcasting, which is a strange gap given it is the shape of her
+whole arc. It is also the first plate to use a screen as the key light on a single face,
+and the first proper appearance of the pig.
+
+**This split also un-breaks a beat.** Lena’s video used to start at the foot of spread 7
+and continue on spread 8, so the page turn fell in the middle of her speaking to camera.
+It now opens this spread and finishes on the next, which is a turn between sentences
+rather than through one.
+
+Prompt:
+
+```
+{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_D}}
+{{CHAR:PIG}}
+{{LOC:WAREHOUSE_PIT}}
+A girl sitting cross-legged on a worn couch late at night, talking directly into a phone that is propped up against a coffee mug on a low table in front of her. She leans slightly forward, caught mid-sentence, one hand open in front of her, and her expression is set and certain rather than nervous or performing. Her clothes are visibly creased and slept in. A small pot-bellied pig is asleep against her hip, completely relaxed, one ear flopped. The phone screen throws the main light up onto her face from below. Behind her the rest of the warehouse falls away into soft shadow with a few small equipment lights in it. Exactly one person and one animal in frame.
+Interior, late night.
+Medium shot from just behind and beside the phone, so the viewer sits roughly where her audience does, camera at seated eye level.
+Low-key but never murky. The phone is the key light and it is bright enough that her features and the colour of her clothing read fully, with a warm secondary source keeping the couch, the pig and the near wall clearly visible. A dark mood and a readable image at the same time.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A girl sits cross-legged on a couch at night talking to a phone propped against a mug, a small pig asleep beside her.
+
+---
+
+## Spread 9
+
+Pages 19 to 20 | Part Four: The Press Conference | Words 226
 
 ### Text page (left), verbatim
 
@@ -644,9 +700,9 @@ Alt text: A woman in a green cardigan stands behind the counter of a lit but clo
 
 ---
 
-## Spread 9
+## Spread 10
 
-Pages 19 to 20 | Part Four: The Press Conference | Words 122
+Pages 21 to 22 | Part Four: The Press Conference | Words 122
 
 Short page, deliberate. Deliberate coda spread. The last text page of the arc is short on purpose so the closing image carries the turn out of the book.
 

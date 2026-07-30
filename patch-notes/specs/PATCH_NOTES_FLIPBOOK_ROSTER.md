@@ -725,9 +725,9 @@ No figures and no animals in the master. It is the room, not a scene.
 
 | | Count |
 |---|---|
-| Text spreads | 34 |
+| Text spreads | 35 |
 | Chapter openers | 4 |
-| **Spread images total** | **38** |
+| **Spread images total** | **39** |
 | Canonical character references | 13 |
 | Canonical location references | 8 |
 | **Blocking generations before spread work** | **21** |
