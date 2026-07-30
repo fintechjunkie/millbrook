@@ -25,32 +25,32 @@ Included in the Lena edit instruction below, since both are the same image.
 
 ---
 
-## MUST FIX — Lena's ponytail, in two images
+## Lena's ponytail — the roster was wrong, and so was my first call
 
-`vol2-s04b` (the map) and `vol4-s07b` (Lena recording) both gave Lena a **centred, symmetrical
-spiky mass of hair with no ponytail at all.**
+**The ponytail is gathered high at the BACK of her head.** The canonical sheet is a three-quarter
+view, so it swings out past one side and reads as a side ponytail — which is what the roster's
+immutable block had been asserting, and what my first version of this file repeated.
 
-Her canonical is unambiguous — `char-lena-canonical.png` shows one big off-centre side ponytail
-sticking out well past her head, and the roster text says *"that single off-centre ponytail is
-her dominant silhouette and it must never be centred or split into a matched pair."*
+Same failure as Vex, one line apart: prose describing a position inferred from a foreshortened
+view, then pasted verbatim into every prompt. Corrected at the source, including a note saying
+explicitly that the sheet is three-quarter and why it looks side-tied.
 
-I checked this the right way round before calling it, because on this project the roster text
-has been the wrong one three times and the artwork right. Not this time: the canonical sheet
-**and** the delivered `vol2-s01` plate both clearly show the side ponytail. So the two new
-images are the outliers.
+**This weakens my drift call on the two plates.** A back ponytail seen from the front is largely
+hidden behind the head, so the "centred spiky mass" in `vol2-s04b` and `vol4-s07b` is closer to
+right than I said — what is actually missing is a distinct heavy gathered mass behind the crown,
+not a ponytail on the left. Your call whether that is worth an edit at all.
 
-### Option A — modify the existing images (preferred, keeps the compositions)
+### If you do want to adjust them
 
-Both compositions are good and worth keeping. Attach `char-lena-canonical.png` alongside the
-image you are editing, and give it this:
+Attach `char-lena-canonical.png` alongside the image and give it this:
 
 > Change only the orange-haired girl's hair, and change nothing else in the image. Keep her
 > face, expression, pose, hands, clothing, the other characters, the background, the lighting
-> and the camera exactly as they are. Her hair is currently a centred, symmetrical spiky mass,
-> which is wrong. Gather it into ONE large uneven side ponytail high on her LEFT side, held with
-> a small band, sticking out clearly past the silhouette of her head, exactly as in the attached
-> reference sheet. Leave a loose fringe over her forehead and a few wisps standing up at the
-> crown. It must not be centred, must not be symmetrical, and must not be split into two.
+> and the camera exactly as they are. Her hair currently reads as an evenly spiky halo all round
+> her head. Gather it instead into ONE large uneven ponytail high at the BACK of her head, held
+> with a small band, so there is a distinct heavy mass of hair behind the crown that breaks her
+> silhouette. Keep the loose fringe over her forehead and the wisps standing up at the crown. It
+> must not be split into two and must not be tied at the side.
 
 **For `vol2-s04b` only, add this to the same instruction** (Vex is the girl in the black leather
 jacket with mint-green hair, standing on the right with her arms folded):

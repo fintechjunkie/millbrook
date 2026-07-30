@@ -75,10 +75,11 @@ const ENTRIES = [
     // drift rather than the roster being wrong — which is the other way this has gone before,
     // and worth checking in that order every time.
     hard:
-      'Lena’s hair MUST be gathered into one large uneven side ponytail high on her LEFT side, '
-      + 'sticking out clearly past the silhouette of her head. It must NOT be a centred, '
-      + 'symmetrical or evenly spiky mass, and it must NOT be split into two. That single '
-      + 'off-centre ponytail is the whole of her silhouette and it is how a reader finds her. '
+      'Lena’s hair MUST be gathered into one large uneven ponytail high at the BACK of her head, '
+      + 'reading as a distinct heavy mass of hair behind the crown rather than as loose hair. It '
+      + 'must NOT be an evenly spiky halo all round her head and it must NOT be split into two. '
+      + 'From a three-quarter view it may swing out past one side of her silhouette, which is '
+      + 'correct, but it is gathered at the back and not tied at the side. '
       + 'Vex’s mint-green hair MUST be in TWO messy buns, one high on each side of her head, '
       + 'each tied with a small red tie. It must NOT be a single bun and must NOT be one '
       + 'ponytail. '
