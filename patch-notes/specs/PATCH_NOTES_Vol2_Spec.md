@@ -95,7 +95,7 @@ Alt text: A cheap corner storefront under a gray awning at first light, its wind
 
 ## Spread 1
 
-Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 270
+Pages 3 to 4 | Part Two: The Bookstore That Was Always There | Words 289
 
 ### Text page (left), verbatim
 
@@ -125,15 +125,15 @@ Lena slid the oat milk coffee across. The girl took it without saying thank you 
 
 “I know who you are. I read your folder.”
 
-“You what.”
+“You did what?”
 
-“Your laptop was open in your aunt’s window when I walked past last night. Your folder is solid. The Reddit thread from December is good. You missed three posts though.”
+“I saw your laptop was open when I walked past your window last night. Easy peasy to pop in and take a look. Your folder is solid. The Reddit thread from December is good but you missed three posts.”
 
-Lena put her coffee down. “Okay. We’re going to talk about the part where you walked past my aunt’s house at night.”
+Lena put her coffee down. “Okay. We’re going to talk about the part where you let yourself in my aunt’s house and messed around with my computer.”
 
 “We really aren’t.”
 
-The door chimed again and the other girl walked in, and Lena felt her brain do a small recalibration. She had goggles pushed up into her hair and a patched jacket, and her skin was a shade too even, and her eyes tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except for the parts where she didn’t.
+The door chimed again and the other girl walked in, and Lena felt her brain do a small recalibration. She had goggles pushed up into her hair and a jacket with lots of pockets. Her skin was a shade too shiny, and her eyes tracked a hair too smoothly when they swept the room. The girl moved like a person, mostly, except when she didn’t. Something about her was different.
 
 ### Image page (right)
 
@@ -171,31 +171,31 @@ Alt text: Two girls at a laundromat table, one pushing a small dashcam across it
 
 ## Spread 2
 
-Pages 5 to 6 | Part Two: The Bookstore That Was Always There | Words 262
+Pages 5 to 6 | Part Two: The Bookstore That Was Always There | Words 273
 
 ### Text page (left), verbatim
 
 “Oh,” Lena said, before she could stop herself. “You’re a robot.”
 
-“I’m Pip.”
+“I am. I’m Pip.”
 
 “Sorry.”
 
-“It’s fine. People notice or they don’t. You noticed. That’s honest.”
+“It’s fine. People notice or they don’t. You noticed.”
 
-Pip sat down at the table without being invited and she didn’t take a coffee. She set her hands flat on the table in a way that was slightly too symmetrical.
+Pip sat down at the table without being invited and she didn’t take a coffee. She set her hands flat on the table in a way that was slightly too exact.
 
 “She’s not being rude,” Vex said. “Her head’s loud right now.”
 
-“My head is loud,” Pip agreed. “There’s a small one running. Maple and Fourth.”
+“My head is loud,” Pip agreed. “There’s something that just happened on Maple and Fourth.”
 
-“A small what.”
+“What kind of something?”
 
 Vex pulled out her phone. “We should go.”
 
 ### Maple And Fourth
 
-Maple and Fourth had a vape store on the corner. Lena remembered it from yesterday because she’d walked past it on her way back from the press conference. It had cheap signage, a gray awning and a flickering OPEN light in the window that had been making her eye twitch.
+Maple and Fourth had a vape store on the corner. Lena remembered it because she’d walked past it on her way back from the press conference. It had a cheap looking sign, a gray awning and a flickering neon OPEN light in the window that had been making her eye twitch.
 
 It was a bookstore now.
 
@@ -203,7 +203,7 @@ The awning was navy blue and the painted lettering said HOLLOW PINE BOOKS. The w
 
 “Okay,” Lena said slowly. “Okay.”
 
-Vex was already filming. “You see this. You’re seeing this with your own eyes.”
+Vex was already filming. “This is big. Are you seeing this with your own eyes?”
 
 “I’m seeing it.”
 
@@ -211,7 +211,7 @@ Vex was already filming. “You see this. You’re seeing this with your own eye
 
 “Yesterday this was a vape store.”
 
-Pip stood very still on the sidewalk with her head tilted slightly. “It’s settled now. Whatever it was doing, it’s done.”
+Pip stood very still on the sidewalk with her head tilted slightly. “It’s stable now. Whatever was going to happen has happened. It’s done and locked in place.”
 
 The bell over the door chimed when Lena pushed it open.
 
@@ -274,11 +274,11 @@ Alt text: A corner bookshop with a navy awning and a window display of paperback
 
 ## Spread 3
 
-Pages 7 to 8 | Part Two: The Bookstore That Was Always There | Words 267
+Pages 7 to 8 | Part Two: The Bookstore That Was Always There | Words 272
 
 ### Text page (left), verbatim
 
-Inside it smelled like paper and a cinnamon candle, and there were wooden shelves and worn rugs. It was the kind of store that had been there for thirty years, the kind of store you couldn’t build in a month if you tried. The woman behind the counter looked up and smiled. She was maybe sixty, with reading glasses on a chain and a green cardigan with one button replaced by a different green button.
+Inside it smelled like paper and a cinnamon candle, and there were wooden shelves and worn rugs everywhere. It was the kind of store that had been there for thirty years, the kind of store you couldn’t recreate if you tried. The woman behind the counter looked up and smiled. She was maybe sixty, with reading glasses on a chain and a green cardigan with one button replaced by a mismatched green button.
 
 “Morning, ladies.”
 
@@ -288,7 +288,7 @@ Inside it smelled like paper and a cinnamon candle, and there were wooden shelve
 
 “How long have you been here.”
 
-The woman thought about it the way people think about things they’ve never had to think about. “Oh. Hollow Pine opened in 2019. So six years now.”
+The woman thought about it the way people think about things they’ve never had to think about. “Oh. Hollow Pine opened about six years ago.”
 
 “Six years.”
 
@@ -296,7 +296,7 @@ The woman thought about it the way people think about things they’ve never had
 
 “Do you remember opening day.”
 
-The woman’s smile flickered. Just a little. “Well. You know how it is. Long time ago. I remember the cake. Vanilla cake. We ran out by lunch.”
+The woman’s smile flickered. Just a little. “You know how it is. My memory isn’t what it used to be. I remember the cake. Vanilla cake. We ran out by lunch.”
 
 “What was here before.”
 
@@ -306,7 +306,7 @@ The woman’s smile flickered. Just a little. “Well. You know how it is. Long 
 
 Another flicker. Longer this time. “I don’t. Hm. I don’t actually remember. Isn’t that funny.”
 
-She kept smiling. The smile didn’t change. The eyes did.
+She kept smiling. The smile didn’t change but her eyes hinted that she knew something.
 
 Vex was browsing the shelf nearest the counter, pretending to read titles. Pip was by the door, looking at a flyer board, head tilted in that listening way. Lena bought a paperback she didn’t want, said thank you, and walked out.
 
@@ -356,19 +356,19 @@ Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden
 
 ## Spread 4
 
-Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 211
+Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 255
 
 ### Text page (left), verbatim
 
 ### The Warehouse Door
 
-Owen had been trying to pull the city tax records for the building at Maple and Fourth for forty minutes when the back door opened and three girls he had not invited walked in.
+Owen had been busy working on something complex when the back door opened and three girls he had not invited walked in.
 
-“Nope,” he said, without turning around.
+“Nope,” he said, without turning around. “That’s not how this is going to go. I don’t remember opening a door to let you in.”
 
-“Milo here?” Vex asked.
+“Is Milo here?” Vex asked, ignoring Owen.
 
-“He’s in the back. Get out.”
+“He’s in the back. Get out. Knock. Then maybe I’ll let you back in. That’s how civilized people operate.”
 
 Felix popped up from the couch like a meerkat. “Hi. Wait. Hi.” He looked at Lena. “You’re the press conference one.” He looked at Vex. “You’re the dashcam one.” He looked at Pip. He stopped. He started again. He blinked. “You’re a robot.”
 
@@ -378,13 +378,13 @@ Felix popped up from the couch like a meerkat. “Hi. Wait. Hi.” He looked at 
 
 “Technically I’m on the welcome mat. I haven’t crossed the threshold yet. Is that a problem.”
 
-“No. No. Come in. Please come in. Owen, look.”
+“No. No. Come in. Please come in. Owen, look. A real, live robot!”
 
-Felix was already dragging a second chair over, and then a third, and by the time anybody had agreed the three of them were staying he had asked Pip two questions about her arm and told her about a hinge he was proud of.
+Felix was already dragging a second chair over, and then a third. By the time it was obvious the three of them were staying he had asked Pip two questions about her arm and told her about a gadget he built from scratch.
 
-“I heard,” Owen said, still not turning.
+“Is there a reason why you’re here? I’m guessing you didn’t stop by to talk to Monke,” Owen said, still not turning.
 
-He did not turn around, and it was not rudeness. Owen could argue with a city records server for six hours and win. He could not do six seconds of this.
+His not turning around wasn’t meant to be rude. Owen was busy which meant his focus was on his screens, not his guests. He saw casual chit-chat as a distraction and a waste of time.
 
 ### Image page (right)
 
@@ -426,33 +426,33 @@ Alt text: A grinning teenage boy in a teal denim jacket pops up from behind a co
 
 ## Spread 5
 
-Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 198
+Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 232
 
 ### Text page (left), verbatim
 
-Milo came out from the back, saw the three of them, and stopped walking.
+Milo came out from the back, saw the guests, and stopped in his tracks.
 
 “Oh,” he said.
 
 “Oh,” Lena agreed. “Hi. We need to talk. Maple and Fourth is a bookstore now.”
 
-“It’s a vape store.”
+“No it isn’t. It’s a vape store.”
 
-“It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers a vanilla cake and not what was there before.”
+“It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers serving vanilla cake on opening day and not what was there before.”
 
-Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago.
+Milo looked at Owen. Now Owen was interested. Owen had already pulled up his anomaly tracker. There was a dot at Maple and Fourth that was glowing, a new dot that wasn’t there a few hours ago.
 
-“You got the tax records,” Milo said.
+“Can you look at their tax records,” Milo asked.
 
-“No. The city takes thirty days.” Owen did not look up. “I asked the water department instead, because whatever that building says it is, it still has to pay for what it flushes. They answer in two.”
+“No. The city takes thirty days to hand over what we’d want.” Owen did not look up. “Right now I’m submitting a request to the sanitation department because someone is paying for the dumpster in the back. I bet they’ll tell us who owns it.”
 
-“You were there when it happened,” Owen said. He sounded almost personally offended.
+“Were you there when it happened? Did you see anything?” Owen asked. He sounded almost jealous.
 
 “We were close.”
 
 “How close.”
 
-“Two blocks.”
+“Two blocks away. But we missed it happening.”
 
 Pip had walked over to Owen’s screens and she was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”
 
@@ -503,45 +503,45 @@ Alt text: Four teenagers gathered at a bank of monitors, all looking at a map on
 
 ## Spread 6
 
-Pages 13 to 14 | Part Two: The Bookstore That Was Always There | Words 218
+Pages 13 to 14 | Part Two: The Bookstore That Was Always There | Words 258
 
 ### Text page (left), verbatim
 
-Owen turned. Slowly, like a man who didn’t want to acknowledge that someone in the room had just said something true that he hadn’t told them.
+Owen turned to her slowly, like a man who didn’t want to acknowledge something uncomfortable.
 
 “It does.”
 
 “It’s tuned wrong.”
 
-“It’s tuned to what we hear.”
+“It’s tuned right. I calibrated it myself.”
 
-“It’s tuned to what your equipment hears. There’s a band above it. The patches don’t live where you’re listening. They live higher. I can hear them. You can’t.”
+“It’s tuned to what your equipment hears but there’s a band above it. The patches don’t live where you’re listening. They live higher. I can hear them. You can’t.”
 
 Owen stared at her. “How do you know what my filter is set to.”
 
 “I’m looking at it.”
 
-“It’s in a config file.”
+“It’s in a config file on my computer. You’re just looking at my screens.”
 
 “Yes.”
 
-“You can read a config file from across the room.”
+“You can read a config file from my screens?”
 
-“Yes.”
+“Sort of. When I get close to a computer I can talk to it and it talks back.”
 
-Owen turned back to his keyboard and started typing fast. “Don’t talk to me.”
-
-“Okay.”
-
-“I mean it.”
+Owen turned back to his keyboard and started typing fast. “I guess that’s cool. But don’t talk to me right now. I type to talk and I’m typing now.”
 
 “Okay.”
 
-Felix had his hands on the back of his head and he was grinning. “This is the best day.”
+“I mean it. Thanks for the help but I’ve got this under control.”
+
+“Okay.”
+
+Felix had his hands on the back of his head and he was grinning. “This is the best day ever!”
 
 ### The Pig And The Bookstore Receipt
 
-Lena was on the couch with the pig, who had decided she was acceptable. Vex was inspecting Felix’s Shop and pulling apart his most recent invention without asking. Felix was watching her do it and making small distressed noises he was trying to hide. Pip stood near Owen, not talking, listening to whatever her head was telling her. Monke was on the high shelf, watching everything, granola bar suspended halfway to his mouth.
+Lena was on the couch with the pig, who had decided she was acceptable company. Vex was inspecting Felix’s Shop and pulling apart his most recent invention without asking. Felix was watching her do it and trying to hide his excitement. Pip stood near Owen, not talking, just listening to whatever her head was telling her. Monke was on the high shelf, watching everything, granola bar suspended halfway to his mouth.
 
 ### Image page (right)
 
@@ -584,35 +584,35 @@ Alt text: A bald young man turns in his desk chair to look over his shoulder at 
 
 ## Spread 7
 
-Pages 15 to 16 | Part Two: The Bookstore That Was Always There | Words 233
+Pages 15 to 16 | Part Two: The Bookstore That Was Always There | Words 267
 
 ### Text page (left), verbatim
 
 Milo sat down next to Lena, careful to leave a polite distance.
 
-“You shouldn’t be here,” he said.
+“Why are you here?” he said.
 
-“Weird thing to say to someone you invited.”
+“Weird thing to say to a guest.”
 
-“I didn’t invite you.”
+“I don’t remember anyone inviting you. You know you’re looking into something that could be dangerous.”
 
-“You didn’t stop me.”
+“Are you trying to make a point? Danger doesn’t scare me.”
 
 Milo almost smiled, but he didn’t quite let it happen.
 
-“The woman in the bookstore,” Lena said. “Is she real.”
+“The woman in the bookstore,” Lena said. “Do you think she’s real.”
 
-“I don’t know.”
+“I don’t know. We’ll have to check it out.”
 
-“Has this happened before. People.”
+“Has this happened before? People not remembering the past the way it was?”
 
-“Not like this. Buildings, yes. A house number changed once, and a road sign. We’ve seen things rewrite. We haven’t seen people rewrite.”
+“This is new. Buildings, yes. A house number changed once, and a road sign. We’ve seen things get rewritten. We haven’t seen people rewritten until now.”
 
-“So either she’s a real person whose history just got rewritten under her, or she didn’t exist this morning and now she does.”
+“So either she’s a real person whose history just got revised, or she didn’t exist this morning and now she does.”
 
 “Yeah.”
 
-“One of those is a lot worse than the other.”
+“Neither of those make me feel good.”
 
 “Yeah.”
 
@@ -622,13 +622,13 @@ She handed it to Milo.
 
 “This was in the book.”
 
-Milo turned it over. The receipt was for the same book she’d just bought, bought by someone named M. Avery on June 14, 2019.
+Milo turned it over. The receipt was for the same book she’d just bought, obviously returned by someone named M. Avery on June 14, 2022.
 
-“This receipt is six years old.”
+“This receipt is years old.”
 
 “Yep.”
 
-“You bought this book three minutes ago.”
+“You bought this book less than an hour ago.”
 
 “Yep.”
 
@@ -666,13 +666,13 @@ Alt text: Two teenagers sit at opposite ends of a sagging couch with a gap betwe
 
 ## Spread 8
 
-Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 227
+Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 220
 
 ### Text page (left), verbatim
 
 ### Aunt Carol’s Kitchen
 
-It was almost dinner when Lena walked back into Aunt Carol’s house. Aunt Carol was at the kitchen table, glasses on the end of her nose, sorting through a small box of receipts and old envelopes.
+It was almost dinner when Lena walked back into Aunt Carol’s house. Aunt Carol was at the kitchen table, sorting through a small box of receipts and old envelopes.
 
 “Did you eat,” Aunt Carol said.
 
