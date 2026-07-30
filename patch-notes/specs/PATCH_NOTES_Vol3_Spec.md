@@ -192,12 +192,56 @@ Vex had put her own jacket over the back of the couch behind her, and Lena only 
 
 ### Image page (right)
 
-Slug: vol3-s02
+Slug: vol3-s02c
 Shot type: Character portrait
-Depicts: Beat 4. Cassie on the couch in the Pit, one hearing aid still behind her ear and the other in her open hand.
+Depicts: Beat 1. Vex on the warehouse roof at nine fifteen, making the phone call she would never normally make.
+Spoiler check: HOLD ONE THING. The town is visible below her and it must stay completely ordinary. No fenced-off lot, no empty six-acre rectangle, no boarded-up building, nothing that reads as a significant place. The old school at the centre of the arc is the reveal on spread 5 of this volume and a sharp-eyed reader must not be able to find it here.
+
+Hard constraints: Vex’s mint-green hair is in TWO messy buns, one high on each side of her head, each tied with a small red tie — never a single bun and never a ponytail. Exactly ONE figure in frame: nobody else on the roof, and no people visible on the streets below. She is holding an ordinary phone to her ear and nothing else is in her hands.
 Spoiler check: PASS. Final beat is her line about not knowing how to make her brain stop hearing. Not depicted; she is not speaking and her mouth is closed.
 
 Prompt:
+
+```
+{{STYLE}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{LOC:WAREHOUSE_EXT}}
+A girl perched on the parapet at the edge of the flat gravel roof of a low brick industrial building, a phone pressed hard against her ear and her shoulder hunched up to help hold it there. She is sitting on the parapet itself with one boot up on it and one leg hanging over the drop, entirely unbothered by the height, one hand resting loose on the top rail of the steel fire escape she came up — the posture of somebody who is comfortable in places she is not supposed to be, and who could be off this roof in seconds if she needed to be. That ease is only in her body. Her face has none of it: jaw set, eyebrows down, talking fast, the expression of somebody who does not like telephones and is using one anyway because something is wrong. Below and behind her the whole town lies flat and open: rows of low single-storey houses on a grid of wide streets, mature trees between them, a water tower far off on the horizon. Every part of the town is unremarkable and nothing in it is fenced off, boarded up or set apart. Exactly one figure in frame and no other people anywhere, on the roof or in the streets below.
+Exterior, quarter past nine in the morning.
+Medium shot taken from the roof itself, camera at chest height and a little to her side, placed so she fills the near third of the frame and the town falls away past her shoulder into the distance. She is crisp; the town is clear but softer.
+Bright flat mid-morning daylight from high and behind the camera. No drama and no long shadows — the light is as ordinary as the town is, which is the point, because she is the only urgent thing in the picture. Her face fully legible.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A girl with mint-green hair stands on a flat roof with a phone held hard to her ear, one hand on a fire-escape rail, the town spread out flat behind her.
+
+**Why this plate replaced a portrait of Cassie.** Spreads 2, 3 and 4 all had Cassie in them,
+three in a row, and the first of the three also had the hearing aid on the wrong side. This
+page opens on Vex making the phone call, so a subject that is not Cassie was already sitting
+on it unused.
+
+Three things it adds that nothing else in the arc has. **It is the first elevated shot in the
+book** — every other exterior across forty-two plates is at street level, so this is the only
+time the reader sees Millbrook whole rather than a corner of it. **It shows Vex’s speciality
+without a word about it:** roster 4.2 gives her locks, roofs and fences, and she is on a roof
+to make a phone call because a roof is simply where she goes. And **the prose has already
+loaded the image before it appears** — "Vex did not call people. Vex texted, or Vex showed up
+at your window" — so a picture of Vex on a telephone reads as an alarm going off.
+
+The composition holds one deliberate tension: the sleepiest possible view of an ordinary flat
+town, behind the most urgent call anybody in this volume makes.
+
+**The posture is carrying the Artful Dodger note from roster 4.2.** Her body is entirely at
+ease — sitting on the parapet, a leg over the drop, one hand loose on the fire-escape rail,
+somewhere she has no business being and completely comfortable there. Her face has none of
+that ease. Splitting the two is what makes the plate hers rather than just a girl on a phone:
+the thief is relaxed and the friend is not.
+
+**Retired 2026-07-30: the earlier plate for this page.** It was `vol3-s02.png`, Cassie on the
+couch with one hearing aid in her open hand. The file is still in `public/images/` and its
+prompt body was:
 
 ```
 {{STYLE}}
@@ -211,8 +255,6 @@ Diffuse high window light from the left, the couch and floor falling into shadow
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
-
-Alt text: A small girl sits drawn in on a couch with one hearing aid behind her ear and the other lying in her open palm.
 
 ---
 

@@ -502,8 +502,33 @@ of them for another. If a plan can be carried out with five of them, the plan is
 | **Owen** | Signals, records, patterns, infrastructure. Beats institutions with their own paperwork. | Cannot be in front of a human being. |
 | **Felix** | Builds new things from nothing, and half of them fail. | — his hidden skill is that he is delighted by everyone he meets, which makes him the one strangers talk to. |
 | **Lena** | Gets people to say true things on camera, and controls what a town believes. The only one who understands publicity as a weapon. | — |
-| **Vex** | Physical access: locks, roofs, fences, hardware teardown. Knows every street. Also advocates for the vulnerable, **which is a skill, not a trait.** | — |
+| **Vex** | Breaking and entering. Locks, roofs, fences, hardware teardown, and she knows every street. **The Artful Dodger.** Also advocates for the vulnerable, **which is a skill, not a trait.** | — |
 | **Pip** | The other band. Reads config files across a room, hears what nobody hears, and now translates. | — she is the bridge, so the whole plot has to route through her. |
+
+### The Artful Dodger, and why it resolves Vex’s apparent contradiction
+
+**Author note, 2026-07-30: Vex is the one who can break and enter — the Artful Dodger.** That
+reference does more work than it looks like, because it explains why the two things listed
+against her name are one skill rather than two.
+
+On the face of it, "picks locks and climbs fences" and "advocates for the vulnerable" have
+nothing to do with each other, and a lesser character would just have both bolted on. But the
+Dodger is precisely the figure who is both: he is the thief, and he is also the one who spots
+the friendless kid and brings him in. Vex steals a stranger’s dashcam in Volume 1 and sits on the
+floor beside Cassie all night in Volume 3, and those are not two sides of her. They are the same
+instinct: she has decided who counts, and the rules were never going to be the thing that
+stopped her acting on it.
+
+What follows for the writing:
+
+- **Her competence should read as ease, not effort.** She is never shown straining at a lock or
+  scrambling at a fence. She is already through, already up, already sitting somewhere she has
+  no business being, entirely comfortable. The effort is invisible; that is the whole flex.
+- **She takes rather than asks, including when she is helping.** She does not request permission
+  to look after somebody any more than she requests permission to enter a building.
+- **The warmth is never stated by her.** Volume 3 spread 2 is the model: she puts her own jacket
+  behind Cassie and never once says the word cold. If Vex ever explains that she cares, the
+  register is wrong.
 
 ### Three of these are easy to write wrong
 
@@ -610,7 +635,7 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | stand-in: `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required |
+| `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required — stand-in: `vol4-s03.png` |
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
 | `{{LOC:MAPLE_AND_FOURTH_A}}` | A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.** | 1 | `loc-corner-a.png` — stand-in: `vol2-opener.png` |

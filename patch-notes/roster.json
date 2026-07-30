@@ -353,7 +353,7 @@
       "block": "The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.",
       "uses": 1,
       "canonicalRef": null,
-      "standInRef": null
+      "standInRef": "vol4-s03.png"
     },
     "VEX_APARTMENT": {
       "token": "VEX_APARTMENT",

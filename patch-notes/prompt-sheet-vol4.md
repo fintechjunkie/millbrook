@@ -104,6 +104,7 @@ Named figures: Lena, Pip (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
 - `char-pip-canonical.png` — Pip
+- `vol4-s03.png` — location, warehouse ext (stand-in, a delivered scene plate)
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -141,7 +142,7 @@ Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased 
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol4-s03.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
 Two eighteen year old girls sitting side by side on a concrete kerb outside a low brick industrial building, turned slightly toward each other, mid-conversation. The one on the left sits the way a tired person sits, elbows on her knees, shoulders rounded, hands loose, looking sideways at the other with a careful searching expression. The one on the right is a robot and sits noticeably too level and too symmetrical, back straight, both feet flat and side by side, hands placed identically on her knees, meeting the other girl's look without any defensiveness in it; one of her hands has just begun to lift in a small wave, a beat later than it should have. Far back across the road behind them, small in the frame, a young child rides a bicycle past with a backpack much too large for him, one hand off the bars, seen from behind so his face is not visible. He is a background detail and not a subject. Exactly two named figures in the foreground.
 Exterior, early afternoon.
@@ -215,9 +216,11 @@ Two figures facing each other at the back of a filling town square, a camera tri
 Exterior, mid-afternoon, twenty-six minutes past two.
 Medium two-shot at standing eye level, framed so the tripod sits between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly softer than the foreground.
 Flat bright overcast afternoon daylight, no dramatic shadow, both faces fully legible, the distant stage a touch hazier.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
 ```
 
-Save as: **`vol4-s05b.png`** · aspect null
+Save as: **`vol4-s05b.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: A uniformed officer in a medical mask and a red-haired girl stand either side of her camera tripod at the back of a crowded square, a man speaking at a podium behind them.
 
@@ -402,9 +405,11 @@ A small monkey crouched on the floorboards at the base of a wooden shop counter 
 Interior, three in the morning, lights off.
 Low shot from floor level a little to one side, close enough that the finger and the keyhole are both clearly readable, the counter running away into the frame.
 Dark but never illegible. A single cool source from off frame rakes across the counter face and picks out the monkey, the keyhole and his hand; the room behind falls away into soft shadow while its shelves and furniture stay just discernible. He and the lock are the brightest things in the picture.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
 ```
 
-Save as: **`vol4-s09b.png`** · aspect null
+Save as: **`vol4-s09b.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: A small monkey crouches in the dark at the foot of a shop counter with one finger touching the keyhole of a locked drawer.
 
