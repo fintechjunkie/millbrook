@@ -565,8 +565,8 @@
       "n": 8,
       "kind": "spread",
       "pages": "17 to 18",
-      "declaredWords": 145,
-      "words": 145,
+      "declaredWords": 221,
+      "words": 221,
       "blocks": [
         {
           "t": "p",
@@ -582,6 +582,10 @@
         },
         {
           "t": "p",
+          "v": "One by one the others went home, and the Warehouse got quiet in the way it only does when the work is finished and the next thing hasn’t started yet. Owen stayed at his desk with the map still glowing, because he didn’t trust a thing he had only watched happen once. Lena stayed too. She had spent months writing this town down for nobody in particular, and she had stopped being willing to do that."
+        },
+        {
+          "t": "p",
           "v": "Lena recorded a video that night. Just her, on the Warehouse couch with the pig asleep next to her, the camera on her phone propped against a coffee mug."
         },
         {
@@ -593,7 +597,7 @@
       "image": {
         "slug": "vol4-s07b",
         "shotType": "Character portrait",
-        "depicts": "Beat 4. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.",
+        "depicts": "Beat 5. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.",
         "spoilerCheck": "PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.",
         "hardConstraints": "Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side. The phone screen shows no text, no interface and no image.",
         "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_D}}\n{{CHAR:PIG}}\n{{LOC:WAREHOUSE_PIT}}\nA girl sitting cross-legged on a worn couch late at night, talking directly into a phone that is propped up against a coffee mug on a low table in front of her. She leans slightly forward, caught mid-sentence, one hand open in front of her, and her expression is set and certain rather than nervous or performing. Her clothes are visibly creased and slept in. A small pot-bellied pig is asleep against her hip, completely relaxed, one ear flopped. The phone screen throws the main light up onto her face from below. Behind her the rest of the warehouse falls away into soft shadow with a few small equipment lights in it. Exactly one person and one animal in frame.\nInterior, late night.\nMedium shot from just behind and beside the phone, so the viewer sits roughly where her audience does, camera at seated eye level.\nLow-key but never murky. The phone is the key light and it is bright enough that her features and the colour of her clothing read fully, with a warm secondary source keeping the couch, the pig and the near wall clearly visible. A dark mood and a readable image at the same time.\n{{NEGATIVE}}\nAspect ratio: 3:2",
@@ -605,8 +609,8 @@
       "n": 9,
       "kind": "spread",
       "pages": "19 to 20",
-      "declaredWords": 226,
-      "words": 221,
+      "declaredWords": 238,
+      "words": 233,
       "blocks": [
         {
           "t": "p",
@@ -634,7 +638,7 @@
         },
         {
           "t": "p",
-          "v": "The bookstore was closed. The lights were on."
+          "v": "The bookstore was closed but the lights were on."
         },
         {
           "t": "p",
@@ -646,7 +650,7 @@
         },
         {
           "t": "p",
-          "v": "Then she said, “Yes. They’ve started working together. Just like you said they would.”"
+          "v": "Then she said, “Yes. They’ve started working together just like you said they would.”"
         },
         {
           "t": "p",
@@ -654,7 +658,7 @@
         },
         {
           "t": "p",
-          "v": "“The robot is a problem. She’s talking to them now. I can hear her.”"
+          "v": "“The robot could be a problem. She’s talking to them now. I don’t know if she’s on our side anymore.”"
         },
         {
           "t": "p",
@@ -662,7 +666,7 @@
         },
         {
           "t": "p",
-          "v": "“No. I won’t. You said I wouldn’t have to and I’m holding you to that. I like it here. I like the cake.”"
+          "v": "“No. I won’t do that. You said I wouldn’t have to and I’m holding you to your promise. I like it here. I like the cake.”"
         },
         {
           "t": "p",
@@ -670,7 +674,7 @@
         },
         {
           "t": "p",
-          "v": "She looked up, through the window, at the empty street. There was nobody there. There was no reason to look up."
+          "v": "She looked through the window, at the empty street. There was nobody there, but she looked anyway just in case she was wrong."
         }
       ],
       "note": null,

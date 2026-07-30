@@ -622,7 +622,7 @@ Alt text: Dented energy drink cans pushed tightly to one side of a desk to make 
 
 ## Spread 8
 
-Pages 17 to 18 | Part Four: The Press Conference | Words 145
+Pages 17 to 18 | Part Four: The Press Conference | Words 221
 
 ### Text page (left), verbatim
 
@@ -632,6 +632,8 @@ Owen’s map glowed on the middle monitor. The arc was a complete circle now. Th
 
 “Tomorrow,” Owen agreed.
 
+One by one the others went home, and the Warehouse got quiet in the way it only does when the work is finished and the next thing hasn’t started yet. Owen stayed at his desk with the map still glowing, because he didn’t trust a thing he had only watched happen once. Lena stayed too. She had spent months writing this town down for nobody in particular, and she had stopped being willing to do that.
+
 Lena recorded a video that night. Just her, on the Warehouse couch with the pig asleep next to her, the camera on her phone propped against a coffee mug.
 
 “This is The Real Feed. There are things happening in this town. Some of them are good. Some of them are not. The man we elected is not telling the truth, and there is a man in a uniform who is not telling the truth either, and I don’t know yet what either of them is hiding. But I’m going to find out. I’m not asking permission.”
@@ -640,8 +642,27 @@ Lena recorded a video that night. Just her, on the Warehouse couch with the pig 
 
 Slug: vol4-s07b
 Shot type: Character portrait
-Depicts: Beat 4. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
+Depicts: Beat 5. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
 Spoiler check: PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.
+
+Re-read on 2026-07-30, when a paragraph was added between the two "Tomorrow" lines and the
+recording — the Warehouse emptying out, Owen staying with the map, Lena staying because she
+had stopped being willing to write the town down for nobody. That inserts one beat ahead of
+this plate, so the depicted beat is renumbered 4 to 5, and it changes nothing else: the
+final beat is still Lena's speech to camera and this frame still holds only her, the pig and
+the couch. Owen and his desk are named on the page now but they are not in this composition,
+which is one person and one animal by hard constraint.
+
+**Why the added beat is placed there and worded the way it is.** The page was at 46 per cent
+and the thinnest in the volume, but its last line is the arc's mic drop, so the room had to
+be made ABOVE the recording rather than after it. Two things then constrained the wording.
+The next page opens with three paragraphs beginning "By morning", which PROSE_STYLE calls the
+arc's best structural move, so this paragraph must not use the word morning — an earlier
+draft ended "he didn't trust it to still be a circle in the morning" and would have spent the
+anaphora two beats before it lands. And the next page's punch is WHO was watching, so the new
+last sentence sets up an audience: she has been writing the town down for nobody in
+particular and has stopped being willing to. Four thousand views, Town Hall and a hotel room
+with a navy uniform in the closet then answer it.
 
 Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side. The phone screen shows no text, no interface and no image.
 
@@ -677,7 +698,7 @@ Alt text: A girl sits cross-legged on a couch at night talking to a phone proppe
 
 ## Spread 9
 
-Pages 19 to 20 | Part Four: The Press Conference | Words 226
+Pages 19 to 20 | Part Four: The Press Conference | Words 238
 
 ### Text page (left), verbatim
 
@@ -693,25 +714,25 @@ By morning, one of the views was from a hotel room with a navy uniform hanging i
 
 ### Hollow Pine, Three AM
 
-The bookstore was closed. The lights were on.
+The bookstore was closed but the lights were on.
 
 The woman in the green cardigan stood behind the counter with a cordless phone in her hand. The phone had no buttons and no cord. It glowed faintly at the bottom, a soft pale color that did not match any color the human eye usually sees.
 
 She listened for a long time.
 
-Then she said, “Yes. They’ve started working together. Just like you said they would.”
+Then she said, “Yes. They’ve started working together just like you said they would.”
 
 She listened again.
 
-“The robot is a problem. She’s talking to them now. I can hear her.”
+“The robot could be a problem. She’s talking to them now. I don’t know if she’s on our side anymore.”
 
 Another pause.
 
-“No. I won’t. You said I wouldn’t have to and I’m holding you to that. I like it here. I like the cake.”
+“No. I won’t do that. You said I wouldn’t have to and I’m holding you to your promise. I like it here. I like the cake.”
 
 She set the phone down on the counter. The glow faded.
 
-She looked up, through the window, at the empty street. There was nobody there. There was no reason to look up.
+She looked through the window, at the empty street. There was nobody there, but she looked anyway just in case she was wrong.
 
 ### Image page (right)
 
@@ -769,7 +790,7 @@ Alt text: A woman in a green cardigan stands behind the counter of a lit but clo
 
 ## Spread 10
 
-Pages 21 to 22 | Part Four: The Press Conference | Words 122
+Pages 21 to 22 | Part Four: The Press Conference | Words 121
 
 Short page, deliberate. Deliberate coda spread. The last text page of the arc is short on purpose so the closing image carries the turn out of the book.
 
@@ -777,7 +798,7 @@ Short page, deliberate. Deliberate coda spread. The last text page of the arc is
 
 On the high shelf above the cookbooks, Monke was sitting very still. He had been sitting very still for almost an hour.
 
-The woman in the green cardigan did not see him.
+The woman in the green cardigan didn’t see him.
 
 Monke watched her put the phone in a drawer, lock the drawer, walk to the back of the store, and turn off the lights.
 
