@@ -666,7 +666,7 @@ Alt text: Two teenagers sit at opposite ends of a sagging couch with a gap betwe
 
 ## Spread 8
 
-Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 220
+Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 243
 
 ### Text page (left), verbatim
 
@@ -686,7 +686,7 @@ Lena pulled out a chair and sat down. The receipt from the bookstore was in her 
 
 “Have you ever heard of a bookstore called Hollow Pine.”
 
-Aunt Carol looked at the receipt, looked at it for longer than she needed to, then took her glasses off and rubbed the bridge of her nose.
+Aunt Carol looked at the receipt, looked at it for longer than she needed to, then suddenly seemed to recall something important.
 
 “I bought your birthday card there. Two years ago. The one with the dog on it.”
 
@@ -696,15 +696,15 @@ Aunt Carol looked at the receipt, looked at it for longer than she needed to, th
 
 “It was a vape store yesterday, Aunt Carol.”
 
-Aunt Carol put her glasses back on. She didn’t look surprised. She didn’t look confused. She looked tired in the specific way people look when they’ve been carrying something for a long time.
+Aunt Carol didn’t look surprised. She didn’t look confused. She looked tired in the specific way people look when they’ve been carrying something for a long time.
 
-“Honey. This town gives things. Just remember it always wants something back.”
+“Honey. This town is strange. It wasn’t always that way, but now it is. I’ve given up trying to make sense of it all. Just remember that the strangeness can’t change who you are unless you let it.”
 
-“What does that mean.”
+“What does that mean?”
 
-“I don’t know. Nobody knows. We just live here.”
+“I don’t really know except I’ve felt the pull. Nobody knows what it is. We just live here.”
 
-Aunt Carol put the receipt back in her box of papers, like it belonged there, and went back to sorting.
+Aunt Carol filed the receipt with her box of papers, like it was hers, and went back to sorting.
 
 ### Image page (right)
 
@@ -746,7 +746,7 @@ Alt text: A teenage girl pushes a small slip of paper across a kitchen table to 
 
 ## Spread 9
 
-Pages 19 to 20 | Part Two: The Bookstore That Was Always There | Words 230
+Pages 19 to 20 | Part Two: The Bookstore That Was Always There | Words 231
 
 ### Text page (left), verbatim
 
@@ -754,7 +754,7 @@ Pages 19 to 20 | Part Two: The Bookstore That Was Always There | Words 230
 
 Late that night, in her apartment above the hardware store, Vex was sitting on the floor going through her bin of broken devices.
 
-Most of them were dead and had been for months. Old radios, busted phones, a pair of walkie-talkies that had been left in the rain, a baby monitor she’d found in a free pile. She kept them because they’d all stopped working at the same time, on the same night, six months ago. The night the patches had started.
+Most of them were dead and had been for months. Old radios, busted phones, a pair of walkie-talkies that had been left in the rain, and a baby monitor she’d found in a free pile. She kept them because they’d all stopped working at the same time, on the same night, six months ago. The night the patches had started.
 
 She’d been telling herself she kept them because they were evidence.
 

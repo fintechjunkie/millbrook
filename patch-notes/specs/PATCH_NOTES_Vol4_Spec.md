@@ -106,43 +106,43 @@ Alt text: Rows of empty folding chairs face a bare podium in a town square early
 
 ## Spread 1
 
-Pages 3 to 4 | Part Four: The Press Conference | Words 263
+Pages 3 to 4 | Part Four: The Press Conference | Words 281
 
 ### Text page (left), verbatim
 
 ### The Renaissance
 
-Mayor Dalton announced a town hall for Friday afternoon. He called it the Millbrook Renaissance and he had a banner made. The banner had a serif font, a leaf motif and the kind of color palette a city council pays a graphic designer eight thousand dollars for.
+Mayor Dalton announced a town hall for Friday afternoon. He called it the Millbrook Renaissance and he had a banner made. The banner had an old school font, a leaf motif and the kind of color palette a city council pays a graphic designer eight thousand dollars for.
 
-Reporters were coming, real ones from outside Millbrook. A station out of the city had picked up the story of the medical patches and decided it was a feel-good piece for sweeps week. The Mayor had agreed to a live segment. He had bought a new tie.
+Reporters were coming, real ones from outside Millbrook. A station out of the city had picked up the story of the medical miracles and decided it was a feel-good piece for sweeps week. The Mayor had agreed to a live segment. He had bought a new tie.
 
 Lena watched the announcement on her aunt’s TV. Aunt Carol watched it from the kitchen, drying a dish she had already dried twice.
 
 “He’s going to mess this up,” Lena said.
 
-“He’s going to take credit for it,” Aunt Carol said. “Same thing.”
+“He’s going to take credit for it,” Aunt Carol said. “And then he’ll mess it up.”
 
-“It’s not the same thing.”
+“I wonder what he’s going to say.”
 
-“In this town, honey, it kind of is.”
+“He’ll say whatever makes him look good and he’ll say it twice.”
 
-Lena’s phone buzzed. Group chat. Milo.
+Lena’s phone buzzed. It was their group chat. Milo kept it short.
 
 Warehouse. Now. Crane is in town.
 
 ### Crane
 
-Owen had a face on the middle monitor: an older man in a navy uniform with a row of medals and a medical mask covering most of his face. The image was grainy because Owen had pulled it from a security camera at the Hartwell Inn, where Crane had checked in this morning under a name that was almost certainly fake.
+Owen had a face on the middle monitor: an older man in a navy uniform with a row of medals and a medical mask covering most of his face. The image was grainy because Owen had pulled it from a security camera at the Hartwell Inn, where Crane had checked in this morning.
 
 “Admiral Crane,” Milo said. “He’s here. Today.”
 
-“When does he leave,” Vex said.
+“Why would he be here?” Vex said.
 
-“He doesn’t. He’s in town for the press conference.”
+“He’s in town for the press conference.”
 
-“Why.”
+“Why?”
 
-“Because whatever’s pushing the patches is finishing the circle today,” Felix said.
+“Because whatever’s pushing the patches is finishing the circle today,” Felix said. “He has to know more about them than we do.”
 
 ### Image page (right)
 
@@ -176,37 +176,37 @@ Alt text: A girl sits forward on a couch watching an unseen television while an 
 
 ## Spread 2
 
-Pages 5 to 6 | Part Four: The Press Conference | Words 204
+Pages 5 to 6 | Part Four: The Press Conference | Words 238
 
 Short page, deliberate. Lands on Pip naming the Mayor. The hardest hook in the four volumes and it should sit alone at the bottom of a short page.
 
 ### Text page (left), verbatim
 
-Everyone looked at him. Felix had been at his bench for twelve hours and he had a small device in his hand that looked like a kitchen timer crossed with a smoke detector. He looked tired in the specific way Felix looked tired, which was happy.
+Everyone looked at him. Felix had been at his bench for twelve hours and he had a small device in his hand that looked like a kitchen timer crossed with a smoke detector. He looked tired in the specific way Felix looked tired when he was working on something cool, which was happy tired.
 
-“I built a thing,” he said. “It counts down to the next patch. It’s tracking the rhythm. The patches are speeding up. There’s a big one coming today. Two thirty-eight PM, give or take a minute.”
+“I built a thing,” he said. “It counts down to the next patch. It’s been tracking the rhythm and the patches are speeding up. There’s a big one coming today at two thirty-eight PM, give or take a minute.”
 
 “How many of those have you built,” Milo said.
 
 “Nine.”
 
-“How many worked.”
+“Can we each have one?”
 
-“This one.” Felix turned it over in his hands, entirely pleased with it. “Which is a much better ratio than it sounds like.”
+“Uh. No. This is the only one that works.” Felix turned it over in his hands, entirely pleased with it. “Which is a much better ratio than it sounds like.”
 
 “The press conference starts at two thirty,” Lena said.
 
-“The press conference starts at two thirty.”
+“Yes. The press conference starts at two thirty,” said Felix, nodding his head.
 
-Pip had been very quiet all morning. She was sitting on Owen’s spare chair, which she had pulled into the corner. She had not said anything in three hours.
+Pip had been very quiet all morning. She was sitting on Owen’s spare chair, which she had pulled into the corner. She hadn’t said anything in three hours.
 
 “Pip,” Milo said.
 
 “Yes.”
 
-“Is the next patch a person.”
+“Is the next patch going to be a person again?”
 
-Pip looked at the floor. Then she looked at Vex. Then she looked at Lena. Then, because she had to, she looked at Milo.
+Pip looked at the floor. Then she looked at Vex. Then she looked at Lena. Then, because he’s the one who asked the question, she looked back at Milo.
 
 “I think it’s the Mayor,” she said.
 
@@ -255,41 +255,41 @@ Alt text: A tired but delighted teenage boy holds up a handmade device at a work
 
 ## Spread 3
 
-Pages 7 to 8 | Part Four: The Press Conference | Words 287
+Pages 7 to 8 | Part Four: The Press Conference | Words 304
 
 ### Text page (left), verbatim
 
 ### The Conversation On The Curb
 
-Lena needed air. She walked outside the Warehouse and sat on the curb. After a minute, Pip came out and sat next to her, the slightly-too-still way Pip did everything.
+Lena needed air. She walked outside the Warehouse and sat on the curb. After a minute, Pip came out and sat next to her in the slightly-too-still way Pip did everything.
 
 “Are you helping them or helping us,” Lena said.
 
 Pip didn’t pretend not to know what she meant.
 
-“I don’t know yet,” she said. “But I want to be helping you.”
+“Both?” she said hesitantly. “But I know I want to be helping you.”
 
 “What does that mean.”
 
-“It means somebody made me. I don’t remember who. I came online about a year ago in an empty house on Larkspur and I knew how to read and I knew the names of three people in this town and one of them was Vex. I went to her. She didn’t freak out. So I stayed.”
+“It means somebody made me. I don’t remember who. I came online after the Great Event in an empty house on Larkspur and I knew how to read and I knew the names of three people in this town and one of them was Vex. I went to her. She didn’t freak out so I stayed.”
 
 “Okay.”
 
-“The thing pushing the patches talks to me sometimes. It started a month ago. It uses the wires in the walls. It thinks I’m on its team. I have not told it I’m not.”
+“The thing pushing the patches talks to me sometimes. It started a month ago. It uses the wires in the walls. It thinks I’m on its team. I haven’t told it that I’m not.”
 
 “Why.”
 
-“Because if I tell it, it stops talking, and then I don’t know what it’s doing. And right now I am the only one who knows what it’s doing.”
+“Because it might stop talking to me, and then I won’t know what it’s doing. And right now I’m the only one who knows what it’s doing.”
 
-Lena took a long breath. Across the street, a kid on a bike rode past with a backpack that was too big for him. The kid waved. Pip waved back. Pip’s wave was a little late.
+Lena took a long breath. Across the street, a kid on a bike rode past wearing a backpack and holding a football in his lap. The kid waved. Pip waved back but her wave was a little stiff and a little late.
 
 “Is it good or bad,” Lena said.
 
-“It doesn’t know. It thinks it’s helping. It’s not, all the way. The man on the porch is happy. The girl on the couch is not. It can’t tell the difference yet. I’m trying to teach it.”
+“It thinks it’s helping, but I’m not sure it always is. The man on the porch is happy. The girl on the couch isn’t. We have a new bookstore. But it erased something, including memories. It can’t tell the difference between right and wrong8 yet. I’m trying to teach it.”
 
 “You’re trying to teach it.”
 
-“Someone has to.”
+“Someone should.”
 
 Lena thought about that for a while.
 
@@ -340,11 +340,11 @@ Alt text: Two teenage girls sit side by side on a kerb outside a brick building,
 
 ## Spread 4
 
-Pages 9 to 10 | Part Four: The Press Conference | Words 212
+Pages 9 to 10 | Part Four: The Press Conference | Words 204
 
 ### Text page (left), verbatim
 
-“Okay,” she said. “When this is over, you’re telling Milo what you told me.”
+“Okay,” she said. “No more secrets. You have to tell the others what you told me.”
 
 “Okay.”
 
@@ -352,21 +352,21 @@ Pages 9 to 10 | Part Four: The Press Conference | Words 212
 
 “Yes.”
 
-“Out loud. Promise me.”
+“Say it out loud. Promise me.”
 
 “I promise.”
 
 ### The Square
 
-By two fifteen, the square in front of Town Hall had a banner, a podium, and forty people in folding chairs. Mr. Henderson was in the front row. Cassie was in the second row with her mother, headphones on, holding a piece of paper Vex had written for her that said “BLINK ONCE FOR YES.” The Mayor was doing a sound check. He was wearing the new tie.
+By two fifteen, the square in front of Town Hall had a banner, a podium, and forty people in folding chairs. Mr. Henderson was in the front row. Cassie was in the second row with her mother, sound canceling headphones on to dull the noise. The Mayor was doing a sound check and wearing a new tie.
 
 Admiral Crane stood at the side of the stage with his mask on and his hands behind his back. Watching.
 
-Lena set up her tripod near the back. Felix had given her his countdown device and it was in her bag. She didn’t need it. She had a watch.
+Lena set up her tripod near the back. Felix had given her his countdown device and it was in her bag.
 
-Milo and Owen worked the crowd from opposite sides, pretending to be ordinary kids. Vex stayed with Cassie. Felix was somewhere with a backpack of things that sparked. Pip was on a bench across the square, head tilted, listening.
+Milo and Owen worked the crowd from opposite sides, pretending to be ordinary kids. Vex stayed with Cassie. Felix was somewhere with a backpack of things that mostly worked most of the time. Pip was on a bench across the square, head tilted, listening.
 
-At two twenty-six, Crane walked across the stage and stopped in front of Lena.
+At two twenty-six, Admiral Crane walked off the stage and directly to Lena and her tripod.
 
 ### Image page (right)
 
@@ -413,33 +413,33 @@ Hard high sun, chairs and heads throwing short shadows forward.
 
 ## Spread 5
 
-Pages 11 to 12 | Part Four: The Press Conference | Words 212
+Pages 11 to 12 | Part Four: The Press Conference | Words 231
 
 ### Text page (left), verbatim
 
 “Ms. Marsh.”
 
-Lena did not pretend not to know him.
+Lena didn’t pretend to not know him.
 
 “Admiral.”
 
-“You’re building something interesting. The footage. The pattern work. The way you’ve organized your subscribers.”
+“You’re assembling an interesting body of work. The footage you’ve collected. The topics you’ve covered. The way you talk to your subscribers.”
 
 “I have three hundred and forty-one subscribers, Admiral.”
 
-“I’m not talking about subscribers. I’m talking about the way you see things.”
+“I’m not talking about the numbers. I’m talking about the way you see things.”
 
-He held out a card, white, heavy stock, with a phone number on it. Nothing else.
+He held out a white card, heavy stock, with a phone number on it. The rest of the card was blank.
 
-“When you’re tired of playing journalist, I have real work for someone with your skills. We’re hiring people who can pay attention. Most people can’t.”
+“When you’re tired of playing local journalist, I have real work for someone with your skills. We’re hiring people who can pay attention. Most people can’t.”
 
-Lena took the card. She didn’t say yes. She didn’t say no. Crane nodded once, like she had answered something, and walked back to the stage.
+Lena took the card. She didn’t say yes. She didn’t say no. Admiral Crane nodded once, like she had answered him, and then walked back to the side of the stage.
 
-Lena put the card in her pocket. Her hand was shaking slightly. She made it stop.
+Lena put the card in her pocket. Her hand was shaking slightly but she somehow found a way to make it stop.
 
 ### Two Thirty-Eight
 
-“My fellow citizens of Millbrook,” the Mayor said. “It is my honor to welcome you to a new chapter for our town. The past two weeks have seen extraordinary improvements. A repaired infrastructure. A new local business. Eleven of our neighbors restored to health. I want to be very clear. These changes did not happen by accident. They happened because of the leadership of this office, the dedication of our staff, and a strategic plan that I have personally—”
+“My fellow citizens of Millbrook,” the Mayor said. “It’s my honor to welcome you to a new chapter for our town. The past two weeks have seen extraordinary improvements. Repaired infrastructure and eleven of our neighbors restored to health. I want to be very clear. These changes did not happen by accident. They happened because of the leadership of this office, the dedication of our staff, and a strategic plan that I have personally—”
 
 ### Image page (right)
 
@@ -501,44 +501,46 @@ Aspect ratio: 3:2
 
 ## Spread 6
 
-Pages 13 to 14 | Part Four: The Press Conference | Words 281
+Pages 13 to 14 | Part Four: The Press Conference | Words 323
 
 ### Text page (left), verbatim
 
-Felix’s timer in Lena’s pocket beeped, very softly, and stopped.
+Felix’s timer in Lena’s bag beeped very softly and then stopped.
 
-Two thirty-eight.
+It was two thirty-eight.
 
-Mayor Dalton kept talking, but his voice changed.
+Mayor Dalton kept talking, but his voice suddenly changed.
 
 “I didn’t do any of this,” he said.
 
 Several people in the front row looked up. The reporter from the city station, who had been checking her phone, lowered it slowly.
 
-“I didn’t fix the pothole,” the Mayor said. His voice was the same volume. His face was wrong. “I didn’t open the bookstore. I didn’t fix Mr. Henderson’s knee. I don’t know what is happening in this town. I’m scared. I’ve been scared for years. I am scared right now.”
+“I didn’t fix the pothole,” the Mayor said. His voice was different. His face was wrong. “I didn’t open the bookstore. I didn’t fix Mr. Henderson’s knee. I don’t know what is happening in this town. I’m scared. I’ve been scared for years. I’m scared right now.”
 
 The square went quiet. Even the wind.
 
-“My wife knows. My wife knows that something is wrong here and she doesn’t want to leave because her mother is buried at Saint Anne’s and we can’t take her with us. So we stay. So I keep saying things on television. I am sorry. I am so sorry.”
+“My wife knows. My wife knows that something is wrong here and she doesn’t want to leave because her mother is buried at Saint Anne’s and we can’t take her with us. So we stay and I keep saying things to try to make it make sense. I’m sorry. I am so sorry.”
 
-Mr. Henderson stood up from the front row. Slowly, the way an old man stands up, except his knee was fine.
+Mr. Henderson stood up from the front row. Slowly, the way an old man stands up.
 
 “It’s all right, Tom,” Mr. Henderson said.
 
-The Mayor blinked at him.
+The Mayor acknowledged him with a nod.
 
 And then it ended. Whatever it was. The Mayor’s face came back together. He looked around the square like he had forgotten where he was. Then his grin returned, the practiced one, like a switch had been flipped.
 
-“with a strategic plan I have personally championed,” he finished. “Thank you all for being here today.”
+“...with a strategic plan I have personally championed. Our town is on the up and up and with your support, this administration will continue to improve Millbrook. It’s a promise I made and one I’m going to keep.” he finished. “Thank you all for being here today.”
 
-The crowd clapped. Most of them. Some of them did not. The reporter from the city station was looking at her camera operator with an expression that Lena was going to remember for a long time.
+Most of the crowd clapped. But some didn’t. Lena scanned the crowd and saw the confusion settle in and then disappear. She was going to remember how scared she was for a long time.
+
+And Admiral Crane was looking at Pip with more than casual intent.
 
 ### Image page (right)
 
 Slug: vol4-s06
 Shot type: Action moment
 Depicts: Beat 6. Mr. Henderson getting up out of the front row.
-Spoiler check: PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.
+Spoiler check: PASS, re-read after the page boundary moved on 2026-07-30. The final beat is no longer the crowd's confusion settling — it is now "Admiral Crane was looking at Pip", moved down from the head of spread 7. Neither figure is in this frame: the prompt carries MR_HENDERSON alone, every surrounding figure is turned away and thrown out of focus with no other face legible, and there is no uniformed figure and no bench anywhere in the composition. Nothing needed regenerating.
 
 Prompt:
 
@@ -561,31 +563,29 @@ Alt text: An elderly man rises out of a folding chair in the front row of an out
 
 ## Spread 7
 
-Pages 15 to 16 | Part Four: The Press Conference | Words 177
+Pages 15 to 16 | Part Four: The Press Conference | Words 185
 
 ### Text page (left), verbatim
 
-Admiral Crane was looking at Pip.
-
 ### The Warehouse, That Night
 
-They moved Vex’s broken devices into the Warehouse, and Pip’s things from the empty house on Larkspur. They cleared out a corner near the back wall and Lena put a small desk there with her laptop on it, near Owen’s setup. Owen did not say anything. He moved his energy drink cans to make room.
+They moved Vex’s broken devices into the Warehouse, and Pip’s things from the empty house on Larkspur. They cleared out a corner near the back wall and Lena put a small desk there with her laptop on it, near Owen’s setup. Owen didn’t say anything. He just moved his energy drink cans to make room.
 
-Cassie went home with her mother. Cassie was going to be okay. Cassie was going to be different, but okay. Vex was going to check on her every day for the rest of her life, and Cassie was going to let her.
+Cassie went home with her mother. Cassie was going to be okay. She was going to be different, but okay. Vex was going to check on her every day for as long as she needed to, and Cassie was going to let her.
 
-Pip told Milo everything she had told Lena. Milo listened without interrupting. When she was done, he was quiet for a long time.
+Pip told Milo everything she had told Lena. Milo listened without interrupting, and when she was done he was quiet for a long time.
 
 “You should have told us sooner,” he said.
 
 “I know.”
 
-“You’re going to keep telling us. Every conversation. Every time it talks to you. I want to know.”
+“But now that we know, you need to keep telling us what you hear. Every conversation. Every time it talks to you. We need to know.”
 
 “Okay.”
 
 “Welcome to the team, Pip.”
 
-Pip looked at the floor. “Thank you.”
+Pip looked at the floor. “Thank you for not being mad.”
 
 “Don’t make it weird.”
 

@@ -387,6 +387,30 @@ for (let n = 1; n <= 4; n += 1) {
     }
     if (!sp.image.aspect) allProblems.push(`${where}: prompt has no aspect ratio`);
   }
+
+  // Straight quotes and apostrophes in the PROSE, which is the one mechanical rule the
+  // project states without exception. This is a tripwire for the same reason the declared
+  // word count is one: the fault is invisible in a diff, obvious on the page, and arrives
+  // from a direction nobody is watching. Edit mode seeded 32 of them across two volumes in
+  // a single afternoon, because a keyboard emits U+0027 and U+0022 and no author is going to
+  // hunt for them by eye at 15px.
+  //
+  // The save route now curls on write, so this should never fire from the browser. It exists
+  // to catch a HAND edit to a spec, which the route cannot see.
+  //
+  // Prose only. Prompts, alt text, production notes and the roster are explicitly allowed
+  // straight marks, and `sp.blocks` is already just the verbatim prose.
+  for (const sp of spreads) {
+    for (const b of sp.blocks ?? []) {
+      const marks = (b.v.match(/['"]/g) ?? []).length;
+      if (marks) {
+        allProblems.push(
+          `vol${n} spread ${sp.n}: ${marks} straight quote/apostrophe in prose `
+          + `-- curly only. "${b.v.slice(0, 56)}..."`,
+        );
+      }
+    }
+  }
   const text = spreads.filter((s) => s.kind === 'spread');
   summary.push({
     vol: n,

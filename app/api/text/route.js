@@ -29,6 +29,44 @@ import { join } from 'node:path';
 const SPECS = join(process.cwd(), 'patch-notes', 'specs');
 const dev = process.env.NODE_ENV === 'development';
 
+/**
+ * Curl the punctuation on the way in, because a keyboard cannot type it.
+ *
+ * This is the fix for a fault that had already happened twice in an hour. The prose rule is
+ * curly apostrophes and quotes always, and it is the one mechanical rule the project states
+ * without exception — at 15px in a serif a straight mark is visibly wrong. But edit mode puts
+ * a text cursor in front of the author, and every keyboard on earth emits U+0027 and U+0022.
+ * So every editing session was quietly seeding the specs with straight marks: sixteen lines
+ * in Volume 2, then sixteen more in Volume 4, each needing a sweep afterwards.
+ *
+ * Fixing it here rather than in a periodic sweep means the file is never wrong in the first
+ * place, and the author never has to think about it.
+ *
+ * Apostrophes always become the right single quote. Contractions, possessives and elisions
+ * are the whole population of single quotes in this prose; a quote INSIDE a quote would want
+ * a matched ‘ ’ pair, which cannot be inferred from one paragraph and is rare enough to be
+ * worth asking for as a spec edit.
+ *
+ * Double quotes open or close on the character before them, which is the standard rule and
+ * is reliable here because dialogue always opens a paragraph or follows a space.
+ */
+function curl(s) {
+  let out = s
+    .replace(/(?<=\w)'(?=\w)/g, '’')   // don't, it's
+    .replace(/(?<=\w)'/g, '’')          // kids', Henderson'
+    .replace(/'(?=\w)/g, '’');          // 'twas, '90s
+
+  let prev = '';
+  out = [...out].map((ch) => {
+    if (ch !== '"') { prev = ch; return ch; }
+    const opening = prev === '' || /\s/.test(prev) || '([—-'.includes(prev);
+    prev = ch;
+    return opening ? '“' : '”';
+  }).join('');
+
+  return out;
+}
+
 const bad = (status, error, extra = {}) =>
   Response.json({ ok: false, error, ...extra }, { status });
 
@@ -90,9 +128,14 @@ export async function POST(request) {
     );
   }
 
-  if (after.trim() === before.trim()) return Response.json({ ok: true, unchanged: true });
+  // Curl AFTER the content-addressed match, never before it. `before` is matched against the
+  // file, which is already curly, so touching it would break the one guard that stops this
+  // route rewriting the wrong paragraph. And compare curled-to-curled, so retyping a word
+  // with a straight apostrophe over an identical curly one counts as no change at all.
+  const clean = curl(after).trim();
+  if (clean === before.trim()) return Response.json({ ok: true, unchanged: true });
 
-  const nextProse = prose.replace(before, after.trim());
+  const nextProse = prose.replace(before, clean);
   const out = src.replace(found[0], `${head}${nextProse}${tail}`);
 
   const lines = (s) => s.split('\n').length;

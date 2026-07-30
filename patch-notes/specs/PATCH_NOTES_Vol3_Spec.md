@@ -85,7 +85,7 @@ Alt text: An empty residential street just after sunrise with long shadows and a
 
 ## Spread 1
 
-Pages 3 to 4 | Part Three: Mr. Henderson's Knee | Words 271
+Pages 3 to 4 | Part Three: Mr. Henderson's Knee | Words 275
 
 ### Text page (left), verbatim
 
@@ -95,7 +95,7 @@ Mr. Henderson was eighty-one years old, and on Tuesday morning he ran six miles.
 
 He hadn’t meant to. He’d gone out to get the paper, and his knee, which had been bad since 1978, had felt fine when he stood up. He’d gone down the porch steps without holding the rail and he’d kept walking. By the time he noticed he wasn’t in pain anymore, he was at the end of the block. By the time he noticed he wasn’t tired, he was at the park.
 
-He came home and his wife cried, and then she made him sit down because she didn’t trust the knee, and then he stood up again because the knee was fine.
+He came home and his wife clapped with joy. Then she made him sit down because she didn’t trust the knee, and then he stood up again because the knee was fine.
 
 By Tuesday night, three other people in Millbrook had stories like it.
 
@@ -111,15 +111,15 @@ Lena was at the kitchen table eating cereal when Aunt Carol set the local paper 
 
 “He just made it up.”
 
-Aunt Carol poured herself coffee. She was not looking at the paper, and she had not looked at it since she’d brought it inside.
+Aunt Carol poured herself coffee. She wasn’t looking at the paper, and she hadn’t looked at it since she’d brought it inside.
 
 “Aunt Carol.”
 
 “Don’t.”
 
-“You said this town gives things and it always wants something back. What does it want.”
+“You said this town is full of strangeness. What does it want?”
 
-Aunt Carol stirred her coffee. “Honey. If I knew, I’d have left thirty years ago.”
+Aunt Carol stirred her coffee. “Honey. If I knew, I’d feel a whole lot better. But I don’t. So I just keep going on.”
 
 ### Image page (right)
 
@@ -164,7 +164,7 @@ Low warm sunrise light from behind and to the right, rim lighting his white hair
 
 ## Spread 2
 
-Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 236
+Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 229
 
 ### Text page (left), verbatim
 
@@ -180,11 +180,11 @@ Vex called Lena at nine fifteen. Vex did not call people. Vex texted, or Vex sho
 
 “Is she okay.”
 
-“She’s not hurt.” Something moved behind Vex’s voice, wind or traffic or both. “It’s not that kind of okay.”
+“She’s not hurt.” There was urgency in Vex’s voice. “It’s not that kind of happening.”
 
 “Who is Cassie.”
 
-“My lab partner. Get over here.”
+“Lab-partner. Friend. Get over here.”
 
 “Vex, it’s nine fifteen in the morning. Can you at least tell me what I’m walking into.”
 
@@ -192,11 +192,11 @@ Vex called Lena at nine fifteen. Vex did not call people. Vex texted, or Vex sho
 
 Vex had never once asked Lena for anything. Lena worked that out somewhere on the walk over, and walked faster.
 
-Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her right ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud.
+Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her right ear that was, as of last night, the only hearing aid she needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud.
 
-She was not crying. She had been crying. Her eyes were the way eyes get after.
+She wasn’t crying but she had been. Her eyes were the way eyes get after a long crying session.
 
-Vex had put her own jacket over the back of the couch behind her, and Lena only understood that later. Cassie had been shaking, and Vex had made the room warmer without ever saying the word cold out loud.
+Vex had put her own jacket over the back of the couch behind her, and Lena only understood why later. Cassie had been shaking, and Vex had offered up some comfort in case she needed it.
 
 ### Image page (right)
 
@@ -268,11 +268,11 @@ Aspect ratio: 3:2
 
 ## Spread 3
 
-Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 267
+Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 281
 
 ### Text page (left), verbatim
 
-Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did.
+Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had never seen Vex do before.
 
 “Tell her,” Vex said softly.
 
@@ -282,11 +282,11 @@ Cassie looked at Vex first rather than at Lena, and waited until Vex nodded befo
 
 Lena pulled her phone out of her jacket pocket. It was buzzing on silent.
 
-She turned it face down on the arm of the couch and left it there. Her camera was in her bag and it was going to stay in her bag, and she decided that twice on purpose, because the first time had not felt like it would hold.
+She turned it face down on the arm of the couch and left it there. Her camera was in her bag and it was going to stay in her bag. The decision was made and Lena planned on sticking to it even though she really wanted to record what Cassie was saying.
 
-It was the best story she had found since she got to Millbrook, and it was a fifteen-year-old girl on a couch who had not agreed to anything.
+It was the best story she had found since she got to Millbrook, and it was a fifteen-year-old girl on a couch who had not agreed to being at the center of anything.
 
-“I can’t turn it off,” Cassie said. “The other hearing aid was making it worse. I took it out and it didn’t help. I don’t know how to make my brain stop hearing.”
+“I can’t turn it off,” Cassie said. “The other hearing aid was making it worse. I took it out and it didn’t help. I don’t know how to make my brain stop hearing. Everything is so loud!”
 
 ### Image page (right)
 
@@ -322,7 +322,7 @@ Alt text: A girl sits on a couch holding a hearing aid in her open palm, while f
 
 ## Spread 4
 
-Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 276
+Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 272
 
 ### Text page (left), verbatim
 
@@ -338,11 +338,11 @@ Pip put two fingertips just behind Cassie’s right ear, very lightly, for about
 
 “What does that mean,” Lena said.
 
-“It means whoever made me knows how to make her.”
+“It means whoever is patching everything did this.”
 
 The Warehouse went quiet. Felix stopped tinkering. Owen stopped typing. Even Monke, on his shelf, lowered his granola bar.
 
-Vex looked at Pip. “Or you’re the same kind of thing.”
+Vex looked at Pip. “Maybe it made you as well.”
 
 “Maybe.”
 
@@ -354,13 +354,13 @@ Vex looked at Pip. “Or you’re the same kind of thing.”
 
 Owen put the medical patches on the map. He didn’t want to. He did anyway.
 
-There were eleven dots that hadn’t been there last week: the knee, the chemo, the diabetic kid down the street whose pump now read zero need, a woman who’d been blind in one eye since a car accident, a man whose tremor had stopped, and Cassie, on Vex’s street.
+There were eleven dots that hadn’t been there last week: the knee, the chemo, the diabetic kid down the street whose pump now read zero need, a woman who’d been blind in one eye since a car accident, a man whose tremor had stopped, and Cassie, all on Vex’s street.
 
-All eleven were inside the arc.
+All eleven followed the arc.
 
 The arc was almost a full circle now. There was a small piece missing on the western side. Three or four more patches would close it.
 
-“It’s a containment field,” Felix said. He had walked over without anyone noticing. He was holding a soldering iron. “Whatever’s doing this, it’s drawing a circle around something. The patches inside the circle aren’t random. They’re payment.”
+“It’s deliberate,” Felix said. He had walked over without anyone noticing. He was holding a soldering iron. “Whatever’s doing this, it’s drawing a circle around something. The patches aren’t random. They’re part of a bigger plan.”
 
 ### Image page (right)
 
@@ -392,7 +392,7 @@ Alt text: A girl kneels in front of a seated girl and rests two fingertips light
 
 ## Spread 5
 
-Pages 11 to 12 | Part Three: Mr. Henderson's Knee | Words 226
+Pages 11 to 12 | Part Three: Mr. Henderson's Knee | Words 243
 
 ### Text page (left), verbatim
 
@@ -404,9 +404,9 @@ Owen looked at him.
 
 Milo had come over. He stood with his hands in his jacket pockets and looked at the screen for a long time.
 
-“What’s in the middle.”
+“What’s in the middle. Every circle has a center.”
 
-Owen zoomed in. The center of the almost-circle was the old elementary school, abandoned since the Event: six acres of fenced-off property, boarded windows and a play structure with the swings removed. It was the kind of building everybody in town knew not to think about.
+Owen zoomed in. At the center of the almost-circle was the old elementary school, abandoned since the Great Event. It was six acres of fenced-off property, boarded windows and a play structure with the swings removed. It was the kind of building everybody in town knew not to think about.
 
 “Great,” Vex said. She had walked over too. “It’s the school. It’s always the school.”
 
@@ -418,17 +418,17 @@ Owen zoomed in. The center of the almost-circle was the old elementary school, a
 
 They argued about the school for an hour.
 
-Milo wanted to scout it carefully. Owen wanted to map every camera and signal in a quarter mile before anyone got near it. Felix wanted to build something to take with them, although he could not say what. Vex wanted to break in tonight. Lena wanted to interview Mr. Henderson first. Pip wanted to listen, which was Pip’s answer to most things, and which was infuriating from the other side of an argument.
+Milo wanted to scout it carefully. Owen wanted to map every camera and signal in a quarter mile before anyone got near it. Felix wanted to build something to take with them, although he could not say what. Vex wanted to break in tonight. Lena wanted to interview Mr. Henderson first. Pip wanted to listen, which was Pip’s answer to most things, and which was infuriating to her action oriented friends.
 
-“You don’t want to do anything,” Owen said.
+“Why don’t you want to do anything?” Owen said.
 
-“I want to listen,” Pip said.
+“I want to listen,” Pip said. “Listening is doing something.”
 
-“That’s not a plan.”
+“That’s not a real plan.”
 
 “It’s the start of one.”
 
-“It’s the start of nothing.”
+“It’s the start of sitting around and doing nothing.”
 
 ### Image page (right)
 
@@ -456,7 +456,7 @@ Alt text: An abandoned school behind a chain link fence with boarded windows and
 
 ## Spread 6
 
-Pages 13 to 14 | Part Three: Mr. Henderson's Knee | Words 277
+Pages 13 to 14 | Part Three: Mr. Henderson's Knee | Words 285
 
 ### Text page (left), verbatim
 
@@ -464,7 +464,7 @@ Vex stood up. “Okay. We’re not doing this.”
 
 “Doing what.”
 
-“The two-team thing. We’re done with the two-team thing. There is a fifteen-year-old girl on that couch who can hear the wasp in your wall, and we are arguing about whose group is in charge.” Vex pointed at the couch. Cassie was looking at her hands. “We’re one team. We’re going to figure this out together. Or I’m taking her home and you can have your warehouse.”
+“The two-team thing. We’re done with the two-team thing. There is a fifteen-year-old girl on that couch who can hear the wasp in your wall, and we’re arguing about whose group is in charge.” Vex pointed at the couch. Cassie was looking at her hands. “We have to operate as one team. We’re going to figure this out together or I’m taking her home and you can have your warehouse back.”
 
 Nobody said anything for a second.
 
@@ -474,9 +474,9 @@ Milo put his coffee down. “You’re right.”
 
 “One team. We scout the school tonight. Owen does signals. Felix builds something. I take Lena to talk to Henderson. Vex stays with Cassie. Pip listens.”
 
-“That’s a plan,” Owen said grudgingly.
+“That’s actually a plan,” Owen said grudgingly.
 
-“It’s the start of one,” Pip said.
+“At least the start of one,” Pip said.
 
 Owen made a small noise that was almost a laugh. He covered it by typing.
 
@@ -484,7 +484,7 @@ Owen made a small noise that was almost a laugh. He covered it by typing.
 
 Mr. Henderson lived in a white house with green shutters and a porch swing that creaked. He was wearing running shoes that still had the price tag on the tongue.
 
-“Came from Carter’s,” he said, when Lena pointed at the tag. “Yesterday afternoon. Wife made me get them. Said if I’m going to keep doing this I needed proper shoes.”
+“Came from Carter’s,” he said, when Lena pointed at the tag. “Yesterday afternoon my wife made me get them. She said if I’m going to keep doing this I needed proper shoes.”
 
 “Are you going to keep doing it.”
 
@@ -528,11 +528,11 @@ Alt text: A short girl with mint-green hair in two buns stands in a cluttered ro
 
 ## Spread 7
 
-Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 239
+Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 241
 
 ### Text page (left), verbatim
 
-“It felt like somebody fixed me. Reached in and tightened a screw.” He held up his hands. They didn’t shake. “I had a tremor in this one for nine years. It’s gone too. I didn’t notice until lunch yesterday because I picked up a coffee cup and it didn’t move.”
+“It felt like somebody fixed me. It’s like they reached in and tightened a screw.” He held up his hands. They didn’t shake. “I had a tremor in this one for nine years. It’s gone too. I didn’t notice until lunch yesterday when I picked up a coffee cup and it didn’t move.”
 
 “Mr. Henderson,” Lena said gently. “Did you ask for this.”
 
@@ -540,19 +540,19 @@ Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 239
 
 “To be fixed.”
 
-Lena had learned not to fill the gap after a question like that one. Most people fill it themselves if you let them, and what they put in it is the true part.
+Lena had learned not to fill the gap after a question like that one. Most people fill it themselves if you let them.
 
 Mr. Henderson looked at her for a long time. He was not a stupid man, and the question was not a stupid question.
 
-“No,” he said finally. “I never asked anybody for anything. I just woke up and somebody had decided.”
+“No,” he said finally. “I never asked anybody for anything. I just woke up and somebody had decided to help me.”
 
 “Does that bother you.”
 
-“Young lady. I am eighty-one years old, and I just ran six miles, and my wife is making lasagna because I asked her to, and yesterday I couldn’t taste lasagna because the chemo my brother had took my taste years ago and we have the same body, that’s what they told us. So no. It does not bother me.”
+“Young lady. I’m eighty-one years old, and I just ran six miles, and my wife is making lasagna because I asked her to, and yesterday I couldn’t taste lasagna because of all the dental work I’ve had done over the years. So no. It does not bother me.”
 
 He paused. The swing creaked.
 
-“But something is going to come ask me for something. I can feel it. I don’t know what it’s going to ask. But I know it’s going to ask.”
+“But I do worry a little. Nothing in life is free. Never has been. Never will be. It means something is going to come ask me for something down the road. I don’t know what it’s going to ask. But I know it’s going to ask.”
 
 ### Image page (right)
 
@@ -596,13 +596,13 @@ Alt text: An elderly man on a porch swing holds his steady hands up in front of 
 
 ## Spread 8
 
-Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 248
+Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 250
 
 ### Text page (left), verbatim
 
 ### The Warehouse, After Midnight
 
-They did not scout the school that night. Felix’s thing wasn’t ready, Owen’s sweep wasn’t done, and Cassie didn’t want to go home, so they all stayed at the Warehouse.
+They didn’t scout the school that night. Felix’s gadget wasn’t ready, Owen’s sweep wasn’t done, and Cassie didn’t want to go home, so they all stayed at the Warehouse.
 
 Lena fell asleep on a couch with the pig. Felix fell asleep at his bench with his face on his arms. Owen fell asleep in his chair, which he denied later. Vex put a blanket on Cassie and sat on the floor next to the couch, awake, for a long time.
 
@@ -622,7 +622,7 @@ There was a pause, and then a hum, almost too soft to hear, in the wires of the 
 
 Another pause. Another hum.
 
-“I told you I’d watch them. I’m watching. I’ll keep watching. But if you do another one of these, I’m going to tell them. All of it. The frequency. The math. Where you live.”
+“I told you I’d watch them. I’m watching. I’ll keep watching. But if you keep patching up people I’m going to tell them. All of it. Everything I know. The frequency. The math. Where you live. Everything.”
 
 ### Image page (right)
 
@@ -701,7 +701,7 @@ Alt text: A wide warehouse interior after midnight with six teenagers asleep on 
 
 ## Spread 9
 
-Pages 19 to 20 | Part Three: Mr. Henderson's Knee | Words 237
+Pages 19 to 20 | Part Three: Mr. Henderson's Knee | Words 239
 
 Short page, deliberate. Volume closer. The final beats are Monke crossing the floor and Cassie unclenching in her sleep, and they want air around them rather than company on the page.
 
@@ -725,11 +725,11 @@ Pip stood there for another minute. Then she walked back to the Pit and sat down
 
 Vex didn’t push. She handed Pip a granola bar, and Pip didn’t eat it. She held it like a person holding something they’d been given.
 
-What Pip did not say, because she had not worked out how to say it yet, was that she was the only one in the building who could hear both sides of it. The thing in the wall talked, and the people on the couches talked, and neither of them knew the other was in the room. Somebody was going to have to carry it back and forth.
+What Pip didn’t say, because she hadn’t worked out how to say it yet, was that she was the only one in the building who could hear both sides of it. The thing on the high frequency talked, and the people on the couches talked, and neither of them knew the other was in the room. Somebody was going to be surprised and she was in the middle of it all.
 
 From the high shelf, Monke was awake. He had been awake the whole time. He was watching Pip with an expression that, if you didn’t know better, looked like he was deciding something.
 
-Then he climbed down from the shelf, very quietly, and walked across the dark warehouse floor, and sat down on the couch on the other side of Cassie. He didn’t make a sound. He just sat there. He stayed.
+Then he climbed down from the shelf, very quietly, walked across the dark warehouse floor, and sat down on the couch on the other side of Cassie. He didn’t make a sound. He just sat there and stayed.
 
 Cassie, in her sleep, stopped frowning.
 
