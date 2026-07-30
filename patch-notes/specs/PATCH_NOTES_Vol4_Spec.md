@@ -354,12 +354,35 @@ At two twenty-six, Crane walked across the stage and stopped in front of Lena.
 
 ### Image page (right)
 
-Slug: vol4-s04
-Shot type: Establishing or location
-Depicts: Beat 1. The square at quarter past two, filling up.
-Spoiler check: PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.
+Slug: vol4-s04b
+Shot type: Establishing or location (now with two named figures on the stage)
+Depicts: Beats 1 and 2. The square at quarter past two with the chairs filled, the Mayor at the podium doing his sound check in the new tie, and Crane standing at the side of the stage with his mask on and his hands behind his back, watching.
+Spoiler check: PASS, and the previous version of this check was over-cautious. It said no uniformed figure may be present, but Crane standing at the side of the stage IS beat 2 of this page, so showing him gives nothing away. What must stay out is the FINAL beat — Crane crossing the stage to stop in front of Lena — and it does: he is still at the side of the stage, Lena is not in frame, and her tripod stands unattended.
 
 Prompt:
+
+```
+{{STYLE}}
+{{CHAR:MAYOR_DALTON}}
+{{WARDROBE:MAYOR_B}}
+{{CHAR:ADMIRAL_CRANE}}
+{{WARDROBE:CRANE_A}}
+{{LOC:TOWN_HALL_SQUARE}}
+Around forty people in folding chairs seen from behind, filling most of the paved square, facing a low stage in front of the town hall doors. On the stage a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone at a wooden podium, mid sound check, wearing red-lensed glasses. A few steps to his side an older officer in navy dress uniform with full medals stands squared up and still, a pale blue medical mask over the lower half of his face, hands behind his back, watching the crowd rather than the Mayor. In the near foreground a camera tripod stands unattended. Every seated figure is distant, backs turned, no faces legible. Exactly two named figures, both on the stage.
+Exterior, early afternoon.
+Wide establishing shot from behind the back row, camera at standing height, deep focus so both figures on the stage read clearly despite their size.
+Flat bright afternoon daylight, chairs and heads throwing short shadows forward, everything legible.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Forty people seen from behind in folding chairs facing a stage where a man in a purple suit speaks into a microphone and a uniformed officer stands watching.
+
+**Retired 2026-07-29: the earlier plate for this page.** It was `vol4-s04.png`, the same wide
+shot with an empty stage and nobody named in it. Replaced on the standing character-forward
+instruction: this page had two named figures standing on a stage in the prose and a plate with
+nobody in it, and it was the third such plate in this volume. The file is still in
+`public/images/` and its prompt body was:
 
 ```
 {{STYLE}}
@@ -368,11 +391,7 @@ Around forty people in folding chairs seen from behind, an unoccupied podium and
 Exterior, early afternoon.
 Wide establishing shot from behind the back row, camera at standing height, deep focus.
 Hard high sun, chairs and heads throwing short shadows forward.
-{{NEGATIVE}}
-Aspect ratio: 3:2
 ```
-
-Alt text: Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground.
 
 ---
 
@@ -408,12 +427,44 @@ Lena put the card in her pocket. Her hand was shaking slightly. She made it stop
 
 ### Image page (right)
 
-Slug: vol4-s05
-Shot type: Character portrait
-Depicts: Beat 1. Crane, having stopped, before anything is offered.
-Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.
+Slug: vol4-s05b
+Shot type: Character portrait or close (two-shot, with a third figure at distance)
+Depicts: Beat 1. Crane having crossed the stage and stopped in front of Lena at her tripod, before anything is offered.
+Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. He is in frame now, but at the sound check and far from that moment, and nothing has gone wrong yet. No card is in frame or in either hand, which is the other half of this page and the reason the shot is specified as before anything is offered.
+
+Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and never split into two or tied at the side. Crane keeps the pale blue medical mask ON over the lower half of his face; it is never removed and never below the nose. No card, paper or object is held or offered by anyone. The Mayor is small and distant and never a second portrait.
+
+**Deviation, deliberate: three named characters.** Part C4 sets a ceiling of two, and this is
+the pattern C4 itself sanctions for a larger scene — the two who matter are sharp in the
+foreground and the third is small and soft behind them. It also gives Mayor Dalton his only
+appearance in the volume he is the subject of. All three canonical references are attached.
+
+**Why this replaced a solo portrait.** It stages the beat instead of illustrating a character.
+Crane crossed the stage to reach her, and the tripod standing between them is exactly what he
+has come to talk about. It also fixes the geography: the prose puts him on the stage and Lena
+at the back, and the old plate showed neither.
 
 Prompt:
+
+```
+{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_D}}
+{{CHAR:MAYOR_DALTON}}
+{{WARDROBE:MAYOR_B}}
+{{CHAR:ADMIRAL_CRANE}}
+{{WARDROBE:CRANE_A}}
+{{LOC:TOWN_HALL_SQUARE}}
+Two figures facing each other at the back of a filling town square, a camera tripod standing between them so that it divides the frame. Crane stands on the left, squared up and unhurried, hands low and still, weight even, his pale blue medical mask covering the lower half of his face so that only his eyes carry the expression, and they are measuring her rather than greeting her. He is slightly the taller. Lena stands on the right with one hand resting on the tripod as though she has been interrupted mid-adjustment, her body angled toward her camera but her face turned fully to him, chin up, wary and interested at once. Neither is holding anything out and no card, paper or object passes between them. Behind and beyond them, smaller and softer, a low stage carries a podium where a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone doing a sound check. Rows of folding chairs, occupied by anonymous unnamed townspeople seen from behind, fill the ground between the two foreground figures and the stage. Exactly three named figures: the two in front, sharp, and the one on the stage, small.
+Exterior, mid-afternoon, twenty-six minutes past two.
+Medium two-shot at standing eye level, framed so the tripod sits between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly softer than the foreground.
+Flat bright overcast afternoon daylight, no dramatic shadow, both faces fully legible, the distant stage a touch hazier.
+```
+
+Alt text: A uniformed officer in a medical mask and a red-haired girl stand either side of her camera tripod at the back of a crowded square, a man speaking at a podium behind them.
+
+**Retired 2026-07-29: the earlier plate for this page.** It was `vol4-s05.png`, a solo portrait
+of Crane against the crowd. The file is still in `public/images/` and its prompt body was:
 
 ```
 {{STYLE}}
@@ -427,8 +478,6 @@ Hard overhead sun, sharp shadow under the brow and along the jaw, medals catchin
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
-
-Alt text: An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back.
 
 ---
 

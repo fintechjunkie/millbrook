@@ -152,6 +152,72 @@ Alt text, already written, do not regenerate: Two teenage girls sit side by side
 
 ---
 
+### [ ] vol4-s05b — spread 5
+
+Shot type: Character portrait or close (two-shot, with a third figure at distance)
+Depicts: Beat 1. Crane having crossed the stage and stopped in front of Lena at her tripod, before anything is offered.
+Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. He is in frame now, but at the sound check and far from that moment, and nothing has gone wrong yet. No card is in frame or in either hand, which is the other half of this page and the reason the shot is specified as before anything is offered.
+Named figures: Lena, Mayor Dalton, Admiral Crane (3 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-lena-canonical.png` — Lena
+- `char-dalton-canonical.png` — Mayor Dalton
+- `char-crane-canonical.png` — Admiral Crane
+- `loc-square.png` — location, town hall square
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and never split into two or tied at the side.
+- Crane keeps the pale blue medical mask ON over the lower half of his face; it is never removed and never below the nose.
+- No card, paper or object is held or offered by anyone.
+- The Mayor is small and distant and never a second portrait.
+CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
+CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
+Wardrobe, unchanged for this scene: The same ill-fitting purple suit and red pocket square, but a conspicuously new tie, stiff and bright and still holding its fold creases, replacing the polka-dot one
+CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
+Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
+SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+Two figures facing each other at the back of a filling town square, a camera tripod standing between them so that it divides the frame. Crane stands on the left, squared up and unhurried, hands low and still, weight even, his pale blue medical mask covering the lower half of his face so that only his eyes carry the expression, and they are measuring her rather than greeting her. He is slightly the taller. Lena stands on the right with one hand resting on the tripod as though she has been interrupted mid-adjustment, her body angled toward her camera but her face turned fully to him, chin up, wary and interested at once. Neither is holding anything out and no card, paper or object passes between them. Behind and beyond them, smaller and softer, a low stage carries a podium where a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone doing a sound check. Rows of folding chairs, occupied by anonymous unnamed townspeople seen from behind, fill the ground between the two foreground figures and the stage. Exactly three named figures: the two in front, sharp, and the one on the stage, small.
+Exterior, mid-afternoon, twenty-six minutes past two.
+Medium two-shot at standing eye level, framed so the tripod sits between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly softer than the foreground.
+Flat bright overcast afternoon daylight, no dramatic shadow, both faces fully legible, the distant stage a touch hazier.
+```
+
+Save as: **`vol4-s05b.png`** · aspect null
+
+Alt text, already written, do not regenerate: A uniformed officer in a medical mask and a red-haired girl stand either side of her camera tripod at the back of a crowded square, a man speaking at a podium behind them.
+
+---
+
 ### [ ] vol4-s07b — spread 8
 
 Shot type: Character portrait
@@ -284,18 +350,19 @@ Alt text, already written, do not regenerate: A tired but delighted teenage boy 
 
 ---
 
-## ADMIRAL CRANE
+## MAYOR DALTON
 
-Canonical reference: `char-crane-canonical.png` · approved: no
+Canonical reference: `char-dalton-canonical.png` · approved: no
 
-### [ ] vol4-s05 — spread 5
+### [ ] vol4-s04b — spread 4
 
-Shot type: Character portrait
-Depicts: Beat 1. Crane, having stopped, before anything is offered.
-Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. Not depicted; the Mayor is absent and no card is in frame.
-Named figures: Admiral Crane (1 of a maximum 2)
+Shot type: Establishing or location (now with two named figures on the stage)
+Depicts: Beats 1 and 2. The square at quarter past two with the chairs filled, the Mayor at the podium doing his sound check in the new tie, and Crane standing at the side of the stage with his mask on and his hands behind his back, watching.
+Spoiler check: PASS, and the previous version of this check was over-cautious. It said no uniformed figure may be present, but Crane standing at the side of the stage IS beat 2 of this page, so showing him gives nothing away. What must stay out is the FINAL beat — Crane crossing the stage to stop in front of Lena — and it does: he is still at the side of the stage, Lena is not in frame, and her tripod stands unattended.
+Named figures: Mayor Dalton, Admiral Crane (2 of a maximum 2)
 
 **Attach these reference images before generating:**
+- `char-dalton-canonical.png` — Mayor Dalton
 - `char-crane-canonical.png` — Admiral Crane
 - `loc-square.png` — location, town hall square
 
@@ -323,22 +390,25 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
+Wardrobe, unchanged for this scene: The same ill-fitting purple suit and red pocket square, but a conspicuously new tie, stiff and bright and still holding its fold creases, replacing the polka-dot one
 CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
 Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
 A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
-Standing squared up and still with both hands clasped behind his back, chin level, the visible skin around the eyes calm and tired. Empty handed. Alone in frame.
+Around forty people in folding chairs seen from behind, filling most of the paved square, facing a low stage in front of the town hall doors. On the stage a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone at a wooden podium, mid sound check, wearing red-lensed glasses. A few steps to his side an older officer in navy dress uniform with full medals stands squared up and still, a pale blue medical mask over the lower half of his face, hands behind his back, watching the crowd rather than the Mayor. In the near foreground a camera tripod stands unattended. Every seated figure is distant, backs turned, no faces legible. Exactly two named figures, both on the stage.
 Exterior, early afternoon.
-Medium close shot, straight on at eye level, very shallow depth so the crowd behind reduces to soft shapes.
-Hard overhead sun, sharp shadow under the brow and along the jaw, medals catching hard specular points.
+Wide establishing shot from behind the back row, camera at standing height, deep focus so both figures on the stage read clearly despite their size.
+Flat bright afternoon daylight, chairs and heads throwing short shadows forward, everything legible.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2
 ```
 
-Save as: **`vol4-s05.png`** · aspect 3:2
+Save as: **`vol4-s04b.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: An older officer in navy dress uniform and a medical mask stands squared up with his hands clasped behind his back.
+Alt text, already written, do not regenerate: Forty people seen from behind in folding chairs facing a stage where a man in a purple suit speaks into a microphone and a uniformed officer stands watching.
 
 ---
 
@@ -518,55 +588,6 @@ Aspect ratio: 2:1
 Save as: **`vol4-opener.png`** · aspect 2:1
 
 Alt text, already written, do not regenerate: Rows of empty folding chairs face a bare podium in a town square early in the morning, a banner rigged edge-on behind.
-
----
-
-### [ ] vol4-s04 — spread 4
-
-Shot type: Establishing or location
-Depicts: Beat 1. The square at quarter past two, filling up.
-Spoiler check: PASS. Final beat is Crane crossing the stage to stop in front of Lena. Not depicted; the stage is unoccupied and no uniformed figure is present.
-
-**Attach these reference images before generating:**
-- `loc-square.png` — location, town hall square
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
-Around forty people in folding chairs seen from behind, an unoccupied podium and stage beyond them, a rigged banner turned so its lettering is not legible. In the near foreground a camera tripod, unattended. All seated figures are distant, backs turned, no faces legible.
-Exterior, early afternoon.
-Wide establishing shot from behind the back row, camera at standing height, deep focus.
-Hard high sun, chairs and heads throwing short shadows forward.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol4-s04.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: Forty people seen from behind in folding chairs facing an empty podium and stage, a camera tripod in the foreground.
 
 ---
 
