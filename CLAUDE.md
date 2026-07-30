@@ -220,3 +220,12 @@ original left implied were often its best. Each time, ask whether the gap was a 
   because delivered plates depend on them. See roster section 5.1.
 - **Prompts must attach real reference files.** A prompt claiming a reference that does
   not exist is how Felix drifted for a whole volume.
+- **Every arc gets its own tinted band, and a new arc takes the next one from `ARC_BANDS`.**
+  A volume card is paper on a near-white shell, which measures 1.02:1 and leaves the cards
+  with nothing to sit against. The bands are set at about 1.4:1 against paper — short of the
+  reader's 1.77 on purpose, because the landing page has to stay airy. Muted text on a band
+  uses `ui.textOnTint`, not `ui.textMuted` or `ui.textFaint`; both were measured and the
+  faint step fails outright at 2.6:1.
+- **Do not print a production status to readers.** "Arc One · in production" read as "come
+  back later" on an arc that is finished. `status` renders only when set, and it is set only
+  on an arc that genuinely has not been written.

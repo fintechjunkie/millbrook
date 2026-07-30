@@ -64,7 +64,10 @@ function VolumeCard({ arc, volume, data }) {
         />
       </div>
 
-      <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em', color: color.inkSoft, marginTop: 2 }}>
+      {/* textMuted rather than inkSoft. Not part of the band change, but measured during
+          it: inkSoft on paper is 3.9:1, which fails AA for both this label and the section
+          list below at the sizes they are set. 6.5:1 at the same visual weight. */}
+      <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em', color: ui.textMuted, marginTop: 2 }}>
         Volume {volume.vol}
       </div>
 
@@ -85,7 +88,7 @@ function VolumeCard({ arc, volume, data }) {
           style={{
             fontFamily: type.body.fontFamily,
             fontSize: 11.5,
-            color: color.inkSoft,
+            color: ui.textMuted,
             lineHeight: 1.45,
             flex: 1,
           }}

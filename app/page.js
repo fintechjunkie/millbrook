@@ -8,6 +8,7 @@ import { Primer } from '@/components/millbrook/Primer';
 import { ComingShelf, Shelf } from '@/components/millbrook/Shelf';
 import {
   ARCS,
+  ARC_BANDS,
   SITE_IMAGES,
   UNIVERSE,
   UPCOMING_ARCS,
@@ -24,18 +25,13 @@ import {
  * Shared by published and unpublished arcs so the two are unmistakably the same
  * kind of thing, which is the whole point of showing the empty one.
  */
-function ArcHeader({ arc, action, dim = false }) {
+function ArcHeader({ arc, action, dim = false, rule = ui.rule }) {
   return (
     <header
       style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        alignItems: 'flex-end',
-        justifyContent: 'space-between',
-        gap: space(4),
         paddingBottom: space(4),
         marginBottom: space(6),
-        borderBottom: `1px solid ${ui.rule}`,
+        borderBottom: `1px solid ${rule}`,
         // 0.52 was dimming light text against a dark band. Ink at 0.52 on a light band
         // goes weak and grey rather than quiet, so the reserved arc holds more of its
         // opacity and gets its recessive quality from muted colour instead.
@@ -43,15 +39,20 @@ function ArcHeader({ arc, action, dim = false }) {
       }}
     >
       <div>
+        {/* "Arc One · in production" said the quiet part to the wrong audience: a reader
+            browsing a shelf has no use for a production status, and "in production" reads
+            as "not finished yet, come back later" on an arc that is complete and readable
+            end to end. `status` survives on an UNPUBLISHED arc, where "coming soon" is the
+            entire point of the band, so this prints it only when there is one. */}
         <div
           style={{
             ...type.utility,
             fontSize: 9.5,
             letterSpacing: '0.24em',
-            color: dim ? ui.textFaint : ui.kicker,
+            color: dim ? ui.textMuted : ui.kicker,
           }}
         >
-          Arc {arc.number} · {arc.status}
+          Arc {arc.number}{arc.status ? ` · ${arc.status}` : ''}
         </div>
         {/* The title is the thing a reader reaches for, so it is the link. Leaving it
             as dead text and putting the only route in a small "About this arc" button
@@ -76,7 +77,7 @@ function ArcHeader({ arc, action, dim = false }) {
         <p
           style={{
             fontFamily: type.body.fontFamily,
-            color: ui.textMuted,
+            color: dim ? ui.textMuted : ui.textOnTint,
             fontSize: 14.5,
             lineHeight: 1.6,
             maxWidth: '62ch',
@@ -85,9 +86,71 @@ function ArcHeader({ arc, action, dim = false }) {
         >
           {arc.blurb}
         </p>
+        {/* Below the blurb, in the reading path. This used to be right-aligned on the same
+            line as the title, which put the one route into the arc page outside the column
+            a reader's eye is travelling down. */}
+        {action}
       </div>
-      {action}
     </header>
+  );
+}
+
+/**
+ * The invitation into an arc's own page.
+ *
+ * Replaces a 9px outlined "About this arc →" in the corner of the header. Two things were
+ * wrong with it and only one was size: it read as a footnote, and it described a
+ * destination instead of offering anything. Readers went straight into a volume, which
+ * skips the page that says what the town already knows and how the books work.
+ *
+ * So it is a filled button now — the only filled control on the page, which is what makes
+ * it read as the primary move — and it says "Start here", with the reason beside it rather
+ * than inside it. Keeping the promise out of the label lets the label stay short enough to
+ * scan while the sentence does the persuading.
+ */
+function StartHere({ arc }) {
+  if (!arc.start) return null;
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        gap: `${space(3)} ${space(5)}`,
+        margin: `${space(6)} 0 0`,
+      }}
+    >
+      <Link
+        href={`/${arc.id}`}
+        className="mb-start focus-ring"
+        style={{
+          ...type.utility,
+          fontSize: 11,
+          letterSpacing: '0.16em',
+          color: paper.stock,
+          background: color.accent,
+          textDecoration: 'none',
+          padding: `${space(4)} ${space(7)}`,
+          borderRadius: 3,
+          whiteSpace: 'nowrap',
+          boxShadow: ui.shadow,
+        }}
+      >
+        {arc.start.label} <span className="mb-start-arrow" aria-hidden="true">→</span>
+      </Link>
+      <p
+        style={{
+          fontFamily: type.body.fontFamily,
+          color: ui.textOnTint,
+          fontSize: 13.5,
+          lineHeight: 1.55,
+          maxWidth: '46ch',
+          margin: 0,
+        }}
+      >
+        {arc.start.hint}
+      </p>
+    </div>
   );
 }
 
@@ -161,7 +224,7 @@ export default function Home() {
         aspect={SITE_IMAGES.banner.aspect}
         kicker="A Digital Slop Story"
         title="Millbrook"
-        tagline="A small flat town on a grid of wide streets, with nothing worth photographing. Lately it has started repairing itself, and it is keeping a tally."
+        tagline="A small regular town on a grid of wide streets, with nothing worth photographing. Lately it has started repairing itself, and it’s keeping a tally."
       >
         <a
           href={UNIVERSE.collection.href}
@@ -206,38 +269,29 @@ export default function Home() {
             close every band are gone: spreads, plates and word counts are facts about
             making the thing, not reasons to read it, and they undercut a shelf of
             covers by ending it on arithmetic. */}
-        {ARCS.map((arc, i) => (
-          <section key={arc.id} style={{ marginBottom: space(14) }}>
-            {i > 0 && <hr className="mb-arc-seam" style={{ marginBottom: space(14) }} />}
-            <ArcHeader
-              arc={arc}
-              action={(
-                <Link
-                  href={`/${arc.id}`}
-                  className="focus-ring"
-                  style={{
-                    ...type.utility,
-                    fontSize: 9,
-                    letterSpacing: '0.18em',
-                    color: color.accent,
-                    textDecoration: 'none',
-                    border: `1px solid ${ui.ruleStrong}`,
-                    background: color.bgRaise,
-                    padding: `${space(3)} ${space(5)}`,
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  About this arc →
-                </Link>
-              )}
-            />
-            <Shelf arc={arc} volumes={byslug} />
-          </section>
-        ))}
+        {/* Each arc sits on its own tinted band, which is what gives the cards something
+            to sit against: paper at #FBF8F2 on a shell at #F7F4EE measured about 1.02:1,
+            so the drop shadow was carrying the whole separation on its own. The band also
+            does the job the seam rule used to do, and does it better — a change of ground
+            reads as a change of place, where a hairline read as a page break. See
+            ARC_BANDS. */}
+        {ARCS.map((arc) => {
+          const band = ARC_BANDS[arc.band] ?? ARC_BANDS.sand;
+          return (
+            <section key={arc.id} style={{ marginBottom: space(12) }}>
+              <div
+                className="mb-arc-band"
+                style={{ background: band.bg, borderColor: band.rule }}
+              >
+                <ArcHeader arc={arc} rule={band.rule} action={<StartHere arc={arc} />} />
+                <Shelf arc={arc} volumes={byslug} />
+              </div>
+            </section>
+          );
+        })}
 
         {UPCOMING_ARCS.map((arc) => (
-          <section key={arc.id} style={{ marginBottom: space(14) }}>
-            <hr className="mb-arc-seam" style={{ marginBottom: space(14) }} />
+          <section key={arc.id} style={{ marginBottom: space(12) }}>
             {/* The backdrop is a CSS background rather than a Plate on purpose: a
                 missing background-image renders as nothing at all, whereas a missing
                 Plate renders its "not yet generated" panel. That panel is right on a

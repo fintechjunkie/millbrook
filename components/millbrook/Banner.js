@@ -25,18 +25,37 @@ export function Banner({ slug, aspect = '3 / 1', kicker, title, tagline, childre
       <div className="mb-banner-scrim" aria-hidden="true" />
 
       <div className="mb-banner-type">
+        {/* The kicker carries its own ground, and it has to.
+
+            It was pale violet with a soft shadow, which works over anything dark and
+            disappears completely over the top-left of the landing banner — the brightest
+            part of a sunset sky. Neither colour fixes that on its own: pale violet on pale
+            gold has almost no contrast, and white on bright gold has little more. A shadow
+            cannot rescue it either, because a shadow spreads and 10px uppercase type at
+            0.26em tracking is nearly all edge.
+
+            So it becomes a chip. Its contrast is then a property of the chip rather than a
+            bet on the artwork behind it, which is the same conclusion the collection button
+            below it reached, and it pairs the two. Warm near-black rather than neutral, so
+            it sits in the same family as the art it is laid over. */}
         {kicker && (
-          <div
-            style={{
-              ...type.utility,
-              fontSize: 10,
-              letterSpacing: '0.26em',
-              color: '#D8CBFF',
-              marginBottom: 10,
-              textShadow: '0 1px 12px rgba(0,0,0,0.6)',
-            }}
-          >
-            {kicker}
+          <div style={{ marginBottom: 14 }}>
+            <span
+              style={{
+                ...type.utility,
+                display: 'inline-block',
+                fontSize: 10,
+                letterSpacing: '0.24em',
+                color: '#EFE7FF',
+                background: 'rgba(28,22,18,0.66)',
+                borderWidth: 1,
+                borderStyle: 'solid',
+                borderColor: 'rgba(239,231,255,0.28)',
+                padding: '6px 11px',
+              }}
+            >
+              {kicker}
+            </span>
           </div>
         )}
 

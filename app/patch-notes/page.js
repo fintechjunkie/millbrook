@@ -3,9 +3,10 @@ import { allVolumes } from '@/lib/millbrook/data';
 import { Banner } from '@/components/millbrook/Banner';
 import { Crumbs } from '@/components/millbrook/Crumbs';
 import { Shelf } from '@/components/millbrook/Shelf';
-import { ARCS, color, space, type, ui } from '@/lib/millbrook/series';
+import { ARCS, ARC_BANDS, color, space, type, ui } from '@/lib/millbrook/series';
 
 const ARC = ARCS.find((a) => a.id === 'patch-notes');
+const band = ARC_BANDS[ARC.band] ?? ARC_BANDS.sand;
 
 export const metadata = {
   title: 'The Patch — Millbrook',
@@ -43,23 +44,35 @@ export default function PatchNotesArc() {
           {ARC.blurb}
         </p>
 
-        {/* The spread, plate and word totals that used to sit here are gone for the
-            same reason they went from the landing page: they are facts about making
-            the thing, not reasons to read it. What a visitor actually needs from this
-            line is permission to start anywhere, so that is all it says now. */}
+        {/* The shelf sits on the arc's own band here too, so a reader arriving from the
+            landing page lands on the same ground they just clicked out of, and the cards
+            have something to sit against either way. See ARC_BANDS. */}
         <div
-          style={{
-            ...type.utility,
-            fontSize: 9,
-            letterSpacing: '0.14em',
-            color: ui.textFaint,
-            marginBottom: space(9),
-          }}
+          className="mb-arc-band"
+          style={{ background: band.bg, borderColor: band.rule, marginTop: space(8) }}
         >
-          Four volumes · each one opens and reads independently
-        </div>
+          {/* The spread, plate and word totals that used to sit here are gone for the
+              same reason they went from the landing page: they are facts about making
+              the thing, not reasons to read it. What a visitor actually needs from this
+              line is permission to start anywhere, so that is all it says now.
 
-        <Shelf arc={ARC} volumes={byslug} />
+              textMuted rather than textFaint: #857D91 measures 2.6:1 on the sand band and
+              fails outright, where it passed on the near-white shell this used to sit on.
+              A tinted ground changes what the muted steps are allowed to be. */}
+          <div
+            style={{
+              ...type.utility,
+              fontSize: 9,
+              letterSpacing: '0.14em',
+              color: ui.textOnTint,
+              marginBottom: space(6),
+            }}
+          >
+            Four volumes · each one opens and reads independently
+          </div>
+
+          <Shelf arc={ARC} volumes={byslug} />
+        </div>
 
         <section style={{ marginTop: space(14), maxWidth: '68ch' }}>
           <h2
