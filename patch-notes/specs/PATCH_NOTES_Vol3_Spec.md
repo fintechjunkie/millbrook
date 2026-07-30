@@ -164,7 +164,7 @@ Low warm sunrise light from behind and to the right, rim lighting his white hair
 
 ## Spread 2
 
-Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 122
+Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 181
 
 ### Text page (left), verbatim
 
@@ -182,9 +182,13 @@ Vex called Lena at nine fifteen. Vex did not call people. Vex texted, or Vex sho
 
 “My lab partner. Get over here.”
 
+Vex had never once asked Lena for anything. Lena worked that out somewhere on the walk over, and walked faster.
+
 Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her left ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud.
 
 She was not crying. She had been crying. Her eyes were the way eyes get after.
+
+Vex had put her own jacket over the back of the couch behind her, and Lena only understood that later. Cassie had been shaking, and Vex had made the room warmer without ever saying the word cold out loud.
 
 ### Image page (right)
 
@@ -468,7 +472,7 @@ Alt text: A short girl with mint-green hair in two buns stands in a cluttered ro
 
 ## Spread 7
 
-Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 206
+Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 239
 
 ### Text page (left), verbatim
 
@@ -479,6 +483,8 @@ Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 206
 “Did I ask for what.”
 
 “To be fixed.”
+
+Lena had learned not to fill the gap after a question like that one. Most people fill it themselves if you let them, and what they put in it is the true part.
 
 Mr. Henderson looked at her for a long time. He was not a stupid man, and the question was not a stupid question.
 
@@ -639,7 +645,7 @@ Alt text: A wide warehouse interior after midnight with six teenagers asleep on 
 
 ## Spread 9
 
-Pages 19 to 20 | Part Three: Mr. Henderson's Knee | Words 169
+Pages 19 to 20 | Part Three: Mr. Henderson's Knee | Words 237
 
 Short page, deliberate. Volume closer. The final beats are Monke crossing the floor and Cassie unclenching in her sleep, and they want air around them rather than company on the page.
 
@@ -662,6 +668,8 @@ Pip stood there for another minute. Then she walked back to the Pit and sat down
 “Not yet.”
 
 Vex didn’t push. She handed Pip a granola bar, and Pip didn’t eat it. She held it like a person holding something they’d been given.
+
+What Pip did not say, because she had not worked out how to say it yet, was that she was the only one in the building who could hear both sides of it. The thing in the wall talked, and the people on the couches talked, and neither of them knew the other was in the room. Somebody was going to have to carry it back and forth.
 
 From the high shelf, Monke was awake. He had been awake the whole time. He was watching Pip with an expression that, if you didn’t know better, looked like he was deciding something.
 

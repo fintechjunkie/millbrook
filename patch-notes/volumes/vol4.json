@@ -117,8 +117,8 @@
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 168,
-      "words": 168,
+      "declaredWords": 204,
+      "words": 204,
       "blocks": [
         {
           "t": "p",
@@ -127,6 +127,22 @@
         {
           "t": "p",
           "v": "“I built a thing,” he said. “It counts down to the next patch. It’s tracking the rhythm. The patches are speeding up. There’s a big one coming today. Two thirty-eight PM, give or take a minute.”"
+        },
+        {
+          "t": "p",
+          "v": "“How many of those have you built,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“Nine.”"
+        },
+        {
+          "t": "p",
+          "v": "“How many worked.”"
+        },
+        {
+          "t": "p",
+          "v": "“This one.” Felix turned it over in his hands, entirely pleased with it. “Which is a much better ratio than it sounds like.”"
         },
         {
           "t": "p",

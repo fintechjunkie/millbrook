@@ -113,8 +113,8 @@
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 122,
-      "words": 120,
+      "declaredWords": 181,
+      "words": 179,
       "blocks": [
         {
           "t": "h",
@@ -146,11 +146,19 @@
         },
         {
           "t": "p",
+          "v": "Vex had never once asked Lena for anything. Lena worked that out somewhere on the walk over, and walked faster."
+        },
+        {
+          "t": "p",
           "v": "Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her left ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud."
         },
         {
           "t": "p",
           "v": "She was not crying. She had been crying. Her eyes were the way eyes get after."
+        },
+        {
+          "t": "p",
+          "v": "Vex had put her own jacket over the back of the couch behind her, and Lena only understood that later. Cassie had been shaking, and Vex had made the room warmer without ever saying the word cold out loud."
         }
       ],
       "note": null,
@@ -489,8 +497,8 @@
       "n": 7,
       "kind": "spread",
       "pages": "15 to 16",
-      "declaredWords": 206,
-      "words": 206,
+      "declaredWords": 239,
+      "words": 239,
       "blocks": [
         {
           "t": "p",
@@ -507,6 +515,10 @@
         {
           "t": "p",
           "v": "“To be fixed.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena had learned not to fill the gap after a question like that one. Most people fill it themselves if you let them, and what they put in it is the true part."
         },
         {
           "t": "p",
@@ -617,8 +629,8 @@
       "n": 9,
       "kind": "spread",
       "pages": "19 to 20",
-      "declaredWords": 169,
-      "words": 169,
+      "declaredWords": 237,
+      "words": 237,
       "blocks": [
         {
           "t": "p",
@@ -655,6 +667,10 @@
         {
           "t": "p",
           "v": "Vex didn’t push. She handed Pip a granola bar, and Pip didn’t eat it. She held it like a person holding something they’d been given."
+        },
+        {
+          "t": "p",
+          "v": "What Pip did not say, because she had not worked out how to say it yet, was that she was the only one in the building who could hear both sides of it. The thing in the wall talked, and the people on the couches talked, and neither of them knew the other was in the room. Somebody was going to have to carry it back and forth."
         },
         {
           "t": "p",

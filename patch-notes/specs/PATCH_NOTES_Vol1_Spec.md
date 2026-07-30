@@ -492,7 +492,7 @@ Alt text: A heavyset man in an ill-fitting suit and red glasses stands behind a 
 
 ## Spread 6
 
-Pages 13 to 14 | Part One: The Pothole | Words 188
+Pages 13 to 14 | Part One: The Pothole | Words 277
 
 ### Text page (left), verbatim
 
@@ -509,6 +509,10 @@ The one in the beanie looked at the one with the phone. The phone came down an i
 “Hello. Nice to meet you,” the one in the beanie said sarcastically. “What do you want from us?”
 
 “I told you.”
+
+“You told me you can’t do it by yourself.” Milo tipped his head. “That’s not a reason, that’s a feeling.”
+
+“Fine.” Lena crouched down so she was not standing over them, because standing over somebody turns an interview into an interrogation and she had learned that the hard way. “Here’s the reason. I have four hundred subscribers and a town that thinks everything is fine. You have whatever is on that phone and nobody to show it to. I can make people look, and that is the whole offer.”
 
 “Why do you think we know.”
 
@@ -570,7 +574,7 @@ Alt text: Three teenage boys on a park bench with a fountain running behind them
 
 ## Spread 7
 
-Pages 15 to 16 | Part One: The Pothole | Words 119
+Pages 15 to 16 | Part One: The Pothole | Words 204
 
 ### Text page (left), verbatim
 
@@ -580,13 +584,31 @@ The third one held out his sandwich. “I’m Felix. You want some? Peanut butte
 
 “Your loss.”
 
+Felix took a bite anyway, to show there were no hard feelings.
+
 Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it’s serious stuff.”
+
+Lena did not step back. “You’re doing the thing where you decide for somebody else what they can handle.”
+
+“I’m doing the thing where nobody gets hurt.”
+
+“I’m seventeen.”
+
+“That’s worse, actually,” Owen said.
 
 “Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
 
 Milo and Owen looked at each other again.
 
 “We don’t,” Owen said.
+
+Felix swallowed. “We kind of—”
+
+“Felix.”
+
+—“don’t. We don’t.” Felix looked at his sandwich. “That came out wrong.”
+
+Nobody said anything for a moment, and Lena let the quiet sit there because it was doing her work for her.
 
 Lena pulled up the thumbnail she’d captured before the camera came off her windshield. Held it out.
 
@@ -642,7 +664,7 @@ Alt text: A close portrait from below of a tall teenage boy in an orange beanie 
 
 ## Spread 8
 
-Pages 17 to 18 | Part One: The Pothole | Words 181
+Pages 17 to 18 | Part One: The Pothole | Words 225
 
 ### Text page (left), verbatim
 
@@ -663,6 +685,8 @@ Vex paused. Backed up. Played it again. On. On. On. Off. On. On. On.
 One thirtieth of a second. The shadows were wrong. The light on the parked cars was wrong. The world didn’t look right. When the streetlight was off, the world changed. And when it turned back on, the world was right again.
 
 Vex had been collecting frames like this for six months.
+
+She knew where every one of them had been shot, too. Not roughly, either — she could have walked you to the exact stretch of kerb for any frame in the folder, and told you which way the light fell there in the afternoon.
 
 Three quick knocks followed by two slow ones. She didn’t look up.
 

@@ -321,8 +321,8 @@
       "n": 4,
       "kind": "spread",
       "pages": "9 to 10",
-      "declaredWords": 136,
-      "words": 132,
+      "declaredWords": 211,
+      "words": 207,
       "blocks": [
         {
           "t": "h",
@@ -366,7 +366,15 @@
         },
         {
           "t": "p",
+          "v": "Felix was already dragging a second chair over, and then a third, and by the time anybody had agreed the three of them were staying he had asked Pip two questions about her arm and told her about a hinge he was proud of."
+        },
+        {
+          "t": "p",
           "v": "“I heard,” Owen said, still not turning."
+        },
+        {
+          "t": "p",
+          "v": "He did not turn around, and it was not rudeness. Owen could argue with a city records server for six hours and win. He could not do six seconds of this."
         }
       ],
       "note": null,
@@ -385,8 +393,8 @@
       "n": 5,
       "kind": "spread",
       "pages": "11 to 12",
-      "declaredWords": 154,
-      "words": 154,
+      "declaredWords": 198,
+      "words": 198,
       "blocks": [
         {
           "t": "p",
@@ -411,6 +419,14 @@
         {
           "t": "p",
           "v": "Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago."
+        },
+        {
+          "t": "p",
+          "v": "“You got the tax records,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“No. The city takes thirty days.” Owen did not look up. “I asked the water department instead, because whatever that building says it is, it still has to pay for what it flushes. They answer in two.”"
         },
         {
           "t": "p",

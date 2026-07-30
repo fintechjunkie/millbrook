@@ -356,7 +356,7 @@ Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden
 
 ## Spread 4
 
-Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 136
+Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 211
 
 ### Text page (left), verbatim
 
@@ -380,7 +380,11 @@ Felix popped up from the couch like a meerkat. “Hi. Wait. Hi.” He looked at 
 
 “No. No. Come in. Please come in. Owen, look.”
 
+Felix was already dragging a second chair over, and then a third, and by the time anybody had agreed the three of them were staying he had asked Pip two questions about her arm and told her about a hinge he was proud of.
+
 “I heard,” Owen said, still not turning.
+
+He did not turn around, and it was not rudeness. Owen could argue with a city records server for six hours and win. He could not do six seconds of this.
 
 ### Image page (right)
 
@@ -422,7 +426,7 @@ Alt text: A grinning teenage boy in a teal denim jacket pops up from behind a co
 
 ## Spread 5
 
-Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 154
+Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 198
 
 ### Text page (left), verbatim
 
@@ -437,6 +441,10 @@ Milo came out from the back, saw the three of them, and stopped walking.
 “It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers a vanilla cake and not what was there before.”
 
 Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago.
+
+“You got the tax records,” Milo said.
+
+“No. The city takes thirty days.” Owen did not look up. “I asked the water department instead, because whatever that building says it is, it still has to pay for what it flushes. They answer in two.”
 
 “You were there when it happened,” Owen said. He sounded almost personally offended.
 

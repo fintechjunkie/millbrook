@@ -487,6 +487,49 @@ why it talks to Pip, and what is left standing inside the fence. The primer give
 what a resident could tell them. Nothing above may be contradicted by later prose; nothing below
 it may be revealed early.
 
+## 4.2 The six roles, and why the party cannot be smaller
+
+**Author doctrine, 2026-07-29.** To be developed properly in the next storyline, but it governs
+dialogue from here on, so it is written down now.
+
+**The design rule: each of the six is the ONLY one who can do their thing, so every split of the
+group forces itself.** Nobody is redundant, and no scene should ever be solvable by swapping one
+of them for another. If a plan can be carried out with five of them, the plan is wrong.
+
+| | Can do | Cannot do |
+|---|---|---|
+| **Milo** | Reads rooms and people. Talks adults down. The only one who can stand in front of Crane and not lose. | Zero technical ability, and that stays true. He never fixes, builds or hacks anything. |
+| **Owen** | Signals, records, patterns, infrastructure. Beats institutions with their own paperwork. | Cannot be in front of a human being. |
+| **Felix** | Builds new things from nothing, and half of them fail. | — his hidden skill is that he is delighted by everyone he meets, which makes him the one strangers talk to. |
+| **Lena** | Gets people to say true things on camera, and controls what a town believes. The only one who understands publicity as a weapon. | — |
+| **Vex** | Physical access: locks, roofs, fences, hardware teardown. Knows every street. Also advocates for the vulnerable, **which is a skill, not a trait.** | — |
+| **Pip** | The other band. Reads config files across a room, hears what nobody hears, and now translates. | — she is the bridge, so the whole plot has to route through her. |
+
+### Three of these are easy to write wrong
+
+**Owen's weakness is not shyness, it is a hard limit.** He is not awkward-but-gets-there. Put him
+in front of a stranger and the scene stops. This is why he is turned away from the room in Volume
+2 spread 4 and why Milo does the talking every single time. If Owen ever charms somebody, the
+character is broken.
+
+**Milo having zero technical ability is load-bearing, not colour.** He is the leader, and the
+temptation in every scene is to let the leader also be competent at the thing in front of him.
+He must always need one of the other five. His skill is entirely people.
+
+**Felix's real function is not the gadgets.** Half of what he builds fails, so he cannot be the
+one the plot depends on for hardware. What he is unmatched at is that he likes everybody
+immediately and completely, so strangers tell him things they would never tell Lena with a camera
+or Owen with a spreadsheet. He is the group's way in.
+
+### What this means for the prose
+
+Where a page has room, spend it on a character doing the thing only they can do, in dialogue
+rather than narration. Two tests before adding any such beat:
+
+1. **Could another character have done this?** If yes, it is the wrong beat.
+2. **Does it announce itself?** A character explaining their own speciality is dead on the page.
+   Show the skill working and let the reader name it.
+
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.

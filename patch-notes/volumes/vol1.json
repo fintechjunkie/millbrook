@@ -413,8 +413,8 @@
       "n": 6,
       "kind": "spread",
       "pages": "13 to 14",
-      "declaredWords": 188,
-      "words": 185,
+      "declaredWords": 277,
+      "words": 274,
       "blocks": [
         {
           "t": "h",
@@ -443,6 +443,14 @@
         {
           "t": "p",
           "v": "“I told you.”"
+        },
+        {
+          "t": "p",
+          "v": "“You told me you can’t do it by yourself.” Milo tipped his head. “That’s not a reason, that’s a feeling.”"
+        },
+        {
+          "t": "p",
+          "v": "“Fine.” Lena crouched down so she was not standing over them, because standing over somebody turns an interview into an interrogation and she had learned that the hard way. “Here’s the reason. I have four hundred subscribers and a town that thinks everything is fine. You have whatever is on that phone and nobody to show it to. I can make people look, and that is the whole offer.”"
         },
         {
           "t": "p",
@@ -477,8 +485,8 @@
       "n": 7,
       "kind": "spread",
       "pages": "15 to 16",
-      "declaredWords": 119,
-      "words": 119,
+      "declaredWords": 204,
+      "words": 204,
       "blocks": [
         {
           "t": "p",
@@ -494,7 +502,27 @@
         },
         {
           "t": "p",
+          "v": "Felix took a bite anyway, to show there were no hard feelings."
+        },
+        {
+          "t": "p",
           "v": "Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it’s serious stuff.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena did not step back. “You’re doing the thing where you decide for somebody else what they can handle.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m doing the thing where nobody gets hurt.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m seventeen.”"
+        },
+        {
+          "t": "p",
+          "v": "“That’s worse, actually,” Owen said."
         },
         {
           "t": "p",
@@ -507,6 +535,22 @@
         {
           "t": "p",
           "v": "“We don’t,” Owen said."
+        },
+        {
+          "t": "p",
+          "v": "Felix swallowed. “We kind of—”"
+        },
+        {
+          "t": "p",
+          "v": "“Felix.”"
+        },
+        {
+          "t": "p",
+          "v": "—“don’t. We don’t.” Felix looked at his sandwich. “That came out wrong.”"
+        },
+        {
+          "t": "p",
+          "v": "Nobody said anything for a moment, and Lena let the quiet sit there because it was doing her work for her."
         },
         {
           "t": "p",
@@ -533,8 +577,8 @@
       "n": 8,
       "kind": "spread",
       "pages": "17 to 18",
-      "declaredWords": 181,
-      "words": 174,
+      "declaredWords": 225,
+      "words": 218,
       "blocks": [
         {
           "t": "p",
@@ -571,6 +615,10 @@
         {
           "t": "p",
           "v": "Vex had been collecting frames like this for six months."
+        },
+        {
+          "t": "p",
+          "v": "She knew where every one of them had been shot, too. Not roughly, either — she could have walked you to the exact stretch of kerb for any frame in the folder, and told you which way the light fell there in the afternoon."
         },
         {
           "t": "p",

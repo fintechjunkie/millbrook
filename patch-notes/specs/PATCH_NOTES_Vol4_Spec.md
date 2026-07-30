@@ -176,7 +176,7 @@ Alt text: A girl sits forward on a couch watching an unseen television while an 
 
 ## Spread 2
 
-Pages 5 to 6 | Part Four: The Press Conference | Words 168
+Pages 5 to 6 | Part Four: The Press Conference | Words 204
 
 Short page, deliberate. Lands on Pip naming the Mayor. The hardest hook in the four volumes and it should sit alone at the bottom of a short page.
 
@@ -185,6 +185,14 @@ Short page, deliberate. Lands on Pip naming the Mayor. The hardest hook in the f
 Everyone looked at him. Felix had been at his bench for twelve hours and he had a small device in his hand that looked like a kitchen timer crossed with a smoke detector. He looked tired in the specific way Felix looked tired, which was happy.
 
 “I built a thing,” he said. “It counts down to the next patch. It’s tracking the rhythm. The patches are speeding up. There’s a big one coming today. Two thirty-eight PM, give or take a minute.”
+
+“How many of those have you built,” Milo said.
+
+“Nine.”
+
+“How many worked.”
+
+“This one.” Felix turned it over in his hands, entirely pleased with it. “Which is a much better ratio than it sounds like.”
 
 “The press conference starts at two thirty,” Lena said.
 
