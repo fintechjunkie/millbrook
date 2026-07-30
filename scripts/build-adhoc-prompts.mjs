@@ -52,6 +52,50 @@ const { expand, missingRefs } = createExpander({
 
 const ENTRIES = [
   {
+    slug: 'vol4-s05b',
+    insertAfter: 'REPLACES the plate on vol4 spread 5 (pages 11–12)',
+    title: 'Crane and Lena at the tripod, the stage behind them',
+    shotType: 'Character portrait or close (two-shot, with a third figure at distance)',
+    depicts:
+      'Beat 1. Crane having crossed the stage and stopped in front of Lena at her tripod, '
+      + 'before anything is offered — with the stage and the Mayor’s sound check behind them.',
+    spoiler:
+      'PASS. The final beat of the page is the Mayor’s speech breaking off mid-sentence. Not '
+      + 'depicted: he is still at the sound check and nothing has gone wrong yet. The card Crane '
+      + 'offers must NOT be in frame or in either hand — that is the next beat on this page and '
+      + 'the reason the shot is "before anything is offered".',
+    why:
+      'Replaces a single portrait of Crane standing alone. This is better on three counts. It '
+      + 'stages the beat instead of illustrating a character: Crane crossed to her, and the '
+      + 'tripod between them is exactly what he is really talking about. It puts him in the same '
+      + 'frame as the person he is recruiting, which a solo portrait cannot do. And it gets the '
+      + 'geography right — the story has Crane on the stage and Lena at the back, and the old '
+      + 'plate showed neither.\n\n'
+      + 'It also gives Mayor Dalton his only appearance in Volume 4. He currently has no plate in '
+      + 'the volume he is the subject of.',
+    hard:
+      'Lena’s hair MUST be gathered into one large uneven ponytail high at the BACK of her head, '
+      + 'reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and '
+      + 'never split into two or tied at the side. Crane keeps the pale blue medical mask ON over '
+      + 'the lower half of his face — it is never removed and never below the nose. NO card, '
+      + 'paper or object is being held or offered by anyone. The Mayor is small, distant and '
+      + 'clearly out of focus, never sharp and never a second portrait.',
+    prompt: `{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_D}}
+{{CHAR:MAYOR_DALTON}}
+{{WARDROBE:MAYOR_B}}
+{{CHAR:ADMIRAL_CRANE}}
+{{WARDROBE:CRANE_A}}
+{{LOC:TOWN_HALL_SQUARE}}
+Two figures facing each other at the back of a filling town square, a camera tripod standing between them so that it divides the frame. Crane stands on the left, squared up and unhurried, hands loosely behind his back, weight even, his pale blue medical mask covering the lower half of his face so that only his eyes carry the expression, and they are measuring her rather than greeting her. He is slightly the taller. Lena stands on the right with one hand still resting on the tripod head as though she has been interrupted mid-adjustment, her body angled toward her camera but her face turned fully to him, chin up, wary and interested at the same time. Neither is holding anything out and no card, paper or object passes between them. Behind and beyond them, well out of focus and much smaller, a low temporary stage carries a podium where a heavyset man in an ill-fitting purple suit and a bright new tie is leaning into a microphone doing a sound check, with a plain banner behind him carrying no legible words. Rows of folding chairs, most of them occupied by anonymous unnamed townspeople seen from behind, fill the ground between the two foreground figures and the stage. Exactly three named figures: the two in front, sharp, and the one on the stage, small and soft.
+Exterior, mid-afternoon, twenty-six minutes past two.
+Medium two-shot from slightly behind Lena's shoulder at standing eye level, framed so the tripod sits at the centre between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly soft.
+Flat bright overcast afternoon daylight, no dramatic shadow, faces fully legible, the distant stage a touch hazier than the foreground.
+{{NEGATIVE}}
+Aspect ratio: 3:2`,
+  },
+  {
     slug: 'vol1-s06b',
     insertAfter: 'vol1 spread 6, part two of the park scene',
     title: 'Felix and the peanut-butter-and-pickle sandwich',
