@@ -790,7 +790,7 @@ Alt text: A woman in a green cardigan stands behind the counter of a lit but clo
 
 ## Spread 10
 
-Pages 21 to 22 | Part Four: The Press Conference | Words 121
+Pages 21 to 22 | Part Four: The Press Conference | Words 119
 
 Short page, deliberate. Deliberate coda spread. The last text page of the arc is short on purpose so the closing image carries the turn out of the book.
 
@@ -800,17 +800,17 @@ On the high shelf above the cookbooks, Monke was sitting very still. He had been
 
 The woman in the green cardigan didn’t see him.
 
-Monke watched her put the phone in a drawer, lock the drawer, walk to the back of the store, and turn off the lights.
+Monke watched her put the phone in a drawer, lock it, walk to the back of the store and turn off the lights.
 
 Then, very quietly, Monke climbed down from the shelf, slipped through a gap in the back of the cookbook display, found the locked drawer, and put one small finger on it.
 
-He stayed like that for a long moment. Listening. Or measuring. Or remembering.
+He stayed like that for a long moment. Listening. Or measuring. Or thinking.
 
 Then he climbed back up to the shelf and waited for morning.
 
 *End of “The Patch”*
 
-*The Digital Slop Squads will return.*
+*Stay tuned for “The Understudies”*
 
 ### Image page (right)
 
