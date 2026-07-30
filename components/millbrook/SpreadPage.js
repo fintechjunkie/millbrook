@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Plate } from './Plate';
-import { color, grainStyle, pageInset, paper, space, type } from '@/lib/millbrook/series';
+import { color, grainStyle, pageInset, paper, reader, space, type } from '@/lib/millbrook/series';
 
 // data-mb-page is a verification hook, not decoration. The overflow check
 // needs one stable selector for "a page" to measure against, and screenshots
@@ -35,8 +35,14 @@ const PAGE = {
   overflow: 'hidden',
 };
 
-/** The small page number at the foot of a page. */
-function Folio({ n, align }) {
+/**
+ * The small page number at the foot of a page.
+ *
+ * `compact` is only ever passed by the image page, which on a phone has no paper under it
+ * and no inline padding to sit inside: inkSoft on the reader's grey ground measures 2.9:1,
+ * and flush to the edge the number would touch the screen.
+ */
+function Folio({ n, align, compact = false }) {
   if (!n) return null;
   return (
     <div
@@ -45,9 +51,10 @@ function Folio({ n, align }) {
         ...type.utility,
         fontSize: 8.5,
         letterSpacing: '0.18em',
-        color: color.inkSoft,
+        color: compact ? reader.textMuted : color.inkSoft,
         textAlign: align,
         paddingTop: space(3),
+        ...(compact ? { paddingLeft: space(4), paddingRight: space(4) } : null),
         flex: 'none',
       }}
     >
@@ -160,6 +167,49 @@ function useHasRoomForTerminal(ref, threshold = 2) {
 }
 
 /**
+ * Whether a scroll container has more below, and whether it can scroll at all.
+ *
+ * This is the whole of the mobile complaint. The flow has always been `overflow-y: auto`,
+ * so the text a phone could not fit was reachable — by scrolling a box with no scrollbar,
+ * no fade and no reason to think it moved. A page ended mid-sentence and read as broken
+ * rather than as continuing, which is the worst of the three possible outcomes: clipping
+ * at least looks like clipping.
+ *
+ * Listens to scroll AND resizes the content, because the answer changes when the page
+ * turns (a new page may not overflow at all) and when the phone rotates.
+ */
+function useScrollEdges(ref) {
+  const [state, setState] = useState({ scrollable: false, atEnd: true });
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+
+    const measure = () => {
+      const slack = el.scrollHeight - el.clientHeight;
+      setState({
+        scrollable: slack > 4,
+        // 24px of tolerance rather than exact equality. Fractional scroll offsets mean
+        // a container scrolled to the bottom frequently reports a pixel short of it,
+        // which would leave the fade showing over the last line forever.
+        atEnd: slack - el.scrollTop <= 24,
+      });
+    };
+
+    measure();
+    el.addEventListener('scroll', measure, { passive: true });
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    // The content grows independently of the box in edit mode, where a paragraph the
+    // author is typing into is what changes size.
+    [...el.children].forEach((c) => ro.observe(c));
+    return () => { el.removeEventListener('scroll', measure); ro.disconnect(); };
+  }, [ref]);
+
+  return state;
+}
+
+/**
  * The prose page. Always the LEFT page, never alternating.
  *
  * Fixed placement is the point: alternating looks more dynamic in a mock and
@@ -174,16 +224,29 @@ function useHasRoomForTerminal(ref, threshold = 2) {
  * survivable because its copy was written to fit. This prose is verbatim and
  * cannot be shortened, so on a viewport too small for it the page must scroll.
  * Losing the end of a paragraph is not an acceptable failure here.
+ *
+ * **On a phone that scroll is the design rather than the fallback, and the type is bigger
+ * because of it.** Desktop fit is guaranteed by arithmetic: type is 1.95cqh of a square
+ * page, so type and column scale together. A phone page is 0.51, that arithmetic breaks,
+ * and the clamp floor pinned the type at 12px while 16 of the 38 pages ran past their
+ * column anyway. A phone has no facing page and therefore no spread whose shape must be
+ * preserved, so compact stops defending a fixed page and scrolls a proper reading column
+ * instead. See `type.bodyCompact`.
  */
 export function TextPage({ spread, compact, editing = false, onEditParagraph }) {
   // 30px rather than 36. Same reasoning as the leading: page height reclaimed
   // from margin costs nothing, where reclaiming it from the spread map costs a
   // new spread and a new image.
-  const pad = compact ? space(6) : '30px';
+  //
+  // Compact trims to 16 from 24, which is measure rather than tidiness: 16px of gutter
+  // buys 16px of column, and at this size that is two more characters a line on a page
+  // that only gets about 41.
+  const pad = compact ? space(4) : '30px';
   const top = compact ? pageInset.top.compact : pageInset.top.wide;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
   const flowRef = useRef(null);
   const hasRoom = useHasRoomForTerminal(flowRef);
+  const { scrollable, atEnd } = useScrollEdges(flowRef);
 
   // Track whether we are at the first paragraph of a section, since that one sets flush
   // left and the rest indent.
@@ -209,6 +272,15 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
       className="mb-page"
       style={{ ...PAGE, padding: `${top} ${pad} ${compact ? space(5) : '16px'}` }}
     >
+      {/* A positioned box around the flow, so the "continues below" fade can sit over the
+          foot of the column without scrolling away with the text it is describing.
+          flexDirection column is NOT cosmetic. Every fill measurement on this project —
+          FillMeter, /checks/overflow, and the recipe written into CLAUDE.md — reads
+          scrollHeight with the flow's `flex` forced to none. In a ROW container that
+          also collapses the flow's WIDTH to shrink-to-fit, so the column narrows, the
+          text reflows taller, and every page reads about 9 points fuller than it is. It
+          measured vol1 spread 1 at 100% against a true 91%. */}
+      <div style={{ position: 'relative', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
       <div
         data-mb-flow
         ref={flowRef}
@@ -216,11 +288,16 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
           ...type.body,
           // On a phone the page is already narrower than the measure cap, so the
           // cap does nothing and the offset would only strand the text.
-          ...(compact ? { maxWidth: 'none' } : type.flowOffset),
+          ...(compact ? type.bodyCompact : type.flowOffset),
           flex: 1,
           minHeight: 0,
           overflowY: 'auto',
           overflowX: 'hidden',
+          // Keep a phone's scroll inside the column. Without this, reaching the end of the
+          // prose hands the gesture to the page behind it and the whole reader rubber-bands,
+          // which on iOS looks like the book coming loose.
+          overscrollBehavior: 'contain',
+          WebkitOverflowScrolling: 'touch',
         }}
       >
         {spread.blocks.map((b, i) => {
@@ -293,7 +370,41 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
             the prose it closes, so it sits directly under the last line wherever
             that falls. Pinned to the bottom it would read as a rule, and on the
             pages that scroll it would never be reached. */}
-        <Terminal suppressed={!hasRoom || spread.blocks[spread.blocks.length - 1]?.t === 'i'} />
+        {/* hasRoom is a wide-only test. It exists because on a fixed page the mark costs
+            1.8em that three pages could not spare, and because on a page that clipped it
+            would sit where nobody could reach it. Neither applies to a scrolling column:
+            the height is free, and the reader arrives at the foot of the page by
+            scrolling — which is precisely where a mark saying "this page is finished, now
+            swipe" does its most useful work. */}
+        <Terminal
+          suppressed={
+            (!compact && !hasRoom) || spread.blocks[spread.blocks.length - 1]?.t === 'i'
+          }
+        />
+      </div>
+
+      {/* Shown only while there is more below. A fade is the whole affordance: it says the
+          text continues without spending a line saying so, and it disappears at the end so
+          it never sits over the last sentence. Wide keeps it too — a laptop short enough to
+          overflow has exactly the same problem. */}
+      <div
+        aria-hidden="true"
+        // Reading this element's opacity in a non-compositing preview pane returns the
+        // START of the transition, not the end, because no frames are produced and the
+        // interpolation never advances. It measured 0 with an inline opacity of 1 and looked
+        // exactly like a broken hook. Clear `transition` before believing the number.
+        style={{
+          position: 'absolute',
+          left: 0,
+          right: 0,
+          bottom: 0,
+          height: compact ? 46 : 34,
+          pointerEvents: 'none',
+          opacity: scrollable && !atEnd ? 1 : 0,
+          transition: 'opacity 200ms ease',
+          background: `linear-gradient(to top, ${paper.stock} 12%, rgba(251,248,242,0) 100%)`,
+        }}
+      />
       </div>
 
       <Folio n={pageNumbers[0]} align="left" />
@@ -310,8 +421,9 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
 export function GraphicPage({ spread, compact }) {
   // A 3:2 plate on a square page can only reach about two thirds of the page
   // height, so padding here is margin the plate cannot afford. Kept tight on
-  // both, and tighter still on a phone where the plate is already a band.
-  const pad = compact ? space(3) : space(5);
+  // both, and zero on a phone, where every pixel of gutter is a pixel off the
+  // width of a picture that is already width-limited.
+  const pad = compact ? '0px' : space(5);
   // The plate's top edge now meets the first line of prose across the gutter,
   // instead of the plate floating in the middle of its own page while the text
   // started near the top. Two columns sharing one horizon is the whole gain.
@@ -326,7 +438,29 @@ export function GraphicPage({ spread, compact }) {
       data-mb-kind="graphic"
       data-mb-spread={spread.n}
       className="mb-page"
-      style={{ ...PAGE, padding: `${top} ${pad} ${space(5)}`, justifyContent: 'flex-start' }}
+      style={{
+        ...PAGE,
+        padding: compact ? `${space(3)} 0 ${space(3)}` : `${top} ${pad} ${space(5)}`,
+        justifyContent: 'flex-start',
+        // On a phone the plate does not sit on a sheet of paper, and that is the fix for
+        // the emptiest screen in the reader.
+        //
+        // A 3:2 plate on a 0.65 page is WIDTH-limited, so it can only reach about 237 of
+        // the page's 544px however the page is padded — measured at 62% of the page left
+        // over. Nothing can make the picture much bigger without cropping the composition
+        // the prompt specified. What CAN change is what the leftover is: 340px of blank
+        // cream reads as a page that failed to load, while the same space in the reader's
+        // own ground reads as the surround a framed picture is resting on. Which is exactly
+        // what a desktop reader already sees — a plate on paper, on grey — only here the
+        // grey has to do the job on its own, because there is no facing page.
+        //
+        // Grey, not the dark ground the compact opener uses. A lightbox would make the art
+        // pop harder, and it would also mean every single swipe on a phone alternated a
+        // cream screen with a near-black one.
+        ...(compact
+          ? { background: reader.bg, backgroundImage: 'none' }
+          : null),
+      }}
     >
       <figure
         style={{
@@ -335,16 +469,35 @@ export function GraphicPage({ spread, compact }) {
           minHeight: 0,
           display: 'flex',
           flexDirection: 'column',
-          // flex-start, not center. Centring is what put the plate's top edge at an
-          // arbitrary height; the slack now collects below it, where the prose page
+          // flex-start, not center — on the SPREAD. Centring is what put the plate's top
+          // edge at an arbitrary height; the slack collects below it, where the prose page
           // has its own slack too, so the spread reads as one object.
-          justifyContent: 'flex-start',
+          //
+          // Compact centres, because there is no facing page for the top edge to agree
+          // with, and a picture pinned to the top of a phone screen with 300px of ground
+          // beneath it reads as having fallen to the top.
+          justifyContent: compact ? 'center' : 'flex-start',
         }}
       >
-        <Plate slug={g.slug} alt={g.alt} shotType={g.shotType} aspect={aspect} />
+        {/* The frame is what stops a full-width plate on grey reading as a gap in the page.
+            A hairline plus a soft drop shadow is enough to say "object resting on a
+            surface"; on paper the page edge already said it. */}
+        <div
+          style={
+            compact
+              ? {
+                borderTop: `1px solid ${reader.rule}`,
+                borderBottom: `1px solid ${reader.rule}`,
+                boxShadow: '0 2px 10px rgba(58,48,38,0.16), 0 10px 30px rgba(58,48,38,0.13)',
+              }
+              : undefined
+          }
+        >
+          <Plate slug={g.slug} alt={g.alt} shotType={g.shotType} aspect={aspect} />
+        </div>
       </figure>
 
-      <Folio n={pageNumbers[1]} align="right" />
+      <Folio n={pageNumbers[1]} align="right" compact={compact} />
     </div>
   );
 }

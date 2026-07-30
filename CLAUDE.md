@@ -52,6 +52,49 @@ it, walk `[data-mb-page][data-mb-kind="text"]` and read each `[data-mb-flow]` wi
 temporarily set to `none` — a stretching flow box reports `scrollHeight === clientHeight`, so
 overflow silently reads as zero otherwise.
 
+**That recipe depends on the flow being a COLUMN flex item, so never wrap it in a row.**
+`flex: none` releases the flow on whichever axis its parent runs. In a column that is the
+height, which is the point. In a row it is also the WIDTH, so the column shrink-wraps, the
+text reflows narrower and taller, and every page reads about nine points fuller than it is —
+vol1 spread 1 measured 100% against a true 91%. A wrapper around the flow is fine; a wrapper
+that forgets `flexDirection: 'column'` quietly corrupts every fill number on the project,
+including `FillMeter` and `/checks/overflow`.
+
+---
+
+## The reader on a phone
+
+**Below `geometry.breakpoint` the prose page SCROLLS, and that is the design rather than a
+failure to fit.** Desktop fit is a guarantee from arithmetic: body type is `1.95cqh` of a
+**square** page, so type and column scale together and one coefficient holds at every
+viewport. A phone page is about 0.51, that guarantee breaks, and `clamp`'s 12px floor binds —
+at which point type stops shrinking while the column keeps shrinking, so fill gets strictly
+**worse** as the phone gets smaller. Measured before the change: 130% on vol1 spread 1 at
+384×831, 154% at 384×683, and 16 of the 38 text pages over their column.
+
+So compact stops defending a fixed page. `type.bodyCompact` sizes in `vw` against the
+measure, not in `cqh` against a height that no longer constrains anything, and the type went
+UP — 12px to 15–16.4px, at about 41 characters a line. Every page is now one gentle scroll
+(1.0–1.9 screens). Do not "fix" a compact page by shrinking type; there is nothing to fit.
+
+Three things follow, and each was a bug first:
+
+- **`svh`, never `vh` or `dvh`.** `100vh` on iOS is the viewport with the URL bar retracted,
+  so it hides the book's own foot behind the bar. `dvh` tracks the bar and would resize the
+  book mid-swipe. `svh` is the smallest viewport: stable, and never clipped.
+- **The compact book takes its height from the flex line, not from `chromeReserve`.** That
+  constant is wide-only. It had to agree with the real height of two chrome bars and a guide,
+  and did not — the bottom bar wraps to two rows on a narrow phone and grows again at the end
+  of a volume, where a "Part Four →" link replaces the arrow.
+- **`readerPad.compact*` are floors, not answers.** The real padding comes from the measured
+  bars, because the bottom bar's contents change with the build: the edit button only exists
+  where the server permits writes, so a dev bar is one control wider than a production one.
+
+**Known and deliberately not fixed:** at 1280×720 the wide book overlaps its bottom bar by
+9px. Pre-existing, verified against a stash, and the same root cause — but `chromeReserve`
+sets the desktop type scale through the page height, so moving it changes fill on all 38
+pages. Not worth it for 9px behind a translucent bar that auto-hides.
+
 ---
 
 ## Hard-won rules
@@ -66,6 +109,18 @@ evaluate modules, so an import-time `ReferenceError` is invisible to it, and a D
 can pass against a bundle compiled before the edit. Trust `npm run smoke` and served
 HTML over the browser console, whose log is a retained buffer and will keep reporting
 errors that no longer exist.
+
+**Anything driven by the browser's rendering steps is frozen in a non-compositing pane, and
+each one fails as a plausible-looking bug rather than as an error.** `requestAnimationFrame`
+is the known case; two more cost real time on the mobile work.
+
+- **A CSS transition never advances.** `getComputedStyle` returns the value it started
+  from, so an element with an inline `opacity: 1` and a 200ms transition measures **0**.
+  That reads exactly like a broken hook. Clear `transition` before believing the number.
+- **A `ResizeObserver` callback is not guaranteed to have fired.** It missed a chrome bar
+  growing from 51px to 86px, which put the last page 19px under it. Never let a correctness
+  fix depend only on an observer: key the measurement off React state that changes for the
+  same reason, and keep the observer as belt and braces.
 
 **Never colour-key a background out of a character plate.** The canonical sheets are RGB
 with no alpha and a flat sandy ground of `rgb(238,221,197)`. Owen's ivory outfit measures

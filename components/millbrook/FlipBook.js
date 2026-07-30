@@ -432,7 +432,7 @@ function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
       // gutter and each half measures the page beneath it. Duplicating the expression
       // is the cost of the alignment; getting it from geometry keeps the two in step.
       style={{
-        width: `min(${geometry.maxSpreadWidth}px, 100%, calc((100vh - ${geometry.chromeReserve}px) * ${geometry.spreadAspect}))`,
+        width: `min(${geometry.maxSpreadWidth}px, 100%, calc((100svh - ${geometry.chromeReserve}px) * ${geometry.spreadAspect}))`,
         display: 'flex',
         alignItems: 'stretch',
         marginBottom: space(2),
@@ -561,6 +561,23 @@ export default function FlipBook({ volume, next = null }) {
   const bookRef = useRef(null);
   const down = useRef(null);
   const touch = useRef(null);
+  const topBarRef = useRef(null);
+  const botBarRef = useRef(null);
+
+  /**
+   * The real heights of the two fixed chrome bars.
+   *
+   * Constants were tried first and are not enough, because neither bar has a height this
+   * file controls. The bottom bar's contents change with the BUILD — the edit button only
+   * exists where the server says writes are possible — and both bars wrap on a narrow
+   * phone, which is not a small difference: at 320px the bottom bar goes to 86px against a
+   * one-row 44px, and the page's foot went under it by 32px. `readerPad.compactBottom` is
+   * therefore a floor rather than the answer.
+   *
+   * No feedback loop to worry about. Both bars are position: fixed, so main's padding
+   * cannot change their height, and their height is what sets main's padding.
+   */
+  const [bars, setBars] = useState({ top: 0, bottom: 0 });
 
   // Extraction 6.2 is right that a JS breakpoint is the wrong tool and that
   // the desktop default paints one wrong frame on a phone. Kept here because
@@ -782,12 +799,49 @@ export default function FlipBook({ volume, next = null }) {
   const atStart = pos.idx === 0 && pos.half === 0;
   const atEnd = pos.idx === leaves.length - 1 && pos.half === halvesFor(leaf, wide) - 1;
 
+  /**
+   * Re-read the bars whenever anything that changes their height changes.
+   *
+   * Deliberately keyed on React state rather than left to a ResizeObserver alone. RO
+   * callbacks are delivered as part of the rendering steps, which do not run while the page
+   * is not compositing — the same trap as requestAnimationFrame — so an observer is the one
+   * mechanism that cannot be trusted to have fired when a measurement is taken. It missed
+   * exactly the case that matters: at the end of a volume the forward arrow is replaced by
+   * a "Part Four →" link, the bar wraps to two rows and grows from 51px to 86px, and the
+   * foot of the last page went 19px under it.
+   *
+   * `atEnd` is why this effect lives down here instead of beside the state.
+   */
+  useEffect(() => {
+    const read = () => setBars({
+      top: topBarRef.current?.offsetHeight ?? 0,
+      bottom: botBarRef.current?.offsetHeight ?? 0,
+    });
+    read();
+    // Belt and braces: RO catches a reflow no state change announces (a font finishing
+    // loading), and resize catches a rotation.
+    const ro = new ResizeObserver(read);
+    [topBarRef.current, botBarRef.current].filter(Boolean).forEach((el) => ro.observe(el));
+    window.addEventListener('resize', read);
+    return () => { ro.disconnect(); window.removeEventListener('resize', read); };
+  }, [wide, atEnd, edit.available, next]);
+
   return (
     <main
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
       style={{
-        minHeight: '100vh',
+        // svh, not vh, and not dvh either. `100vh` on iOS is the viewport with the URL bar
+        // RETRACTED, so a fixed-height reader sized from it puts its own foot behind the bar
+        // — which is the mobile complaint about the book being cut off. `dvh` tracks the bar
+        // and would be correct for a scrolling document, but here it would resize the book
+        // mid-swipe every time the bar moved. `svh` is the SMALLEST viewport, so it is stable
+        // and nothing can ever hide under the bar. On desktop it equals vh.
+        //
+        // Compact takes an exact height rather than a minimum, because below the breakpoint
+        // the book's height is derived from what is left of this box. A minimum would let the
+        // flex line grow past the screen instead of handing the book the remainder.
+        ...(wide ? { minHeight: '100svh' } : { height: '100svh', overflow: 'hidden' }),
         // The reader's own ground, deeper than the site shell. A cream page on an off-white
         // shell measured 1.03:1 and had nothing to sit against; this is 1.77:1. See `reader`.
         background: reader.bg,
@@ -796,13 +850,17 @@ export default function FlipBook({ volume, next = null }) {
         alignItems: 'center',
         // Inline padding comes from geometry so the opening transition can size its
         // clone with the same arithmetic. Hardcoding it here once let the two drift.
+        // Compact pays the measured chrome, with the constants as floors. See `bars`.
         padding: wide
           ? `${geometry.readerPad.top}px ${geometry.readerPad.inline}px ${geometry.readerPad.bottom}px`
-          : `${geometry.readerPad.compactTop}px ${geometry.readerPad.compactInline}px ${geometry.readerPad.compactBottom}px`,
+          : `${Math.max(geometry.readerPad.compactTop, bars.top + 8)}px `
+            + `${geometry.readerPad.compactInline}px `
+            + `${Math.max(geometry.readerPad.compactBottom, bars.bottom + 8)}px`,
       }}
     >
       {/* Top chrome. Never auto-hides. */}
       <div
+        ref={topBarRef}
         style={{
           position: 'fixed',
           top: 0,
@@ -850,7 +908,9 @@ export default function FlipBook({ volume, next = null }) {
         // 423px. Before the wrapper existed, the book was a direct child of main and its 100%
         // resolved against main's content box, which is what this restores.
         style={{
-          margin: 'auto',
+          // Wide centres in whatever room is left. Compact instead CLAIMS the room, so the
+          // guide and the book divide it between them and the book can take the remainder.
+          ...(wide ? { margin: 'auto' } : { flex: 1, minHeight: 0 }),
           width: '100%',
           display: 'flex',
           flexDirection: 'column',
@@ -879,11 +939,16 @@ export default function FlipBook({ volume, next = null }) {
           // aspectRatio set the height. Setting width 100% and capping
           // maxHeight looks like it works and silently breaks the ratio.
           width: wide
-            ? `min(${geometry.maxSpreadWidth}px, 100%, calc((100vh - ${geometry.chromeReserve}px) * ${geometry.spreadAspect}))`
+            ? `min(${geometry.maxSpreadWidth}px, 100%, calc((100svh - ${geometry.chromeReserve}px) * ${geometry.spreadAspect}))`
             : `min(${geometry.compactMaxWidth}px, 100%)`,
+          // Wide derives height from the 2:1 ratio, because a spread is a fixed object.
+          // Compact takes the remainder of the flex line instead of computing
+          // `100vh - chromeReserve`, which had to be kept in agreement with the real height
+          // of two chrome bars and a guide, and was not: it left the page's last 24px under
+          // the bottom bar on a 683px viewport. Nothing to keep in agreement now.
           ...(wide
             ? { aspectRatio: `${geometry.spreadAspect}` }
-            : { height: `calc(100vh - ${geometry.chromeReserve + 8}px)` }),
+            : { flex: 1, minHeight: 0 }),
           // On the container, not the sheet. Without a perspective on an
           // ancestor the rotation is an affine squash with no depth.
           perspective: 2400,
@@ -993,6 +1058,7 @@ export default function FlipBook({ volume, next = null }) {
 
       {/* Bottom chrome. */}
       <div
+        ref={botBarRef}
         className="mb-chrome"
         data-hidden={chromeHidden ? 'true' : 'false'}
         style={{
@@ -1008,8 +1074,12 @@ export default function FlipBook({ volume, next = null }) {
           // that ever lands in this bar, and a bottom bar that scrolls sideways is
           // a bar the reader cannot finish reaching.
           flexWrap: 'wrap',
-          gap: `${space(2)} ${space(5)}`,
-          padding: `${space(4)} ${space(4)}`,
+          // Compact runs tighter so the bar stays ONE row. At 375px the wide spacing
+          // needed 386px for its controls and wrapped to two, which took the bar to 94px
+          // and pushed the foot of the page underneath it. The bar's height is now what
+          // readerPad.compactBottom is set against, so it has to be predictable.
+          gap: wide ? `${space(2)} ${space(5)}` : `${space(2)} ${space(3)}`,
+          padding: wide ? `${space(4)} ${space(4)}` : `${space(3)} ${space(2)}`,
           background: `linear-gradient(to top, ${reader.chrome}, ${reader.chromeFade})`,
         }}
       >
@@ -1022,7 +1092,8 @@ export default function FlipBook({ volume, next = null }) {
         </button>
 
         <div style={{ ...type.utility, fontSize: 10, letterSpacing: '0.16em', color: reader.textFaint,
-                      display: 'flex', alignItems: 'center', gap: space(2), minWidth: 128, justifyContent: 'center' }}>
+                      display: 'flex', alignItems: 'center', gap: space(2),
+                      minWidth: wide ? 128 : 92, justifyContent: 'center' }}>
           {spreadNo ? (
             <>
               <span style={{ color: color.ink }}>{spreadNo}</span>
