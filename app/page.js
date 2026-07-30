@@ -25,17 +25,18 @@ import {
  * Shared by published and unpublished arcs so the two are unmistakably the same
  * kind of thing, which is the whole point of showing the empty one.
  */
-function ArcHeader({ arc, action, dim = false, rule = ui.rule }) {
+function ArcHeader({ arc, action, href = null, rule = ui.rule }) {
   return (
     <header
       style={{
         paddingBottom: space(4),
         marginBottom: space(6),
         borderBottom: `1px solid ${rule}`,
-        // 0.52 was dimming light text against a dark band. Ink at 0.52 on a light band
-        // goes weak and grey rather than quiet, so the reserved arc holds more of its
-        // opacity and gets its recessive quality from muted colour instead.
-        opacity: dim ? 0.78 : 1,
+        // No opacity dimming on an unwritten arc any more. It was inherited from the dark
+        // theme, where 0.52 quietened light text on a dark band; on a light band ink at
+        // reduced opacity goes weak and grey rather than quiet, and an arc with four real
+        // titles has earned the same weight as one that is finished. What says it is not
+        // out yet is the "coming soon" status and the dashed cards, which is enough.
       }}
     >
       <div>
@@ -49,35 +50,36 @@ function ArcHeader({ arc, action, dim = false, rule = ui.rule }) {
             ...type.utility,
             fontSize: 9.5,
             letterSpacing: '0.24em',
-            color: dim ? ui.textMuted : ui.kicker,
+            color: ui.kicker,
           }}
         >
           Arc {arc.number}{arc.status ? ` · ${arc.status}` : ''}
         </div>
         {/* The title is the thing a reader reaches for, so it is the link. Leaving it
             as dead text and putting the only route in a small "About this arc" button
-            beside it was a click people were already trying and not getting. An
-            unpublished arc has no href and stays plain text. */}
+            beside it was a click people were already trying and not getting. An arc with
+            no page yet passes no href and stays plain text, because a link to a route
+            that does not exist is worse than no link. */}
         <h2
           style={{
             fontFamily: type.body.fontFamily,
-            color: dim ? ui.textMuted : color.ink,
+            color: color.ink,
             fontSize: 30,
             fontWeight: 700,
             letterSpacing: '-0.01em',
             margin: `${space(2)} 0 0`,
           }}
         >
-          {dim ? arc.title : (
-            <Link href={`/${arc.id}`} className="focus-ring" style={{ color: 'inherit', textDecoration: 'none' }}>
+          {href ? (
+            <Link href={href} className="focus-ring" style={{ color: 'inherit', textDecoration: 'none' }}>
               {arc.title}
             </Link>
-          )}
+          ) : arc.title}
         </h2>
         <p
           style={{
             fontFamily: type.body.fontFamily,
-            color: dim ? ui.textMuted : ui.textOnTint,
+            color: ui.textOnTint,
             fontSize: 14.5,
             lineHeight: 1.6,
             maxWidth: '62ch',
@@ -120,22 +122,12 @@ function StartHere({ arc }) {
         margin: `${space(6)} 0 0`,
       }}
     >
-      <Link
-        href={`/${arc.id}`}
-        className="mb-start focus-ring"
-        style={{
-          ...type.utility,
-          fontSize: 11,
-          letterSpacing: '0.16em',
-          color: paper.stock,
-          background: color.accent,
-          textDecoration: 'none',
-          padding: `${space(4)} ${space(7)}`,
-          borderRadius: 3,
-          whiteSpace: 'nowrap',
-          boxShadow: ui.shadow,
-        }}
-      >
+      {/* A pill, not a rectangle with a 3px radius. The square-ish chip read as a form
+          control sitting on the page; a fully rounded button with a real edge, a gradient
+          and a shadow reads as a finished object, which is what it needs to be when it is
+          the only thing on the page asking to be pressed. Colours and the lit top edge are
+          in `.mb-start`. */}
+      <Link href={`/${arc.id}`} className="mb-start focus-ring">
         {arc.start.label} <span className="mb-start-arrow" aria-hidden="true">→</span>
       </Link>
       <p
@@ -283,53 +275,42 @@ export default function Home() {
                 className="mb-arc-band"
                 style={{ background: band.bg, borderColor: band.rule }}
               >
-                <ArcHeader arc={arc} rule={band.rule} action={<StartHere arc={arc} />} />
+                <ArcHeader
+                  arc={arc}
+                  href={`/${arc.id}`}
+                  rule={band.rule}
+                  action={<StartHere arc={arc} />}
+                />
                 <Shelf arc={arc} volumes={byslug} />
               </div>
             </section>
           );
         })}
 
-        {UPCOMING_ARCS.map((arc) => (
-          <section key={arc.id} style={{ marginBottom: space(12) }}>
-            {/* The backdrop is a CSS background rather than a Plate on purpose: a
-                missing background-image renders as nothing at all, whereas a missing
-                Plate renders its "not yet generated" panel. That panel is right on a
-                spread, where it tells you which file to make, and wrong behind four
-                dashed cards, where it would just look broken. */}
-            <div
-              style={{
-                position: 'relative',
-                backgroundImage: `url(/images/${SITE_IMAGES.arc2.slug}.png)`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                borderRadius: 3,
-                padding: space(6),
-                margin: `0 -${space(6)}`,
-              }}
-            >
-              {/* The veil over the arc-two artwork inverted with the shell, and it had
-                  to: everything inside this band — the header, the four ghost slots — is
-                  now ink on light, so a 0.84 black overlay would have put dark text on a
-                  dark field. A pale veil keeps the art as a ghost of itself, which is the
-                  point, and lets the band recede by going FLATTER than the shell rather
-                  than darker. */}
+        {/* An unwritten arc is the SAME kind of band as a written one, on its own tint.
+            It used to be the odd one out — artwork behind a pale veil, a different radius,
+            negative margins, and a header dimmed to 0.78 — which made the next arc read as
+            a promotional slot rather than as the next thing in the series. Now the only
+            differences are the ones that are true: it says "coming soon", its cards are
+            dashed and unlit, and it has no page of its own to link to yet.
+
+            The `site-arc2.png` backdrop is dropped rather than lost. It is still in
+            public/images and still declared in SITE_IMAGES, ready to become cover art for
+            these four volumes. */}
+        {UPCOMING_ARCS.map((arc) => {
+          const band = ARC_BANDS[arc.band] ?? ARC_BANDS.slate;
+          return (
+            <section key={arc.id} style={{ marginBottom: space(12) }}>
               <div
-                aria-hidden="true"
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  background: 'rgba(237,231,219,0.90)',
-                  borderRadius: 3,
-                }}
-              />
-              <div style={{ position: 'relative' }}>
-                <ArcHeader arc={arc} dim />
+                className="mb-arc-band"
+                style={{ background: band.bg, borderColor: band.rule }}
+              >
+                <ArcHeader arc={arc} rule={band.rule} />
                 <ComingShelf arc={arc} />
               </div>
-            </div>
-          </section>
-        ))}
+            </section>
+          );
+        })}
 
         <footer
           style={{

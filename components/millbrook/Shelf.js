@@ -129,21 +129,29 @@ export function Shelf({ arc, volumes }) {
 }
 
 /**
- * A reserved shelf for an arc that does not exist yet.
+ * A reserved shelf for an arc that has titles but no pages yet.
  *
- * Deliberately the same grid and the same card proportions as a real shelf, so it
- * reads as space being held rather than as a gap. Not links, not focusable, and
- * hidden from assistive tech beyond a single label on the section — there is
- * nothing here to navigate to, and four empty tab stops would be a nuisance.
+ * Same grid and same card proportions as a real shelf, so it reads as space being held
+ * rather than as a gap — and now the same INFORMATION architecture too: cover slot,
+ * volume number, title, in the same sizes and the same order. Four numbered blanks read
+ * as an apology; four named volumes read as a promise, which is the point of showing an
+ * unwritten arc at all.
+ *
+ * Still not links and still not focusable. There is nothing to navigate to, and four
+ * empty tab stops would be a nuisance. But no longer `aria-hidden`: the titles are
+ * content, and hiding them would tell a screen-reader user that the next arc has nothing
+ * in it while telling everyone else its name. Only the placeholder in the cover slot is
+ * hidden, because "Coming soon" four times is noise once the section says it once.
  */
 export function ComingShelf({ arc }) {
   return (
-    <section aria-label={`Arc ${arc.number}, coming soon`} className="mb-shelf">
-      {Array.from({ length: arc.volumeCount }, (_, i) => (
-        <div key={i} className="mb-card-ghost" aria-hidden="true">
-          {/* "Coming soon" sits in the cover area rather than under it, because that is
+    <section aria-label={`Arc ${arc.number}, ${arc.title}, coming soon`} className="mb-shelf">
+      {arc.volumes.map((v) => (
+        <div key={v.vol} className="mb-card-ghost">
+          {/* The placeholder sits in the cover area rather than under it, because that is
               where a cover would be and it is the part of the card a reader scans. */}
           <div
+            aria-hidden="true"
             style={{
               width: '100%',
               aspectRatio: '2 / 1',
@@ -157,8 +165,24 @@ export function ComingShelf({ arc }) {
           >
             Coming soon
           </div>
-          <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em' }}>
-            Volume {i + 1}
+
+          {/* Sizes match VolumeCard exactly, including the two-line minimum on the title.
+              "Declared Civil Contingency" wraps to two lines and "Curfew" does not, and
+              without the reservation the four cards would sit at different heights. */}
+          <div style={{ ...type.utility, fontSize: 8.5, letterSpacing: '0.2em', marginTop: 2 }}>
+            Volume {v.vol}
+          </div>
+          <div
+            style={{
+              fontFamily: type.body.fontFamily,
+              fontSize: 16,
+              fontWeight: 700,
+              lineHeight: 1.22,
+              minHeight: '2.44em',
+              color: ui.text,
+            }}
+          >
+            {v.title}
           </div>
         </div>
       ))}
