@@ -371,6 +371,22 @@ for (let n = 1; n <= 4; n += 1) {
     JSON.stringify({ ...meta, spreads }, null, 2) + '\n',
   );
   allProblems.push(...problems);
+
+  // Every prompt must carry a negative block and an aspect ratio.
+  //
+  // This exists because three plates lost both without anything noticing. Each had its prompt
+  // body swapped by replacing the text between the fences, and those bodies happened to END with
+  // {{NEGATIVE}} and the aspect line, so the replacement ate them. Word counts still matched, the
+  // sheets still built and the images still generated, because the author was working from a copy
+  // made before the damage. Nothing downstream reads either field, which is exactly why losing
+  // them was invisible -- so it gets asserted here instead.
+  for (const sp of spreads) {
+    const where = `vol${n} ${sp.image.slug}`;
+    if (!sp.image.prompt || !/\{\{NEGATIVE\}\}|No text, lettering/.test(sp.image.prompt)) {
+      allProblems.push(`${where}: prompt has no negative block`);
+    }
+    if (!sp.image.aspect) allProblems.push(`${where}: prompt has no aspect ratio`);
+  }
   const text = spreads.filter((s) => s.kind === 'spread');
   summary.push({
     vol: n,
@@ -416,6 +432,7 @@ console.log(
 // 38/42 as of 2026-07-29. All four planned splits are in: vol2 s4, vol4 s7, vol3 s2, and the
 // Volume 1 chain re-cut, which added two spreads rather than one.
 const EXPECT = { textPages: 38, images: 42 };
+
 for (const [k, v] of Object.entries(EXPECT)) {
   if (totals[k] !== v) allProblems.push(`totals.${k}: expected ${v}, got ${totals[k]}`);
 }

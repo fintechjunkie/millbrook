@@ -467,6 +467,8 @@ Two figures facing each other at the back of a filling town square, a camera tri
 Exterior, mid-afternoon, twenty-six minutes past two.
 Medium two-shot at standing eye level, framed so the tripod sits between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly softer than the foreground.
 Flat bright overcast afternoon daylight, no dramatic shadow, both faces fully legible, the distant stage a touch hazier.
+{{NEGATIVE}}
+Aspect ratio: 3:2
 ```
 
 Alt text: A uniformed officer in a medical mask and a red-haired girl stand either side of her camera tripod at the back of a crowded square, a man speaking at a podium behind them.
@@ -798,6 +800,8 @@ A small monkey crouched on the floorboards at the base of a wooden shop counter 
 Interior, three in the morning, lights off.
 Low shot from floor level a little to one side, close enough that the finger and the keyhole are both clearly readable, the counter running away into the frame.
 Dark but never illegible. A single cool source from off frame rakes across the counter face and picks out the monkey, the keyhole and his hand; the room behind falls away into soft shadow while its shelves and furniture stay just discernible. He and the lock are the brightest things in the picture.
+{{NEGATIVE}}
+Aspect ratio: 3:2
 ```
 
 Alt text: A small monkey crouches in the dark at the foot of a shop counter with one finger touching the keyhole of a locked drawer.

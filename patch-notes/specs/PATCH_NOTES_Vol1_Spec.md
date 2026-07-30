@@ -22,12 +22,15 @@ along three boundaries at once: spread 6 splits in two, spread 7 sheds its tail 
 after it, and spread 8 splits in two.
 
 **Part C3 is now genuinely strained, and this is the volume where it gives.** Portraits 5, 6
-and 7 are three in a row. The run exists because the new sandwich two-shot lands between the
-bench three-shot and the press-conference portrait, and there is nowhere else it can go --
-it depicts a beat that only occurs there. The mitigation is that all three are different
-shapes: a group three-shot, a two-shot over an object, and a single close portrait. C3 exists
-to stop a volume reading as a row of headshots, and three plates that differ in figure count
-and staging do not do that.
+and 7 are three in a row. The run exists because spread 7 depicts a beat that occurs nowhere
+else, so the plate has no other page to sit on. The mitigation is that the three are different
+shapes and different distances: a single figure at the press conference, a group three-shot on
+the bench, and then a tight single-figure close-up from below. C3 exists to stop a volume
+reading as a row of matching headshots, and three plates that differ in figure count, framing
+and camera height do not do that.
+
+Spread 7 is also the tightest framing in the arc. Nothing else comes closer than a two-shot,
+which is worth knowing when judging whether it sits oddly beside its neighbours: it is meant to.
 
 One beat also ends up better placed than it was. The milk-crate-stool plate depicted a moment
 that straddled the old spread 7 and 8 boundary -- Pip sitting down on one page and her eyes
@@ -592,35 +595,48 @@ Milo looked at it. Owen looked at it. Felix stopped chewing.
 ### Image page (right)
 
 Slug: vol1-s06b
-Shot type: Character portrait or close (two-shot)
-Depicts: Beat 1. Felix holding out half his sandwich to Lena about four seconds after meeting her, and Lena declining.
-Spoiler check: PASS. The final beat of this page is Lena showing them the dark frame off her dashcam and the three of them reacting. Not depicted; no screen is in frame and the sandwich is the only thing being held out.
+Shot type: Character portrait (close, single figure)
+Depicts: Beat 4. Milo on his feet, taller than Lena had thought, warning her off mid-sentence.
+Spoiler check: PASS. The final beat of this page is Lena holding out the dark frame off her dashcam and the three of them reacting to it. Not depicted; no screen and no other figure is in frame.
 
-Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and never split into two or tied at the side. The sandwich is drawn slightly oversized, per the signature-object rule in the style block. Exactly two figures in frame; Milo and Owen are out of frame entirely rather than blurred behind.
+Hard constraints: The orange ribbed beanie and the small round red-lensed glasses are permanent and are never removed. His eyes are NOT visible through the lenses — the lenses read as flat translucent red, never go clear, and must not catch a reflection that hides the face. Because the eyes are unavailable, the expression is carried entirely by the mouth, the jaw, the shoulders and the angle of the head, and the mouth stays flat and unsmiling even mid-word. Exactly ONE figure in frame; Owen, Felix and Lena are all out of frame and none of them is partly visible at an edge.
 
-**Why this plate exists.** The locked style block names "Felix’s sandwich" as one of five
-signature objects to be drawn slightly oversized, and across thirty-six pages the sandwich
-had never once appeared. It is also the moment Felix introduces himself, and his only other
-plate in the arc has him holding a gadget in Volume 4.
+**Why this plate exists, and why the first attempt at it was wrong.** It was going to be Felix
+offering Lena half his sandwich. Two things killed that on the author’s review. Felix already
+has the sandwich in the bench three-shot on the page immediately before this one, so it would
+have been a near-duplicate of its own neighbour; and framing it as a Felix-and-Lena two-shot
+wrote Milo and Owen out of a scene they are both in and both reacting through.
+
+Milo is the better subject and the gap is real: he appears in exactly two plates across the
+whole arc, the bench three-shot on the page before and the couch two-shot in Volume 2, and is
+never once alone in frame. He leads the group and the reader has never had a proper look at him.
+
+This beat is also the only one on the page that belongs to him by himself. "Milo stood up. He
+was taller than Lena had thought" is a physical fact the prose bothers to state, so the low
+angle is doing that sentence’s work rather than decorating it — the camera sits at her eyeline
+looking up while he looks down at her.
+
+**The roster’s rendering note governs this frame more than any other in the arc.** His eyes are
+concealed behind red lenses at all times, so a close portrait of him has no eyes to act with.
+Everything has to come from the mouth, the jaw, the shoulders and the tilt of the head, and the
+prompt specifies each of them deliberately.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{CHAR:LENA}}
-{{WARDROBE:LENA_A}}
-{{CHAR:FELIX}}
-{{WARDROBE:FELIX_A}}
+{{CHAR:MILO}}
+{{WARDROBE:MILO_A}}
 {{LOC:THE_PARK}}
-Two figures beside a park bench, mid-exchange over a sandwich. Felix is seated on the bench leaning forward and twisting toward the viewer's right, one arm fully extended, offering half a thick sandwich held in his bare fingers with the filling clearly visible and slightly squashed. The sandwich is drawn a little larger than life. His face is open, friendly and entirely unembarrassed, eyebrows up, mouth full and still chewing, as though offering food to a stranger four seconds after meeting her is completely normal. Lena stands a pace away, weight back on her heels, one hand half raised in a small polite refusal, her mouth in a flat closed line and her eyebrows slightly drawn, caught between amusement and alarm. Both faces clearly visible. Exactly two figures in frame and no others.
+A close head-and-shoulders portrait of a tall thin teenage boy who has just risen to his feet beside a park bench, caught mid-sentence. He has come up to his full height and knows it. His chin is dropped a little so that he is looking down toward someone below the frame, his head angled very slightly to one side, and the small round red-lensed glasses sit flat and opaque so that no eyes are visible behind them at all. His mouth is open on a word but the shape of it is flat and level rather than animated — this is a warning delivered calmly, not an argument. One shoulder is a fraction higher than the other and both are set back, the collar of the black leather jacket standing up at the neck, the jacket hanging open over a plain black t-shirt with a single dog tag at the throat. His hands are not in frame. Behind him the park is soft and unfocused: the pale shape of the stone fountain, the top slats of the bench, mature trees. Exactly one figure in frame and no other person is visible anywhere, not even partly at an edge.
 Exterior, late morning.
-Medium two-shot from just off to one side at standing eye level, framed so the offered sandwich sits at the centre of the composition between them, moderate depth so the fountain and trees read softly behind.
-Bright, flat, cheerful midday daylight, no dramatic shadow, everything legible at full colour.
+Close portrait from clearly BELOW his eyeline, roughly the height of the person he is speaking down to, so that he reads as taller than expected and the sky sits behind his head and shoulders. Shallow depth: he is crisp and the park behind him is soft.
+Bright flat late-morning daylight from above and slightly behind the camera, no dramatic shadow, the red lenses holding their colour and the orange beanie reading warm against a pale sky.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A seated boy leans out to offer half a thick sandwich to a girl standing beside the bench, who raises a hand to decline.
+Alt text: A close portrait from below of a tall teenage boy in an orange beanie and round red-lensed glasses, on his feet and speaking down to someone out of frame.
 
 ---
 
