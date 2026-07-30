@@ -1,6 +1,6 @@
 # The Patch Notes, Volume 3: image prompt sheet
 
-Part Three: Mr. Henderson's Knee · 9 images · generated from the specs, do not hand-edit
+Part Three: Mr. Henderson's Knee · 10 images · generated from the specs, do not hand-edit
 
 Work through this one prompt at a time. Each entry gives the prompt as a single
 copyable block, then the exact filename to save the result as. The filename is
@@ -32,7 +32,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 
 **Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
-### [ ] vol3-s06 — spread 6
+### [ ] vol3-s06 — spread 7
 
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 1. Mr. Henderson on the porch swing holding his own steady hands up in front of him, Lena beside him on the swing.
@@ -95,7 +95,7 @@ Alt text, already written, do not regenerate: An elderly man on a porch swing ho
 
 ---
 
-### [ ] vol3-s07 — spread 7
+### [ ] vol3-s07 — spread 8
 
 Shot type: Atmospheric or empty (ensemble tableau)
 Depicts: Beats 2 to 5. The whole group bedded down in the Warehouse after midnight, the pig on the couch with Lena, Vex awake on the floor beside Cassie, and Pip alone and still in the dark part at the back.
@@ -193,7 +193,7 @@ Alt text, already written, do not regenerate: A wide warehouse interior after mi
 
 Canonical reference: `char-vex-canonical.png` · approved: yes
 
-### [ ] vol3-s05 — spread 5
+### [ ] vol3-s05 — spread 6
 
 Shot type: Character portrait
 Depicts: Beat 1. Vex on her feet in the Pit, ending the two-team argument.
@@ -253,7 +253,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 
 **Rendering note.** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
 
-### [ ] vol3-s03 — spread 3
+### [ ] vol3-s03 — spread 4
 
 Shot type: Action moment
 Depicts: Beat 2. Pip kneeling in front of Cassie with two fingertips just behind her left ear.
@@ -315,7 +315,7 @@ Alt text, already written, do not regenerate: A girl kneels in front of a seated
 
 Canonical reference: `char-monke-canonical.png` · approved: no
 
-### [ ] vol3-s08 — spread 8
+### [ ] vol3-s08 — spread 9
 
 Shot type: Character portrait
 Depicts: Beat 4. Monke awake on the high shelf, watching the Pit below, before he climbs down.
@@ -435,14 +435,75 @@ Alt text, already written, do not regenerate: A small girl sits drawn in on a co
 
 ---
 
+### [ ] vol3-s02b — spread 3
+
+Shot type: Atmospheric or subjective (portrait)
+Depicts: Beat 3. What Cassie is hearing while she lists it — the wasp in the wall, the freezer compressor, the phone buzzing on silent in Lena’s pocket.
+Spoiler check: HOLD ONE THING. The rings must read as SOUND and nothing else. They must not read as a signal, a transmission or a network, must have no source and no direction, and nothing in the walls may be visible. That the patches live on a frequency, and that something is in the wiring, are both later reveals.
+Named figures: Cassie (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-cassie-canonical.png` — Cassie
+- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- The rings are thin, soft-edged, translucent and colourless, like ripples on water seen from above, and they clearly pass through solid objects.
+- They are never beams, never rays, never coloured and never bright.
+- No source glows.
+- No machinery, wiring or device is visible anywhere in the frame.
+- The room is lit as ordinary warm daylight.
+CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
+Wardrobe, unchanged for this scene: Muted teal knit cap worn pushed back off the forehead, teal long-sleeved top with the cuffs turned back, dark indigo denim dungarees with brass buttons and deep turn-ups at the ankle, black high-top canvas sneakers with white laces and pale toe caps. Her working hearing aid is visible behind her left ear; the second, dead one is loose in her hand or her pocket. No backpack, pins or decorative props
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+A fifteen-year-old girl sitting upright on a worn couch, filling the near half of the frame, seen slightly from the side. One hearing aid sits behind her left ear and the other lies in her open palm on her knee. She is not crying but has been, and her eyes are wide and fixed on nothing in particular, her shoulders slightly raised as though braced. Her expression is overwhelmed rather than frightened. Behind and around her the room is drawn normally, except that faint pale concentric rings spread outward through it from several separate ordinary places at once, overlapping each other where they cross: from a small point inside the wall behind her, from a chest freezer far off through the doorway, from a coat pocket on a chair nearby, from somewhere beyond the far wall. Exactly one figure in frame.
+Interior, mid-morning.
+Medium close portrait from just off her eyeline, camera at seated eye level, shallow enough depth that she is crisp and the ringed room behind her is soft.
+Bright and warm and completely ordinary. Generous daylight from high windows so her face and the whole room read at full colour, with no dramatic shadow and no coloured light. The rings are the only unusual element and they are pale and low-contrast against a normally lit room.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol3-s02b.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A girl sits on a couch holding a hearing aid in her open palm, while faint pale rings spread through the room behind her.
+
+---
+
 ## MR HENDERSON
 
 Canonical reference: `char-henderson-canonical.png` · approved: no
 
-### [ ] vol3-s01 — spread 1
+### [ ] vol3-s01b — spread 1
 
-Shot type: Character portrait
-Depicts: Beat 1. Mr. Henderson stopped at the end of the block, newspaper still under his arm, aware that nothing hurts.
+Shot type: Action moment
+Depicts: Beat 1. The six miles, in progress — Mr. Henderson running, newspaper still under his arm because he never meant to go anywhere.
 Spoiler check: PASS. Final beat is Aunt Carol at the coffee pot saying she would have left thirty years ago. Not depicted; the scene never enters the kitchen.
 Named figures: Mr. Henderson (1 of a maximum 2)
 
@@ -474,22 +535,27 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- He is in ordinary house clothes and soft tartan slippers, never athletic shoes — the slippers are the point, because he only went out for the paper.
+- His face is astonished and delighted rather than confused.
+- Both feet are off the ground.
 CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-henderson-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
 Wardrobe, unchanged for this scene: Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet**
 SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol3-opener.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
 A residential street of modest single-storey houses set back behind short lawns, chain link and low hedges, cracked concrete sidewalk, power lines overhead, parked sedans.
-An old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.
-Exterior, early morning.
-Medium shot, camera at chest height, shallow depth so the street behind him softens.
-Low warm sunrise light from behind and to the right, rim lighting his white hair, face in soft fill.
+An old man running along an empty residential sidewalk at full stride with both feet off the ground, arms working, and a folded newspaper still tucked under one arm because he never meant to go anywhere. He is dressed in ordinary house clothes and soft tartan slippers rather than anything athletic, one slipper half off his heel. His face is the whole point of the image: astonished and delighted at the same time, mouth open. Sleeping single-storey houses with wide flat lawns run away behind him and the street is completely empty of other people and of cars. Exactly one figure in frame.
+Exterior, just after sunrise.
+Low three-quarter tracking shot from slightly ahead of him and below, so the stride reads as fast and his face stays clearly visible, moderate depth so the row of houses recedes behind him.
+Bright, clean early-morning light. A long warm low sun from behind the camera lights his face and the fronts of the houses directly, throwing long soft shadows, and the overall key is high. A cheerful image, not a wistful one.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2
 ```
 
-Save as: **`vol3-s01.png`** · aspect 3:2
+Save as: **`vol3-s01b.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: An elderly man stands on an empty sidewalk with a newspaper under his arm, looking down at his own legs, puzzled.
+Alt text, already written, do not regenerate: An elderly man in slippers runs along an empty sidewalk at full stride with a newspaper under his arm, delighted.
 
 ---
 
@@ -544,7 +610,7 @@ Alt text, already written, do not regenerate: An empty residential street just a
 
 ---
 
-### [ ] vol3-s04 — spread 4
+### [ ] vol3-s04 — spread 5
 
 Shot type: Establishing or location
 Depicts: Beat 5. The old elementary school at the centre of the arc.

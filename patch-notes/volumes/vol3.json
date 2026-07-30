@@ -99,22 +99,22 @@
       ],
       "note": null,
       "image": {
-        "slug": "vol3-s01",
-        "shotType": "Character portrait",
-        "depicts": "Beat 1. Mr. Henderson stopped at the end of the block, newspaper still under his arm, aware that nothing hurts.",
+        "slug": "vol3-s01b",
+        "shotType": "Action moment",
+        "depicts": "Beat 1. The six miles, in progress — Mr. Henderson running, newspaper still under his arm because he never meant to go anywhere.",
         "spoilerCheck": "PASS. Final beat is Aunt Carol at the coffee pot saying she would have left thirty years ago. Not depicted; the scene never enters the kitchen.",
-        "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:MR_HENDERSON}}\n{{WARDROBE:HENDERSON_A}}\n{{LOC:MILLBROOK_RESIDENTIAL}}\nAn old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.\nExterior, early morning.\nMedium shot, camera at chest height, shallow depth so the street behind him softens.\nLow warm sunrise light from behind and to the right, rim lighting his white hair, face in soft fill.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "He is in ordinary house clothes and soft tartan slippers, never athletic shoes — the slippers are the point, because he only went out for the paper. His face is astonished and delighted rather than confused. Both feet are off the ground.",
+        "prompt": "{{STYLE}}\n{{CHAR:MR_HENDERSON}}\n{{WARDROBE:HENDERSON_A}}\n{{LOC:MILLBROOK_RESIDENTIAL}}\nAn old man running along an empty residential sidewalk at full stride with both feet off the ground, arms working, and a folded newspaper still tucked under one arm because he never meant to go anywhere. He is dressed in ordinary house clothes and soft tartan slippers rather than anything athletic, one slipper half off his heel. His face is the whole point of the image: astonished and delighted at the same time, mouth open. Sleeping single-storey houses with wide flat lawns run away behind him and the street is completely empty of other people and of cars. Exactly one figure in frame.\nExterior, just after sunrise.\nLow three-quarter tracking shot from slightly ahead of him and below, so the stride reads as fast and his face stays clearly visible, moderate depth so the row of houses recedes behind him.\nBright, clean early-morning light. A long warm low sun from behind the camera lights his face and the fronts of the houses directly, throwing long soft shadows, and the overall key is high. A cheerful image, not a wistful one.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "An elderly man stands on an empty sidewalk with a newspaper under his arm, looking down at his own legs, puzzled."
+        "alt": "An elderly man in slippers runs along an empty sidewalk at full stride with a newspaper under his arm, delighted."
       }
     },
     {
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 281,
-      "words": 279,
+      "declaredWords": 122,
+      "words": 120,
       "blocks": [
         {
           "t": "h",
@@ -151,7 +151,27 @@
         {
           "t": "p",
           "v": "She was not crying. She had been crying. Her eyes were the way eyes get after."
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol3-s02",
+        "shotType": "Character portrait",
+        "depicts": "Beat 4. Cassie on the couch in the Pit, one hearing aid still behind her ear and the other in her open hand.",
+        "spoilerCheck": "PASS. Final beat is her line about not knowing how to make her brain stop hearing. Not depicted; she is not speaking and her mouth is closed.",
+        "hardConstraints": null,
+        "prompt": "{{STYLE}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nA small fifteen year old sitting far back on a sagging couch, shoulders drawn in, one hearing aid visible behind her left ear and the second one lying in her open upturned palm. Eyes red rimmed and dry, mouth closed. One adult-sized hand rests on her back at the very edge of frame, the owner cropped out entirely.\nInterior, mid morning.\nClose shot, camera slightly above eye level looking gently down, shallow depth.\nDiffuse high window light from the left, the couch and floor falling into shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A small girl sits drawn in on a couch with one hearing aid behind her ear and the other lying in her open palm."
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 159,
+      "words": 159,
+      "blocks": [
         {
           "t": "p",
           "v": "Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did."
@@ -175,20 +195,20 @@
       ],
       "note": null,
       "image": {
-        "slug": "vol3-s02",
-        "shotType": "Character portrait",
-        "depicts": "Beat 4. Cassie on the couch in the Pit, one hearing aid still behind her ear and the other in her open hand.",
-        "spoilerCheck": "PASS. Final beat is her line about not knowing how to make her brain stop hearing. Not depicted; she is not speaking and her mouth is closed.",
-        "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nA small fifteen year old sitting far back on a sagging couch, shoulders drawn in, one hearing aid visible behind her left ear and the second one lying in her open upturned palm. Eyes red rimmed and dry, mouth closed. One adult-sized hand rests on her back at the very edge of frame, the owner cropped out entirely.\nInterior, mid morning.\nClose shot, camera slightly above eye level looking gently down, shallow depth.\nDiffuse high window light from the left, the couch and floor falling into shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "slug": "vol3-s02b",
+        "shotType": "Atmospheric or subjective (portrait)",
+        "depicts": "Beat 3. What Cassie is hearing while she lists it — the wasp in the wall, the freezer compressor, the phone buzzing on silent in Lena’s pocket.",
+        "spoilerCheck": "HOLD ONE THING. The rings must read as SOUND and nothing else. They must not read as a signal, a transmission or a network, must have no source and no direction, and nothing in the walls may be visible. That the patches live on a frequency, and that something is in the wiring, are both later reveals.",
+        "hardConstraints": "The rings are thin, soft-edged, translucent and colourless, like ripples on water seen from above, and they clearly pass through solid objects. They are never beams, never rays, never coloured and never bright. No source glows. No machinery, wiring or device is visible anywhere in the frame. The room is lit as ordinary warm daylight.",
+        "prompt": "{{STYLE}}\n{{CHAR:CASSIE}}\n{{WARDROBE:CASSIE_A}}\n{{LOC:WAREHOUSE_PIT}}\nA fifteen-year-old girl sitting upright on a worn couch, filling the near half of the frame, seen slightly from the side. One hearing aid sits behind her left ear and the other lies in her open palm on her knee. She is not crying but has been, and her eyes are wide and fixed on nothing in particular, her shoulders slightly raised as though braced. Her expression is overwhelmed rather than frightened. Behind and around her the room is drawn normally, except that faint pale concentric rings spread outward through it from several separate ordinary places at once, overlapping each other where they cross: from a small point inside the wall behind her, from a chest freezer far off through the doorway, from a coat pocket on a chair nearby, from somewhere beyond the far wall. Exactly one figure in frame.\nInterior, mid-morning.\nMedium close portrait from just off her eyeline, camera at seated eye level, shallow enough depth that she is crisp and the ringed room behind her is soft.\nBright and warm and completely ordinary. Generous daylight from high windows so her face and the whole room read at full colour, with no dramatic shadow and no coloured light. The rings are the only unusual element and they are pale and low-contrast against a normally lit room.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A small girl sits drawn in on a couch with one hearing aid behind her ear and the other lying in her open palm."
+        "alt": "A girl sits on a couch holding a hearing aid in her open palm, while faint pale rings spread through the room behind her."
       }
     },
     {
-      "n": 3,
+      "n": 4,
       "kind": "spread",
-      "pages": "7 to 8",
+      "pages": "9 to 10",
       "declaredWords": 276,
       "words": 273,
       "blocks": [
@@ -278,9 +298,9 @@
       }
     },
     {
-      "n": 4,
+      "n": 5,
       "kind": "spread",
-      "pages": "9 to 10",
+      "pages": "11 to 12",
       "declaredWords": 226,
       "words": 222,
       "blocks": [
@@ -366,9 +386,9 @@
       }
     },
     {
-      "n": 5,
+      "n": 6,
       "kind": "spread",
-      "pages": "11 to 12",
+      "pages": "13 to 14",
       "declaredWords": 277,
       "words": 273,
       "blocks": [
@@ -466,9 +486,9 @@
       }
     },
     {
-      "n": 6,
+      "n": 7,
       "kind": "spread",
-      "pages": "13 to 14",
+      "pages": "15 to 16",
       "declaredWords": 206,
       "words": 206,
       "blocks": [
@@ -526,9 +546,9 @@
       }
     },
     {
-      "n": 7,
+      "n": 8,
       "kind": "spread",
-      "pages": "15 to 16",
+      "pages": "17 to 18",
       "declaredWords": 248,
       "words": 243,
       "blocks": [
@@ -594,9 +614,9 @@
       }
     },
     {
-      "n": 8,
+      "n": 9,
       "kind": "spread",
-      "pages": "17 to 18",
+      "pages": "19 to 20",
       "declaredWords": 169,
       "words": 169,
       "blocks": [

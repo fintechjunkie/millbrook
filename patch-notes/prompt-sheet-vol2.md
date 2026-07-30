@@ -1,6 +1,6 @@
 # The Patch Notes, Volume 2: image prompt sheet
 
-Part Two: The Bookstore That Was Always There · 9 images · generated from the specs, do not hand-edit
+Part Two: The Bookstore That Was Always There · 10 images · generated from the specs, do not hand-edit
 
 Work through this one prompt at a time. Each entry gives the prompt as a single
 copyable block, then the exact filename to save the result as. The filename is
@@ -151,7 +151,78 @@ Alt text, already written, do not regenerate: A woman in her sixties in a green 
 
 ---
 
-### [ ] vol2-s06 — spread 6
+### [ ] vol2-s04b — spread 5
+
+Shot type: Object or detail (group)
+Depicts: Beat 6. The arc of patches on Owen's anomaly tracker with the new Maple and Fourth dot on it, and the two groups seeing the pattern together for the first time.
+Spoiler check: HOLD ONE THING. The final beat is Pip naming the frequency filter, which is not depicted — no screen text is legible and she is not speaking in frame. The arc itself is safe, since Owen’s map and its arc are already established in Volume 1 spread 8. But the empty ground at the centre of the arc must stay unlabelled and unrecognisable and must NOT read as a school or a fenced lot, because that is the Volume 3 spread 4 reveal.
+Named figures: Lena, Vex, Pip, Owen (4 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-lena-canonical.png` — Lena
+- `char-vex-canonical.png` — Vex
+- `char-pip-canonical.png` — Pip
+- `char-owen-canonical.png` — Owen
+- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side.
+- Vex’s mint-green hair is in TWO messy buns, one high on each side of her head, each tied with a small red tie, never a single bun.
+- The streets on the monitor read as a rectangular grid of straight lines, because Millbrook is a flat town on a grid, and never as a radial spider-web.
+CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
+CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
+Wardrobe, unchanged for this scene: black leather jacket with silver zippers and a small red shoulder patch, worn open over a plain dark top, a studded choker, olive-green cargo trousers with visible patches and deep turn-ups, a silver chain looping from the belt at the hip, green socks and black high-top boots with pale toe caps. Mint-green buns tied with red
+CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
+CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
+Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
+Four figures gathered at a bank of three monitors, every one of them looking at the middle screen. On that screen is a town map drawn as pure geometry with absolutely no text, labels, numerals or signage anywhere in it: a pale rectangular grid of straight thin streets on a dark field, a scatter of about a dozen small warm glowing dots, and those dots falling along a wide circular arc that is almost but not quite closed, with one clear gap in it and an empty unmarked rectangle of plain ground at the centre of the circle. One dot is noticeably brighter than the others. Owen is seated at the keyboard, turned half toward the screen, mouth open mid-objection, one hand still on the keys. Pip stands closest to the glass, very upright and unnaturally still, head level, one hand raised as though about to point at the arc. Lena leans in over Owen’s shoulder from behind. Vex stands a little apart with her arms folded and her chin up. All four faces clearly visible and clearly lit. Exactly four figures in frame.
+Interior, mid-morning.
+Medium group shot from slightly off to one side so that the screen and all four faces are visible at once, camera at standing eye level, the arc on the monitor large enough to read as a shape.
+Bright and legible. Generous warm fill from the warehouse windows and the overhead work lights so that faces, skin and clothing all read at full colour, with the monitor adding a cool rim of glow on the nearest faces only. This is not a dark room and not a screen-lit room.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol2-s04b.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: Four teenagers gathered at a bank of monitors, all looking at a map on the middle screen where a ring of glowing dots almost closes into a circle.
+
+---
+
+### [ ] vol2-s06 — spread 7
 
 Shot type: Character portrait
 Depicts: Beat 1. Milo sitting down on the couch beside Lena, leaving a careful gap.
@@ -209,7 +280,7 @@ Alt text, already written, do not regenerate: Two teenagers sit at opposite ends
 
 ---
 
-### [ ] vol2-s07 — spread 7
+### [ ] vol2-s07 — spread 8
 
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.
@@ -278,7 +349,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 
 **Rendering note.** The tell is stillness, not hardware. Every prompt involving her body should specify a posture that is a shade too even, too level or too symmetrical. Never render her mid-blink and never give her an asymmetric slouch.
 
-### [ ] vol2-s05 — spread 5
+### [ ] vol2-s05 — spread 6
 
 Shot type: Action moment
 Depicts: Beat 1. Owen turning slowly in his chair to look at Pip, who has just read his config file from across the room.
@@ -515,7 +586,7 @@ Alt text, already written, do not regenerate: A corner bookshop with a navy awni
 
 ---
 
-### [ ] vol2-s08 — spread 8
+### [ ] vol2-s08 — spread 9
 
 Shot type: Object or detail
 Depicts: Beat 2. The bin of devices that all died on the same night, with the transistor radio on top.

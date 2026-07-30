@@ -1,6 +1,6 @@
 # The Patch Notes, Volume 4: image prompt sheet
 
-Part Four: The Press Conference · 10 images · generated from the specs, do not hand-edit
+Part Four: The Press Conference · 11 images · generated from the specs, do not hand-edit
 
 Work through this one prompt at a time. Each entry gives the prompt as a single
 copyable block, then the exact filename to save the result as. The filename is
@@ -149,6 +149,67 @@ Aspect ratio: 3:2
 Save as: **`vol4-s03.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: Two teenage girls sit side by side on a kerb outside a brick building, talking, one slouched and one sitting unnaturally straight, while a child on a bicycle rides past in the distance.
+
+---
+
+### [ ] vol4-s07b — spread 8
+
+Shot type: Character portrait
+Depicts: Beat 4. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
+Spoiler check: PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.
+Named figures: Lena, Pig (2 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-lena-canonical.png` — Lena
+- `char-pig-canonical.png` — Pig
+- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side.
+- The phone screen shows no text, no interface and no image.
+CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
+Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
+CHARACTER: Pig. Use the attached canonical reference image "char-pig-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A plump pink pig built from layered paper in a soft dusty rose, with a large round darker-rose snout carrying two clear nostrils, small floppy triangular ears lined a deeper pink, round white eyes with black pupils set wide and a thin dark brow above each, a short curled tail wound into a tight spiral, and four stubby dark brown hooves. He is broad and low, roughly the size of a large dog, and his default expression is placid and faintly pleased.
+SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+A girl sitting cross-legged on a worn couch late at night, talking directly into a phone that is propped up against a coffee mug on a low table in front of her. She leans slightly forward, caught mid-sentence, one hand open in front of her, and her expression is set and certain rather than nervous or performing. Her clothes are visibly creased and slept in. A small pot-bellied pig is asleep against her hip, completely relaxed, one ear flopped. The phone screen throws the main light up onto her face from below. Behind her the rest of the warehouse falls away into soft shadow with a few small equipment lights in it. Exactly one person and one animal in frame.
+Interior, late night.
+Medium shot from just behind and beside the phone, so the viewer sits roughly where her audience does, camera at seated eye level.
+Low-key but never murky. The phone is the key light and it is bright enough that her features and the colour of her clothing read fully, with a warm secondary source keeping the couch, the pig and the near wall clearly visible. A dark mood and a readable image at the same time.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`vol4-s07b.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A girl sits cross-legged on a couch at night talking to a phone propped against a mug, a small pig asleep beside her.
 
 ---
 
@@ -345,7 +406,7 @@ Canonical reference: `char-cardigan-canonical.png` · approved: no
 
 **Rendering note.** Never render her as sinister. The mismatched button is the only thing in the frame that is wrong, and it should be legible without being pointed at.
 
-### [ ] vol4-s08 — spread 8
+### [ ] vol4-s08 — spread 9
 
 Shot type: Character portrait
 Depicts: Beat 7. The woman in the green cardigan behind her counter at three in the morning, listening to the phone that has no buttons and no cord.
@@ -564,7 +625,7 @@ Alt text, already written, do not regenerate: Dented energy drink cans pushed ti
 
 ---
 
-### [ ] vol4-s09 — spread 9
+### [ ] vol4-s09 — spread 10
 
 Shot type: Atmospheric or empty
 Depicts: The counter after the lights go off. Setting and object only.

@@ -9,11 +9,19 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 4 | Object 1 | Action 1 | Atmospheric 1
+Establishing 2 | Character portrait 3 | Object 1 | Action 2 | Atmospheric 2
 
-Sequence: establishing, portrait, portrait, action, establishing, portrait, portrait,
-atmospheric, object. The adjacent pairs are 1 with 2 and 5 with 6, both pairs, and the rule
-forbids three. Verified.
+Sequence: establishing, action, portrait, atmospheric, action, establishing, portrait,
+portrait, atmospheric, object. The only adjacent pair left is 6 with 7, and the rule forbids
+three. Verified.
+
+**Ten images now, not nine, and two entries changed type.** Spread 2 was split after "her eyes
+were the way eyes get after" — 311 and 269 pixels — so the new spread 3 carries Cassie’s
+monologue and the subjective plate that goes with it. Spread 1 also changed from a portrait to
+an action shot when the running plate replaced the one of him standing still.
+
+Both changes improve the sequence rather than straining it: portraits drop from four to three,
+and the old adjacent portrait pair at 1 and 2 is broken by the new action shot at 1.
 
 **Two images reframed character-forward, on the same instruction as Volume 2.** Volume 3 had
 Mr Henderson appearing in one image across the whole arc while carrying the volume's title
@@ -115,10 +123,12 @@ Aunt Carol stirred her coffee. “Honey. If I knew, I’d have left thirty years
 
 ### Image page (right)
 
-Slug: vol3-s01
-Shot type: Character portrait
-Depicts: Beat 1. Mr. Henderson stopped at the end of the block, newspaper still under his arm, aware that nothing hurts.
+Slug: vol3-s01b
+Shot type: Action moment
+Depicts: Beat 1. The six miles, in progress — Mr. Henderson running, newspaper still under his arm because he never meant to go anywhere.
 Spoiler check: PASS. Final beat is Aunt Carol at the coffee pot saying she would have left thirty years ago. Not depicted; the scene never enters the kitchen.
+
+Hard constraints: He is in ordinary house clothes and soft tartan slippers, never athletic shoes — the slippers are the point, because he only went out for the paper. His face is astonished and delighted rather than confused. Both feet are off the ground.
 
 Prompt:
 
@@ -127,21 +137,34 @@ Prompt:
 {{CHAR:MR_HENDERSON}}
 {{WARDROBE:HENDERSON_A}}
 {{LOC:MILLBROOK_RESIDENTIAL}}
-An old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.
-Exterior, early morning.
-Medium shot, camera at chest height, shallow depth so the street behind him softens.
-Low warm sunrise light from behind and to the right, rim lighting his white hair, face in soft fill.
+An old man running along an empty residential sidewalk at full stride with both feet off the ground, arms working, and a folded newspaper still tucked under one arm because he never meant to go anywhere. He is dressed in ordinary house clothes and soft tartan slippers rather than anything athletic, one slipper half off his heel. His face is the whole point of the image: astonished and delighted at the same time, mouth open. Sleeping single-storey houses with wide flat lawns run away behind him and the street is completely empty of other people and of cars. Exactly one figure in frame.
+Exterior, just after sunrise.
+Low three-quarter tracking shot from slightly ahead of him and below, so the stride reads as fast and his face stays clearly visible, moderate depth so the row of houses recedes behind him.
+Bright, clean early-morning light. A long warm low sun from behind the camera lights his face and the fronts of the houses directly, throwing long soft shadows, and the overall key is high. A cheerful image, not a wistful one.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: An elderly man stands on an empty sidewalk with a newspaper under his arm, looking down at his own legs, puzzled.
+Alt text: An elderly man in slippers runs along an empty sidewalk at full stride with a newspaper under his arm, delighted.
+
+**Retired 2026-07-29: the earlier plate for this page.** It was `vol3-s01.png`, a portrait of
+him stopped at the end of the block looking down at his own legs, puzzled — the quieter half of
+the same paragraph. Both depict beats on this page, so this was a choice and not a fix: the run
+is the title beat, it is the only plate in the arc with real motion in it, and it carries joy
+where the other carried confusion. The file is still in `public/images/` and its prompt body was:
+
+```
+An old man stopped in the middle of an empty sidewalk with a rolled newspaper under one arm, looking down at his own legs with an expression of plain confusion rather than joy.
+Exterior, early morning.
+Medium shot, camera at chest height, shallow depth so the street behind him softens.
+Low warm sunrise light from behind and to the right, rim lighting his white hair, face in soft fill.
+```
 
 ---
 
 ## Spread 2
 
-Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 281
+Pages 5 to 6 | Part Three: Mr. Henderson's Knee | Words 122
 
 ### Text page (left), verbatim
 
@@ -162,16 +185,6 @@ Vex called Lena at nine fifteen. Vex did not call people. Vex texted, or Vex sho
 Cassie was sitting on the couch in the Pit when Lena got there. She was small, brown-haired, fifteen, with a hearing aid behind her left ear that was, as of last night, the only hearing aid she had ever needed and the only hearing aid that still worked. The other one was in her pocket. She had taken it out and the world had stayed loud.
 
 She was not crying. She had been crying. Her eyes were the way eyes get after.
-
-Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did.
-
-“Tell her,” Vex said softly.
-
-“I woke up,” Cassie said. “And I could hear my mom in the kitchen, and the dog two doors down, and a guy yelling at his dog four blocks away, and the freezer compressor at the corner store, and the bus on Crescent. All at the same time. I can hear all of it right now. Your shoes have a squeak in them. The left one. There’s a wasp in the wall above that vent. The thing in your jacket pocket is buzzing on silent.”
-
-Lena pulled her phone out of her jacket pocket. It was buzzing on silent.
-
-“I can’t turn it off,” Cassie said. “The other hearing aid was making it worse. I took it out and it didn’t help. I don’t know how to make my brain stop hearing.”
 
 ### Image page (right)
 
@@ -201,7 +214,55 @@ Alt text: A small girl sits drawn in on a couch with one hearing aid behind her 
 
 ## Spread 3
 
-Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 276
+Pages 7 to 8 | Part Three: Mr. Henderson's Knee | Words 159
+
+### Text page (left), verbatim
+
+Vex sat next to her, and Vex’s hand was on Cassie’s back, which was a thing Lena had not known Vex did.
+
+“Tell her,” Vex said softly.
+
+“I woke up,” Cassie said. “And I could hear my mom in the kitchen, and the dog two doors down, and a guy yelling at his dog four blocks away, and the freezer compressor at the corner store, and the bus on Crescent. All at the same time. I can hear all of it right now. Your shoes have a squeak in them. The left one. There’s a wasp in the wall above that vent. The thing in your jacket pocket is buzzing on silent.”
+
+Lena pulled her phone out of her jacket pocket. It was buzzing on silent.
+
+“I can’t turn it off,” Cassie said. “The other hearing aid was making it worse. I took it out and it didn’t help. I don’t know how to make my brain stop hearing.”
+
+### Image page (right)
+
+Slug: vol3-s02b
+Shot type: Atmospheric or subjective (portrait)
+Depicts: Beat 3. What Cassie is hearing while she lists it — the wasp in the wall, the freezer compressor, the phone buzzing on silent in Lena’s pocket.
+Spoiler check: HOLD ONE THING. The rings must read as SOUND and nothing else. They must not read as a signal, a transmission or a network, must have no source and no direction, and nothing in the walls may be visible. That the patches live on a frequency, and that something is in the wiring, are both later reveals.
+
+Hard constraints: The rings are thin, soft-edged, translucent and colourless, like ripples on water seen from above, and they clearly pass through solid objects. They are never beams, never rays, never coloured and never bright. No source glows. No machinery, wiring or device is visible anywhere in the frame. The room is lit as ordinary warm daylight.
+
+**Why this plate exists.** It is the only subjective image in the book, and the only one that
+draws something not physically in the room. It dramatises the volume’s central idea rather
+than describing it, which no other plate here does.
+
+Prompt:
+
+```
+{{STYLE}}
+{{CHAR:CASSIE}}
+{{WARDROBE:CASSIE_A}}
+{{LOC:WAREHOUSE_PIT}}
+A fifteen-year-old girl sitting upright on a worn couch, filling the near half of the frame, seen slightly from the side. One hearing aid sits behind her left ear and the other lies in her open palm on her knee. She is not crying but has been, and her eyes are wide and fixed on nothing in particular, her shoulders slightly raised as though braced. Her expression is overwhelmed rather than frightened. Behind and around her the room is drawn normally, except that faint pale concentric rings spread outward through it from several separate ordinary places at once, overlapping each other where they cross: from a small point inside the wall behind her, from a chest freezer far off through the doorway, from a coat pocket on a chair nearby, from somewhere beyond the far wall. Exactly one figure in frame.
+Interior, mid-morning.
+Medium close portrait from just off her eyeline, camera at seated eye level, shallow enough depth that she is crisp and the ringed room behind her is soft.
+Bright and warm and completely ordinary. Generous daylight from high windows so her face and the whole room read at full colour, with no dramatic shadow and no coloured light. The rings are the only unusual element and they are pale and low-contrast against a normally lit room.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A girl sits on a couch holding a hearing aid in her open palm, while faint pale rings spread through the room behind her.
+
+---
+
+## Spread 4
+
+Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 276
 
 ### Text page (left), verbatim
 
@@ -269,9 +330,9 @@ Alt text: A girl kneels in front of a seated girl and rests two fingertips light
 
 ---
 
-## Spread 4
+## Spread 5
 
-Pages 9 to 10 | Part Three: Mr. Henderson's Knee | Words 226
+Pages 11 to 12 | Part Three: Mr. Henderson's Knee | Words 226
 
 ### Text page (left), verbatim
 
@@ -333,9 +394,9 @@ Alt text: An abandoned school behind a chain link fence with boarded windows and
 
 ---
 
-## Spread 5
+## Spread 6
 
-Pages 11 to 12 | Part Three: Mr. Henderson's Knee | Words 277
+Pages 13 to 14 | Part Three: Mr. Henderson's Knee | Words 277
 
 ### Text page (left), verbatim
 
@@ -405,9 +466,9 @@ Alt text: A short girl with mint-green hair in two buns stands in a cluttered ro
 
 ---
 
-## Spread 6
+## Spread 7
 
-Pages 13 to 14 | Part Three: Mr. Henderson's Knee | Words 206
+Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 206
 
 ### Text page (left), verbatim
 
@@ -471,9 +532,9 @@ Alt text: An elderly man on a porch swing holds his steady hands up in front of 
 
 ---
 
-## Spread 7
+## Spread 8
 
-Pages 15 to 16 | Part Three: Mr. Henderson's Knee | Words 248
+Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 248
 
 ### Text page (left), verbatim
 
@@ -576,9 +637,9 @@ Alt text: A wide warehouse interior after midnight with six teenagers asleep on 
 
 ---
 
-## Spread 8
+## Spread 9
 
-Pages 17 to 18 | Part Three: Mr. Henderson's Knee | Words 169
+Pages 19 to 20 | Part Three: Mr. Henderson's Knee | Words 169
 
 Short page, deliberate. Volume closer. The final beats are Monke crossing the floor and Cassie unclenching in her sleep, and they want air around them rather than company on the page.
 
