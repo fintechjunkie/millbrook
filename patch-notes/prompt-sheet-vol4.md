@@ -355,6 +355,61 @@ Alt text, already written, do not regenerate: A tired but delighted teenage boy 
 
 ---
 
+## MONKE
+
+Canonical reference: `char-monke-canonical.png` · approved: no
+
+### [ ] vol4-s09b — spread 10
+
+Shot type: Action moment
+Depicts: Beat 4. Monke at the locked drawer in the dark with one small finger on it, after the lights have gone off and the woman has left.
+Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
+Named figures: Monke (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-monke-canonical.png` — Monke
+- `loc-hollow-pine-int.png` — location, hollow pine int
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A small monkey built from shaggy layered charcoal-black paper, with a warm tan face patch, tan muzzle, tan inner ears, tan hands and tan feet, a spiky tuft standing up on the crown, very large round white eyes with small black pupils set wide apart, slender limbs, and a long tail that curls into a loose spiral at the tip.
+SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
+The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
+A small monkey crouched on the floorboards at the base of a wooden shop counter in the dark, one small hand raised with a single finger resting against the brass keyhole of a locked drawer. He is entirely still and his attention is complete. His posture is not playful and not frightened; it is careful, the way someone checks whether a thing is warm. His tail curls behind him on the boards. The shop beyond is closed for the night and empty of people: bookshelves in shadow, an armchair, a patterned rug, a table lamp switched off. No lettering is legible on any book spine. Exactly one figure in frame and no people anywhere.
+Interior, three in the morning, lights off.
+Low shot from floor level a little to one side, close enough that the finger and the keyhole are both clearly readable, the counter running away into the frame.
+Dark but never illegible. A single cool source from off frame rakes across the counter face and picks out the monkey, the keyhole and his hand; the room behind falls away into soft shadow while its shelves and furniture stay just discernible. He and the lock are the brightest things in the picture.
+```
+
+Save as: **`vol4-s09b.png`** · aspect null
+
+Alt text, already written, do not regenerate: A small monkey crouches in the dark at the foot of a shop counter with one finger touching the keyhole of a locked drawer.
+
+---
+
 ## MAYOR DALTON
 
 Canonical reference: `char-dalton-canonical.png` · approved: no
@@ -648,54 +703,5 @@ Aspect ratio: 3:2
 Save as: **`vol4-s07.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: Dented energy drink cans pushed tightly to one side of a desk to make room for a small closed laptop.
-
----
-
-### [ ] vol4-s09 — spread 10
-
-Shot type: Atmospheric or empty
-Depicts: The counter after the lights go off. Setting and object only.
-Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
-
-**Attach these reference images before generating:**
-- `loc-hollow-pine-int.png` — location, hollow pine int
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-hollow-pine-int.png" for this location so it stays the same place between spreads.
-The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it.
-The shop counter in the dark after closing, one shallow drawer shut tight with a small brass keyhole in the front, a cordless handset absent from its place. No glow of any kind. No figures and no animal in frame.
-Interior, three in the morning.
-Close shot at counter height, slight angle across the drawer front, shallow depth on the keyhole.
-One narrow shaft of streetlight through the shopfront falling across the drawer, everything else in deep shadow.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`vol4-s09.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store.
 
 ---

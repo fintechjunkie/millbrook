@@ -9,7 +9,13 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 6 | Object 1 | Action 2 | Atmospheric 1
+Establishing 2 | Character portrait 6 | Object 1 | Action 2 | Atmospheric 0
+
+**Atmospheric drops to zero, and that fixes an arithmetic error rather than creating one.**
+The declared tally has said "Action 2" for some time while only one action plate existed, so
+it summed to one more than the volume actually held. Re-pointing the closing plate from the
+empty counter to Monke at the drawer makes it a genuine action shot, which brings the count
+to a real 2 and the tally back into agreement with the eleven images.
 
 No three consecutive spreads share a shot type. Verified after the reframes below.
 
@@ -777,12 +783,29 @@ Then he climbed back up to the shelf and waited for morning.
 
 ### Image page (right)
 
-Slug: vol4-s09
-Shot type: Atmospheric or empty
-Depicts: The counter after the lights go off. Setting and object only.
+Slug: vol4-s09b
+Shot type: Action moment
+Depicts: Beat 4. Monke at the locked drawer in the dark with one small finger on it, after the lights have gone off and the woman has left.
 Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
 
 Prompt:
+
+```
+{{STYLE}}
+{{CHAR:MONKE}}
+{{LOC:HOLLOW_PINE_INT}}
+A small monkey crouched on the floorboards at the base of a wooden shop counter in the dark, one small hand raised with a single finger resting against the brass keyhole of a locked drawer. He is entirely still and his attention is complete. His posture is not playful and not frightened; it is careful, the way someone checks whether a thing is warm. His tail curls behind him on the boards. The shop beyond is closed for the night and empty of people: bookshelves in shadow, an armchair, a patterned rug, a table lamp switched off. No lettering is legible on any book spine. Exactly one figure in frame and no people anywhere.
+Interior, three in the morning, lights off.
+Low shot from floor level a little to one side, close enough that the finger and the keyhole are both clearly readable, the counter running away into the frame.
+Dark but never illegible. A single cool source from off frame rakes across the counter face and picks out the monkey, the keyhole and his hand; the room behind falls away into soft shadow while its shelves and furniture stay just discernible. He and the lock are the brightest things in the picture.
+```
+
+Alt text: A small monkey crouches in the dark at the foot of a shop counter with one finger touching the keyhole of a locked drawer.
+
+**Retired 2026-07-29: the earlier plate for this page.** It was `vol4-s09.png`, the counter
+after the lights went off with nobody in it. Replaced because this is the last image of the
+whole arc and it was spending that position on an empty room, when the page it sits on is
+Monke deciding something. The file is still in `public/images/` and its prompt body was:
 
 ```
 {{STYLE}}
@@ -794,5 +817,3 @@ One narrow shaft of streetlight through the shopfront falling across the drawer,
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
-
-Alt text: A shop counter drawer shut tight with a small brass keyhole, lit by a single narrow shaft of streetlight in a dark store.
