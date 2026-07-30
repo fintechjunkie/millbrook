@@ -168,6 +168,30 @@ body {
 .mb-chrome { transition: opacity 260ms cubic-bezier(0.22, 0.61, 0.36, 1); }
 .mb-chrome[data-hidden='true'] { opacity: 0; pointer-events: none; }
 
+/* **An always-visible scrollbar on the prose column was tried here and REMOVED. Do not
+   put it back without reading this.**
+
+   The reasoning for it was sound. A reader on a short laptop found that a few pages needed
+   scrolling and could not see how, and the reason the one standard signal was missing is
+   that macOS draws overlay scrollbars only while scrolling — so the affordance was absent
+   on exactly the machines that needed it. Declaring `::-webkit-scrollbar` with a width opts
+   an element out of overlay scrollbars and gets a classic, always-drawn one.
+
+   It cannot be used, because a classic scrollbar occupies 10px of LAYOUT width, and that
+   width feeds back into the measurement that decides whether to show it. Gating it on
+   "this page overflows" therefore builds a latch: showing the bar narrows the column,
+   which makes the page overflow more, which keeps the bar. Measured on Volume 1 at
+   1280x720 — spread 1 read 105% and became 109%, spread 4 read 98% and became 102%, and a
+   page at 93% held an affordance it had no business having while a page at 106% had none.
+   Ungating it is worse: every one of the 38 pages loses 10px of measure on macOS, which
+   pushes the pages sitting at 99% over their column. A fix for five pages that breaks a
+   dozen.
+
+   Same family as the wrapper that collapsed the spread from 1148px to 423px: a value
+   derived from a box that the value itself resizes. The affordances that shipped instead —
+   the foot fade, the More control, and vertical keys that scroll before they turn — are all
+   overlays or behaviour, and none of them touches layout. Keep it that way. */
+
 /* prefers-reduced-motion: replace the curl with a short crossfade.
    The global reduce block below zeroes every animation with !important on the
    universal selector; a class selector outranks * on specificity, so the

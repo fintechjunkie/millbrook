@@ -97,6 +97,36 @@ pages. Not worth it for 9px behind a translucent bar that auto-hides.
 
 ---
 
+## The reader on a short laptop
+
+**Below roughly 760px of viewport height a few pages overflow, and they scroll.** Measured at
+1280×720 on a clean load: vol1 spread 1 by 27px, vol1 spread 3 by 10px, vol3 spread 4 by 7px.
+At 1366×768 and above, nothing overflows. It is the same clamp-floor mechanism as the phone —
+type stops shrinking at 12px while the page keeps shrinking — but three pages rather than
+sixteen, so the page stays fixed and only the affordance changes.
+
+Three things say so, and **every one of them is an overlay or a behaviour, never layout**:
+a fade at the foot of the column, a `More ↓` button that scrolls one screenful, and vertical
+keys (Space, PageDown, ArrowDown) that scroll while anything is unread and turn the page once
+it is not. Left and right arrows stay pure page turns.
+
+- **Do not add an always-visible scrollbar.** It is the obvious fix, macOS overlay scrollbars
+  are genuinely why the reader could not see the affordance, and it cannot be used: a classic
+  scrollbar takes 10px of layout width, which feeds back into the overflow measurement that
+  decides whether to show it. The full reasoning and the numbers are in `globals.css` beside
+  where it was removed.
+- **Do not key page CONTENT on the scroll state** for the same reason. Showing the terminal
+  mark because a page scrolls made the page taller, which made it scroll: spread 4 went 98%
+  to 102% and a page at 93% held an affordance it had not earned. `hasRoom` is safe to key on
+  only because it excludes the mark from its own measurement.
+- **The at-the-end tolerance is proportional, not fixed.** A flat 24px is bigger than a small
+  overflow, so vol3 spread 4's 7px page was called finished before it started and showed
+  nothing while clipping a third of a line. `scrollEdges` in `SpreadPage.js` is the single
+  definition; `FlipBook` imports it rather than restating it, because the keys and the button
+  disagreeing about whether a page has more text is the exact bug being fixed.
+
+---
+
 ## Hard-won rules
 
 **Never take a text file apart and reassemble it to change a few characters.** Splitting
@@ -121,6 +151,18 @@ is the known case; two more cost real time on the mobile work.
   growing from 51px to 86px, which put the last page 19px under it. Never let a correctness
   fix depend only on an observer: key the measurement off React state that changes for the
   same reason, and keep the observer as belt and braces.
+- **`scroll` events are not delivered either**, including from a programmatic `scrollTop`
+  assignment, and `scrollBy({behavior: 'smooth'})` never advances — `scrollTop` stays where
+  it started. To exercise scroll-dependent state here, set `scrollTop` and then dispatch a
+  `resize`, which does fire; a `setTimeout` also fires where `rAF` does not.
+
+**Measure a page on a clean load, never straight after a page turn.** Walking a volume with
+synthesised arrow keys and measuring between turns reports fills that are simply wrong —
+vol3 spread 6 read 102% that way and 98% on a direct load of `?spread=6`, and the same sweep
+disagreed with itself about which pages overflow. A page mounts while the turning sheet is
+still in flight, so anything measured inside about 700ms is measuring a box the reader never
+sees. Sweeps are fine for invariants that do not depend on exact height (chrome overlap,
+document scroll); for fill, load the spread.
 
 **Never colour-key a background out of a character plate.** The canonical sheets are RGB
 with no alpha and a flat sandy ground of `rgb(238,221,197)`. Owen's ivory outfit measures

@@ -4,7 +4,9 @@ import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'r
 import Link from 'next/link';
 import { Crumbs } from './Crumbs';
 import { useTextEditing } from './useTextEditing';
-import { BlankPage, GraphicPage, OpenerSpread, TextPage } from './SpreadPage';
+import {
+  BlankPage, GraphicPage, OpenerSpread, TextPage, scrollEdges, scrollOneScreen,
+} from './SpreadPage';
 import { color, geometry, paper, reader, space, turn as TURN, type } from '@/lib/millbrook/series';
 
 // ============================================================
@@ -611,6 +613,27 @@ export default function FlipBook({ volume, next = null }) {
   );
   const jumpTo = useCallback((idx, half = 0) => dispatch({ type: 'jump', idx, half }), []);
 
+  /**
+   * Scroll the live prose column one screenful, and report whether it actually moved.
+   *
+   * The return value is the whole contract: the caller turns the page only when this says
+   * there was nothing left to read. Queried from the DOM rather than held in state, the
+   * same way FillMeter reads it — the page that is on screen is the authority, and there
+   * is exactly one text flow mounted at a time outside a turn.
+   *
+   * The edge test comes from SpreadPage's own `scrollEdges` rather than being restated
+   * here, because a second copy of that arithmetic is a second chance to disagree with the
+   * "More" button about whether a page has anything left in it.
+   */
+  const scrollProse = useCallback((dir) => {
+    const el = document.querySelector('[data-mb-kind="text"] [data-mb-flow]');
+    const { scrollable, atEnd, atTop } = scrollEdges(el);
+    if (!scrollable) return false;
+    if (dir === 'fwd' ? atEnd : atTop) return false;
+    scrollOneScreen(el, dir);
+    return true;
+  }, []);
+
   // The timer, not the animation event, is what ends a turn. animationend also
   // dispatches animEnd and the reducer makes that idempotent, so whichever
   // arrives first wins and neither is required.
@@ -643,15 +666,27 @@ export default function FlipBook({ volume, next = null }) {
         if (edit.available) { e.preventDefault(); edit.toggle(); }
         return;
       }
-      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { e.preventDefault(); go('fwd'); }
-      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go('back'); }
+      // Vertical keys read the PAGE, horizontal keys turn it. On a page too tall for a
+      // short laptop, Space used to turn straight past the last two lines — the reader
+      // pressed the most natural key for "carry on" and silently lost text. So the
+      // vertical set scrolls while there is anything left and turns once there is not,
+      // which is what Space does in every other reader. Left and right stay pure page
+      // turns, so there is always a key that means only "next page".
+      if (e.key === 'PageDown' || e.key === ' ' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (!scrollProse('fwd')) go('fwd');
+      } else if (e.key === 'PageUp' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (!scrollProse('back')) go('back');
+      } else if (e.key === 'ArrowRight') { e.preventDefault(); go('fwd'); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); go('back'); }
       else if (e.key === 'Home') { e.preventDefault(); jumpTo(0); }
       else if (e.key === 'End') { e.preventDefault(); jumpTo(leaves.length - 1); }
       else if (e.key === 'c' || e.key === 'C') { setContents(true); }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [go, jumpTo, leaves.length, contents, edit]);
+  }, [go, jumpTo, leaves.length, contents, edit, scrollProse]);
 
   // Bottom chrome only. The top bar never hides, so the way out is always on
   // screen.

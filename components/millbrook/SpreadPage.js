@@ -178,6 +178,53 @@ function useHasRoomForTerminal(ref, threshold = 2) {
  * Listens to scroll AND resizes the content, because the answer changes when the page
  * turns (a new page may not overflow at all) and when the phone rotates.
  */
+/**
+ * One screenful, in whichever direction, on the element given.
+ *
+ * Shared by the "More" button and the reader's vertical keys so the two cannot disagree
+ * about how far a screenful is. 0.82 rather than 1.0 leaves a couple of lines of overlap,
+ * which is what stops a reader losing their place across the jump.
+ *
+ * Smooth unless the reader has asked for less motion, read at call time rather than
+ * captured, so a preference changed mid-session is honoured.
+ */
+export function scrollOneScreen(el, dir = 'fwd') {
+  if (!el) return;
+  const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  el.scrollBy({
+    top: (dir === 'fwd' ? 1 : -1) * Math.max(120, el.clientHeight * 0.82),
+    behavior: reduce ? 'auto' : 'smooth',
+  });
+}
+
+/**
+ * How far a scroll container can still go, and whether it is there yet.
+ *
+ * Exported so the "More" control and the reader's vertical keys share one definition. They
+ * MUST agree: if the keys think a page has more to read while the button thinks it does
+ * not, the reader gets a page with unread text and nothing on screen admitting it.
+ *
+ * **The tolerance is proportional, and a fixed one was a bug.** Some tolerance is required,
+ * because fractional scroll offsets mean a container scrolled fully to the bottom routinely
+ * reports a pixel short of it, which would strand the fade over the last line forever. But
+ * 24px flat is larger than a small overflow: Volume 3 spread 4 overflows by 7px at
+ * 1280x720, so `remaining <= 24` called it finished before it had started and the page
+ * showed no affordance at all while clipping a third of a line. Scaling with the slack
+ * keeps the guard where it is needed — a page with 800px to go on a phone — without letting
+ * it swallow a page whose whole overflow is smaller than the guard.
+ */
+export function scrollEdges(el) {
+  if (!el) return { slack: 0, scrollable: false, atEnd: true, atTop: true };
+  const slack = el.scrollHeight - el.clientHeight;
+  const remaining = slack - el.scrollTop;
+  return {
+    slack,
+    scrollable: slack > 4,
+    atEnd: remaining <= Math.max(2, slack * 0.04),
+    atTop: el.scrollTop <= 4,
+  };
+}
+
 function useScrollEdges(ref) {
   const [state, setState] = useState({ scrollable: false, atEnd: true });
 
@@ -186,24 +233,44 @@ function useScrollEdges(ref) {
     if (!el) return undefined;
 
     const measure = () => {
-      const slack = el.scrollHeight - el.clientHeight;
-      setState({
-        scrollable: slack > 4,
-        // 24px of tolerance rather than exact equality. Fractional scroll offsets mean
-        // a container scrolled to the bottom frequently reports a pixel short of it,
-        // which would leave the fade showing over the last line forever.
-        atEnd: slack - el.scrollTop <= 24,
-      });
+      const { scrollable, atEnd } = scrollEdges(el);
+      setState({ scrollable, atEnd });
     };
 
     measure();
     el.addEventListener('scroll', measure, { passive: true });
+
+    // Measured again on a timer, and this is a correctness fix rather than caution.
+    //
+    // The first measurement runs before the browser has necessarily finished with the
+    // column: a web-safe serif can still be swapped, and the terminal mark is added by a
+    // sibling effect that has not run yet. Both change the answer. A ResizeObserver is the
+    // obvious way to catch that and cannot be relied on alone, because its callbacks are
+    // delivered with the rendering steps and those do not run while the page is not
+    // painting — the same reason requestAnimationFrame is banned in this file's
+    // neighbourhood. A timeout fires regardless, so this is the path that always works.
+    // 700ms is past the end of a page turn, and that one matters most. A page mounts while
+    // the turning sheet is still in flight, so the first two measurements can both read a
+    // box that is not yet the box the reader will get — and with scroll and observer
+    // callbacks both unreliable, a wrong answer taken then was never corrected. It latched
+    // a scroll affordance onto a page that fits.
+    const timers = [setTimeout(measure, 0), setTimeout(measure, 300), setTimeout(measure, 700)];
     const ro = new ResizeObserver(measure);
     ro.observe(el);
     // The content grows independently of the box in edit mode, where a paragraph the
     // author is typing into is what changes size.
     [...el.children].forEach((c) => ro.observe(c));
-    return () => { el.removeEventListener('scroll', measure); ro.disconnect(); };
+    // A window resize changes the column and, on a short laptop, whether the page
+    // overflows at all — which is the case this whole hook exists for.
+    window.addEventListener('resize', measure);
+    if (document.fonts?.ready) document.fonts.ready.then(measure).catch(() => {});
+
+    return () => {
+      el.removeEventListener('scroll', measure);
+      window.removeEventListener('resize', measure);
+      timers.forEach(clearTimeout);
+      ro.disconnect();
+    };
   }, [ref]);
 
   return state;
@@ -376,6 +443,13 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
             the height is free, and the reader arrives at the foot of the page by
             scrolling — which is precisely where a mark saying "this page is finished, now
             swipe" does its most useful work. */}
+        {/* Deliberately NOT keyed on `scrollable`, though showing the mark at the foot of a
+            scrolled page is tempting and was briefly done. The mark is 1.6em of CONTENT, so
+            "show it because the page scrolls" makes the page taller, which makes it scroll —
+            a latch. It measured Volume 1 spread 4 at 1280x720 from 98% to 102% and left
+            spread 2 holding a scroll affordance at 93% fill. `hasRoom` is safe to key on
+            because it explicitly excludes the mark from its own measurement; `compact` is
+            safe because it is constant. */}
         <Terminal
           suppressed={
             (!compact && !hasRoom) || spread.blocks[spread.blocks.length - 1]?.t === 'i'
@@ -405,6 +479,50 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
           background: `linear-gradient(to top, ${paper.stock} 12%, rgba(251,248,242,0) 100%)`,
         }}
       />
+
+      {/* A fade says "there is more". This says "here is how to get it", and pressing it
+          does the thing — which is the difference between a hint and an affordance. The
+          reader who found the reported problem worked the scrolling out eventually and
+          called it intuitive afterwards, so what was missing was only the first step.
+
+          A real <button>, which matters for two reasons beyond semantics: the book's
+          click-to-turn handler already skips anything inside a button, so pressing this
+          cannot turn the page out from under the sentence it is offering; and it puts the
+          same action on the keyboard for a reader who never touches a mouse.
+
+          Sits clear of the scrollbar rather than over it. */}
+      {scrollable && !atEnd && (
+        <button
+          type="button"
+          className="focus-ring"
+          onClick={() => scrollOneScreen(flowRef.current, 'fwd')}
+          style={{
+            position: 'absolute',
+            bottom: compact ? 2 : 0,
+            right: 16,
+            display: 'flex',
+            alignItems: 'center',
+            gap: space(1),
+            ...type.utility,
+            fontSize: compact ? 9 : 8.5,
+            letterSpacing: '0.14em',
+            color: color.inkSoft,
+            background: paper.stock,
+            borderWidth: 1,
+            borderStyle: 'solid',
+            borderColor: paper.rule,
+            borderRadius: 2,
+            // Compact is padded to a thumb rather than to the text. 19px tall was the
+            // right size for the label and well under the 44px a touch target needs.
+            padding: compact ? `${space(3)} ${space(4)}` : `${space(1)} ${space(2)}`,
+            cursor: 'pointer',
+            // Above the fade it sits on, or the gradient washes it out.
+            zIndex: 1,
+          }}
+        >
+          More <span aria-hidden="true">↓</span>
+        </button>
+      )}
       </div>
 
       <Folio n={pageNumbers[0]} align="left" />
