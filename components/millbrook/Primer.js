@@ -72,8 +72,15 @@ export function Primer() {
         />
 
         <div className="mb-primer-grid">
-          {PRIMER.entries.map((e) => (
-            <div key={e.term}>
+          {PRIMER.entries.map((e, n) => (
+            <div key={e.term} className="mb-primer-entry">
+              {/* A numeral rather than a bullet or an icon. Three unnumbered headings in three
+                  columns read as a list whose order does not matter; these are ordered — the
+                  Event causes the patches and the patches are what nobody notices — and
+                  numbering them says so without a sentence spent on it. */}
+              <div className="mb-primer-num" aria-hidden="true">
+                {String(n + 1).padStart(2, '0')}
+              </div>
               <h3
                 style={{
                   fontFamily: type.body.fontFamily,

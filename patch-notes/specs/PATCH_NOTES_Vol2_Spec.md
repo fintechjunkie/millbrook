@@ -705,7 +705,7 @@ Shot type: Character portrait or close (two-shot)
 Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.
 Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.
 
-Hard constraints: Aunt Carol is not defeated and must not be drawn sad. The register is
+Hard constraints: Aunt Carol is TALL, upright and lean, matching her canonical sheet: no softness at the jaw, no heaviness through the body. She is not a stout or matronly older woman. Her rust-red headscarf is tied as a band across the front of the hairline with its knotted ends trailing behind her left ear, and the single long brass drop earring hangs from that ear. She is not defeated and must not be drawn sad. The register is
 a woman carrying something heavy competently and for a long time. Her silver-white hair
 is swept up with a rust-red headscarf knotted in it. The receipt is small and its
 printing is not legible.

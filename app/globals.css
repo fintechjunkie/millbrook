@@ -792,12 +792,73 @@ body {
 /* The reader's primer. Three entries side by side on a desktop so the whole frame is
    takeable in one look, stacked below that because three columns of 14px prose on a
    phone is four words a line. */
+/* Three entries, separated rather than merely spaced.
+
+   The first version set them in three columns with a gap and nothing else, and it read as
+   unfinished: three headings floating on one field with no indication where one ended and the
+   next began. Two things fix it, and both are cheap.
+
+   A rule BETWEEN the columns, carried on each entry's left edge. The reason this works here and
+   often does not is that grid items stretch to the row height by default, so all three rules are
+   the same length and end level with each other. Had the entries been flex children sizing to
+   their own content, the rules would have ended raggedly at three different heights, which looks
+   worse than no rule at all.
+
+   And a numeral on each, which does a second job: it says the three are ORDERED. The Event
+   causes the patches, and the patches are the thing nobody notices. Three unnumbered headings
+   side by side imply the order does not matter. */
 .mb-primer-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 26px;
-  margin-top: 26px;
+  margin-top: 4px;
 }
+
+.mb-primer-entry {
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid var(--paper-rule);
+}
+.mb-primer-entry:first-child {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+}
+
+/* The numeral. Small, accent, and letterspaced so it reads as a mark rather than a quantity. */
+.mb-primer-num {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
 @media (min-width: 820px) {
-  .mb-primer-grid { grid-template-columns: repeat(3, 1fr); gap: 30px; }
+  .mb-primer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 56px;
+    margin-top: 30px;
+  }
+  /* Stacked: rules go above. Side by side: rules go between.
+
+     The rule is a pseudo-element sitting in the middle of the gap, NOT a border-left on the
+     entry. A border would live inside the item's own box, so the two entries carrying one would
+     have 56px less text width than the first, and three columns of visibly different measure is
+     exactly the unfinished look this is meant to fix. In the gap, all three columns stay 1fr. */
+  .mb-primer-entry {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    position: relative;
+  }
+  .mb-primer-entry + .mb-primer-entry::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -28px;
+    width: 1px;
+    background: var(--paper-rule);
+  }
 }

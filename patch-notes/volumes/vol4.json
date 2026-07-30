@@ -107,7 +107,7 @@
         "shotType": "Character portrait",
         "depicts": "Beat 3. Lena and her aunt watching the announcement from two different rooms.",
         "spoilerCheck": "PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.",
-        "hardConstraints": null,
+        "hardConstraints": "Aunt Carol is TALL, upright and lean, matching her canonical sheet: no softness at the jaw, no heaviness through the body. She is not a stout or matronly older woman. Her rust-red headscarf is tied as a band across the front of the hairline with its knotted ends trailing behind her left ear, and the single long brass drop earring hangs from that ear.",
         "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_D}}\n{{CHAR:AUNT_CAROL}}\n{{WARDROBE:CAROL_A}}\n{{LOC:AUNT_CAROL_LIVING_ROOM}}\nA girl sitting forward on the edge of a couch watching an unseen television off frame, and behind her in the kitchen doorway an older woman standing with a plate and a dish towel, drying a plate that is already dry, watching the same unseen screen. Neither looks at the other. Exactly two named figures in frame and no others. Television not in shot.\nInterior, late morning.\nMedium-wide two shot from beside the television, camera at seated height, moderate depth so both planes read.\nHard flickering screen light from off frame left as the key, warm kitchen light behind the older woman, the room between them dim.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A girl sits forward on a couch watching an unseen television while an older woman dries a plate in the kitchen doorway behind her."

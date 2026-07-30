@@ -343,7 +343,7 @@ He remains deliberately absent from the final image of Volume 4 even though he i
 **Rendering note.** He is livestock, not a mascot: he is never doing anything clever, never reacting to plot, and never given an expression that implies he understands. He sleeps, stands and leans on people. Monke carries all of the project's animal ambiguity and the pig carries none of it, which is what keeps Monke unsettling.
 
 ### {{CHAR:AUNT_CAROL}}
-**Immutable:** A woman in her late fifties, tall, upright and lean rather than soft, fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
+**Immutable:** A woman in her late fifties, tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly, and the canonical sheet is the authority on her build — fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no
 **Rendering note:** She is not defeated and should not be drawn sad. The register is a woman carrying something heavy competently and for a long time.
 **Rewritten twice on 2026-07-28. This version is from the canonical sheet and is the
@@ -447,7 +447,7 @@ times and never explains it, correctly: every character was there, so none of th
 explain it to another. That works inside the book and strands a reader outside it, which is why
 a primer now sits on the landing page. This is the version it is built on.
 
-**Twelve years ago, on an ordinary Thursday afternoon in October, every clock in Millbrook lost
+**Six months ago, on an ordinary Thursday afternoon in October, every clock in Millbrook lost
 the same ninety seconds.** The elementary school on the east side was emptied that afternoon and
 never reopened. A chain link fence went up around its six acres within a week and has never come
 down. Nobody was hurt, no building fell, and nobody in Millbrook remembers being frightened.
@@ -459,6 +459,24 @@ pothole was gone."* The Event and every patch since share one signature, which m
 was the first patch and the largest, and the reason the town can be patched at all. That
 connection was sitting in the draft unremarked; naming the Event this way makes it retroactive
 rather than invented.
+
+**Revised to six months on 2026-07-29, on author instruction, and the shorter timeline is the
+better one for a reason that was already in the text.** Volume 2 spread 8: Vex keeps a bin of
+dead devices because *"they’d all stopped working at the same time, on the same night, six
+months ago. The night the patches had started."* At twelve years the Event and the start of the
+patches were separate events needing separate explanations. At six months they are the same
+night, which is what the Event was always supposed to be — the thing that made the town
+patchable.
+
+The primer deliberately does NOT state that connection. Both dates now read "six months", and
+a reader who notices has found something rather than been told it. Owen and Vex work it out
+inside the book, which is where the discovery belongs.
+
+Two knock-on details worth knowing rather than fixing. October plus six months puts the present
+day in April, which nothing in the prose contradicts. And the school being emptied mid-term
+rather than between years is more disturbing, not less. The delivered school plate shows dead
+grass and a sagging fence; dead grass reads fine after a winter, and the sag is a small stretch
+at six months that is not worth a regeneration.
 
 It also explains, without any new machinery, three things the prose already relies on: why the
 school is fenced and central, why residents cannot hold a change in mind long enough to question

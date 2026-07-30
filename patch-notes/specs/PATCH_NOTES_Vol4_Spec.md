@@ -145,6 +145,8 @@ Shot type: Character portrait
 Depicts: Beat 3. Lena and her aunt watching the announcement from two different rooms.
 Spoiler check: PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.
 
+Hard constraints: Aunt Carol is TALL, upright and lean, matching her canonical sheet: no softness at the jaw, no heaviness through the body. She is not a stout or matronly older woman. Her rust-red headscarf is tied as a band across the front of the hairline with its knotted ends trailing behind her left ear, and the single long brass drop earring hangs from that ear.
+
 Prompt:
 
 ```
