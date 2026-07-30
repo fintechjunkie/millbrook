@@ -1,5 +1,16 @@
 # Prose style, as revised by the author
 
+> **This is the derivation record, not the instruction. To write a new chapter, read
+> `WRITING_GUIDE.md` instead.**
+>
+> What this file is for: it shows how the register was *found* — by diffing the author’s own
+> edits against the original draft — along with what was deliberately rejected and what the
+> revision cost the book. That reasoning is worth keeping, because the rules are much easier
+> to apply correctly when you can see which ones were arrived at painfully.
+>
+> All four volumes are already in this register. Nothing here needs applying again, and this
+> file should not be updated for new work — WRITING_GUIDE.md is the live document.
+
 Derived from the author's own edits to Volume 1 spreads 1 to 6 on 2026-07-29, by diffing them
 against the original draft. These are descriptive rather than invented: every rule below is a
 pattern the author applied repeatedly and consistently.

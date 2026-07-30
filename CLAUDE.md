@@ -92,9 +92,15 @@ delivered artwork was right and the roster text was wrong.
 
 ## Prose style
 
-`patch-notes/specs/PROSE_STYLE.md` is the register the author revised to on 2026-07-29 and it
-was derived from their own edits rather than invented. **All four volumes are now in it**, so
-new prose should be written to it rather than converted later.
+**Writing a new chapter: read `patch-notes/specs/WRITING_GUIDE.md`.** It is the single
+forward-looking document — register, the six characters and how each sounds, the measured page
+budget, canon, spoiler discipline and a pre-flight checklist. Every number in it is measured
+off the delivered arc.
+
+`patch-notes/specs/PROSE_STYLE.md` is the *derivation record* behind that register: how it was
+found by diffing the author’s own edits, what was rejected, and what the revision cost. It is
+history rather than instruction. All four volumes are already in the register, so do not write
+from PROSE_STYLE and do not update it for new work.
 
 The short version: fewer fragments, joined into sentences; adjacent sentences get an explicit
 connective; definite articles restored; simpler diction; implied things said out loud; warmer
