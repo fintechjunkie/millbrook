@@ -408,7 +408,14 @@ console.log(
 );
 
 // Expected from section 7 of the roster.
-const EXPECT = { textPages: 33, images: 37 };
+//
+// Declared rather than derived, on purpose, and for the same reason the per-page word counts
+// are: a number that recomputes itself from the specs can never catch a spread being lost or
+// duplicated by a bad edit. Update it deliberately when a spread is deliberately added.
+//
+// 34/38 as of 2026-07-29, after vol2 spread 4 was split. Three more splits are planned in
+// patch-notes/PLAN-new-spreads.md, so this is expected to reach 37/41.
+const EXPECT = { textPages: 34, images: 38 };
 for (const [k, v] of Object.entries(EXPECT)) {
   if (totals[k] !== v) allProblems.push(`totals.${k}: expected ${v}, got ${totals[k]}`);
 }

@@ -9,11 +9,25 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 2 | Character portrait 3 | Object 1 | Action 3 | Atmospheric 0
+Establishing 2 | Character portrait 3 | Object 2 | Action 3 | Atmospheric 0
 
-Sequence: establishing, action, establishing, portrait, action, action, portrait,
-portrait, object. The only adjacencies are 4 with 5 and 6 with 7, both pairs, and
-the rule forbids three. Verified.
+Sequence: establishing, action, establishing, portrait, action, object, action,
+portrait, portrait, object. The only adjacency left is 8 with 9, a pair, and the rule
+forbids three. Verified.
+
+**Ten images now, not nine.** Spread 4 was the fullest text page in the arc at 99.7 per
+cent of its column, with no room for a single added sentence, so it was split in half at
+"I heard," Owen said, still not turning — 378 and 379 pixels of content, which is as
+even a cut as exists anywhere in these four volumes. The new spread 5 carries Milo's
+entrance through to Pip naming the frequency filter.
+
+Note the sequence got BETTER rather than worse. The new object plate lands between the
+two action plates that were previously adjacent, so inserting it removed an adjacency
+instead of creating one.
+
+Object goes back to 2, which is where it was before the character-forward rebuild pulled
+it down to 1. That is not a reversal of the instruction: the new plate has four faces in
+it and is classed as an object only because the thing being looked at is the subject.
 
 **Rebuilt to be character-forward on author instruction.** Five of the nine images
 had no named figure in them, while Vex appeared in four spreads of this volume with
@@ -342,7 +356,7 @@ Alt text: A woman in her sixties in a green cardigan smiles from behind a wooden
 
 ## Spread 4
 
-Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 290
+Pages 9 to 10 | Part Two: The Bookstore That Was Always There | Words 136
 
 ### Text page (left), verbatim
 
@@ -367,28 +381,6 @@ Felix popped up from the couch like a meerkat. “Hi. Wait. Hi.” He looked at 
 “No. No. Come in. Please come in. Owen, look.”
 
 “I heard,” Owen said, still not turning.
-
-Milo came out from the back, saw the three of them, and stopped walking.
-
-“Oh,” he said.
-
-“Oh,” Lena agreed. “Hi. We need to talk. Maple and Fourth is a bookstore now.”
-
-“It’s a vape store.”
-
-“It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers a vanilla cake and not what was there before.”
-
-Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago.
-
-“You were there when it happened,” Owen said. He sounded almost personally offended.
-
-“We were close.”
-
-“How close.”
-
-“Two blocks.”
-
-Pip had walked over to Owen’s screens and she was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”
 
 ### Image page (right)
 
@@ -430,7 +422,80 @@ Alt text: A grinning teenage boy in a teal denim jacket pops up from behind a co
 
 ## Spread 5
 
-Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 218
+Pages 11 to 12 | Part Two: The Bookstore That Was Always There | Words 154
+
+### Text page (left), verbatim
+
+Milo came out from the back, saw the three of them, and stopped walking.
+
+“Oh,” he said.
+
+“Oh,” Lena agreed. “Hi. We need to talk. Maple and Fourth is a bookstore now.”
+
+“It’s a vape store.”
+
+“It was. As of this morning, it has been a bookstore for six years and the woman who owns it remembers a vanilla cake and not what was there before.”
+
+Milo looked at Owen. Owen had already pulled up his anomaly tracker. The dot at Maple and Fourth was glowing, a new entry time stamped four minutes ago.
+
+“You were there when it happened,” Owen said. He sounded almost personally offended.
+
+“We were close.”
+
+“How close.”
+
+“Two blocks.”
+
+Pip had walked over to Owen’s screens and she was looking at all three of them at once. Her eyes were doing the smooth-tracking thing. After a few seconds she said, very calmly, “Your anomaly tracker has a frequency filter.”
+
+### Image page (right)
+
+Slug: vol2-s04b
+Shot type: Object or detail (group)
+Depicts: Beat 6. The arc of patches on Owen's anomaly tracker with the new Maple and Fourth dot on it, and the two groups seeing the pattern together for the first time.
+Spoiler check: HOLD ONE THING. The final beat is Pip naming the frequency filter, which is not depicted — no screen text is legible and she is not speaking in frame. The arc itself is safe, since Owen’s map and its arc are already established in Volume 1 spread 8. But the empty ground at the centre of the arc must stay unlabelled and unrecognisable and must NOT read as a school or a fenced lot, because that is the Volume 3 spread 4 reveal.
+
+Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side. Vex’s mint-green hair is in TWO messy buns, one high on each side of her head, each tied with a small red tie, never a single bun. The streets on the monitor read as a rectangular grid of straight lines, because Millbrook is a flat town on a grid, and never as a radial spider-web.
+
+**Deviation, deliberate: four named characters.** Part C4 sets a hard ceiling of two,
+and vol1-s06 already overrides it for three on the same grounds. Here the beat IS the
+group — the two teams becoming one around a screen — so a two-hander cannot carry it,
+and no other plate in Volume 2 goes above two figures. The mitigation is the same one:
+all four canonical references are attached, which is the mechanism C4 was written
+without.
+
+**Why this plate exists.** The arc of dots is referenced in all four volumes and had
+never been drawn. It also gives the book a visual language it otherwise lacks, a
+diagram, while staying character-forward because four faces are reading it.
+
+Prompt:
+
+```
+{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_B}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
+{{LOC:WAREHOUSE_TERMINALS}}
+Four figures gathered at a bank of three monitors, every one of them looking at the middle screen. On that screen is a town map drawn as pure geometry with absolutely no text, labels, numerals or signage anywhere in it: a pale rectangular grid of straight thin streets on a dark field, a scatter of about a dozen small warm glowing dots, and those dots falling along a wide circular arc that is almost but not quite closed, with one clear gap in it and an empty unmarked rectangle of plain ground at the centre of the circle. One dot is noticeably brighter than the others. Owen is seated at the keyboard, turned half toward the screen, mouth open mid-objection, one hand still on the keys. Pip stands closest to the glass, very upright and unnaturally still, head level, one hand raised as though about to point at the arc. Lena leans in over Owen’s shoulder from behind. Vex stands a little apart with her arms folded and her chin up. All four faces clearly visible and clearly lit. Exactly four figures in frame.
+Interior, mid-morning.
+Medium group shot from slightly off to one side so that the screen and all four faces are visible at once, camera at standing eye level, the arc on the monitor large enough to read as a shape.
+Bright and legible. Generous warm fill from the warehouse windows and the overhead work lights so that faces, skin and clothing all read at full colour, with the monitor adding a cool rim of glow on the nearest faces only. This is not a dark room and not a screen-lit room.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Four teenagers gathered at a bank of monitors, all looking at a map on the middle screen where a ring of glowing dots almost closes into a circle.
+
+---
+
+## Spread 6
+
+Pages 13 to 14 | Part Two: The Bookstore That Was Always There | Words 218
 
 ### Text page (left), verbatim
 
@@ -509,9 +574,9 @@ Alt text: A bald young man turns in his desk chair to look over his shoulder at 
 
 ---
 
-## Spread 6
+## Spread 7
 
-Pages 13 to 14 | Part Two: The Bookstore That Was Always There | Words 233
+Pages 15 to 16 | Part Two: The Bookstore That Was Always There | Words 233
 
 ### Text page (left), verbatim
 
@@ -591,9 +656,9 @@ Alt text: Two teenagers sit at opposite ends of a sagging couch with a gap betwe
 
 ---
 
-## Spread 7
+## Spread 8
 
-Pages 15 to 16 | Part Two: The Bookstore That Was Always There | Words 227
+Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 227
 
 ### Text page (left), verbatim
 
@@ -671,9 +736,9 @@ Alt text: A teenage girl pushes a small slip of paper across a kitchen table to 
 
 ---
 
-## Spread 8
+## Spread 9
 
-Pages 17 to 18 | Part Two: The Bookstore That Was Always There | Words 230
+Pages 19 to 20 | Part Two: The Bookstore That Was Always There | Words 230
 
 ### Text page (left), verbatim
 

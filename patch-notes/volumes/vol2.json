@@ -321,8 +321,8 @@
       "n": 4,
       "kind": "spread",
       "pages": "9 to 10",
-      "declaredWords": 290,
-      "words": 286,
+      "declaredWords": 136,
+      "words": 132,
       "blocks": [
         {
           "t": "h",
@@ -367,7 +367,27 @@
         {
           "t": "p",
           "v": "“I heard,” Owen said, still not turning."
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol2-s04",
+        "shotType": "Action moment",
+        "depicts": "Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.",
+        "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.",
+        "hardConstraints": "Felix has a short upright black afro, round glasses with thin red frames, and a faded teal denim jacket over a black t-shirt with a strap harness of small tools across the chest. The green gecko is present. Owen has a fully bald head and strong dark eyebrows. Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.",
+        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nA converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.\nInterior, mid morning.\nMedium-wide shot from the back door side of the room, camera at couch height so Felix rises into the upper frame and Owen's turned back anchors the foreground, moderate depth holding both.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor, cold monitor spill on Owen's shoulders.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A grinning teenage boy in a teal denim jacket pops up from behind a couch with a small green gecko on his shoulder, while another boy at a desk keeps his back turned."
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 154,
+      "words": 154,
+      "blocks": [
         {
           "t": "p",
           "v": "Milo came out from the back, saw the three of them, and stopped walking."
@@ -415,20 +435,20 @@
       ],
       "note": null,
       "image": {
-        "slug": "vol2-s04",
-        "shotType": "Action moment",
-        "depicts": "Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.",
-        "spoilerCheck": "PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.",
-        "hardConstraints": "Felix has a short upright black afro, round glasses with thin red frames, and a faded teal denim jacket over a black t-shirt with a strap harness of small tools across the chest. The green gecko is present. Owen has a fully bald head and strong dark eyebrows. Owen's back is to the room and his face is not visible, so this frame carries no risk to his likeness.",
-        "prompt": "{{STYLE}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:WAREHOUSE_PIT}}\nA converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.\nInterior, mid morning.\nMedium-wide shot from the back door side of the room, camera at couch height so Felix rises into the upper frame and Owen's turned back anchors the foreground, moderate depth holding both.\nHigh window light in dusty beams from the left, warm bounce off the concrete floor, cold monitor spill on Owen's shoulders.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "slug": "vol2-s04b",
+        "shotType": "Object or detail (group)",
+        "depicts": "Beat 6. The arc of patches on Owen's anomaly tracker with the new Maple and Fourth dot on it, and the two groups seeing the pattern together for the first time.",
+        "spoilerCheck": "HOLD ONE THING. The final beat is Pip naming the frequency filter, which is not depicted — no screen text is legible and she is not speaking in frame. The arc itself is safe, since Owen’s map and its arc are already established in Volume 1 spread 8. But the empty ground at the centre of the arc must stay unlabelled and unrecognisable and must NOT read as a school or a fenced lot, because that is the Volume 3 spread 4 reveal.",
+        "hardConstraints": "Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and it is never split into two or tied at the side. Vex’s mint-green hair is in TWO messy buns, one high on each side of her head, each tied with a small red tie, never a single bun. The streets on the monitor read as a rectangular grid of straight lines, because Millbrook is a flat town on a grid, and never as a radial spider-web.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_B}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{LOC:WAREHOUSE_TERMINALS}}\nFour figures gathered at a bank of three monitors, every one of them looking at the middle screen. On that screen is a town map drawn as pure geometry with absolutely no text, labels, numerals or signage anywhere in it: a pale rectangular grid of straight thin streets on a dark field, a scatter of about a dozen small warm glowing dots, and those dots falling along a wide circular arc that is almost but not quite closed, with one clear gap in it and an empty unmarked rectangle of plain ground at the centre of the circle. One dot is noticeably brighter than the others. Owen is seated at the keyboard, turned half toward the screen, mouth open mid-objection, one hand still on the keys. Pip stands closest to the glass, very upright and unnaturally still, head level, one hand raised as though about to point at the arc. Lena leans in over Owen’s shoulder from behind. Vex stands a little apart with her arms folded and her chin up. All four faces clearly visible and clearly lit. Exactly four figures in frame.\nInterior, mid-morning.\nMedium group shot from slightly off to one side so that the screen and all four faces are visible at once, camera at standing eye level, the arc on the monitor large enough to read as a shape.\nBright and legible. Generous warm fill from the warehouse windows and the overhead work lights so that faces, skin and clothing all read at full colour, with the monitor adding a cool rim of glow on the nearest faces only. This is not a dark room and not a screen-lit room.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A grinning teenage boy in a teal denim jacket pops up from behind a couch with a small green gecko on his shoulder, while another boy at a desk keeps his back turned."
+        "alt": "Four teenagers gathered at a bank of monitors, all looking at a map on the middle screen where a ring of glowing dots almost closes into a circle."
       }
     },
     {
-      "n": 5,
+      "n": 6,
       "kind": "spread",
-      "pages": "11 to 12",
+      "pages": "13 to 14",
       "declaredWords": 218,
       "words": 211,
       "blocks": [
@@ -518,9 +538,9 @@
       }
     },
     {
-      "n": 6,
+      "n": 7,
       "kind": "spread",
-      "pages": "13 to 14",
+      "pages": "15 to 16",
       "declaredWords": 233,
       "words": 233,
       "blocks": [
@@ -634,9 +654,9 @@
       }
     },
     {
-      "n": 7,
+      "n": 8,
       "kind": "spread",
-      "pages": "15 to 16",
+      "pages": "17 to 18",
       "declaredWords": 227,
       "words": 223,
       "blocks": [
@@ -726,9 +746,9 @@
       }
     },
     {
-      "n": 8,
+      "n": 9,
       "kind": "spread",
-      "pages": "17 to 18",
+      "pages": "19 to 20",
       "declaredWords": 230,
       "words": 227,
       "blocks": [
