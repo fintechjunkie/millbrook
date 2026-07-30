@@ -413,9 +413,9 @@ console.log(
 // are: a number that recomputes itself from the specs can never catch a spread being lost or
 // duplicated by a bad edit. Update it deliberately when a spread is deliberately added.
 //
-// 36/40 as of 2026-07-29, after splitting vol2 s4, vol4 s7 and vol3 s2. One split remains,
-// the Volume 1 chain re-cut in patch-notes/PLAN-new-spreads.md, taking this to 37/41.
-const EXPECT = { textPages: 36, images: 40 };
+// 38/42 as of 2026-07-29. All four planned splits are in: vol2 s4, vol4 s7, vol3 s2, and the
+// Volume 1 chain re-cut, which added two spreads rather than one.
+const EXPECT = { textPages: 38, images: 42 };
 for (const [k, v] of Object.entries(EXPECT)) {
   if (totals[k] !== v) allProblems.push(`totals.${k}: expected ${v}, got ${totals[k]}`);
 }

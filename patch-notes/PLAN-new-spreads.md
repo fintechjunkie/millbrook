@@ -1,6 +1,16 @@
 # Adding spreads: recommendation, font analysis, and prompts
 
-Written 2026-07-29, after measuring all 33 text pages. Nothing here is executed yet — the
+> **STATUS: all four splits are done, 2026-07-29.** The arc went from 33 text pages to 38 and
+> from 37 plates to 42. Worst page 99.7% -> 94.2%; median 85.9% -> 73.9%; nothing overflows.
+> Volume 1 needed two spreads rather than one, via a chain re-cut across three boundaries.
+>
+> **The font conclusion below still holds, and the reason is worth keeping.** The coefficient
+> is capped by the single worst page, and three pages still sit at 94.2% — vol1 s01, vol1 s03
+> and vol3 s04 — none of which any split touched. So there is still no room to raise 1.95cqh.
+> The +16% already banked from lifting the spread-width cap remains the whole of the
+> readability win.
+
+Written 2026-07-29, after measuring all 33 text pages. The
 re-cut moves page boundaries, which is a spec job that has to be done by hand with each
 image's anchor beat re-validated.
 

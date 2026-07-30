@@ -543,7 +543,7 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:AUNT_CAROL_KITCHEN}}` | A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table. | 1 | not required |
 | `{{LOC:AUNT_CAROL_LIVING_ROOM}}` | A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen. | 1 | not required |
 | `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. | 1 | not required |
-| `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 1 | not required |
+| `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 2 | not required — stand-in: `vol1-s06.png` |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs. | 6 | `loc-square.png` |
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
@@ -725,9 +725,9 @@ No figures and no animals in the master. It is the room, not a scene.
 
 | | Count |
 |---|---|
-| Text spreads | 36 |
+| Text spreads | 38 |
 | Chapter openers | 4 |
-| **Spread images total** | **40** |
+| **Spread images total** | **42** |
 | Canonical character references | 13 |
 | Canonical location references | 8 |
 | **Blocking generations before spread work** | **21** |

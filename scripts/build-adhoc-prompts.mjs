@@ -52,6 +52,44 @@ const { expand, missingRefs } = createExpander({
 
 const ENTRIES = [
   {
+    slug: 'vol1-s06b',
+    insertAfter: 'vol1 spread 6, part two of the park scene',
+    title: 'Felix and the peanut-butter-and-pickle sandwich',
+    shotType: 'Character portrait or close (two-shot)',
+    depicts:
+      'Beat 6. Felix holding out half his sandwich to Lena about four seconds after meeting '
+      + 'her, and Lena declining.',
+    spoiler:
+      'PASS. The final beat of this page is Lena showing them the dark frame off her dashcam '
+      + 'and the three of them reacting. Not depicted: no screen is in frame and the sandwich '
+      + 'is the only thing being held out.',
+    why:
+      'Needed because Volume 1 is the only volume still carrying a page in the high nineties, '
+      + 'and the park scene is the one long enough to split cleanly. The subject picks itself: '
+      + 'the locked style block names "Felix’s sandwich" as one of five signature objects to be '
+      + 'drawn slightly oversized, and across thirty-six pages the sandwich has never once '
+      + 'appeared. It is also the moment Felix introduces himself, and his only other plate in '
+      + 'the arc is Volume 4 holding a gadget. Two named figures, inside the Part C4 ceiling.',
+    hard:
+      'Lena’s hair MUST be gathered into one large uneven ponytail high at the BACK of her head, '
+      + 'reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and '
+      + 'never split into two or tied at the side. The sandwich is drawn slightly oversized, per '
+      + 'the signature-object rule in the style block. Exactly two figures in frame; the other '
+      + 'two boys on the bench are OUT of frame entirely, not blurred in the background.',
+    prompt: `{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_A}}
+{{CHAR:FELIX}}
+{{WARDROBE:FELIX_A}}
+{{LOC:THE_PARK}}
+Two figures beside a park bench, mid-exchange over a sandwich. Felix is seated on the bench leaning forward and twisting toward the viewer's right, one arm fully extended, offering half a thick sandwich held in his bare fingers with the filling clearly visible and slightly squashed. The sandwich is drawn a little larger than life. His face is open, friendly and entirely unembarrassed, eyebrows up, mouth full and still chewing, as though offering food to a stranger four seconds after meeting her is completely normal. Lena stands a pace away, weight back on her heels, one hand half raised in a small polite refusal, her mouth in a flat closed line and her eyebrows slightly drawn, caught between amusement and alarm. Both faces clearly visible. Exactly two figures in frame and no others.
+Exterior, late morning.
+Medium two-shot from just off to one side at standing eye level, framed so the offered sandwich sits at the centre of the composition between them, moderate depth so the fountain and trees read softly behind.
+Bright, flat, cheerful midday daylight, no dramatic shadow, everything legible at full colour.
+{{NEGATIVE}}
+Aspect ratio: 3:2`,
+  },
+  {
     slug: 'vol2-s04b',
     insertAfter: 'vol2 spread 4',
     title: 'Owen’s map',

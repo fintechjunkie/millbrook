@@ -309,9 +309,9 @@
     "THE_PARK": {
       "token": "THE_PARK",
       "block": "A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it.",
-      "uses": 1,
+      "uses": 2,
       "canonicalRef": null,
-      "standInRef": null
+      "standInRef": "vol1-s06.png"
     },
     "TOWN_HALL_SQUARE": {
       "token": "TOWN_HALL_SQUARE",

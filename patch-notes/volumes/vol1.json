@@ -413,8 +413,8 @@
       "n": 6,
       "kind": "spread",
       "pages": "13 to 14",
-      "declaredWords": 307,
-      "words": 304,
+      "declaredWords": 188,
+      "words": 185,
       "blocks": [
         {
           "t": "h",
@@ -459,7 +459,27 @@
         {
           "t": "p",
           "v": "“I know, Owen,” Milo said. “Scary good.”"
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s06",
+        "shotType": "Character portrait or close (group three-shot)",
+        "depicts": "Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.",
+        "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.",
+        "hardConstraints": "Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly present and clearly dark against very pale skin — bald scalp, but never a bare brow. Milo's red-lensed glasses and orange beanie are both present and never removed. Felix wears large round red-framed glasses with clear lenses. Exactly three figures, no fourth. Nothing is being handed to any of them.",
+        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:THE_PARK}}\nThree eighteen year old boys arranged loosely on and around a slatted wooden bench, relaxed and unposed, none of them arranged for the camera. Milo stands at the near end with one forearm resting along the top rail of the bench back, weight on one leg, head turned to watch the fountain. Owen sits at the far end, slumped low with his knees apart, looking down at an oversized phone held in both hands. Felix sits in the middle, leaning forward with his elbows on his knees, mid-bite on a comically oversized sandwich, cheeks full, a small green gecko on his shoulder. All three faces are clearly visible and unobscured. No fourth figure. Nothing is being handed to them and no photograph or screen is being shown to them.\nExterior, midday, in the park.\nMedium-wide three-shot from the far side of the bench, camera at seated eye level and square on so every face reads, the stone fountain running directly behind the bench and the park beyond it, moderate depth so the fountain stays legible while the three faces hold focus.\nHigh midday sun from the front left, faces in clear even light with no face in shadow, the fountain's water catching bright specular highlights behind their heads.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "Three teenage boys on a park bench with a fountain running behind them, one standing and leaning on the bench back, one on his phone, one eating an oversized sandwich."
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 119,
+      "words": 119,
+      "blocks": [
         {
           "t": "p",
           "v": "The third one held out his sandwich. “I’m Felix. You want some? Peanut butter and pickles.”"
@@ -499,22 +519,22 @@
       ],
       "note": null,
       "image": {
-        "slug": "vol1-s06",
-        "shotType": "Character portrait or close (group three-shot)",
-        "depicts": "Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.",
-        "spoilerCheck": "PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.",
-        "hardConstraints": "Owen has a completely bald head AND STRONG DARK EYEBROWS, clearly present and clearly dark against very pale skin — bald scalp, but never a bare brow. Milo's red-lensed glasses and orange beanie are both present and never removed. Felix wears large round red-framed glasses with clear lenses. Exactly three figures, no fourth. Nothing is being handed to any of them.",
-        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\n{{WARDROBE:MILO_A}}\n{{CHAR:OWEN}}\n{{WARDROBE:OWEN_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:THE_PARK}}\nThree eighteen year old boys arranged loosely on and around a slatted wooden bench, relaxed and unposed, none of them arranged for the camera. Milo stands at the near end with one forearm resting along the top rail of the bench back, weight on one leg, head turned to watch the fountain. Owen sits at the far end, slumped low with his knees apart, looking down at an oversized phone held in both hands. Felix sits in the middle, leaning forward with his elbows on his knees, mid-bite on a comically oversized sandwich, cheeks full, a small green gecko on his shoulder. All three faces are clearly visible and unobscured. No fourth figure. Nothing is being handed to them and no photograph or screen is being shown to them.\nExterior, midday, in the park.\nMedium-wide three-shot from the far side of the bench, camera at seated eye level and square on so every face reads, the stone fountain running directly behind the bench and the park beyond it, moderate depth so the fountain stays legible while the three faces hold focus.\nHigh midday sun from the front left, faces in clear even light with no face in shadow, the fountain's water catching bright specular highlights behind their heads.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "slug": "vol1-s06b",
+        "shotType": "Character portrait or close (two-shot)",
+        "depicts": "Beat 1. Felix holding out half his sandwich to Lena about four seconds after meeting her, and Lena declining.",
+        "spoilerCheck": "PASS. The final beat of this page is Lena showing them the dark frame off her dashcam and the three of them reacting. Not depicted; no screen is in frame and the sandwich is the only thing being held out.",
+        "hardConstraints": "Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and never split into two or tied at the side. The sandwich is drawn slightly oversized, per the signature-object rule in the style block. Exactly two figures in frame; Milo and Owen are out of frame entirely rather than blurred behind.",
+        "prompt": "{{STYLE}}\n{{CHAR:LENA}}\n{{WARDROBE:LENA_A}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{LOC:THE_PARK}}\nTwo figures beside a park bench, mid-exchange over a sandwich. Felix is seated on the bench leaning forward and twisting toward the viewer's right, one arm fully extended, offering half a thick sandwich held in his bare fingers with the filling clearly visible and slightly squashed. The sandwich is drawn a little larger than life. His face is open, friendly and entirely unembarrassed, eyebrows up, mouth full and still chewing, as though offering food to a stranger four seconds after meeting her is completely normal. Lena stands a pace away, weight back on her heels, one hand half raised in a small polite refusal, her mouth in a flat closed line and her eyebrows slightly drawn, caught between amusement and alarm. Both faces clearly visible. Exactly two figures in frame and no others.\nExterior, late morning.\nMedium two-shot from just off to one side at standing eye level, framed so the offered sandwich sits at the centre of the composition between them, moderate depth so the fountain and trees read softly behind.\nBright, flat, cheerful midday daylight, no dramatic shadow, everything legible at full colour.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "Three teenage boys on a park bench with a fountain running behind them, one standing and leaning on the bench back, one on his phone, one eating an oversized sandwich."
+        "alt": "A seated boy leans out to offer half a thick sandwich to a girl standing beside the bench, who raises a hand to decline."
       }
     },
     {
-      "n": 7,
+      "n": 8,
       "kind": "spread",
-      "pages": "15 to 16",
-      "declaredWords": 332,
-      "words": 325,
+      "pages": "17 to 18",
+      "declaredWords": 181,
+      "words": 174,
       "blocks": [
         {
           "t": "p",
@@ -559,7 +579,27 @@
         {
           "t": "p",
           "v": "“It’s open.”"
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s07",
+        "shotType": "Object or detail",
+        "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
+        "spoilerCheck": "PASS. Final beat is now the echoed “It’s getting bigger” exchange, moved back from Spread 8 in the 2026-07-29 rebalance. Not depicted; the frame carries no figures and nothing in it refers to the thing that is getting bigger.",
+        "hardConstraints": null,
+        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot."
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 230,
+      "words": 230,
+      "blocks": [
         {
           "t": "p",
           "v": "Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn’t think anything of it."
@@ -591,27 +631,7 @@
         {
           "t": "p",
           "v": "“The changes are getting bigger.”"
-        }
-      ],
-      "note": null,
-      "image": {
-        "slug": "vol1-s07",
-        "shotType": "Object or detail",
-        "depicts": "Beat 3. The dashcam opened up on Vex's counter, SD card pulled and read.",
-        "spoilerCheck": "PASS. Final beat is now the echoed “It’s getting bigger” exchange, moved back from Spread 8 in the 2026-07-29 rebalance. Not depicted; the frame carries no figures and nothing in it refers to the thing that is getting bigger.",
-        "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{LOC:VEX_APARTMENT}}\nA small dashcam disassembled across a cluttered kitchen counter, casing separated, tiny screws gathered in a jar lid, a memory card standing upright in the slot of a battered laptop. No figures present. Laptop screen dark except for a single paused frame of a night street, no interface elements or text.\nInterior, evening.\nClose overhead shot, slight angle, shallow depth on the memory card.\nOne bare bulb from above and the laptop's cold spill from the left.\n{{NEGATIVE}}\nAspect ratio: 3:2",
-        "aspect": "3:2",
-        "alt": "A dashcam taken apart on a cluttered counter beside a laptop, with its memory card standing in the laptop's slot."
-      }
-    },
-    {
-      "n": 8,
-      "kind": "spread",
-      "pages": "17 to 18",
-      "declaredWords": 356,
-      "words": 351,
-      "blocks": [
+        },
         {
           "t": "p",
           "v": "“And nobody’s going to do anything about it.”"
@@ -635,7 +655,27 @@
         {
           "t": "p",
           "v": "“Nope. Boundaries are for suckers.”"
-        },
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "vol1-s08",
+        "shotType": "Character portrait or close (two-shot)",
+        "depicts": "Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.",
+        "spoilerCheck": "PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.",
+        "hardConstraints": null,
+        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:VEX_APARTMENT}}\nTwo girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.\nInterior, late evening.\nMedium two-shot from low down at stool height, angled so Pip's lifted face and Vex's turned face both read, moderate depth so the crowded room stays legible behind them.\nOne bare bulb hanging above and slightly behind Pip, cold spill from the laptop screen low on the left, the corners of the room falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her."
+      }
+    },
+    {
+      "n": 10,
+      "kind": "spread",
+      "pages": "21 to 22",
+      "declaredWords": 277,
+      "words": 272,
+      "blocks": [
         {
           "t": "h",
           "v": "End Of Day One"
@@ -699,14 +739,14 @@
       ],
       "note": null,
       "image": {
-        "slug": "vol1-s08",
-        "shotType": "Character portrait or close (two-shot)",
-        "depicts": "Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.",
-        "spoilerCheck": "PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.",
-        "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:VEX}}\n{{WARDROBE:VEX_A}}\n{{CHAR:PIP}}\n{{WARDROBE:PIP_A}}\n{{LOC:VEX_APARTMENT}}\nTwo girls in a cluttered single-room apartment late at night. Pip sits on a stool made of milk crates and a cushion, both feet flat and level, hands resting symmetrically on her knees, spine straight, chin lifted so her eyes are tilted up at the ceiling as though reading something off it. Her stillness is the point: the pose is a shade too even and too level to be a person relaxing, and her face is calm and unblinking. Vex sits sideways on the floor by the kitchen counter with a battered open laptop beside her, one hand still on its edge, half turned to watch Pip rather than the screen. Both faces are clearly visible. The laptop screen holds a single dark paused frame of a night street, no legible interface. Exactly two figures in frame.\nInterior, late evening.\nMedium two-shot from low down at stool height, angled so Pip's lifted face and Vex's turned face both read, moderate depth so the crowded room stays legible behind them.\nOne bare bulb hanging above and slightly behind Pip, cold spill from the laptop screen low on the left, the corners of the room falling away into dark.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "slug": "vol1-s08b",
+        "shotType": "Atmospheric",
+        "depicts": "The final beat. The streetlight across from Aunt Carol’s house going off for a fraction of a second.",
+        "spoilerCheck": "HOLD ONE THING. It may show that a patch has a visible moment and that the moment looks wrong. It must NOT show a cause, a mechanism, a source, or anything in the walls or wires.",
+        "hardConstraints": "No people, no faces and no figures anywhere in the frame. Never pitch black; the dark area under the failed streetlight stays clearly readable, because the wrongness inside it is the subject.",
+        "prompt": "{{STYLE}}\n{{LOC:CRESCENT_HOUSE_EXT}}\nA quiet suburban street at night seen from across the road, with one streetlight standing dark while the lights further down the street are still lit. In the pool of darkness where its light should be, the scene is subtly but definitely wrong: the shadows of the parked cars fall in a slightly different direction from every other shadow in the frame, the kerb line does not quite continue across it, and the colours inside it sit a shade off true. Everything outside that pool is an ordinary, calm, correctly lit night street. One window in the nearest house is lit. There are no people, no faces and no figures anywhere in the frame.\nExterior, well after midnight.\nWide static shot from across the street at standing eye level, the dark streetlight slightly off centre, with enough depth that the correctly lit street continues away behind it for contrast.\nTwo lighting logics in one frame, and this is the whole image. Outside the dark pool: normal warm sodium streetlight, soft and calm, everything legible. Inside it: cool, flat, directionless light whose shadows disagree with the rest of the picture. Never pitch black anywhere — the wrongness has to be visible, so the dark area stays clearly readable.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her."
+        "alt": "A quiet suburban street at night with one streetlight dark, the shadows inside that patch falling the wrong way."
       }
     }
   ]

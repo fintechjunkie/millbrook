@@ -9,11 +9,29 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Establishing 1 | Character portrait 5 | Object 1 | Action 2 | Atmospheric 0
+Establishing 1 | Character portrait 6 | Object 1 | Action 2 | Atmospheric 1
 
-**Three consecutive portraits at spreads 5, 6 and 8?** No. The sequence is 5
-portrait, 6 portrait, 7 object, 8 portrait, so the run is broken by spread 7 and
-the Part C3 rule against three in a row holds.
+Sequence: establishing, portrait, action, portrait, action, portrait, portrait, portrait,
+object, portrait, atmospheric.
+
+**Eleven images now, and this volume needed a chain re-cut rather than a split.** Volume 1
+was the only one still carrying pages in the high nineties -- five of its eight sat between
+94 and 97.5 per cent -- and it could not be fixed one page at a time, because spread 8 split
+at its own section heading leaves a first half of only 178 pixels. So text flows backwards
+along three boundaries at once: spread 6 splits in two, spread 7 sheds its tail into the page
+after it, and spread 8 splits in two.
+
+**Part C3 is now genuinely strained, and this is the volume where it gives.** Portraits 5, 6
+and 7 are three in a row. The run exists because the new sandwich two-shot lands between the
+bench three-shot and the press-conference portrait, and there is nowhere else it can go --
+it depicts a beat that only occurs there. The mitigation is that all three are different
+shapes: a group three-shot, a two-shot over an object, and a single close portrait. C3 exists
+to stop a volume reading as a row of headshots, and three plates that differ in figure count
+and staging do not do that.
+
+One beat also ends up better placed than it was. The milk-crate-stool plate depicted a moment
+that straddled the old spread 7 and 8 boundary -- Pip sitting down on one page and her eyes
+tilting to the ceiling on the next -- and both halves now sit on the same page.
 
 ## The shot mix no longer satisfies Part C3, deliberately
 
@@ -471,7 +489,7 @@ Alt text: A heavyset man in an ill-fitting suit and red glasses stands behind a 
 
 ## Spread 6
 
-Pages 13 to 14 | Part One: The Pothole | Words 307
+Pages 13 to 14 | Part One: The Pothole | Words 188
 
 ### Text page (left), verbatim
 
@@ -496,24 +514,6 @@ The one in the beanie looked at the one with the phone. The phone came down an i
 The bald guy lowered his phone. “Milo. She’s pretty good at this.”
 
 “I know, Owen,” Milo said. “Scary good.”
-
-The third one held out his sandwich. “I’m Felix. You want some? Peanut butter and pickles.”
-
-“No.”
-
-“Your loss.”
-
-Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it’s serious stuff.”
-
-“Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
-
-Milo and Owen looked at each other again.
-
-“We don’t,” Owen said.
-
-Lena pulled up the thumbnail she’d captured before the camera came off her windshield. Held it out.
-
-Milo looked at it. Owen looked at it. Felix stopped chewing.
 
 ### Image page (right)
 
@@ -567,7 +567,66 @@ Alt text: Three teenage boys on a park bench with a fountain running behind them
 
 ## Spread 7
 
-Pages 15 to 16 | Part One: The Pothole | Words 332
+Pages 15 to 16 | Part One: The Pothole | Words 119
+
+### Text page (left), verbatim
+
+The third one held out his sandwich. “I’m Felix. You want some? Peanut butter and pickles.”
+
+“No.”
+
+“Your loss.”
+
+Milo stood up. He was taller than Lena had thought. “Okay, Lena Marsh. You’re asking the right question. But this isn’t a thing you want to be in the middle of. We think it’s serious stuff.”
+
+“Too late. Someone already stole my dashcam this morning. Short girl, green hair, two buns. Walked off with it. Pretty sure you know her.”
+
+Milo and Owen looked at each other again.
+
+“We don’t,” Owen said.
+
+Lena pulled up the thumbnail she’d captured before the camera came off her windshield. Held it out.
+
+Milo looked at it. Owen looked at it. Felix stopped chewing.
+
+### Image page (right)
+
+Slug: vol1-s06b
+Shot type: Character portrait or close (two-shot)
+Depicts: Beat 1. Felix holding out half his sandwich to Lena about four seconds after meeting her, and Lena declining.
+Spoiler check: PASS. The final beat of this page is Lena showing them the dark frame off her dashcam and the three of them reacting. Not depicted; no screen is in frame and the sandwich is the only thing being held out.
+
+Hard constraints: Lena’s hair is gathered into one large uneven ponytail high at the BACK of her head, reading as a distinct heavy mass behind the crown rather than an evenly spiky halo, and never split into two or tied at the side. The sandwich is drawn slightly oversized, per the signature-object rule in the style block. Exactly two figures in frame; Milo and Owen are out of frame entirely rather than blurred behind.
+
+**Why this plate exists.** The locked style block names "Felix’s sandwich" as one of five
+signature objects to be drawn slightly oversized, and across thirty-six pages the sandwich
+had never once appeared. It is also the moment Felix introduces himself, and his only other
+plate in the arc has him holding a gadget in Volume 4.
+
+Prompt:
+
+```
+{{STYLE}}
+{{CHAR:LENA}}
+{{WARDROBE:LENA_A}}
+{{CHAR:FELIX}}
+{{WARDROBE:FELIX_A}}
+{{LOC:THE_PARK}}
+Two figures beside a park bench, mid-exchange over a sandwich. Felix is seated on the bench leaning forward and twisting toward the viewer's right, one arm fully extended, offering half a thick sandwich held in his bare fingers with the filling clearly visible and slightly squashed. The sandwich is drawn a little larger than life. His face is open, friendly and entirely unembarrassed, eyebrows up, mouth full and still chewing, as though offering food to a stranger four seconds after meeting her is completely normal. Lena stands a pace away, weight back on her heels, one hand half raised in a small polite refusal, her mouth in a flat closed line and her eyebrows slightly drawn, caught between amusement and alarm. Both faces clearly visible. Exactly two figures in frame and no others.
+Exterior, late morning.
+Medium two-shot from just off to one side at standing eye level, framed so the offered sandwich sits at the centre of the composition between them, moderate depth so the fountain and trees read softly behind.
+Bright, flat, cheerful midday daylight, no dramatic shadow, everything legible at full colour.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A seated boy leans out to offer half a thick sandwich to a girl standing beside the bench, who raises a hand to decline.
+
+---
+
+## Spread 8
+
+Pages 17 to 18 | Part One: The Pothole | Words 181
 
 ### Text page (left), verbatim
 
@@ -593,22 +652,6 @@ Three quick knocks followed by two slow ones. She didn’t look up.
 
 “It’s open.”
 
-Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn’t think anything of it.
-
-“When did you hear the noise,” Vex asked.
-
-“Four AM. Twenty-three seconds. It was loud. Any idea what it was?”
-
-“The pothole.”
-
-“What?”
-
-“The pothole on Main is gone. The Mayor’s already taking credit.”
-
-Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still.
-
-“The changes are getting bigger.”
-
 ### Image page (right)
 
 Slug: vol1-s07
@@ -633,11 +676,27 @@ Alt text: A dashcam taken apart on a cluttered counter beside a laptop, with its
 
 ---
 
-## Spread 8
+## Spread 9
 
-Pages 17 to 18 | Part One: The Pothole | Words 356
+Pages 19 to 20 | Part One: The Pothole | Words 230
 
 ### Text page (left), verbatim
+
+Pip let herself in. She looked, at a glance, like a kid in a patched-up engineer jacket with goggles in her hair, and that was as far as the resemblance went. Up close, Pip was a robot. Not a kid with a few mechanical parts. An actual robot. Her skin made it unmistakable, and there was a small steady whir somewhere inside her chest if you stood close enough to hear it. Vex didn’t think anything of it.
+
+“When did you hear the noise,” Vex asked.
+
+“Four AM. Twenty-three seconds. It was loud. Any idea what it was?”
+
+“The pothole.”
+
+“What?”
+
+“The pothole on Main is gone. The Mayor’s already taking credit.”
+
+Pip sat down on a stool made of milk crates and a cushion. Most of Vex’s furniture had been other things first. Pip sat the way she always sat, which was slightly too still.
+
+“The changes are getting bigger.”
 
 “And nobody’s going to do anything about it.”
 
@@ -650,36 +709,6 @@ Vex tapped the laptop. The single dark frame stared back at her. “There’s al
 Pip was quiet for a second, eyes tilted at the ceiling like she was reading something off it. “We should talk about boundaries again.”
 
 “Nope. Boundaries are for suckers.”
-
-### End Of Day One
-
-Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had gone to bed at nine so the house was quiet except for the hum of the refrigerator.
-
-Her phone buzzed with an incoming text from an unknown number.
-
-The message said: “Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at 9am. Bring coffee and DON’T bring those guys.”
-
-Lena read it twice. She texted back. “How did you get my number.”
-
-The reply came four seconds later.
-
-“Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it.”
-
-Across town, Owen was looking at his map again. The arc glowed softly on the middle monitor. He’d added the pothole. The arc was a little more complete now, and the gap in the middle was clearly aiming somewhere.
-
-Monke was on the desk, his face an inch from the glass.
-
-“What are you looking at.”
-
-Monke pointed. Not at the arc, but at the empty space inside it. There was an old elementary school there which had been closed since the Great Event.
-
-“Tomorrow,” Owen said. “Tomorrow we’ll take a look. Now get off my desk!”
-
-Monke did not get off the desk. He sat down on the keyboard, which made the screen do something unhelpful, and he stayed there for the rest of the night.
-
-Outside, somewhere across town, the streetlight across from Aunt Carol’s house went off for a fraction of a second, then on again, and nobody saw it.
-
-*To be continued in Part Two: The Bookstore That Was Always There*
 
 ### Image page (right)
 
@@ -717,3 +746,72 @@ Aspect ratio: 3:2
 ```
 
 Alt text: A girl sits unnaturally still on a milk-crate stool with her chin lifted and eyes turned up at the ceiling, while another girl on the floor beside an open laptop turns to watch her.
+## Spread 10
+
+Pages 21 to 22 | Part One: The Pothole | Words 277
+
+### Text page (left), verbatim
+
+### End Of Day One
+
+Lena lay on the bed in the back room and stared at the ceiling. Aunt Carol had gone to bed at nine so the house was quiet except for the hum of the refrigerator.
+
+Her phone buzzed with an incoming text from an unknown number.
+
+The message said: “Sorry about the dashcam. Meet at the laundromat on Crescent tomorrow at 9am. Bring coffee and DON’T bring those guys.”
+
+Lena read it twice. She texted back. “How did you get my number.”
+
+The reply came four seconds later.
+
+“Your number was on the dashcam manual you left in your glove box. Bring oat milk if you have it.”
+
+Across town, Owen was looking at his map again. The arc glowed softly on the middle monitor. He’d added the pothole. The arc was a little more complete now, and the gap in the middle was clearly aiming somewhere.
+
+Monke was on the desk, his face an inch from the glass.
+
+“What are you looking at.”
+
+Monke pointed. Not at the arc, but at the empty space inside it. There was an old elementary school there which had been closed since the Great Event.
+
+“Tomorrow,” Owen said. “Tomorrow we’ll take a look. Now get off my desk!”
+
+Monke did not get off the desk. He sat down on the keyboard, which made the screen do something unhelpful, and he stayed there for the rest of the night.
+
+Outside, somewhere across town, the streetlight across from Aunt Carol’s house went off for a fraction of a second, then on again, and nobody saw it.
+
+*To be continued in Part Two: The Bookstore That Was Always There*
+
+### Image page (right)
+
+Slug: vol1-s08b
+Shot type: Atmospheric
+Depicts: The final beat. The streetlight across from Aunt Carol’s house going off for a fraction of a second.
+Spoiler check: HOLD ONE THING. It may show that a patch has a visible moment and that the moment looks wrong. It must NOT show a cause, a mechanism, a source, or anything in the walls or wires.
+
+Hard constraints: No people, no faces and no figures anywhere in the frame. Never pitch black; the dark area under the failed streetlight stays clearly readable, because the wrongness inside it is the subject.
+
+**Deviation, deliberate: no named figure.** The standing instruction is character-forward and
+this plate has nobody in it. Across four volumes the reader is told constantly that the town
+changes and is only ever shown the aftermath. This is the single beat where a patch happens on
+the page, and a face would mean a character witnessing it — none does, and making one see it
+would change the beat. It is also the closing image of Volume 1, which is where a volume can
+best afford an atmospheric plate.
+
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:CRESCENT_HOUSE_EXT}}
+A quiet suburban street at night seen from across the road, with one streetlight standing dark while the lights further down the street are still lit. In the pool of darkness where its light should be, the scene is subtly but definitely wrong: the shadows of the parked cars fall in a slightly different direction from every other shadow in the frame, the kerb line does not quite continue across it, and the colours inside it sit a shade off true. Everything outside that pool is an ordinary, calm, correctly lit night street. One window in the nearest house is lit. There are no people, no faces and no figures anywhere in the frame.
+Exterior, well after midnight.
+Wide static shot from across the street at standing eye level, the dark streetlight slightly off centre, with enough depth that the correctly lit street continues away behind it for contrast.
+Two lighting logics in one frame, and this is the whole image. Outside the dark pool: normal warm sodium streetlight, soft and calm, everything legible. Inside it: cool, flat, directionless light whose shadows disagree with the rest of the picture. Never pitch black anywhere — the wrongness has to be visible, so the dark area stays clearly readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A quiet suburban street at night with one streetlight dark, the shadows inside that patch falling the wrong way.
+
+---
+
