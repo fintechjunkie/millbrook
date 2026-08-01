@@ -992,7 +992,7 @@ the man sits in a chair with his feet nowhere near the floor. Whatever is behind
 not built to human scale, and these two sheets are the only evidence of it a reader ever gets.
 
 ### {{CHAR:CHET}} — Chet
-**Immutable:** A small, worn-out humanoid robot, **about four feet tall**, squat and solid. His
+**Immutable:** A small, worn-out humanoid robot, **about three feet tall**, squat and solid. His
 head is a rounded metal box in pale bone-grey enamel gone chalky, with panel seams, rivets,
 dents and rubbed-through patches. A recessed dark band across the upper face holds **two large
 rounded-rectangular eye panels, flat white, each with a small low black pupil**. **He has no
@@ -1005,11 +1005,19 @@ glowing dull orange-red** on the chest. Large exposed ball-joint shoulders in da
 segmented arms, segmented legs and flat oval feet. A hundred repairs old.
 **Canonical reference:** `char-chet-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
-**His height is fixed by arithmetic, and the sheet cannot show it.** A figure alone on a flat
-ground has no scale reference in frame, so the number has to live here. Volume 4 gives a door
-*“about four and a half feet tall”*, and *“Chet stepped through and pulled the door shut behind
-him.”* **He steps through it, he does not stoop through it** — which makes that absurd little
-door his door, built to his measure. Never draw him man-sized.
+**His height is stated in the prose, and the sheet cannot show it.** A figure alone on a flat
+ground has no scale reference in frame, so the number has to live here. Volume 4: *“He was maybe
+three feet tall, gray and scuffed and dented at one hip.”* It also gives the door he walks
+through as *“about four and a half feet tall”*, and **he steps through it rather than stooping
+through it** — which makes that absurd little door his door, built to his measure. Never draw
+him man-sized.
+
+*Corrected 2026-08-01 from four feet to three.* The first figure was inferred from the door
+before the Volume 4 description was read closely; the prose states it outright and the prose
+wins. The same passage confirms the rest of the sheet — *“a head shaped like a bread box, two
+wide eyes set into it, and a spray of stiff blond hair coming off the top like somebody had
+glued a paintbrush up there”* — and adds one thing the sheet should be read as having: **he is
+dented at one hip.**
 
 **He resembles Pip, and that resemblance is load-bearing.** Both are pale, both have a round
 port at the side of the head, and their hair is nearly the same colour. The arc’s last real beat
