@@ -573,8 +573,32 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph, ty
  *
  * Alt text comes from the spec and describes what is depicted rather than what
  * it means. That is deliberate, so it is used as given.
+ *
+ * **The caption is what the empty third of this page is for.** Every delivered
+ * plate is 3:2 and every page is 1:1, so the plate is width-limited and always
+ * stops about 224px short of the foot — a third of the page, on all 38 of them.
+ * Nothing removes that but cropping the art or reshaping the page. It only became
+ * conspicuous when the measure narrowed to 34em and the facing prose started
+ * running to the bottom of its own page: full text on the left against a picture
+ * ending two thirds down on the right.
+ *
+ * So the space gets a job instead of a fix. A caption directly under the plate is
+ * what an illustrated book does with exactly this proportion, and it needs no new
+ * prose: `section` is the running section heading, carried forward from the last
+ * spread that declared one. That matters — only 25 of the 38 spreads open a new
+ * section, so keying the caption on this spread's own heading would have printed
+ * it on two thirds of the plates and left the rest bare, which is worse than none.
+ * Carrying it forward resolves all 38, and a continuation page is genuinely still
+ * in the section it continues.
+ *
+ * No spoiler risk by construction: the line is already set on the facing page, or
+ * on an earlier one.
+ *
+ * No frame added on desktop, deliberately. The compact plate is framed because it
+ * floats on grey with no page edge to sit against; on paper the page edge already
+ * says "object resting on a surface", and the note on the frame below says so.
  */
-export function GraphicPage({ spread, compact }) {
+export function GraphicPage({ spread, compact, section }) {
   // A 3:2 plate on a square page can only reach about two thirds of the page
   // height, so padding here is margin the plate cannot afford. Kept tight on
   // both, and zero on a phone, where every pixel of gutter is a pixel off the
@@ -651,6 +675,28 @@ export function GraphicPage({ spread, compact }) {
         >
           <Plate slug={g.slug} alt={g.alt} shotType={g.shotType} aspect={aspect} />
         </div>
+
+        {/* Left-aligned under the plate, against the right-aligned folio at the page
+            corner. Caption belongs to the picture, folio belongs to the page, and
+            putting them on opposite edges says which is which without a rule.
+
+            Same utility face, size and colour logic as the Folio: the furniture on
+            this page should read as one voice, and inkSoft on the reader's grey
+            ground measures 2.9:1, so compact takes the lighter step. */}
+        {section && (
+          <figcaption
+            style={{
+              ...type.utility,
+              fontSize: 8.5,
+              letterSpacing: '0.18em',
+              color: compact ? reader.textMuted : color.inkSoft,
+              marginTop: space(3),
+              ...(compact ? { paddingLeft: space(4), paddingRight: space(4) } : null),
+            }}
+          >
+            {section}
+          </figcaption>
+        )}
       </figure>
 
       <Folio n={pageNumbers[1]} align="right" compact={compact} />

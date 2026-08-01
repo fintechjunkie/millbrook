@@ -21,11 +21,22 @@ import { color, geometry, paper, reader, space, turn as TURN, type, ui } from '@
 // ============================================================
 
 function buildLeaves(volume) {
-  return volume.spreads.map((s) => ({
-    kind: s.kind, // 'opener' | 'spread'
-    spread: s,
-    key: `${volume.slug}-${s.n}`,
-  }));
+  // The running section, carried forward so a continuation page still knows which
+  // section it is in. Only 25 of the 38 spreads open a new one; the plate caption
+  // needs an answer for all of them, and "the section this page continues" is the
+  // true answer rather than a filler. Falls back to the chapter, which is only
+  // reachable if a volume's first spread opens with no heading at all.
+  let section = null;
+  return volume.spreads.map((s) => {
+    const heading = (s.blocks || []).find((b) => b.t === 'h');
+    if (heading) section = heading.v;
+    return {
+      kind: s.kind, // 'opener' | 'spread'
+      spread: s,
+      section: section ?? volume.chapter,
+      key: `${volume.slug}-${s.n}`,
+    };
+  });
 }
 
 /** How many swipes a leaf takes on a single-page layout. */
@@ -960,7 +971,7 @@ export default function FlipBook({ volume, next = null }) {
   const renderRight = (l) => {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side="right" />;
-    return <GraphicPage spread={l.spread} compact={false} />;
+    return <GraphicPage spread={l.spread} compact={false} section={l.section} />;
   };
   // On a single-page layout a spread is split across two swipes, and an opener
   // shows as one whole composition.
@@ -970,7 +981,7 @@ export default function FlipBook({ volume, next = null }) {
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side={null} compact />;
     return p.half === 0
       ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} onAdvance={atEnd ? undefined : () => go('fwd')} />
-      : <GraphicPage spread={l.spread} compact />;
+      : <GraphicPage spread={l.spread} compact section={l.section} />;
   };
 
   // Which leaf each half of the base layer shows during a turn.
