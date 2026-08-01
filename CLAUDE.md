@@ -52,6 +52,14 @@ it, walk `[data-mb-page][data-mb-kind="text"]` and read each `[data-mb-flow]` wi
 temporarily set to `none` — a stretching flow box reports `scrollHeight === clientHeight`, so
 overflow silently reads as zero otherwise.
 
+**Use `/checks/fill` instead — it answers the same question and works in the pane.** It renders
+every text page of every volume into a faithful copy of the page box and measures with
+`setTimeout`, at both 604px and 696px. Read the whole-book effect of a type change there, then
+load the individual spread for a verdict; it is documented as running a couple of points
+optimistic. **Read `clientHeight` AFTER restoring `flex`, never while it is `none`** — a
+released box shrink-wraps its own content, so both numbers become the same and every page
+reports exactly 100%.
+
 **That recipe depends on the flow being a COLUMN flex item, so never wrap it in a row.**
 `flex: none` releases the flow on whichever axis its parent runs. In a column that is the
 height, which is the point. In a row it is also the WIDTH, so the column shrink-wraps, the
@@ -99,11 +107,17 @@ pages. Not worth it for 9px behind a translucent bar that auto-hides.
 
 ## The reader on a short laptop
 
-**Below roughly 760px of viewport height a few pages overflow, and they scroll.** Measured at
-1280×720 on a clean load: vol1 spread 1 by 27px, vol1 spread 3 by 10px, vol3 spread 4 by 7px.
-At 1366×768 and above, nothing overflows. It is the same clamp-floor mechanism as the phone —
-type stops shrinking at 12px while the page keeps shrinking — but three pages rather than
-sixteen, so the page stays fixed and only the affordance changes.
+**A few pages overflow, and they scroll.** It is the same clamp-floor mechanism as the phone —
+type stops shrinking at 12px while the page keeps shrinking — but a handful of pages rather
+than sixteen, so the page stays fixed and only the affordance changes.
+
+**Those counts went UP deliberately when the measure narrowed to 34em, and pages that scroll
+are now a designed state rather than an edge case.** Current, from `/checks/fill` over all 84
+text pages: 4 over at 1440×900, 12 over at 1280×720, worst page vol1-3 at about 106%, which is
+40px or roughly two lines. Before Literata and 34em it was 0 and 3. The trade bought every
+reader a 70-to-72 character line in place of 83, and it was only affordable because the three
+affordances below already existed. Do not treat a page over 100% here as a regression to
+chase; check it against `/checks/fill` and decide whether it is the one you meant.
 
 Three things say so, and **every one of them is an overlay or a behaviour, never layout**:
 a fade at the foot of the column, a `More ↓` button that scrolls one screenful, and vertical
@@ -124,6 +138,54 @@ it is not. Left and right arrows stay pure page turns.
   nothing while clipping a third of a line. `scrollEdges` in `SpreadPage.js` is the single
   definition; `FlipBook` imports it rather than restating it, because the keys and the button
   disagreeing about whether a page has more text is the exact bug being fixed.
+
+---
+
+## Typography: two decisions that were reversed
+
+Both of these are written down elsewhere in their original form, so a future session that
+reads only the old note will helpfully undo them. They were reversed on measurement.
+
+**There is a webfont now, and `docs/DECISIONS.md` says there is not.** The book is set in
+Literata, vendored as two woff2 files in `app/fonts` and loaded by `next/font/local`. The
+original objection was never to a webfont; it was to `next/font/google` fetching at build
+time, which a locked-down network fails (extraction gotcha 7). Local files have no fetch, so
+the constraint still holds. What forced it: `Charter, "Iowan Old Style", Georgia, serif`
+rendered as Charter on macOS and Georgia everywhere else, and Georgia is 9% wider — the
+project was shipping a 76-character line to Macs and an 83-character one to everyone else.
+
+**An `em` measure cap does NOT make character count face-independent, and a comment in
+`series.js` used to say it did.** The cap fixes the column in ems; how many characters fit
+depends on the face's average advance. Arial and Georgia happen to land a character apart,
+which is what made the claim look true and is why the wide-face problem stayed invisible for
+four volumes. Measured at 12.6px in the same column: Georgia 83, Charis SIL 82, Literata 78,
+Source Serif 4 77. Compare faces in `/checks/type`.
+
+**Apparent size is x-height, not font-size.** Every candidate above renders at the identical
+px. Literata was chosen over Source Serif partly because its x-height is 6.39px against 5.98px
+at the same size — it reads a size larger while costing less fill.
+
+---
+
+## The reader's type size is the reader's
+
+**`typeScale` in `series.js` is a multiplier the reader sets, and both body rules are
+`calc(clamp(...) * var(--mb-type-scale, 1))`.** Five stops, persisted in `localStorage`, behind
+the `Aa` control in the bottom bar.
+
+- **The clamp FLOOR has to scale too, not just the preferred term.** At 1280×720 the 12px floor
+  is already binding, so a control that scaled only the middle value would do nothing on
+  exactly the machines whose readers most want it.
+- **Edit mode pins the scale to 1 and hides the control.** `FillMeter` is an authorial
+  tripwire and has to mean the same thing every time it is read; a reader's 1.3 would turn
+  every page red and invite re-cutting pages that were never over.
+- **A change of scale must be a React dependency, never left to the ResizeObserver.**
+  `useScrollEdges` and `useHasRoomForTerminal` both take the scale as a `revision` argument for
+  this reason alone. Observers do not fire reliably in a non-compositing pane, and a stale
+  answer here means a page that scrolls with no fade and no `More ↓`.
+- **The boot script in `app/layout.js` applies it before first paint**, which is why `<html>`
+  carries `suppressHydrationWarning` — React finds a `style` attribute the server never sent,
+  and that mismatch is the feature.
 
 ---
 

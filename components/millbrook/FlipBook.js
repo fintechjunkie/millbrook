@@ -4,10 +4,11 @@ import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'r
 import Link from 'next/link';
 import { Crumbs } from './Crumbs';
 import { useTextEditing } from './useTextEditing';
+import { useTypeScale } from './useTypeScale';
 import {
   BlankPage, GraphicPage, OpenerSpread, TextPage, scrollEdges, scrollOneScreen,
 } from './SpreadPage';
-import { color, geometry, paper, reader, space, turn as TURN, type } from '@/lib/millbrook/series';
+import { color, geometry, paper, reader, space, turn as TURN, type, ui } from '@/lib/millbrook/series';
 
 // ============================================================
 // Leaves
@@ -462,6 +463,173 @@ function TurnGuide({ wide, atStart, atEnd, onBack, onForward }) {
 }
 
 /**
+ * The reader's type-size control: one "Aa" button, and a row of stops above it.
+ *
+ * A popover rather than a pair of A- / A+ buttons sitting in the bar, and the reason
+ * is the bar itself. It wraps rather than overflows, its height is what
+ * `readerPad.compactBottom` is measured against, and at 375px the wide spacing
+ * already needed 386px for its controls. One control is affordable there; two are
+ * how the bar goes to a second row and the foot of the page ends up underneath it.
+ *
+ * Measured at 375px after adding this one, because that is the failure the note
+ * above is warning about: the production bar stays one row at 52px, and the DEV bar
+ * wraps to two at 88px, because it also carries Edit. That is tolerable rather than
+ * ideal — the reader's bottom padding comes from the measured bar rather than from
+ * `readerPad.compactBottom`, so the page moves out of the way — and it is the same
+ * "a dev bar is one control wider" case the reader notes already describe. Shaving
+ * the 10px that would avoid it was tried on paper and rejected: it leaves a 2px
+ * margin, which is not a fix, it is the next control's problem.
+ *
+ * A radiogroup, because that is what this is: one of five, always exactly one
+ * chosen. The arrow keys are handled here rather than left to the book, which is
+ * also why `FlipBook` stops feeding its own key handler while this is open —
+ * otherwise pressing Right to reach the next size would turn the page underneath.
+ */
+function TypeSizer({ scale, stops, choose, open, setOpen, wide }) {
+  const panelRef = useRef(null);
+  const btnRef = useRef(null);
+
+  useEffect(() => {
+    if (!open) return undefined;
+
+    const opener = btnRef.current;
+    // Focus the current stop, so the group opens where the reader already is.
+    panelRef.current?.querySelector('[aria-checked="true"]')?.focus();
+
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        setOpen(false);
+        opener?.focus();
+        return;
+      }
+      const dir = e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1
+        : e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? -1
+        : 0;
+      if (!dir) return;
+      e.preventDefault();
+      const i = stops.indexOf(scale);
+      const next = stops[Math.min(stops.length - 1, Math.max(0, (i < 0 ? 1 : i) + dir))];
+      choose(next);
+      // The group re-renders with a new checked stop; move focus to follow it.
+      setTimeout(() => panelRef.current?.querySelector('[aria-checked="true"]')?.focus(), 0);
+    };
+
+    const onDown = (e) => {
+      if (panelRef.current?.contains(e.target) || opener?.contains(e.target)) return;
+      setOpen(false);
+    };
+
+    // Capture, so this runs before the book's own key handler whatever the order
+    // the listeners were added in.
+    window.addEventListener('keydown', onKey, true);
+    window.addEventListener('pointerdown', onDown, true);
+    return () => {
+      window.removeEventListener('keydown', onKey, true);
+      window.removeEventListener('pointerdown', onDown, true);
+    };
+  }, [open, setOpen, stops, scale, choose]);
+
+  const chip = {
+    ...type.utility,
+    fontSize: 9,
+    letterSpacing: '0.18em',
+    background: 'none',
+    border: `1px solid ${reader.ruleStrong}`,
+    color: reader.textMuted,
+    padding: `${space(2)} ${space(3)}`,
+    cursor: 'pointer',
+    marginLeft: space(2),
+  };
+
+  return (
+    <div style={{ position: 'relative', display: 'inline-flex' }}>
+      <button
+        ref={btnRef}
+        className="focus-ring"
+        onClick={() => setOpen(!open)}
+        aria-expanded={open}
+        aria-haspopup="true"
+        title="Text size"
+        style={{
+          ...chip,
+          background: open ? color.accent : 'none',
+          borderColor: open ? color.accent : reader.ruleStrong,
+          color: open ? paper.stock : reader.textMuted,
+        }}
+      >
+        Aa
+      </button>
+
+      {open && (
+        <div
+          ref={panelRef}
+          role="radiogroup"
+          aria-label="Text size"
+          style={{
+            position: 'absolute',
+            bottom: '100%',
+            right: 0,
+            marginBottom: space(2),
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: space(1),
+            padding: `${space(2)} ${space(2)}`,
+            background: paper.stock,
+            border: `1px solid ${reader.ruleStrong}`,
+            boxShadow: ui.shadow,
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {stops.map((s) => {
+            const on = s === scale;
+            return (
+              <button
+                key={s}
+                className="focus-ring"
+                role="radio"
+                aria-checked={on}
+                // Roving tabindex: the group is one tab stop and the arrows move
+                // within it, which is what a radiogroup is supposed to do.
+                tabIndex={on ? 0 : -1}
+                onClick={() => choose(s)}
+                aria-label={`Text size ${Math.round(s * 100)} percent`}
+                style={{
+                  fontFamily: type.body.fontFamily,
+                  // Scaled against the base so the buttons themselves show the
+                  // difference they make.
+                  fontSize: `${Math.round(10 * s * (wide ? 1.15 : 1))}px`,
+                  lineHeight: 1,
+                  background: on ? color.accent : 'none',
+                  color: on ? paper.stock : reader.textMuted,
+                  border: 'none',
+                  borderRadius: 2,
+                  cursor: 'pointer',
+                  // Thumb-sized on a phone. These were 23x17 at first, which is a
+                  // third of the ~44px a touch target wants and is the harder miss
+                  // to recover from: the stops sit 4px apart, so a near miss is the
+                  // wrong size rather than nothing. Inside a panel the room is free.
+                  //
+                  // The "Aa" chip that opens this panel is deliberately NOT enlarged
+                  // to match. It sits in a row with Edit and Contents at 27px, and
+                  // one tall control among short ones reads as a mistake. Growing
+                  // that row is its own change, for all three at once.
+                  padding: wide ? `${space(1)} ${space(2)}` : `${space(2)} ${space(3)}`,
+                  minWidth: wide ? 22 : 40,
+                  minHeight: wide ? 0 : 40,
+                }}
+              >
+                A
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
  * Live fill readout for the page being edited.
  *
  * Polls rather than observing, because the text is edited by the browser's own
@@ -559,6 +727,13 @@ export default function FlipBook({ volume, next = null }) {
   const [reduced, setReduced] = useState(false);
   const [contents, setContents] = useState(false);
   const [chromeHidden, setChromeHidden] = useState(false);
+  const [sizeOpen, setSizeOpen] = useState(false);
+
+  // Pinned to the base size while editing. `FillMeter` answers "does this page
+  // fit", which is a tripwire the prose is written against, and it has to mean the
+  // same thing every time it is read — a reader's 1.3 would turn every page red and
+  // an author would re-cut pages that were never over.
+  const typeSize = useTypeScale(edit.editing);
 
   const bookRef = useRef(null);
   const down = useRef(null);
@@ -659,6 +834,10 @@ export default function FlipBook({ volume, next = null }) {
         if (e.key === 'Escape') setContents(false);
         return;
       }
+      // The size popover owns the arrows while it is open — it is a radiogroup and
+      // they move between stops. Without this, reaching for the next size turns the
+      // page behind the panel.
+      if (sizeOpen) return;
       if (e.target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
       // Space, arrows and C are all letters somebody is trying to type.
       if (e.target && e.target.isContentEditable) return;
@@ -686,11 +865,18 @@ export default function FlipBook({ volume, next = null }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [go, jumpTo, leaves.length, contents, edit, scrollProse]);
+  }, [go, jumpTo, leaves.length, contents, edit, scrollProse, sizeOpen]);
 
   // Bottom chrome only. The top bar never hides, so the way out is always on
   // screen.
   useEffect(() => {
+    // The size popover lives inside this bar, so letting the bar fade would take the
+    // open panel with it — the reader would be mid-choice and watch the control
+    // dissolve. Hold the bar awake for as long as it is open.
+    if (sizeOpen) {
+      setChromeHidden(false);
+      return undefined;
+    }
     let t;
     const wake = () => {
       setChromeHidden(false);
@@ -704,7 +890,7 @@ export default function FlipBook({ volume, next = null }) {
       clearTimeout(t);
       evs.forEach((e) => window.removeEventListener(e, wake));
     };
-  }, []);
+  }, [sizeOpen]);
 
   const onTouchStart = (e) => {
     touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
@@ -767,7 +953,7 @@ export default function FlipBook({ volume, next = null }) {
   const renderLeft = (l) => {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side="left" />;
-    return <TextPage spread={l.spread} compact={false} editing={edit.editing} onEditParagraph={onEditParagraph} />;
+    return <TextPage spread={l.spread} compact={false} editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} />;
   };
   const renderRight = (l) => {
     if (!l) return <BlankPage />;
@@ -781,7 +967,7 @@ export default function FlipBook({ volume, next = null }) {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side={null} compact />;
     return p.half === 0
-      ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} />
+      ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} />
       : <GraphicPage spread={l.spread} compact />;
   };
 
@@ -1183,6 +1369,21 @@ export default function FlipBook({ volume, next = null }) {
           >
             {edit.editing ? 'Editing' : 'Edit'}
           </button>
+        )}
+
+        {/* Hidden while editing rather than shown disabled. The size is pinned to
+            the base then anyway, so the control has nothing to offer — and edit mode
+            is exactly when the bar is at its widest, carrying one button the
+            production bar never has. */}
+        {!edit.editing && (
+          <TypeSizer
+            scale={typeSize.scale}
+            stops={typeSize.stops}
+            choose={typeSize.choose}
+            open={sizeOpen}
+            setOpen={setSizeOpen}
+            wide={wide}
+          />
         )}
 
         <button className="focus-ring" onClick={() => setContents(true)}

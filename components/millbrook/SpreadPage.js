@@ -137,8 +137,16 @@ function Terminal({ suppressed }) {
  *
  * Re-measures on resize, because the page is sized from the viewport and a window
  * drag changes the answer.
+ *
+ * `revision` is any value that changes when the column's contents change size for a
+ * reason the observer cannot be trusted to report — today, the reader's type scale.
+ * The ResizeObserver above looks like it covers that and does not: its callbacks are
+ * delivered with the rendering steps, which do not run while the page is not
+ * painting, and the project rule is that a correctness fix never depends on an
+ * observer alone. Passing the scale in makes the re-measure a React dependency,
+ * which fires regardless.
  */
-function useHasRoomForTerminal(ref, threshold = 2) {
+function useHasRoomForTerminal(ref, threshold = 2, revision = 0) {
   const [room, setRoom] = useState(false);
 
   useEffect(() => {
@@ -158,10 +166,16 @@ function useHasRoomForTerminal(ref, threshold = 2) {
     };
 
     measure();
+    // A tick after, for the same reason the scroll-edge hook keeps timers: the first
+    // pass can run before the type scale has actually been applied to the column.
+    const t = setTimeout(measure, 0);
     const ro = new ResizeObserver(measure);
     ro.observe(flow);
-    return () => ro.disconnect();
-  }, [ref, threshold]);
+    return () => {
+      clearTimeout(t);
+      ro.disconnect();
+    };
+  }, [ref, threshold, revision]);
 
   return room;
 }
@@ -225,7 +239,7 @@ export function scrollEdges(el) {
   };
 }
 
-function useScrollEdges(ref) {
+function useScrollEdges(ref, revision = 0) {
   const [state, setState] = useState({ scrollable: false, atEnd: true });
 
   useEffect(() => {
@@ -271,7 +285,11 @@ function useScrollEdges(ref) {
       timers.forEach(clearTimeout);
       ro.disconnect();
     };
-  }, [ref]);
+    // `revision` carries the reader's type scale. Changing it changes how much text
+    // is in the column and therefore whether the page scrolls at all, which is the
+    // exact question this hook answers — and the observer that would otherwise catch
+    // it is the one that cannot be relied on here.
+  }, [ref, revision]);
 
   return state;
 }
@@ -300,7 +318,7 @@ function useScrollEdges(ref) {
  * preserved, so compact stops defending a fixed page and scrolls a proper reading column
  * instead. See `type.bodyCompact`.
  */
-export function TextPage({ spread, compact, editing = false, onEditParagraph }) {
+export function TextPage({ spread, compact, editing = false, onEditParagraph, typeScale = 1 }) {
   // 30px rather than 36. Same reasoning as the leading: page height reclaimed
   // from margin costs nothing, where reclaiming it from the spread map costs a
   // new spread and a new image.
@@ -312,8 +330,10 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph }) 
   const top = compact ? pageInset.top.compact : pageInset.top.wide;
   const pageNumbers = spread.pages ? spread.pages.split(/\s+to\s+/) : [];
   const flowRef = useRef(null);
-  const hasRoom = useHasRoomForTerminal(flowRef);
-  const { scrollable, atEnd } = useScrollEdges(flowRef);
+  // `typeScale` is passed to both hooks only as a re-measure trigger — the size
+  // itself is applied in CSS, through the var that `type.body` multiplies by.
+  const hasRoom = useHasRoomForTerminal(flowRef, 2, typeScale);
+  const { scrollable, atEnd } = useScrollEdges(flowRef, typeScale);
 
   // Track whether we are at the first paragraph of a section, since that one sets flush
   // left and the rest indent.

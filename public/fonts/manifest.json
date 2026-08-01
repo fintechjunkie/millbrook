@@ -1,0 +1,74 @@
+[
+  {
+    "family": "Literata",
+    "slug": "literata",
+    "file": "literata-italic-400.woff2",
+    "style": "italic",
+    "weight": "400",
+    "kb": 47
+  },
+  {
+    "family": "Literata",
+    "slug": "literata",
+    "file": "literata-roman-400.woff2",
+    "style": "normal",
+    "weight": "400",
+    "kb": 84
+  },
+  {
+    "family": "Literata",
+    "slug": "literata",
+    "file": "literata-roman-700.woff2",
+    "style": "normal",
+    "weight": "700",
+    "kb": 84
+  },
+  {
+    "family": "Source Serif 4",
+    "slug": "source-serif",
+    "file": "source-serif-italic-400.woff2",
+    "style": "italic",
+    "weight": "400",
+    "kb": 49
+  },
+  {
+    "family": "Source Serif 4",
+    "slug": "source-serif",
+    "file": "source-serif-roman-400.woff2",
+    "style": "normal",
+    "weight": "400",
+    "kb": 119
+  },
+  {
+    "family": "Source Serif 4",
+    "slug": "source-serif",
+    "file": "source-serif-roman-700.woff2",
+    "style": "normal",
+    "weight": "700",
+    "kb": 119
+  },
+  {
+    "family": "Charis SIL",
+    "slug": "charis",
+    "file": "charis-italic-400.woff2",
+    "style": "italic",
+    "weight": "400",
+    "kb": 23
+  },
+  {
+    "family": "Charis SIL",
+    "slug": "charis",
+    "file": "charis-roman-400.woff2",
+    "style": "normal",
+    "weight": "400",
+    "kb": 22
+  },
+  {
+    "family": "Charis SIL",
+    "slug": "charis",
+    "file": "charis-roman-700.woff2",
+    "style": "normal",
+    "weight": "700",
+    "kb": 22
+  }
+]
