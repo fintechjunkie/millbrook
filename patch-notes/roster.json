@@ -97,6 +97,17 @@
       "approvalNote": "yes, by the animal lineup",
       "renderingNote": null
     },
+    "DRAGON": {
+      "token": "DRAGON",
+      "immutable": "A mini dragon about the size of a house cat, built from layered paper. Rust-orange body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its default expression is cheerful and slightly gormless.",
+      "immutableInactive": null,
+      "canonicalRef": "char-dragon-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, by the animal lineup",
+      "renderingNote": null
+    },
     "AUNT_CAROL": {
       "token": "AUNT_CAROL",
       "immutable": "A woman in her late fifties, tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly, and the canonical sheet is the authority on her build — fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.",

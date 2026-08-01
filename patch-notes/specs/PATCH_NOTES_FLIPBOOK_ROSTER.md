@@ -342,6 +342,39 @@ He remains deliberately absent from the final image of Volume 4 even though he i
 **Added 2026-07-29.** The sheet had existed since the canonical drop but the pig had no roster block, so the one scene that calls for him by name -- Volume 3 spread 7, where Lena falls asleep on a couch with him -- had no token to reference and he was simply left out of the image. An animal with a delivered canonical and no roster entry is invisible to the generator.
 **Rendering note.** He is livestock, not a mascot: he is never doing anything clever, never reacting to plot, and never given an expression that implies he understands. He sleeps, stands and leans on people. Monke carries all of the project's animal ambiguity and the pig carries none of it, which is what keeps Monke unsettling.
 
+### {{CHAR:DRAGON}}
+**Immutable:** A mini dragon about the size of a house cat, built from layered paper. Rust-orange
+body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down
+the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with
+two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white
+eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick
+hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its
+default expression is cheerful and slightly gormless.
+**Canonical reference:** `char-dragon-canonical.png` · Seed: pending · Approved: yes, by the animal lineup
+
+**Added 2026-08-01, and the sheet is older than the block.** It was delivered in the 28 July drop and
+archived as `Dino`, then never given a roster entry — the same failure the pig block records above,
+and with more at stake, because the dragon appears in **all four volumes** of The Understudies and it
+causes the climax. Archived at `reference-source/ANIMALS/Dragon/`.
+
+**The prose was changed to match the sheet, not the other way round.** It read *“dull green, and the
+wings didn’t look like they’d hold anything up”*; the sheet is rust-orange and wingless. Both
+references were rewritten (Understudies Vol 1 and Vol 3) on author instruction that the delivered
+image is the source. **The wings were carrying a joke, so a joke replaced them** rather than the
+clause simply being cut — see the note in `WRITING_GUIDE.md` about gaps that are actually jokes.
+
+**It is heat-seeking, and that is its whole behaviour.** It sleeps on top of the fridge, on the
+router, and puts its face in the fan vent. In Volume 4 it rides Felix’s shoulder down the boiler
+hatch, goes for the warm thing on the bench, gets a foot caught and **takes the stamp off the bench
+with it** — so it is not set dressing, it is the mechanism of the arc’s climax. Wherever there is a
+warm object in frame, that is where it is.
+
+**It sets things on fire**, and Felix keeps a list on the wall of what. Nothing in a plate should
+show it breathing fire, because the prose never does either — the fires are always already over.
+
+**It is not a mascot and not clever.** Same rule as the pig: Monke carries all of this project’s
+animal ambiguity and nothing else is allowed to. The dragon wants heat and that is all it wants.
+
 ### {{CHAR:AUNT_CAROL}}
 **Immutable:** A woman in her late fifties, tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly, and the canonical sheet is the authority on her build — fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no

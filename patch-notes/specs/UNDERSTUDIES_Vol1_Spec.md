@@ -338,7 +338,7 @@ Alt text: An older woman calmly fills a thermos with lemonade at a kitchen count
 
 ## Spread 6
 
-Pages 13 to 14 | Part One: Curfew | Words 246
+Pages 13 to 14 | Part One: Curfew | Words 265
 
 ### Text page (left), verbatim
 
@@ -348,7 +348,7 @@ The brick was holding the back door open again. Inside, the fan was doing its on
 
 And then there was the mini dragon. It was asleep on top of the fridge with its tail hanging down over the door handle.
 
-Nobody knew why animals kept showing up or where they came from, especially the mini dragon. It was about the size of a house cat, dull green, and the wings didn’t look like they’d hold anything up. Felix had started to keep a list on the wall of things it had set on fire. There were four things on the list before it was burned to a crisp.
+Nobody knew why animals kept showing up or where they came from, especially the mini dragon. It was about the size of a house cat, rust orange with a row of red plates down its back, and it had no wings at all, which Felix said was the only good news anybody had had all year. Felix had started to keep a list on the wall of things it had set on fire. There were four things on the list before it was burned to a crisp.
 
 “Okay,” Milo said. “What do we actually know?”
 
@@ -378,7 +378,8 @@ Prompt:
 {{CHAR:OWEN}}
 {{CHAR:FELIX}}
 {{CHAR:PIG}}
-The lounge end of the warehouse in the middle of an ordinary afternoon. The back door stands propped open with a brick and daylight comes through it. An old floor fan turns badly in one corner. The pig lies stretched out asleep along the best of the four sagging couches, taking all of it. a plain white domestic duck standing on the concrete in the middle of the open floor with its bill open, honking at nothing in particular. On top of the refrigerator against the wall, a mini dragon the size of a house cat, dull green, with small wings that plainly could not lift it, asleep on top of the refrigerator with its tail hanging down over the door handle. Milo stands in the middle of the floor mid-question with one hand out. Felix sits on the arm of a couch watching him. Owen is at his desk in the background with his back to the room, facing his monitors.
+{{CHAR:DRAGON}}
+The lounge end of the warehouse in the middle of an ordinary afternoon. The back door stands propped open with a brick and daylight comes through it. An old floor fan turns badly in one corner. The pig lies stretched out asleep along the best of the four sagging couches, taking all of it. a plain white domestic duck standing on the concrete in the middle of the open floor with its bill open, honking at nothing in particular. It is asleep on top of the refrigerator against the wall, curled up with its tail hanging down over the door handle. Milo stands in the middle of the floor mid-question with one hand out. Felix sits on the arm of a couch watching him. Owen is at his desk in the background with his back to the room, facing his monitors.
 Mid-afternoon.
 Wide, camera at standing height, taking in the couches, the fridge and the propped door in one frame.
 Daylight through the open back door and the high windows plus the room lights, warm and clearly readable everywhere.
@@ -386,7 +387,7 @@ Daylight through the open back door and the high windows plus the room lights, w
 Aspect ratio: 3:2
 ```
 
-Alt text: A converted warehouse with a pig asleep on a sagging couch, a duck honking on the floor and a small green dragon asleep on the fridge, while three boys talk in the middle of the room.
+Alt text: A converted warehouse with a pig asleep on a sagging couch, a duck honking on the floor and a small orange dragon asleep on the fridge, while three boys talk in the middle of the room.
 
 ---
 
