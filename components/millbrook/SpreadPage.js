@@ -318,7 +318,7 @@ function useScrollEdges(ref, revision = 0) {
  * preserved, so compact stops defending a fixed page and scrolls a proper reading column
  * instead. See `type.bodyCompact`.
  */
-export function TextPage({ spread, compact, editing = false, onEditParagraph, typeScale = 1 }) {
+export function TextPage({ spread, compact, editing = false, onEditParagraph, typeScale = 1, onAdvance }) {
   // 30px rather than 36. Same reasoning as the leading: page height reclaimed
   // from margin costs nothing, where reclaiming it from the spread map costs a
   // new spread and a new image.
@@ -510,12 +510,30 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph, ty
           cannot turn the page out from under the sentence it is offering; and it puts the
           same action on the keyboard for a reader who never touches a mouse.
 
+          **It becomes "Next" at the foot of the column rather than disappearing, and that
+          is a bug fix rather than a flourish.** It used to unmount on the last press. The
+          reader's cursor was then resting on the LEFT page with nothing under it, and the
+          left page means "go back" — so the click that felt like carrying on threw them a
+          spread backwards. The control vanished at the exact moment it had trained them
+          to press it again.
+
+          This is the same answer the bottom bar already gives at the end of a volume: the
+          dead control is replaced rather than sat beside, so the slot the reader is
+          already aiming at is the thing that carries them on. One element throughout, so
+          nothing is ever pulled out from under the pointer — only its label and its job
+          change.
+
+          Safe against the "never key page CONTENT on the scroll state" rule, because this
+          is an absolutely positioned overlay: it takes no space in the column and so
+          cannot feed back into the measurement that decides whether it shows.
+
           Sits clear of the scrollbar rather than over it. */}
-      {scrollable && !atEnd && (
+      {(scrollable && (!atEnd || onAdvance)) && (
         <button
           type="button"
           className="focus-ring"
-          onClick={() => scrollOneScreen(flowRef.current, 'fwd')}
+          aria-label={atEnd ? 'Next page' : 'Scroll down for the rest of this page'}
+          onClick={() => (atEnd ? onAdvance() : scrollOneScreen(flowRef.current, 'fwd'))}
           style={{
             position: 'absolute',
             bottom: compact ? 2 : 0,
@@ -540,7 +558,7 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph, ty
             zIndex: 1,
           }}
         >
-          More <span aria-hidden="true">↓</span>
+          {atEnd ? 'Next' : 'More'} <span aria-hidden="true">{atEnd ? '→' : '↓'}</span>
         </button>
       )}
       </div>

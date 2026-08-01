@@ -953,7 +953,9 @@ export default function FlipBook({ volume, next = null }) {
   const renderLeft = (l) => {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side="left" />;
-    return <TextPage spread={l.spread} compact={false} editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} />;
+    // onAdvance is withheld on the last leaf, so the foot-of-column control stays
+    // "More ↓" and never offers a Next that goes nowhere.
+    return <TextPage spread={l.spread} compact={false} editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} onAdvance={atEnd ? undefined : () => go('fwd')} />;
   };
   const renderRight = (l) => {
     if (!l) return <BlankPage />;
@@ -967,7 +969,7 @@ export default function FlipBook({ volume, next = null }) {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side={null} compact />;
     return p.half === 0
-      ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} />
+      ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} onAdvance={atEnd ? undefined : () => go('fwd')} />
       : <GraphicPage spread={l.spread} compact />;
   };
 
