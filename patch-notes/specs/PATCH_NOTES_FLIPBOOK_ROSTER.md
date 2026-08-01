@@ -913,6 +913,98 @@ purely *because Benny wanted to see what would happen*, and he is the one who ph
 *"Milo, he asked me for permission to drink water."* The wry look is the character and has to
 survive every plate.
 
+## 4.6 Behind the wall — The Understudies
+
+Locked 2026-07-31 from delivered art. Both sheets 1086x1448, exactly 3:4, RGB with no alpha.
+Archived under `reference-source/SECONDARY/`.
+
+| Character | Slug | Ground |
+|---|---|---|
+| Chet | `char-chet-canonical.png` | `rgb(241,223,194)` |
+| The man in the coat | `char-the-man-canonical.png` | `rgb(243,219,181)` |
+
+**Both are small, and both are small on purpose.** Chet fits a four-and-a-half-foot door and
+the man sits in a chair with his feet nowhere near the floor. Whatever is behind that wall is
+not built to human scale, and these two sheets are the only evidence of it a reader ever gets.
+
+### {{CHAR:CHET}} — Chet
+**Immutable:** A small, worn-out humanoid robot, **about four feet tall**, squat and solid. His
+head is a rounded metal box in pale bone-grey enamel gone chalky, with panel seams, rivets,
+dents and rubbed-through patches. A recessed dark band across the upper face holds **two large
+rounded-rectangular eye panels, flat white, each with a small low black pupil**. **He has no
+nose and no mouth**: below the eyes the face is a blank panel. A round machined port with a
+chrome rim sits at each side of the head, and a thin black cable trails from behind one. Out of
+the open top of the head grows **a shock of coarse straw-blond hair in stiff untidy spikes**.
+His neck is an exposed coiled spring. His torso is an upright riveted canister in the same
+bone-grey with a small hinged access panel, a dark vent slot and **one recessed indicator lamp
+glowing dull orange-red** on the chest. Large exposed ball-joint shoulders in dark steel, thin
+segmented arms, segmented legs and flat oval feet. A hundred repairs old.
+**Canonical reference:** `char-chet-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+
+**His height is fixed by arithmetic, and the sheet cannot show it.** A figure alone on a flat
+ground has no scale reference in frame, so the number has to live here. Volume 4 gives a door
+*“about four and a half feet tall”*, and *“Chet stepped through and pulled the door shut behind
+him.”* **He steps through it, he does not stoop through it** — which makes that absurd little
+door his door, built to his measure. Never draw him man-sized.
+
+**He resembles Pip, and that resemblance is load-bearing.** Both are pale, both have a round
+port at the side of the head, and their hair is nearly the same colour. The arc’s last real beat
+is *“He’s the one who wanted to see how you all turned out.” Chet looked at Pip when he said
+it.* A family resemblance is carrying that line and designing it away would cost the ending
+something it cannot get back. They separate completely on everything else:
+
+| | Chet | Pip |
+|---|---|---|
+| Face | a metal box, blank below the eye band, **no mouth and no nose** | a girl’s face — eyes, brows, nose, purple lips |
+| Build | four feet, squat, riveted, spring neck | tall, slim, straight, long-limbed |
+| Wear | nothing, ever | red bandana, goggles, red neckerchief |
+| Condition | dented, chipped, rubbed through | clean, matte, exact |
+
+**Nothing about him may read as powerful or sinister.** *“I’m slow. I’m eleven hundred years
+old and I have never once been the smart one.”* He is patient, hangdog and a little defensive
+about his work — *“They came out good, though. Didn’t they come out good?”* He sweeps broken
+glass into a square of paper towel, and *watching a machine do that was the saddest thing any of
+them had ever seen.* **His eyes do something that is not quite a blink**, which is why the eye
+panels are lit with a movable pupil rather than fixed glass.
+
+**The legs were invented.** The supplied art stopped at the chest; everything above the waist is
+transcription and the legs were written to match the shoulder joints.
+
+### {{CHAR:THE_MAN}} — The man in the coat
+**Immutable:** A very small man, no taller than a young child, bald, with a smooth pale head,
+small ears and a plain face wearing a flat, closed, faintly serious expression — patient,
+unhurried and entirely unsurprised. **Round spectacles with fine dark rims and blank white
+lenses.** Worn: a plain black wool overcoat cut long, nearly to the ankles, with a small
+standing collar and **exactly THREE round burnt-orange buttons** down the front; black trousers
+and plain black shoes. **Both hands stay in the coat pockets.** No hat, no scarf, no bag, no
+watch, no jewellery.
+**Canonical reference:** `char-the-man-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+
+**The token and the filename are provisional.** He has no name in the manuscript, and
+`{{CHAR:THE_MAN}}` was chosen so that nothing invented leaks into canon by the back door.
+
+**Three buttons, always.** The prose counts them: *“a small figure in a black wool coat with
+three orange buttons.”* Not two and not four.
+
+**His head is larger relative to his body than a man’s, and that is kept.** It contradicts the
+brief, which asked for adult proportions — but a canonical sheet is a figure alone on a flat
+ground with nothing in frame to measure against, so head-to-body ratio is the only tool it has
+to say *“He was very short.”* It also leans into the prose’s own phrase, *the face of a serious
+child who had been sitting at the same desk for a long, long time*. **True scale is fixed in the
+plates**, by putting him next to people. He is a grown man and must never read as an actual
+child.
+
+**He is on screen for six sentences and never speaks**, and every one of them is restraint:
+*“he wasn’t angry and he wasn’t surprised and he didn’t look caught. He took his time about
+it.”* Then *“he looked at Pip and nodded once, the way a man nods at somebody who has finally
+shown up to a meeting he scheduled years ago.”* **The nod belongs to the plate.** The sheet is
+neutral, the same rule that kept Ida’s wave out of hers.
+
+**His room is not yet built.** *“Bookshelves, or file drawers, rows and rows of them in low gold
+light, going up much further than the ceiling above their heads had any business allowing.”*
+Plus a wooden chair much too big for him. It is the last image of the arc and the only
+impossible space in either arc so far.
+
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.
@@ -1001,6 +1093,34 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:HOLLOW_PINE_INT}}` | The interior of a settled second-hand bookshop, floor-to-ceiling wooden shelving, worn overlapping rugs on board floors, a wooden counter with a low lamp, warm lampshades, a stack of cookbooks with a high shelf above it. | 2 | `loc-hollow-pine-int.png` |
 | `{{LOC:HENDERSON_PORCH}}` | The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
+| `{{LOC:OLD_SCHOOL_B}}` | The same school six months later, occupied as a military camp: a new nine-foot chain link fence with green privacy slats woven through it, dead straight and taut, with a vehicle gate open at the corner; six sand-coloured cargo trucks on the asphalt apron; one command tent, four squad tents and a generator on the softball field; and at the north side a concrete dumpster pad with two dumpsters and a flush boiler hatch, **with the fence running the OUTER edge of the concrete so the pad is inside it**. **State B of a single location — see the note below.** | 4 | `loc-old-school-camp.png` |
+
+**`OLD_SCHOOL` and `OLD_SCHOOL_B` are a state pair, and only the SUBJECT has to match, not the
+framing.** State A is the delivered plate `vol3-s04.png`; state B is the canonical reference
+`loc-old-school-camp.png`. The building, the boarded windows and the stripped swing frame carry
+across and were checked. The camera does not: `MAPLE_AND_FOURTH` A and B must be framed
+identically because there the joke IS the framing, whereas here the joke is what is now inside a
+fence you cannot see through, and state A is shot from outside at ground level and can never
+show it. So state B is elevated — which is also how the arc discovers the place, from the roof
+of the hardware store.
+
+**The fence must look wrong in the right way.** It is not security, it is a copy of a document:
+*“Nine feet tall. Privacy slats. Green.”*, and *“Somebody read that page four hours before the
+trucks got here.”* So it is newer, straighter and better made than the school or anything else
+in frame, with no sag and no gap. Vex’s line depends on it — *“This one isn’t even thinking
+about me.”*
+
+**The dumpster pad geometry is load-bearing and the reference holds it.** *“And the property
+line runs along the outside of this concrete, so that’s where the fence went.” Vex pointed at
+the hatch on the other side of it. “But the boiler hatch is inside.”* Run the fence straight
+past the pad in any plate and the entire break-in stops making sense.
+
+**Known gap, recorded rather than regenerated: there is no tarp-covered object.** Owen counts
+*“one command tent, four squad tents, a generator, and something under a tarp that isn’t a
+generator”*, and he counted twice. The tents, the count and the generator are all correct in the
+reference; the tarp is absent. **Any plate showing the tent line must add it** — a low bulky
+shape under a fitted tarp, roped down, near the generator, not identifiable as anything. It is a
+question the arc asks and does not answer, so it must not resolve into a recognisable object.
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 | `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
 

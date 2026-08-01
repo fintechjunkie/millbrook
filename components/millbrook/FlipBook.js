@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Crumbs } from './Crumbs';
 import { useTextEditing } from './useTextEditing';
 import { useTypeScale } from './useTypeScale';
+import PLATE_CAPTIONS from '@/patch-notes/plate-captions.json';
 import {
   BlankPage, GraphicPage, OpenerSpread, TextPage, scrollEdges, scrollOneScreen,
 } from './SpreadPage';
@@ -21,19 +22,27 @@ import { color, geometry, paper, reader, space, turn as TURN, type, ui } from '@
 // ============================================================
 
 function buildLeaves(volume) {
-  // The running section, carried forward so a continuation page still knows which
-  // section it is in. Only 25 of the 38 spreads open a new one; the plate caption
-  // needs an answer for all of them, and "the section this page continues" is the
-  // true answer rather than a filler. Falls back to the chapter, which is only
-  // reachable if a volume's first spread opens with no heading at all.
+  // The plate caption, and the fallback behind it.
+  //
+  // An authored line per plate is the real thing: it names the moment the picture
+  // is of, which is what a caption is for. The running section was the first
+  // attempt and it was only half a caption — it repeated a heading already set on
+  // the facing page and told the reader nothing the picture had not.
+  //
+  // The section stays as the fallback rather than being thrown away, because it is
+  // what keeps an uncaptioned plate from going bare: the Understudies plates have
+  // no lines written yet. Carried forward from the last spread that declared a
+  // heading, since only 25 of the 38 spreads open a section and a continuation
+  // page is genuinely still in the one it continues.
   let section = null;
   return volume.spreads.map((s) => {
     const heading = (s.blocks || []).find((b) => b.t === 'h');
     if (heading) section = heading.v;
+    const authored = s.image?.slug ? PLATE_CAPTIONS[s.image.slug] : null;
     return {
       kind: s.kind, // 'opener' | 'spread'
       spread: s,
-      section: section ?? volume.chapter,
+      caption: authored ?? section ?? volume.chapter,
       key: `${volume.slug}-${s.n}`,
     };
   });
@@ -971,7 +980,7 @@ export default function FlipBook({ volume, next = null }) {
   const renderRight = (l) => {
     if (!l) return <BlankPage />;
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side="right" />;
-    return <GraphicPage spread={l.spread} compact={false} section={l.section} />;
+    return <GraphicPage spread={l.spread} compact={false} caption={l.caption} />;
   };
   // On a single-page layout a spread is split across two swipes, and an opener
   // shows as one whole composition.
@@ -981,7 +990,7 @@ export default function FlipBook({ volume, next = null }) {
     if (l.kind === 'opener') return <OpenerSpread spread={l.spread} side={null} compact />;
     return p.half === 0
       ? <TextPage spread={l.spread} compact editing={edit.editing} onEditParagraph={onEditParagraph} typeScale={typeSize.scale} onAdvance={atEnd ? undefined : () => go('fwd')} />
-      : <GraphicPage spread={l.spread} compact section={l.section} />;
+      : <GraphicPage spread={l.spread} compact caption={l.caption} />;
   };
 
   // Which leaf each half of the base layer shows during a turn.

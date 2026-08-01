@@ -283,6 +283,28 @@
       "approved": true,
       "approvalNote": "yes, 2026-07-31 · Seed: pending",
       "renderingNote": null
+    },
+    "CHET": {
+      "token": "CHET",
+      "immutable": "A small, worn-out humanoid robot, **about four feet tall**, squat and solid. His head is a rounded metal box in pale bone-grey enamel gone chalky, with panel seams, rivets, dents and rubbed-through patches. A recessed dark band across the upper face holds **two large rounded-rectangular eye panels, flat white, each with a small low black pupil**. **He has no nose and no mouth**: below the eyes the face is a blank panel. A round machined port with a chrome rim sits at each side of the head, and a thin black cable trails from behind one. Out of the open top of the head grows **a shock of coarse straw-blond hair in stiff untidy spikes**. His neck is an exposed coiled spring. His torso is an upright riveted canister in the same bone-grey with a small hinged access panel, a dark vent slot and **one recessed indicator lamp glowing dull orange-red** on the chest. Large exposed ball-joint shoulders in dark steel, thin segmented arms, segmented legs and flat oval feet. A hundred repairs old.",
+      "immutableInactive": null,
+      "canonicalRef": "char-chet-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
+    },
+    "THE_MAN": {
+      "token": "THE_MAN",
+      "immutable": "A very small man, no taller than a young child, bald, with a smooth pale head, small ears and a plain face wearing a flat, closed, faintly serious expression — patient, unhurried and entirely unsurprised. **Round spectacles with fine dark rims and blank white lenses.** Worn: a plain black wool overcoat cut long, nearly to the ankles, with a small standing collar and **exactly THREE round burnt-orange buttons** down the front; black trousers and plain black shoes. **Both hands stay in the coat pockets.** No hat, no scarf, no bag, no watch, no jewellery.",
+      "immutableInactive": null,
+      "canonicalRef": "char-the-man-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
     }
   },
   "wardrobe": {
@@ -523,6 +545,13 @@
       "block": "A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains.",
       "uses": 1,
       "canonicalRef": null,
+      "standInRef": null
+    },
+    "OLD_SCHOOL_B": {
+      "token": "OLD_SCHOOL_B",
+      "block": "The same school six months later, occupied as a military camp: a new nine-foot chain link fence with green privacy slats woven through it, dead straight and taut, with a vehicle gate open at the corner; six sand-coloured cargo trucks on the asphalt apron; one command tent, four squad tents and a generator on the softball field; and at the north side a concrete dumpster pad with two dumpsters and a flush boiler hatch, **with the fence running the OUTER edge of the concrete so the pad is inside it**. **State B of a single location — see the note below.**",
+      "uses": 4,
+      "canonicalRef": "loc-old-school-camp.png",
       "standInRef": null
     },
     "HOTEL_ROOM": {

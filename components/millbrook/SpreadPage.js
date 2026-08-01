@@ -583,22 +583,24 @@ export function TextPage({ spread, compact, editing = false, onEditParagraph, ty
  * ending two thirds down on the right.
  *
  * So the space gets a job instead of a fix. A caption directly under the plate is
- * what an illustrated book does with exactly this proportion, and it needs no new
- * prose: `section` is the running section heading, carried forward from the last
- * spread that declared one. That matters — only 25 of the 38 spreads open a new
- * section, so keying the caption on this spread's own heading would have printed
- * it on two thirds of the plates and left the rest bare, which is worse than none.
- * Carrying it forward resolves all 38, and a continuation page is genuinely still
- * in the section it continues.
+ * what an illustrated book does with exactly this proportion.
  *
- * No spoiler risk by construction: the line is already set on the facing page, or
- * on an earlier one.
+ * `caption` names the MOMENT, not the room. It was the running section heading
+ * first, which was free and consistent and only half a caption: it repeated a line
+ * already set on the facing page and told the reader nothing the picture had not.
+ * The authored lines live in `patch-notes/plate-captions.json`, keyed by image
+ * slug, with the running section still behind them as the fallback so a plate with
+ * no line written yet is never bare.
+ *
+ * Spoiler-safe by inheritance rather than by review: a caption describes the beat
+ * its own plate already depicts, and that plate has been cleared for this spread.
+ * A caption that needs to reach further than the picture is the wrong caption.
  *
  * No frame added on desktop, deliberately. The compact plate is framed because it
  * floats on grey with no page edge to sit against; on paper the page edge already
  * says "object resting on a surface", and the note on the frame below says so.
  */
-export function GraphicPage({ spread, compact, section }) {
+export function GraphicPage({ spread, compact, caption }) {
   // A 3:2 plate on a square page can only reach about two thirds of the page
   // height, so padding here is margin the plate cannot afford. Kept tight on
   // both, and zero on a phone, where every pixel of gutter is a pixel off the
@@ -680,21 +682,41 @@ export function GraphicPage({ spread, compact, section }) {
             corner. Caption belongs to the picture, folio belongs to the page, and
             putting them on opposite edges says which is which without a rule.
 
-            Same utility face, size and colour logic as the Folio: the furniture on
-            this page should read as one voice, and inkSoft on the reader's grey
-            ground measures 2.9:1, so compact takes the lighter step. */}
-        {section && (
+            **Italic serif, not the letterspaced caps the rest of the furniture
+            wears, and that is a deliberate break from the house rule.** Caps at 8.5px
+            were right while the line was a section heading — a label, two or three
+            words, read at a glance. An authored caption is a phrase, and uppercase
+            letterspacing is the worst possible setting for one: it removes the word
+            shapes a reader uses to take in running text, and "Pip goes still on the
+            milk crate" becomes something to decode rather than read. Italic serif at
+            this size is what a plate caption is set in, in more or less every
+            illustrated book, for exactly that reason.
+
+            It also draws the right line. A caption is editorial content ABOUT the
+            picture; the folio and the counter are interface. Setting them apart says
+            which is which. The `utility` face keeps every other piece of furniture
+            on the page.
+
+            inkSoft on the reader's grey ground measures 2.9:1, so compact takes the
+            lighter step, exactly as the Folio does. */}
+        {caption && (
           <figcaption
             style={{
-              ...type.utility,
-              fontSize: 8.5,
-              letterSpacing: '0.18em',
+              fontFamily: type.body.fontFamily,
+              fontStyle: 'italic',
+              // Up from 8.5. Small enough to stay subordinate to the picture, large
+              // enough to be read rather than noticed.
+              fontSize: 11.5,
+              lineHeight: 1.35,
               color: compact ? reader.textMuted : color.inkSoft,
               marginTop: space(3),
+              // Never wider than the measure, so a long caption breaks like prose
+              // rather than running the full width of the plate.
+              maxWidth: '30em',
               ...(compact ? { paddingLeft: space(4), paddingRight: space(4) } : null),
             }}
           >
-            {section}
+            {caption}
           </figcaption>
         )}
       </figure>
