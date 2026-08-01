@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { color, paper, space, type } from '@/lib/millbrook/series';
+import DERIVATIVES from '@/lib/millbrook/derivatives.json';
 
 // Images resolve by slug from one flat directory at runtime. No manifest of
 // paths, no imports, no build step. Dropping vol3-s04.png into
@@ -14,6 +15,53 @@ const DIR = '/images';
 const EXT = 'png';
 
 export const srcFor = (slug) => `${DIR}/${slug}.${EXT}`;
+
+/**
+ * The WebP srcset for a slug, or null when there is not one.
+ *
+ * **Null is the important case, and it is why this reads a manifest instead of
+ * assuming a naming convention.** `<picture>` does not fall back on a network
+ * failure — it chooses a `<source>` on type and media alone, and if that URL 404s
+ * the image is simply broken. So emitting a guessed `.webp` path would turn every
+ * newly-dropped plate into a broken picture until someone remembered to run the
+ * build. Art lands in this directory continuously while an arc is being generated,
+ * so that window is the normal state of the project, not an edge case.
+ *
+ * Reading the generated manifest means an unprocessed image renders exactly as it
+ * did before this existed: the PNG, straight from `src`. Running `npm run images`
+ * is then an optimisation rather than a repair.
+ */
+export function webpSrcSet(slug) {
+  const widths = DERIVATIVES[`${slug}.${EXT}`];
+  if (!widths?.length) return null;
+  return widths.map((w) => `${DIR}/derived/${slug}-${w}.webp ${w}w`).join(', ');
+}
+
+/**
+ * How wide this image will actually be drawn, per breakpoint.
+ *
+ * `sizes` is a promise made to the browser BEFORE layout exists, and it is the only
+ * thing that decides which entry in the srcset gets fetched. Getting it wrong is
+ * invisible in the DOM and expensive on the wire: the first version of this used the
+ * plate's own value everywhere, and a volume cover that draws at 267px happily
+ * downloaded the 1600px file. One `sizes` cannot serve a half-spread plate, a
+ * quarter-width shelf card and a full-bleed banner — only the caller knows its own
+ * layout, so the caller has to say.
+ *
+ * Over-estimating costs a larger file. Under-estimating costs a soft one. Prefer to
+ * over-estimate at the boundary and get the breakpoints right.
+ */
+export const SIZES = {
+  // Right page of a two-page spread above `geometry.breakpoint` (900), full column
+  // below it.
+  plate: '(max-width: 900px) 100vw, 50vw',
+  // `.mb-shelf` is 1 column, 2 at 620px, 4 at 1080px, inside a 1320px max width.
+  cover: '(max-width: 620px) 100vw, (max-width: 1080px) 50vw, 320px',
+  // Banner and cast strip run the full width of the viewport.
+  full: '100vw',
+  // A cast portrait sits in a small fixed panel.
+  portrait: '220px',
+};
 
 /**
  * onError alone is not enough, and this is why the fallback needs a ref as
@@ -134,6 +182,10 @@ export function Plate({
   // so the shelf is never empty and dedicated covers can be added later without
   // a code change.
   fallbackSlug,
+  // Which entry of the srcset the browser should fetch. See SIZES above — this is
+  // load-bearing, not decoration, and the default is the commonest case rather than
+  // a safe one.
+  sizes = SIZES.plate,
 }) {
   const [ref, failed, markFailed] = useBrokenImage(slug);
   const [fellBack, setFellBack] = useState(false);
@@ -148,7 +200,14 @@ export function Plate({
     return <PlatePlaceholder slug={slug} shotType={shotType} aspect={aspect} fullBleed={fullBleed} />;
   }
 
-  return (
+  const srcSet = webpSrcSet(active);
+
+  // The <img> keeps every behaviour it had: the ref, the error handler, the key, the
+  // PNG in `src`. The <picture> only ever ADDS a cheaper option the browser may take.
+  // Written this way round on purpose — the broken-image handling below cost real
+  // time to get right, and none of it should depend on the derivative pipeline
+  // having been run.
+  const img = (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       key={active}
@@ -156,6 +215,11 @@ export function Plate({
       src={srcFor(active)}
       alt={alt || ''}
       onError={useFallback ? () => setFellBack(true) : markFailed}
+      // Lazy everywhere except the plate the reader is looking at would be the
+      // careful version; the reader only mounts the current spread and its
+      // neighbours anyway, so `async` decoding is the part that actually helps —
+      // it keeps a 1600px decode off the main thread during a page turn.
+      decoding="async"
       style={{
         display: 'block',
         width: '100%',
@@ -165,5 +229,14 @@ export function Plate({
         background: ground,
       }}
     />
+  );
+
+  if (!srcSet) return img;
+
+  return (
+    <picture key={active}>
+      <source type="image/webp" srcSet={srcSet} sizes={sizes} />
+      {img}
+    </picture>
   );
 }

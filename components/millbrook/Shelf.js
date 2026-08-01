@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import Link from 'next/link';
-import { Plate } from './Plate';
+import { Plate, SIZES } from './Plate';
 import { useBookOpen } from './useBookOpen';
 import { color, paper, space, type, ui } from '@/lib/millbrook/series';
 
@@ -63,6 +63,7 @@ function VolumeCard({ arc, volume, data }) {
           shotType="Cover"
           aspect="2 / 1"
           fit="cover"
+          sizes={SIZES.cover}
         />
       </div>
 

@@ -6,7 +6,9 @@
     "dev": "node scripts/dev.mjs",
     "parse": "node scripts/parse-specs.mjs",
     "prompts": "node scripts/parse-specs.mjs && node scripts/build-prompt-sheet.mjs",
-    "prebuild": "node scripts/parse-specs.mjs",
+    "images": "node scripts/build-images.mjs",
+    "images:check": "node scripts/build-images.mjs --check",
+    "prebuild": "node scripts/parse-specs.mjs && node scripts/build-images.mjs --check",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.35"
+    "eslint-config-next": "14.2.35",
+    "sharp": "^0.35.3"
   }
 }

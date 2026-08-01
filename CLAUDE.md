@@ -45,6 +45,48 @@ JSON; it is generated and should never be hand-touched.
 **The declared word count is a tripwire, not bookkeeping.** Do not make `parse` repair
 it silently. Two commands for two cases is the point.
 
+---
+
+## When a new image lands: `npm run images`
+
+**Every time art is added to `public/images`, run `npm run images` and commit
+`public/images/derived` along with the master.** That is the whole obligation. It is
+incremental, so one new plate costs one encode and a few seconds, and running it when
+nothing has changed is free.
+
+Why it matters: the masters are ~3MB lossless PNGs, which is the wrong container for a
+painterly illustration. The script writes WebP siblings at 400/800/1200/1600 (skipping
+any rung at or above the source width, plus one at full width) and `Plate` serves them
+through `<picture>`. Measured on the delivered arc: the landing page went from 14.6MB
+of images to 348KB, and a page turn from 2973KB to 178KB.
+
+- `npm run images` — build what is missing or stale
+- `npm run images -- --force` — rebuild everything
+- `npm run images:check` — name anything missing or stale, exit 1
+
+**`prebuild` runs `--check`, so a production build FAILS if art was added without
+derivatives.** Same discipline as the word count: it refuses rather than silently
+repairing itself, because the silent repair would mean shipping 3MB masters to readers.
+
+Three things worth knowing before changing any of it:
+
+- **Forgetting to run it is safe.** `Plate` reads `lib/millbrook/derivatives.json` and
+  emits `<picture>` only for slugs listed there, so an unprocessed image renders
+  exactly as it did before any of this existed — the PNG, straight from `src`.
+  This is not politeness, it is necessary: `<picture>` does not fall back on a 404. It
+  picks a `<source>` on type and media alone, so a guessed `.webp` path would turn
+  every newly-dropped plate into a broken image until someone remembered the command.
+- **`sizes` is load-bearing and belongs to the CALLER.** It is a promise about drawn
+  width made before layout exists, and it alone decides which file is fetched. One
+  value cannot serve a half-spread plate, a quarter-width shelf card and a full-bleed
+  banner: the first attempt used the plate's everywhere and a cover that draws at
+  267px cheerfully downloaded the 1600px file. Use the `SIZES` map in `Plate.js`.
+- **`sharp` is a devDependency and is only needed to AUTHOR derivatives.** They are
+  committed, so building and deploying needs nothing installed and no runtime image
+  loader. Do not reach for `next/image` — it would add a runtime loader and mean
+  rewriting the broken-image handling in `Plate.js`, which is load-bearing and cost
+  real time to get right.
+
 **`/checks/overflow` cannot be trusted in a non-compositing preview pane.** It measures inside
 a double `requestAnimationFrame`, which never fires while the page is not painting, so every
 row sits at `—` forever and the table looks broken rather than pending. To measure fill without

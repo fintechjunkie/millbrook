@@ -1,6 +1,6 @@
 'use client';
 
-import { Plate } from './Plate';
+import { Plate, SIZES } from './Plate';
 import { color, paper, type } from '@/lib/millbrook/series';
 
 /**
@@ -20,7 +20,7 @@ export function Banner({ slug, aspect = '3 / 1', kicker, title, tagline, childre
   return (
     <div className="mb-banner">
       <div className="mb-banner-art" aria-hidden="true">
-        <Plate slug={slug} alt="" aspect={aspect} fullBleed fit="cover" />
+        <Plate slug={slug} alt="" aspect={aspect} fullBleed fit="cover" sizes={SIZES.full} />
       </div>
       <div className="mb-banner-scrim" aria-hidden="true" />
 

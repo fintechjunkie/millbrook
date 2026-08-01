@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Plate } from './Plate';
+import { Plate, SIZES } from './Plate';
 import { CAST } from '@/lib/millbrook/cast';
 import { SITE_IMAGES, cardFrame, color, space, type, ui } from '@/lib/millbrook/series';
 
@@ -50,6 +50,7 @@ export function CastStrip() {
           shotType="Cast strip, the whole ensemble in one frame"
           aspect={SITE_IMAGES.cast.aspect}
           fit="cover"
+          sizes={SIZES.full}
         />
 
         {CAST.map((m) => {
@@ -138,6 +139,7 @@ function CharacterCard({ member, onClose }) {
             // one of them always letterboxes. Handing the plate the panel colour makes
             // that invisible instead of drawing a white band.
             ground={member.ground}
+            sizes={SIZES.portrait}
           />
         </div>
 
