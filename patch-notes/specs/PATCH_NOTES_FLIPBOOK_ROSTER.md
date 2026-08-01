@@ -825,6 +825,7 @@ clear of the pupil and the brows raised, an expression of mild permanent alarm t
 resolves. Carries a rifle across his chest in both gloved hands.
 **He is the one who lays hands on Ottie** and moves her exactly nothing: *“Tovar put his shoulder
 into it and it didn’t rock.”* He should look strong enough for that to be a surprise.
+**Canonical reference:** `char-tovar-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:REYES}} — Sergeant Marisol Reyes
 **Immutable:** A woman in her late twenties, warm light skin with freckles across the nose,
@@ -835,6 +836,7 @@ chest, and no weapon of any kind.
 **The notes are the character.** She hand-carries nine of them across a softball field in one
 afternoon *“because the only other option was shouting”*, Sybil having made every radio in the
 camp work perfectly on the wrong channel.
+**Canonical reference:** `char-reyes-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:DUNPHY}} — Private Kyle Dunphy
 **Immutable:** A young man of about nineteen, the youngest and smallest of the unit. Warm brown
@@ -845,6 +847,7 @@ is slung muzzle-down across his BACK and he does not hold it.
 this arc: he has the Route 9 stop from six to two, *“and he didn’t mind it, because people kept
 bringing him things. Two doughnuts and a folding chair, so far.”* Rocco later drops him with one
 light exact punch to the jaw and catches him on the way down.
+**Canonical reference:** `char-dunphy-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:PACE}} — Lieutenant Pace
 **Immutable:** A woman in her thirties, medium brown skin with freckles across the nose, and
@@ -854,6 +857,7 @@ Stands with her arms folded. No rifle and no weapon.
 **Her gender was never stated in the manuscript** and is a free choice made here. She is the one
 whose orders come out of a speaker on a folding table in the mess tent while the questions about
 them arrive at a radio locked inside a truck.
+**Canonical reference:** `char-pace-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:IDA}} — Ida Prewitt
 **Immutable:** A woman in her early seventies, small and brisk. Short silver-white hair in close
@@ -874,6 +878,7 @@ the green cardigan owns both. Nobody in either arc wears yellow.
 without them and they are half the joke.
 **Her wave is deliberately not in the sheet.** Every canonical reference is neutral pose, doing
 nothing; a sheet that performs an action stops being a reference. The wave belongs in the plate.
+**Canonical reference:** `char-ida-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:RENSCH}} — Bill Rensch, the county administrator
 **Immutable:** A man in his sixties, thin, narrow-shouldered and stooped forward from the neck. A
@@ -896,6 +901,8 @@ which is the job — but it is the one sheet in the set that is a little bit a s
 **He is the FOURTH bald man in the series**, after Owen, Mayor Dalton and Rocco, and Rocco is the
 closest: both bald with beards. They separate on skin, spectacles, age and dress, and they never
 share a scene. Do not frame them alike.
+**Canonical reference:** `char-rensch-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+
 ## 4.5 Benny — The Understudies
 
 Locked 2026-07-31 from delivered art. Sheet: `char-benny-canonical.png`, 1086x1448, exactly
