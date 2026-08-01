@@ -272,6 +272,17 @@
       "approved": false,
       "approvalNote": null,
       "renderingNote": null
+    },
+    "BENNY": {
+      "token": "BENNY",
+      "immutable": "A man in his mid fifties, brown skin, solidly built and thick through the chest and shoulders — someone who trained hard a long time ago and stayed strong without staying lean.",
+      "immutableInactive": null,
+      "canonicalRef": "char-benny-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
     }
   },
   "wardrobe": {
@@ -519,6 +530,13 @@
       "block": "A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.",
       "uses": 1,
       "canonicalRef": null,
+      "standInRef": null
+    },
+    "BENNY_GYM": {
+      "token": "BENNY_GYM",
+      "block": "A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.**",
+      "uses": 2,
+      "canonicalRef": "loc-benny-gym.png",
       "standInRef": null
     }
   },

@@ -863,6 +863,56 @@ which is the job — but it is the one sheet in the set that is a little bit a s
 **He is the FOURTH bald man in the series**, after Owen, Mayor Dalton and Rocco, and Rocco is the
 closest: both bald with beards. They separate on skin, spectacles, age and dress, and they never
 share a scene. Do not frame them alike.
+## 4.5 Benny — The Understudies
+
+Locked 2026-07-31 from delivered art. Sheet: `char-benny-canonical.png`, 1086x1448, exactly
+3:4, RGB with no alpha, ground `rgb(244,222,197)`. Archived at
+`reference-source/SECONDARY/Benny/`.
+
+### {{CHAR:BENNY}} — Benny, who owns the gym
+**Immutable:** A man in his mid fifties, brown skin, solidly built and thick through the chest
+and shoulders — someone who trained hard a long time ago and stayed strong without staying lean.
+**Platinum-white hair, bleached rather than aged, short and spiked on top with the sides and
+back shaved close.** A thin beard following the jaw and chin only, going white, with no
+moustache. **Heavy-lidded eyes with the lids low and level** and a small closed-mouth wry
+expression: a man who has been at that desk since five thirty and has already decided this is
+going to be funny. A small silver stud in one ear, deep lines at the corners of the eyes.
+Worn: a **cream-white drawstring hooded sweatshirt, a pullover with a kangaroo pocket**, over a
+dark charcoal t-shirt visible at the neck; black tracksuit trousers with a **double white stripe**
+down the outside of each leg; and white low-top trainers. **A pair of reading glasses pushed up
+into the front of his hair**, never on his face.
+**Canonical reference:** `char-benny-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+
+**His age is fixed by arithmetic, not by description.** The manuscript gives him no physical
+detail at all, but it gives him a number: he has *"been opening that gym at five thirty for
+twenty-six years"*. That puts a floor under him, so the delivered art was written up into the
+mid fifties rather than the thirty the hair suggests on its own. Do not draw him young.
+
+**He shares two spreads with Rocco and both wear a drawstring pullover hoodie.** That is an
+authorial choice, made deliberately, and it means the costume does NOT separate them. Three
+things do, and every plate holding both men has to keep all three legible:
+
+| | Benny | Rocco |
+|---|---|---|
+| Hair | spiked platinum, shaved sides | **bald** |
+| Hands | empty | **grey leather boxing gloves, always** |
+| Expression | wry, heavy-lidded, ahead of you | apprehensive, eyes up and away |
+
+The gloves carry most of it, because Rocco is never without them. There are also thirty years
+and a hoodie colour between them, cream against dark grey. **Do not frame the two alike**, and
+where both appear Benny is the one at rest.
+
+**Ida is also white-haired**, and that is fine: hers is aged silver in close natural curls on a
+woman of seventy. They never share a scene.
+
+**The hoodie carries no lettering**, the same arrangement as Rocco’s GOLDEN GLOVES and Wren’s
+stencil — the negative block forbids text in an image, so it lives in the prose.
+
+**He is the arc’s first reaction shot.** He lets a stranger in a bathrobe use the heavy bag
+purely *because Benny wanted to see what would happen*, and he is the one who phones Milo:
+*"Milo, he asked me for permission to drink water."* The wry look is the character and has to
+survive every plate.
+
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.
@@ -952,6 +1002,16 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:HENDERSON_PORCH}}` | The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
+| `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
+
+**`BENNY_GYM` is a state pair, and the reference is state A.** The prose says *“The bag came
+off the chain, flew eleven feet and took out the water cooler.”* That sentence is geometry, so
+the reference places the bag and the cooler on the same clear run of floor with nothing between
+them, and shows both intact. Any plate of the aftermath is state B and must read as the same
+room. Same discipline as `MAPLE_AND_FOURTH` A and B.
+
+**The OPEN sign is prose only.** The card in the door glass is blank, because the negative
+block forbids signage copy — the same arrangement as Rocco’s GOLDEN GLOVES and Wren’s stencil.
 
 **Stand-in location references, decided 2026-07-29.** Only two purpose-made
 establishing shots were generated, `loc-square.png` and `loc-hollow-pine-int.png`.
