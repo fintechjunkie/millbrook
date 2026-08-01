@@ -74,8 +74,21 @@ watch(SPECS, { recursive: true }, (_event, file) => {
 
 console.log(`[specs] watching ${SPECS.replace(ROOT, '.')} — edit prose and save, no command needed`);
 
+// The port, so two of these can run at once.
+//
+// `next dev` picks 3000 and, if it is taken, quietly picks 3001 instead — which is
+// worse than failing, because the preview tooling is still pointed at 3000 and the
+// author ends up reading a stale page from the other server while wondering why an
+// edit did nothing. Passing it explicitly means a second copy of this repo, in a
+// git worktree, gets a server of its own that everything agrees about.
+//
+//   npm run dev            3000, unchanged
+//   npm run dev -- 3001    a worktree's own server
+//   PORT=3001 npm run dev  same, for tooling that only sets an env var
+const port = process.argv[2] ?? process.env.PORT ?? '3000';
+
 // Next inherits the terminal so its own output, prompts and colours are untouched.
-const next = spawn(process.platform === 'win32' ? 'npx.cmd' : 'npx', ['next', 'dev'], {
+const next = spawn(process.platform === 'win32' ? 'npx.cmd' : 'npx', ['next', 'dev', '-p', port], {
   cwd: ROOT,
   stdio: 'inherit',
   shell: process.platform === 'win32',
