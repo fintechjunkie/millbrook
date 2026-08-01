@@ -562,6 +562,183 @@ rather than narration. Two tests before adding any such beat:
 2. **Does it announce itself?** A character explaining their own speciality is dead on the page.
    Show the skill working and let the reader name it.
 
+## 4.3 The four out of the trunk — The Understudies
+
+**All four locked 2026-07-31 from delivered full-body sheets, and the sheets are the source.**
+Author instruction: where the art and the prose disagreed, the art won and the prose was
+changed to match. What that cost and what it saved is recorded in 4.3a.
+
+Each is 1086x1448, which is 3:4, RGB with no alpha, on a flat sand. The **exact ground differs
+slightly per sheet** and is recorded below, because CLAUDE.md forbids colour-keying a
+background out of a character plate: a portrait on a panel works by setting the panel to that
+character’s own ground so the two agree. Assuming one value for all four is how a faint
+rectangle appears behind a face.
+
+| Character | Slug | Ground | Archive |
+|---|---|---|---|
+| Ottie | `char-ottie-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Ottie/OTTIE_CANONICAL_FULL_BODY.png` |
+| Rocco | `char-rocco-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Rocco/ROCCO_CANONICAL_FULL_BODY.png` |
+| Wren | `char-wren-canonical.png` | `rgb(235,218,193)` | `SECONDARY/Wren/WREN_CANONICAL_FULL_BODY.png` |
+| Sybil | `char-sybil-canonical.png` | `rgb(235,216,192)` | `SECONDARY/Sybil/SYBIL_CANONICAL_FULL_BODY.png` |
+
+The main cast sits on `rgb(238,221,197)`, so all four are within five points of it and of each
+other. Cassie came back on 226,199,163 and Crane on 235,212,182, which is the drift this table
+exists to stop.
+
+**The mechanic, because it constrains all four costumes.** A school props inventory and an old
+programme disagreed, and the patch fixed the document it judged broken. It made four pretend
+things true — *“correct in every detail”* — with one exception that is the whole tell:
+
+- **Prop-ness was made real.** Painted canvas over a wooden frame became steel plate. Vinyl
+  gloves marked *prop only, not for use* became leather. A bow recorded as *string missing* is
+  **not missing a string now**.
+- **Anything the inventory DESCRIBED persists, including the flaws.** The armor’s entry reads
+  *damage to the right shoulder noted*, so the real armor still carries that dent. Pip’s line:
+  *“it left the dent in the shoulder, because somebody had written the dent down too.”*
+
+---
+
+### {{CHAR:OTTIE}} — Dame Ottilie, “Ottie”, the knight
+**Immutable:** A girl, small and slight inside the armor. Fair skin with a warm flush high on
+the cheek, a round soft-jawed face and a small pursed mouth. **Short strawberry-blonde hair,
+tousled and swept up and back as though windblown, with a single loose curl standing away at
+the crown** — never long, never tied, never braided, never in buns. Heavy-lidded eyes under thin
+brows with a **pale lilac wash across the lid** and a dark upper lash line, which gives her a
+permanently unimpressed and faintly tired expression that does not change much whatever is
+happening around her. No glasses.
+Worn, head to foot: a **real steel** cuirass with a high gorget and articulated pauldrons over a
+red under-layer, red sleeves, steel vambraces and couters on both arms, a wide brown leather
+belt with a plain round steel buckle, **red skirting cut in a ragged fringe** below the belt,
+steel poleyns at the knee over red hose, steel greaves, and **brown leather buckled shoes**. The
+steel is scuffed and scratched from use rather than polished.
+**A deep beaten DENT in her RIGHT pauldron**, with radiating creases, clearly readable at a
+glance. She **carries a plain steel longsword**, point down, usually in her right hand.
+**Canonical reference:** `char-ottie-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+**The dent moved shoulder and the sword was allowed in, both on the art’s authority.** The prompt
+forbade a sword in the MUST HOLD block and again in the negative, and the generator drew one
+anyway — which is why it was named twice. Rather than re-roll a sheet that is otherwise right,
+the sword joined the armor’s inventory entry and the leftovers in trunk seven became the straw
+hat and the rubber boots. *“We got lucky”* still means what it meant: it could have made more.
+The dent is a good dent and it is on her right, so the two prose lines that named a side now say
+right. There were TWO of them, and the second was nearly missed: the inventory, and *“There was a
+dent in the right shoulder, and the dent was the only part of it that came from a school play.”*
+**Superseded sheet, recorded so it cannot be reused.** The first reference gave her mint-green
+hair in two high side buns with red ties, which is Vex’s dominant silhouette as locked in 1.1.
+It would have read as Vex at scene distance, where hair is the whole silhouette, and would have
+cost the Volume 2 exchange *“I’d wear the armor.” / “You’d love the armor.”*
+**Hard constraint:** helmet **on, with the visor jammed** by the truck impact, from Volume 3
+onward until Felix frees it on the last morning of Volume 4 — then off, with **the shoulder
+plate carried under her arm**. The canonical sheet is bare-headed so the face reads as the
+identity reference.
+
+### {{CHAR:ROCCO}} — Rocco Vance, the boxer
+**Immutable:** A man of about twenty-five, the only adult of the four, **built like a filing
+cabinet**: square, heavy through the shoulders and chest, with no taper. **Bald**, medium-brown
+skin, a short dark beard and moustache kept close to the jaw. Large round eyes with the whites
+well clear of the pupil, habitually turned up and away to one side, so his resting expression is
+apprehensive rather than aggressive — the face of a man about to ask whether this is allowed.
+Worn: a **dark grey hooded sweatshirt** with drawstrings, printed GOLDEN GLOVES across the back
+with MILLBROOK HIGH SPRING 1987 under it in smaller letters; matching dark grey joggers gathered
+at the ankle; and **dark boots with pale toe caps and pale laces**. **Grey laced leather boxing
+gloves on both hands**, usually up in a loose guard in front of the chest.
+**Canonical reference:** `char-rocco-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+**The lettering is prose only and must never be rendered.** The negative block forbids text in
+an image, so GOLDEN GLOVES and MILLBROOK HIGH SPRING 1987 exist in the manuscript and not on the
+plate. That is the same arrangement as Wren’s stencil.
+**Hard constraints:** the gloves are **leather, soft and worn, never vinyl and never glossy** —
+the inventory says vinyl, and *“Rocco’s gloves are leather”* is how the correction gets detected.
+**The expression is the character and must survive every plate.** He asks Benny twice whether he
+minds him being there and asks permission to drink water. He apologises to a television. He
+holds a game controller *“like a bird”*. Hit by a truck, he calls it a good four days. Nothing in
+a plate should ever make him look like a fighter squaring up — the guard is a habit, not a threat.
+
+### {{CHAR:WREN}} — Wren Ashbury, the archer
+**Immutable:** A girl, small and wiry. Fair skin, a round face, a small orange-red mouth, and
+**thick dark expressive eyebrows that do most of her acting**, frequently one raised. Large round
+alert eyes, usually looking off to one side at something nobody else has noticed yet. **Dark teal
+hair, straight and chin-length**, with a heavy side-swept fringe falling either side of the face.
+Worn, head to foot: a **teal knitted cap with two pointed animal ears** standing up from it, white
+tufts inside the ears and a small orange patch at the crown — her most recognisable feature at any
+distance. A large **orange neckerchief** at the throat, spread across the chest. A teal-green
+long-sleeved tunic belted at the waist with a brown leather belt and a square steel buckle, a
+small brown pouch on the belt. A **rust-orange pack** on both shoulders on brown leather straps,
+with a **quiver rising past her right shoulder** holding twelve blunt practice arrows, fletchings
+orange, teal and cream. Olive-green cargo trousers with **visible patches and deep turn-ups**,
+teal socks, and dark boots with pale toe caps. A **strung** recurve bow of warm wood with pale
+teal tips, carried in her left hand, the string clearly present.
+**Canonical reference:** `char-wren-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+**Delivered clean.** The supplied portrait carried a small red fire extinguisher clipped beside
+the bow, which was excluded from the prompt as a generation artifact. It is absent from the
+sheet, and the bow is correctly strung.
+**Watch the Vex echo, which is in the trousers rather than the head.** Olive cargo trousers with
+patches and deep turn-ups, teal socks and dark boots with pale toe caps is close to VEX_A almost
+item for item, and both girls have teal-family hair. They separate on silhouette and skin: eared
+cap and chin-length hair against two high buns, fair skin against warm brown with freckles. In a
+plate holding both, do not put them in the same posture or crop them at the waist.
+**Hard constraints:** the bow is **strung** — the inventory recorded it string-missing and the
+correction is a plot point. Arrows are **twelve blunt practice arrows**, never broadheads.
+
+### {{CHAR:SYBIL}} — Sybil Prine, the witch
+**Immutable:** A girl of about twelve, small. Fair skin with **freckles scattered across the nose
+and upper cheeks**, a small orange-red mouth, thin dark brows, and large round eyes usually
+turned upward. **Dark brown-black hair, short and loosely curled, ending at the jaw**, with a
+fringe and strands escaping around the face. A **single gold hoop earring**, on her left.
+Worn, head to foot: a **soft orange-red pointed hat with a floppy drooping tip** over a darker
+red underbrim; a long-sleeved orange dress to the knee, **printed all over with small black cats,
+potion bottles, bats and stars**, the sleeves long enough to half-swallow her hands, which she
+habitually holds clasped at her chest; cream ribbed socks slouched at the ankle; and dark boots
+with pale toe caps and pale laces.
+**Canonical reference:** `char-sybil-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+**She reads as a child, and the prose was written for an older woman.** *“Sorry, dear”* and the
+hand on Lena’s shoulder as she passes were an older woman’s lines. Delivered by a girl of this age
+they become funnier rather than wrong, so **the dialogue stands unchanged** and only the
+inventory’s garment size moved, from *adult small* to *child large*. Play the lines straight; the
+joke is that she does not appear to notice she is twelve.
+**What she does, and it is never violent.** She knocks nobody down; she makes it impossible to
+run a military unit. Every device near her can stop at once — she puts one finger on a trackpad
+and every machine in the building shuts off. On her way out she touches Lena’s shoulder and every
+screen in Millbrook flickers, and four thousand people notice and not one of them calls anybody.
+
+---
+
+### 4.3a Which document is true — RESOLVED 2026-07-31
+
+The arc turns on a props inventory being read literally and made true, so the inventory and the
+four sheets had to describe the same four costumes. They did not.
+
+**Author instruction: the newly generated images are the source, and the text changes to reflect
+them.** Six passages were rewritten in ONE pass, because they describe the same four costumes
+from different angles and editing them one at a time is how half of them end up disagreeing.
+
+| | Was | Now |
+|---|---|---|
+| Rocco | green-and-gold satin robe, gloves carried in one hand | grey hooded sweatshirt carrying the same lettering, gloves on both hands |
+| Wren | a green tunic, ROBIN HOOD 1994 inside the collar | a knitted green cap with ears, and the stencil moved to *inside her collar* |
+| Sybil | THE CRUCIBLE 2009, black wool dress with a white collar | FALL FESTIVAL 2009, orange dress printed with cats and potion bottles, drooping felt hat |
+| Ottie | dent in the LEFT shoulder, no sword | dent in the RIGHT shoulder, and the sword joins the armor’s inventory entry |
+| trunk seven | the wooden sword next to a straw hat | the straw hat next to a pair of rubber boots |
+
+**What was saved, and it looked like a casualty.** Rocco’s robe set up a joke a page later, where a
+sergeant has to radio the sighting in and *“the hardest part of the whole morning was having to say
+the words green and gold on a live channel with his lieutenant listening. Then he had to spell
+Millbrook. Then he had to say 1987.”* Moving the lettering to a school athletics hoodie — which is
+arguably a more natural thing to have GOLDEN GLOVES printed across than a satin robe — keeps the
+whole beat: he now has to say *golden gloves* on a live channel instead.
+
+**What was lost, stated plainly.** THE CRUCIBLE 2009 is gone. Sybil coming out of a production of
+The Crucible made her an ACCUSED witch out of Arthur Miller, which was the sharpest of the four
+costume ideas; an orange dress printed with cats is a costume-shop witch. FALL FESTIVAL 2009
+keeps the naming system — every costume is still a named school production with a year on it —
+but the idea underneath it does not survive. Recorded here rather than quietly dropped.
+
+**The mechanism survived intact**, which was the requirement. Every inventory item still carries
+exactly one recorded flaw or prop marking, because three later lines of dialogue turn on specific
+ones: *“The bow was missing a string”*, *“the gloves say prop only. Not for use”*, and the dent. Sybil’s
+hat earns its own — the inventory records the tip as bent, so the real hat droops, which is what
+the sheet shows.
+
+**Wardrobe letters:** `ROCCO_A`, `WREN_A`, `OTTIE_A`, `OTTIE_B` (helmet off, shoulder plate
+carried), `SYBIL_A`. New arc, new letters, per 5.1. Never rewrite an existing one.
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.

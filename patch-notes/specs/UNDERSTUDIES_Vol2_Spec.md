@@ -42,7 +42,7 @@ Alt text: PENDING
 
 ## Spread 1
 
-Pages 3 to 4 | Part Two: Four Out Of The Trunk | Words 234
+Pages 3 to 4 | Part Two: Four Out Of The Trunk | Words 232
 
 ### Text page (left), verbatim
 
@@ -52,7 +52,7 @@ The first one showed up at Benny’s gym at six in the morning and knocked on th
 
 Benny had been opening that gym at five thirty for twenty-six years and nobody had ever knocked, because the door is glass and the sign says OPEN and there’s a man sitting right there doing paperwork. But the guy knocked, and then he waited, and when Benny let him in he wiped his feet for a solid minute on a mat that hadn’t been swept since March.
 
-He was maybe twenty-five and built like a filing cabinet. He had on a satin robe, green and gold, with GOLDEN GLOVES across the back and MILLBROOK HIGH SPRING 1987 underneath it in smaller letters. The gloves in his hand were real leather, worn soft, and they looked older than he did.
+He was maybe twenty-five and built like a filing cabinet. He had on a grey hooded sweatshirt with GOLDEN GLOVES across the back and MILLBROOK HIGH SPRING 1987 underneath it in smaller letters. The gloves on his hands were real leather, worn soft, and they looked older than he did.
 
 “Sorry to bother you,” he said. “Do you happen to know what year it is?”
 
@@ -122,7 +122,7 @@ Alt text: PENDING
 
 ## Spread 3
 
-Pages 7 to 8 | Part Two: Four Out Of The Trunk | Words 237
+Pages 7 to 8 | Part Two: Four Out Of The Trunk | Words 242
 
 ### Text page (left), verbatim
 
@@ -130,13 +130,13 @@ Then he sat on the guardrail and waited, because he didn’t know what came next
 
 Dunphy woke up eleven minutes later with a headache and no memory of the last half minute, and there was a stranger sitting beside him saying, “You’re okay. You’re okay. Do you want water? I don’t have any water.”
 
-He radioed it in, and the hardest part of the whole morning was having to say the words green and gold on a live channel with his lieutenant listening. Then he had to spell Millbrook. Then he had to say 1987.
+He radioed it in, and the hardest part of the whole morning was having to say the words golden gloves on a live channel with his lieutenant listening. Then he had to spell Millbrook. Then he had to say 1987.
 
 ### Wren, Ottie And Sybil
 
 By noon there were four of them.
 
-Wren Ashbury turned up in the pines behind the Route 9 stop with a bow, a quiver of blunt practice arrows and a green tunic with ROBIN HOOD 1994 stenciled inside the collar. She never once shot at a person. She shot at what people were wearing and carrying. She put an arrow through the loose canvas of a tent and pinned the flap shut, and she put another one through a rifle sling and into a pine, and the soldier attached to it hopped around for four minutes before his sergeant came over and cut the strap.
+Wren Ashbury turned up in the pines behind the Route 9 stop with a strung bow, a quiver of blunt practice arrows, a knitted green cap with ears sewn onto it and ROBIN HOOD 1994 stenciled inside her collar. She never once shot at a person. She shot at what people were wearing and carrying. She put an arrow through the loose canvas of a tent and pinned the flap shut, and she put another one through a rifle sling and into a pine, and the soldier attached to it hopped around for four minutes before his sergeant came over and cut the strap.
 
 She apologized every single time, from ninety yards away, loud enough for everybody to hear it.
 
@@ -155,11 +155,11 @@ Alt text: PENDING
 
 ## Spread 4
 
-Pages 9 to 10 | Part Two: Four Out Of The Trunk | Words 296
+Pages 9 to 10 | Part Two: Four Out Of The Trunk | Words 305
 
 ### Text page (left), verbatim
 
-It was steel. Nobody thought to wonder about that for another day and a half, and when they finally did wonder, the answer turned out to be the whole story. There was a dent in the left shoulder, and the dent was the only part of it that came from a school play.
+It was steel. Nobody thought to wonder about that for another day and a half, and when they finally did wonder, the answer turned out to be the whole story. There was a dent in the right shoulder, and the dent was the only part of it that came from a school play.
 
 Specialist Tovar tried to walk her off the road and moved her exactly nothing. They tased her, and the taser did nothing at all, and Ottie said, politely, through the visor, “That tickled a little.”
 
@@ -167,7 +167,7 @@ They tried to drive around her, so she walked over and stood in front of the tru
 
 Sybil Prine didn’t knock anybody down. Sybil Prine made it impossible to run a military unit.
 
-She came out of THE CRUCIBLE 2009 in a black wool dress with a white collar and a real hat, and she walked the whole perimeter of the school property once, slowly, touching the fence every thirty feet or so. After that, every compass in the camp pointed at the bakery instead of north. Two handheld GPS units agreed that the command tent was in Ohio. Every radio worked perfectly and every radio worked on the wrong channel, so Lieutenant Pace’s orders came out of a speaker on a folding table in the mess tent, and the questions about those orders arrived at a radio locked inside a truck.
+She came out of FALL FESTIVAL 2009 in an orange dress printed all over with black cats and potion bottles, and a pointed felt hat with a drooping tip, and she walked the whole perimeter of the school property once, slowly, touching the fence every thirty feet or so. After that, every compass in the camp pointed at the bakery instead of north. Two handheld GPS units agreed that the command tent was in Ohio. Every radio worked perfectly and every radio worked on the wrong channel, so Lieutenant Pace’s orders came out of a speaker on a folding table in the mess tent, and the questions about those orders arrived at a radio locked inside a truck.
 
 By two in the afternoon Sergeant Marisol Reyes had hand-carried nine notes across the softball field, because the only other option was shouting.
 

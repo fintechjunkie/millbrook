@@ -162,6 +162,50 @@
       "approved": false,
       "approvalNote": "no",
       "renderingNote": "Never render her as sinister. The mismatched button is the only thing in the frame that is wrong, and it should be legible without being pointed at."
+    },
+    "OTTIE": {
+      "token": "OTTIE",
+      "immutable": "A girl, small and slight inside the armor. Fair skin with a warm flush high on the cheek, a round soft-jawed face and a small pursed mouth. **Short strawberry-blonde hair, tousled and swept up and back as though windblown, with a single loose curl standing away at the crown** — never long, never tied, never braided, never in buns. Heavy-lidded eyes under thin brows with a **pale lilac wash across the lid** and a dark upper lash line, which gives her a permanently unimpressed and faintly tired expression that does not change much whatever is happening around her. No glasses. Worn, head to foot: a **real steel** cuirass with a high gorget and articulated pauldrons over a red under-layer, red sleeves, steel vambraces and couters on both arms, a wide brown leather belt with a plain round steel buckle, **red skirting cut in a ragged fringe** below the belt, steel poleyns at the knee over red hose, steel greaves, and **brown leather buckled shoes**. The steel is scuffed and scratched from use rather than polished.",
+      "immutableInactive": null,
+      "canonicalRef": "char-ottie-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
+    },
+    "ROCCO": {
+      "token": "ROCCO",
+      "immutable": "A man of about twenty-five, the only adult of the four, **built like a filing cabinet**: square, heavy through the shoulders and chest, with no taper. **Bald**, medium-brown skin, a short dark beard and moustache kept close to the jaw. Large round eyes with the whites well clear of the pupil, habitually turned up and away to one side, so his resting expression is apprehensive rather than aggressive — the face of a man about to ask whether this is allowed. Worn: a **dark grey hooded sweatshirt** with drawstrings, printed GOLDEN GLOVES across the back with MILLBROOK HIGH SPRING 1987 under it in smaller letters; matching dark grey joggers gathered at the ankle; and **dark boots with pale toe caps and pale laces**. **Grey laced leather boxing gloves on both hands**, usually up in a loose guard in front of the chest.",
+      "immutableInactive": null,
+      "canonicalRef": "char-rocco-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
+    },
+    "WREN": {
+      "token": "WREN",
+      "immutable": "A girl, small and wiry. Fair skin, a round face, a small orange-red mouth, and",
+      "immutableInactive": null,
+      "canonicalRef": "char-wren-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
+    },
+    "SYBIL": {
+      "token": "SYBIL",
+      "immutable": "A girl of about twelve, small. Fair skin with **freckles scattered across the nose and upper cheeks**, a small orange-red mouth, thin dark brows, and large round eyes usually turned upward. **Dark brown-black hair, short and loosely curled, ending at the jaw**, with a fringe and strands escaping around the face. A **single gold hoop earring**, on her left. Worn, head to foot: a **soft orange-red pointed hat with a floppy drooping tip** over a darker red underbrim; a long-sleeved orange dress to the knee, **printed all over with small black cats, potion bottles, bats and stars**, the sleeves long enough to half-swallow her hands, which she habitually holds clasped at her chest; cream ribbed socks slouched at the ankle; and dark boots with pale toe caps and pale laces.",
+      "immutableInactive": null,
+      "canonicalRef": "char-sybil-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-07-31 · Seed: pending",
+      "renderingNote": null
     }
   },
   "wardrobe": {

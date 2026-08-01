@@ -151,7 +151,7 @@ Alt text: PENDING
 
 ## Spread 4
 
-Pages 9 to 10 | Part Three: The Inventory | Words 251
+Pages 9 to 10 | Part Three: The Inventory | Words 257
 
 ### Text page (left), verbatim
 
@@ -167,7 +167,7 @@ They waited. The building settled somewhere above them and three hundred yards a
 
 “Read me seven.”
 
-“One satin robe, green and gold, adult large. One pair of boxing gloves, vinyl, prop only, not for use. One practice bow, string missing, with twelve blunt arrows in a canvas quiver. One suit of plate armor, stage construction, painted canvas over a wooden frame, damage to the left shoulder noted. One black wool dress with a white collar, adult small. One straw hat. One pair of rubber boots. One wooden sword.”
+“One grey hooded sweatshirt, adult large. One pair of boxing gloves, vinyl, prop only, not for use. One practice bow, string missing, with twelve blunt arrows in a canvas quiver. One knitted green cap, ears sewn on. One suit of plate armor and sword, stage construction, painted canvas over a wooden frame, damage to the right shoulder noted. One orange dress, printed, child large. One pointed hat, felt, tip bent. One straw hat. One pair of rubber boots.”
 
 Nobody said anything for a second.
 
@@ -192,7 +192,7 @@ Alt text: PENDING
 
 ## Spread 5
 
-Pages 11 to 12 | Part Three: The Inventory | Words 260
+Pages 11 to 12 | Part Three: The Inventory | Words 262
 
 ### Text page (left), verbatim
 
@@ -220,7 +220,7 @@ Nobody had anything to say to that, and all three of them noticed at the same ti
 
 “It read the only four protectors this town ever bothered to write down.” Pip looked back at the sheet. “I told it we were frightened, and that is what it had to work with.”
 
-Vex looked into the bottom of trunk seven, at the wooden sword lying there next to a straw hat.
+Vex looked into the bottom of trunk seven, at the straw hat lying there next to a pair of rubber boots.
 
 “We got lucky,” she said.
 
