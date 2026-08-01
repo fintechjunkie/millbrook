@@ -579,7 +579,7 @@ rectangle appears behind a face.
 | Ottie | `char-ottie-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Ottie/OTTIE_CANONICAL_FULL_BODY.png` |
 | Rocco | `char-rocco-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Rocco/ROCCO_CANONICAL_FULL_BODY.png` |
 | Wren | `char-wren-canonical.png` | `rgb(231,208,184)` | `SECONDARY/Wren/WREN_CANONICAL_FULL_BODY.png` |
-| Sybil | `char-sybil-canonical.png` | `rgb(235,216,192)` | `SECONDARY/Sybil/SYBIL_CANONICAL_FULL_BODY.png` |
+| Sybil | `char-sybil-canonical.png` | `rgb(233,211,187)` | `SECONDARY/Sybil/SYBIL_CANONICAL_FULL_BODY.png` |
 
 The main cast sits on `rgb(238,221,197)`, so all four are within five points of it and of each
 other. Cassie came back on 226,199,163 and Crane on 235,212,182, which is the drift this table
@@ -689,8 +689,11 @@ fringe and strands escaping around the face. A **single gold hoop earring**, on 
 Worn, head to foot: a **soft orange-red pointed hat with a floppy drooping tip** over a darker
 red underbrim; a long-sleeved orange dress to the knee, **printed all over with small black cats,
 potion bottles, bats and stars**, the sleeves long enough to half-swallow her hands, which she
-habitually holds clasped at her chest; cream ribbed socks slouched at the ankle; and dark boots
-with pale toe caps and pale laces.
+habitually holds clasped at her chest; cream ribbed socks slouched at the ankle; and **bright
+multicoloured sneakers encrusted with plastic jewels, hearts and stars** in pink, purple, teal and
+blue, fastened with two velcro straps each. The shoes are the loudest thing about her and they
+are the point: they are what a twelve-year-old chose, and the rest of the costume is what a
+school cupboard chose for her.
 **Canonical reference:** `char-sybil-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 **She reads as a child, and the prose was written for an older woman.** *“Sorry, dear”* and the
 hand on Lena’s shoulder as she passes were an older woman’s lines. Delivered by a girl of this age
