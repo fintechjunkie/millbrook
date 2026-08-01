@@ -567,6 +567,13 @@
       "uses": 2,
       "canonicalRef": "loc-benny-gym.png",
       "standInRef": null
+    },
+    "WARDROBE_ROOM": {
+      "token": "WARDROBE_ROOM",
+      "block": "The costume store under the auditorium stage of the closed elementary school, down a short flight of concrete steps: a long row of old steamer trunks along the back wall on a low ledge, ONE of them standing open with a folded sheet of tissue paper in it and nothing else; a rack of choir robes on a steel pipe, shelves of hat boxes and hats, shoes lined up in pairs with every toe pointing the same way, a typed inventory sheet in a plastic sleeve on the near wall, bare-footprint scuffs in the dust, and a single pendant lamp. **In the back wall, a small plain door about four and a half feet tall, SHUT.** **State A of a pair — see the note below.**",
+      "uses": 6,
+      "canonicalRef": "loc-wardrobe-room.png",
+      "standInRef": null
     }
   },
   "blockingDecisions": [

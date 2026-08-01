@@ -1123,6 +1123,30 @@ shape under a fitted tarp, roped down, near the generator, not identifiable as a
 question the arc asks and does not answer, so it must not resolve into a recognisable object.
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 | `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
+| `{{LOC:WARDROBE_ROOM}}` | The costume store under the auditorium stage of the closed elementary school, down a short flight of concrete steps: a long row of old steamer trunks along the back wall on a low ledge, ONE of them standing open with a folded sheet of tissue paper in it and nothing else; a rack of choir robes on a steel pipe, shelves of hat boxes and hats, shoes lined up in pairs with every toe pointing the same way, a typed inventory sheet in a plastic sleeve on the near wall, bare-footprint scuffs in the dust, and a single pendant lamp. **In the back wall, a small plain door about four and a half feet tall, SHUT.** **State A of a pair — see the note below.** | 6 | `loc-wardrobe-room.png` |
+
+**`WARDROBE_ROOM` exists to plant a door before it matters, and that is its one job.** Volume 3
+has Pip hear a hum *“in the room, behind the trunks”*; Volume 4 opens *“a door that didn’t
+appear on any drawing in any county file… about four and a half feet tall”*. **If the reference
+left it out and a Volume 4 plate added it, the arc’s biggest reveal would arrive from nowhere.**
+Same discipline as the empty corner the Warehouse master leaves for Lena’s desk. State A is the
+reference, door shut; state B is Volume 4, door open, with a second room beyond it that no
+reference shows.
+
+**It is a DOOR, not a hatch, and this was got wrong once.** The first generation drew it as a
+panel set high in the wall with its sill about a trunk’s height off the floor — caused by a
+prompt that described what was *visible* (*“only the top part shows above the trunks”*) instead
+of what was *there*. People walk through this door: Chet steps through it and pulls it shut,
+Ottie stands two feet from it, and four people came out of it. **Its threshold is on the floor.**
+
+**The visible trunk count is not the canon count.** Twelve read in the reference; the prose says
+thirteen twice, and the row runs off frame past the near corner. Do not "correct" the prose to
+the picture here — section 1.1 gives the lineup priority over a written description for
+CHARACTERS, and this is a room whose contents the prose counts on purpose.
+
+**No legible text.** The inventory sheet is unreadable in its sleeve and the trunk numbers are
+prose only, because the negative block forbids numerals. That costs nothing: **trunk seven
+identifies itself by being the only open trunk in the row.**
 
 **`BENNY_GYM` is a state pair, and the reference is state A.** The prose says *“The bag came
 off the chain, flew eleven feet and took out the water cooler.”* That sentence is geometry, so
