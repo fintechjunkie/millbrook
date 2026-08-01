@@ -1,5 +1,8 @@
 {
   "volume": 1,
+  "arc": "patch-notes",
+  "slug": "vol1",
+  "imagesPending": false,
   "source": "WELCOME_TO_MILLBROOK_Patch_Notes_Part_1.md",
   "chapter": "Part One: The Pothole",
   "specVersion": "1 | Date: 2026-07-28",

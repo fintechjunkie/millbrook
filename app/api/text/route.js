@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { SPEC_FOR } from '@/scripts/lib-specs.mjs';
 
 /**
  * Write one edited paragraph back into a volume spec. DEVELOPMENT ONLY.
@@ -82,7 +83,12 @@ export async function POST(request) {
 
   const { vol, spread, before, after } = body ?? {};
 
-  if (!/^vol[1-9]\d*$/.test(String(vol ?? ''))) return bad(400, 'Bad vol.');
+  // Against the registry, not a pattern. `^vol[1-9]` rejected every Understudies slug
+  // outright, and the pattern that would accept `u1` would also accept a slug with no spec
+  // behind it. See scripts/lib-specs.mjs.
+  if (!Object.prototype.hasOwnProperty.call(SPEC_FOR, String(vol ?? ''))) {
+    return bad(400, `Unknown volume "${vol}".`);
+  }
   if (!Number.isInteger(spread) || spread < 1) return bad(400, 'Bad spread.');
   if (typeof before !== 'string' || !before.trim()) return bad(400, 'Missing before text.');
   if (typeof after !== 'string') return bad(400, 'Missing after text.');
@@ -90,14 +96,14 @@ export async function POST(request) {
     return bad(400, 'A paragraph cannot contain a line break. Split it in the spec instead.');
   }
 
-  const n = String(vol).slice(3);
-  const file = join(SPECS, `PATCH_NOTES_Vol${n}_Spec.md`);
+  const specName = SPEC_FOR[String(vol)];
+  const file = join(SPECS, specName);
 
   let src;
   try {
     src = readFileSync(file, 'utf8');
   } catch {
-    return bad(404, `No spec for ${vol}.`);
+    return bad(404, `No spec for ${vol} (looked for ${specName}).`);
   }
 
   // Isolate the one spread's verbatim block, so a match elsewhere in the file -- in a
@@ -147,7 +153,7 @@ export async function POST(request) {
 
   // No parse here on purpose. The dev watcher already re-syncs the word counts and
   // rebuilds the volume JSON on any spec change, and doing it twice would race.
-  return Response.json({ ok: true, file: `PATCH_NOTES_Vol${n}_Spec.md` });
+  return Response.json({ ok: true, file: specName });
 }
 
 export async function GET() {

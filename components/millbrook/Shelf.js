@@ -15,7 +15,9 @@ import { color, paper, space, type, ui } from '@/lib/millbrook/series';
  */
 function VolumeCard({ arc, volume, data }) {
   const sections = (data?.sections ?? []).map((s) => s.title);
-  const href = `/patch-notes/${volume.slug}/read`;
+  // From the arc, not hardcoded. This was `/patch-notes/${slug}/read`, which was correct
+  // while there was one arc and would have pointed every Understudies card at The Patch.
+  const href = `/${arc.id}/${volume.slug}/read`;
   const coverRef = useRef(null);
   const book = useBookOpen();
 

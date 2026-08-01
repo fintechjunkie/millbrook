@@ -121,12 +121,52 @@ function parseImageBlock(chunk) {
   };
 }
 
-function parseVolume(n) {
-  const src = read(join(SPECS, `PATCH_NOTES_Vol${n}_Spec.md`));
+/**
+ * The arcs, and where each one's specs and JSON live.
+ *
+ * Was a hardcoded loop over `PATCH_NOTES_Vol${n}_Spec.md` for n in 1..4, which was right
+ * while there was one arc and became the only thing standing between arc two and the site.
+ *
+ * `slug` is what the reader routes on and what every image file is named after, so the two
+ * arcs must never collide in the flat images directory: arc one owns vol1-vol4, arc two owns
+ * u1-u4. `vol` stays the volume's number WITHIN its arc, because that is what a shelf card
+ * shows.
+ *
+ * `expect` is the same tripwire the word counts are. It is not bookkeeping: a spread lost or
+ * gained by a bad page re-cut shows up here as a number that moved, and nowhere else.
+ */
+const ARCS = [
+  {
+    id: 'patch-notes',
+    title: 'The Patch',
+    spec: (n) => `PATCH_NOTES_Vol${n}_Spec.md`,
+    slug: (n) => `vol${n}`,
+    volumes: [1, 2, 3, 4],
+    expect: { textPages: 38, images: 42 },
+  },
+  {
+    id: 'understudies',
+    title: 'The Understudies',
+    spec: (n) => `UNDERSTUDIES_Vol${n}_Spec.md`,
+    slug: (n) => `u${n}`,
+    volumes: [1, 2, 3, 4],
+    expect: { textPages: 46, images: 50 },
+  },
+];
+
+function parseVolume(arc, n) {
+  const src = read(join(SPECS, arc.spec(n)));
 
   const head = src.slice(0, src.indexOf('\n## '));
   const meta = {
     volume: n,
+    arc: arc.id,
+    slug: arc.slug(n),
+    // Images are commissioned after the prose is placed, so a volume can legitimately exist
+    // with no prompts in it. The word PENDING in the shot-mix section is what says so, and
+    // removing it is what turns the prompt guards back on. One word, one meaning, in the
+    // file the author is already editing -- rather than a flag in a script they are not.
+    imagesPending: /Images:\s*PENDING/.test(src),
     source: field(head, 'Source')?.replace(/`/g, '') ?? null,
     chapter: field(head, 'Chapter'),
     specVersion: field(head, 'Spec version'),
@@ -181,7 +221,7 @@ function parseVolume(n) {
     const note = noteRaw.split('\n').map((l) => l.trim()).filter(Boolean).join(' ') || null;
 
     const proseRaw = between(part, /### Text page \(left\), verbatim\n/, /### Image page \(right\)/);
-    if (proseRaw == null) { problems.push(`vol${n} spread ${num}: no text page found`); continue; }
+    if (proseRaw == null) { problems.push(`${arc.slug(n)} spread ${num}: no text page found`); continue; }
 
     const blocks = proseBlocks(proseRaw);
     const imgChunk = part.slice(part.indexOf('### Image page (right)'));
@@ -213,7 +253,7 @@ function parseVolume(n) {
 
     if (rawWords !== declaredWords) {
       problems.push(
-        `vol${n} spread ${num}: spec declares ${declaredWords} words, raw extraction is `
+        `${arc.slug(n)} spread ${num}: spec declares ${declaredWords} words, raw extraction is `
         + `${rawWords} (body prose ${bodyWords}). The page boundaries are wrong.`,
       );
     }
@@ -364,10 +404,11 @@ writeFileSync(join(OUT, 'roster.json'), JSON.stringify(roster, null, 2) + '\n');
 const allProblems = [];
 const summary = [];
 
-for (let n = 1; n <= 4; n += 1) {
-  const { meta, spreads, problems } = parseVolume(n);
+for (const arc of ARCS) {
+for (const n of arc.volumes) {
+  const { meta, spreads, problems } = parseVolume(arc, n);
   writeFileSync(
-    join(OUT, 'volumes', `vol${n}.json`),
+    join(OUT, 'volumes', `${arc.slug(n)}.json`),
     JSON.stringify({ ...meta, spreads }, null, 2) + '\n',
   );
   allProblems.push(...problems);
@@ -380,12 +421,27 @@ for (let n = 1; n <= 4; n += 1) {
   // sheets still built and the images still generated, because the author was working from a copy
   // made before the damage. Nothing downstream reads either field, which is exactly why losing
   // them was invisible -- so it gets asserted here instead.
-  for (const sp of spreads) {
-    const where = `vol${n} ${sp.image.slug}`;
-    if (!sp.image.prompt || !/\{\{NEGATIVE\}\}|No text, lettering/.test(sp.image.prompt)) {
-      allProblems.push(`${where}: prompt has no negative block`);
+  //
+  // Suspended, not removed, while a volume's images are pending. A volume with no prompts
+  // yet would otherwise report one failure per spread and bury everything else -- but the
+  // guard has to come back on by itself, or it comes back never. It is keyed on the word
+  // PENDING in the spec's own shot-mix section, so writing the prompts is what re-arms it.
+  if (!meta.imagesPending) {
+    for (const sp of spreads) {
+      const where = `${arc.slug(n)} ${sp.image.slug}`;
+      if (!sp.image.prompt || !/\{\{NEGATIVE\}\}|No text, lettering/.test(sp.image.prompt)) {
+        allProblems.push(`${where}: prompt has no negative block`);
+      }
+      if (!sp.image.aspect) allProblems.push(`${where}: prompt has no aspect ratio`);
     }
-    if (!sp.image.aspect) allProblems.push(`${where}: prompt has no aspect ratio`);
+  } else {
+    // Still assert the part that IS written, because a slug is what an image file is named
+    // after and a missing one is a plate nobody can deliver.
+    for (const sp of spreads) {
+      if (!sp.image.slug) {
+        allProblems.push(`${arc.slug(n)} spread ${sp.n}: image block has no slug`);
+      }
+    }
   }
 
   // Straight quotes and apostrophes in the PROSE, which is the one mechanical rule the
@@ -405,7 +461,7 @@ for (let n = 1; n <= 4; n += 1) {
       const marks = (b.v.match(/['"]/g) ?? []).length;
       if (marks) {
         allProblems.push(
-          `vol${n} spread ${sp.n}: ${marks} straight quote/apostrophe in prose `
+          `${arc.slug(n)} spread ${sp.n}: ${marks} straight quote/apostrophe in prose `
           + `-- curly only. "${b.v.slice(0, 56)}..."`,
         );
       }
@@ -413,14 +469,17 @@ for (let n = 1; n <= 4; n += 1) {
   }
   const text = spreads.filter((s) => s.kind === 'spread');
   summary.push({
-    vol: n,
+    arc: arc.title,
+    vol: arc.slug(n),
     spreads: spreads.length,
     textPages: text.length,
     images: spreads.length,
     words: text.reduce((a, s) => a + s.words, 0),
     minPage: Math.min(...text.map((s) => s.words)),
     maxPage: Math.max(...text.map((s) => s.words)),
+    images: meta.imagesPending ? 'pending' : spreads.length,
   });
+}
 }
 
 console.log('\nroster.json');
@@ -434,31 +493,29 @@ console.log(`  open decisions   ${roster.blockingDecisions.length}`);
 console.log('\nvolumes');
 console.table(summary);
 
-const totals = summary.reduce(
-  (a, s) => ({
-    spreads: a.spreads + s.spreads,
-    textPages: a.textPages + s.textPages,
-    images: a.images + s.images,
-    words: a.words + s.words,
-  }),
-  { spreads: 0, textPages: 0, images: 0, words: 0 },
-);
-console.log(
-  `  totals: ${totals.textPages} text pages, ${totals.images} images, ${totals.words} words`,
-);
-
-// Expected from section 7 of the roster.
+// Per arc, not for the whole series, and that matters now there is more than one: a total
+// across both arcs would let a spread lost in The Patch be masked by a spread gained in The
+// Understudies. Each arc's expectation lives on the arc, beside its spec filenames.
 //
 // Declared rather than derived, on purpose, and for the same reason the per-page word counts
 // are: a number that recomputes itself from the specs can never catch a spread being lost or
 // duplicated by a bad edit. Update it deliberately when a spread is deliberately added.
 //
-// 38/42 as of 2026-07-29. All four planned splits are in: vol2 s4, vol4 s7, vol3 s2, and the
-// Volume 1 chain re-cut, which added two spreads rather than one.
-const EXPECT = { textPages: 38, images: 42 };
-
-for (const [k, v] of Object.entries(EXPECT)) {
-  if (totals[k] !== v) allProblems.push(`totals.${k}: expected ${v}, got ${totals[k]}`);
+// The Patch     38/42 as of 2026-07-29, after all four planned splits.
+// Understudies  46/50 as of 2026-07-31, the initial chunk of the four V3 manuscripts.
+for (const arc of ARCS) {
+  const rows = summary.filter((s) => s.arc === arc.title);
+  const got = {
+    textPages: rows.reduce((a, s) => a + s.textPages, 0),
+    images: rows.reduce((a, s) => a + s.spreads, 0),
+  };
+  for (const [k, v] of Object.entries(arc.expect)) {
+    if (got[k] !== v) {
+      allProblems.push(`${arc.title}: expected ${v} ${k}, got ${got[k]}`);
+    }
+  }
+  console.log(`  ${arc.title}: ${got.textPages} text pages, ${got.images} images, `
+    + `${rows.reduce((a, s) => a + s.words, 0)} words`);
 }
 
 if (allProblems.length) {

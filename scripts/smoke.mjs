@@ -28,22 +28,27 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const port = process.argv[2] ?? '3000';
 const base = `http://localhost:${port}`;
 
-// Volume slugs come from the data rather than a hardcoded list, so a fifth volume
-// is covered the moment it exists.
-const registry = ['vol1', 'vol2', 'vol3', 'vol4'].filter((slug) => {
+// Routes come from the parsed volumes rather than a hardcoded list, so a new volume or a
+// whole new arc is covered the moment its JSON exists. The arc id is read out of the volume
+// itself, which is also what the reader routes on -- so if the two ever disagree, this fails
+// with a 404 instead of quietly testing a URL nobody uses.
+const volumes = [];
+for (const slug of ['vol1', 'vol2', 'vol3', 'vol4', 'u1', 'u2', 'u3', 'u4']) {
   try {
-    readFileSync(join(ROOT, 'patch-notes', 'volumes', `${slug}.json`));
-    return true;
+    const v = JSON.parse(readFileSync(join(ROOT, 'patch-notes', 'volumes', `${slug}.json`), 'utf8'));
+    volumes.push({ slug, arc: v.arc ?? 'patch-notes' });
   } catch {
-    return false;
+    // Not parsed yet. Not an error: the specs are the source and the JSON is generated.
   }
-});
+}
+
+const arcs = [...new Set(volumes.map((v) => v.arc))];
 
 const routes = [
   '/',
-  '/patch-notes',
   '/checks/overflow',
-  ...registry.map((slug) => `/patch-notes/${slug}/read`),
+  ...arcs.map((a) => `/${a}`),
+  ...volumes.map((v) => `/${v.arc}/${v.slug}/read`),
 ];
 
 const results = [];

@@ -40,6 +40,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SPECS = join(ROOT, 'patch-notes', 'specs');
+const { ALL_SPECS } = await import('./lib-specs.mjs');
 const check = process.argv.includes('--check');
 
 // Must match parse-specs exactly or the two disagree forever. Counting is done on
@@ -68,8 +69,12 @@ let changed = 0;
 let unchanged = 0;
 const rows = [];
 
-for (const n of [1, 2, 3, 4]) {
-  const file = join(SPECS, `PATCH_NOTES_Vol${n}_Spec.md`);
+// Every spec in the series, from the shared registry, so a new arc is re-synced the
+// moment its specs exist. This was `[1, 2, 3, 4]` against arc one's filenames, which
+// meant The Understudies' declared word counts were never updated after an edit -- and
+// parse would then fail on a mismatch the author had no command to fix.
+for (const specName of ALL_SPECS) {
+  const file = join(SPECS, specName);
   const src = readFileSync(file, 'utf8');
   let seen = 0;
 
@@ -81,7 +86,9 @@ for (const n of [1, 2, 3, 4]) {
       return `${head}${declared}${gap}${prose}${tail}`;
     }
     rows.push({
-      page: `vol${n} spread ${seen}`,
+      // The spec's own filename rather than a volume number. `n` was the loop variable and
+      // is gone; naming the file is also more useful, since that is what you open to look.
+      page: `${specName.replace(/_Spec\.md$/, '')} spread ${seen}`,
       declared: Number(declared),
       actual,
       delta: actual - Number(declared),

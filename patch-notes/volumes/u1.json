@@ -1,0 +1,776 @@
+{
+  "volume": 1,
+  "arc": "understudies",
+  "slug": "u1",
+  "imagesPending": true,
+  "source": "The_Understudies_Part_1_V3.docx",
+  "chapter": "Part One: Curfew",
+  "specVersion": "1 | Date: 2026-07-31",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Understudies",
+        "part": "Part One: Curfew"
+      },
+      "image": {
+        "slug": "u1-opener",
+        "shotType": "Establishing (full bleed, both pages)",
+        "depicts": "PENDING. No story beat — a chapter opener precedes all prose.",
+        "spoilerCheck": "PENDING, but the constraint is already known: an opener precedes every beat in the volume, so it may establish a place and must not show an event. Arc one's four openers are all empty of people for exactly this reason.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 243,
+      "words": 240,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Six Trucks"
+        },
+        {
+          "t": "p",
+          "v": "The trucks came down Main at six in the morning, which was a bad time to sneak into Millbrook, because that’s when Ida Prewitt walks her beagles."
+        },
+        {
+          "t": "p",
+          "v": "There were six of them, sand-colored, with canvas over their backs. They took the turn at Crescent and Main without slowing down and drove straight through the gate of the old elementary school. The gate had been padlocked since the Great Event and now it wasn’t."
+        },
+        {
+          "t": "p",
+          "v": "Ida Prewitt waved as they went by. Two soldiers waved back."
+        },
+        {
+          "t": "p",
+          "v": "Lena watched the last one go by from her aunt’s front steps with her hair still wet. She called Vex before the rumble of the vehicles had even faded."
+        },
+        {
+          "t": "p",
+          "v": "“You seeing this?”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m on a roof,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“Which roof? Should you be there? Is it safe?”"
+        },
+        {
+          "t": "p",
+          "v": "“Thanks for worrying but it’s fine. Nobody saw me and nobody will. I’m on top of the hardware store and can see the field and the trucks and the tents they’ve put up already.” There was a pause. Lena waited. “I see six trucks, a generator and a whole lot of military grunts who didn’t drive here to catch a movie.”"
+        },
+        {
+          "t": "p",
+          "v": "“You can spy on them later. I need to set up for the Mayor’s press conference. Round up the troops and meet me there.”"
+        },
+        {
+          "t": "p",
+          "v": "“Whatever. Just bring the good camera,” Vex said, and hung up on her, which was how Vex ended every phone call with Lena recently."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s01",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 10 beats on this page, opening the section \"Six Trucks\".",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"“Whatever. Just bring the good camera,” Vex said, and hung up on her, which was how Vex ended every phone call with Lena recently.\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 235,
+      "words": 232,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Announcement"
+        },
+        {
+          "t": "p",
+          "v": "Mayor Dalton called a press conference for ten o’clock on the Town Hall steps. Twenty-two people showed up, which in Millbrook is a mob."
+        },
+        {
+          "t": "p",
+          "v": "Lena set her tripod behind the chairs where the light was good. She’d figured the spot out at the Mayor’s last appearance and didn’t want to give it up to anybody."
+        },
+        {
+          "t": "p",
+          "v": "The whole crew was there. Milo, Owen and Felix stood at the back. Vex was up on the low wall by the flagpole with her boots hanging off it, eating an apple she probably hadn’t paid for. And Pip was away from the crowd but watching and listening like only Pip could do."
+        },
+        {
+          "t": "p",
+          "v": "“Good morning,” the Mayor said. “I want to start by welcoming our friends from the federal government, who are here at my invitation to conduct a routine infrastructure inspection.”"
+        },
+        {
+          "t": "p",
+          "v": "“That’s a lie,” Owen said."
+        },
+        {
+          "t": "p",
+          "v": "“Which part?” Felix asked."
+        },
+        {
+          "t": "p",
+          "v": "“All of it. There’s no such thing as a routine federal infrastructure inspection. I looked it up. Nothing like that exists, but even if it did, it wouldn’t make sense to do one here.”"
+        },
+        {
+          "t": "p",
+          "v": "“Effective immediately,” the Mayor said, “and out of an abundance of caution, we’ll be observing a temporary curfew from ten at night to five in the morning. And Route 9 and Old Bell Road will have brief checkpoint delays. This is not cause for alarm, but rather a cause to be confident.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s02",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 8 beats on this page, opening the section \"The Announcement\".",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"“Effective immediately,” the Mayor said, “and out of an abundance of caution, we’ll be observing a temporary curfew from ten at night to five in the m\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 197,
+      "words": 197,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“What’s he inspecting?” Felix said, too loud."
+        },
+        {
+          "t": "p",
+          "v": "Mr. Jennings, the nice-to-everyone grocer who sponsored the local little league team, took it as his cue and put a hand up. “Mr. Mayor, inspecting what, exactly?”"
+        },
+        {
+          "t": "p",
+          "v": "“Infrastructure.”"
+        },
+        {
+          "t": "p",
+          "v": "“Which infrastructure?”"
+        },
+        {
+          "t": "p",
+          "v": "“All of it,” the Mayor said, and he smiled like he’d just solved a riddle."
+        },
+        {
+          "t": "p",
+          "v": "Off to the side of the stage, Admiral Crane stood with his hands behind his back, a mask on and said nothing at all. He wasn’t watching the Mayor. He was reading the crowd, one row at a time, and taking his time about it. When he got to the back row, he stopped on Milo and stayed there."
+        },
+        {
+          "t": "p",
+          "v": "“He’s looking at you,” Felix said."
+        },
+        {
+          "t": "p",
+          "v": "“I know.”"
+        },
+        {
+          "t": "p",
+          "v": "“He’s really looking at you, Milo.”"
+        },
+        {
+          "t": "p",
+          "v": "“Felix, I know.”"
+        },
+        {
+          "t": "p",
+          "v": "“Should we go? I feel like we should go.”"
+        },
+        {
+          "t": "p",
+          "v": "“There’s nothing more we can learn here,” Owen said."
+        },
+        {
+          "t": "p",
+          "v": "They got up from the back, trying to make their exit with as little noise as possible. Pip saw them get up and met them at the wall where Vex was sitting, still dangling her feet."
+        },
+        {
+          "t": "p",
+          "v": "From the wall, Vex said, “Isn’t it strange that nobody’s asking about the new fence?”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s03",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 14 beats on this page, continuing mid-scene.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"From the wall, Vex said, “Isn’t it strange that nobody’s asking about the new fence?”\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 211,
+      "words": 209,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Lena turned around with the camera still running. “What new fence?”"
+        },
+        {
+          "t": "p",
+          "v": "Vex pointed with the apple still in her hand. She pointed at the school that was always visible from the Town Square."
+        },
+        {
+          "t": "p",
+          "v": "Yesterday the school property had a flimsy chain link fence around it, and yesterday that fence had a lean in it and a hole in the corner by the tennis courts that half the town had used as a shortcut. This morning it was nine feet tall, straight as a ruler, and an industrial strength level of sturdy with green privacy slats woven through it so you couldn’t see the bottom half of the school."
+        },
+        {
+          "t": "p",
+          "v": "“That’s a two-week job,” Vex said. “They’ve been here four hours.”"
+        },
+        {
+          "t": "p",
+          "v": "“And nobody seems to have noticed,” said Pip and Milo in unison."
+        },
+        {
+          "t": "h",
+          "v": "Lemonade"
+        },
+        {
+          "t": "p",
+          "v": "By lunchtime, Carter’s Shoes had a sign in the window that said WE SUPPORT OUR TROOPS with a boot drawn on it in marker. The bakery started giving away coffee to anybody in uniform, and somebody started a casserole schedule. Everyone wanted to get involved in some way."
+        },
+        {
+          "t": "p",
+          "v": "Lena tried to film a segment from outside the hardware store but gave up after the third person walked into her shot to tell her how nice the soldiers were."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s04",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 7 beats on this page.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"Lena tried to film a segment from outside the hardware store but gave up after the third person walked into her shot to tell her how nice the soldiers\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 194,
+      "words": 194,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“You should do a story on them,” said a woman in a Millbrook Days sweatshirt. “Maybe focus on how helpful they’ve been and how we’re so happy that our infrastructure is being inspected.”"
+        },
+        {
+          "t": "p",
+          "v": "“What infrastructure do you think needs to be inspected?”"
+        },
+        {
+          "t": "p",
+          "v": "“All of it.”"
+        },
+        {
+          "t": "p",
+          "v": "“That doesn’t make any sense. People just repeating what the Mayor said is bugging me.”"
+        },
+        {
+          "t": "p",
+          "v": "“Well, that’s a funny thing to be bugged about,” the woman said, and patted her arm, and left."
+        },
+        {
+          "t": "p",
+          "v": "Lena went home and found her aunt in the kitchen filling a thermos."
+        },
+        {
+          "t": "p",
+          "v": "“What are you doing?”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s hot out. I’ve made some nice, cool lemonade for the troops.”"
+        },
+        {
+          "t": "p",
+          "v": "“Aunt Carol, they’re blocking the road out of town.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then they’re doing it in the sun.” Aunt Carol screwed the lid on. “Thirty-one years I’ve lived here, honey, and we’re finally getting a little attention.”"
+        },
+        {
+          "t": "p",
+          "v": "“From the military? That’s not good attention. That’s attention that should scare you.”"
+        },
+        {
+          "t": "p",
+          "v": "“At my age there’s not much to be scared of.” She handed over the thermos. “You’re carrying it.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’m not carrying it.”"
+        },
+        {
+          "t": "p",
+          "v": "“You’re carrying it and you’re going to do it smiling.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena carried it but she didn’t smile."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s05",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 15 beats on this page, continuing mid-scene.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"Lena carried it but she didn’t smile.\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 246,
+      "words": 243,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Warehouse"
+        },
+        {
+          "t": "p",
+          "v": "The brick was holding the back door open again. Inside, the fan was doing its one job badly, the duck was standing in the middle of the floor honking at nothing, and the pig had taken the good couch."
+        },
+        {
+          "t": "p",
+          "v": "And then there was the mini dragon. It was asleep on top of the fridge with its tail hanging down over the door handle."
+        },
+        {
+          "t": "p",
+          "v": "Nobody knew why animals kept showing up or where they came from, especially the mini dragon. It was about the size of a house cat, dull green, and the wings didn’t look like they’d hold anything up. Felix had started to keep a list on the wall of things it had set on fire. There were four things on the list before it was burned to a crisp."
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” Milo said. “What do we actually know?”"
+        },
+        {
+          "t": "p",
+          "v": "“Thirty-one people,” Owen said. He didn’t turn around. “I counted them twice off the traffic camera footage I hacked into. There’s one command tent, four squad tents, a generator, and something under a tarp that isn’t a generator.”"
+        },
+        {
+          "t": "p",
+          "v": "“Are they staying?”"
+        },
+        {
+          "t": "p",
+          "v": "“They brought a generator, Milo.”"
+        },
+        {
+          "t": "p",
+          "v": "“Fair.”"
+        },
+        {
+          "t": "p",
+          "v": "“And I found their orders.” Owen spun his chair around, which he only did when he had something good. “It’s a real unit with real paperwork. It’s filed under a training exercise out of an army base and it doesn’t say Millbrook anywhere in it. It gives a grid reference for where they’re supposed to be stationed.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s06",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 9 beats on this page, opening the section \"The Warehouse\".",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"“And I found their orders.” Owen spun his chair around, which he only did when he had something good. “It’s a real unit with real paperwork. It’s file\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 225,
+      "words": 225,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Felix leaned over the back of the chair. “So officially they’re not here.”"
+        },
+        {
+          "t": "p",
+          "v": "“Officially they’re in a soybean field eleven miles east of us.” Owen tapped the screen. “And if they’re not officially here, nothing they do here will officially happen.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex was practicing her walking handstands. Monke was doing the same. “What have you learned about the fence?”"
+        },
+        {
+          "t": "p",
+          "v": "“I found the paperwork for it.” Owen pulled up a scanned page, gray boxes and tiny numbers, the ugliest document Lena had ever seen. “Every training exercise comes with a site security plan, and the plan tells you what fence to build. Nine feet tall. Privacy slats. Green.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex came down off her hands. Monke stayed up."
+        },
+        {
+          "t": "p",
+          "v": "“Say the last part again,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“The plan says green.”"
+        },
+        {
+          "t": "p",
+          "v": "“So somebody read that page and then built the fence to match it,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“Somebody read that page four hours before the trucks got here.” Owen sat back. “The fence isn’t guarding anything. It’s a copy of a piece of paper. It’s the same as the pothole and the bookstore, except this time I have the paper it copied.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo worked through it out loud. “So it isn’t keeping anybody out and it isn’t keeping anything in.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s doing their homework for them, and it turned it in early.”"
+        },
+        {
+          "t": "p",
+          "v": "“That’s worse,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“How is that worse?”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s07",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 13 beats on this page, continuing mid-scene.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"“How is that worse?”\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 226,
+      "words": 220,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Because a fence that wants to keep me out is a fence I can beat. I know how those work.” She pulled her sleeve down over her hand and popped the fridge open with her elbow, because the dragon was still on the handle. “This one isn’t even thinking about me. You can’t argue with something that isn’t looking at you.”"
+        },
+        {
+          "t": "p",
+          "v": "Felix stared at her. “That is the smartest thing you have ever said.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know. I’ve been saving it.”"
+        },
+        {
+          "t": "h",
+          "v": "What The Wires Are Asking"
+        },
+        {
+          "t": "p",
+          "v": "Pip had been sitting on the milk crate stool for forty minutes without moving, and that part was normal. What wasn’t normal was that she had stopped in the middle of a sentence. The sentence was “Vex, your left shoe has a nail coming through the,” and that was nine minutes ago."
+        },
+        {
+          "t": "p",
+          "v": "Vex crouched down in front of her with her hands on her knees and didn’t touch her, because they’d talked about that."
+        },
+        {
+          "t": "p",
+          "v": "“Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“You stopped.”"
+        },
+        {
+          "t": "p",
+          "v": "“The wires are busy.” Pip’s eyes came back to the room all at once, the way a page turns. “It has been talking since six o’clock this morning and it has not stopped. It has never done that before.”"
+        },
+        {
+          "t": "p",
+          "v": "“What’s it saying?”"
+        },
+        {
+          "t": "p",
+          "v": "Pip tilted her head, and everybody in the Warehouse shut up, because they’d learned what that meant. Even the duck."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s08",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 11 beats on this page.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"Pip tilted her head, and everybody in the Warehouse shut up, because they’d learned what that meant. Even the duck.\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 260,
+      "words": 260,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“It is asking what soldiers are.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena set her phone face down on the arm of the couch, which for Lena was a bigger deal than anybody in the room understood."
+        },
+        {
+          "t": "p",
+          "v": "“It doesn’t know?” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“It knows the word. It read the word this morning off eleven phones, a police scanner and the checkpoint sign out on Route 9.” Pip put her hands flat on her knees, too even, the way she does. “It does not know what they are for. It is asking me what they are for.”"
+        },
+        {
+          "t": "p",
+          "v": "“What did you tell it?”"
+        },
+        {
+          "t": "p",
+          "v": "“I have not answered.”"
+        },
+        {
+          "t": "p",
+          "v": "“Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "“I am being careful. The last time I explained something to it, a fifteen-year-old girl woke up able to hear a wasp inside a wall.” Her voice didn’t go up, because it never does. “I have been sitting here for forty minutes trying to write one sentence.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen turned all the way around in his chair. “What else is it saying?”"
+        },
+        {
+          "t": "p",
+          "v": "“It says the town tastes different, and that is the closest word I have, because it does not have a word.” She paused. “It feels the whole town at once, the way you feel a room you are standing in. This morning the room changed and it wants to know why.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s scared,” Felix said."
+        },
+        {
+          "t": "p",
+          "v": "“It does not get scared. The town does, and the town is the only way it knows how anything is going.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo sat down on the edge of the coffee table so he was level with her. “Okay. If you don’t answer, what happens?”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s09",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 13 beats on this page, continuing mid-scene.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"Milo sat down on the edge of the coffee table so he was level with her. “Okay. If you don’t answer, what happens?”\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "spread",
+      "pages": "21 to 22",
+      "declaredWords": 206,
+      "words": 206,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“It asks somebody else.”"
+        },
+        {
+          "t": "p",
+          "v": "“There isn’t anybody else.”"
+        },
+        {
+          "t": "p",
+          "v": "“There are thirty-one phones on a softball field, a police scanner, and a whole town telling those soldiers how nice they are,” Pip said. “It will work something out, because it always works something out. That is the problem with it.”"
+        },
+        {
+          "t": "p",
+          "v": "The fan clicked. On top of the fridge, the dragon rolled over and put its face in the vent."
+        },
+        {
+          "t": "p",
+          "v": "“Tell it the truth,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“Milo.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s going to guess either way, and I’d rather it guessed off something real.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip was quiet for a while. Then she said it out loud, to the room, in the same flat voice she uses for everything."
+        },
+        {
+          "t": "p",
+          "v": "“Soldiers are people a government sends when it wants something guarded or stopped. They are here because a man in charge is frightened of this town. The town is frightened back, and nobody will say so, because in Millbrook we bring lemonade.”"
+        },
+        {
+          "t": "p",
+          "v": "Then she closed her eyes, which she doesn’t need to do and had never done in front of any of them."
+        },
+        {
+          "t": "p",
+          "v": "“Did it hear you?” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“What did it say?”"
+        },
+        {
+          "t": "p",
+          "v": "“Nothing.” She opened them again. “It stopped.”"
+        },
+        {
+          "t": "p",
+          "v": "Felix looked around at everybody. “Is that good?”"
+        },
+        {
+          "t": "p",
+          "v": "“No,” said four people."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s10",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 16 beats on this page, continuing mid-scene.",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"“No,” said four people.\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    },
+    {
+      "n": 11,
+      "kind": "spread",
+      "pages": "23 to 24",
+      "declaredWords": 220,
+      "words": 217,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Trunk"
+        },
+        {
+          "t": "p",
+          "v": "The auditorium at the old elementary school had been dark for six months."
+        },
+        {
+          "t": "p",
+          "v": "Under the stage, down a short flight of concrete steps and behind a door with a bad hinge, was the wardrobe room. Forty-one years of school plays live in there. Thirteen steamer trunks numbered in white paint by a shop teacher who retired in 1991, a rack of choir robes, and boxes of hats. On the wall, in a plastic sleeve, a typed inventory sheet listing two hundred and six items, last updated in 2014 and still, somehow, correct."
+        },
+        {
+          "t": "p",
+          "v": "Three hundred yards away a generator ran and thirty-one people slept in tents on the softball field."
+        },
+        {
+          "t": "p",
+          "v": "In the dark, something small moved along the tops of the trunks and stopped at number seven."
+        },
+        {
+          "t": "p",
+          "v": "There was a click, and that was the latch. Then a long sound like somebody letting out a breath, and that was the lid coming up on hinges that hadn’t moved in six months."
+        },
+        {
+          "t": "p",
+          "v": "Then nothing at all for about a minute."
+        },
+        {
+          "t": "p",
+          "v": "Then footsteps. Bare feet on concrete, in no hurry, crossing the room and going up the stairs and out through the door with the bad hinge, which swung shut behind them."
+        },
+        {
+          "t": "p",
+          "v": "The lid of trunk seven stayed open."
+        },
+        {
+          "t": "i",
+          "v": "To be continued in Part Two: Four Out Of The Trunk"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "u1-s11",
+        "shotType": "PENDING",
+        "depicts": "PENDING. 9 beats on this page, opening the section \"The Trunk\".",
+        "spoilerCheck": "PENDING. The final beat of this page is: \"To be continued in Part Two: Four Out Of The Trunk\" — whatever this plate ends up depicting, it must not be that.",
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": "PENDING"
+      }
+    }
+  ]
+}
