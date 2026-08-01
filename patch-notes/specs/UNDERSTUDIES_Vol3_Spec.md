@@ -237,7 +237,7 @@ Alt text: PENDING
 
 ## Spread 6
 
-Pages 13 to 14 | Part Three: The Inventory | Words 237
+Pages 13 to 14 | Part Three: The Inventory | Words 240
 
 ### Text page (left), verbatim
 
@@ -249,7 +249,7 @@ Milo had checked his phone eleven times in forty minutes, which for him is pacin
 
 Then Felix said, “Guys. How long has that been going on?”
 
-Up on the high shelf, Monke was sitting straight up with a granola bar in one hand and no interest in eating it. Ten feet away, on top of the router, the dragon was sitting up too, wings folded, tail hanging straight down.
+Up on the high shelf, Monke was sitting straight up with a granola bar in one hand and no interest in eating it. Ten feet away, on top of the router, the dragon was sitting up too, plates flat along its back, tail hanging straight down.
 
 They were looking right at each other.
 

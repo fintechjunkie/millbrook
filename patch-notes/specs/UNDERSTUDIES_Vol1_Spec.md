@@ -9,7 +9,11 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Images: PENDING. The prose was placed first on author instruction, so no plate has been assigned a shot type yet and the mix cannot be tallied. Every image block below carries its slug, the beat it is anchored to and a spoiler check; shot type, hard constraints, prompt and alt text are written when the images are commissioned. `npm run parse` skips the prompt guard for a volume whose header says PENDING, and will start enforcing it the moment that word is removed.
+Images: 12. Character-led 8, establishing 3, detail 1.
+
+Set deliberately against arc one's band on author instruction: character-forward and action-forward, because the images have to make an impact rather than catalogue rooms. Three real establishing shots are kept and spaced (the opener, the fence at spread 4, the wardrobe room at spread 11) because this arc's premise is a thing about a PLACE — an army parked on a town — and pure close work cannot carry it.
+
+Every plate depicts a beat from its own text page and never that page's final beat, which is the same rule all forty-two arc-one plates follow.
 
 Page budget, for whoever edits this next. Chunked with the model in `WRITING_GUIDE.md` at an ideal of 28 lines: 11 text pages running 24 to 27 lines, which is 70 to 78 per cent of the column. Arc one's median page is 76 per cent and its ceiling is 32 lines.
 
@@ -33,10 +37,23 @@ Renders differently: one full bleed image across both pages with the chapter tit
 
 Slug: u1-opener
 Shot type: Establishing (full bleed, both pages)
-Depicts: PENDING. No story beat — a chapter opener precedes all prose.
-Spoiler check: PENDING, but the constraint is already known: an opener precedes every beat in the volume, so it may establish a place and must not show an event. Arc one's four openers are all empty of people for exactly this reason.
+Depicts: Millbrook the morning it stops being ordinary, before anything arrives. No story beat.
+Spoiler check: PASS. A chapter opener precedes all prose. Deliberately shows neither the trucks, the school, nor the new fence — the trucks are beat 1 of text page 1 and the fence is the reveal on text page 4.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:MILLBROOK_WIDE}}
+A small flat town of low single-storey houses on a grid of wide streets, mature trees between them, a water tower on the horizon. Empty streets, no vehicles and no figures anywhere.
+Six in the morning, first light, long low sun.
+Wide establishing shot from a slight elevation, deep focus, level horizon.
+Low warm early sun raking across the grid from one side, long soft shadows, clear and readable everywhere.
+{{NEGATIVE}}
+Aspect ratio: 2:1
+```
+
+Alt text: A small town of low houses on a grid of wide streets at first light, empty of people, a water tower on the horizon.
 
 ---
 
@@ -71,11 +88,25 @@ Lena watched the last one go by from her aunt’s front steps with her hair stil
 ### Image page (right)
 
 Slug: u1-s01
-Shot type: PENDING
-Depicts: PENDING. 10 beats on this page, opening the section "Six Trucks".
-Spoiler check: PENDING. The final beat of this page is: "“Whatever. Just bring the good camera,” Vex said, and hung up on her, which was how Vex ended every phone call with Lena recently." — whatever this plate ends up depicting, it must not be that.
+Shot type: Character action
+Depicts: Beat 3. Ida Prewitt waves at the convoy from the sidewalk and two soldiers wave back — the whole arc in one gesture.
+Spoiler check: PASS. Final beat is Vex hanging up on Lena. Not depicted: no phone call, no roof, and neither Lena nor Vex is in frame.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:MAIN_STREET}}
+{{CHAR:IDA}}
+She stands on the sidewalk with her two beagles on their lead, one hand raised in a small unhurried wave, entirely unbothered, as a column of six sand-coloured military cargo trucks with canvas over their beds rolls past her down the middle of the street. From the back of the nearest truck two soldiers in olive field jackets raise a hand and wave back at her. Nobody else is on the street.
+Six in the morning, first light.
+Medium wide, camera at standing height on the opposite sidewalk, the trucks crossing the frame and Ida small but unmistakable against them.
+Low warm early sun down the length of the street, long shadows, every face clearly readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: An older woman with two beagles waves from the sidewalk as a column of military trucks drives past her at dawn, and two soldiers wave back.
 
 ---
 
@@ -106,11 +137,31 @@ The whole crew was there. Milo, Owen and Felix stood at the back. Vex was up on 
 ### Image page (right)
 
 Slug: u1-s02
-Shot type: PENDING
-Depicts: PENDING. 8 beats on this page, opening the section "The Announcement".
-Spoiler check: PENDING. The final beat of this page is: "“Effective immediately,” the Mayor said, “and out of an abundance of caution, we’ll be observing a temporary curfew from ten at night to five in the m" — whatever this plate ends up depicting, it must not be that.
+Shot type: Character group
+Depicts: Beat 3. The whole crew arranged around the press conference, each of them doing the thing they do — before the Mayor says anything worth hearing.
+Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is at the podium but the crowd is unreacted and nothing about a curfew is legible or implied.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:TOWN_HALL_SQUARE}}
+{{CHAR:MAYOR_DALTON}}
+{{CHAR:LENA}}
+{{CHAR:VEX}}
+{{CHAR:PIP}}
+{{CHAR:MILO}}
+{{CHAR:OWEN}}
+{{CHAR:FELIX}}
+A small press conference on the steps of the town hall. The Mayor stands at a plain wooden podium mid-sentence with one hand out. About twenty ordinary townspeople sit on rows of grey metal folding chairs, seen from behind and to one side. Lena stands behind the last row at a camera on a tripod, filming. Milo, Owen and Felix stand together at the very back, not sitting. Vex sits up on the low wall by the flagpole with her boots hanging off it, eating an apple. Pip stands apart from the crowd altogether, off to one side, still, head level, listening.
+Ten in the morning, bright and dry.
+Wide, camera slightly elevated and behind the seated crowd so all seven of them and the podium are in one frame.
+High clear morning light, no drama, every face readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A mayor speaks at a podium on town hall steps to a small seated crowd while a girl films from a tripod, three boys stand at the back, another girl sits on a wall eating an apple and a robotic girl stands apart, listening.
 
 ---
 
@@ -151,11 +202,27 @@ From the wall, Vex said, “Isn’t it strange that nobody’s asking about the 
 ### Image page (right)
 
 Slug: u1-s03
-Shot type: PENDING
-Depicts: PENDING. 14 beats on this page, continuing mid-scene.
-Spoiler check: PENDING. The final beat of this page is: "From the wall, Vex said, “Isn’t it strange that nobody’s asking about the new fence?”" — whatever this plate ends up depicting, it must not be that.
+Shot type: Character close, two-shot
+Depicts: Beat 7. Admiral Crane, off to the side of the stage with his hands behind his back, has stopped reading the crowd and settled on Milo.
+Spoiler check: PASS. Final beat is Vex asking about the new fence from the wall. Not depicted: Vex is not in frame, the fence is not visible, and nobody has stood up to leave.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:TOWN_HALL_SQUARE}}
+{{CHAR:ADMIRAL_CRANE}}
+{{CHAR:MILO}}
+{{CHAR:FELIX}}
+Off to one side of the low stage, Crane stands alone with his hands clasped behind his back and his mask on, completely still, looking steadily off across the frame at one particular person and taking his time about it. Across the frame and further back, standing at the rear of the seated rows, Milo is looking straight back at him with his jaw set. Beside Milo, Felix has noticed and is looking anxiously between the two of them. Nobody else in frame is aware of any of it.
+Ten in the morning, bright and dry.
+Medium close two-shot along the line of the look, Crane sharp in the near half of the frame and Milo clear in the far half, the seated crowd soft between them.
+High clear morning light, no drama, both faces fully readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A masked officer stands with his hands behind his back at the side of a stage, looking steadily across a crowd at a boy at the back who is looking straight back at him.
 
 ---
 
@@ -184,11 +251,26 @@ Lena tried to film a segment from outside the hardware store but gave up after t
 ### Image page (right)
 
 Slug: u1-s04
-Shot type: PENDING
-Depicts: PENDING. 7 beats on this page.
-Spoiler check: PENDING. The final beat of this page is: "Lena tried to film a segment from outside the hardware store but gave up after the third person walked into her shot to tell her how nice the soldiers" — whatever this plate ends up depicting, it must not be that.
+Shot type: Establishing or location
+Depicts: Beat 3. The new fence: nine feet, dead straight, green slats, thrown up around the school in four hours.
+Spoiler check: PASS. Final beat is Lena giving up on filming outside the hardware store. Not depicted: no camera, no hardware store, and none of the lemonade section.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:OLD_SCHOOL_B}}
+{{CHAR:VEX}}
+{{CHAR:LENA}}
+The old elementary school seen across open ground from the edge of the town square, with the new fence running the whole width of the frame in front of it: nine feet tall, dead straight, taut industrial chain link with green privacy slats woven through it so the bottom half of the school is screened away. It is conspicuously newer and better made than anything else in the frame. Small in the near foreground and seen from behind, Vex stands pointing at it with an apple still in her hand, and Lena stands beside her holding a camera down at her side, both of them dwarfed by it.
+Late morning, bright and dry.
+Wide establishing shot, camera at standing height, the two figures small in the lower corner and the fence and school filling the frame.
+Flat clear daylight, colour dry and dusty, the green of the slats the strongest colour in the frame.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Two girls stand small in the foreground looking at a brand new nine-foot fence with green slats that runs the width of the frame in front of a closed school.
 
 ---
 
@@ -231,17 +313,32 @@ Lena carried it but she didn’t smile.
 ### Image page (right)
 
 Slug: u1-s05
-Shot type: PENDING
-Depicts: PENDING. 15 beats on this page, continuing mid-scene.
-Spoiler check: PENDING. The final beat of this page is: "Lena carried it but she didn’t smile." — whatever this plate ends up depicting, it must not be that.
+Shot type: Character close, two-shot
+Depicts: Beat 7. Lena comes home and finds Aunt Carol in the kitchen filling a thermos for the soldiers.
+Spoiler check: PASS. Final beat is Lena carrying the thermos without smiling. Not depicted: the thermos has not changed hands and nobody has left the kitchen.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:AUNT_CAROL_KITCHEN}}
+{{CHAR:AUNT_CAROL}}
+{{CHAR:LENA}}
+Aunt Carol stands at the counter, entirely at ease, pouring lemonade from a glass jug into a tall steel vacuum thermos, with a bowl of cut lemons beside her. Lena has just come in and stopped in the kitchen doorway with her bag still on her shoulder, arms folded, watching her aunt do it with an expression of complete disbelief. Neither of them is touching the other and neither is shouting.
+Early afternoon, hot outside.
+Medium two-shot across the kitchen, camera at standing height, Carol at the counter on one side and Lena framed in the doorway on the other.
+Warm daylight through a kitchen window plus the overhead bulb, both faces clearly readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: An older woman calmly fills a thermos with lemonade at a kitchen counter while a teenage girl stands in the doorway with her arms folded, watching in disbelief.
 
 ---
 
 ## Spread 6
 
-Pages 13 to 14 | Part One: Curfew | Words 246
+Pages 13 to 14 | Part One: Curfew | Words 265
 
 ### Text page (left), verbatim
 
@@ -251,7 +348,7 @@ The brick was holding the back door open again. Inside, the fan was doing its on
 
 And then there was the mini dragon. It was asleep on top of the fridge with its tail hanging down over the door handle.
 
-Nobody knew why animals kept showing up or where they came from, especially the mini dragon. It was about the size of a house cat, dull green, and the wings didn’t look like they’d hold anything up. Felix had started to keep a list on the wall of things it had set on fire. There were four things on the list before it was burned to a crisp.
+Nobody knew why animals kept showing up or where they came from, especially the mini dragon. It was about the size of a house cat, rust orange with a row of red plates down its back, and it had no wings at all, which Felix said was the only good news anybody had had all year. Felix had started to keep a list on the wall of things it had set on fire. There were four things on the list before it was burned to a crisp.
 
 “Okay,” Milo said. “What do we actually know?”
 
@@ -268,11 +365,30 @@ Nobody knew why animals kept showing up or where they came from, especially the 
 ### Image page (right)
 
 Slug: u1-s06
-Shot type: PENDING
-Depicts: PENDING. 9 beats on this page, opening the section "The Warehouse".
-Spoiler check: PENDING. The final beat of this page is: "“And I found their orders.” Owen spun his chair around, which he only did when he had something good. “It’s a real unit with real paperwork. It’s file" — whatever this plate ends up depicting, it must not be that.
+Shot type: Character group
+Depicts: Beats 1 to 4. The Warehouse doing what it does: the brick in the door, the bad fan, the duck, the pig on the good couch, and the mini dragon asleep on the fridge.
+Spoiler check: PASS. Final beat is Owen spinning his chair around about the orders. Not depicted: Owen is at his desk facing away and no document is visible.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_PIT}}
+{{CHAR:MILO}}
+{{CHAR:OWEN}}
+{{CHAR:FELIX}}
+{{CHAR:PIG}}
+{{CHAR:DRAGON}}
+{{CHAR:DUCK}}
+The lounge end of the warehouse in the middle of an ordinary afternoon. The back door stands propped open with a brick and daylight comes through it. An old floor fan turns badly in one corner. The pig lies stretched out asleep along the best of the four sagging couches, taking all of it. The duck stands on the concrete in the middle of the open floor with its bill open, honking at nothing in particular. The dragon is asleep on top of the refrigerator against the wall, curled up with its tail hanging down over the door handle. Milo stands in the middle of the floor mid-question with one hand out. Felix sits on the arm of a couch watching him. Owen is at his desk in the background with his back to the room, facing his monitors.
+Mid-afternoon.
+Wide, camera at standing height, taking in the couches, the fridge and the propped door in one frame.
+Daylight through the open back door and the high windows plus the room lights, warm and clearly readable everywhere.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A converted warehouse with a pig asleep on a sagging couch, a duck honking on the floor and a small orange dragon asleep on the fridge, while three boys talk in the middle of the room.
 
 ---
 
@@ -311,11 +427,29 @@ Milo worked through it out loud. “So it isn’t keeping anybody out and it isn
 ### Image page (right)
 
 Slug: u1-s07
-Shot type: PENDING
-Depicts: PENDING. 13 beats on this page, continuing mid-scene.
-Spoiler check: PENDING. The final beat of this page is: "“How is that worse?”" — whatever this plate ends up depicting, it must not be that.
+Shot type: Character action
+Depicts: Beat 3. Vex practising walking handstands across the warehouse floor with Monke doing exactly the same thing beside her, while Owen works.
+Spoiler check: PASS. Final beat is the "How is that worse?" exchange. Not depicted: Vex is upside down and mid-move, and no argument is legible in the staging.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_PIT}}
+{{CHAR:VEX}}
+{{CHAR:MONKE}}
+{{CHAR:OWEN}}
+{{CHAR:FELIX}}
+Vex is upside down in a handstand in the middle of the open concrete floor, perfectly balanced, walking on her hands with her legs straight up and one foot slightly ahead of the other, entirely casual about it. Right beside her and matching her exactly, Monke is doing the same thing on his hands, in step. Neither of them is looking at the other. In the background Owen sits at his desk with his back half turned, and Felix leans over the back of Owen's chair looking at the monitors. Nobody is watching Vex, which is the joke.
+Mid-afternoon.
+Medium wide at low camera height, close to floor level, so the two upside-down figures dominate the frame and the desk sits behind them.
+Daylight from the high windows plus the room lights, clear and readable everywhere.
+Hard constraint: the handstand is a habit, not a stunt — she must look relaxed rather than straining.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A girl walks across a concrete floor on her hands with a monkey doing the same beside her, in step, while two boys at a desk behind them pay no attention.
 
 ---
 
@@ -352,11 +486,26 @@ Pip tilted her head, and everybody in the Warehouse shut up, because they’d le
 ### Image page (right)
 
 Slug: u1-s08
-Shot type: PENDING
-Depicts: PENDING. 11 beats on this page.
-Spoiler check: PENDING. The final beat of this page is: "Pip tilted her head, and everybody in the Warehouse shut up, because they’d learned what that meant. Even the duck." — whatever this plate ends up depicting, it must not be that.
+Shot type: Character close, two-shot
+Depicts: Beat 6. Vex crouches down in front of Pip with her hands on her knees and does not touch her, because they had talked about that.
+Spoiler check: PASS. Final beat is Pip tilting her head and the whole room going quiet. Not depicted: Pip's head is level and nobody else has reacted.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_SHOP}}
+{{CHAR:VEX}}
+{{CHAR:PIP}}
+Pip sits on a milk crate used as a stool, upright and completely still, hands resting on her knees, her head level and her eyes open but focused on nothing in the room. Vex has crouched down on her heels directly in front of her, forearms across her knees, hands hanging loose and deliberately not touching her, looking up into her face with real concern and no alarm. The two of them are close and alone in the frame. Nobody else is in shot.
+Mid-afternoon.
+Close two-shot at crouching height, the two faces near the centre of the frame and the room falling away soft behind them.
+Soft indirect daylight from high windows, warm and quiet, both faces fully readable.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A girl crouches in front of a seated robotic girl with her hands on her own knees, carefully not touching her, looking up into her face.
 
 ---
 
@@ -395,11 +544,24 @@ Milo sat down on the edge of the coffee table so he was level with her. “Okay.
 ### Image page (right)
 
 Slug: u1-s09
-Shot type: PENDING
-Depicts: PENDING. 13 beats on this page, continuing mid-scene.
-Spoiler check: PENDING. The final beat of this page is: "Milo sat down on the edge of the coffee table so he was level with her. “Okay. If you don’t answer, what happens?”" — whatever this plate ends up depicting, it must not be that.
+Shot type: Detail
+Depicts: Beat 2. Lena sets her phone face down on the arm of the couch, which for Lena is a bigger deal than anybody in the room understands.
+Spoiler check: PASS. Final beat is Milo sitting down on the coffee table to be level with Pip. Not depicted: no figure is in frame at all.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_PIT}}
+A close view of the worn upholstered arm of a sagging couch, with a single mobile phone lying on it FACE DOWN, screen hidden, set square and deliberately rather than dropped. A hand has just left it and is out of frame. Beyond the arm of the couch the room falls away out of focus. No people and no animals in frame.
+Mid-afternoon.
+Close detail shot at couch height, shallow depth, the phone and the couch arm filling the lower half of the frame.
+Soft indirect daylight, quiet, no drama.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A mobile phone lying face down and set square on the worn arm of a sagging couch, with the room out of focus beyond it.
 
 ---
 
@@ -444,11 +606,27 @@ Felix looked around at everybody. “Is that good?”
 ### Image page (right)
 
 Slug: u1-s10
-Shot type: PENDING
-Depicts: PENDING. 16 beats on this page, continuing mid-scene.
-Spoiler check: PENDING. The final beat of this page is: "“No,” said four people." — whatever this plate ends up depicting, it must not be that.
+Shot type: Character close
+Depicts: Beat 12. Pip closes her eyes, which she does not need to do and had never done in front of any of them.
+Spoiler check: PASS. Final beat is four people saying "No" at once. Not depicted: no one else has spoken or reacted, and the answer has not come back.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_PIT}}
+{{CHAR:PIP}}
+{{CHAR:MILO}}
+Pip sits upright on a milk crate stool with her hands flat on her knees, exactly even, and **her eyes are closed** — calm, not distressed, her face otherwise doing nothing at all. Milo sits on the edge of the low coffee table just in front of her so that he is level with her, leaning slightly forward, watching her face and saying nothing. He is soft and slightly behind the focus. She is the subject.
+Late afternoon.
+Close on Pip, three-quarter view, Milo present but secondary in the near foreground.
+Low warm afternoon light from the high windows across her face, quiet, fully readable.
+Hard constraint: her eyes must be CLOSED. It is the only time in the arc that happens and it is the point of the plate.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A robotic girl sits on a stool with her hands flat on her knees and her eyes closed, while a boy sits on a low table in front of her, level with her, watching.
 
 ---
 
@@ -481,10 +659,23 @@ The lid of trunk seven stayed open.
 ### Image page (right)
 
 Slug: u1-s11
-Shot type: PENDING
-Depicts: PENDING. 9 beats on this page, opening the section "The Trunk".
-Spoiler check: PENDING. The final beat of this page is: "To be continued in Part Two: Four Out Of The Trunk" — whatever this plate ends up depicting, it must not be that.
+Shot type: Establishing or location
+Depicts: Beat 8. The wardrobe room after whatever it was has gone: trunk seven standing open, the door with the bad hinge swung shut, nobody there.
+Spoiler check: PASS. Final beat is the to-be-continued line. Critically, the plate shows NO figure and no bare feet — four people coming out of that trunk is the reveal that opens Part Two and must not be pre-empted here.
 
-Alt text: PENDING
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WARDROBE_ROOM}}
+The wardrobe room in the middle of the night with nobody in it. One trunk in the row along the back wall stands OPEN with its lid up on its hinges, and it is empty except for a single folded sheet of pale tissue paper. Every other trunk is shut. The door at the top of the concrete steps is closed. Fresh bare footprints lead away across the dusty floor from the open trunk toward the steps, and none come back. **No people, no animals and no figures of any kind, and no feet in frame.**
+The middle of the night.
+Wide, camera at standing height at the foot of the steps, looking down the room at the trunk row with the open trunk near the centre.
+One dim overhead fixture and nothing else, low and quiet, but the room, the trunks and the footprints all stay clearly readable and no part of the frame falls to featureless black.
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A basement costume store at night with one steamer trunk standing open and empty but for a sheet of tissue paper, and bare footprints leading away across the dusty floor toward the stairs.
 
 ---

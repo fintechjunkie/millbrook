@@ -342,6 +342,63 @@ He remains deliberately absent from the final image of Volume 4 even though he i
 **Added 2026-07-29.** The sheet had existed since the canonical drop but the pig had no roster block, so the one scene that calls for him by name -- Volume 3 spread 7, where Lena falls asleep on a couch with him -- had no token to reference and he was simply left out of the image. An animal with a delivered canonical and no roster entry is invisible to the generator.
 **Rendering note.** He is livestock, not a mascot: he is never doing anything clever, never reacting to plot, and never given an expression that implies he understands. He sleeps, stands and leans on people. Monke carries all of the project's animal ambiguity and the pig carries none of it, which is what keeps Monke unsettling.
 
+### {{CHAR:DRAGON}}
+**Immutable:** A mini dragon about the size of a house cat, built from layered paper. Rust-orange
+body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down
+the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with
+two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white
+eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick
+hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its
+default expression is cheerful and slightly gormless.
+**Canonical reference:** `char-dragon-canonical.png` · Seed: pending · Approved: yes, by the animal lineup
+
+**Added 2026-08-01, and the sheet is older than the block.** It was delivered in the 28 July drop and
+archived as `Dino`, then never given a roster entry — the same failure the pig block records above,
+and with more at stake, because the dragon appears in **all four volumes** of The Understudies and it
+causes the climax. Archived at `reference-source/ANIMALS/Dragon/`.
+
+**The prose was changed to match the sheet, not the other way round.** It read *“dull green, and the
+wings didn’t look like they’d hold anything up”*; the sheet is rust-orange and wingless. Both
+references were rewritten (Understudies Vol 1 and Vol 3) on author instruction that the delivered
+image is the source. **The wings were carrying a joke, so a joke replaced them** rather than the
+clause simply being cut — see the note in `WRITING_GUIDE.md` about gaps that are actually jokes.
+
+**It is heat-seeking, and that is its whole behaviour.** It sleeps on top of the fridge, on the
+router, and puts its face in the fan vent. In Volume 4 it rides Felix’s shoulder down the boiler
+hatch, goes for the warm thing on the bench, gets a foot caught and **takes the stamp off the bench
+with it** — so it is not set dressing, it is the mechanism of the arc’s climax. Wherever there is a
+warm object in frame, that is where it is.
+
+**It sets things on fire**, and Felix keeps a list on the wall of what. Nothing in a plate should
+show it breathing fire, because the prose never does either — the fires are always already over.
+
+**It is not a mascot and not clever.** Same rule as the pig: Monke carries all of this project’s
+animal ambiguity and nothing else is allowed to. The dragon wants heat and that is all it wants.
+
+### {{CHAR:DUCK}}
+**Immutable:** A plain white domestic duck built from layered paper, standing on both feet. The whole
+body is clean white with no markings of any kind: a smoothly rounded head, a long neck held in a
+relaxed S-curve rather than stretched up, a deep rounded breast, a plump body, the wing folded flat
+against the side and only just readable as a wing, and a short tail lifting slightly at the back. A
+broad flat **bright yellow bill**, and a **single small round black eye with no white around it**, set
+high on the side of the head. Short orange-yellow legs and broad flat webbed orange-yellow feet. Its
+expression is blank and mildly self-important.
+**Canonical reference:** `char-duck-canonical.png` · Approved: yes, 2026-08-01 · Seed: pending
+
+**It exists for one joke, and the joke lands twice.** *“Pip tilted her head, and everybody in the
+Warehouse shut up, because they’d learned what that meant. **Even the duck.**”* (Understudies Vol 1
+spread 8), and *“The room went quiet. **Even the duck.**”* (Vol 2). **That is why it stayed a duck**
+when the black cat and the croc were both available and free: the line only works because a duck is
+loud and stupid and is the last thing in the room you would expect to notice anything. A cat is quiet
+already, so the joke dies; a crocodile falling silent is not a change of state.
+
+**So it must read LOUD even standing still** — bill open in a plate, chest out, no self-awareness. Its
+other appearance is Vol 1 spread 6, *“standing in the middle of the floor honking at nothing”*.
+
+**Animal format, 10:9**, on the sandy animal ground with the pig, Monke and the dragon, because all
+four are in frame together in Vol 1 spread 6. **It is livestock, not a mascot**, same rule as the pig:
+it never reacts to plot and never looks like it understands anything.
+
 ### {{CHAR:AUNT_CAROL}}
 **Immutable:** A woman in her late fifties, tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly, and the canonical sheet is the authority on her build — fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no
@@ -792,6 +849,7 @@ clear of the pupil and the brows raised, an expression of mild permanent alarm t
 resolves. Carries a rifle across his chest in both gloved hands.
 **He is the one who lays hands on Ottie** and moves her exactly nothing: *“Tovar put his shoulder
 into it and it didn’t rock.”* He should look strong enough for that to be a surprise.
+**Canonical reference:** `char-tovar-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:REYES}} — Sergeant Marisol Reyes
 **Immutable:** A woman in her late twenties, warm light skin with freckles across the nose,
@@ -802,6 +860,7 @@ chest, and no weapon of any kind.
 **The notes are the character.** She hand-carries nine of them across a softball field in one
 afternoon *“because the only other option was shouting”*, Sybil having made every radio in the
 camp work perfectly on the wrong channel.
+**Canonical reference:** `char-reyes-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:DUNPHY}} — Private Kyle Dunphy
 **Immutable:** A young man of about nineteen, the youngest and smallest of the unit. Warm brown
@@ -812,6 +871,7 @@ is slung muzzle-down across his BACK and he does not hold it.
 this arc: he has the Route 9 stop from six to two, *“and he didn’t mind it, because people kept
 bringing him things. Two doughnuts and a folding chair, so far.”* Rocco later drops him with one
 light exact punch to the jaw and catches him on the way down.
+**Canonical reference:** `char-dunphy-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:PACE}} — Lieutenant Pace
 **Immutable:** A woman in her thirties, medium brown skin with freckles across the nose, and
@@ -821,6 +881,7 @@ Stands with her arms folded. No rifle and no weapon.
 **Her gender was never stated in the manuscript** and is a free choice made here. She is the one
 whose orders come out of a speaker on a folding table in the mess tent while the questions about
 them arrive at a radio locked inside a truck.
+**Canonical reference:** `char-pace-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:IDA}} — Ida Prewitt
 **Immutable:** A woman in her early seventies, small and brisk. Short silver-white hair in close
@@ -841,6 +902,7 @@ the green cardigan owns both. Nobody in either arc wears yellow.
 without them and they are half the joke.
 **Her wave is deliberately not in the sheet.** Every canonical reference is neutral pose, doing
 nothing; a sheet that performs an action stops being a reference. The wave belongs in the plate.
+**Canonical reference:** `char-ida-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
 ### {{CHAR:RENSCH}} — Bill Rensch, the county administrator
 **Immutable:** A man in his sixties, thin, narrow-shouldered and stooped forward from the neck. A
@@ -863,6 +925,8 @@ which is the job — but it is the one sheet in the set that is a little bit a s
 **He is the FOURTH bald man in the series**, after Owen, Mayor Dalton and Rocco, and Rocco is the
 closest: both bald with beards. They separate on skin, spectacles, age and dress, and they never
 share a scene. Do not frame them alike.
+**Canonical reference:** `char-rensch-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
+
 ## 4.5 Benny — The Understudies
 
 Locked 2026-07-31 from delivered art. Sheet: `char-benny-canonical.png`, 1086x1448, exactly
@@ -928,7 +992,7 @@ the man sits in a chair with his feet nowhere near the floor. Whatever is behind
 not built to human scale, and these two sheets are the only evidence of it a reader ever gets.
 
 ### {{CHAR:CHET}} — Chet
-**Immutable:** A small, worn-out humanoid robot, **about four feet tall**, squat and solid. His
+**Immutable:** A small, worn-out humanoid robot, **about three feet tall**, squat and solid. His
 head is a rounded metal box in pale bone-grey enamel gone chalky, with panel seams, rivets,
 dents and rubbed-through patches. A recessed dark band across the upper face holds **two large
 rounded-rectangular eye panels, flat white, each with a small low black pupil**. **He has no
@@ -941,11 +1005,19 @@ glowing dull orange-red** on the chest. Large exposed ball-joint shoulders in da
 segmented arms, segmented legs and flat oval feet. A hundred repairs old.
 **Canonical reference:** `char-chet-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
-**His height is fixed by arithmetic, and the sheet cannot show it.** A figure alone on a flat
-ground has no scale reference in frame, so the number has to live here. Volume 4 gives a door
-*“about four and a half feet tall”*, and *“Chet stepped through and pulled the door shut behind
-him.”* **He steps through it, he does not stoop through it** — which makes that absurd little
-door his door, built to his measure. Never draw him man-sized.
+**His height is stated in the prose, and the sheet cannot show it.** A figure alone on a flat
+ground has no scale reference in frame, so the number has to live here. Volume 4: *“He was maybe
+three feet tall, gray and scuffed and dented at one hip.”* It also gives the door he walks
+through as *“about four and a half feet tall”*, and **he steps through it rather than stooping
+through it** — which makes that absurd little door his door, built to his measure. Never draw
+him man-sized.
+
+*Corrected 2026-08-01 from four feet to three.* The first figure was inferred from the door
+before the Volume 4 description was read closely; the prose states it outright and the prose
+wins. The same passage confirms the rest of the sheet — *“a head shaped like a bread box, two
+wide eyes set into it, and a spray of stiff blond hair coming off the top like somebody had
+glued a paintbrush up there”* — and adds one thing the sheet should be read as having: **he is
+dented at one hip.**
 
 **He resembles Pip, and that resemblance is load-bearing.** Both are pale, both have a round
 port at the side of the head, and their hair is nearly the same colour. The arc’s last real beat
@@ -1123,6 +1195,30 @@ shape under a fitted tarp, roped down, near the generator, not identifiable as a
 question the arc asks and does not answer, so it must not resolve into a recognisable object.
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 | `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
+| `{{LOC:WARDROBE_ROOM}}` | The costume store under the auditorium stage of the closed elementary school, down a short flight of concrete steps: a long row of old steamer trunks along the back wall on a low ledge, ONE of them standing open with a folded sheet of tissue paper in it and nothing else; a rack of choir robes on a steel pipe, shelves of hat boxes and hats, shoes lined up in pairs with every toe pointing the same way, a typed inventory sheet in a plastic sleeve on the near wall, bare-footprint scuffs in the dust, and a single pendant lamp. **In the back wall, a small plain door about four and a half feet tall, SHUT.** **State A of a pair — see the note below.** | 6 | `loc-wardrobe-room.png` |
+
+**`WARDROBE_ROOM` exists to plant a door before it matters, and that is its one job.** Volume 3
+has Pip hear a hum *“in the room, behind the trunks”*; Volume 4 opens *“a door that didn’t
+appear on any drawing in any county file… about four and a half feet tall”*. **If the reference
+left it out and a Volume 4 plate added it, the arc’s biggest reveal would arrive from nowhere.**
+Same discipline as the empty corner the Warehouse master leaves for Lena’s desk. State A is the
+reference, door shut; state B is Volume 4, door open, with a second room beyond it that no
+reference shows.
+
+**It is a DOOR, not a hatch, and this was got wrong once.** The first generation drew it as a
+panel set high in the wall with its sill about a trunk’s height off the floor — caused by a
+prompt that described what was *visible* (*“only the top part shows above the trunks”*) instead
+of what was *there*. People walk through this door: Chet steps through it and pulls it shut,
+Ottie stands two feet from it, and four people came out of it. **Its threshold is on the floor.**
+
+**The visible trunk count is not the canon count.** Twelve read in the reference; the prose says
+thirteen twice, and the row runs off frame past the near corner. Do not "correct" the prose to
+the picture here — section 1.1 gives the lineup priority over a written description for
+CHARACTERS, and this is a room whose contents the prose counts on purpose.
+
+**No legible text.** The inventory sheet is unreadable in its sleeve and the trunk numbers are
+prose only, because the negative block forbids numerals. That costs nothing: **trunk seven
+identifies itself by being the only open trunk in the row.**
 
 **`BENNY_GYM` is a state pair, and the reference is state A.** The prose says *“The bag came
 off the chain, flew eleven feet and took out the water cooler.”* That sentence is geometry, so

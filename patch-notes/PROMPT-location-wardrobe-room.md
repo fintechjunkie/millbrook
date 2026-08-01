@@ -55,6 +55,23 @@ door standing open — and beyond it a second room the reference does not show a
 - **The inventory sheet is unreadable**, the same as the OPEN sign in the gym. Two hundred and
   six items live in the prose.
 
+## Two things the first generation got wrong, and one was this prompt’s fault
+
+Attempt 1 came back with **twelve trunks** and with the small door drawn as a **hatch set
+high in the wall**, its sill about a trunk’s height off the floor. Everything else in it was
+right — the shoes, the footprints, the illegible inventory, the hats, the robes, the open
+trunk and its tissue paper.
+
+**The door was my wording.** The earlier draft said *“Only the top part of it shows above the
+trunks”*, which describes what is VISIBLE rather than what is THERE, and the generator drew
+the visible part as the whole door. It now says the threshold is on the floor, that it is a
+door and not a hatch, and that the trunks hide its lower half while it plainly continues down
+behind them.
+
+**It matters because people walk through it.** Chet steps through and pulls it shut behind
+him. Ottie stands two feet from it. Four people came out of it. None of that works on a panel
+two feet up a wall.
+
 ## Lit plainly, on purpose
 
 They arrive with flashlights and Pip does not use one. That is the *plate’s* lighting, not the
@@ -93,8 +110,8 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - This is a location reference, not a scene. NO people, NO animals and NO figures of any kind. The footprints in the dust are marks on the floor, not a person.
 - The whole room reads in one wide view: the steps, all four walls, the trunk row and the floor.
-- EXACTLY THIRTEEN trunks in the back row. Exactly ONE of them is open — the seventh — and it contains one folded sheet of tissue paper and nothing else. Every other trunk is shut.
-- The small door in the north wall is present, is about four and a half feet tall, is SHUT, and is mostly hidden behind the trunks. It must be findable and must not be the subject.
+- EXACTLY THIRTEEN trunks in the back row — six, then the open one, then six. Not twelve. Exactly ONE of them is open, and it contains one folded sheet of tissue paper and nothing else. Every other trunk is shut.
+- The small door in the north wall STANDS ON THE FLOOR and is about four and a half feet tall. It is a door, not a hatch: it must be something a small person could walk through, and its bottom edge must be at floor level, hidden behind the trunks rather than raised above them. It is SHUT. It must be findable and must not be the subject.
 - No legible text or numerals anywhere: the marks on the trunk ends are painted marks that do not resolve into readable numbers, and the typed page in the plastic sleeve is unreadable.
 - Every shoe on the shelf points the same way. This is deliberate and it is the detail the reader is told to find unsettling.
 - The room is clearly lit and fully readable. No darkness, no torch beams, no dramatic shadow.
@@ -103,9 +120,9 @@ A large windowless basement storage room under the stage of a small-town school 
 
 At one end, a short flight of bare concrete steps rising to a plain door at the top, standing ajar on a visibly tired hinge. The floor is old grey vinyl tile, dusty and scuffed, with a fine even film of dust over everything in the room.
 
-Along the BACK wall, a row of THIRTEEN old steamer trunks, flat-topped, in mismatched browns and blacks with worn leather corners and dull brass catches, each carrying a small hand-painted white mark on its end. Twelve of them are shut. ONE trunk, seventh in the row, stands open on its hinges with its lid back, and there is nothing inside it at all but a single folded sheet of pale tissue paper lying flat in the bottom.
+Along the BACK wall, a row of THIRTEEN old steamer trunks — count them, there must be exactly thirteen — flat-topped, in mismatched browns and blacks with worn leather corners and dull brass catches, each carrying a small hand-painted white mark on its end. Twelve of them are shut. ONE trunk, the SEVENTH counting from the left end of the row, so that there are six trunks to its left and six to its right, stands open on its hinges with its lid back, and there is nothing inside it at all but a single folded sheet of pale tissue paper lying flat in the bottom.
 
-Set into the NORTH wall directly behind the row of trunks, and mostly hidden by them, a small plain door about four and a half feet tall — a low, unremarkable, close-fitting door with a plain handle, SHUT, painted the same colour as the wall so that it barely separates from it. Only the top part of it shows above the trunks. It is present and it is not announced.
+Set into the NORTH wall behind that row of trunks, a small plain door. **Its threshold is ON THE FLOOR and it stands about four and a half feet tall** — a real door that a short person walks through, roughly two thirds the height of a normal doorway, NOT a hatch, NOT a panel and NOT set up in the wall. It is low, unremarkable and close-fitting, with a plain handle, and it is SHUT, painted the same colour as the wall so it barely separates from it. The trunks stand on the floor in front of it and hide its lower half, so only its upper part is seen over them — but it plainly continues down behind them to the floor. It is present and it is not announced.
 
 Along one side wall, a rack of pale choir robes hanging shoulder to shoulder on a length of steel pipe, and above them a stacked row of open cardboard boxes with hats spilling over the edges. Along the other, a long low wooden shelf of shoes laid out in pairs, close-packed, with every single toe pointed in exactly the same direction.
 

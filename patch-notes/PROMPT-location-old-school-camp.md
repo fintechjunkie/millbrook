@@ -51,6 +51,21 @@ the right way**: newer, straighter and better made than the school, the grass or
 in frame, with not one sag or gap. Vex’s line depends on it. *“This one isn’t even thinking
 about me.”*
 
+## REGENERATION, attempt 2 — the tarp
+
+Attempt 1 is filed and is correct in every other respect: the building matches `vol3-s04`, the
+fence is right, the dumpster pad sits inside it with the hatch flush in the slab, six trucks,
+five tents, no lettering anywhere. **It delivered the generator and omitted the tarp-covered
+object entirely.**
+
+That is not cosmetic. Owen counts the camp off traffic-camera footage — *“There’s one command
+tent, four squad tents, a generator, and something under a tarp that isn’t a generator”* — and
+he says he counted twice. A reader who counts along finds four of the five things.
+
+**So the two objects are now described separately and at length, and the MUST HOLD says there
+are TWO of them.** Everything else in this prompt is unchanged from the version that produced
+the good result, so nothing else should move.
+
 ## The counts are all stated in the prose and readers will count them
 
 Six trucks. Thirty-one people. **One command tent, four squad tents, a generator, and
@@ -92,7 +107,8 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - This is a location reference, not a scene. NO people, NO animals and NO figures of any kind, anywhere.
 - The building must match the attached reference image of the same school exactly — same proportions, same brick, same boarded windows, same play structure. This is the SAME building at a later date.
-- EXACTLY six trucks. EXACTLY five tents, one large and four small. One generator. One tarp-covered object that is not a generator and is not identifiable.
+- EXACTLY six trucks. EXACTLY five tents, one large and four small.
+- TWO separate objects beside the tents, not one: a visible generator, AND a second low bulky shape completely covered by a roped-down tarpaulin. **Attempt 1 delivered the generator and omitted the tarp entirely.** Both must be in frame, a few paces apart, and obviously two different things. The covered one must not resolve into anything recognisable.
 - The fence is NEW: nine feet, straight, taut, chain link with green privacy slats woven through the lower half. It is NOT the old sagging fence in the reference image and it must not sag, lean or have a hole anywhere.
 - The dumpster pad is INSIDE the fence. The fence runs along the outer edge of the concrete and turns around it, and the boiler hatch on the pad is therefore on the protected side. This relationship must be legible.
 - No lettering, numerals, unit insignia, flags or signage anywhere — not on the trucks, the tents, the fence or the building.
@@ -103,7 +119,11 @@ The building is flat-roofed, pale brick and painted panel, with every ground-flo
 
 Around the entire property, a NEW fence: nine feet tall, taut and dead straight, industrial chain link with GREEN privacy slats woven through it so that the lower half of everything behind it is screened from outside. It is conspicuously newer and straighter than anything else in the frame, and there is no sag, no lean and no gap anywhere in it. A wide vehicle gate stands open at the near corner.
 
-On the school's old softball field, inside the fence: a backstop and a worn dirt diamond, and pitched across the outfield FIVE canvas tents — ONE large rectangular command tent and FOUR smaller squad tents in a row. Beside them a portable generator on a skid, and a short distance from it a low bulky object entirely covered by a fitted tarp, roped down, whose shape is not identifiable as anything.
+On the school's old softball field, inside the fence: a backstop and a worn dirt diamond, and pitched across the outfield FIVE canvas tents — ONE large rectangular command tent and FOUR smaller squad tents in a row. Beside the tents, TWO separate objects standing a few paces apart, and both must be present and clearly distinguishable from each other:
+
+  (a) a portable GENERATOR on a wheeled skid, plainly visible as a generator — a boxy engine housing with a fuel tank, a handle and a cable running from it toward the tents; and
+
+  (b) SOMETHING ELSE, entirely hidden under a fitted canvas TARPAULIN roped down at the corners, sitting low and bulky on the grass. It is roughly the size of a small car. Its covered shape reads as nothing identifiable — not a vehicle, not a crate, not a gun, not another generator. It is simply a shape under a tarp, and it must be obvious to a viewer that there is a second object here and that it is covered.
 
 On the asphalt apron beside the building, SIX identical sand-coloured military cargo trucks parked in a neat row, canvas tilts over their beds, all carrying no markings of any kind.
 

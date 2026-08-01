@@ -161,6 +161,20 @@ reader a 70-to-72 character line in place of 83, and it was only affordable beca
 affordances below already existed. Do not treat a page over 100% here as a regression to
 chase; check it against `/checks/fill` and decide whether it is the one you meant.
 
+**All 12 are in The Patch. Every one of the 46 Understudies pages is under 100% at both sizes**
+— worst 94%, median 78%, measured 2026-07-31. So the second arc is not paginated near its
+limit and has room to absorb a type change.
+
+**Hyphenation cannot force a repagination, so do not gate work on verifying it.** `hyphens:
+auto` is inert in the preview pane (no dictionary installed — an `auto` and a `none` copy of the
+same paragraph measure identically at `lang="en"`), which looks like a thing that has to be
+re-checked in a real browser before anything downstream can proceed. It does not, because the
+answer is the same either way: **hyphenation only ever widens the set of legal break points, so
+line count can only fall or stay equal, so fill can only drop.** A page cannot be pushed OVER by
+it. The one loose end is `text-wrap: pretty`, which can add a line to avoid a short last one —
+and one line measures **3.24% of the column**, so even the worst Understudies page lands at
+97%. Nothing to repaginate in either direction.
+
 Three things say so, and **every one of them is an overlay or a behaviour, never layout**:
 a fade at the foot of the column, a `More ↓` button that scrolls one screenful, and vertical
 keys (Space, PageDown, ArrowDown) that scroll while anything is unread and turn the page once
