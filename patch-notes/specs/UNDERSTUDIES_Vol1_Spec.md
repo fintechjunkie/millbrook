@@ -379,7 +379,8 @@ Prompt:
 {{CHAR:FELIX}}
 {{CHAR:PIG}}
 {{CHAR:DRAGON}}
-The lounge end of the warehouse in the middle of an ordinary afternoon. The back door stands propped open with a brick and daylight comes through it. An old floor fan turns badly in one corner. The pig lies stretched out asleep along the best of the four sagging couches, taking all of it. a plain white domestic duck standing on the concrete in the middle of the open floor with its bill open, honking at nothing in particular. It is asleep on top of the refrigerator against the wall, curled up with its tail hanging down over the door handle. Milo stands in the middle of the floor mid-question with one hand out. Felix sits on the arm of a couch watching him. Owen is at his desk in the background with his back to the room, facing his monitors.
+{{CHAR:DUCK}}
+The lounge end of the warehouse in the middle of an ordinary afternoon. The back door stands propped open with a brick and daylight comes through it. An old floor fan turns badly in one corner. The pig lies stretched out asleep along the best of the four sagging couches, taking all of it. The duck stands on the concrete in the middle of the open floor with its bill open, honking at nothing in particular. The dragon is asleep on top of the refrigerator against the wall, curled up with its tail hanging down over the door handle. Milo stands in the middle of the floor mid-question with one hand out. Felix sits on the arm of a couch watching him. Owen is at his desk in the background with his back to the room, facing his monitors.
 Mid-afternoon.
 Wide, camera at standing height, taking in the couches, the fridge and the propped door in one frame.
 Daylight through the open back door and the high windows plus the room lights, warm and clearly readable everywhere.

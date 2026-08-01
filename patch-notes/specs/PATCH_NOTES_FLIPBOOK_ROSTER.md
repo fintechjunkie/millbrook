@@ -375,6 +375,30 @@ show it breathing fire, because the prose never does either — the fires are al
 **It is not a mascot and not clever.** Same rule as the pig: Monke carries all of this project’s
 animal ambiguity and nothing else is allowed to. The dragon wants heat and that is all it wants.
 
+### {{CHAR:DUCK}}
+**Immutable:** A plain white domestic duck built from layered paper, standing on both feet. The whole
+body is clean white with no markings of any kind: a smoothly rounded head, a long neck held in a
+relaxed S-curve rather than stretched up, a deep rounded breast, a plump body, the wing folded flat
+against the side and only just readable as a wing, and a short tail lifting slightly at the back. A
+broad flat **bright yellow bill**, and a **single small round black eye with no white around it**, set
+high on the side of the head. Short orange-yellow legs and broad flat webbed orange-yellow feet. Its
+expression is blank and mildly self-important.
+**Canonical reference:** `char-duck-canonical.png` · Approved: yes, 2026-08-01 · Seed: pending
+
+**It exists for one joke, and the joke lands twice.** *“Pip tilted her head, and everybody in the
+Warehouse shut up, because they’d learned what that meant. **Even the duck.**”* (Understudies Vol 1
+spread 8), and *“The room went quiet. **Even the duck.**”* (Vol 2). **That is why it stayed a duck**
+when the black cat and the croc were both available and free: the line only works because a duck is
+loud and stupid and is the last thing in the room you would expect to notice anything. A cat is quiet
+already, so the joke dies; a crocodile falling silent is not a change of state.
+
+**So it must read LOUD even standing still** — bill open in a plate, chest out, no self-awareness. Its
+other appearance is Vol 1 spread 6, *“standing in the middle of the floor honking at nothing”*.
+
+**Animal format, 10:9**, on the sandy animal ground with the pig, Monke and the dragon, because all
+four are in frame together in Vol 1 spread 6. **It is livestock, not a mascot**, same rule as the pig:
+it never reacts to plot and never looks like it understands anything.
+
 ### {{CHAR:AUNT_CAROL}}
 **Immutable:** A woman in her late fifties, tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly, and the canonical sheet is the authority on her build — fair skin with a scatter of freckles across the nose and cheeks, a face that has kept its structure with no slackness at the jaw, large alert dark eyes under fine dark eyebrows that contrast strongly with her hair, a straight nose, and a small closed mouth that rests level and goes up at one corner when she is amused. Abundant hair worn piled up and back off the face with height at the crown and loose curling strands escaping it, silver-white shot through with darker charcoal streaks rather than uniformly grey. A rust-red patterned headscarf is tied as a band across the front of the hairline at all times with its knotted ends trailing loose behind her left ear, and a single long brass drop earring hangs from that ear.
 **Canonical reference:** `char-carol-canonical.png` · Seed: pending · Approved: no
