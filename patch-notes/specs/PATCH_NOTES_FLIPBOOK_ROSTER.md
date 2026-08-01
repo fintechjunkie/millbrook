@@ -578,7 +578,7 @@ rectangle appears behind a face.
 |---|---|---|---|
 | Ottie | `char-ottie-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Ottie/OTTIE_CANONICAL_FULL_BODY.png` |
 | Rocco | `char-rocco-canonical.png` | `rgb(237,217,192)` | `SECONDARY/Rocco/ROCCO_CANONICAL_FULL_BODY.png` |
-| Wren | `char-wren-canonical.png` | `rgb(235,218,193)` | `SECONDARY/Wren/WREN_CANONICAL_FULL_BODY.png` |
+| Wren | `char-wren-canonical.png` | `rgb(231,208,184)` | `SECONDARY/Wren/WREN_CANONICAL_FULL_BODY.png` |
 | Sybil | `char-sybil-canonical.png` | `rgb(235,216,192)` | `SECONDARY/Sybil/SYBIL_CANONICAL_FULL_BODY.png` |
 
 The main cast sits on `rgb(238,221,197)`, so all four are within five points of it and of each
@@ -663,18 +663,21 @@ distance. A large **orange neckerchief** at the throat, spread across the chest.
 long-sleeved tunic belted at the waist with a brown leather belt and a square steel buckle, a
 small brown pouch on the belt. A **rust-orange pack** on both shoulders on brown leather straps,
 with a **quiver rising past her right shoulder** holding twelve blunt practice arrows, fletchings
-orange, teal and cream. Olive-green cargo trousers with **visible patches and deep turn-ups**,
-teal socks, and dark boots with pale toe caps. A **strung** recurve bow of warm wood with pale
+orange, teal and cream. **Charcoal cargo trousers**, loose and gathered into a cuff at the
+ankle, with a single flap pocket on the right thigh, over **brown leather boots with buckled
+straps at the ankle**. A **strung** recurve bow of warm wood with pale
 teal tips, carried in her left hand, the string clearly present.
 **Canonical reference:** `char-wren-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 **Delivered clean.** The supplied portrait carried a small red fire extinguisher clipped beside
 the bow, which was excluded from the prompt as a generation artifact. It is absent from the
 sheet, and the bow is correctly strung.
-**Watch the Vex echo, which is in the trousers rather than the head.** Olive cargo trousers with
-patches and deep turn-ups, teal socks and dark boots with pale toe caps is close to VEX_A almost
-item for item, and both girls have teal-family hair. They separate on silhouette and skin: eared
-cap and chin-length hair against two high buns, fair skin against warm brown with freckles. In a
-plate holding both, do not put them in the same posture or crop them at the waist.
+**Second sheet, 2026-07-31, and the trousers are why.** The first had her in olive cargo
+trousers with patches and deep turn-ups over teal socks and dark boots with pale toe caps,
+which is VEX_A almost item for item — and the two girls already share teal-family hair, so
+cropping both at the waist in one plate would have been genuinely ambiguous. Charcoal trousers
+and brown buckled boots share nothing with Vex’s wardrobe, so they now separate on the legs as
+well as on silhouette and skin: eared cap and chin-length hair against two high buns, fair skin
+against warm brown with freckles.
 **Hard constraints:** the bow is **strung** — the inventory recorded it string-missing and the
 correction is a plot point. Arrows are **twelve blunt practice arrows**, never broadheads.
 
