@@ -206,6 +206,72 @@
       "approved": true,
       "approvalNote": "yes, 2026-07-31 · Seed: pending",
       "renderingNote": null
+    },
+    "TOVAR": {
+      "token": "TOVAR",
+      "immutable": "A man in his thirties, the heaviest built of the unit, thick through the neck and shoulders. Pale skin, a full dark beard and moustache, and thick dark brown hair in tight loose curls standing out from the head. Round wire spectacles. Large round eyes with the whites well clear of the pupil and the brows raised, an expression of mild permanent alarm that never quite resolves. Carries a rifle across his chest in both gloved hands.",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "REYES": {
+      "token": "REYES",
+      "immutable": "A woman in her late twenties, warm light skin with freckles across the nose, straight black hair pulled back into a short low ponytail. A dark ball cap with a green brim, worn forward. A calm, faintly amused half-smile — the only one of the four who looks like she is enjoying her morning. Carries a thick stack of folded paper notes in both hands against her chest, and no weapon of any kind.",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "DUNPHY": {
+      "token": "DUNPHY",
+      "immutable": "A young man of about nineteen, the youngest and smallest of the unit. Warm brown skin, a round soft face with no beard, round thin-rimmed spectacles, and **bright green hair, short and standing up in stiff spikes**. A mild, patient, slightly resigned expression. His rifle is slung muzzle-down across his BACK and he does not hold it.",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "PACE": {
+      "token": "PACE",
+      "immutable": "A woman in her thirties, medium brown skin with freckles across the nose, and",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "IDA": {
+      "token": "IDA",
+      "immutable": "A woman in her early seventies, small and brisk. Short silver-white hair in close natural curls, worn uncovered with nothing on her head. A round face gone soft at the jaw, deep laugh lines, warm pale skin with freckles across the nose, small gold stud earrings, no spectacles. Her resting expression is mildly pleased and completely unsurprised. Worn: a **buttercup-yellow quilted half-zip anorak** with a chest pocket, a lilac sweatshirt at the neck and cuffs, navy tracksuit trousers with a white side stripe, and white trainers. In her left hand she holds a brown leather lead that splits to **TWO tricolour beagles**, both standing calmly beside her.",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "RENSCH": {
+      "token": "RENSCH",
+      "immutable": "A man in his sixties, thin, narrow-shouldered and stooped forward from the neck. A completely bald head, pale skin, and a close-trimmed grizzled beard and moustache in mixed grey and warm brown covering the jaw and chin. Round wire-rimmed spectacles sitting low. Small eyes turned up and away, a permanently put-upon and faintly self-important expression: a man who believes he is owed a better morning than this one. Worn: a grey-blue wool overcoat worn open, a mustard-ochre waistcoat with two pewter buttons, a white shirt, a loosely knotted brown cravat slightly askew, grey trousers with turn-ups, and brown leather lace-up boots.",
+      "immutableInactive": null,
+      "canonicalRef": null,
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
     }
   },
   "wardrobe": {

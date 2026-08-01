@@ -745,6 +745,124 @@ the sheet shows.
 
 **Wardrobe letters:** `ROCCO_A`, `WREN_A`, `OTTIE_A`, `OTTIE_B` (helmet off, shoulder plate
 carried), `SYBIL_A`. New arc, new letters, per 5.1. Never rewrite an existing one.
+## 4.4 The unit, and two of the town — The Understudies
+
+Locked 2026-07-31 from delivered art. Same rules as 4.3: the sheets are the source, the
+ground is recorded per character, and the archive lives under
+`reference-source/SECONDARY/<Name>/`.
+
+| Character | Slug | Size | Ground |
+|---|---|---|---|
+| Ida Prewitt | `char-ida-canonical.png` | 1086x1448 | `rgb(235,209,181)` |
+| Bill Rensch | `char-rensch-canonical.png` | 1086x1448 | `rgb(242,214,176)` |
+| Specialist Tovar | `char-tovar-canonical.png` | 543x724 | `rgb(245,221,190)` |
+| Sergeant Reyes | `char-reyes-canonical.png` | 543x724 | `rgb(245,221,192)` |
+| Private Dunphy | `char-dunphy-canonical.png` | 543x724 | `rgb(243,219,188)` |
+| Lieutenant Pace | `char-pace-canonical.png` | 543x724 | `rgb(246,222,192)` |
+
+### The four soldiers came out of one lineup, and that was the point
+
+`char-soldiers-lineup.png`, archived as
+`SOURCE_LINEUPS/MILLBROOK_CANONICAL_SOLDIERS_LINEUP_v1.png`. A group sheet is right for these
+four and was wrong for the four out of the trunk, for opposite reasons: those are four costumes
+out of one cupboard and a shared sheet homogenises faces, which is how the first knight came
+back wearing Vex’s hair. **These four are one unit in one uniform, so the risk runs the other
+way** — generated separately they drift, and four soldiers who do not match each other is a
+worse failure than four who are small in frame. Section 1.1 applies: if a written description
+and the lineup ever disagree, the lineup wins, so it is kept.
+
+**Cut on the figures, not on quarters.** The four came back bunched toward the middle, so an
+equal-quarter cut would have contained each of them and centred none. The crop finds the ground
+from the corners, marks every column holding a pixel far enough from it to be a figure, groups
+those into four runs and cuts a window centred on each. At 724 tall the window is 543 wide,
+which is exactly 3:4, so every crop matches the other nineteen references with no padding and
+no scaling. Margins came out 125 to 150px.
+
+**Two known deviations, both recorded rather than fixed.** The carved four are 543x724 against
+1086x1448 for a single sheet — half the linear resolution, which is the price of a group sheet
+and was accepted because uniform consistency matters more for four figures who appear in two to
+four spreads each. And they are RGBA where every other sheet is RGB, because the encoder writes
+one format; alpha was verified as 255 across every pixel of all four, so nothing is transparent.
+
+### {{CHAR:TOVAR}} — Specialist Tovar
+**Immutable:** A man in his thirties, the heaviest built of the unit, thick through the neck and
+shoulders. Pale skin, a full dark beard and moustache, and thick dark brown hair in tight loose
+curls standing out from the head. Round wire spectacles. Large round eyes with the whites well
+clear of the pupil and the brows raised, an expression of mild permanent alarm that never quite
+resolves. Carries a rifle across his chest in both gloved hands.
+**He is the one who lays hands on Ottie** and moves her exactly nothing: *“Tovar put his shoulder
+into it and it didn’t rock.”* He should look strong enough for that to be a surprise.
+
+### {{CHAR:REYES}} — Sergeant Marisol Reyes
+**Immutable:** A woman in her late twenties, warm light skin with freckles across the nose,
+straight black hair pulled back into a short low ponytail. A dark ball cap with a green brim,
+worn forward. A calm, faintly amused half-smile — the only one of the four who looks like she is
+enjoying her morning. Carries a thick stack of folded paper notes in both hands against her
+chest, and no weapon of any kind.
+**The notes are the character.** She hand-carries nine of them across a softball field in one
+afternoon *“because the only other option was shouting”*, Sybil having made every radio in the
+camp work perfectly on the wrong channel.
+
+### {{CHAR:DUNPHY}} — Private Kyle Dunphy
+**Immutable:** A young man of about nineteen, the youngest and smallest of the unit. Warm brown
+skin, a round soft face with no beard, round thin-rimmed spectacles, and **bright green hair,
+short and standing up in stiff spikes**. A mild, patient, slightly resigned expression. His rifle
+is slung muzzle-down across his BACK and he does not hold it.
+**He carries four spreads, more than any other soldier**, and he is the human face of the Army in
+this arc: he has the Route 9 stop from six to two, *“and he didn’t mind it, because people kept
+bringing him things. Two doughnuts and a folding chair, so far.”* Rocco later drops him with one
+light exact punch to the jaw and catches him on the way down.
+
+### {{CHAR:PACE}} — Lieutenant Pace
+**Immutable:** A woman in her thirties, medium brown skin with freckles across the nose, and
+**short bright blue hair swept up and back off the forehead**, shaved close at the sides. Strong
+dark brows drawn together, jaw set, mouth flat — the one visibly holding a bad morning together.
+Stands with her arms folded. No rifle and no weapon.
+**Her gender was never stated in the manuscript** and is a free choice made here. She is the one
+whose orders come out of a speaker on a folding table in the mess tent while the questions about
+them arrive at a radio locked inside a truck.
+
+### {{CHAR:IDA}} — Ida Prewitt
+**Immutable:** A woman in her early seventies, small and brisk. Short silver-white hair in close
+natural curls, worn uncovered with nothing on her head. A round face gone soft at the jaw, deep
+laugh lines, warm pale skin with freckles across the nose, small gold stud earrings, no
+spectacles. Her resting expression is mildly pleased and completely unsurprised.
+Worn: a **buttercup-yellow quilted half-zip anorak** with a chest pocket, a lilac sweatshirt at
+the neck and cuffs, navy tracksuit trousers with a white side stripe, and white trainers.
+In her left hand she holds a brown leather lead that splits to **TWO tricolour beagles**, both
+standing calmly beside her.
+**Invented within the style on author instruction**, because the manuscript gives her two
+sentences and no description: she walks her beagles at six in the morning, and she waves at the
+trucks. Every choice steers away from something taken — no cap, because Wren and Reyes both have
+one; no teal hair, because Wren and Vex do; no headscarf, because that is Aunt Carol’s one
+identifying feature; no reading glasses on a chain and no green cardigan, because the woman in
+the green cardigan owns both. Nobody in either arc wears yellow.
+**The beagles are in her sheet rather than a separate animal reference.** She never appears
+without them and they are half the joke.
+**Her wave is deliberately not in the sheet.** Every canonical reference is neutral pose, doing
+nothing; a sheet that performs an action stops being a reference. The wave belongs in the plate.
+
+### {{CHAR:RENSCH}} — Bill Rensch, the county administrator
+**Immutable:** A man in his sixties, thin, narrow-shouldered and stooped forward from the neck. A
+completely bald head, pale skin, and a close-trimmed grizzled beard and moustache in mixed grey
+and warm brown covering the jaw and chin. Round wire-rimmed spectacles sitting low. Small eyes
+turned up and away, a permanently put-upon and faintly self-important expression: a man who
+believes he is owed a better morning than this one.
+Worn: a grey-blue wool overcoat worn open, a mustard-ochre waistcoat with two pewter buttons, a
+white shirt, a loosely knotted brown cravat slightly askew, grey trousers with turn-ups, and
+brown leather lace-up boots.
+**Two things the manuscript fixes.** The curfew belongs to him — *“Crane is going to want a curfew
+he can actually enforce, and he can’t have one, because the curfew belongs to the dumbest man in
+this county”* — and he is the Mayor’s rival for ceremonial glory. Dalton’s nightmare is *“Bill
+Rensch would be standing at my ribbon, in front of my banner, holding my scissors, and I would be
+down at the other end of it like a boy at a wedding.”* He owns a pontoon boat, which Dalton says
+the way other people say something unforgivable.
+**The delivered sheet is mid-stride with one finger raised**, where every other reference is a
+neutral standing pose. Kept, because it holds the face, the spectacles and the whole costume,
+which is the job — but it is the one sheet in the set that is a little bit a scene.
+**He is the FOURTH bald man in the series**, after Owen, Mayor Dalton and Rocco, and Rocco is the
+closest: both bald with beards. They separate on skin, spectacles, age and dress, and they never
+share a scene. Do not frame them alike.
 ## 5. Wardrobe states
 
 The four volumes cover roughly a fortnight: Volume 1 is day one, Volume 2 is day two, Volume 3 is a Tuesday and Wednesday of a later week, Volume 4 is that Friday. States are keyed to that story time. Most of the cast wear a signature outfit that does not change, which is a gift for continuity, so only the states that actually vary are listed as variants.
