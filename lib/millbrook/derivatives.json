@@ -63,6 +63,17 @@
     800,
     900
   ],
+  "char-dragon-canonical.png": [
+    400,
+    800,
+    1000
+  ],
+  "char-duck-canonical.png": [
+    400,
+    800,
+    1200,
+    1322
+  ],
   "char-dunphy-canonical.png": [
     400,
     543
@@ -185,6 +196,12 @@
     1536
   ],
   "loc-square.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-wardrobe-room.png": [
     400,
     800,
     1200,
