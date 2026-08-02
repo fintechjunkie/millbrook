@@ -480,7 +480,7 @@
     },
     "TOWN_HALL_SQUARE": {
       "token": "TOWN_HALL_SQUARE",
-      "block": "A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.",
+      "block": "A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.",
       "uses": 6,
       "canonicalRef": "loc-square.png",
       "standInRef": null
