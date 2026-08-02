@@ -153,9 +153,14 @@ Prompt:
 {{CHAR:MILO}}
 {{CHAR:OWEN}}
 {{CHAR:FELIX}}
-A small press conference on the steps of the town hall. The Mayor stands at a plain wooden podium mid-sentence with one hand out. About twenty ordinary townspeople sit on rows of grey metal folding chairs, seen from behind and to one side. Lena stands behind the last row at a camera on a tripod, filming. Milo, Owen and Felix stand together at the very back, not sitting. Vex sits up on the low wall by the flagpole with her boots hanging off it, eating an apple. Pip stands apart from the crowd altogether, off to one side, still, head level, listening.
+A small press conference on the steps of the town hall. The Mayor stands at a plain wooden podium mid-sentence with one hand out. About twenty ordinary townspeople sit on rows of grey metal folding chairs, seen from behind and to one side.
+The six of them are in SIX DIFFERENT PLACES doing SIX DIFFERENT THINGS, and each of the following is separately required. They must NOT be gathered together in one group, and their faces must be visible rather than turned away from camera.
+(1) LENA stands behind the last row of chairs at a video camera mounted on a TRIPOD, both hands on it, filming the podium.
+(2) VEX is SITTING UP ON A LOW BRICK WALL beside a FLAGPOLE, well above everyone else, with her boots hanging down off the wall and an APPLE in one hand, mid-bite. The wall and the flagpole must both be in frame.
+(3) MILO, (4) OWEN and (5) FELIX stand together on their feet at the very back behind the seated rows, not sitting.
+(6) PIP stands completely apart from all of them, alone, off to the far side with empty ground around her, upright and still with her head level, listening.
 Ten in the morning, bright and dry.
-Wide, camera slightly elevated and behind the seated crowd so all seven of them and the podium are in one frame.
+Wide, camera slightly elevated and to one side of the seated crowd so all seven named figures and the podium are in one frame — but angled so that the six of them are seen from the FRONT or three-quarters, never from behind. A previous attempt put the whole cast back-to-camera in a single clump, which is the one thing this frame must not do.
 High clear morning light, no drama, every face readable.
 {{NEGATIVE}}
 Aspect ratio: 3:2
@@ -214,9 +219,12 @@ Prompt:
 {{CHAR:ADMIRAL_CRANE}}
 {{CHAR:MILO}}
 {{CHAR:FELIX}}
-Off to one side of the low stage, Crane stands alone with his hands clasped behind his back and his mask on, completely still, looking steadily off across the frame at one particular person and taking his time about it. Across the frame and further back, standing at the rear of the seated rows, Milo is looking straight back at him with his jaw set. Beside Milo, Felix has noticed and is looking anxiously between the two of them. Nobody else in frame is aware of any of it.
+A LOOK BETWEEN TWO PEOPLE STANDING WELL APART, and the look is the entire subject of the picture. They are on OPPOSITE SIDES of the frame with the crowd between them, and they must never be standing together.
+In the NEAR HALF of the frame and off to one side of the low stage, CRANE stands ALONE with nobody within several paces of him. His HANDS ARE CLASPED BEHIND HIS BACK, his medical mask is on, he is completely still, and his head is turned so that he is looking steadily ACROSS the frame at one particular person, taking his time about it.
+In the FAR HALF of the frame, further back and standing at the rear of the seated rows, MILO is looking STRAIGHT BACK at Crane with his jaw set. Beside Milo, FELIX has noticed and is glancing anxiously between the two of them.
+The two of them are looking directly at each other along the diagonal of the frame and the line between them is unobstructed. Nobody else in frame is aware of any of it.
 Ten in the morning, bright and dry.
-Medium close two-shot along the line of the look, Crane sharp in the near half of the frame and Milo clear in the far half, the seated crowd soft between them.
+MEDIUM CLOSE two-shot along the line of the look — close enough that Crane and Milo each fill a substantial part of their half of the frame and both faces are large and fully readable. Crane sharp in the near half, Milo clear in the far half, the seated crowd small and soft between them. This is NOT a wide establishing shot of the square: a previous attempt came back wide with all three figures standing together in a clump at one side, which destroys the only thing this plate is for.
 High clear morning light, no drama, both faces fully readable.
 {{NEGATIVE}}
 Aspect ratio: 3:2
