@@ -338,6 +338,22 @@ original left implied were often its best. Each time, ask whether the gap was a 
   because delivered plates depend on them. See roster section 5.1.
 - **Prompts must attach real reference files.** A prompt claiming a reference that does
   not exist is how Felix drifted for a whole volume.
+- **An attached location reference is authoritative about what is NOT in the room, and that
+  is a trap when the scene is busier than the reference.** `loc-square.png` is an empty
+  civic square with empty rows of folding chairs. Attach it and say nothing, and the plate
+  comes back with empty chairs and nobody at the podium, because the generator is doing
+  exactly what it was told: take the room from this image. It does not know the press
+  conference is happening.
+
+  So **every occupant and every changed state has to be named in the prompt, not left to
+  the scene's logic** — the crowd in the seats and roughly how many, who is at the podium,
+  a door that is now open, a chair that is now turned. If the reference is a plainer version
+  of the moment, the prompt carries the whole difference.
+
+  Two consequences worth holding on to. **Flag it when a reference is too basic for the
+  beat**, rather than discovering it in a delivered plate. And a named figure added this way
+  still needs their `{{CHAR:...}}` token even if they are small and soft in the background,
+  because the alternative is a recognisable face generated with no reference attached.
 - **Every arc gets its own tinted band, and a new arc takes the next one from `ARC_BANDS`.**
   A volume card is paper on a near-white shell, which measures 1.02:1 and leaves the cards
   with nothing to sit against. The bands are set at about 1.4:1 against paper — short of the

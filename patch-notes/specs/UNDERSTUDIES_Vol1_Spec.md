@@ -216,10 +216,12 @@ Prompt:
 ```
 {{STYLE}}
 {{LOC:TOWN_HALL_SQUARE}}
+{{CHAR:MAYOR_DALTON}}
 {{CHAR:ADMIRAL_CRANE}}
 {{CHAR:MILO}}
 {{CHAR:FELIX}}
-A LOOK BETWEEN TWO PEOPLE STANDING WELL APART, and the look is the entire subject of the picture. They are on OPPOSITE SIDES of the frame with the crowd between them, and they must never be standing together.
+THE PRESS CONFERENCE IS IN PROGRESS AND THE SQUARE IS OCCUPIED. The attached location image shows this square EMPTY, and it is not empty here: about twenty ordinary townspeople are SITTING in the rows of grey metal folding chairs, and the MAYOR is standing at the plain wooden podium on the low stage, mid-sentence, small in the frame and soft. None of that is optional — a square with empty chairs and nobody at the podium is the wrong scene.
+Against that, the subject of the picture: A LOOK BETWEEN TWO PEOPLE STANDING WELL APART, and the look is the entire subject of the picture. They are on OPPOSITE SIDES of the frame with the crowd between them, and they must never be standing together.
 In the NEAR HALF of the frame and off to one side of the low stage, CRANE stands ALONE with nobody within several paces of him. His HANDS ARE CLASPED BEHIND HIS BACK, his medical mask is on, he is completely still, and his head is turned so that he is looking steadily ACROSS the frame at one particular person, taking his time about it.
 In the FAR HALF of the frame, further back and standing at the rear of the seated rows, MILO is looking STRAIGHT BACK at Crane with his jaw set. Beside Milo, FELIX has noticed and is glancing anxiously between the two of them.
 The two of them are looking directly at each other along the diagonal of the frame and the line between them is unobstructed. Nobody else in frame is aware of any of it.
