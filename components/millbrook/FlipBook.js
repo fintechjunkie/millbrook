@@ -9,7 +9,7 @@ import PLATE_CAPTIONS from '@/patch-notes/plate-captions.json';
 import {
   BlankPage, GraphicPage, OpenerSpread, TextPage, scrollEdges, scrollOneScreen,
 } from './SpreadPage';
-import { color, geometry, paper, reader, space, turn as TURN, type, ui } from '@/lib/millbrook/series';
+import { ARCS, color, geometry, paper, reader, space, turn as TURN, type, ui } from '@/lib/millbrook/series';
 
 // ============================================================
 // Leaves
@@ -1033,6 +1033,7 @@ export default function FlipBook({ volume, next = null }) {
     />
   );
 
+  const arc = ARCS.find((a) => a.id === volume.arc);
   const total = volume.spreadCount;
   const spreadNo = leaf?.kind === 'spread' ? String(leaf.spread.n).padStart(2, '0') : null;
   const ariaLabel = leaf?.kind === 'spread'
@@ -1126,10 +1127,16 @@ export default function FlipBook({ volume, next = null }) {
             at all: one level up, then hunt for a second link. The trail makes every
             ancestor a target and puts the volume title where it already was, so the
             chrome gains a destination without gaining a row. */}
+        {/* The arc comes from the VOLUME, never from a constant.
+            This trail was written when there was one arc and hardcoded "The Patch"
+            with a link to /patch-notes, so every Understudies volume announced the
+            wrong story and offered a way out of it into the other one. The volume
+            already knows its arc — the 404 guard on this route reads the same field —
+            and ARCS already holds the title, with the id doubling as the route. */}
         <Crumbs
           trail={[
             { label: 'Millbrook', href: '/' },
-            { label: 'The Patch', href: '/patch-notes' },
+            ...(arc ? [{ label: arc.title, href: `/${arc.id}` }] : []),
           ]}
           // "Part Two: The Bookstore That Was Always There" wraps to two lines at
           // 375px and pushes the fixed chrome to 74px, which is a lot of a phone

@@ -704,10 +704,20 @@ export function GraphicPage({ spread, compact, caption }) {
             style={{
               fontFamily: type.body.fontFamily,
               fontStyle: 'italic',
-              // Up from 8.5. Small enough to stay subordinate to the picture, large
-              // enough to be read rather than noticed.
-              fontSize: 11.5,
-              lineHeight: 1.35,
+              // 14, up from 11.5 and from 8.5 before that. A third of this page is
+              // empty by construction — a 3:2 plate in a 1:1 page — so the caption is
+              // not competing for room with anything, and at 11.5 it read as a
+              // footnote to a picture rather than as part of the page.
+              //
+              // Larger than the 12.7px body type, which would be wrong in a column
+              // and is right here: there is no prose on this page for it to be
+              // subordinate to, and it is the only text a reader's eye has to land on.
+              //
+              // Scales with the reader's setting, unlike the folio. That is the line
+              // between the two — a folio is interface and stays put, a caption is
+              // reading matter and should grow with the prose it sits beside.
+              fontSize: 'calc(14px * var(--mb-type-scale, 1))',
+              lineHeight: 1.4,
               color: compact ? reader.textMuted : color.inkSoft,
               marginTop: space(3),
               // Never wider than the measure, so a long caption breaks like prose

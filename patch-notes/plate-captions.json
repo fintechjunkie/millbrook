@@ -1,5 +1,6 @@
 {
-  "_note": "AUTHORED, not generated. Do not let parse-specs write here. One line per plate, keyed by image slug. A caption names the MOMENT rather than the room: the running section heading already says where we are, and repeating it under the picture told the reader nothing they could not see. Kept to a handful of words, sentence case, curly apostrophes, and never reaching past the beat its own plate depicts — the plate is already cleared to show that beat, so the caption inherits its spoiler clearance and nothing more. A plate with no entry here falls back to the running section, which is how the Understudies plates stay captioned before they are written.",
+  "_note": "AUTHORED, not generated. Do not let parse-specs write here. One line per plate, keyed by image slug. A caption names the MOMENT rather than the room: the running section heading already says where we are, and repeating it under the picture told the reader nothing they could not see — three consecutive plates once read 'What The Wires Are Asking'. Kept under about 40 characters, sentence case, curly apostrophes, and never reaching past the beat its own plate depicts, so the caption inherits the plate's spoiler clearance and claims nothing more. A plate with no entry here falls back to the running section, so it is never bare.",
+  "_pending": "Understudies volumes 2, 3 and 4 are deliberately absent: their image specs are still PENDING, so there is no depicted beat to describe and a caption would be invented rather than written. Add each one when its spec lands — at the same time as the art, ideally, since the same paragraph tells you both what to draw and what to call it.",
 
   "vol1-s01": "Lena arrives on Crescent Street",
   "vol1-s02": "Vex leaves with the dashcam",
@@ -41,5 +42,17 @@
   "vol4-s07": "Room made in the corner",
   "vol4-s07b": "Lena records the last one",
   "vol4-s08": "The phone with no buttons",
-  "vol4-s09b": "Monke finds the drawer"
+  "vol4-s09b": "Monke finds the drawer",
+
+  "u1-s01": "Ida Prewitt waves at the convoy",
+  "u1-s02": "Everybody doing what they do",
+  "u1-s03": "Crane picks Milo out of the crowd",
+  "u1-s04": "Nine feet of fence in four hours",
+  "u1-s05": "Lena finds the thermos already filled",
+  "u1-s06": "The pig, the duck and the dragon",
+  "u1-s07": "Vex and Monke, walking on their hands",
+  "u1-s08": "Vex crouches, and does not touch her",
+  "u1-s09": "Lena puts the phone face down",
+  "u1-s10": "Pip closes her eyes",
+  "u1-s11": "Trunk seven, open and empty"
 }
