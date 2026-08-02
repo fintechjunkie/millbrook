@@ -1152,7 +1152,22 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:AUNT_CAROL_LIVING_ROOM}}` | A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen. | 1 | not required |
 | `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. | 1 | not required |
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 2 | not required — stand-in: `vol1-s06.png` |
-| `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs. | 6 | `loc-square.png` |
+| `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards. | 6 | `loc-square.png` — **see the note below: the delivered reference has no flagpole and no low wall** |
+
+**`loc-square.png` predates two features of this location, and any prompt that needs them has
+to add them explicitly.** The delivered reference has benches, planters and lamp standards but
+**no flagpole and no low sitting wall**. Understudies Vol 1 spread 2 puts Vex *“up on the low
+wall by the flagpole with her boots hanging off it”*, and that position is simply not available
+in the room the reference shows.
+
+Two attempts proved it. The first put her on the ground; the second resolved the impossibility
+by **removing her from the picture entirely**. Neither was disobedience — the generator takes
+the room from the attached image, and in that room there is nowhere for her to sit.
+
+This is the general rule in CLAUDE.md about a reference being authoritative over absence, in
+its most literal form: the missing thing was not a person but a piece of architecture. The
+block above now records both features so a future regeneration of `loc-square.png` includes
+them and this stops being a per-prompt problem.
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `loc-warehouse-canonical.png` |
