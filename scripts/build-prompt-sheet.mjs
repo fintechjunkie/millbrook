@@ -31,6 +31,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createExpander } from './lib-prompt.mjs';
+import { ALL_SLUGS } from './lib-specs.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PN = join(ROOT, 'patch-notes');
@@ -42,8 +43,12 @@ const { roster, expand, rosterOrder, charsIn, nameFor, missingRefs } = createExp
 });
 
 
-function build(volNum) {
-  const vol = JSON.parse(readFileSync(join(PN, 'volumes', `vol${volNum}.json`), 'utf8'));
+// Title for the sheet header. The arc name lives in the volume JSON; the number
+// is the tail of the slug, so this works for `vol3` and `u1` alike.
+const ARC_TITLE = { patch: 'The Patch Notes', understudies: 'The Understudies' };
+
+function build(slug) {
+  const vol = JSON.parse(readFileSync(join(PN, 'volumes', `${slug}.json`), 'utf8'));
 
   const entries = vol.spreads.map((s) => {
     const { text, missing, attach } = expand(s.image.prompt, s.image.hardConstraints);
@@ -76,7 +81,7 @@ function build(volNum) {
   if (rest.length) groups.push({ title: 'LOCATIONS AND OBJECTS, no named character', ref: null, entries: rest });
 
   const L = [];
-  L.push(`# The Patch Notes, Volume ${volNum}: image prompt sheet`);
+  L.push(`# ${ARC_TITLE[vol.arc] ?? vol.arc}, Volume ${vol.volume}: image prompt sheet`);
   L.push('');
   L.push(`${vol.chapter} · ${entries.length} images · generated from the specs, do not hand-edit`);
   L.push('');
@@ -173,18 +178,29 @@ function build(volNum) {
     }
   }
 
-  const path = join(PN, `prompt-sheet-vol${volNum}.md`);
+  const path = join(PN, `prompt-sheet-${slug}.md`);
   writeFileSync(path, L.join('\n'));
   const allMissing = entries.flatMap((e) => e.missing);
   console.log(
-    `vol${volNum}: ${entries.length} prompts, ${groups.length} groups -> ${path.replace(ROOT, '.')}`
+    `${slug}: ${entries.length} prompts, ${groups.length} groups -> ${path.replace(ROOT, '.')}`
     + (allMissing.length ? `  UNRESOLVED: ${[...new Set(allMissing)].join(', ')}` : ''),
   );
   return entries;
 }
 
-const which = process.argv[2] ? [Number(process.argv[2])] : [1, 2, 3, 4];
-for (const n of which) build(n);
+// Accepts a slug (`u1`), a bare arc-one number (`3`, kept for muscle memory), or
+// nothing at all, which does every volume of both arcs.
+const arg = process.argv[2];
+const which = !arg
+  ? ALL_SLUGS
+  : [/^\d+$/.test(arg) ? `vol${arg}` : arg];
+for (const s of which) {
+  if (!ALL_SLUGS.includes(s)) {
+    console.error(`unknown volume "${s}". Known: ${ALL_SLUGS.join(', ')}`);
+    process.exit(1);
+  }
+}
+for (const s of which) build(s);
 console.log(
   `\nStyle block: ${roster.styleApproved ? 'inlined' : 'SLOT, paste the locked block into the roster'}`,
 );
