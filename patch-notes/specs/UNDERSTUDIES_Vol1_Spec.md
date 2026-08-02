@@ -137,38 +137,39 @@ The whole crew was there. Milo, Owen and Felix stood at the back. Vex was up on 
 ### Image page (right)
 
 Slug: u1-s02
-Shot type: Character group
-Depicts: Beat 3. The whole crew arranged around the press conference, each of them doing the thing they do — before the Mayor says anything worth hearing.
-Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is at the podium but the crowd is unreacted and nothing about a curfew is legible or implied.
+Shot type: Character group, close
+Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part, with the whole crew packed in close around it. No backdrop.
+Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is not in frame, there is no podium and no crowd, and nothing about a curfew is legible or implied.
+
+**Recast on author instruction after three failed attempts at a wide seven-hander.** Every attempt lost Vex entirely, moved Pip into the group, took Lena off her own camera and invented an extra figure. Seven named positions plus a seated crowd plus a podium is more than one frame will hold, and the hardest requirements were always the ones dropped. The backdrop is gone and the beat has moved from stage directions to the joke.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:TOWN_HALL_SQUARE}}
-{{CHAR:MAYOR_DALTON}}
-{{CHAR:LENA}}
-{{CHAR:VEX}}
-{{CHAR:PIP}}
-{{CHAR:MILO}}
 {{CHAR:OWEN}}
 {{CHAR:FELIX}}
-A small press conference on the steps of the town hall. The Mayor stands at a plain wooden podium mid-sentence with one hand out. About twenty ordinary townspeople sit on rows of grey metal folding chairs, seen from behind and to one side.
-TWO PIECES OF ARCHITECTURE THAT THE ATTACHED LOCATION IMAGE DOES NOT HAVE, and both must be built into this scene: a FLAGPOLE standing in the paving to one side of the square, and a LOW BRICK SITTING WALL around its base, about knee to thigh height. The reference shows this square with neither. They are required here because somebody is sitting on that wall.
-EXACTLY SEVEN named figures, no more. Six of them are in SIX DIFFERENT PLACES doing SIX DIFFERENT THINGS, and every one of the following is separately required. They must NOT be gathered together in one group, their faces must be visible rather than turned away from camera, and no additional prominent foreground figure may be invented.
-(1) VEX, and she is the one most often lost, so she is placed first. She is SITTING UP ON THE LOW BRICK WALL AT THE FOOT OF THE FLAGPOLE, raised well above everybody else, with her boots hanging down off the wall and an APPLE in one hand, mid-bite, watching the podium. She has GREEN HAIR. She must be in the frame, she must be up on that wall, and she must not be standing on the ground.
-(2) LENA stands behind the last row of chairs at a video camera mounted on a TRIPOD, both hands on it, filming the podium. She operates it herself and nobody else touches that camera.
-(3) MILO, (4) OWEN and (5) FELIX stand together on their feet at the very back behind the seated rows, not sitting.
-(6) PIP stands completely apart from all six of them, alone, off to the far side of the frame with clear empty paving all around her and nobody within several paces, upright and still with her head level, listening.
-(7) The MAYOR is at the podium, as described above.
+{{CHAR:VEX}}
+{{CHAR:MILO}}
+{{CHAR:LENA}}
+{{CHAR:PIP}}
+A TIGHT CLOSE GROUP OF SIX KIDS AND NOTHING ELSE. There is no building, no podium, no stage, no rows of chairs, no crowd and no other person of any kind in the frame. The six of them fill it.
+They are at the back of an outdoor gathering and something has just been said from the front that one of them does not believe. The moment is a huddle: heads close, shoulders overlapping, all six at DIFFERENT HEIGHTS in the frame, caught mid-exchange rather than posed.
+OWEN is the centre of it, mid-sentence and completely certain, chin slightly up, one hand held out flat in the small precise gesture of a person listing reasons, a phone in the other hand held low and forgotten. He is not angry. He is correcting the record.
+FELIX has turned bodily toward Owen with both eyebrows up, mouth open on a short question, delighted rather than doubtful.
+VEX is pressed in at Owen's shoulder with GREEN HAIR unmistakable in the frame, an APPLE in one hand mid-bite, entirely unimpressed by whatever is happening at the front, looking sideways at Owen. She must be present and her green hair must be visible.
+MILO is on the other side of the group looking away past the camera toward the front, jaw set, the only one still watching the thing they are all talking about.
+LENA is at the near edge of the frame with one hand still resting on the top of a video camera she has half turned away from, head tipped in to hear Owen, caught between filming and listening. Her hand is the only one on that camera.
+PIP is in the group but NOT of it: a little forward of the others and slightly out of their line, upright, head level, mouth closed, eyes open and pointed at nothing anybody else can see. She is the one thing in frame that is completely still.
+Behind and around them, nothing legible: bright open daylight and soft blown-out pale sky with the barest suggestion of a tree canopy at one edge. No architecture, no furniture and no background figures.
 Ten in the morning, bright and dry.
-Wide, camera slightly elevated and to one side of the seated crowd so all seven named figures and the podium are in one frame — but angled so that the six of them are seen from the FRONT or three-quarters, never from behind. A previous attempt put the whole cast back-to-camera in a single clump, which is the one thing this frame must not do.
-High clear morning light, no drama, every face readable.
+CLOSE group shot from a LOW camera, at about chest height of the shortest of them and angled slightly up, so the six heads crowd the upper two thirds of the frame and every face is large and fully readable. Shallow depth: the six of them sharp, everything behind them soft to the point of abstraction.
+High clear morning light from one side, warm and even, no drama and no deep shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A mayor speaks at a podium on town hall steps to a small seated crowd while a girl films from a tripod, three boys stand at the back, another girl sits on a wall eating an apple and a robotic girl stands apart, listening.
+Alt text: Six kids packed close together outdoors, one of them mid-sentence and certain with a hand held out, another turning to him with eyebrows raised, a girl with green hair eating an apple beside them, and a robotic girl at the front standing perfectly still and looking at nothing.
 
 ---
 
