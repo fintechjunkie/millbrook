@@ -38,7 +38,19 @@
 import { readdirSync, statSync, mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { join, dirname, extname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import sharp from 'sharp';
+
+// sharp is imported LAZILY, inside the encode path only.
+//
+// `prebuild` runs this with --check, and a top-level import made every production
+// build depend on a native module that only exists to AUTHOR derivatives. That
+// contradicted the design and put a compiled binary on the deploy's critical path
+// for no reason. --check now reads the filesystem and the manifest; it needs
+// nothing installed.
+let sharpMod = null;
+const getSharp = async () => {
+  sharpMod ??= (await import('sharp')).default;
+  return sharpMod;
+};
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_DIR = join(ROOT, 'public', 'images');
@@ -90,10 +102,58 @@ function widthsFor(srcWidth) {
 
 const outName = (file, width) => `${basename(file, extname(file))}-${width}.webp`;
 
-/** Stale means missing, or older than the master it is derived from. */
+/**
+ * Stale means missing, or older than the master it is derived from.
+ *
+ * **Only ever used while BUILDING, never while checking, and that distinction is
+ * the whole of a Vercel outage.** git does not store mtimes: a fresh clone stamps
+ * every file with checkout time, written in index order. `public/images/derived/`
+ * sorts between the masters, so on a clean clone 62 of the 99 masters — everything
+ * from `loc-` to `vol4-` — land with mtimes LATER than their own derivatives. This
+ * function then calls all of them stale, `--check` exits 1, and the deploy dies
+ * listing most of the library. It cannot reproduce on a working copy, where the
+ * mtimes are real.
+ *
+ * So mtime is a local authoring convenience for "do not re-encode 400 files to add
+ * one", and it is meaningless anywhere the tree was cloned rather than built.
+ */
 function isStale(srcPath, outPath) {
   if (!existsSync(outPath)) return true;
   return statSync(outPath).mtimeMs < statSync(srcPath).mtimeMs;
+}
+
+/**
+ * The CI gate: does every master have every derivative the manifest promises?
+ *
+ * Existence only. A missing file is a fact that survives a clone; "older than" is
+ * not. This is also why it needs neither sharp nor the image dimensions — the
+ * widths were decided when the manifest was written, and a master that is not in
+ * the manifest at all is exactly the "new art, unprocessed" case being caught.
+ */
+function checkOnly(files) {
+  const manifest = existsSync(MANIFEST) ? JSON.parse(readFileSync(MANIFEST, 'utf8')) : {};
+  const problems = [];
+
+  for (const file of files) {
+    const widths = manifest[file];
+    if (!widths?.length) {
+      problems.push(`${file} — not in the manifest (new art: run \`npm run images\`)`);
+      continue;
+    }
+    for (const width of widths) {
+      const out = outName(file, width);
+      if (!existsSync(join(OUT_DIR, out))) problems.push(`${file} -> ${out} missing`);
+    }
+  }
+
+  // A master that was deleted or renamed leaves an entry behind. Not fatal — the
+  // reader only ever looks up slugs it is rendering — but it means the manifest and
+  // the directory have drifted, and the next person to read it should know.
+  for (const file of Object.keys(manifest)) {
+    if (!files.includes(file)) problems.push(`${file} — in the manifest but no longer in public/images`);
+  }
+
+  return problems;
 }
 
 async function main() {
@@ -103,10 +163,23 @@ async function main() {
     return;
   }
 
+  if (CHECK) {
+    const problems = checkOnly(files);
+    if (problems.length) {
+      console.error(`${problems.length} problem(s):\n`);
+      for (const p of problems.slice(0, 20)) console.error(`  ${p}`);
+      if (problems.length > 20) console.error(`  ... and ${problems.length - 20} more`);
+      console.error('\nRun `npm run images` and commit public/images/derived.');
+      process.exit(1);
+    }
+    console.log(`All ${files.length} images have their derivatives.`);
+    return;
+  }
+
   mkdirSync(OUT_DIR, { recursive: true });
+  const sharp = await getSharp();
 
   const manifest = {};
-  const stale = [];
   let built = 0;
   let srcBytes = 0;
   let largestDerivBytes = 0;
@@ -120,13 +193,7 @@ async function main() {
 
     for (const width of widths) {
       const outPath = join(OUT_DIR, outName(file, width));
-      const needs = FORCE || isStale(srcPath, outPath);
-
-      if (needs && CHECK) {
-        stale.push(`${file} -> ${outName(file, width)}`);
-        continue;
-      }
-      if (needs) {
+      if (FORCE || isStale(srcPath, outPath)) {
         await sharp(srcPath).resize({ width, withoutEnlargement: true }).webp({ quality: QUALITY }).toFile(outPath);
         built += 1;
       }
@@ -136,18 +203,6 @@ async function main() {
     // the honest number to compare against the master.
     const biggest = join(OUT_DIR, outName(file, widths[widths.length - 1]));
     if (existsSync(biggest)) largestDerivBytes += statSync(biggest).size;
-  }
-
-  if (CHECK) {
-    if (stale.length) {
-      console.error(`${stale.length} derivative(s) missing or stale:\n`);
-      for (const s of stale.slice(0, 20)) console.error(`  ${s}`);
-      if (stale.length > 20) console.error(`  ... and ${stale.length - 20} more`);
-      console.error('\nRun `npm run images` and commit public/images/derived.');
-      process.exit(1);
-    }
-    console.log(`All ${files.length} images have current derivatives.`);
-    return;
   }
 
   writeFileSync(MANIFEST, `${JSON.stringify(manifest, null, 2)}\n`);
