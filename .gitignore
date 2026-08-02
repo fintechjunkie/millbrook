@@ -34,3 +34,4 @@ scratch/
 *-wip.png
 *-reject.png
 patch-notes/refs-*/
+patch-notes/remaining-*.md
