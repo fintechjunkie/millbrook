@@ -507,8 +507,8 @@
       "token": "WAREHOUSE_PIT",
       "block": "The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.",
       "uses": 7,
-      "canonicalRef": "loc-pit.png",
-      "standInRef": "loc-warehouse-canonical.png"
+      "canonicalRef": "loc-warehouse-canonical.png",
+      "standInRef": null
     },
     "WAREHOUSE_TERMINALS": {
       "token": "WAREHOUSE_TERMINALS",
@@ -521,8 +521,8 @@
       "token": "WAREHOUSE_SHOP",
       "block": "A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.",
       "uses": 1,
-      "canonicalRef": null,
-      "standInRef": "loc-warehouse-canonical.png"
+      "canonicalRef": "loc-terminals.png",
+      "standInRef": null
     },
     "WAREHOUSE_EXT": {
       "token": "WAREHOUSE_EXT",

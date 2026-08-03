@@ -1227,9 +1227,9 @@ its most literal form: the missing thing was not a person but a piece of archite
 block above now records both features so a future regeneration of `loc-square.png` includes
 them and this stops being a per-prompt problem.
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above. | 7 | `loc-warehouse-canonical.png` — **`loc-pit.png` was abandoned, see 6.1** |
 | `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` |
-| `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | `loc-terminals.png` — the delivered file includes Felix’s bench |
 | `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required — stand-in: `vol4-s03.png` |
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
@@ -1330,8 +1330,6 @@ appears, `refExists` finds it first and the stand-in is ignored with no edit nee
 
 | Location | Stand-in | Why this plate |
 |---|---|---|
-| `WAREHOUSE_PIT` | `loc-warehouse-canonical.png` | See the note below. The master reference shows all three ends of the room in one frame and is canonical, which a scene plate is not. |
-| `WAREHOUSE_SHOP` | `loc-warehouse-canonical.png` | As above. |
 | `VEX_APARTMENT` | `vol1-s07.png` | A wide object study with no figure in it, which is as close to a purpose-made establishing shot as the delivered set gets. Bed, milk-crate stools, bare bulb, the counter used as a workbench and the pinned walls are all present. |
 | `MAPLE_AND_FOURTH_A` | `vol2-opener.png` | This plate *is* state A. |
 | `MAPLE_AND_FOURTH_B` | `vol2-s02.png` | This plate *is* state B, and the pair was already matched by hand in `FIX-corner-pair-match.md`. Generating separate references for these two would risk breaking a match that is currently correct. |
@@ -1437,10 +1435,11 @@ still unbuilt, so it was rewritten rather than regenerated.
 the thirty-seven images happen in this building, which is more than twice any other
 location, and the cast is there in every volume.
 
-Generating `loc-pit.png` and `loc-terminals.png` as independent references invites
-the failure this system exists to prevent: two plates that are each internally
-consistent and clearly not the same building. A reader who sees the couches in one
-image and the desk in another has to believe they are forty feet apart.
+Generating the zone references *independently* would invite the failure this system
+exists to prevent: two plates that are each internally consistent and clearly not the
+same building. A reader who sees the couches in one image and the desk in another has
+to believe they are forty feet apart. So they are generated FROM the master, never
+beside it.
 
 So `WAREHOUSE_MASTER` is generated **first**, as one wide view of the whole interior
 with all three zones and their spatial relationship visible. The three zone
@@ -1459,9 +1458,27 @@ and must not be attached to anything.
 same camera and the same contents; the kept one is simply brighter. See the standing instruction in
 `CLAUDE.md` — a dark interior does not pop, and warehouse plates have had to be relit by hand.
 
-**`loc-terminals.png` is delivered and includes Felix’s bench**, so it doubles as the SHOP
-reference in practice. **`loc-pit.png` is still outstanding** and the PIT keeps the master as its
-stand-in; the prompt is in `PROMPT-location-warehouse-zones.md`.
+**`loc-terminals.png` is delivered and includes Felix’s bench, so it serves both TERMINALS and
+SHOP.** Two of the three zone references, not three.
+
+**`loc-pit.png` was ABANDONED 2026-08-03 and the master serves the PIT directly. Do not try again.**
+An attempt came back as the master with the door moved and nothing else changed — which is the
+prompt working as written, because it asked for a nearer view of the same room that contradicted
+the attachment in no particular, so the only freedom left was to shuffle a fixture. A second roll
+produces a third copy of the master.
+
+The deeper reason is that the rebuild removed the need. The zone crops existed to stop two plates
+reading as two different buildings, and the master — now generated from `vol3-s07.png` — already
+shows the lounge end plainly: four couches, the scarred table, the television unit, the rugs. **A
+crop of a reference is not more authoritative than the reference.** `WAREHOUSE_MASTER` remains a
+token that is never expanded into a spread prompt; the file it names is nonetheless what a PIT
+prompt attaches, and that is deliberate.
+
+One consequence worth keeping. While PIT carried a `stand-in:`, every prompt using it said *“no
+purpose-made establishing shot exists for this place, so use the attached scene plate”* — false of
+the master, and it would have told the generator to discard staging from a picture that has none.
+Seven spreads would have carried that sentence. **A `stand-in:` on a location that has a real
+reference is not a cosmetic error.**
 
 **The brick is PURPLE and this took two attempts to land.** A dusty violet, not red, not brown and
 not bare. It is the single most recognisable thing about the room.
