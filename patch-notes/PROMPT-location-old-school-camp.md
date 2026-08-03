@@ -5,7 +5,7 @@ verbatim rather than a copy that can go stale. **3:2 and the largest resolution 
 — a wide space, not a figure, so it does not take the 3:4 the character sheets do.
 
 After approval: save to `public/images/loc-old-school-camp.png`, archive a copy at
-`patch-notes/reference-source/LOCATIONS/OLD_SCHOOL_B/OLD_SCHOOL_B_CANONICAL.png`, and add the `{{LOC:OLD_SCHOOL_B}}` row to section 6 of the roster.
+**`public/images` only — do not also copy it into `reference-source`, which is the archive for superseded and unadopted files, not delivered ones.** Then add the `{{LOC:OLD_SCHOOL_B}}` row to section 6 of the roster.
 
 Built like the Warehouse master rather than like a scene plate: empty space, nobody in it,
 wide enough to hold the whole of it in one view, and generated in the state the prose later

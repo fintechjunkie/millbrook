@@ -175,4 +175,4 @@ Aspect ratio: 3:2
 ---
 
 After approval for each: save to `public/images/`, archive at
-`patch-notes/reference-source/LOCATIONS/<NAME>/`, and add or amend the section 6 row.
+the section 6 row. **Do not also copy it into `reference-source`** — `public/images` is the archive; see the note in section 6 of the roster.

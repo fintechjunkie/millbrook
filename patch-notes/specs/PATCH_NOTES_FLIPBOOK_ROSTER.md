@@ -1316,6 +1316,23 @@ room. Same discipline as `MAPLE_AND_FOURTH` A and B.
 **The OPEN sign is prose only.** The card in the door glass is blank, because the negative
 block forbids signage copy — the same arrangement as Rocco’s GOLDEN GLOVES and Wren’s stencil.
 
+**`public/images/<slug>.png` IS the archive. Do not copy a delivered reference into
+`reference-source` as well — deduplicated 2026-08-03, 45MB.** Every canonical sheet and location
+reference was being filed twice under two different names, and because both copies are tracked, git
+carried each one twice. Nothing in the code ever read `reference-source`: `refExists` looks only in
+`public/images`, so this was always convention rather than mechanism.
+
+`reference-source` keeps only what is NOT in `public/images`:
+
+- the five **source lineups**, which are irreplaceable — section 1.1 gives the lineup priority over
+  every written description, so these are the top of the authority chain;
+- **superseded** versions, under a `superseded/` folder, so a replaced reference can be compared
+  against but never attached;
+- a sheet that **differs** from the shipped one, which is a deviation record — `CHARACTERS/Vex/` is
+  the live example and it is why Vex stopped looking like two different people;
+- alternates that were generated and **not adopted**, such as the black cat and the croc;
+- the **style guide and character lock documents**.
+
 **Stand-in location references, decided 2026-07-29.** Only two purpose-made
 establishing shots were generated, `loc-square.png` and `loc-hollow-pine-int.png`.
 The rest are not worth a generation each, because the places are already on the page
