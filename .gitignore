@@ -35,3 +35,7 @@ scratch/
 *-reject.png
 patch-notes/refs-*/
 patch-notes/remaining-*.md
+
+# Rejected generations. Kept on disk for comparison, never committed:
+# the commit message that rejected them is the durable record, not the file.
+patch-notes/incoming/
