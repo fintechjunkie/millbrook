@@ -571,6 +571,16 @@ Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee t
 
 **No location token, deliberately.** There is no roster location for where she lives, and inventing one would put a reference in the frame to argue with. The room is described inline and kept nearly bare, because the subject of this picture is a blank wall.
 
+**Delivered 2026-08-02 and it matches her canonical sheet** — teal flat cap, teal long-sleeved top,
+blue dungarees, mid-brown jaw-length hair, and the aid on the LEFT ear as the block requires.
+
+**One recorded deviation: the hearing aid is drawn larger and greyer than the sheet’s.** The
+immutable block calls it *small pale beige with a fine clear earhook*; here it is chunky and
+silver. Kept, because the rendering note in the roster says visibility is the whole point of it,
+and at this framing a small beige aid against pale skin would have disappeared into the face. The
+exaggeration is doing the job the block asks for. Do not read it as licence to redraw the aid in
+wide shots, where the sheet still governs.
+
 Prompt:
 
 ```
