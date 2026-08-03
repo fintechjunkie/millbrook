@@ -49,7 +49,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Character group, high angle
 Depicts: Beats 6 to 9. Felix works out that the four of them are the four of us with better outfits, and Vex, without looking up from the dashcam mount she is rebuilding, says she would wear the armour.
 Spoiler check: PASS. Final beat of the page is “So who told them that’s the job?” Not depicted: nobody is asking a question, Milo’s mouth is closed and no face is turned to him.
-Named figures: Lena, Milo, Vex, Owen, Felix (5 of a maximum 2)
+Named figures: Lena, Milo, Vex, Owen, Felix, Dragon (6 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-felix-canonical.png` — Felix
@@ -57,6 +57,7 @@ Named figures: Lena, Milo, Vex, Owen, Felix (5 of a maximum 2)
 - `char-lena-canonical.png` — Lena
 - `char-milo-canonical.png` — Milo
 - `char-owen-canonical.png` — Owen
+- `char-dragon-canonical.png` — Dragon
 - `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
 
 ```
@@ -95,16 +96,25 @@ CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
-FIVE named figures around a low scarred coffee table, seen from HIGH ABOVE AND SLIGHTLY TO ONE SIDE. **All five must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame. They are a small cluster near the middle of a large open room, not a group filling a small one.
+CHARACTER: Dragon. Use the attached canonical reference image "char-dragon-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A mini dragon about the size of a house cat, built from layered paper. Rust-orange body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its default expression is cheerful and slightly gormless.
+FIVE named figures and ONE SMALL ANIMAL around a low scarred coffee table, seen from HIGH ABOVE. **All five people must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame.
 The table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.
 VEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.
 FELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.
 LENA sits back on a couch behind her laptop with one hand on its edge, looking across at Felix.
 OWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.
 MILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.
+THE MINI DRAGON lies FULL LENGTH ON ITS SIDE in the middle of the slab of sunlight on the bare concrete, legs out, tail straight, belly to the warm floor, comprehensively asleep. Seen from above it is the largest single shape in the picture after the table, and **not one of the five people is looking at it or acknowledging it in any way.** It is not posing, not looking at the camera and not doing anything clever. It found the warmest rectangle in the building and that is the whole of its contribution.
 Exactly five people in frame. No animals.
-Two in the afternoon. The room is BRIGHT — strong warm daylight flooding in from the high windows plus the room lights on, everything clearly and evenly readable, nothing in gloom.
-HIGH THREE-QUARTER ANGLE, camera up near the roof and well back, looking DOWN and ACROSS the room rather than straight down at it — high enough that the table and the group still read as a flat arrangement of shapes with every face tipped up toward the lens, but angled enough to see the room they are in. **The frame must establish that this is a big room:** the exposed roof trusses and the high clerestory windows are visible across the top of the frame, the far wall of the building is visible beyond the group, and there is a generous run of BARE EMPTY CONCRETE FLOOR around the couch cluster on at least two sides. The five of them occupy the middle of a large space and are small in it. Nothing important cropped and everything sharp.
+Two in the afternoon and the picture is BRIGHT throughout — nothing in gloom anywhere.
+
+**One hard-edged slab of sunlight lies across the floor and over part of one couch**, a clean bright rectangle with crisp parallel edges, falling at a slant. It can only have come from a window high up and outside the frame, and that is the point: it tells the reader the ceiling is a long way up without a single piece of architecture being visible. Warm, strong and clearly drawn, not a soft glow.
+HIGH ANGLE looking down onto the furniture, and **NO EDGE OF THE ROOM IS ANYWHERE IN FRAME.** No wall, no ceiling, no roof truss, no window, no doorway, no corner and no far end. The picture contains nothing but bare concrete floor, the furniture, the people and the animal — the frame itself is the only boundary. **The couches are CROPPED by the frame edge on at least two sides**, so the room plainly continues past the picture in every direction.
+
+This is deliberate and it is the fix for an earlier attempt. A room whose edges you can see is a room you have measured; a room whose furniture runs off the picture has no size at all. The Warehouse is big and this frame refuses to make any claim about it either way.
+
+Every face is tipped up toward the lens and readable. Everything sharp.
 Warm even overhead daylight, no drama, every face readable.
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2

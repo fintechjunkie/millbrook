@@ -362,7 +362,27 @@ Vex’s line about the armour and neither needs Milo, and because the next sprea
 been quiet all day, with her hands flat on her knees again”* — so she was in that room the whole
 time, and showing her silent here sets that up rather than contradicting it.
 
-**The room reads too SMALL, and the camera is why. Author revising, 2026-08-03.**
+**Third approach, on the author’s suggestion, 2026-08-03 — and it is better than my second.**
+
+I tried to answer the question: show the trusses, show the far wall, leave bare floor on two sides so
+the room measures large. The author’s version refuses the question instead. **If no wall, ceiling,
+window or room edge is anywhere in frame, the picture makes no claim about the size of the space, so
+it cannot read small.** A room whose edges you can see is a room you have measured; a room whose
+furniture runs off the picture has no size at all. The couches crop at the frame edge and do the rest.
+
+**The height comes back from light rather than architecture.** One hard-edged slab of sunlight lying
+across the floor can only have been cast by a window high up and out of frame, so the reader infers
+the clerestory without being shown it. That is cheaper and more elegant than putting trusses in the
+top of the frame.
+
+**And the sunbeam is exactly where a heat-seeking animal would be.** The dragon now lies full length
+on its side in it, dead asleep, the largest shape in the picture after the table, ignored completely
+by all five people arguing above it. It needs no prose to justify it, it is not a mascot doing a
+trick, and it is the only thing it ever does — see its roster block, which says it wants heat and
+that is all it wants.
+
+~~**The room reads too SMALL, and the camera is why. Author revising, 2026-08-03.**~~ *Superseded by
+the above; the diagnosis below is kept because it is why a plumb overhead was abandoned.*
 
 This is structural rather than a matter of degree: **a plumb overhead camera cannot show height.**
 The exposed trusses and the high clerestory windows sit between the lens and the floor, so the two
@@ -389,16 +409,24 @@ Prompt:
 {{CHAR:LENA}}
 {{CHAR:MILO}}
 {{CHAR:OWEN}}
-FIVE named figures around a low scarred coffee table, seen from HIGH ABOVE AND SLIGHTLY TO ONE SIDE. **All five must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame. They are a small cluster near the middle of a large open room, not a group filling a small one.
+{{CHAR:DRAGON}}
+FIVE named figures and ONE SMALL ANIMAL around a low scarred coffee table, seen from HIGH ABOVE. **All five people must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame.
 The table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.
 VEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.
 FELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.
 LENA sits back on a couch behind her laptop with one hand on its edge, looking across at Felix.
 OWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.
 MILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.
+THE MINI DRAGON lies FULL LENGTH ON ITS SIDE in the middle of the slab of sunlight on the bare concrete, legs out, tail straight, belly to the warm floor, comprehensively asleep. Seen from above it is the largest single shape in the picture after the table, and **not one of the five people is looking at it or acknowledging it in any way.** It is not posing, not looking at the camera and not doing anything clever. It found the warmest rectangle in the building and that is the whole of its contribution.
 Exactly five people in frame. No animals.
-Two in the afternoon. The room is BRIGHT — strong warm daylight flooding in from the high windows plus the room lights on, everything clearly and evenly readable, nothing in gloom.
-HIGH THREE-QUARTER ANGLE, camera up near the roof and well back, looking DOWN and ACROSS the room rather than straight down at it — high enough that the table and the group still read as a flat arrangement of shapes with every face tipped up toward the lens, but angled enough to see the room they are in. **The frame must establish that this is a big room:** the exposed roof trusses and the high clerestory windows are visible across the top of the frame, the far wall of the building is visible beyond the group, and there is a generous run of BARE EMPTY CONCRETE FLOOR around the couch cluster on at least two sides. The five of them occupy the middle of a large space and are small in it. Nothing important cropped and everything sharp.
+Two in the afternoon and the picture is BRIGHT throughout — nothing in gloom anywhere.
+
+**One hard-edged slab of sunlight lies across the floor and over part of one couch**, a clean bright rectangle with crisp parallel edges, falling at a slant. It can only have come from a window high up and outside the frame, and that is the point: it tells the reader the ceiling is a long way up without a single piece of architecture being visible. Warm, strong and clearly drawn, not a soft glow.
+HIGH ANGLE looking down onto the furniture, and **NO EDGE OF THE ROOM IS ANYWHERE IN FRAME.** No wall, no ceiling, no roof truss, no window, no doorway, no corner and no far end. The picture contains nothing but bare concrete floor, the furniture, the people and the animal — the frame itself is the only boundary. **The couches are CROPPED by the frame edge on at least two sides**, so the room plainly continues past the picture in every direction.
+
+This is deliberate and it is the fix for an earlier attempt. A room whose edges you can see is a room you have measured; a room whose furniture runs off the picture has no size at all. The Warehouse is big and this frame refuses to make any claim about it either way.
+
+Every face is tipped up toward the lens and readable. Everything sharp.
 Warm even overhead daylight, no drama, every face readable.
 {{NEGATIVE}}
 Aspect ratio: 3:2
