@@ -17,6 +17,10 @@ Commissioned 2026-08-02 on two author instructions: real action, and nothing tha
 
 **Variety, which needed designing rather than hoping for.** Part One spent five consecutive plates in the Warehouse and the author called it. Part Two’s prose has four Warehouse spreads — 5, 6, 7 and 9 — and they cannot be moved, so instead each is given a camera the book has never used: **spread 5 overhead**, looking straight down on the coffee table; **spread 6 from the floor**, looking up at Pip as she stands; **spread 7 at the desk end**, close and mid-movement; and **spread 9 at night** under one lamp. Spread 8 revisits the town hall square but from BEHIND the Mayor, where the previous two plates of it shot from in front.
 
+**Revised 2026-08-02: spreads 6 and 7 left the Warehouse altogether.** The first pass had four Warehouse plates in this volume and the author counted the arc — eight of the first twenty-three plates were in that one room, over a third. Both of those spreads are warehouse dialogue, so both now cut away to the thing being talked about, the way `u1-s09` cut away to Cassie: **spread 6 to the bookshop** Pip names in her own list of things that were never invented, and **spread 7 to a school corridor** hung with forty-one years of framed cast photographs, with a soldier walking past not looking at any of them.
+
+That leaves TWO Warehouse plates in Part Two — spread 5 overhead in daylight and spread 9 at night — and takes the volume to **nine distinct settings across eleven plates**.
+
 Eleven plates across **eight distinct places**: the auditorium, Benny’s gym, Route 9, the pines, Old Bell Road, the Warehouse, the town hall square, and the north fence at night.
 
 Every plate depicts a beat from its own text page and never that page’s final beat, which is the rule all fifty-four delivered plates follow.
@@ -403,31 +407,35 @@ Owen’s chair stopped turning. “Say that again.”
 ### Image page (right)
 
 Slug: u2-s06
-Shot type: Character close, low angle
-Depicts: Beat 5. Pip stands up all at once, without any of the small movements people make first, and Owen’s chair stops turning.
-Spoiler check: PASS. Final beat of the page is the line about Mr Henderson’s charts and Cassie’s hearing test. Not depicted: nobody is mid-sentence about records, no chart or document is in frame and Cassie is not in frame.
+Shot type: Character, single figure
+Depicts: Beat 3. The bookshop — one of the three things Pip lists as never having been invented. A shop with forty years of wear in it, in a unit that was empty last week.
+Spoiler check: PASS. Final beat of the page is the line about Mr Henderson’s forty years of medical charts and Cassie’s hearing test. Not depicted: **Henderson is not in frame and neither is Cassie**, no chart or document appears, and nothing about a person being repaired is shown.
 
-**Shot from the floor looking up**, which is new for her: Part One’s two Pip plates are both seated and at eye level. Rising without any of the small preparatory movements a person makes is the single most unsettling thing she does, and it only reads if the camera is below her.
+**Recast out of the Warehouse on author instruction, 2026-08-02.** Eight of the first twenty-three plates of this arc were set in that one room, which is over a third of it. This spread is warehouse dialogue, so the plate does what u1-s09 did and cuts away to the thing being talked about.
+
+**Anchored to Pip’s own list**: *“Not the road, not the bookstore, not the knee.”* The bookshop is the most drawable of the three and the only one that is a place. The road is Main Street, which the reader has already had, and the knee belongs to the page’s final beat and is therefore out.
+
+**The unsettling thing is that nothing is unsettling.** The shop is not glowing or wrong or half-finished. It is perfectly ordinary and perfectly settled, and it is one week old. The woman in it has no idea and neither would you.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:WAREHOUSE_PIT}}
-{{CHAR:PIP}}
-{{CHAR:OWEN}}
-PIP has just stood up from a low upturned milk crate and is now standing perfectly straight and perfectly still, arms at her sides, head level, having arrived at standing without any of the small shifts and leans a person makes on the way. The crate is still directly behind her heels. Nothing about her posture suggests effort or momentum: she was sitting and now she is standing.
-Her face is calm and unhurried and she is looking at OWEN.
-OWEN is in the near part of the frame in his wheeled office chair, which he has been idly turning and which has STOPPED: he is caught half-turned with one hand still on the desk edge behind him and one foot on the floor mid-push, head up, looking at her. His flat sceptical expression has gone and he has not replaced it with anything yet.
-Exactly two people in frame. No animals.
-Two in the afternoon.
-LOW ANGLE, camera down at about the height of the seat of the milk crate and close, tipped up so that Pip stands tall in the upper part of the frame against the high roof trusses far above her and Owen is nearer and lower and smaller in the corner of the frame. Both faces fully readable. Shallow depth, the room soft behind.
-Warm even daylight from the high windows, no drama and no deep shadow.
+{{LOC:HOLLOW_PINE_INT}}
+{{CHAR:GREEN_CARDIGAN_WOMAN}}
+The interior of a long-established second-hand bookshop in the middle of an ordinary quiet afternoon, with exactly ONE person in it.
+Everything in the room has been here for decades and looks it: floor-to-ceiling wooden shelving packed unevenly with worn books, overlapping rugs gone thin on board floors, a wooden counter with a low lamp on it, warm fabric lampshades, a stack of cookbooks on the floor beside the counter with a high shelf above it.
+THE WOMAN IN THE GREEN CARDIGAN is halfway up a short two-step wooden stool with one hand steadying herself on a shelf edge and the other sliding a book into a gap at eye level, head tipped to read the spines beside it, entirely absorbed and entirely at home. She is not startled, not posing and not looking at the camera. This is a woman doing the small job she does every afternoon.
+A second book is tucked under her arm, waiting its turn.
+Exactly one person in frame. No other figure and no animal.
+Mid-afternoon, quiet.
+Medium shot from inside the shop at standing height, angled so the depth of the shelving runs away behind her and the counter and the cookbook stack are both in frame. She is off-centre and the room shares the picture with her. Everything readable.
+Warm low interior lamp light plus soft daylight from an unseen shopfront window, calm and completely undramatic. No lettering legible anywhere, on any spine, sign or label.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: Seen from low down, a robotic girl stands bolt upright and completely still beside the milk crate she was sitting on, looking down at a boy whose desk chair has stopped mid-turn as he looks back up at her.
+Alt text: Inside a settled second-hand bookshop, a woman in a green cardigan stands on a small step stool sliding a book back into a packed shelf, another book under her arm, entirely at home.
 
 ---
 
@@ -470,33 +478,35 @@ Vex was already off the counter and pulling her jacket on. “There’s a boiler
 ### Image page (right)
 
 Slug: u2-s07
-Shot type: Character action, close
-Depicts: Beats 12 and 13. Vex is off the counter and pulling her jacket on before anybody has agreed to anything, and Owen asks her how she knows about the boiler hatch.
-Spoiler check: PASS. Final beat of the page is Vex’s answer about ninth grade. Not depicted: she has not answered, her mouth is closed and she is already turning away.
+Shot type: Character action, single figure
+Depicts: Beat 8. A high school does — once a year, for forty-one years. The corridor where all forty-one of them are hanging on the wall, and a soldier walking past without looking at any of them.
+Spoiler check: PASS. Final beat of the page is Vex’s answer about ninth grade. Not depicted: none of the crew is in frame, there is no boiler hatch, no dumpster pad and no wardrobe room, and nothing about how anybody gets in.
 
-**Set at the DESK end, not the lounge**, so that three consecutive Warehouse spreads do not all happen in the same corner of the room. Attach `{{LOC:WAREHOUSE_TERMINALS}}`.
+**Recast out of the Warehouse on author instruction, 2026-08-02**, for the same reason as spread 6. Part Two now has two Warehouse plates rather than four.
 
-**This plate is motion.** Spread 5 is overhead and static, spread 6 is a held stillness; this one is somebody already leaving while the conversation is still going on behind her.
+**This is the arc’s actual subject in one frame.** Everything that has happened in this town happened because somebody wrote it down and then nobody read it again. Forty-one years of school plays are hanging in a corridor in the building the Army is currently occupying, the answer to the whole thing is four feet from a soldier’s shoulder, and he is carrying a mug past it.
+
+**No location token.** The corridor has no roster entry, appears once, and is described inline — so there is no reference to contradict a busy frame.
+
+**No legible text anywhere**, which the negative block requires and which costs nothing here: the point reads from the repetition of costumes down the wall, not from the names under them.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:WAREHOUSE_TERMINALS}}
-{{CHAR:VEX}}
-{{CHAR:OWEN}}
-VEX is mid-movement and already committed to going. She is shrugging her jacket up onto her second shoulder with one arm still finding the sleeve, her body already turned away toward the far end of the room, weight forward on one boot, head turned back over her shoulder for a fraction of a second longer. Her mouth is closed and one eyebrow is up. She has decided and she is not waiting for the discussion to finish. **Her bright mint-green hair in two messy buns must be plainly visible.**
-OWEN is at the long trestle desk against the brick, twisted right round in his wheeled chair with one arm hooked over its back and the other hand still resting on the desk edge among the monitors, mouth open on a short question, entirely left behind by how fast she moved.
-Between them a stretch of bare concrete floor, so the distance she has already covered is visible.
-Exactly two people in frame. No animals.
-Two in the afternoon.
-CLOSE and slightly low, camera at the desk end, angled so Vex is large in the foreground caught mid-turn and Owen is clear just behind her in his chair. Both faces fully readable. Her movement is drawn crisply with no motion blur.
-Warm even daylight, no drama.
+A long corridor inside a closed 1960s elementary school, lined down one whole wall with FRAMED PHOTOGRAPHS hung in a single level row that runs away from the camera into the distance — forty or so of them, one after another, evenly spaced, in mismatched cheap frames.
+Each photograph is a small group portrait of schoolchildren in home-made costumes standing on a stage in front of a curtain, and each one is a different year: the paper stock changes down the row from cool modern colour at the near end through faded warm colour to grainy black and white at the far end. **Costumes repeat down the wall from year to year** — in several of them a child in armour, in several a child with a bow, in several a pointed hat — worn by different children each time. Small blank plaques under the frames carry no readable writing.
+Walking down the middle of the corridor toward the camera, ONE SOLDIER in an olive field jacket, alone, holding an enamel mug in one hand and a clipboard tucked under the other arm, mid-stride and entirely unhurried. **He is not looking at the photographs at all.** His head is turned very slightly away from them and his expression is bored and comfortable. He has walked past this wall a dozen times today.
+The corridor itself: scuffed grey vinyl tile with a worn path down the middle, painted cinderblock walls, a row of low coat hooks at child height along the opposite wall, and at the far end a set of doors with their glass boarded over with plywood so the light there is dim.
+Exactly one person in frame. No animals and no other figure.
+Mid-afternoon.
+Medium shot down the length of the corridor at standing height, so the row of frames recedes hard away on one side and the soldier is walking into the near half of the frame. The receding row of photographs must be the strongest line in the picture. Deep focus, both the soldier’s face and the nearest several photographs clearly readable.
+Plain overhead fluorescent light with daylight leaking from a doorway at one side, flat and undramatic. Nothing falls to featureless black.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A girl with green hair pulls her jacket onto her second shoulder while already turning to leave, glancing back for a moment at a boy who has spun round in his desk chair with his mouth open on a question.
+Alt text: A soldier walks down a closed school corridor carrying a mug, not looking at the long receding row of framed photographs beside him showing forty years of school plays, the same costumes recurring on different children.
 
 ---
 
