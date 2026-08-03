@@ -164,8 +164,8 @@
       "n": 3,
       "kind": "spread",
       "pages": "7 to 8",
-      "declaredWords": 242,
-      "words": 237,
+      "declaredWords": 252,
+      "words": 247,
       "blocks": [
         {
           "t": "p",
@@ -193,7 +193,7 @@
         },
         {
           "t": "p",
-          "v": "She apologized every single time, from ninety yards away, loud enough for everybody to hear it."
+          "v": "She shot from ninety yards. Then she walked all ninety yards over to apologize about it, every single time, which took longer and was somehow worse."
         },
         {
           "t": "p",
@@ -207,9 +207,9 @@
         "depicts": "Beats 5 and 6. Wren has pinned a soldier to a pine tree by his rifle sling, and she is apologising for it from ninety yards away.",
         "spoilerCheck": "PASS. Final beat of the page is Dame Ottilie standing in Old Bell Road in plate armour. Not depicted: no armour, no road and no truck, and Ottie is not in frame.",
         "hardConstraints": null,
-        "prompt": "{{STYLE}}\n{{CHAR:WREN}}\nA stand of tall straight pine trees on sandy needle-covered ground behind a rural roadside, with clear sight lines between the trunks and dappled light coming down through the canopy.\nIN THE NEAR HALF OF THE FRAME, a soldier in an olive field jacket is caught mid-hop on one boot, both hands up at his own shoulder, tugging uselessly at his rifle sling. **A blunt-tipped wooden practice arrow has gone clean through the fabric strap of that sling and buried itself in the pine trunk beside him**, pinning him to the tree at shoulder height with about a foot of slack. His rifle hangs off the pinned strap. His expression is pure indignant bafflement. He is not hurt and there is no blood anywhere.\nA little further back, a canvas tent stands between the trunks with its entrance flap PINNED SHUT against the tent wall by a second identical practice arrow driven through the loose canvas.\nWREN IS NINETY YARDS AWAY AND THE DISTANCE IS THE WHOLE JOKE. She stands deep among the pines, far behind the pinned soldier, and she must be **TINY IN THE FRAME — no more than about one eighth of the frame height, and much smaller than the soldier**. There must be **at least ten pine trunks between her and him**, receding away, so the distance is countable. She holds her bow down at her side in one hand and her other hand is RAISED high and open in an unmistakable apology, and she is calling something across the whole length of the wood. She is entirely unhurried.\nExactly two people in frame: the pinned soldier near, Wren far. No other figures and no animals.\nAround noon, bright.\nDeep-focus shot straight down the line between the trunks, camera at standing height. The pinned soldier is LARGE and near, filling much of one side of the frame. Wren is TINY and far, deep in the other side, with a long run of empty pine floor and many trunks between them. Both in focus. **A previous attempt put her about fifteen feet away at full size, which destroys the plate**: the prose has her apologising “from ninety yards away, loud enough for everybody to hear it”, and at conversational range that line stops making sense. If she is big enough to talk to, the frame is wrong.\nDappled noon light through the canopy, warm and clear, no deep shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "prompt": "{{STYLE}}\n{{CHAR:WREN}}\nA stand of tall straight pine trees on sandy needle-covered ground behind a rural roadside, with clear sight lines between the trunks and dappled light coming down through the canopy.\nIN THE NEAR HALF OF THE FRAME, a soldier in an olive field jacket is caught mid-hop on one boot, both hands up at his own shoulder, tugging uselessly at his rifle sling. **A blunt-tipped wooden practice arrow has gone clean through the fabric strap of that sling and buried itself in the pine trunk beside him**, pinning him to the tree at shoulder height with about a foot of slack. His rifle hangs off the pinned strap. His expression is pure indignant bafflement. He is not hurt and there is no blood anywhere.\nA little further back, a canvas tent stands between the trunks with its entrance flap PINNED SHUT against the tent wall by a second identical practice arrow driven through the loose canvas.\nWREN STANDS CLOSE ENOUGH TO BE SEEN PROPERLY — a few paces from the pinned soldier, at very nearly his own scale, with her face, her cap and her whole costume large and fully readable. She holds her bow down at her side in one hand and her other hand is RAISED open in an unmistakable apology. She has walked over to say it to his face and she is entirely unhurried.\nExactly two people in frame: the pinned soldier near, Wren far. No other figures and no animals.\nAround noon, bright.\nDeep-focus shot between the trunks, camera at standing height, the pinned soldier on one side of the frame and Wren on the other, both large and both fully readable, with the depth of the pine wood running away behind them.\nDappled noon light through the canopy, warm and clear, no deep shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "In a pine wood, a soldier hops on one foot pinned to a tree trunk by an arrow through his rifle strap, a tent flap pinned shut behind him, while far away among the trees a small figure with a bow raises one hand in apology."
+        "alt": "In a pine wood, a soldier hops on one foot pinned to a tree trunk by an arrow through his rifle strap, a tent flap pinned shut behind him, while a girl with a bow and a green eared cap stands a few paces off with one hand raised in apology."
       }
     },
     {
@@ -548,8 +548,8 @@
       "n": 9,
       "kind": "spread",
       "pages": "19 to 20",
-      "declaredWords": 229,
-      "words": 226,
+      "declaredWords": 234,
+      "words": 231,
       "blocks": [
         {
           "t": "p",
@@ -565,7 +565,7 @@
         },
         {
           "t": "p",
-          "v": "They sorted it out at nine that night, an hour before curfew, with the fan clicking and the dragon asleep on the router."
+          "v": "They sorted it out at nine that night, an hour before curfew, with the fan clicking and the dragon sitting on the floor where the lamp was warmest."
         },
         {
           "t": "p",

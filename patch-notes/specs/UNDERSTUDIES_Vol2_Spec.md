@@ -198,7 +198,7 @@ Alt text: On an empty rural road at dawn, a young soldier holds up one hand to s
 
 ## Spread 3
 
-Pages 7 to 8 | Part Two: Four Out Of The Trunk | Words 242
+Pages 7 to 8 | Part Two: Four Out Of The Trunk | Words 252
 
 ### Text page (left), verbatim
 
@@ -214,7 +214,7 @@ By noon there were four of them.
 
 Wren Ashbury turned up in the pines behind the Route 9 stop with a strung bow, a quiver of blunt practice arrows, a knitted green cap with ears sewn onto it and ROBIN HOOD 1994 stenciled inside her collar. She never once shot at a person. She shot at what people were wearing and carrying. She put an arrow through the loose canvas of a tent and pinned the flap shut, and she put another one through a rifle sling and into a pine, and the soldier attached to it hopped around for four minutes before his sergeant came over and cut the strap.
 
-She apologized every single time, from ninety yards away, loud enough for everybody to hear it.
+She shot from ninety yards. Then she walked all ninety yards over to apologize about it, every single time, which took longer and was somehow worse.
 
 Dame Ottilie stood in the middle of Old Bell Road in a suit of plate armor.
 
@@ -225,7 +225,7 @@ Shot type: Character action, deep frame
 Depicts: Beats 5 and 6. Wren has pinned a soldier to a pine tree by his rifle sling, and she is apologising for it from ninety yards away.
 Spoiler check: PASS. Final beat of the page is Dame Ottilie standing in Old Bell Road in plate armour. Not depicted: no armour, no road and no truck, and Ottie is not in frame.
 
-**The joke is the distance**, so the plate is built on depth rather than on a subject: the consequence is near the camera and the person responsible is very small and very far away, still politely raising a hand. Nothing else in Part Two uses the frame this way.
+**Author decision, 2026-08-03: she stands close enough to see.** I had this rejected for putting her a few paces away instead of ninety yards, on the grounds that the distance is the joke — and that was the wrong call. At ninety yards there is no face, and this volume exists to introduce four brand new characters. **Seeing her beats landing the gag**, and the gag did not have to die: the prose now has her shoot from ninety yards and then walk all ninety yards over to apologise to his face, which is funnier than shouting it and is precisely what these four would do.
 
 Prompt:
 
@@ -235,16 +235,16 @@ Prompt:
 A stand of tall straight pine trees on sandy needle-covered ground behind a rural roadside, with clear sight lines between the trunks and dappled light coming down through the canopy.
 IN THE NEAR HALF OF THE FRAME, a soldier in an olive field jacket is caught mid-hop on one boot, both hands up at his own shoulder, tugging uselessly at his rifle sling. **A blunt-tipped wooden practice arrow has gone clean through the fabric strap of that sling and buried itself in the pine trunk beside him**, pinning him to the tree at shoulder height with about a foot of slack. His rifle hangs off the pinned strap. His expression is pure indignant bafflement. He is not hurt and there is no blood anywhere.
 A little further back, a canvas tent stands between the trunks with its entrance flap PINNED SHUT against the tent wall by a second identical practice arrow driven through the loose canvas.
-WREN IS NINETY YARDS AWAY AND THE DISTANCE IS THE WHOLE JOKE. She stands deep among the pines, far behind the pinned soldier, and she must be **TINY IN THE FRAME — no more than about one eighth of the frame height, and much smaller than the soldier**. There must be **at least ten pine trunks between her and him**, receding away, so the distance is countable. She holds her bow down at her side in one hand and her other hand is RAISED high and open in an unmistakable apology, and she is calling something across the whole length of the wood. She is entirely unhurried.
+WREN STANDS CLOSE ENOUGH TO BE SEEN PROPERLY — a few paces from the pinned soldier, at very nearly his own scale, with her face, her cap and her whole costume large and fully readable. She holds her bow down at her side in one hand and her other hand is RAISED open in an unmistakable apology. She has walked over to say it to his face and she is entirely unhurried.
 Exactly two people in frame: the pinned soldier near, Wren far. No other figures and no animals.
 Around noon, bright.
-Deep-focus shot straight down the line between the trunks, camera at standing height. The pinned soldier is LARGE and near, filling much of one side of the frame. Wren is TINY and far, deep in the other side, with a long run of empty pine floor and many trunks between them. Both in focus. **A previous attempt put her about fifteen feet away at full size, which destroys the plate**: the prose has her apologising “from ninety yards away, loud enough for everybody to hear it”, and at conversational range that line stops making sense. If she is big enough to talk to, the frame is wrong.
+Deep-focus shot between the trunks, camera at standing height, the pinned soldier on one side of the frame and Wren on the other, both large and both fully readable, with the depth of the pine wood running away behind them.
 Dappled noon light through the canopy, warm and clear, no deep shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: In a pine wood, a soldier hops on one foot pinned to a tree trunk by an arrow through his rifle strap, a tent flap pinned shut behind him, while far away among the trees a small figure with a bow raises one hand in apology.
+Alt text: In a pine wood, a soldier hops on one foot pinned to a tree trunk by an arrow through his rifle strap, a tent flap pinned shut behind him, while a girl with a bow and a green eared cap stands a few paces off with one hand raised in apology.
 
 ---
 
@@ -579,7 +579,7 @@ Alt text: A beaming mayor in a purple suit and red glasses stands behind a foldi
 
 ## Spread 9
 
-Pages 19 to 20 | Part Two: Four Out Of The Trunk | Words 229
+Pages 19 to 20 | Part Two: Four Out Of The Trunk | Words 234
 
 ### Text page (left), verbatim
 
@@ -589,7 +589,7 @@ Nobody ever put on a windbreaker. Ottie tried, over the armor, and it didn’t f
 
 ### The Split
 
-They sorted it out at nine that night, an hour before curfew, with the fan clicking and the dragon asleep on the router.
+They sorted it out at nine that night, an hour before curfew, with the fan clicking and the dragon sitting on the floor where the lamp was warmest.
 
 “Under the school,” Milo said. “Vex, Pip, Owen.”
 
@@ -635,6 +635,18 @@ Seven levers, all of them checkable in the delivered image:
 5. **Make the light do the work.** One lamp means a bright pool, one lit side per face, and the far end of the room considerably darker than the near end. Evenly lit night is just day with a black window.
 6. **Crop somebody at the frame edge.** A figure half out of frame says the camera is in the room rather than watching it.
 7. **The animal is asleep and ignored.** The roster is explicit that it is not a mascot: it wants heat and that is all it wants. Nobody looks at it and it does not look at us.
+
+**Delivered on attempt 2 and all seven held.** Cropped couches at both lower corners so the camera
+is inside the room, four figures at three depths on a diagonal, the dragon large in the near
+foreground seen from BEHIND with nobody looking at it, Milo standing and pointing mid-assignment,
+Owen objecting with a hand out, and one lamp behaving like one lamp with a dark street through the
+open door.
+
+**One deviation, and the prose moved to meet it.** The dragon is awake on the floor near the lamp
+rather than asleep on the router. Kept, because it is still not a mascot — it is seen from behind,
+nobody looks at it and it does nothing clever — and because sitting where the lamp is warmest is
+the animal’s locked behaviour rather than a departure from it. The prose line changed from *“the
+dragon asleep on the router”* to *“the dragon sitting on the floor where the lamp was warmest.”*
 
 Prompt:
 
