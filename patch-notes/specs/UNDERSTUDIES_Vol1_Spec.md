@@ -11,6 +11,8 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 Images: 12. Character-led 9, establishing 3, detail 0.
 
+**Locations were rebalanced on author instruction, 2026-08-02.** Spreads 6 to 10 were five consecutive Warehouse plates, four of them the same lounge end. `u1-s09` was moved out of the building entirely, which breaks the run in the middle and buys the volume a seventh distinct place.
+
 **The detail shot was removed on author instruction, 2026-08-02.** It was `u1-s09`, a phone face down on a couch arm with no figures in it, and it was boring on the page. A volume set to be character-forward should not have spent one of twelve plates on an empty room, and the spoiler check that justified it had over-read its own rule.
 
 Set deliberately against arc one's band on author instruction: character-forward and action-forward, because the images have to make an impact rather than catalogue rooms. Three real establishing shots are kept and spaced (the opener, the fence at spread 4, the wardrobe room at spread 11) because this arc's premise is a thing about a PLACE — an army parked on a town — and pure close work cannot carry it.
@@ -557,35 +559,37 @@ Milo sat down on the edge of the coffee table so he was level with her. “Okay.
 ### Image page (right)
 
 Slug: u1-s09
-Shot type: Character group
-Depicts: Beats 7 to 9. Owen turns all the way around in his chair and Felix says it is scared, while four people watch Pip and none of them can help her.
-Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee table to be level with Pip. Not depicted: Milo is on his feet and the coffee table is clear.
+Shot type: Character close, single figure
+Depicts: Beat 5. The fifteen-year-old girl who woke up able to hear a wasp inside a wall, somewhere else in town, still living with it.
+Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee table to be level with Pip. Not depicted: nobody from that room is in frame and the Warehouse does not appear at all.
 
-**Recast on author instruction.** The first version was a close detail of a phone on a couch arm with no figures in it — correct against the spoiler rule and dead on the page, in a volume commissioned to be character-forward. The spoiler check had said "no figure is in frame at all", which was never a requirement: the only rule is not to depict the final beat. Recast to point the camera at the other four, partly because **s08 and s10 are both close two-shots on Pip's face** and a third in a row is repetitive.
+**Third conception, and the second recast. 2026-08-02.** The first version was a phone on a couch arm with no figures in it — boring. The second pointed the camera at the room reacting, which fixed "empty" and left "same room" alone: it would have been the FOURTH plate in the Warehouse lounge and the fourth of FIVE consecutive Warehouse plates, spreads 6 to 10. This one leaves the building.
+
+**Why this beat.** It is the reason Pip has been sitting for forty minutes unable to write one sentence. The plate that showed five people looking worried at each other showed the symptom; this shows the cause. Cassie appears nowhere else in Part One, so it is also a face the reader has not met in this arc, and it is one small still figure against four busy-room plates either side.
+
+**The prose says “a fifteen-year-old girl”, not her name**, so a reader new to the series simply sees a girl listening to a wall — which is exactly what the facing sentence describes. A reader who knows The Patch gets the whole weight of it. Nothing needs explaining either way.
+
+**No location token, deliberately.** There is no roster location for where she lives, and inventing one would put a reference in the frame to argue with. The room is described inline and kept nearly bare, because the subject of this picture is a blank wall.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:WAREHOUSE_PIT}}
-{{CHAR:OWEN}}
-{{CHAR:FELIX}}
-{{CHAR:MILO}}
-{{CHAR:PIP}}
-EXACTLY FOUR FIGURES AND NOTHING ELSE, and no fifth person may be invented. The lounge end of the warehouse: three people are looking at a fourth and not one of them knows what to say to her. Nobody is moving.
-PIP sits on the upturned milk crate in the MIDDLE DISTANCE, seen from BEHIND AND SLIGHTLY TO ONE SIDE so that her face is NOT visible and she is not the subject of the picture. She is identifiable from her sandy blonde hair, the red bandana tied across her head with goggles resting on it, and the red neckerchief at her throat. Her back is straight, her hands are flat on her knees, and she is perfectly still.
-OWEN is the subject. He has turned his swivel chair ALL THE WAY AROUND, away from his desk and his monitors, and is facing into the room toward Pip with one arm over the chair back, leaning forward, no longer pretending to work. His face is fully visible and it is the clearest face in the frame. This is a person who has stopped doing the thing he always does.
-FELIX stands near him, mid-sentence, one hand half-raised and open, saying something gentle and slightly hopeless.
-On the worn arm of an empty sagging couch in the near foreground, a single mobile phone lies FACE DOWN, screen hidden, set square and deliberately rather than dropped. Whoever put it there has left the frame.
-MILO stands ON HIS FEET behind the low coffee table, hands loose at his sides, watching Pip. He is NOT sitting, and the coffee table is clear and unoccupied.
-Late in the day, the room warm and low-lit but every face clearly readable.
-Medium group shot from a LOW camera at about couch height, angled so Owen and his turned chair anchor one side of the frame, Pip sits small and still with her back to us in the middle distance, and the phone on the couch arm is sharp in the near foreground. Three faces visible and readable — Owen, Felix and Milo — and Pip's deliberately not.
-Warm even interior light with no drama and no deep shadow, the whole room readable.
+{{CHAR:CASSIE}}
+ONE FIGURE AND NOTHING ELSE ALIVE IN THE FRAME. A girl of fifteen, alone, in an ordinary quiet room in a small-town house.
+She is standing very close to a plain interior wall, side-on to it, her head turned and TILTED slightly so that one ear is a few inches from the wall surface. She is not touching the wall. Both arms hang still at her sides. Her weight is even. She is completely motionless and she has been for a while.
+Her face is visible in three-quarter view and it is not frightened: it is intent, patient and a little tired, the expression of somebody concentrating on a thing they cannot switch off. Her mouth is closed and level. Her eyes are open and looking at nothing, because what she is doing is listening.
+The behind-the-ear hearing aid on her LEFT ear is fully visible and unobstructed, with her hair tucked back behind that ear so nothing covers it. It is the most important detail in the picture.
+THE WALL IS THE OTHER SUBJECT and it is completely blank: plain painted plaster, no picture, no shelf, no switch, no crack, no mark and no visible insect of any kind. Whatever she can hear is INSIDE it and must not be shown.
+The rest of the room is nearly bare and quiet: a stretch of plain floor, the corner of one unremarkable piece of domestic furniture at the edge of the frame, and a soft fall of ordinary daylight from an unseen window to one side. No clutter, no decoration, no other person, no animal, no television and no screen.
+Afternoon, quiet, unremarkable.
+CLOSE on her, camera at her own eye height and square to the wall so that she occupies one side of the frame and a large area of empty blank wall occupies the other. Her face and the hearing aid are large and fully readable. Shallow depth, the wall surface soft.
+Soft even natural daylight from one side, low contrast, calm and completely undramatic. No shadow effects and nothing sinister in the lighting: the room is ordinary and that is the point.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: In a warehouse lounge, a boy has turned his desk chair all the way around to face a robotic girl who sits with her back to us, perfectly still, while three others watch her and a phone lies face down on the arm of a couch.
+Alt text: A girl of fifteen stands alone and completely still with her head tilted close to a blank interior wall, listening to something inside it, the hearing aid behind her ear clearly visible.
 
 ---
 
