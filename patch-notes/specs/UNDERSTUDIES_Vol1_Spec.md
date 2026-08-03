@@ -9,7 +9,9 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Images: 12. Character-led 8, establishing 3, detail 1.
+Images: 12. Character-led 9, establishing 3, detail 0.
+
+**The detail shot was removed on author instruction, 2026-08-02.** It was `u1-s09`, a phone face down on a couch arm with no figures in it, and it was boring on the page. A volume set to be character-forward should not have spent one of twelve plates on an empty room, and the spoiler check that justified it had over-read its own rule.
 
 Set deliberately against arc one's band on author instruction: character-forward and action-forward, because the images have to make an impact rather than catalogue rooms. Three real establishing shots are kept and spaced (the opener, the fence at spread 4, the wardrobe room at spread 11) because this arc's premise is a thing about a PLACE — an army parked on a town — and pure close work cannot carry it.
 
@@ -138,10 +140,10 @@ The whole crew was there. Milo, Owen and Felix stood at the back. Vex was up on 
 
 Slug: u1-s02
 Shot type: Character group, close
-Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part, with the whole crew packed in close around it. No backdrop.
+Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part. Four faces, no backdrop.
 Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is not in frame, there is no podium and no crowd, and nothing about a curfew is legible or implied.
 
-**Recast on author instruction after three failed attempts at a wide seven-hander.** Every attempt lost Vex entirely, moved Pip into the group, took Lena off her own camera and invented an extra figure. Seven named positions plus a seated crowd plus a podium is more than one frame will hold, and the hardest requirements were always the ones dropped. The backdrop is gone and the beat has moved from stage directions to the joke.
+**Cut from six figures to four after four failed attempts, 2026-08-02.** Vex was absent from every one of them and replaced each time by the same invented brown-haired boy in a hoodie. Her sheet was staged and attached and her description was unambiguous, and she renders correctly whenever she is the SUBJECT of a plate — s07 and s08 both hold her. She is only lost in a crowd, and naming her first did not help. **The lever is cast size.** Lena is covered by s04 and s05 and Milo by s03, s06 and s10, so neither is missed here.
 
 Prompt:
 
@@ -150,26 +152,22 @@ Prompt:
 {{CHAR:OWEN}}
 {{CHAR:FELIX}}
 {{CHAR:VEX}}
-{{CHAR:MILO}}
-{{CHAR:LENA}}
 {{CHAR:PIP}}
-A TIGHT CLOSE GROUP OF SIX KIDS AND NOTHING ELSE. There is no building, no podium, no stage, no rows of chairs, no crowd and no other person of any kind in the frame. The six of them fill it.
-They are at the back of an outdoor gathering and something has just been said from the front that one of them does not believe. The moment is a huddle: heads close, shoulders overlapping, all six at DIFFERENT HEIGHTS in the frame, caught mid-exchange rather than posed.
-OWEN is the centre of it, mid-sentence and completely certain, chin slightly up, one hand held out flat in the small precise gesture of a person listing reasons, a phone in the other hand held low and forgotten. He is not angry. He is correcting the record.
-FELIX has turned bodily toward Owen with both eyebrows up, mouth open on a short question, delighted rather than doubtful.
-VEX is pressed in at Owen's shoulder with GREEN HAIR unmistakable in the frame, an APPLE in one hand mid-bite, entirely unimpressed by whatever is happening at the front, looking sideways at Owen. She must be present and her green hair must be visible.
-MILO is on the other side of the group looking away past the camera toward the front, jaw set, the only one still watching the thing they are all talking about.
-LENA is at the near edge of the frame with one hand still resting on the top of a video camera she has half turned away from, head tipped in to hear Owen, caught between filming and listening. Her hand is the only one on that camera.
-PIP is in the group but NOT of it: a little forward of the others and slightly out of their line, upright, head level, mouth closed, eyes open and pointed at nothing anybody else can see. She is the one thing in frame that is completely still.
-Behind and around them, nothing legible: bright open daylight and soft blown-out pale sky with the barest suggestion of a tree canopy at one edge. No architecture, no furniture and no background figures.
+EXACTLY FOUR FIGURES AND NOTHING ELSE. Four kids, close together, filling the frame. There is no building, no podium, no stage, no chairs, no crowd, and no fifth person of any kind. **Do not add an extra boy.** If a figure is not one of the four described below, it does not belong in this picture.
+They are at the back of an outdoor gathering and something has just been said from the front that one of them does not believe. Heads close, shoulders overlapping, all four at DIFFERENT HEIGHTS, caught mid-exchange rather than posed.
+OWEN, on one side and the centre of it: mid-sentence and completely certain, chin slightly up, mouth open on a word, one hand held out flat in the small precise gesture of a person listing reasons. He is not angry. He is correcting the record.
+FELIX, beside him, turned bodily toward him with both eyebrows up and his mouth open on a short question, delighted rather than doubtful.
+VEX, pressed in on Owen's other side, and she must be in this picture: a girl with **BRIGHT MINT-GREEN HAIR gathered into TWO MESSY BUNS, one high on each side of her head**, warm brown skin and freckles across the nose. She has an **APPLE in one hand, mid-bite**, and she is looking sideways at Owen entirely unimpressed by all of it. Her green hair must be plainly visible in the frame.
+PIP, at the near edge and a little forward of the other three, upright, head level, mouth closed, eyes open and pointed at nothing anybody else can see. She is in the group but not of it, and she is the one thing in frame that is completely still.
+Behind and around them, nothing legible: bright open daylight and soft blown-out pale ground with no architecture, no furniture and no background figures.
 Ten in the morning, bright and dry.
-CLOSE group shot from a LOW camera, at about chest height of the shortest of them and angled slightly up, so the six heads crowd the upper two thirds of the frame and every face is large and fully readable. Shallow depth: the six of them sharp, everything behind them soft to the point of abstraction.
+CLOSE group shot from a LOW camera angled slightly up, the four heads crowding the upper two thirds of the frame, every face large and fully readable. Shallow depth: the four of them sharp, everything behind them soft to the point of abstraction.
 High clear morning light from one side, warm and even, no drama and no deep shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: Six kids packed close together outdoors, one of them mid-sentence and certain with a hand held out, another turning to him with eyebrows raised, a girl with green hair eating an apple beside them, and a robotic girl at the front standing perfectly still and looking at nothing.
+Alt text: Four kids packed close together outdoors, one mid-sentence and certain with a hand held out, another turning to him with eyebrows raised, a girl with green hair eating an apple and looking unimpressed, and a robotic girl at the front standing perfectly still and looking at nothing.
 
 ---
 
@@ -557,24 +555,35 @@ Milo sat down on the edge of the coffee table so he was level with her. “Okay.
 ### Image page (right)
 
 Slug: u1-s09
-Shot type: Detail
-Depicts: Beat 2. Lena sets her phone face down on the arm of the couch, which for Lena is a bigger deal than anybody in the room understands.
-Spoiler check: PASS. Final beat is Milo sitting down on the coffee table to be level with Pip. Not depicted: no figure is in frame at all.
+Shot type: Character group
+Depicts: Beats 7 to 9. Owen turns all the way around in his chair and Felix says it is scared, while four people watch Pip and none of them can help her.
+Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee table to be level with Pip. Not depicted: Milo is on his feet and the coffee table is clear.
+
+**Recast on author instruction.** The first version was a close detail of a phone on a couch arm with no figures in it — correct against the spoiler rule and dead on the page, in a volume commissioned to be character-forward. The spoiler check had said "no figure is in frame at all", which was never a requirement: the only rule is not to depict the final beat. Recast to point the camera at the other four, partly because **s08 and s10 are both close two-shots on Pip's face** and a third in a row is repetitive.
 
 Prompt:
 
 ```
 {{STYLE}}
 {{LOC:WAREHOUSE_PIT}}
-A close view of the worn upholstered arm of a sagging couch, with a single mobile phone lying on it FACE DOWN, screen hidden, set square and deliberately rather than dropped. A hand has just left it and is out of frame. Beyond the arm of the couch the room falls away out of focus. No people and no animals in frame.
-Mid-afternoon.
-Close detail shot at couch height, shallow depth, the phone and the couch arm filling the lower half of the frame.
-Soft indirect daylight, quiet, no drama.
+{{CHAR:OWEN}}
+{{CHAR:FELIX}}
+{{CHAR:MILO}}
+{{CHAR:PIP}}
+EXACTLY FOUR FIGURES AND NOTHING ELSE, and no fifth person may be invented. The lounge end of the warehouse: three people are looking at a fourth and not one of them knows what to say to her. Nobody is moving.
+PIP sits on the upturned milk crate in the MIDDLE DISTANCE, seen from BEHIND AND SLIGHTLY TO ONE SIDE so that her face is NOT visible and she is not the subject of the picture. She is identifiable from her sandy blonde hair, the red bandana tied across her head with goggles resting on it, and the red neckerchief at her throat. Her back is straight, her hands are flat on her knees, and she is perfectly still.
+OWEN is the subject. He has turned his swivel chair ALL THE WAY AROUND, away from his desk and his monitors, and is facing into the room toward Pip with one arm over the chair back, leaning forward, no longer pretending to work. His face is fully visible and it is the clearest face in the frame. This is a person who has stopped doing the thing he always does.
+FELIX stands near him, mid-sentence, one hand half-raised and open, saying something gentle and slightly hopeless.
+On the worn arm of an empty sagging couch in the near foreground, a single mobile phone lies FACE DOWN, screen hidden, set square and deliberately rather than dropped. Whoever put it there has left the frame.
+MILO stands ON HIS FEET behind the low coffee table, hands loose at his sides, watching Pip. He is NOT sitting, and the coffee table is clear and unoccupied.
+Late in the day, the room warm and low-lit but every face clearly readable.
+Medium group shot from a LOW camera at about couch height, angled so Owen and his turned chair anchor one side of the frame, Pip sits small and still with her back to us in the middle distance, and the phone on the couch arm is sharp in the near foreground. Three faces visible and readable — Owen, Felix and Milo — and Pip's deliberately not.
+Warm even interior light with no drama and no deep shadow, the whole room readable.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A mobile phone lying face down and set square on the worn arm of a sagging couch, with the room out of focus beyond it.
+Alt text: In a warehouse lounge, a boy has turned his desk chair all the way around to face a robotic girl who sits with her back to us, perfectly still, while three others watch her and a phone lies face down on the arm of a couch.
 
 ---
 

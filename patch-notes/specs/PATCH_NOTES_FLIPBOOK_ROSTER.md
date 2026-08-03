@@ -213,6 +213,16 @@ accident on anybody else while leaving it usable deliberately.
 ### {{CHAR:VEX}}
 **Immutable:** An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 **Canonical reference:** `char-vex-canonical.png` · Seed: pending · Approved: yes, resolved by 1.1
+
+**She is reliably LOST in a crowd, and this is measured rather than suspected.** Understudies Vol 1
+spread 2 was attempted FOUR times as a group of six or seven. Vex was absent from every single
+attempt — not misdrawn, absent — and replaced each time by the same invented brown-haired boy in a
+hoodie who is in no roster. Her sheet was staged and attached every time, her description is
+unambiguous, and naming her first in the prompt did not help.
+
+**She renders correctly whenever she is the subject**, as u1-s07 and u1-s08 both show. So the fix is
+cast size, not emphasis: **keep a group plate that must contain Vex to four figures or fewer.** The
+plate was cut from six to four and that is the only change that mattered.
 **Enriched 2026-07-28 from `MILLBROOK_MAIN_CHARACTER_LOCKS.md`.** Adds what the lock file
 specifies and the entry lacked: her height *relative to Lena*, the compact athletic build
 and grounded stance, the guarded resting posture, and the note that the two buns are the
