@@ -9,10 +9,11 @@
  * disagree with the book.
  *
  * A plate is flagged as a RE-CUT if a parked attempt exists under
- * patch-notes/incoming/attempt1/<slug>-attempt1.png, so the author can see at a glance which
+ * patch-notes/incoming/attempt1/<slug>-attempt*.png (a descriptive suffix saying why it was
+ * rejected is encouraged), so the author can see at a glance which
  * of these have been tried once and which are fresh.
  */
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createExpander } from './lib-prompt.mjs';
@@ -29,6 +30,20 @@ if (!slug || !ALL_SLUGS.includes(slug)) {
 }
 
 const { expand } = createExpander({ rosterPath: join(PN, 'roster.json'), imagesDir: IMAGES });
+
+/**
+ * Has this plate already failed once and been parked?
+ *
+ * PREFIX match, not an exact filename. Parked attempts carry a descriptive suffix saying why
+ * they were rejected -- `u2-s05-attempt1-room-too-small.png` -- and an exact match on
+ * `<slug>-attempt1.png` silently reported those plates as never attempted, which is the one
+ * thing this flag exists to prevent.
+ */
+const ATTEMPTS = join(PN, 'incoming', 'attempt1');
+const parkedAttempt = (slug) => {
+  if (!existsSync(ATTEMPTS)) return false;
+  return readdirSync(ATTEMPTS).some((f) => f.startsWith(`${slug}-attempt`));
+};
 const vol = JSON.parse(readFileSync(join(PN, 'volumes', `${slug}.json`), 'utf8'));
 
 const todo = vol.spreads.filter((s) => !existsSync(join(IMAGES, `${s.image.slug}.png`)));
@@ -50,17 +65,25 @@ if (!todo.length) {
   L.push('|---|---|---|');
   for (const s of todo) {
     const p = s.image.slug;
-    const recut = existsSync(join(PN, 'incoming', 'attempt1', `${p}-attempt1.png`));
-    const { attach } = expand(s.image.prompt, s.image.hardConstraints);
-    const n = new Set((attach || []).map((a) => a.file)).size;
-    L.push(`| \`${p}\` | ${recut ? '**RE-CUT** — one attempt parked' : 'not yet attempted'} | ${n ? `\`refs-${slug}/${p}/\` (${n})` : 'none needed'} |`);
+    const recut = parkedAttempt(p);
+    // A volume whose header still says PENDING has no prompts in the spec yet, so there is
+    // nothing to expand and nothing to attach. Report the plate rather than crashing on it:
+    // this is the normal state of a volume being commissioned, which is exactly when somebody
+    // wants this list.
+    const n = s.image.prompt
+      ? new Set((expand(s.image.prompt, s.image.hardConstraints).attach || []).map((a) => a.file)).size
+      : null;
+    const refs = n === null ? '*prompt not in the spec yet*' : n ? `\`refs-${slug}/${p}/\` (${n})` : 'none needed';
+    L.push(`| \`${p}\` | ${recut ? '**RE-CUT** — one attempt parked' : 'not yet attempted'} | ${refs} |`);
   }
   L.push('');
 }
 
-for (const s of todo) {
+// Only plates whose prompt is actually in the spec get a full section below. On a PENDING
+// volume that is none of them, and the table above is the whole useful output.
+for (const s of todo.filter((s) => s.image.prompt)) {
   const p = s.image.slug;
-  const recut = existsSync(join(PN, 'incoming', 'attempt1', `${p}-attempt1.png`));
+  const recut = parkedAttempt(p);
   const { text, attach, missing } = expand(s.image.prompt, s.image.hardConstraints);
   const files = [...new Set((attach || []).map((a) => a.file))].sort();
 
@@ -101,6 +124,6 @@ const dest = join(PN, `remaining-${slug}.md`);
 writeFileSync(dest, L.join('\r\n'));
 console.log(`${todo.length} outstanding of ${vol.spreads.length} -> patch-notes/remaining-${slug}.md`);
 for (const s of todo) {
-  const recut = existsSync(join(PN, 'incoming', 'attempt1', `${s.image.slug}-attempt1.png`));
+  const recut = parkedAttempt(s.image.slug);
   console.log(`  ${s.image.slug.padEnd(11)} ${recut ? 'RE-CUT' : 'new   '}  ${s.image.shotType}`);
 }
