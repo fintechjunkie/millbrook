@@ -330,6 +330,29 @@ original left implied were often its best. Each time, ask whether the gap was a 
 - **Character-forward.** Prefer a plate with faces doing something over an empty room.
   Volumes 1, 3 and 4 were each rebuilt on this basis. Shot-mix bands were re-set to match
   rather than logging further exceptions.
+- **Plates are LIGHT unless the scene is outdoors at night.** This is the general form of the
+  Warehouse rule below and it applies to every plate in the series. A dark image does not pop and
+  makes an interesting picture look dull, and the author has had to relight delivered warehouse
+  scenes by hand more than once. **An interior at night is still a light picture** — light it as if
+  somebody switched the lights on, not as if one lamp is fighting the dark. Only an exterior night
+  scene may actually be dark, and even then the negative block still forbids featureless black.
+
+  Do not write prompt language like *“the far end of the room falls away much darker”* or *“one lamp
+  is the only light source”* for an interior. That instruction was used on `u2-s09` and it is the
+  thing the author had to undo.
+
+- **Do not keep returning to the same location, and if a scene must reuse one, give the plate
+  something worth looking at — rewriting the prose to create that is allowed and encouraged.** Two
+  volumes of arc two went to the Warehouse eight times out of twenty-three plates before this was
+  caught, and the fix each time was to leave the room: `u1-s09` cut away to Cassie listening to a
+  wall, `u2-s06` to the bookshop that should not exist, `u2-s07` to a corridor of forty-one years of
+  cast photographs. Check the location map for a volume BEFORE writing its prompts — one pass over
+  the `{{LOC:}}` tokens takes two minutes and saves a whole round of regeneration.
+
+  **The permission to add material is real and is the author’s.** If a page has nothing worth
+  drawing, the answer may be to give it something rather than to illustrate the least boring
+  sentence on it. Prefer the funniest or heaviest beat over stage directions; prefer a face doing
+  something over a room.
 - **Warehouse scenes must not be too dark.** See roster section 6.1a. Enforced in the
   negative block. One named exception: `vol1-s03`.
 - **Green skin means a character is sick.** Never a base tone.

@@ -23,6 +23,12 @@ That leaves TWO Warehouse plates in Part Two — spread 5 overhead in daylight a
 
 Eleven plates across **eight distinct places**: the auditorium, Benny’s gym, Route 9, the pines, Old Bell Road, the Warehouse, the town hall square, and the north fence at night.
 
+**Two standing instructions arrived while this volume was being made, 2026-08-03, and both are now
+in CLAUDE.md.** Plates are LIGHT unless the scene is outdoors at night — a dark image does not pop,
+and the author relit warehouse scenes by hand because of prompt language in this very volume. And a
+location may not be returned to repeatedly; where a scene must reuse one, the plate needs something
+worth looking at, and **rewriting the prose to create that is allowed**.
+
 Every plate depicts a beat from its own text page and never that page’s final beat, which is the rule all fifty-four delivered plates follow.
 
 Page budget, for whoever edits this next. Chunked with the model in `WRITING_GUIDE.md` at an ideal of 28 lines: 10 text pages running 15 to 29 lines, which is 43 to 84 per cent of the column. Arc one's median page is 76 per cent and its ceiling is 32 lines.
@@ -347,6 +353,32 @@ Spoiler check: PASS. Final beat of the page is “So who told them that’s the 
 
 **No legible screen content**, per the negative block: the laptop is open but angled away from camera so its screen is not visible at all.
 
+**Delivered 2026-08-03 with two swaps, both kept.** The overhead camera worked first time and the
+plate is bright and fully readable, which is what the standing lighting instruction wants.
+
+**Pip is in the frame instead of Milo.** The prompt asked for Milo standing; the delivered plate has
+Pip sitting quietly on a couch instead. Kept, because the depicted beats are Felix’s realisation and
+Vex’s line about the armour and neither needs Milo, and because the next spread opens with *“Pip had
+been quiet all day, with her hands flat on her knees again”* — so she was in that room the whole
+time, and showing her silent here sets that up rather than contradicting it.
+
+**The room reads too SMALL, and the camera is why. Author revising, 2026-08-03.**
+
+This is structural rather than a matter of degree: **a plumb overhead camera cannot show height.**
+The exposed trusses and the high clerestory windows sit between the lens and the floor, so the two
+features that establish this place as a converted warehouse are exactly the two a straight-down shot
+has to lose. Every frame edge is also filled with furniture or wall, which leaves no empty floor to
+measure the space against.
+
+The prompt now asks for a **high three-quarter angle** instead — high enough to keep the flat
+arrangement of shapes that made the first version fresh, angled enough to catch the trusses across
+the top of the frame, the far wall beyond the group, and a generous run of bare concrete on two
+sides. Five people in the middle of a big room rather than five people filling a small one.
+
+**An open notebook of diagrams replaced the laptop**, which sidesteps the legible-screen problem in
+the negative block entirely rather than dodging it with an angled lid. Lena’s nine tabs of footage
+stay in the prose.
+
 Prompt:
 
 ```
@@ -357,7 +389,7 @@ Prompt:
 {{CHAR:LENA}}
 {{CHAR:MILO}}
 {{CHAR:OWEN}}
-FIVE named figures around a low scarred coffee table, seen from DIRECTLY ABOVE. **All five must be present and each must be identifiable from the top down** — check that the girl with bright mint-green hair in two messy buns is in the frame.
+FIVE named figures around a low scarred coffee table, seen from HIGH ABOVE AND SLIGHTLY TO ONE SIDE. **All five must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame. They are a small cluster near the middle of a large open room, not a group filling a small one.
 The table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.
 VEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.
 FELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.
@@ -365,8 +397,8 @@ LENA sits back on a couch behind her laptop with one hand on its edge, looking a
 OWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.
 MILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.
 Exactly five people in frame. No animals.
-Two in the afternoon, warm daylight from the high windows.
-HIGH ANGLE looking straight down from above the coffee table, camera perhaps eight feet up, so the table and the five of them read as a flat arrangement of shapes and every face is visible tipped up toward the lens. Nothing cropped and everything sharp.
+Two in the afternoon. The room is BRIGHT — strong warm daylight flooding in from the high windows plus the room lights on, everything clearly and evenly readable, nothing in gloom.
+HIGH THREE-QUARTER ANGLE, camera up near the roof and well back, looking DOWN and ACROSS the room rather than straight down at it — high enough that the table and the group still read as a flat arrangement of shapes with every face tipped up toward the lens, but angled enough to see the room they are in. **The frame must establish that this is a big room:** the exposed roof trusses and the high clerestory windows are visible across the top of the frame, the far wall of the building is visible beyond the group, and there is a generous run of BARE EMPTY CONCRETE FLOOR around the couch cluster on at least two sides. The five of them occupy the middle of a large space and are small in it. Nothing important cropped and everything sharp.
 Warm even overhead daylight, no drama, every face readable.
 {{NEGATIVE}}
 Aspect ratio: 3:2
@@ -632,7 +664,7 @@ Seven levers, all of them checkable in the delivered image:
 2. **Stack the cast at three different DEPTHS, not three different heights** — near, middle, far — and let figures partly overlap and partly hide each other. A line across the frame is the thing to forbid by name.
 3. **Point the camera into a CORNER, not at a wall.** Two walls and a floor converging gives a diagonal; square-on to the back wall is what makes it look like a set.
 4. **One physical action with a before and an after**, not five poses. A mug being set down is an action; standing and gesturing is a pose.
-5. **Make the light do the work.** One lamp means a bright pool, one lit side per face, and the far end of the room considerably darker than the near end. Evenly lit night is just day with a black window.
+5. **Give the night a source, but keep the picture LIGHT.** ~~One lamp means a bright pool and the far end of the room considerably darker.~~ **Superseded 2026-08-03 by a standing instruction: plates are light unless the scene is outdoors at night.** A dark interior does not pop and the author has had to relight delivered warehouse scenes by hand. What still works from this lever is the *source* — a lamp in frame, a dark street through a doorway, black windows — so the hour reads. What does not is letting the room go dim to prove it. Light an interior night as though somebody switched the lights on.
 6. **Crop somebody at the frame edge.** A figure half out of frame says the camera is in the room rather than watching it.
 7. **The animal is asleep and ignored.** The roster is explicit that it is not a mascot: it wants heat and that is all it wants. Nobody looks at it and it does not look at us.
 
@@ -676,7 +708,7 @@ Exactly four people and exactly one animal. No fifth person.
 
 Nine at night, an hour before curfew, the high windows black.
 The camera is LOW, at about the height of the low table, and pointed into a CORNER of the room so that two walls and the floor converge and the composition runs on a diagonal. It looks past the sleeping dragon in the near left and over Milo's shoulder into the room. NOT square on to the back wall.
-ONE work lamp is the only light source and it is in frame, low and to one side. It throws a bright warm pool over the table and Milo and Owen; each face is lit hard on one side and in shade on the other; Vex is in the dimmer edge of the pool; and the far end of the room falls away much darker than the near end. Every face still reads clearly and no part of the frame is featureless black, but this must look like one lamp at night and not like daylight with a dark window.
+It is night and the room is LIT AND BRIGHT — the overhead lights are on, plus a warm work lamp in frame at one side. The hour reads from the black windows and the dark street through the open doorway, NOT from the room being dim. Every face, the dragon, the couches, the brick and the far end of the room are all clearly and evenly readable. Warm rather than cold. Do not let any part of the room fall away into gloom to prove it is night.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
