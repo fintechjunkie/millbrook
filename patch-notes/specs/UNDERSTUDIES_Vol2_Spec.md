@@ -9,7 +9,13 @@ Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES
 
 ## Shot mix, this volume
 
-Images: 11. Character-led 10, establishing 1, detail 0.
+Images: 11. Character-led 9, establishing 1, animal 1.
+
+**Spread 5 became a single-subject animal plate on author instruction, 2026-08-03, and it is the
+one plate in the series that depicts NO beat from its page.** It was attempted three times as a
+five-person overhead group and failed the same way each time, because it was carrying the room, the
+cast and the beat at once and the room kept losing. Ten other plates in this volume carry story;
+this one is allowed to be a joke. Do not re-anchor it to a beat.
 
 Commissioned 2026-08-02 on two author instructions: real action, and nothing that reads as a repeat of a plate the reader already has.
 
@@ -345,94 +351,64 @@ Lena had her laptop open with nine tabs of footage on it. “Nobody’s hurt, th
 ### Image page (right)
 
 Slug: u2-s05
-Shot type: Character group, high angle
-Depicts: Beats 6 to 9. Felix works out that the four of them are the four of us with better outfits, and Vex, without looking up from the dashcam mount she is rebuilding, says she would wear the armour.
-Spoiler check: PASS. Final beat of the page is “So who told them that’s the job?” Not depicted: nobody is asking a question, Milo’s mouth is closed and no face is turned to him.
+Shot type: Animal, single subject
+Depicts: No story beat. The dragon, in the Warehouse, losing an argument with the sun.
+Spoiler check: PASS trivially. No beat is depicted, no person is in frame, and nothing on the page can be pre-empted by an animal lying on the floor.
 
-**Shot from directly above, which the book has not done once.** Part One spent five consecutive plates in the Warehouse at eye level or below, and this volume has four Warehouse spreads. Three of them run back to back here, so each gets a camera the reader has not seen: this one overhead, spread 6 from the floor looking up, spread 7 close and moving.
+## This plate deliberately breaks the volume’s own rule, on author instruction, 2026-08-03
 
-**No legible screen content**, per the negative block: the laptop is open but angled away from camera so its screen is not visible at all.
+Every other plate in the series depicts a beat from its own text page. **This one depicts nothing.**
+The author’s call, and the reasoning is sound: the dragon lives in that building and does not need a
+reason to be in a picture. **Do not “fix” this by anchoring it to a beat** — the header rule stands
+for every other plate and this is the recorded exception.
 
-**Delivered 2026-08-03 with two swaps, both kept.** The overhead camera worked first time and the
-plate is bright and fully readable, which is what the standing lighting instruction wants.
+## Why, after three failed attempts at a group
 
-**Pip is in the frame instead of Milo.** The prompt asked for Milo standing; the delivered plate has
-Pip sitting quietly on a couch instead. Kept, because the depicted beats are Felix’s realisation and
-Vex’s line about the armour and neither needs Milo, and because the next spread opens with *“Pip had
-been quiet all day, with her hands flat on her knees again”* — so she was in that room the whole
-time, and showing her silent here sets that up rather than contradicting it.
+This spread was tried three times as a five-person overhead and failed the same way each time: the
+plate was carrying the room, the cast and the beat at once, and the room kept losing. First version
+made the Warehouse look small. Second tried to prove it was big. Third refused to show its edges. The
+fourth answer is to stop asking one picture to do three jobs.
 
-**Third approach, on the author’s suggestion, 2026-08-03 — and it is better than my second.**
+Part Two already has ten plates carrying story. This one gets to be a joke, which the volume can
+afford and the reader will like more than a fourth conversation around a coffee table.
 
-I tried to answer the question: show the trusses, show the far wall, leave bare floor on two sides so
-the room measures large. The author’s version refuses the question instead. **If no wall, ceiling,
-window or room edge is anywhere in frame, the picture makes no claim about the size of the space, so
-it cannot read small.** A room whose edges you can see is a room you have measured; a room whose
-furniture runs off the picture has no size at all. The couches crop at the frame edge and do the rest.
+## Why the sunbeam and not the duck chase
 
-**The height comes back from light rather than architecture.** One hard-edged slab of sunlight lying
-across the floor can only have been cast by a window high up and out of frame, so the reader infers
-the clerestory without being shown it. That is cheaper and more elegant than putting trusses in the
-top of the frame.
+A duck chase was considered and rejected. It is funny, but it is the one thing the roster rules out:
+the dragon is **not a mascot, never does anything clever and never reacts to anything.** It wants
+heat, and that is the whole character. Chasing prey is a small but real break, and putting two animals
+in frame invites them to interact, which is exactly the mascot behaviour the block forbids.
 
-**And the sunbeam is exactly where a heat-seeking animal would be.** The dragon now lies full length
-on its side in it, dead asleep, the largest shape in the picture after the table, ignored completely
-by all five people arguing above it. It needs no prose to justify it, it is not a mascot doing a
-trick, and it is the only thing it ever does — see its roster block, which says it wants heat and
-that is all it wants.
+**Belly-up in a sunbeam IS its only trait, performed.** And what makes it funnier than simply being
+asleep on its back is that **the sun has moved and the animal has not kept up**: a house-cat-sized
+dragon squeezed into a stripe of light narrower than it is, contorted to keep its belly in the warm
+part while its legs sprawl out onto cold concrete on both sides. It has been there for hours and it
+is losing. That reads instantly and needs no caption.
 
-~~**The room reads too SMALL, and the camera is why. Author revising, 2026-08-03.**~~ *Superseded by
-the above; the diagnosis below is kept because it is why a plumb overhead was abandoned.*
+## And it solves the problem the group shots could not
 
-This is structural rather than a matter of degree: **a plumb overhead camera cannot show height.**
-The exposed trusses and the high clerestory windows sit between the lens and the floor, so the two
-features that establish this place as a converted warehouse are exactly the two a straight-down shot
-has to lose. Every frame edge is also filled with furniture or wall, which leaves no empty floor to
-measure the space against.
-
-The prompt now asks for a **high three-quarter angle** instead — high enough to keep the flat
-arrangement of shapes that made the first version fresh, angled enough to catch the trusses across
-the top of the frame, the far wall beyond the group, and a generous run of bare concrete on two
-sides. Five people in the middle of a big room rather than five people filling a small one.
-
-**An open notebook of diagrams replaced the laptop**, which sidesteps the legible-screen problem in
-the negative block entirely rather than dodging it with an angled lid. Lena’s nine tabs of footage
-stay in the prose.
+One subject, no cast to lose, no beat to honour, and **no room to measure**: bare floor, a stripe of
+light and an animal. The high window that cast the light is out of frame, so the ceiling is implied
+rather than shown, and the picture makes no claim about the size of the space at all.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:WAREHOUSE_PIT}}
-{{CHAR:FELIX}}
-{{CHAR:VEX}}
-{{CHAR:LENA}}
-{{CHAR:MILO}}
-{{CHAR:OWEN}}
 {{CHAR:DRAGON}}
-FIVE named figures and ONE SMALL ANIMAL around a low scarred coffee table, seen from HIGH ABOVE. **All five people must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame.
-The table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.
-VEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.
-FELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.
-LENA sits back on a couch behind her laptop with one hand on its edge, looking across at Felix.
-OWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.
-MILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.
-THE MINI DRAGON lies FULL LENGTH ON ITS SIDE in the middle of the slab of sunlight on the bare concrete, legs out, tail straight, belly to the warm floor, comprehensively asleep. Seen from above it is the largest single shape in the picture after the table, and **not one of the five people is looking at it or acknowledging it in any way.** It is not posing, not looking at the camera and not doing anything clever. It found the warmest rectangle in the building and that is the whole of its contribution.
-Exactly five people in frame. No animals.
-Two in the afternoon and the picture is BRIGHT throughout — nothing in gloom anywhere.
-
-**One hard-edged slab of sunlight lies across the floor and over part of one couch**, a clean bright rectangle with crisp parallel edges, falling at a slant. It can only have come from a window high up and outside the frame, and that is the point: it tells the reader the ceiling is a long way up without a single piece of architecture being visible. Warm, strong and clearly drawn, not a soft glow.
-HIGH ANGLE looking down onto the furniture, and **NO EDGE OF THE ROOM IS ANYWHERE IN FRAME.** No wall, no ceiling, no roof truss, no window, no doorway, no corner and no far end. The picture contains nothing but bare concrete floor, the furniture, the people and the animal — the frame itself is the only boundary. **The couches are CROPPED by the frame edge on at least two sides**, so the room plainly continues past the picture in every direction.
-
-This is deliberate and it is the fix for an earlier attempt. A room whose edges you can see is a room you have measured; a room whose furniture runs off the picture has no size at all. The Warehouse is big and this frame refuses to make any claim about it either way.
-
-Every face is tipped up toward the lens and readable. Everything sharp.
-Warm even overhead daylight, no drama, every face readable.
+ONE ANIMAL AND NOTHING ELSE ALIVE IN THE FRAME. No people, no other animal, no duck, no pig, and no part of any person anywhere in the picture.
+THE MINI DRAGON is lying FLAT ON ITS BACK on a bare, cool, pale concrete floor, belly upward and fully exposed, in a patch of sunlight. Its head is tipped back and turned to one side against the floor, its mouth is slightly open, and it is deeply and comprehensively asleep. All four legs are relaxed and flopped outward and upward, loose rather than rigid, in the boneless way a sleeping animal lies when it has entirely given up on dignity. Its tail is straight out along the floor.
+THE JOKE IS THAT THE SUN HAS MOVED AND IT HAS NOT. A single hard-edged STRIPE of bright sunlight lies across the floor at a slant, with crisp clean parallel edges, and **the stripe is NARROWER than the dragon is long.** It falls across the middle of the animal so that its belly and chest are in the warm bright light while its head at one end and its hind legs and tail at the other lie outside the stripe on plain cool grey concrete. The animal is visibly contorted a little, twisted along its own length, to keep as much of its underside in the light as it can. It has been chasing this rectangle around the floor all afternoon and it is losing.
+It has no wings of any kind. Its rust-orange body and the row of dark red triangular plates down its spine are clearly visible even though it is on its back.
+The floor is otherwise almost bare: a scatter of dust, one dropped bottle cap, and at the very edges of the frame the cropped feet of a couch and one leg of a low wooden table, enough to say this is somebody’s room and nothing more. **No wall, no ceiling, no window and no room edge anywhere in frame.**
+Two in the afternoon.
+CLOSE and slightly high, camera looking down at the animal from above and a little to one side, near enough that the dragon fills most of the frame and the stripe of light runs across the picture on a diagonal. Everything sharp.
+BRIGHT throughout. The sunlit stripe is strong and warm and clearly delineated, and the surrounding concrete is plainly cooler and greyer but still perfectly light and readable — the contrast is between warm and cool, not between lit and dark. Nothing anywhere in the frame is gloomy or in shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: Seen from directly above, five teenagers around a low table covered with tools, a laptop and drink cans, one of them cross-legged on the floor working on a dismantled camera mount without looking up while another leans in mid-realisation.
+Alt text: A small orange dragon lies flat on its back and fast asleep on a bare concrete floor, twisted slightly to keep its belly inside a narrow stripe of sunlight that is no longer wide enough to cover it.
 
 ---
 
