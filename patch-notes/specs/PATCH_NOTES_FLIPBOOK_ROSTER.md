@@ -220,9 +220,13 @@ attempt — not misdrawn, absent — and replaced each time by the same invented
 hoodie who is in no roster. Her sheet was staged and attached every time, her description is
 unambiguous, and naming her first in the prompt did not help.
 
-**She renders correctly whenever she is the subject**, as u1-s07 and u1-s08 both show. So the fix is
-cast size, not emphasis: **keep a group plate that must contain Vex to four figures or fewer.** The
-plate was cut from six to four and that is the only change that mattered.
+**She renders correctly whenever she is the subject**, as u1-s07 and u1-s08 both show.
+
+**Corrected the same day: a sixth attempt at SIX figures delivered all six, Vex included.** So this
+is not a hard cap and the note first written here — keep such a plate to four or fewer — was
+overstated on four data points. What is true: **she is the figure a crowded frame sheds first, so
+when a group plate must contain her, check that it did.** Fewer figures makes it likelier, not
+certain, and more figures does not make it impossible. The delivered u1-s02 is six.
 **Enriched 2026-07-28 from `MILLBROOK_MAIN_CHARACTER_LOCKS.md`.** Adds what the lock file
 specifies and the entry lacked: her height *relative to Lena*, the compact athletic build
 and grounded stance, the guarded resting posture, and the note that the two buns are the

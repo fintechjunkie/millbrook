@@ -143,7 +143,9 @@ Shot type: Character group, close
 Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part. Four faces, no backdrop.
 Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is not in frame, there is no podium and no crowd, and nothing about a curfew is legible or implied.
 
-**Cut from six figures to four after four failed attempts, 2026-08-02.** Vex was absent from every one of them and replaced each time by the same invented brown-haired boy in a hoodie. Her sheet was staged and attached and her description was unambiguous, and she renders correctly whenever she is the SUBJECT of a plate — s07 and s08 both hold her. She is only lost in a crowd, and naming her first did not help. **The lever is cast size.** Lena is covered by s04 and s05 and Milo by s03, s06 and s10, so neither is missed here.
+**Delivered at SIX figures on the sixth attempt, all six correct. 2026-08-02.** The prompt below asks for four, and that reduction turned out to be unnecessary: regenerated once more at six, every named figure arrived, Vex included. The prompt is left as written rather than rewritten to match, because it is the record of what was asked and the plate on disk is the record of what shipped.
+
+**Why four was tried.** Vex was absent from every one of them and replaced each time by the same invented brown-haired boy in a hoodie. Her sheet was staged and attached and her description was unambiguous, and she renders correctly whenever she is the SUBJECT of a plate — s07 and s08 both hold her. She is only lost in a crowd, and naming her first did not help. **The lever is cast size.** Lena is covered by s04 and s05 and Milo by s03, s06 and s10, so neither is missed here.
 
 Prompt:
 
