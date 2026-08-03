@@ -486,6 +486,8 @@ Spoiler check: PASS. Final beat of the page is Vex’s answer about ninth grade.
 
 **This is the arc’s actual subject in one frame.** Everything that has happened in this town happened because somebody wrote it down and then nobody read it again. Forty-one years of school plays are hanging in a corridor in the building the Army is currently occupying, the answer to the whole thing is four feet from a soldier’s shoulder, and he is carrying a mug past it.
 
+**The soldier is now a locked character.** `{{CHAR:UNIT_SOLDIER}}` exists so that “a soldier” is the same man every time rather than a new face per plate — see roster 4.4a. Nothing in the prose names him and nothing needed rewriting.
+
 **No location token.** The corridor has no roster entry, appears once, and is described inline — so there is no reference to contradict a busy frame.
 
 **No legible text anywhere**, which the negative block requires and which costs nothing here: the point reads from the repetition of costumes down the wall, not from the names under them.
@@ -494,9 +496,10 @@ Prompt:
 
 ```
 {{STYLE}}
+{{CHAR:UNIT_SOLDIER}}
 A long corridor inside a closed 1960s elementary school, lined down one whole wall with FRAMED PHOTOGRAPHS hung in a single level row that runs away from the camera into the distance — forty or so of them, one after another, evenly spaced, in mismatched cheap frames.
 Each photograph is a small group portrait of schoolchildren in home-made costumes standing on a stage in front of a curtain, and each one is a different year: the paper stock changes down the row from cool modern colour at the near end through faded warm colour to grainy black and white at the far end. **Costumes repeat down the wall from year to year** — in several of them a child in armour, in several a child with a bow, in several a pointed hat — worn by different children each time. Small blank plaques under the frames carry no readable writing.
-Walking down the middle of the corridor toward the camera, ONE SOLDIER in an olive field jacket, alone, holding an enamel mug in one hand and a clipboard tucked under the other arm, mid-stride and entirely unhurried. **He is not looking at the photographs at all.** His head is turned very slightly away from them and his expression is bored and comfortable. He has walked past this wall a dozen times today.
+Walking down the middle of the corridor toward the camera, THE FIFTH SOLDIER, alone, holding an enamel mug in one hand and a clipboard tucked under the other arm, mid-stride and entirely unhurried. **He is not looking at the photographs at all.** His head is turned very slightly away from them and his expression is bored and comfortable. He has walked past this wall a dozen times today.
 The corridor itself: scuffed grey vinyl tile with a worn path down the middle, painted cinderblock walls, a row of low coat hooks at child height along the opposite wall, and at the far end a set of doors with their glass boarded over with plywood so the light there is dim.
 Exactly one person in frame. No animals and no other figure.
 Mid-afternoon.
@@ -543,37 +546,34 @@ Off to the side of the stage, Crane turned his head and looked at the Mayor for 
 ### Image page (right)
 
 Slug: u2-s08
-Shot type: Character group, over-the-shoulder
-Depicts: Beats 3 and 4. Four royal blue windbreakers laid out on a folding table behind the Mayor while he officially recognises four people he has never met.
-Spoiler check: PASS. Final beat of the page is Crane turning his head to look at the Mayor for the first time in two days. Not depicted: **Crane is not in frame at all.**
+Shot type: Character, single figure
+Depicts: Beats 3 and 4. Four royal blue windbreakers on a folding table, and the Mayor officially recognising four people he has never met.
+Spoiler check: PASS. Final beat of the page is Crane turning his head to look at the Mayor for the first time in two days. Not depicted: **Crane is not in frame at all**, and neither is anybody else.
 
-**Shot from behind the Mayor on the steps**, looking out over the square. Part One already used this location twice from in front, and the point of this scene is what is on the table behind him, which the audience cannot see and the reader can.
+**Recast on author instruction, 2026-08-03: the backdrop is gone.** The first version shot the square from behind the Mayor and still had the chairs and the seated crowd in it, and this arc has now had three plates with rows of folding chairs and an audience. It was going stale.
 
-**State the occupancy explicitly.** `loc-square.png` is an empty square with empty rows of chairs; the crowd and the podium have to be named or the plate returns empty. See CLAUDE.md.
+**So the plate is the object.** Dalton and four brand-new windbreakers on a trestle table against nothing at all. What makes the scene funny is that he is presenting people he has never laid eyes on, and four blank folded jackets say that better than a crowd does. *“I’ve met the concept of them.”*
 
-**No lettering on the windbreakers.** The prose puts MILLBROOK VOLUNTEER SAFETY AMBASSADORS across the back of each one in heat-pressed letters, and the negative block forbids text in an image. Same arrangement as Rocco’s GOLDEN GLOVES and Wren’s stencil: it lives in the prose.
+**No location token and no crowd** — which also removes the empty-square reference trap for the third time in this volume.
+
+**No lettering on the windbreakers.** The prose puts MILLBROOK VOLUNTEER SAFETY AMBASSADORS across the back of each in heat-pressed letters and the negative block forbids text in an image, so it stays in the prose. Folded backs-up with the zips showing reads as brand-new without needing a word.
 
 Prompt:
 
 ```
 {{STYLE}}
-{{LOC:TOWN_HALL_SQUARE}}
 {{CHAR:MAYOR_DALTON}}
-{{CHAR:LENA}}
-THE SQUARE IS OCCUPIED AND THE PRESS CONFERENCE IS IN PROGRESS. The attached location image shows this square EMPTY and it is not empty here: about twenty ordinary townspeople are SITTING in the rows of grey metal folding chairs below the steps, seen from behind and above.
-Camera is BEHIND AND ABOVE THE MAYOR, up on the steps looking out over his shoulder into the square.
-IN THE NEAR FOREGROUND, sharp and taking up the lower part of the frame, a plain folding trestle table on the steps with FOUR identical ROYAL BLUE nylon windbreakers laid out flat and folded on it, side by side, backs upward. They are brand new, creased from the packet, and completely blank — no lettering, no numbers, no badge and no logo of any kind.
-THE MAYOR stands just beyond the table at a plain wooden podium, seen from behind and three-quarters so a slice of his face is visible as he turns, one arm out in a broad generous flourish toward the seated crowd, plainly enjoying himself.
-BEYOND HIM AND BELOW, the seated townspeople in their rows, and behind the last row LENA stands at a video camera on a tripod with both hands on it, filming — small in the frame but clearly her, and clearly the only press there.
-No other named figure is in frame.
-Four in the afternoon, low warm light.
-Over-the-shoulder wide from up on the steps, the four blue windbreakers dominant and sharp in the near foreground, the Mayor mid-gesture in the middle distance and the crowd and Lena beyond. Deep focus.
-Low late-afternoon sun across the square, warm, no drama, faces readable.
+ONE FIGURE, ONE TABLE, NO BACKDROP. There is no building, no stage, no podium, no chairs, no crowd and no second person anywhere in the frame.
+A plain folding trestle table runs across the lower third of the frame. Laid out on it, side by side and evenly spaced, FOUR IDENTICAL ROYAL BLUE nylon windbreakers, folded flat with the zip fronts upward, brand new and still creased from the packet. They are completely blank: no lettering, numerals, badge or logo of any kind.
+THE MAYOR stands behind the table facing the camera, delighted with himself, one arm swept out wide and open in a broad presenting flourish toward the jackets, the other hand tucked behind his back. He is beaming. He is mid-sentence and he is enjoying this more than anybody has ever enjoyed a folding table.
+Behind and around him, nothing: a plain flat warm off-white paper ground, edge to edge, with no gradient, no location and no objects.
+Wide enough to hold the whole table and all four jackets plus the Mayor from mid-thigh up, camera at chest height and square on. Everything sharp and evenly readable.
+Flat even light, no drama, no cast shadow on the background.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: From behind a mayor on the town hall steps, four brand-new royal blue windbreakers lie folded on a trestle table while he gestures out at a small seated crowd, and a girl films him from a tripod behind the last row.
+Alt text: A beaming mayor in a purple suit and red glasses stands behind a folding table laid with four brand-new royal blue windbreakers, one arm sweeping out to present them, against a plain empty background.
 
 ---
 
@@ -616,15 +616,25 @@ They sorted it out at nine that night, an hour before curfew, with the fan click
 ### Image page (right)
 
 Slug: u2-s09
-Shot type: Character group, night
+Shot type: Character group, night, over-the-shoulder
 Depicts: Beats 5 to 8. Nine at night, an hour before curfew: Milo splits them into two teams and Owen objects to being one of the three going out.
 Spoiler check: PASS. Final beat of the page is “Looks. Not is.” Not depicted: Felix has not been asked to build anything, he is not in frame, and nothing is being described or held up.
 
-**The fourth Warehouse spread of the volume, and deliberately the only night one.** Warm single-lamp light instead of daylight from the high windows, which makes it a different room to look at.
+## Attempt 1 was not badly drawn, it was badly STAGED — and the failure is general
 
-**Cast held to four plus the dragon.** Lena and Felix both speak on this page and are both out of frame, because a crowded plate sheds figures and this one has to hold Vex. Lena is covered by spread 5 and spread 8, Felix by spread 5.
+It came back as a **cast photograph**: five figures in a line across the frame, all at the same distance from the camera, evenly spaced, facing inward, at eye level, lit evenly, with the dragon standing in the middle of the floor grinning at the lens. Nobody was doing anything with their hands and there was no foreground, no diagonal and no depth.
 
-**The dragon is the foreground.** It is asleep on the router, which is where the prose puts it, and it is the only thing in the picture that does not care.
+**This is what the generator defaults to whenever it is handed a group**, and it is worth writing down because Part Three has group scenes too. Asking for “different heights” did not fix it, because height was never the axis that was flat.
+
+Seven levers, all of them checkable in the delivered image:
+
+1. **Put something large in the NEAR foreground and shoot past it.** One occluding object at the frame edge converts a stage into a room. Here it is the dragon on the router.
+2. **Stack the cast at three different DEPTHS, not three different heights** — near, middle, far — and let figures partly overlap and partly hide each other. A line across the frame is the thing to forbid by name.
+3. **Point the camera into a CORNER, not at a wall.** Two walls and a floor converging gives a diagonal; square-on to the back wall is what makes it look like a set.
+4. **One physical action with a before and an after**, not five poses. A mug being set down is an action; standing and gesturing is a pose.
+5. **Make the light do the work.** One lamp means a bright pool, one lit side per face, and the far end of the room considerably darker than the near end. Evenly lit night is just day with a black window.
+6. **Crop somebody at the frame edge.** A figure half out of frame says the camera is in the room rather than watching it.
+7. **The animal is asleep and ignored.** The roster is explicit that it is not a mascot: it wants heat and that is all it wants. Nobody looks at it and it does not look at us.
 
 Prompt:
 
@@ -636,22 +646,30 @@ Prompt:
 {{CHAR:VEX}}
 {{CHAR:PIP}}
 {{CHAR:DRAGON}}
-Nine at night in the warehouse lounge, lit by one work lamp and nothing else, the high windows black. Four people and one small animal.
-IN THE NEAR FOREGROUND, slightly out of the way and sharp, the MINI DRAGON lies asleep and curled on top of a plain internet router on a low wall shelf, tail hanging straight down, entirely uninterested.
-MILO stands at the centre with one hand just lifted off a coffee mug he has set back down on the table without drinking any of it, the other hand low and open, mid-assignment. He is the one talking and he is completely level about it.
-OWEN sits forward on the edge of a couch with both forearms on his knees, looking up at Milo with an expression of flat dismay, mouth open on an objection.
-VEX stands with her arms folded and her weight on one hip, already fine with it, watching Owen rather than Milo, faintly enjoying his objection. **Her bright mint-green hair in two messy buns must be plainly visible.**
-PIP stands a little apart from the three of them, upright and still, hands at her sides, head level, waiting.
-An old floor fan turns slowly in one corner.
-Exactly four people and exactly one animal in frame.
-Nine at night, an hour before curfew.
-Medium group shot at seated height, the dragon and the router sharp in the near foreground at one edge, the four of them gathered in the warm pool of lamp light beyond. Every face readable.
-ONE warm work lamp as the only light source, low and pooled, with the corners of the room dim but never featureless: faces, the dragon and the fan all stay clearly readable.
+Nine at night in the warehouse lounge. FOUR PEOPLE AND ONE SMALL ANIMAL, arranged in DEPTH and not in a line.
+**THEY MUST NOT BE STANDING IN A ROW ACROSS THE FRAME.** They are at three different distances from the camera, they overlap each other, and at least one of them is partly hidden behind another.
+
+NEAR FOREGROUND, large, sharp and at the LEFT EDGE OF FRAME: a low wall shelf with a plain internet router on it, and the MINI DRAGON asleep on top of the router, curled, tail hanging straight down. It is asleep. It is not looking at the camera, nobody in the room is looking at it, and it is partly cropped by the edge of the frame. The camera looks PAST it into the room.
+
+MIDDLE DISTANCE, and the subject: MILO, seen slightly from BEHIND AND TO ONE SIDE over his shoulder, so we get three-quarters of his face. He has just set a coffee mug down on the low table without drinking any of it and his hand is still on it, fingers open, the mug still rocking. His other hand is low and turned palm-up mid-assignment. He is talking.
+
+ALSO MIDDLE DISTANCE, closer to camera than Milo and partly OVERLAPPING him: OWEN, sitting forward on the arm of a couch with both forearms on his knees, chin up, mouth open on an objection, looking up at Milo. Part of Milo's shoulder crosses in front of Owen's.
+
+FAR: VEX, standing well back beyond both of them, arms folded, weight on one hip, watching Owen rather than Milo and enjoying his objection. She is smaller in the frame than either of them. **Her bright mint-green hair in two messy buns must be plainly visible.**
+
+FURTHEST AND HALF OUT OF FRAME at the right edge: PIP, standing apart and upright and still, hands at her sides, head level, cropped by the frame edge so that only part of her is in the picture. She is waiting and she is not part of the group.
+
+An old floor fan turns slowly somewhere in the dark part of the room.
+Exactly four people and exactly one animal. No fifth person.
+
+Nine at night, an hour before curfew, the high windows black.
+The camera is LOW, at about the height of the low table, and pointed into a CORNER of the room so that two walls and the floor converge and the composition runs on a diagonal. It looks past the sleeping dragon in the near left and over Milo's shoulder into the room. NOT square on to the back wall.
+ONE work lamp is the only light source and it is in frame, low and to one side. It throws a bright warm pool over the table and Milo and Owen; each face is lit hard on one side and in shade on the other; Vex is in the dimmer edge of the pool; and the far end of the room falls away much darker than the near end. Every face still reads clearly and no part of the frame is featureless black, but this must look like one lamp at night and not like daylight with a dark window.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: Late at night in a warehouse lounge lit by a single lamp, a small orange dragon sleeps on a router in the foreground while a boy assigns tasks, another protests from the edge of a couch, a girl with green hair looks on amused and a robotic girl waits apart.
+Alt text: Late at night in a warehouse lounge lit by one lamp, the camera looks past a small orange dragon asleep on a router in the near corner and over a boy's shoulder as he sets down a mug mid-sentence, another boy objecting from the arm of a couch, a girl with green hair watching from further back and a robotic girl standing still at the edge of the frame.
 
 ---
 

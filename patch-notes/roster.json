@@ -273,6 +273,17 @@
       "approvalNote": "yes, 2026-07-31 · Seed: pending",
       "renderingNote": null
     },
+    "UNIT_SOLDIER": {
+      "token": "UNIT_SOLDIER",
+      "immutable": "A man in his thirties, fair skin, **dark blond hair gathered into a small untidy topknot on top of the head** with loose strands escaping at the temples, and a **full blond beard** kept short. Round thin-rimmed spectacles with plain pale lenses. Heavy-lidded eyes and slightly raised brows, giving him a permanently mild, faintly weary expression. Sturdily built without being heavy. Worn: the unit uniform as recorded in 4.4 — olive-green field uniform, tan plate carrier with flat pouches, belt, knee pads, olive trousers bloused into tan boots, and a single small red hexagonal shoulder patch on each arm carrying no legible lettering. His rifle is slung muzzle-UP across his back and he does not hold it.",
+      "immutableInactive": null,
+      "canonicalRef": "char-unit-soldier-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-03 · Seed: pending",
+      "renderingNote": null
+    },
     "IDA": {
       "token": "IDA",
       "immutable": "A woman in her early seventies, small and brisk. Short silver-white hair in close natural curls, worn uncovered with nothing on her head. A round face gone soft at the jaw, deep laugh lines, warm pale skin with freckles across the nose, small gold stud earrings, no spectacles. Her resting expression is mildly pleased and completely unsurprised. Worn: a **buttercup-yellow quilted half-zip anorak** with a chest pocket, a lilac sweatshirt at the neck and cuffs, navy tracksuit trousers with a white side stripe, and white trainers. In her left hand she holds a brown leather lead that splits to **TWO tricolour beagles**, both standing calmly beside her.",

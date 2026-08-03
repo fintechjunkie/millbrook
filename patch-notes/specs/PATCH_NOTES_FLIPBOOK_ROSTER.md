@@ -913,6 +913,34 @@ whose orders come out of a speaker on a folding table in the mess tent while the
 them arrive at a radio locked inside a truck.
 **Canonical reference:** `char-pace-canonical.png` · Approved: yes, 2026-07-31 · Seed: pending
 
+### {{CHAR:UNIT_SOLDIER}} — the fifth soldier, unnamed
+**Immutable:** A man in his thirties, fair skin, **dark blond hair gathered into a small untidy
+topknot on top of the head** with loose strands escaping at the temples, and a **full blond beard**
+kept short. Round thin-rimmed spectacles with plain pale lenses. Heavy-lidded eyes and slightly
+raised brows, giving him a permanently mild, faintly weary expression. Sturdily built without being
+heavy.
+Worn: the unit uniform as recorded in 4.4 — olive-green field uniform, tan plate carrier with flat
+pouches, belt, knee pads, olive trousers bloused into tan boots, and a single small red hexagonal
+shoulder patch on each arm carrying no legible lettering. His rifle is slung muzzle-UP across his
+back and he does not hold it.
+**Canonical reference:** `char-unit-soldier-canonical.png` · Approved: yes, 2026-08-03 · Seed: pending
+
+**He exists so that "a soldier" is a person and not a new face every time.** Understudies has
+several plates that need one anonymous member of the unit — the pinned soldier in the pines, the
+one walking the corridor, whoever is holding the taser — and generating those without a reference
+means a different man each time, which is the drift this whole system exists to stop. He is the
+fifth member of the unit and he covers all of them.
+
+**He is unnamed in the prose and the token is provisional.** No line of dialogue belongs to him and
+nothing needs rewriting to accommodate him; `{{CHAR:UNIT_SOLDIER}}` was chosen so that no invented
+name leaks into canon. If he earns one, renaming a file and a row is trivial.
+
+**He is never the subject.** He walks past things, holds things and gets pinned to trees. If a
+plate wants a soldier who matters, it wants Tovar, Reyes, Dunphy or Pace.
+
+**Recorded deviation:** his sheet is 1122x1402, which is 0.80 rather than the 0.75 every other
+character sheet uses. Close enough to attach without distortion, and not worth a regeneration.
+
 ### {{CHAR:IDA}} — Ida Prewitt
 **Immutable:** A woman in her early seventies, small and brisk. Short silver-white hair in close
 natural curls, worn uncovered with nothing on her head. A round face gone soft at the jaw, deep
