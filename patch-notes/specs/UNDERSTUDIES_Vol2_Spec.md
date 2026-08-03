@@ -410,6 +410,8 @@ Aspect ratio: 3:2
 
 Alt text: A small orange dragon lies flat on its back and fast asleep on a bare concrete floor, twisted slightly to keep its belly inside a narrow stripe of sunlight that is no longer wide enough to cover it.
 
+**Delivered 2026-08-03 and it holds everything.** Belly-up across the stripe rather than along it, so the light catches the chest and midsection while the head at one end and the tail tip at the other lie out on cool grey floor. Legs flopped loose, mouth open, red spinal plates still readable from underneath, no wings. The bottle cap, the cropped couch foot and the cropped table leg are all there, and no wall, ceiling or window appears anywhere — so the picture still makes no claim about the size of the room. Lit warm-against-cool exactly as asked.
+
 ---
 
 ## Spread 6
