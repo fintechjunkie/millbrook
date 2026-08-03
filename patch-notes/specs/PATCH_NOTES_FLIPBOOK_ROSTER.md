@@ -1227,8 +1227,8 @@ its most literal form: the missing thing was not a person but a piece of archite
 block above now records both features so a future regeneration of `loc-square.png` includes
 them and this stops being a per-prompt problem.
 | `{{LOC:WAREHOUSE_MASTER}}` | The whole converted warehouse interior in one view. **Reference only, never expanded into a spread prompt.** See section 6.1. | — | `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
-| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` — stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above. | 7 | `loc-pit.png` — stand-in: `loc-warehouse-canonical.png` |
+| `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` |
 | `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | stand-in: `loc-warehouse-canonical.png` |
 | `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required — stand-in: `vol4-s03.png` |
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
@@ -1239,7 +1239,7 @@ them and this stops being a per-prompt problem.
 | `{{LOC:HENDERSON_PORCH}}` | The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL_B}}` | The same school six months later, occupied as a military camp: a new nine-foot chain link fence with green privacy slats woven through it, dead straight and taut, with a vehicle gate open at the corner; six sand-coloured cargo trucks on the asphalt apron; one command tent, four squad tents and a generator on the softball field; and at the north side a concrete dumpster pad with two dumpsters and a flush boiler hatch, **with the fence running the OUTER edge of the concrete so the pad is inside it**. **State B of a single location — see the note below.** | 4 | `loc-old-school-camp.png` |
-| `{{LOC:OLD_BELL_ROAD}}` | A quiet two-lane rural road on the edge of town: cracked grey asphalt with a faded centre line, a narrow gravel shoulder each side just wide enough that a large truck could ATTEMPT to pass something standing in the road and no wider, a shallow undriveable ditch beyond each shoulder, flat open farmland with a wire fence on posts, telephone poles along one side and a distant treeline. A simple unoccupied checkpoint stands on the gravel at one side: two plastic barriers, two cones, a folding camp chair and a folding table. Nothing blocks the lanes. **The shoulder width is load-bearing — see the note below.** | 3 | `loc-old-bell-road.png` — **not yet generated; prompt written at `PROMPT-location-old-bell-road.md`** |
+| `{{LOC:OLD_BELL_ROAD}}` | A quiet two-lane rural road on the edge of town: cracked grey asphalt with a faded centre line, a narrow gravel shoulder each side just wide enough that a large truck could ATTEMPT to pass something standing in the road and no wider, a shallow undriveable ditch beyond each shoulder, flat open farmland with a wire fence on posts, telephone poles along one side and a distant treeline. A simple unoccupied checkpoint stands on the gravel at one side: two plastic barriers, two cones, a folding camp chair and a folding table. Nothing blocks the lanes. **The shoulder width is load-bearing — see the note below.** | 3 | `loc-old-bell-road.png` |
 
 **`OLD_BELL_ROAD` matters for one measurement and the reference does not exist yet.** *“They tried
 to drive around her, so she walked over and stood in front of the truck again. They backed up and
@@ -1249,9 +1249,10 @@ is nothing to try, too wide and the truck simply goes around and the six hours n
 each shoulder is just wide enough to attempt it, the ditch beyond is obviously not driveable, and
 both sides match, because the truck tries both.
 
-Until the reference is generated, `refExists` finds no file and every prompt using this token says
-the description is the only authority — which is why the block above carries the geometry rather
-than leaving it to the reference. Understudies Vol 2 spread 4 was written that way on purpose.
+**Delivered 2026-08-03 and the geometry holds.** Each shoulder is gravel wide enough to attempt
+and no wider, the ditch beyond it is visibly undriveable, and both lanes are clear. The block above
+keeps the geometry anyway, because Understudies Vol 2 spread 4 was written before the reference
+existed and its prompt therefore treats the description as the only authority.
 
 **`OLD_SCHOOL` and `OLD_SCHOOL_B` are a state pair, and only the SUBJECT has to match, not the
 framing.** State A is the delivered plate `vol3-s04.png`; state B is the canonical reference
@@ -1330,7 +1331,6 @@ appears, `refExists` finds it first and the stand-in is ignored with no edit nee
 | Location | Stand-in | Why this plate |
 |---|---|---|
 | `WAREHOUSE_PIT` | `loc-warehouse-canonical.png` | See the note below. The master reference shows all three ends of the room in one frame and is canonical, which a scene plate is not. |
-| `WAREHOUSE_TERMINALS` | `loc-warehouse-canonical.png` | As above. |
 | `WAREHOUSE_SHOP` | `loc-warehouse-canonical.png` | As above. |
 | `VEX_APARTMENT` | `vol1-s07.png` | A wide object study with no figure in it, which is as close to a purpose-made establishing shot as the delivered set gets. Bed, milk-crate stools, bare bulb, the counter used as a workbench and the pinned walls are all present. |
 | `MAPLE_AND_FOURTH_A` | `vol2-opener.png` | This plate *is* state A. |
@@ -1448,6 +1448,24 @@ references are then generated *from* it, as crops or nearer views of the same sp
 and every spread prompt attaches its zone reference. The master is a reference
 document and is never expanded into a spread prompt.
 
+**The master was REBUILT 2026-08-03 and the old one is superseded.** The original
+`loc-warehouse-canonical.png` and the delivered plate `vol3-s07.png` were not the same room —
+they disagreed about the right-hand end — and a delivered plate the reader actually sees outranks
+a reference nobody sees. So the new master was generated FROM `vol3-s07.png`. The previous file is
+archived at `patch-notes/reference-source/LOCATIONS/WAREHOUSE/superseded/loc-warehouse-canonical-v1.png`
+and must not be attached to anything.
+
+**A darker first attempt was rejected on the lighting rule**, not on content. Both attempts had the
+same camera and the same contents; the kept one is simply brighter. See the standing instruction in
+`CLAUDE.md` — a dark interior does not pop, and warehouse plates have had to be relit by hand.
+
+**`loc-terminals.png` is delivered and includes Felix’s bench**, so it doubles as the SHOP
+reference in practice. **`loc-pit.png` is still outstanding** and the PIT keeps the master as its
+stand-in; the prompt is in `PROMPT-location-warehouse-zones.md`.
+
+**The brick is PURPLE and this took two attempts to land.** A dusty violet, not red, not brown and
+not bare. It is the single most recognisable thing about the room.
+
 ### Fixed features, assembled from what the prose actually says
 
 Each of these is load-bearing somewhere in the arc, so the master image has to
@@ -1458,12 +1476,12 @@ establish all of them, and nothing later may contradict them.
 | A back door, propped open with a brick | Vol 1 sp3: *"the back door, which Felix had jammed open with a brick again"* |
 | A welcome mat just inside it | Vol 2 sp4: *"Technically I'm on the welcome mat. I haven't crossed the threshold yet."* |
 | Four mismatched sagging couches around a low scarred table, on bare concrete | Roster; Vol 2 sp6 *"either end of a sagging couch"* |
-| A wall of three salvaged televisions behind the couches | Roster |
-| A high shelf, above and overlooking the lounge | Vol 2 sp5, Vol 3 sp7, Vol 3 sp8: Monke sits on it and *"watches everything"* |
+| A wall of FOUR salvaged televisions on a timber shelf unit | `loc-warehouse-canonical.png` and `vol3-s07.png` — **the roster said three until 2026-08-03 and both plates say four** |
+| A high shelf, above and overlooking the lounge — **it is the TOP RAIL of the television unit** | Vol 2 sp5, Vol 3 sp7, Vol 3 sp8: Monke sits on it and *"watches everything"*. `vol3-s07.png` shows it stacked with boxes; the master leaves it bare, so **any plate that puts an animal up there must say the rail is a shelf** |
 | Owen's long trestle desk: three monitors on stacked books, mechanical keyboard, cables stapled along the brick, a row of dented cans | Roster; Vol 1 sp3 |
 | Felix's Shop: scarred plywood bench under a clamp lamp, pegboard of hand tools, part-built devices, solder spool, scorch marks | Roster; Vol 2 sp5 *"Vex was inspecting Felix's Shop"* |
 | A dark stretch near the back wall with an abandoned second-router attempt | Vol 3 sp7: *"where Felix had once been trying to set up a second router and had given up"* |
-| Exposed steel roof trusses, high dusty clerestory windows far above | Roster |
+| Exposed TIMBER roof trusses, high clerestory windows far above | `loc-warehouse-canonical.png` — **the roster said steel until 2026-08-03** |
 | A low brick industrial building with a roller shutter door | `WAREHOUSE_EXT` |
 
 **One thing the master must leave room for.** In Volume 4 they clear a corner near
