@@ -697,10 +697,26 @@ dent in the right shoulder, and the dent was the only part of it that came from 
 hair in two high side buns with red ties, which is Vex’s dominant silhouette as locked in 1.1.
 It would have read as Vex at scene distance, where hair is the whole silhouette, and would have
 cost the Volume 2 exchange *“I’d wear the armor.” / “You’d love the armor.”*
-**Hard constraint:** helmet **on, with the visor jammed** by the truck impact, from Volume 3
-onward until Felix frees it on the last morning of Volume 4 — then off, with **the shoulder
-plate carried under her arm**. The canonical sheet is bare-headed so the face reads as the
-identity reference.
+**Hard constraint: she is BARE-HEADED in every image, and her face is always visible.** She
+wears the full suit of plate and no helmet, ever.
+
+*Changed 2026-08-02 on author instruction, and the reason is worth keeping.* The armour
+originally kept a helmet on with the visor jammed shut from Volume 2 until Volume 4, and it was
+cut because **a character whose face the reader never sees for three volumes is not a**
+**character**. Ottie carries four spreads of her own and a scene in the last volume that only
+works if you can read her; a steel box cannot do that. The canonical sheet was already
+bare-headed.
+
+**The jam moved to the RIGHT SHOULDER PLATE and the subplot survived intact.** The truck impact
+seizes the strapping behind the plate, so it will not come off; Felix spends two hours on it in
+Volume 3 with tin snips, a rubber mallet and a hair dryer while she sits perfectly still and
+answers everything he asks; and he frees it on the last morning of Volume 4, after which she
+carries it under her arm and thanks him for eleven minutes. Volume 4 already described exactly
+that — *“her shoulder plate under her arm”* — so the payoff was half written for this already.
+
+**The dent is NOT from the truck.** *“The dent was the only part of it that came from a school
+play.”* The dent pre-exists and stays on the right shoulder; what the truck does is seize the
+strapping behind it. Two different injuries to the same piece.
 
 ### {{CHAR:ROCCO}} — Rocco Vance, the boxer
 **Immutable:** A man of about twenty-five, the only adult of the four, **built like a filing
@@ -814,7 +830,7 @@ ones: *“The bow was missing a string”*, *“the gloves say prop only. Not fo
 hat earns its own — the inventory records the tip as bent, so the real hat droops, which is what
 the sheet shows.
 
-**Wardrobe letters:** `ROCCO_A`, `WREN_A`, `OTTIE_A`, `OTTIE_B` (helmet off, shoulder plate
+**Wardrobe letters:** `ROCCO_A`, `WREN_A`, `OTTIE_A`, `OTTIE_B` (right shoulder plate freed and
 carried), `SYBIL_A`. New arc, new letters, per 5.1. Never rewrite an existing one.
 ## 4.4 The unit, and two of the town — The Understudies
 

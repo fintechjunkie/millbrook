@@ -352,7 +352,7 @@ Alt text: PENDING
 
 ## Spread 9
 
-Pages 19 to 20 | Part Three: The Inventory | Words 191
+Pages 19 to 20 | Part Three: The Inventory | Words 195
 
 ### Text page (left), verbatim
 
@@ -362,7 +362,7 @@ They ended up at the Warehouse, because there was nowhere else to put them and b
 
 It was the strangest afternoon in the building’s history, and that building has housed a crocodile.
 
-Ottie couldn’t get the helmet off, because the impact had jammed the visor and bent something behind the jaw. Felix went at it for two hours with tin snips, a rubber mallet and a hair dryer, talking the entire time, while Ottie sat perfectly still on a milk crate and answered every question he asked her.
+Ottie couldn’t get the right shoulder plate off, because the truck had seized the strapping behind it and bent something under the dent. Felix went at it for two hours with tin snips, a rubber mallet and a hair dryer, talking the entire time, while Ottie sat perfectly still on a milk crate and answered every question he asked her.
 
 “Does that pinch?”
 
@@ -442,11 +442,11 @@ Alt text: PENDING
 
 ## Spread 11
 
-Pages 23 to 24 | Part Three: The Inventory | Words 222
+Pages 23 to 24 | Part Three: The Inventory | Words 223
 
 ### Text page (left), verbatim
 
-Around six, Milo came out of the back and stood in the doorway and looked at all of it. A boxer losing a video game with tremendous dignity. An archer on the roof. A witch apologizing to a router. A knight in a stuck helmet getting worked on by a kid with a hair dryer, with the pig asleep against her leg like she was a radiator.
+Around six, Milo came out of the back and stood in the doorway and looked at all of it. A boxer losing a video game with tremendous dignity. An archer on the roof. A witch apologizing to a router. A knight with a stuck shoulder plate getting worked on by a kid with a hair dryer, with the pig asleep against her leg like she was a radiator.
 
 “How much trouble are we in?” Lena said.
 
@@ -489,7 +489,7 @@ Pages 25 to 26 | Part Three: The Inventory | Words 167
 
 “None of them. There is a note beside it in pencil, from 2014, in the same bad handwriting as the rest of the sheet.” Pip looked up. “It says not returned.”
 
-Vex sat with that for a while. Out in the Pit, somebody’s helmet knocked against the arm of the couch and stayed there.
+Vex sat with that for a while. Out in the Pit, somebody’s gauntlet knocked against the arm of the couch and stayed there.
 
 “Pip, that’s fifty-seven years ago.”
 

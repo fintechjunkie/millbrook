@@ -44,7 +44,7 @@ Alt text: PENDING
 
 ## Spread 1
 
-Pages 3 to 4 | Part Four: Declared Civil Contingency | Words 200
+Pages 3 to 4 | Part Four: Declared Civil Contingency | Words 205
 
 ### Text page (left), verbatim
 
@@ -52,7 +52,7 @@ Pages 3 to 4 | Part Four: Declared Civil Contingency | Words 200
 
 “The curfew isn’t Crane’s,” Milo said.
 
-It was nine in the morning and everybody was there, including four people who’d come out of a trunk, one of whom was still wearing a helmet.
+It was nine in the morning and everybody was there, including four people who’d come out of a trunk, one of whom was still wearing most of a suit of armour.
 
 “He has thirty-one people, two extra squads, a specialist team and a note in his own handwriting,” Owen said. “It’s extremely his.”
 
@@ -62,7 +62,7 @@ Lena was already scrubbing her footage. “He did. Twice. I have both.”
 
 “So the whole curfew is standing on one man in red 3D glasses who has never finished reading anything in his life.”
 
-Felix looked up from Ottie’s helmet. “Are we tricking the Mayor?”
+Felix looked up from Ottie’s shoulder plate. “Are we tricking the Mayor?”
 
 “We’re explaining a law to the Mayor.”
 
@@ -405,7 +405,7 @@ Alt text: PENDING
 
 ## Spread 10
 
-Pages 21 to 22 | Part Four: Declared Civil Contingency | Words 233
+Pages 21 to 22 | Part Four: Declared Civil Contingency | Words 232
 
 ### Text page (left), verbatim
 
@@ -413,7 +413,7 @@ Pages 21 to 22 | Part Four: Declared Civil Contingency | Words 233
 
 Upstairs in the wardrobe room, four people stopped in the middle of what they were doing.
 
-Rocco was at the top of the concrete steps and Wren was halfway down them, and Sybil had a hand on the rack of choir robes. Ottie was two feet from the small door with her shoulder plate under her arm, because Felix had finally gotten the helmet off that morning and she had thanked him for eleven minutes straight.
+Rocco was at the top of the concrete steps and Wren was halfway down them, and Sybil had a hand on the rack of choir robes. Ottie was two feet from the small door with her shoulder plate under her arm, because Felix had finally gotten it off that morning and she had thanked him for eleven minutes straight.
 
 All four of them looked up at once, the way you do when somebody says your name in another room.
 

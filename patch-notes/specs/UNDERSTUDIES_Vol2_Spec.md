@@ -231,10 +231,10 @@ Prompt:
 A stand of tall straight pine trees on sandy needle-covered ground behind a rural roadside, with clear sight lines between the trunks and dappled light coming down through the canopy.
 IN THE NEAR HALF OF THE FRAME, a soldier in an olive field jacket is caught mid-hop on one boot, both hands up at his own shoulder, tugging uselessly at his rifle sling. **A blunt-tipped wooden practice arrow has gone clean through the fabric strap of that sling and buried itself in the pine trunk beside him**, pinning him to the tree at shoulder height with about a foot of slack. His rifle hangs off the pinned strap. His expression is pure indignant bafflement. He is not hurt and there is no blood anywhere.
 A little further back, a canvas tent stands between the trunks with its entrance flap PINNED SHUT against the tent wall by a second identical practice arrow driven through the loose canvas.
-IN THE FAR DISTANCE, deep among the pines and very small in the frame but unmistakable, WREN stands with her bow held down at her side in one hand and her other hand RAISED high and open in an unmistakable apology, calling something across the whole distance. She is a long way off and she is entirely unhurried.
+WREN IS NINETY YARDS AWAY AND THE DISTANCE IS THE WHOLE JOKE. She stands deep among the pines, far behind the pinned soldier, and she must be **TINY IN THE FRAME — no more than about one eighth of the frame height, and much smaller than the soldier**. There must be **at least ten pine trunks between her and him**, receding away, so the distance is countable. She holds her bow down at her side in one hand and her other hand is RAISED high and open in an unmistakable apology, and she is calling something across the whole length of the wood. She is entirely unhurried.
 Exactly two people in frame: the pinned soldier near, Wren far. No other figures and no animals.
 Around noon, bright.
-Deep-focus shot straight down the line between the trunks, camera at standing height, so the pinned soldier is large in the near half and Wren is small and sharp in the far half with a long run of empty pine floor between them. BOTH must be in focus and both faces readable at their own scale — the gap between them is the subject of the picture.
+Deep-focus shot straight down the line between the trunks, camera at standing height. The pinned soldier is LARGE and near, filling much of one side of the frame. Wren is TINY and far, deep in the other side, with a long run of empty pine floor and many trunks between them. Both in focus. **A previous attempt put her about fifteen feet away at full size, which destroys the plate**: the prose has her apologising “from ninety yards away, loud enough for everybody to hear it”, and at conversational range that line stops making sense. If she is big enough to talk to, the frame is wrong.
 Dappled noon light through the canopy, warm and clear, no deep shadow.
 {{NEGATIVE}}
 Aspect ratio: 3:2
@@ -246,13 +246,13 @@ Alt text: In a pine wood, a soldier hops on one foot pinned to a tree trunk by a
 
 ## Spread 4
 
-Pages 9 to 10 | Part Two: Four Out Of The Trunk | Words 305
+Pages 9 to 10 | Part Two: Four Out Of The Trunk | Words 315
 
 ### Text page (left), verbatim
 
 It was steel. Nobody thought to wonder about that for another day and a half, and when they finally did wonder, the answer turned out to be the whole story. There was a dent in the right shoulder, and the dent was the only part of it that came from a school play.
 
-Specialist Tovar tried to walk her off the road and moved her exactly nothing. They tased her, and the taser did nothing at all, and Ottie said, politely, through the visor, “That tickled a little.”
+Specialist Tovar tried to walk her off the road and moved her exactly nothing. They tased her, and the taser did nothing at all, and Ottie looked down at the taser and then at the soldier holding it and said, politely, “That tickled a little.”
 
 They tried to drive around her, so she walked over and stood in front of the truck again. They backed up and tried the other side, so she walked over and stood in front of it again. Old Bell Road stayed closed for six hours because one girl in armor who didn’t want to fight anybody wouldn’t be anywhere else.
 
@@ -271,6 +271,8 @@ Spoiler check: PASS. Final beat of the page is Sergeant Reyes hand-carrying nine
 
 **This is the volume’s signature image and it turns on one measurement.** The truck has tried to go around her twice, which only reads if the shoulder is just wide enough to attempt and the ditch beyond it obviously is not. `loc-old-bell-road.png` was written to hold exactly that; if it has not been generated yet the prompt below carries the geometry itself.
 
+**She is BARE-HEADED and her face is fully visible.** Attempt 1 drew her that way and it was right; the roster’s old helmet rule was the thing that was wrong, and it has been cut. A character whose face the reader never sees for three volumes is not a character, and Ottie carries four spreads of her own. **The jam that Felix spends two hours on in Volume 3 is now the right SHOULDER PLATE, not the helmet** — which is also the shoulder Tovar has both hands on in this very plate.
+
 **The dent is on her RIGHT shoulder.** The inventory in Part Three claims the left, and that disagreement is deliberate and load-bearing — see roster section 4.3a. Draw the right.
 
 Prompt:
@@ -282,7 +284,7 @@ Prompt:
 {{CHAR:TOVAR}}
 A stand-off in the middle of a two-lane rural road that has been going on for hours and is not going to end.
 A large sand-coloured military cargo truck with canvas over its bed is STOPPED at a slight angle across its own lane, close enough that its front bumper is only a couple of feet from the figure in front of it. Its front wheels are turned and its nearside front tyre is off the asphalt and up on the gravel shoulder, exactly as far as it can go before the ditch: it has been trying to get around her and it has just backed off from the attempt. Tyre tracks scuff both shoulders. The cab is empty of anybody identifiable and no face in it is readable.
-DAME OTTILIE stands directly in front of the bumper in a full suit of plate armour with the VISOR DOWN, planted, feet apart, arms relaxed at her sides, holding no weapon of any kind. **There is a shallow dent in the RIGHT shoulder plate.** She is not braced and not straining. She is simply standing there, and she has clearly been standing there a long time.
+DAME OTTILIE stands directly in front of the bumper in a full suit of plate armour, planted, feet apart, arms relaxed at her sides, holding no weapon of any kind. **SHE WEARS NO HELMET and her face is fully visible and clearly readable** — she is a character and the reader has to be able to read her. Her expression is patient and mildly apologetic and not remotely strained. **There is a shallow dent in the RIGHT shoulder plate.** She is not braced and not straining. She is simply standing there, and she has clearly been standing there a long time.
 SPECIALIST TOVAR has both gloved hands flat against her upper arm and shoulder and has put his whole shoulder and weight into shoving her sideways off the road. His boots are slipping on the asphalt behind him, his back is bent into it and his face is red with effort. **She has not moved at all** and nothing about her posture acknowledges him. His rifle is slung across his back, out of his hands.
 Exactly two people in frame and no others.
 Middle of the day, bright and dry.
@@ -292,7 +294,7 @@ Flat bright daylight, no drama, both faces and the armour clearly readable.
 Aspect ratio: 3:2
 ```
 
-Alt text: A girl in a full suit of plate armour with the visor down stands immovable in front of the bumper of a military truck on a rural road, while a soldier puts his whole weight into her shoulder and slides on the asphalt without shifting her.
+Alt text: A bare-headed girl in a full suit of plate armour stands immovable in front of the bumper of a military truck on a rural road, entirely unbothered, while a soldier puts his whole weight into her shoulder and slides on the asphalt without shifting her.
 
 ---
 
