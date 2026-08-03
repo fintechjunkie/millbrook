@@ -576,6 +576,13 @@
       "canonicalRef": "loc-old-school-camp.png",
       "standInRef": null
     },
+    "OLD_BELL_ROAD": {
+      "token": "OLD_BELL_ROAD",
+      "block": "A quiet two-lane rural road on the edge of town: cracked grey asphalt with a faded centre line, a narrow gravel shoulder each side just wide enough that a large truck could ATTEMPT to pass something standing in the road and no wider, a shallow undriveable ditch beyond each shoulder, flat open farmland with a wire fence on posts, telephone poles along one side and a distant treeline. A simple unoccupied checkpoint stands on the gravel at one side: two plastic barriers, two cones, a folding camp chair and a folding table. Nothing blocks the lanes. **The shoulder width is load-bearing — see the note below.**",
+      "uses": 3,
+      "canonicalRef": "loc-old-bell-road.png",
+      "standInRef": null
+    },
     "HOTEL_ROOM": {
       "token": "HOTEL_ROOM",
       "block": "A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.",

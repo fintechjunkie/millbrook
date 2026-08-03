@@ -1195,6 +1195,19 @@ them and this stops being a per-prompt problem.
 | `{{LOC:HENDERSON_PORCH}}` | The covered front porch of a white clapboard house with green shutters, painted floorboards, a screen door, and a two-seat wooden swing hanging on two chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL}}` | A long low single-storey 1960s school building behind a sagging chain link fence, ground-floor windows boarded with plywood, six acres of dead grass, and a play structure with the swings removed leaving the crossbar and cut chains. | 1 | not required |
 | `{{LOC:OLD_SCHOOL_B}}` | The same school six months later, occupied as a military camp: a new nine-foot chain link fence with green privacy slats woven through it, dead straight and taut, with a vehicle gate open at the corner; six sand-coloured cargo trucks on the asphalt apron; one command tent, four squad tents and a generator on the softball field; and at the north side a concrete dumpster pad with two dumpsters and a flush boiler hatch, **with the fence running the OUTER edge of the concrete so the pad is inside it**. **State B of a single location — see the note below.** | 4 | `loc-old-school-camp.png` |
+| `{{LOC:OLD_BELL_ROAD}}` | A quiet two-lane rural road on the edge of town: cracked grey asphalt with a faded centre line, a narrow gravel shoulder each side just wide enough that a large truck could ATTEMPT to pass something standing in the road and no wider, a shallow undriveable ditch beyond each shoulder, flat open farmland with a wire fence on posts, telephone poles along one side and a distant treeline. A simple unoccupied checkpoint stands on the gravel at one side: two plastic barriers, two cones, a folding camp chair and a folding table. Nothing blocks the lanes. **The shoulder width is load-bearing — see the note below.** | 3 | `loc-old-bell-road.png` — **not yet generated; prompt written at `PROMPT-location-old-bell-road.md`** |
+
+**`OLD_BELL_ROAD` matters for one measurement and the reference does not exist yet.** *“They tried
+to drive around her, so she walked over and stood in front of the truck again. They backed up and
+tried the other side, so she walked over and stood in front of it again. Old Bell Road stayed
+closed for six hours.”* That beat only works on a road of one specific width: too narrow and there
+is nothing to try, too wide and the truck simply goes around and the six hours never happen. So
+each shoulder is just wide enough to attempt it, the ditch beyond is obviously not driveable, and
+both sides match, because the truck tries both.
+
+Until the reference is generated, `refExists` finds no file and every prompt using this token says
+the description is the only authority — which is why the block above carries the geometry rather
+than leaving it to the reference. Understudies Vol 2 spread 4 was written that way on purpose.
 
 **`OLD_SCHOOL` and `OLD_SCHOOL_B` are a state pair, and only the SUBJECT has to match, not the
 framing.** State A is the delivered plate `vol3-s04.png`; state B is the canonical reference

@@ -2,7 +2,7 @@
   "volume": 2,
   "arc": "understudies",
   "slug": "u2",
-  "imagesPending": true,
+  "imagesPending": false,
   "source": "The_Understudies_Part_2_V3.docx",
   "chapter": "Part Two: Four Out Of The Trunk",
   "specVersion": "1 | Date: 2026-07-31",
@@ -20,12 +20,12 @@
       "image": {
         "slug": "u2-opener",
         "shotType": "Establishing (full bleed, both pages)",
-        "depicts": "PENDING. No story beat — a chapter opener precedes all prose.",
-        "spoilerCheck": "PENDING, but the constraint is already known: an opener precedes every beat in the volume, so it may establish a place and must not show an event. Arc one's four openers are all empty of people for exactly this reason.",
+        "depicts": "The empty school auditorium that forty-one years of costumes came out of. No story beat.",
+        "spoilerCheck": "PASS. A chapter opener precedes all prose. Shows no figure, no costume, no trunk and no wardrobe room — the four are revealed one at a time across the first four text pages, and the room under the stage is Part Three’s business.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\nThe empty auditorium of a closed small-town elementary school, seen from the back of the house looking down over the seats toward the stage. Completely empty of people.\nRows of tip-up wooden seats with worn upholstery, some folded up and some left down, running away toward a low stage with a shallow apron and three steps at one side. A heavy dark stage curtain is drawn shut across the whole width of it. A single work light on a tripod stands at one edge of the apron, switched on, throwing a plain pool of light across the boards and the bottom of the curtain.\nThe room has been shut for months and shows it: a fine film of dust on the seat arms, one seat cushion split, a scatter of dried leaves along the aisle where a door has been opened and shut, and a folded stack of grey metal chairs against a side wall.\nNothing is written anywhere. No banner, no sign, no lettering on the curtain or the walls.\nLate afternoon. No people, no animals, no costumes and nothing on the stage.\nWide, camera at the back of the house at standing height, level, the whole room from the last row to the curtain in one frame.\nDim but completely readable: the work light does the near work and soft daylight leaks from a doorway at one side. Nothing falls to featureless black, and there is nothing sinister in the lighting.\n{{NEGATIVE}}\nAspect ratio: 2:1",
+        "aspect": "2:1",
+        "alt": "The empty auditorium of a closed school seen from the back of the seats, curtain drawn across the stage and a single work light standing on the apron."
       }
     },
     {
@@ -87,21 +87,21 @@
       "note": null,
       "image": {
         "slug": "u2-s01",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 11 beats on this page, opening the section \"Rocco\".",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"“I’ll pay for that.”\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character action",
+        "depicts": "Beat 9. The heavy bag comes off its chain, flies eleven feet and takes out the water cooler.",
+        "spoilerCheck": "PASS. Final beat of the page is “I’ll pay for that.” Not depicted: nobody has spoken, Rocco’s mouth is closed and he has not yet looked at Benny.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:BENNY_GYM}}\n{{CHAR:ROCCO}}\n{{CHAR:BENNY}}\nThe instant after one punch, caught at the peak of it. THE HEAVY BAG HAS COME OFF ITS CHAIN and is in the air, most of the way across the room and still travelling, with the broken end of the chain and its snapped bracket bolt trailing behind it. It has just reached the freestanding water cooler: the cooler is going over backwards, the big blue bottle is off its seat and turning, and a sheet of water is coming out of it sideways into the air with paper cups scattering ahead of it.\nROCCO stands where he threw it, at the far end of that clear run of floor, still square to where the bag used to be, one gloved fist fully extended at chest height and the other tucked at his chin. His weight has barely shifted. His mouth is closed and his eyebrows are up, and he is watching the bag go with the expression of a man who did not expect this and is already sorry. He is NOT posed as a fighter celebrating.\nBENNY is half out of his chair behind the desk by the glass door, one hand flat on the desktop and the paperwork sliding, head turned to follow the bag, delighted rather than alarmed.\nExactly two people in frame. Nobody else and no animals.\nSix in the morning, low early daylight coming in sideways through the street window and the glass door.\nWide action shot, camera at standing height along the length of that clear floor so that Rocco is at one end of the frame, the bag and the exploding cooler are at the other, and the whole eleven feet is legible in between. Everything sharp.\nFlat even morning light, no motion blur on the faces, the bag and the water clearly drawn rather than smeared. No lettering anywhere, including on the sweatshirt.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "In an old boxing gym at dawn, a heavy punchbag flies across the room trailing a broken chain and knocks over a water cooler, while the young man who hit it stands with one glove still extended looking appalled and the owner half rises from his desk."
       }
     },
     {
       "n": 2,
       "kind": "spread",
       "pages": "5 to 6",
-      "declaredWords": 267,
-      "words": 264,
+      "declaredWords": 274,
+      "words": 271,
       "blocks": [
         {
           "t": "p",
@@ -109,7 +109,7 @@
         },
         {
           "t": "p",
-          "v": "The guy looked down at himself, at the robe, at the fact that a robe doesn’t have pockets, and Benny watched him work out that he didn’t own anything at all."
+          "v": "The guy looked down at himself, and then he checked the pocket of the sweatshirt, and then he checked it again, and Benny watched him work out that he didn’t own anything at all."
         },
         {
           "t": "p",
@@ -125,7 +125,7 @@
         },
         {
           "t": "p",
-          "v": "At ten to seven a man in a boxing robe came walking up the shoulder of the road."
+          "v": "At ten to seven a man in a grey hooded sweatshirt and boxing gloves came walking up the shoulder of the road."
         },
         {
           "t": "p",
@@ -151,13 +151,13 @@
       "note": null,
       "image": {
         "slug": "u2-s02",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 10 beats on this page.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"Then he stepped in and hit Private Kyle Dunphy once on the jaw, so light and so exact that Dunphy’s knees just quit, and he caught him under both arms\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character two-shot",
+        "depicts": "Beats 6 to 8. Rocco stops six feet short of Private Dunphy, thinks about what he is stopping him from honestly and for a long time, and apologises for it being his first day.",
+        "spoilerCheck": "PASS. Final beat of the page is the punch and Dunphy going down. Not depicted: there is no contact, both are on their feet, Rocco’s hands are DOWN at his sides and Dunphy is upright and unhurt.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{CHAR:ROCCO}}\n{{CHAR:DUNPHY}}\nA quiet two-lane rural road on the edge of a small town, early morning, with flat open farmland and a wire fence on posts either side and a distant treeline. Cracked grey asphalt, a faded centre line, a narrow gravel shoulder and a shallow ditch beyond it.\nTWO FIGURES facing each other in the middle of the road with about six feet of empty asphalt between them, and neither of them is touching the other.\nPRIVATE DUNPHY stands nearer the camera, side-on and turned toward Rocco, one bare hand raised palm-out at shoulder height in a polite halt, his other hand at his side. His rifle is slung muzzle-down across his BACK and he is not holding it. He is doing this exactly by the book and he looks about nineteen.\nROCCO has stopped six feet short. His gloved hands hang loose and open at his sides, well away from any guard. His head is tipped very slightly down and to one side and his brow is drawn: he is genuinely and slowly thinking about the question he has just been asked, and he has been thinking about it for a while. He looks apologetic. He does not look dangerous.\nBeside the shoulder of the road at one edge of frame, an unoccupied simple checkpoint: a single wooden sawhorse, one orange traffic cone, an ordinary domestic folding camp chair standing open, and on the seat of the chair a crumpled paper bag with two doughnuts in it. Nothing blocks the traffic lane.\nExactly two people in frame. No vehicles and nobody else.\nTen minutes to seven in the morning, low sun down the length of the road.\nMedium two-shot from the road itself at standing height, slightly to one side of the line between them so both faces are three-quarters on and both are fully readable. The empty six feet of asphalt between them is the middle of the frame and must read as a gap.\nLow warm early light, long shadows across the asphalt, no drama and both faces clear.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "On an empty rural road at dawn, a young soldier holds up one hand to stop a heavily built young man in boxing gloves who has halted six feet away and is thinking hard about the question he has just been asked. A folding chair with a bag of doughnuts stands on the shoulder."
       }
     },
     {
@@ -203,13 +203,13 @@
       "note": null,
       "image": {
         "slug": "u2-s03",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 7 beats on this page.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"Dame Ottilie stood in the middle of Old Bell Road in a suit of plate armor.\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character action, deep frame",
+        "depicts": "Beats 5 and 6. Wren has pinned a soldier to a pine tree by his rifle sling, and she is apologising for it from ninety yards away.",
+        "spoilerCheck": "PASS. Final beat of the page is Dame Ottilie standing in Old Bell Road in plate armour. Not depicted: no armour, no road and no truck, and Ottie is not in frame.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{CHAR:WREN}}\nA stand of tall straight pine trees on sandy needle-covered ground behind a rural roadside, with clear sight lines between the trunks and dappled light coming down through the canopy.\nIN THE NEAR HALF OF THE FRAME, a soldier in an olive field jacket is caught mid-hop on one boot, both hands up at his own shoulder, tugging uselessly at his rifle sling. **A blunt-tipped wooden practice arrow has gone clean through the fabric strap of that sling and buried itself in the pine trunk beside him**, pinning him to the tree at shoulder height with about a foot of slack. His rifle hangs off the pinned strap. His expression is pure indignant bafflement. He is not hurt and there is no blood anywhere.\nA little further back, a canvas tent stands between the trunks with its entrance flap PINNED SHUT against the tent wall by a second identical practice arrow driven through the loose canvas.\nIN THE FAR DISTANCE, deep among the pines and very small in the frame but unmistakable, WREN stands with her bow held down at her side in one hand and her other hand RAISED high and open in an unmistakable apology, calling something across the whole distance. She is a long way off and she is entirely unhurried.\nExactly two people in frame: the pinned soldier near, Wren far. No other figures and no animals.\nAround noon, bright.\nDeep-focus shot straight down the line between the trunks, camera at standing height, so the pinned soldier is large in the near half and Wren is small and sharp in the far half with a long run of empty pine floor between them. BOTH must be in focus and both faces readable at their own scale — the gap between them is the subject of the picture.\nDappled noon light through the canopy, warm and clear, no deep shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "In a pine wood, a soldier hops on one foot pinned to a tree trunk by an arrow through his rifle strap, a tent flap pinned shut behind him, while far away among the trees a small figure with a bow raises one hand in apology."
       }
     },
     {
@@ -247,13 +247,13 @@
       "note": null,
       "image": {
         "slug": "u2-s04",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 6 beats on this page, continuing mid-scene.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"By two in the afternoon Sergeant Marisol Reyes had hand-carried nine notes across the softball field, because the only other option was shouting.\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character action, wide",
+        "depicts": "Beats 2 and 4. Specialist Tovar puts his shoulder into Dame Ottilie and moves her exactly nothing, and the truck that has already tried both shoulders of the road is stopped in front of her again.",
+        "spoilerCheck": "PASS. Final beat of the page is Sergeant Reyes hand-carrying nine notes across the softball field. Not depicted: no field, no notes and no camp, and Reyes is not in frame.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:OLD_BELL_ROAD}}\n{{CHAR:OTTIE}}\n{{CHAR:TOVAR}}\nA stand-off in the middle of a two-lane rural road that has been going on for hours and is not going to end.\nA large sand-coloured military cargo truck with canvas over its bed is STOPPED at a slight angle across its own lane, close enough that its front bumper is only a couple of feet from the figure in front of it. Its front wheels are turned and its nearside front tyre is off the asphalt and up on the gravel shoulder, exactly as far as it can go before the ditch: it has been trying to get around her and it has just backed off from the attempt. Tyre tracks scuff both shoulders. The cab is empty of anybody identifiable and no face in it is readable.\nDAME OTTILIE stands directly in front of the bumper in a full suit of plate armour with the VISOR DOWN, planted, feet apart, arms relaxed at her sides, holding no weapon of any kind. **There is a shallow dent in the RIGHT shoulder plate.** She is not braced and not straining. She is simply standing there, and she has clearly been standing there a long time.\nSPECIALIST TOVAR has both gloved hands flat against her upper arm and shoulder and has put his whole shoulder and weight into shoving her sideways off the road. His boots are slipping on the asphalt behind him, his back is bent into it and his face is red with effort. **She has not moved at all** and nothing about her posture acknowledges him. His rifle is slung across his back, out of his hands.\nExactly two people in frame and no others.\nMiddle of the day, bright and dry.\nWide action shot from the road at standing height and slightly low, side-on to the stand-off so the truck fills one side of the frame, Ottie and Tovar are central, and BOTH gravel shoulders and the ditch beyond them are visible — the width of the road is part of the story. Everything sharp.\nFlat bright daylight, no drama, both faces and the armour clearly readable.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A girl in a full suit of plate armour with the visor down stands immovable in front of the bumper of a military truck on a rural road, while a soldier puts his whole weight into her shoulder and slides on the asphalt without shifting her."
       }
     },
     {
@@ -323,13 +323,13 @@
       "note": null,
       "image": {
         "slug": "u2-s05",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 13 beats on this page, opening the section \"The Warehouse, Two PM\".",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"“So who told them that’s the job?”\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character group, high angle",
+        "depicts": "Beats 6 to 9. Felix works out that the four of them are the four of us with better outfits, and Vex, without looking up from the dashcam mount she is rebuilding, says she would wear the armour.",
+        "spoilerCheck": "PASS. Final beat of the page is “So who told them that’s the job?” Not depicted: nobody is asking a question, Milo’s mouth is closed and no face is turned to him.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_PIT}}\n{{CHAR:FELIX}}\n{{CHAR:VEX}}\n{{CHAR:LENA}}\n{{CHAR:MILO}}\n{{CHAR:OWEN}}\nFIVE named figures around a low scarred coffee table, seen from DIRECTLY ABOVE. **All five must be present and each must be identifiable from the top down** — check that the girl with bright mint-green hair in two messy buns is in the frame.\nThe table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.\nVEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.\nFELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.\nLENA sits back on a couch behind her laptop with one hand on its edge, looking across at Felix.\nOWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.\nMILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.\nExactly five people in frame. No animals.\nTwo in the afternoon, warm daylight from the high windows.\nHIGH ANGLE looking straight down from above the coffee table, camera perhaps eight feet up, so the table and the five of them read as a flat arrangement of shapes and every face is visible tipped up toward the lens. Nothing cropped and everything sharp.\nWarm even overhead daylight, no drama, every face readable.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "Seen from directly above, five teenagers around a low table covered with tools, a laptop and drink cans, one of them cross-legged on the floor working on a dismantled camera mount without looking up while another leans in mid-realisation."
       }
     },
     {
@@ -387,13 +387,13 @@
       "note": null,
       "image": {
         "slug": "u2-s06",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 10 beats on this page.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"“It is the same for people. Mr. Henderson has forty years of medical charts, and a chart says what a knee is supposed to do. Cassie had a hearing test\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character close, low angle",
+        "depicts": "Beat 5. Pip stands up all at once, without any of the small movements people make first, and Owen’s chair stops turning.",
+        "spoilerCheck": "PASS. Final beat of the page is the line about Mr Henderson’s charts and Cassie’s hearing test. Not depicted: nobody is mid-sentence about records, no chart or document is in frame and Cassie is not in frame.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_PIT}}\n{{CHAR:PIP}}\n{{CHAR:OWEN}}\nPIP has just stood up from a low upturned milk crate and is now standing perfectly straight and perfectly still, arms at her sides, head level, having arrived at standing without any of the small shifts and leans a person makes on the way. The crate is still directly behind her heels. Nothing about her posture suggests effort or momentum: she was sitting and now she is standing.\nHer face is calm and unhurried and she is looking at OWEN.\nOWEN is in the near part of the frame in his wheeled office chair, which he has been idly turning and which has STOPPED: he is caught half-turned with one hand still on the desk edge behind him and one foot on the floor mid-push, head up, looking at her. His flat sceptical expression has gone and he has not replaced it with anything yet.\nExactly two people in frame. No animals.\nTwo in the afternoon.\nLOW ANGLE, camera down at about the height of the seat of the milk crate and close, tipped up so that Pip stands tall in the upper part of the frame against the high roof trusses far above her and Owen is nearer and lower and smaller in the corner of the frame. Both faces fully readable. Shallow depth, the room soft behind.\nWarm even daylight from the high windows, no drama and no deep shadow.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "Seen from low down, a robotic girl stands bolt upright and completely still beside the milk crate she was sitting on, looking down at a boy whose desk chair has stopped mid-turn as he looks back up at her."
       }
     },
     {
@@ -467,13 +467,13 @@
       "note": null,
       "image": {
         "slug": "u2-s07",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 15 beats on this page, continuing mid-scene.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"“Because I used to smoke behind it in ninth grade. I’m not proud of it and I’m absolutely going to use it.”\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character action, close",
+        "depicts": "Beats 12 and 13. Vex is off the counter and pulling her jacket on before anybody has agreed to anything, and Owen asks her how she knows about the boiler hatch.",
+        "spoilerCheck": "PASS. Final beat of the page is Vex’s answer about ninth grade. Not depicted: she has not answered, her mouth is closed and she is already turning away.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_TERMINALS}}\n{{CHAR:VEX}}\n{{CHAR:OWEN}}\nVEX is mid-movement and already committed to going. She is shrugging her jacket up onto her second shoulder with one arm still finding the sleeve, her body already turned away toward the far end of the room, weight forward on one boot, head turned back over her shoulder for a fraction of a second longer. Her mouth is closed and one eyebrow is up. She has decided and she is not waiting for the discussion to finish. **Her bright mint-green hair in two messy buns must be plainly visible.**\nOWEN is at the long trestle desk against the brick, twisted right round in his wheeled chair with one arm hooked over its back and the other hand still resting on the desk edge among the monitors, mouth open on a short question, entirely left behind by how fast she moved.\nBetween them a stretch of bare concrete floor, so the distance she has already covered is visible.\nExactly two people in frame. No animals.\nTwo in the afternoon.\nCLOSE and slightly low, camera at the desk end, angled so Vex is large in the foreground caught mid-turn and Owen is clear just behind her in his chair. Both faces fully readable. Her movement is drawn crisply with no motion blur.\nWarm even daylight, no drama.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A girl with green hair pulls her jacket onto her second shoulder while already turning to leave, glancing back for a moment at a boy who has spun round in his desk chair with his mouth open on a question."
       }
     },
     {
@@ -535,13 +535,13 @@
       "note": null,
       "image": {
         "slug": "u2-s08",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 11 beats on this page, opening the section \"Windbreakers\".",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"Off to the side of the stage, Crane turned his head and looked at the Mayor for the first time in two days. It wasn’t a long look and it didn’t have t\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character group, over-the-shoulder",
+        "depicts": "Beats 3 and 4. Four royal blue windbreakers laid out on a folding table behind the Mayor while he officially recognises four people he has never met.",
+        "spoilerCheck": "PASS. Final beat of the page is Crane turning his head to look at the Mayor for the first time in two days. Not depicted: **Crane is not in frame at all.**",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:TOWN_HALL_SQUARE}}\n{{CHAR:MAYOR_DALTON}}\n{{CHAR:LENA}}\nTHE SQUARE IS OCCUPIED AND THE PRESS CONFERENCE IS IN PROGRESS. The attached location image shows this square EMPTY and it is not empty here: about twenty ordinary townspeople are SITTING in the rows of grey metal folding chairs below the steps, seen from behind and above.\nCamera is BEHIND AND ABOVE THE MAYOR, up on the steps looking out over his shoulder into the square.\nIN THE NEAR FOREGROUND, sharp and taking up the lower part of the frame, a plain folding trestle table on the steps with FOUR identical ROYAL BLUE nylon windbreakers laid out flat and folded on it, side by side, backs upward. They are brand new, creased from the packet, and completely blank — no lettering, no numbers, no badge and no logo of any kind.\nTHE MAYOR stands just beyond the table at a plain wooden podium, seen from behind and three-quarters so a slice of his face is visible as he turns, one arm out in a broad generous flourish toward the seated crowd, plainly enjoying himself.\nBEYOND HIM AND BELOW, the seated townspeople in their rows, and behind the last row LENA stands at a video camera on a tripod with both hands on it, filming — small in the frame but clearly her, and clearly the only press there.\nNo other named figure is in frame.\nFour in the afternoon, low warm light.\nOver-the-shoulder wide from up on the steps, the four blue windbreakers dominant and sharp in the near foreground, the Mayor mid-gesture in the middle distance and the crowd and Lena beyond. Deep focus.\nLow late-afternoon sun across the square, warm, no drama, faces readable.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "From behind a mayor on the town hall steps, four brand-new royal blue windbreakers lie folded on a trestle table while he gestures out at a small seated crowd, and a girl films him from a tripod behind the last row."
       }
     },
     {
@@ -615,13 +615,13 @@
       "note": null,
       "image": {
         "slug": "u2-s09",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 14 beats on this page.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"“Looks. Not is.”\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character group, night",
+        "depicts": "Beats 5 to 8. Nine at night, an hour before curfew: Milo splits them into two teams and Owen objects to being one of the three going out.",
+        "spoilerCheck": "PASS. Final beat of the page is “Looks. Not is.” Not depicted: Felix has not been asked to build anything, he is not in frame, and nothing is being described or held up.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:WAREHOUSE_PIT}}\n{{CHAR:MILO}}\n{{CHAR:OWEN}}\n{{CHAR:VEX}}\n{{CHAR:PIP}}\n{{CHAR:DRAGON}}\nNine at night in the warehouse lounge, lit by one work lamp and nothing else, the high windows black. Four people and one small animal.\nIN THE NEAR FOREGROUND, slightly out of the way and sharp, the MINI DRAGON lies asleep and curled on top of a plain internet router on a low wall shelf, tail hanging straight down, entirely uninterested.\nMILO stands at the centre with one hand just lifted off a coffee mug he has set back down on the table without drinking any of it, the other hand low and open, mid-assignment. He is the one talking and he is completely level about it.\nOWEN sits forward on the edge of a couch with both forearms on his knees, looking up at Milo with an expression of flat dismay, mouth open on an objection.\nVEX stands with her arms folded and her weight on one hip, already fine with it, watching Owen rather than Milo, faintly enjoying his objection. **Her bright mint-green hair in two messy buns must be plainly visible.**\nPIP stands a little apart from the three of them, upright and still, hands at her sides, head level, waiting.\nAn old floor fan turns slowly in one corner.\nExactly four people and exactly one animal in frame.\nNine at night, an hour before curfew.\nMedium group shot at seated height, the dragon and the router sharp in the near foreground at one edge, the four of them gathered in the warm pool of lamp light beyond. Every face readable.\nONE warm work lamp as the only light source, low and pooled, with the corners of the room dim but never featureless: faces, the dragon and the fan all stay clearly readable.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "Late at night in a warehouse lounge lit by a single lamp, a small orange dragon sleeps on a router in the foreground while a boy assigns tasks, another protests from the edge of a couch, a girl with green hair looks on amused and a robotic girl waits apart."
       }
     },
     {
@@ -679,13 +679,13 @@
       "note": null,
       "image": {
         "slug": "u2-s10",
-        "shotType": "PENDING",
-        "depicts": "PENDING. 11 beats on this page, continuing mid-scene.",
-        "spoilerCheck": "PENDING. The final beat of this page is: \"To be continued in Part Three: The Inventory\" — whatever this plate ends up depicting, it must not be that.",
+        "shotType": "Character action, night",
+        "depicts": "Beat 7. At twenty to midnight, three kids go through a fence.",
+        "spoilerCheck": "PASS. Final beat of the page is the to-be-continued line. Not depicted: nothing of Part Three. They are still outside the building, the boiler hatch is SHUT, and no interior of any kind is visible.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": "PENDING"
+        "prompt": "{{STYLE}}\n{{LOC:OLD_SCHOOL_B}}\n{{CHAR:VEX}}\n{{CHAR:PIP}}\n{{CHAR:OWEN}}\nTWENTY MINUTES TO MIDNIGHT. The attached location image is the same place in daylight; this is the same fence and the same concrete pad at night and the hour below governs.\nThe north side of the school property: a nine-foot chain link fence with green privacy slats woven through it, and just inside it the rectangular concrete dumpster pad with two dumpsters standing on it. **The fence runs along the OUTER edge of that concrete and turns around it**, so the pad is on the protected side.\nAt the base of one fence panel the chain link has been prised up off the ground into a low triangular gap about two feet high, and three figures are going through it one at a time.\nVEX is already inside on the concrete, crouched on one knee with both hands holding the lifted mesh up and back, head turned to watch the other two come through, wholly in her element. **Her bright mint-green hair in two messy buns must be plainly visible.**\nPIP is halfway through the gap, low and flat and moving with complete precision, one hand and one knee on the concrete, her head level.\nOWEN is still outside on the grass, down on both knees at the mouth of the gap with his shoulders hunched, plainly hating every part of this and going anyway.\nSet FLUSH in the concrete of the pad a short distance beyond them, a pair of low steel boiler hatch doors lying almost flat to the ground. **They are CLOSED and nobody is touching them.** No opening, no gap and no light coming out of them.\nExactly three people in frame. No soldiers, no tents and no animals, and no interior of any kind.\nTwenty to midnight, no moon.\nLow close action shot from outside the fence at about knee height, angled along the gap so all three figures and the closed hatch beyond are in one frame. Everything sharp.\nNight, but readable: a single distant floodlight somewhere off the frame edge rakes low across the concrete and the slats and picks out all three faces and the closed hatch. Cool and quiet. No part of the frame falls to featureless black and there is nothing dramatic in the lighting.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "At night, three teenagers slip one at a time under a lifted panel of a nine-foot slatted fence onto a concrete pad beside two dumpsters, a closed pair of steel hatch doors lying flat in the concrete beyond them."
       }
     }
   ]
