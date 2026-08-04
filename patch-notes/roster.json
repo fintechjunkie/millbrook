@@ -614,6 +614,20 @@
       "uses": 6,
       "canonicalRef": "loc-wardrobe-room.png",
       "standInRef": null
+    },
+    "THE_SMALL_ROOM": {
+      "token": "THE_SMALL_ROOM",
+      "block": "The hidden workshop behind the wardrobe room’s north wall: a SMALL, low-ceilinged, windowless room a few paces across, bare warm off-white plaster and a plain concrete floor. A small plain door about four and a half feet tall at the near end, OPEN, with the dusty edge of the wardrobe room beyond it; a SECOND small door at the far end, CLOSED and entirely unremarkable. Against one side wall a sturdy old wooden workbench at a LOW working height, worn pale on top, with a low stool tucked under it and a shelf of plain unlabelled boxes and jars above. One shaded bulb over the bench. **State A carries the STAMP: an object like an old library date stamp, brass and glass with a turned wooden handle worn pale, a hand-span tall, upright in a shaped wooden cradle, intact, with the air shimmering faintly above it. State B is the same bench swept clean with a folded square of paper towel on it. See the note below.**",
+      "uses": 5,
+      "canonicalRef": "loc-small-room.png",
+      "standInRef": null
+    },
+    "THE_ARCHIVE": {
+      "token": "THE_ARCHIVE",
+      "block": "The room behind the second door: enormous, far larger than the space around it can account for. Rows and rows of dark wooden bookshelves or file drawers receding into the distance in low warm gold light, **going up much further than the ceiling of the room outside has any business allowing**, with no visible top. A plain wooden floor. In the middle, one heavy wooden chair much too big for its occupant. No windows, no lamps in frame, no visible ceiling.",
+      "uses": 1,
+      "canonicalRef": "loc-archive.png",
+      "standInRef": null
     }
   },
   "blockingDecisions": [

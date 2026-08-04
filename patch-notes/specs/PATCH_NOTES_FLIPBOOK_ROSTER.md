@@ -1283,6 +1283,8 @@ question the arc asks and does not answer, so it must not resolve into a recogni
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
 | `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
 | `{{LOC:WARDROBE_ROOM}}` | The costume store under the auditorium stage of the closed elementary school, down a short flight of concrete steps: a long row of old steamer trunks along the back wall on a low ledge, ONE of them standing open with a folded sheet of tissue paper in it and nothing else; a rack of choir robes on a steel pipe, shelves of hat boxes and hats, shoes lined up in pairs with every toe pointing the same way, a typed inventory sheet in a plastic sleeve on the near wall, bare-footprint scuffs in the dust, and a single pendant lamp. **In the back wall, a small plain door about four and a half feet tall, SHUT.** **State A of a pair — see the note below.** | 6 | `loc-wardrobe-room.png` |
+| `{{LOC:THE_SMALL_ROOM}}` | The hidden workshop behind the wardrobe room’s north wall: a SMALL, low-ceilinged, windowless room a few paces across, bare warm off-white plaster and a plain concrete floor. A small plain door about four and a half feet tall at the near end, OPEN, with the dusty edge of the wardrobe room beyond it; a SECOND small door at the far end, CLOSED and entirely unremarkable. Against one side wall a sturdy old wooden workbench at a LOW working height, worn pale on top, with a low stool tucked under it and a shelf of plain unlabelled boxes and jars above. One shaded bulb over the bench. **State A carries the STAMP: an object like an old library date stamp, brass and glass with a turned wooden handle worn pale, a hand-span tall, upright in a shaped wooden cradle, intact, with the air shimmering faintly above it. State B is the same bench swept clean with a folded square of paper towel on it. See the note below.** | 5 | `loc-small-room.png` — **not yet generated; prompt written at `PROMPT-location-behind-the-wall.md`** |
+| `{{LOC:THE_ARCHIVE}}` | The room behind the second door: enormous, far larger than the space around it can account for. Rows and rows of dark wooden bookshelves or file drawers receding into the distance in low warm gold light, **going up much further than the ceiling of the room outside has any business allowing**, with no visible top. A plain wooden floor. In the middle, one heavy wooden chair much too big for its occupant. No windows, no lamps in frame, no visible ceiling. | 1 | `loc-archive.png` — **not yet generated; prompt written at `PROMPT-location-behind-the-wall.md`** |
 
 **`WARDROBE_ROOM` exists to plant a door before it matters, and that is its one job.** Volume 3
 has Pip hear a hum *“in the room, behind the trunks”*; Volume 4 opens *“a door that didn’t
@@ -1329,6 +1331,28 @@ CHARACTERS, and this is a room whose contents the prose counts on purpose.
 **No legible text.** The inventory sheet is unreadable in its sleeve and the trunk numbers are
 prose only, because the negative block forbids numerals. That costs nothing: **trunk seven
 identifies itself by being the only open trunk in the row.**
+
+**`THE_SMALL_ROOM` is a state pair and the STAMP is the thing that changes.** State A has it
+intact and warm in its cradle; state B is the same bench swept clean with a folded square of paper
+towel on it and the broken glass inside. **The last image of the arc is state B**, and it only
+works if the reader recognises what is no longer on the bench — so every state A plate has to
+establish the stamp clearly enough to be missed. Same discipline as `MAPLE_AND_FOURTH` A and B.
+
+**The second door has to be present and boring.** *"He went to the back of the room and opened the
+second door"* is the last turn in the arc, and it lands only if the door was already in the room
+and the reader never looked at it. Closed, plain, unremarked, and in frame from the first plate.
+The wardrobe room plays exactly the same trick one level up.
+
+**The room is built small, not normally sized with a short robot in it.** Chet is three feet tall
+and the door is four and a half, and he *steps through* it rather than stooping — it is his door,
+built to his measure. So the bench sits at a working height for somebody three feet tall and the
+ceiling is low. A normal workshop with a small figure in it is the failure mode.
+
+**`THE_ARCHIVE`’s one rule is that its height must be impossible.** *"going up much further than
+the ceiling above their heads had any business allowing."* The shelves must have no visible top.
+It is also the only place in the series lit in low gold rather than daylight, and it still may not
+be murky: the negative block holds, so the figure in the chair and the nearest shelves stay
+clearly readable.
 
 **`BENNY_GYM` is a state pair, and the reference is state A.** The prose says *“The bag came
 off the chain, flew eleven feet and took out the water cooler.”* That sentence is geometry, so
