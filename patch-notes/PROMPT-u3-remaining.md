@@ -174,10 +174,22 @@ Spoiler check: PASS. The final beat of the page is *"That isn't how ears work."*
 at the inventory sheet listening to the north wall, which is beats 8 to 10, and nothing of what is
 in trunk seven.
 
-**The small door in the back wall stays SHUT and unremarked.** It is planted here so that Part
-Four's reveal does not arrive from nowhere. It is a door with its threshold on the floor, about
-four and a half feet tall — not a hatch, and not a panel set high in the wall. That was got wrong
-once already.
+**Attempt 1 is parked and it failed on ONE thing: the door's sill came back raised about a trunk's
+height off the floor**, with wall continuing below it, and it read as a wide squarish panel rather
+than a short door. Everything else in that attempt was right — so the re-cut locks the rest and
+changes only the door.
+
+**This is the SECOND time this exact bug has happened, and the roster already warned about it.**
+The first generation of the location reference did the same thing, and the recorded cause was a
+prompt that described what was *visible* instead of what was *there*. My prompt did say "threshold
+on the floor" — but it said it inside a long sentence listing eight other room features, which
+invites the generator to treat it as background dressing.
+
+So this version gives the door **its own paragraph, a negative (no wall beneath it), a scale anchor
+against a figure in frame, and a clear stretch of floor in front of it.** It matters more than it
+looks: people walk through this door. Chet steps through it and pulls it shut, Ottie stands two feet
+from it, and four people came out of it. A panel set high in the wall makes Part Four's reveal
+impossible.
 
 **Light it as though somebody switched the lamp on.** The prose gives them two flashlights in the
 basement hall and has Vex set her light down in the corner, and nothing anywhere says this room is
@@ -192,7 +204,8 @@ Prompt:
 {{CHAR:VEX}}
 {{CHAR:PIP}}
 EXACTLY THREE PEOPLE IN FRAME and no others, no animals. The attached reference image is this same room with NOBODY in it; all three figures below must be added and nothing about the room may change.
-The costume store under the auditorium stage of a closed school, taken from the attached reference and kept exactly: a long row of old numbered steamer trunks along the back wall on a low ledge with ONE of them standing open, a rack of choir robes hanging on a steel pipe, shelves of hat boxes and hats, and a run of shoes lined up in pairs on a low shelf with every single toe pointing the same direction. A typed inventory sheet in a plastic sleeve hangs on a nail on the near wall. **In the back wall, the small plain door about four and a half feet tall is SHUT, with its threshold on the floor. Nobody is near it, nobody is looking at it and nothing draws attention to it.**
+The costume store under the auditorium stage of a closed school, taken from the attached reference and kept exactly: a long row of old numbered steamer trunks along the back wall on a low ledge with ONE of them standing open, a rack of choir robes hanging on a steel pipe, shelves of hat boxes and hats, and a run of shoes lined up in pairs on a low shelf with every single toe pointing the same direction. A typed inventory sheet in a plastic sleeve hangs on the near wall, its writing weathered and completely illegible. A short flight of concrete steps with a handrail comes down into the room at one side.
+**THE SMALL DOOR IN THE BACK WALL, AND ITS HEIGHT OFF THE FLOOR IS THE ONE THING THAT MUST BE RIGHT.** Set into the back wall there is one small plain shut door, and **ITS BOTTOM EDGE MEETS THE FLOOR.** It is a door somebody could stoop and walk through, not a hatch and not a panel: **there is NO wall, NO skirting, NO ledge and NO trunk beneath it or in front of it** — the stretch of floor directly in front of the door is clear and empty and you can see the door's bottom edge touching it. It stands about four and a half feet tall, so **its top is roughly level with the SHOULDER of a standing teenager** — noticeably too short for an adult, and unmistakably a door. Taller than it is wide. It is SHUT. Nobody is near it, nobody is looking at it and nothing in the picture draws attention to it.
 OWEN stands in the middle of the room in three-quarter view, a lit flashlight down at his side, turning his head to look along the line of shoes with the specific unease of somebody who has just decided that is the worst thing here. His mouth is closed.
 VEX is crouched on one knee off to one side with her own flashlight set down on the floor beside her, its beam laid low across the dusty tile, one hand resting on her knee, looking down at the floor. Her bright mint-green hair in two messy buns must be plainly visible. **Faint scuffed bare FOOTPRINTS in the dust lead away from the trunks across the tile, and they all point in ONE direction.**
 PIP stands apart, upright and completely still, not looking at anything either of the others is looking at, her head tilted very slightly.

@@ -1292,11 +1292,28 @@ Same discipline as the empty corner the Warehouse master leaves for Lena’s des
 reference, door shut; state B is Volume 4, door open, with a second room beyond it that no
 reference shows.
 
-**It is a DOOR, not a hatch, and this was got wrong once.** The first generation drew it as a
-panel set high in the wall with its sill about a trunk’s height off the floor — caused by a
-prompt that described what was *visible* (*“only the top part shows above the trunks”*) instead
-of what was *there*. People walk through this door: Chet steps through it and pulls it shut,
-Ottie stands two feet from it, and four people came out of it. **Its threshold is on the floor.**
+**It is a DOOR, not a hatch, and this has now been got wrong TWICE.** The first generation of this
+reference drew it as a panel set high in the wall with its sill about a trunk’s height off the
+floor — caused by a prompt that described what was *visible* (*“only the top part shows above the
+trunks”*) instead of what was *there*. **`u3-s03` attempt 1, 2026-08-04, did exactly the same**,
+from a prompt that did say *“threshold on the floor”* — but said it inside a long sentence listing
+eight other room features, which reads as background dressing.
+
+People walk through this door. Chet steps through it and pulls it shut, Ottie stands two feet from
+it, and four people came out of it. **Its threshold is on the floor**, and a panel set high in the
+wall makes Volume 4’s reveal impossible.
+
+**So do not just assert the height — pin it.** Four things do that, and every one of them is either
+a negative or a comparison, because a positive statement of height is what keeps failing:
+
+1. **Give the door its own sentence or paragraph.** Never a clause in a list of room contents.
+2. **Say what is NOT beneath it** — no wall, no skirting, no ledge, no trunk under it or in front
+   of it — and say the floor directly in front of it is clear, so its bottom edge is visible
+   *touching* the floor.
+3. **Anchor the height to a figure in frame**, not to a number: its top is about level with the
+   shoulder of a standing teenager. Four and a half feet means nothing to a generator.
+4. **Say it is taller than it is wide.** Both failures came back squarish, which is what makes a
+   door read as a hatch even when its sill is right.
 
 **The visible trunk count is not the canon count.** Twelve read in the reference; the prose says
 thirteen twice, and the row runs off frame past the near corner. Do not "correct" the prose to
