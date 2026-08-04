@@ -45,6 +45,17 @@ JSON; it is generated and should never be hand-touched.
 **The declared word count is a tripwire, not bookkeeping.** Do not make `parse` repair
 it silently. Two commands for two cases is the point.
 
+**It is also NOT a tripwire for prose that was edited without regenerating.** It only
+moves if the number of words moves, so a same-length edit — "plates flat" to "plates up"
+— leaves the spec and `volumes/*.json` disagreeing with nothing to say so, and the reader
+serves the old sentence. Editing a spec outside the watcher means running `npm run parse`.
+
+**`next build` and `next dev` cannot share a directory.** A production build overwrites
+`.next` underneath a running dev server, and every route then 500s — which reads exactly
+like a real module-level error and has twice produced a "most routes failed" alarm that
+was nothing but this. After a build, stop the dev server, delete `.next`, and restart it.
+Verify a build somewhere the dev server is not running.
+
 ---
 
 ## When a new image lands: `npm run images`
