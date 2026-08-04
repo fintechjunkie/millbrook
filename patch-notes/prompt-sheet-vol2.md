@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 2: image prompt sheet
+# patch-notes, Volume 2: image prompt sheet
 
 Part Two: The Bookstore That Was Always There · 10 images · generated from the specs, do not hand-edit
 
@@ -163,7 +163,7 @@ Named figures: Lena, Vex, Pip, Owen (4 of a maximum 2)
 - `char-vex-canonical.png` — Vex
 - `char-pip-canonical.png` — Pip
 - `char-owen-canonical.png` — Owen
-- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse terminals
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -206,7 +206,7 @@ Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doo
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Four figures gathered at a bank of three monitors, every one of them looking at the middle screen. On that screen is a town map drawn as pure geometry with absolutely no text, labels, numerals or signage anywhere in it: a pale rectangular grid of straight thin streets on a dark field, a scatter of about a dozen small warm glowing dots, and those dots falling along a wide circular arc that is almost but not quite closed, with one clear gap in it and an empty unmarked rectangle of plain ground at the centre of the circle. One dot is noticeably brighter than the others. Owen is seated at the keyboard, turned half toward the screen, mouth open mid-objection, one hand still on the keys. Pip stands closest to the glass, very upright and unnaturally still, head level, one hand raised as though about to point at the arc. Lena leans in over Owen’s shoulder from behind. Vex stands a little apart with her arms folded and her chin up. All four faces clearly visible and clearly lit. Exactly four figures in frame.
 Interior, mid-morning.
@@ -232,7 +232,7 @@ Named figures: Lena, Milo (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
 - `char-lena-canonical.png` — Lena
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -264,8 +264,8 @@ Wardrobe, unchanged for this scene: orange ribbed knit beanie, small round red-l
 CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
 Wardrobe, unchanged for this scene: Same orange collared shirt, sleeves pushed up, satchel strap present
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 Two figures seated at either end of a sagging couch with a deliberate and slightly comic gap of cushion between them, both facing forward rather than at each other, a sleeping pot-bellied pig pressed against the girl's leg. Exactly two named figures in frame and no others.
 Interior, early afternoon.
 Medium-wide two shot, straight on and level, the empty cushion at the centre of the composition, moderate depth.
@@ -362,7 +362,7 @@ Named figures: Pip, Owen (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
 - `char-owen-canonical.png` — Owen
-- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse terminals
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -399,7 +399,7 @@ Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doo
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Owen has swivelled his desk chair a quarter turn away from three monitors and is looking over his shoulder at Pip with a flat, cornered expression, one hand still resting on the keyboard behind him as though he has not committed to the turn. His head is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes. Pip stands a short distance away at the edge of the desk, entirely still, feet level, hands loose and symmetrical at her sides, head straight, returning his look without any challenge in it, her expression mild and unbothered. The three monitors show pure soft glow with no legible content whatsoever, no windows, no panels, no text. A row of dented cans along the desk back. Exactly two figures in frame.
 Interior, mid morning.
@@ -429,7 +429,7 @@ Named figures: Owen, Felix (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
 - `char-felix-canonical.png` — Felix
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -467,8 +467,8 @@ Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a hig
 CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
 Wardrobe, unchanged for this scene: faded teal mechanic-style work jacket with the sleeves pushed up over a dark shirt, orange suspender or harness straps across the chest, dark practical work trousers with functional pockets and tool attachments, worn red-orange sneakers. Small tools, wires or clips may appear. A small green gecko on his shoulder is optional, not a lock
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 A converted warehouse lounge mid-interruption. In the near foreground and to one side, Owen sits at his desk with his back squarely to the room, seen from behind over one shoulder, refusing to turn around, one hand still on a mechanical keyboard, his bald head and high white collar unmistakable. His face is not visible. Beyond him Felix has erupted upright from behind the back of a sagging couch, both hands planted on the cushion top, arms braced, shoulders up around his ears, grinning enormously and caught mid-word, a small green gecko clinging to his shoulder. Felix's face is clearly visible and is the focus. The monitors on Owen's desk are turned away and read as pure glow with no legible content. Exactly two figures in frame.
 Interior, mid morning.
 Medium-wide shot from the back door side of the room, camera at couch height so Felix rises into the upper frame and Owen's turned back anchors the foreground, moderate depth holding both.

@@ -50,7 +50,18 @@ const ARC_TITLE = { patch: 'The Patch Notes', understudies: 'The Understudies' }
 function build(slug) {
   const vol = JSON.parse(readFileSync(join(PN, 'volumes', `${slug}.json`), 'utf8'));
 
-  const entries = vol.spreads.map((s) => {
+  // A volume whose header still says PENDING has no prompts in its spec yet, so there is nothing
+  // to expand. Skip those spreads and say how many were skipped, rather than throwing: running
+  // this across every volume is the normal thing to do, and one uncommissioned volume should not
+  // take the other six down with it.
+  const pending = vol.spreads.filter((s) => !s.image.prompt);
+  const ready = vol.spreads.filter((s) => s.image.prompt);
+  if (!ready.length) {
+    console.log(`${slug}: no prompts in the spec yet (${pending.length} spreads pending) - skipped`);
+    return;
+  }
+
+  const entries = ready.map((s) => {
     const { text, missing, attach } = expand(s.image.prompt, s.image.hardConstraints);
     return {
       attach,
@@ -183,6 +194,7 @@ function build(slug) {
   const allMissing = entries.flatMap((e) => e.missing);
   console.log(
     `${slug}: ${entries.length} prompts, ${groups.length} groups -> ${path.replace(ROOT, '.')}`
+    + (pending.length ? `  (${pending.length} spread(s) still pending, omitted)` : '')
     + (allMissing.length ? `  UNRESOLVED: ${[...new Set(allMissing)].join(', ')}` : ''),
   );
   return entries;

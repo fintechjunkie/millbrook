@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 1: image prompt sheet
+# patch-notes, Volume 1: image prompt sheet
 
 Part One: The Pothole · 11 images · generated from the specs, do not hand-edit
 
@@ -349,7 +349,7 @@ Named figures: Owen (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
-- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse terminals
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -383,7 +383,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
 Wardrobe, unchanged for this scene: warm ivory two-piece technical outfit, a high-collared jacket with a small red throat closure over a charcoal undershirt, matching ivory trousers with a cargo pocket, a dark belt, a short red carabiner strap at the hip, dark boots. Smooth, clean and fabric-based, never segmented
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 Seated in a desk chair facing three monitors, turned three-quarters toward the viewer, eyes squinted against the screen glare, expression flat. His scalp is completely bald and his strong dark eyebrows are clearly visible above his narrow eyes, dark against very pale skin. Every screen shows nothing but soft undifferentiated glow, with no windows, panels, charts, icons or readable content of any kind.
 Interior, roughly three in the morning.
@@ -412,7 +412,7 @@ Named figures: Monke (1 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
-- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse terminals
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -447,7 +447,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - Palette stays warm off-white paper with subdued colour; this is not a purple image.
 ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A small monkey built from shaggy layered charcoal-black paper, with a warm tan face patch, tan muzzle, tan inner ears, tan hands and tan feet, a spiky tuft standing up on the crown, very large round white eyes with small black pupils set wide apart, slender limbs, and a long tail that curls into a loose spiral at the tip.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 A small monkey perched on top of the middle monitor, seen from behind and slightly to the side, leaning down so one small finger touches the front of the screen. He is rendered as a dark silhouette against the screen glow. His head is turned away from the camera and his face is entirely lost in shadow: no eyes, no expression, no legible features whatsoever. Only the outline of the head, the curve of the spine, the long tail and the reaching arm are readable. Screen shows a soft scatter of pale dots forming an incomplete arc, no text or labels.
 Interior, early morning, no daylight.
@@ -512,7 +512,7 @@ CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton
 A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
 Wardrobe, unchanged for this scene: Ill-fitting muted dusty purple suit, cream shirt, a dark red tie patterned with cream polka dots and knotted slightly askew, a red pocket square folded into the breast pocket
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
 Standing behind a plain podium mid-sentence, both hands on the podium edge, grinning broadly with his teeth showing, a bead of sweat running from his temple. Eyes hidden behind the mismatched lenses. Podium bare, no signage or lettering, two microphones on short stands in front of him.
 Exterior, late morning.
 Close shot from slightly below, straight on, very shallow depth so the small crowd behind reads only as soft shapes and the municipal building behind them goes soft.
