@@ -174,10 +174,25 @@ Spoiler check: PASS. The final beat of the page is *"That isn't how ears work."*
 at the inventory sheet listening to the north wall, which is beats 8 to 10, and nothing of what is
 in trunk seven.
 
-**Attempt 1 is parked and it failed on ONE thing: the door's sill came back raised about a trunk's
-height off the floor**, with wall continuing below it, and it read as a wide squarish panel rather
-than a short door. Everything else in that attempt was right — so the re-cut locks the rest and
-changes only the door.
+**Two attempts are parked. Attempt 3 has exactly two jobs and the rest of the frame is already
+right, so do not restage anything else.**
+
+**JOB ONE — NO NUMBERS ON THE TRUNKS.** Attempt 2 painted legible numerals on them: 01, 02, 04, 04,
+06, 07, 09, 12, 13. That breaks the negative block, it is absent from `loc-wardrobe-room.png`, and
+it is internally wrong — 04 appears twice and 03, 05, 08, 10 and 11 are missing, which is exactly
+the garbling the no-numerals rule exists to prevent. It costs nothing to drop: **trunk seven
+identifies itself by being the only open trunk in the row.**
+
+**JOB TWO — THE DOOR'S BOTTOM EDGE MUST BE VISIBLE TOUCHING THE FLOOR.** Attempt 1 put its sill
+about a trunk's height up the wall. Attempt 2 fixed the shape — taller than wide, unmistakably a
+door — but stood a trunk directly in front of it, so the bottom is occluded and a reader still
+cannot tell whether it reaches the floor. That was the one thing the prompt asked to be kept clear.
+**The stretch of wall holding the door must have no trunk, no ledge and no figure in front of it.**
+
+Everything else in attempt 2 was right and should survive: the trunk row with one standing open and
+tissue paper in it, the robe rack, the hats, the shoes with every toe the same way, the footprints
+leading out, the steps and handrail, the lamp on, the illegible inventory sheet, and all three
+figures.
 
 **This is the SECOND time this exact bug has happened, and the roster already warned about it.**
 The first generation of the location reference did the same thing, and the recorded cause was a
@@ -204,8 +219,9 @@ Prompt:
 {{CHAR:VEX}}
 {{CHAR:PIP}}
 EXACTLY THREE PEOPLE IN FRAME and no others, no animals. The attached reference image is this same room with NOBODY in it; all three figures below must be added and nothing about the room may change.
-The costume store under the auditorium stage of a closed school, taken from the attached reference and kept exactly: a long row of old numbered steamer trunks along the back wall on a low ledge with ONE of them standing open, a rack of choir robes hanging on a steel pipe, shelves of hat boxes and hats, and a run of shoes lined up in pairs on a low shelf with every single toe pointing the same direction. A typed inventory sheet in a plastic sleeve hangs on the near wall, its writing weathered and completely illegible. A short flight of concrete steps with a handrail comes down into the room at one side.
-**THE SMALL DOOR IN THE BACK WALL, AND ITS HEIGHT OFF THE FLOOR IS THE ONE THING THAT MUST BE RIGHT.** Set into the back wall there is one small plain shut door, and **ITS BOTTOM EDGE MEETS THE FLOOR.** It is a door somebody could stoop and walk through, not a hatch and not a panel: **there is NO wall, NO skirting, NO ledge and NO trunk beneath it or in front of it** — the stretch of floor directly in front of the door is clear and empty and you can see the door's bottom edge touching it. It stands about four and a half feet tall, so **its top is roughly level with the SHOULDER of a standing teenager** — noticeably too short for an adult, and unmistakably a door. Taller than it is wide. It is SHUT. Nobody is near it, nobody is looking at it and nothing in the picture draws attention to it.
+The costume store under the auditorium stage of a closed school, taken from the attached reference and kept exactly: a long row of old steamer trunks along the back wall on a low ledge with ONE of them standing open, a rack of choir robes hanging on a steel pipe, shelves of hat boxes and hats, and a run of shoes lined up in pairs on a low shelf with every single toe pointing the same direction.
+**THE TRUNKS CARRY NO NUMBERS, NO LETTERS AND NO WRITING OF ANY KIND.** Their surfaces are plain scuffed canvas and brass with nothing painted, stencilled or labelled on them anywhere, exactly as in the attached reference. The open trunk is identified only by being the one standing open. A typed inventory sheet in a plastic sleeve hangs on the near wall, its writing weathered and completely illegible. A short flight of concrete steps with a handrail comes down into the room at one side.
+**THE SMALL DOOR IN THE BACK WALL, AND ITS HEIGHT OFF THE FLOOR IS THE ONE THING THAT MUST BE RIGHT.** Set into the back wall there is one small plain shut door, and **ITS BOTTOM EDGE MEETS THE FLOOR.** It is a door somebody could stoop and walk through, not a hatch and not a panel: **there is NO wall, NO skirting, NO ledge and NO trunk beneath it or in front of it** — the stretch of floor directly in front of the door is clear and empty and you can see the door's bottom edge touching it. **The trunk row STOPS short of the door, leaving a clear bare gap of wall and floor around it, and no trunk, box, robe or person stands in front of the door or overlaps its lower half. Its whole height, from top edge to bottom edge on the floor, is unobstructed and visible in one look.** It stands about four and a half feet tall, so **its top is roughly level with the SHOULDER of a standing teenager** — noticeably too short for an adult, and unmistakably a door. Taller than it is wide. It is SHUT. Nobody is near it, nobody is looking at it and nothing in the picture draws attention to it.
 OWEN stands in the middle of the room in three-quarter view, a lit flashlight down at his side, turning his head to look along the line of shoes with the specific unease of somebody who has just decided that is the worst thing here. His mouth is closed.
 VEX is crouched on one knee off to one side with her own flashlight set down on the floor beside her, its beam laid low across the dusty tile, one hand resting on her knee, looking down at the floor. Her bright mint-green hair in two messy buns must be plainly visible. **Faint scuffed bare FOOTPRINTS in the dust lead away from the trunks across the tile, and they all point in ONE direction.**
 PIP stands apart, upright and completely still, not looking at anything either of the others is looking at, her head tilted very slightly.
