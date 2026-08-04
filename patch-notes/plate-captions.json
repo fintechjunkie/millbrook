@@ -1,7 +1,6 @@
 {
   "_note": "AUTHORED, not generated. Do not let parse-specs write here. One line per plate, keyed by image slug. A caption names the MOMENT rather than the room: the running section heading already says where we are, and repeating it under the picture told the reader nothing they could not see — three consecutive plates once read 'What The Wires Are Asking'. Kept under about 40 characters, sentence case, curly apostrophes, and never reaching past the beat its own plate depicts, so the caption inherits the plate's spoiler clearance and claims nothing more. A plate with no entry here falls back to the running section, so it is never bare.",
-  "_pending": "Understudies volumes 2, 3 and 4 are deliberately absent: their image specs are still PENDING, so there is no depicted beat to describe and a caption would be invented rather than written. Add each one when its spec lands — at the same time as the art, ideally, since the same paragraph tells you both what to draw and what to call it.",
-
+  "_pending": "The Understudies volume 4 is deliberately absent: its image spec is still PENDING, so there is no depicted beat to describe and a caption would be invented rather than written. Add all thirteen when that spec lands, at the same time as the art, since the same paragraph tells you both what to draw and what to call it. Volumes 2 and 3 were added 2026-08-04 when their specs landed. OPENERS are not listed here and should not be: an opener precedes every beat in its volume, so it has no moment to name and falls back to the chapter title, which all six do.",
   "vol1-s01": "Lena arrives on Crescent Street",
   "vol1-s02": "Vex leaves with the dashcam",
   "vol1-s03": "Owen, thirty-one hours awake",
@@ -12,7 +11,6 @@
   "vol1-s07": "The dashcam, opened up",
   "vol1-s08": "Pip goes still on the milk crate",
   "vol1-s08b": "One streetlight, for half a second",
-
   "vol2-s01": "Vex gives the dashcam back",
   "vol2-s02": "Hollow Pine Books, six years old",
   "vol2-s03": "The woman in the green cardigan",
@@ -22,7 +20,6 @@
   "vol2-s06": "Milo leaves a careful gap",
   "vol2-s07": "Aunt Carol looks at the receipt",
   "vol2-s08": "Everything that died that night",
-
   "vol3-s01b": "Mr. Henderson, six miles in slippers",
   "vol3-s02c": "Vex makes the call",
   "vol3-s02b": "What Cassie hears",
@@ -32,7 +29,6 @@
   "vol3-s06": "Mr. Henderson’s steady hands",
   "vol3-s07": "Everyone asleep but Vex",
   "vol3-s08": "Monke, awake on the high shelf",
-
   "vol4-s01": "Two rooms, one announcement",
   "vol4-s02": "Felix’s twelve-hour device",
   "vol4-s03": "Lena and Pip on the kerb",
@@ -43,7 +39,6 @@
   "vol4-s07b": "Lena records the last one",
   "vol4-s08": "The phone with no buttons",
   "vol4-s09b": "Monke finds the drawer",
-
   "u1-s01": "Ida Prewitt waves at the convoy",
   "u1-s02": "Everybody doing what they do",
   "u1-s03": "Crane picks Milo out of the crowd",
@@ -54,5 +49,27 @@
   "u1-s08": "Vex crouches, and does not touch her",
   "u1-s09": "Lena puts the phone face down",
   "u1-s10": "Pip closes her eyes",
-  "u1-s11": "Trunk seven, open and empty"
+  "u1-s11": "Trunk seven, open and empty",
+  "u2-s01": "The bag comes off the chain",
+  "u2-s02": "Rocco stops six feet short",
+  "u2-s03": "Wren apologises from ninety yards",
+  "u2-s04": "Tovar moves her exactly nothing",
+  "u2-s05": "The dragon loses to the sun",
+  "u2-s06": "The bookshop nobody built",
+  "u2-s07": "Forty-one years of cast photographs",
+  "u2-s08": "Four windbreakers on a folding table",
+  "u2-s09": "Owen objects to being one of the three",
+  "u2-s10": "Three kids go through a fence",
+  "u3-s01": "Vex compliments the fence",
+  "u3-s02": "Owen goes through third",
+  "u3-s03": "Bigger than Owen expected",
+  "u3-s04": "One soldier awake at midnight",
+  "u3-s05": "What was left in trunk seven",
+  "u3-s06": "Neither of them blinks",
+  "u3-s07": "Dame Ottilie is in the road again",
+  "u3-s08": "Ottie asks if he’s hurt",
+  "u3-s09": "Two hours with a hair dryer",
+  "u3-s10": "Sybil touches the trackpad",
+  "u3-s11": "Wren reports from the roof",
+  "u3-s12": "It says not returned"
 }
