@@ -32,82 +32,6 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 
 **Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
 
-### [ ] u1-s02 — spread 2
-
-Shot type: Character group
-Depicts: Beat 3. The whole crew arranged around the press conference, each of them doing the thing they do — before the Mayor says anything worth hearing.
-Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is at the podium but the crowd is unreacted and nothing about a curfew is legible or implied.
-Named figures: Lena, Milo, Vex, Pip, Owen, Felix, Mayor Dalton (7 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-dalton-canonical.png` — Mayor Dalton
-- `char-lena-canonical.png` — Lena
-- `char-vex-canonical.png` — Vex
-- `char-pip-canonical.png` — Pip
-- `char-milo-canonical.png` — Milo
-- `char-owen-canonical.png` — Owen
-- `char-felix-canonical.png` — Felix
-- `loc-square.png` — location, town hall square
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
-CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
-CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
-CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
-CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
-CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
-A small press conference on the steps of the town hall. The Mayor stands at a plain wooden podium mid-sentence with one hand out. About twenty ordinary townspeople sit on rows of grey metal folding chairs, seen from behind and to one side.
-The six of them are in SIX DIFFERENT PLACES doing SIX DIFFERENT THINGS, and each of the following is separately required. They must NOT be gathered together in one group, and their faces must be visible rather than turned away from camera.
-(1) LENA stands behind the last row of chairs at a video camera mounted on a TRIPOD, both hands on it, filming the podium.
-(2) VEX is SITTING UP ON A LOW BRICK WALL beside a FLAGPOLE, well above everyone else, with her boots hanging down off the wall and an APPLE in one hand, mid-bite. The wall and the flagpole must both be in frame.
-(3) MILO, (4) OWEN and (5) FELIX stand together on their feet at the very back behind the seated rows, not sitting.
-(6) PIP stands completely apart from all of them, alone, off to the far side with empty ground around her, upright and still with her head level, listening.
-Ten in the morning, bright and dry.
-Wide, camera slightly elevated and to one side of the seated crowd so all seven named figures and the podium are in one frame — but angled so that the six of them are seen from the FRONT or three-quarters, never from behind. A previous attempt put the whole cast back-to-camera in a single clump, which is the one thing this frame must not do.
-High clear morning light, no drama, every face readable.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`u1-s02.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A mayor speaks at a podium on town hall steps to a small seated crowd while a girl films from a tripod, three boys stand at the back, another girl sits on a wall eating an apple and a robotic girl stands apart, listening.
-
----
-
 ### [ ] u1-s04 — spread 4
 
 Shot type: Establishing or location
@@ -230,9 +154,10 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: Beat 7. Admiral Crane, off to the side of the stage with his hands behind his back, has stopped reading the crowd and settled on Milo.
 Spoiler check: PASS. Final beat is Vex asking about the new fence from the wall. Not depicted: Vex is not in frame, the fence is not visible, and nobody has stood up to leave.
-Named figures: Milo, Felix, Admiral Crane (3 of a maximum 2)
+Named figures: Milo, Felix, Mayor Dalton, Admiral Crane (4 of a maximum 2)
 
 **Attach these reference images before generating:**
+- `char-dalton-canonical.png` — Mayor Dalton
 - `char-crane-canonical.png` — Admiral Crane
 - `char-milo-canonical.png` — Milo
 - `char-felix-canonical.png` — Felix
@@ -263,14 +188,17 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
+CHARACTER: Mayor Dalton. Use the attached canonical reference image "char-dalton-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A man in his fifties, heavy and thick through the body, ruddy fair skin, a full face with heavy jowls, small pale eyes entirely concealed behind cardboard anaglyph 3D glasses with a red frame and two different lenses, the wearer's right lens red and the wearer's left lens cyan, which he wears at all times both indoors and out, thick dark brown eyebrows visible above the frame, a bald crown and forehead with dark brown hair standing up in untidy tufts at the temples and around the back, a fleshy nose, and a broad practised salesman's grin that shows his teeth. His suit is a muted dusty purple and never quite fits, pulling at the button and short in the sleeve.
 CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
-A LOOK BETWEEN TWO PEOPLE STANDING WELL APART, and the look is the entire subject of the picture. They are on OPPOSITE SIDES of the frame with the crowd between them, and they must never be standing together.
+THE PRESS CONFERENCE IS IN PROGRESS AND THE SQUARE IS OCCUPIED. The attached location image shows this square EMPTY, and it is not empty here: about twenty ordinary townspeople are SITTING in the rows of grey metal folding chairs, and the MAYOR is standing at the plain wooden podium on the low stage, mid-sentence, small in the frame and soft. None of that is optional — a square with empty chairs and nobody at the podium is the wrong scene.
+Against that, the subject of the picture: A LOOK BETWEEN TWO PEOPLE STANDING WELL APART, and the look is the entire subject of the picture. They are on OPPOSITE SIDES of the frame with the crowd between them, and they must never be standing together.
 In the NEAR HALF of the frame and off to one side of the low stage, CRANE stands ALONE with nobody within several paces of him. His HANDS ARE CLASPED BEHIND HIS BACK, his medical mask is on, he is completely still, and his head is turned so that he is looking steadily ACROSS the frame at one particular person, taking his time about it.
 In the FAR HALF of the frame, further back and standing at the rear of the seated rows, MILO is looking STRAIGHT BACK at Crane with his jaw set. Beside Milo, FELIX has noticed and is glancing anxiously between the two of them.
 The two of them are looking directly at each other along the diagonal of the frame and the line between them is unobstructed. Nobody else in frame is aware of any of it.
@@ -301,7 +229,7 @@ Named figures: Milo, Owen, Felix, Pig, Dragon, Duck (6 of a maximum 2)
 - `char-pig-canonical.png` — Pig
 - `char-dragon-canonical.png` — Dragon
 - `char-duck-canonical.png` — Duck
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -327,8 +255,8 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -365,7 +293,7 @@ Named figures: Milo, Pip (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
 - `char-milo-canonical.png` — Milo
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -391,8 +319,8 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -416,19 +344,18 @@ Alt text, already written, do not regenerate: A robotic girl sits on a stool wit
 
 Canonical reference: `char-vex-canonical.png` · approved: yes
 
-### [ ] u1-s07 — spread 7
+### [ ] u1-s02 — spread 2
 
-Shot type: Character action
-Depicts: Beat 3. Vex practising walking handstands across the warehouse floor with Monke doing exactly the same thing beside her, while Owen works.
-Spoiler check: PASS. Final beat is the "How is that worse?" exchange. Not depicted: Vex is upside down and mid-move, and no argument is legible in the staging.
-Named figures: Vex, Owen, Felix, Monke (4 of a maximum 2)
+Shot type: Character group, close
+Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part. Four faces, no backdrop.
+Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is not in frame, there is no podium and no crowd, and nothing about a curfew is legible or implied.
+Named figures: Vex, Pip, Owen, Felix (4 of a maximum 2)
 
 **Attach these reference images before generating:**
-- `char-vex-canonical.png` — Vex
-- `char-monke-canonical.png` — Monke
 - `char-owen-canonical.png` — Owen
 - `char-felix-canonical.png` — Felix
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `char-vex-canonical.png` — Vex
+- `char-pip-canonical.png` — Pip
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -454,8 +381,74 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
+CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
+CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
+CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
+EXACTLY FOUR FIGURES AND NOTHING ELSE. Four kids, close together, filling the frame. There is no building, no podium, no stage, no chairs, no crowd, and no fifth person of any kind. **Do not add an extra boy.** If a figure is not one of the four described below, it does not belong in this picture.
+They are at the back of an outdoor gathering and something has just been said from the front that one of them does not believe. Heads close, shoulders overlapping, all four at DIFFERENT HEIGHTS, caught mid-exchange rather than posed.
+OWEN, on one side and the centre of it: mid-sentence and completely certain, chin slightly up, mouth open on a word, one hand held out flat in the small precise gesture of a person listing reasons. He is not angry. He is correcting the record.
+FELIX, beside him, turned bodily toward him with both eyebrows up and his mouth open on a short question, delighted rather than doubtful.
+VEX, pressed in on Owen's other side, and she must be in this picture: a girl with **BRIGHT MINT-GREEN HAIR gathered into TWO MESSY BUNS, one high on each side of her head**, warm brown skin and freckles across the nose. She has an **APPLE in one hand, mid-bite**, and she is looking sideways at Owen entirely unimpressed by all of it. Her green hair must be plainly visible in the frame.
+PIP, at the near edge and a little forward of the other three, upright, head level, mouth closed, eyes open and pointed at nothing anybody else can see. She is in the group but not of it, and she is the one thing in frame that is completely still.
+Behind and around them, nothing legible: bright open daylight and soft blown-out pale ground with no architecture, no furniture and no background figures.
+Ten in the morning, bright and dry.
+CLOSE group shot from a LOW camera angled slightly up, the four heads crowding the upper two thirds of the frame, every face large and fully readable. Shallow depth: the four of them sharp, everything behind them soft to the point of abstraction.
+High clear morning light from one side, warm and even, no drama and no deep shadow.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`u1-s02.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: Four kids packed close together outdoors, one mid-sentence and certain with a hand held out, another turning to him with eyebrows raised, a girl with green hair eating an apple and looking unimpressed, and a robotic girl at the front standing perfectly still and looking at nothing.
+
+---
+
+### [ ] u1-s07 — spread 7
+
+Shot type: Character action
+Depicts: Beat 3. Vex practising walking handstands across the warehouse floor with Monke doing exactly the same thing beside her, while Owen works.
+Spoiler check: PASS. Final beat is the "How is that worse?" exchange. Not depicted: Vex is upside down and mid-move, and no argument is legible in the staging.
+Named figures: Vex, Owen, Felix, Monke (4 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-vex-canonical.png` — Vex
+- `char-monke-canonical.png` — Monke
+- `char-owen-canonical.png` — Owen
+- `char-felix-canonical.png` — Felix
+- `loc-warehouse-canonical.png` — location, warehouse pit
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 ANIMAL: Monke. Use the attached canonical reference image "char-monke-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -489,7 +482,7 @@ Named figures: Vex, Pip (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
 - `char-pip-canonical.png` — Pip
-- `loc-warehouse-canonical.png` — location, warehouse shop (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse shop
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -515,7 +508,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
 CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
@@ -532,6 +525,67 @@ Aspect ratio: 3:2
 Save as: **`u1-s08.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: A girl crouches in front of a seated robotic girl with her hands on her own knees, carefully not touching her, looking up into her face.
+
+---
+
+## CASSIE
+
+Canonical reference: `char-cassie-canonical.png` · approved: no
+
+**Rendering note.** The hearing aid is the whole point and must stay visible in every image of her. In Volume 4 she wears over-ear headphones and the aid is beneath them, so specify that it is still there.
+
+### [ ] u1-s09 — spread 9
+
+Shot type: Character close, single figure
+Depicts: Beat 5. The fifteen-year-old girl who woke up able to hear a wasp inside a wall, somewhere else in town, still living with it.
+Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee table to be level with Pip. Not depicted: nobody from that room is in frame and the Warehouse does not appear at all.
+Named figures: Cassie (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-cassie-canonical.png` — Cassie
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+CHARACTER: Cassie. Use the attached canonical reference image "char-cassie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A small, slight girl of fifteen who reads younger than her age, fair skin with a scatter of freckles across the nose and cheeks, a narrow face with a small chin, very large dark eyes, fine dark eyebrows, a small nose, and a small closed mouth that rests level and a little downturned. Straight mid-brown hair falling to the jaw with the ends turning out slightly, tucked behind her LEFT ear so that a small pale beige behind-the-ear hearing aid with a fine clear earhook is fully visible there.
+ONE FIGURE AND NOTHING ELSE ALIVE IN THE FRAME. A girl of fifteen, alone, in an ordinary quiet room in a small-town house.
+She is standing very close to a plain interior wall, side-on to it, her head turned and TILTED slightly so that one ear is a few inches from the wall surface. She is not touching the wall. Both arms hang still at her sides. Her weight is even. She is completely motionless and she has been for a while.
+Her face is visible in three-quarter view and it is not frightened: it is intent, patient and a little tired, the expression of somebody concentrating on a thing they cannot switch off. Her mouth is closed and level. Her eyes are open and looking at nothing, because what she is doing is listening.
+The behind-the-ear hearing aid on her LEFT ear is fully visible and unobstructed, with her hair tucked back behind that ear so nothing covers it. It is the most important detail in the picture.
+THE WALL IS THE OTHER SUBJECT and it is completely blank: plain painted plaster, no picture, no shelf, no switch, no crack, no mark and no visible insect of any kind. Whatever she can hear is INSIDE it and must not be shown.
+The rest of the room is nearly bare and quiet: a stretch of plain floor, the corner of one unremarkable piece of domestic furniture at the edge of the frame, and a soft fall of ordinary daylight from an unseen window to one side. No clutter, no decoration, no other person, no animal, no television and no screen.
+Afternoon, quiet, unremarkable.
+CLOSE on her, camera at her own eye height and square to the wall so that she occupies one side of the frame and a large area of empty blank wall occupies the other. Her face and the hearing aid are large and fully readable. Shallow depth, the wall surface soft.
+Soft even natural daylight from one side, low contrast, calm and completely undramatic. No shadow effects and nothing sinister in the lighting: the room is ordinary and that is the point.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`u1-s09.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A girl of fifteen stands alone and completely still with her head tilted close to a blank interior wall, listening to something inside it, the hearing aid behind her ear clearly visible.
 
 ---
 
@@ -638,55 +692,6 @@ Aspect ratio: 2:1
 Save as: **`u1-opener.png`** · aspect 2:1
 
 Alt text, already written, do not regenerate: A small town of low houses on a grid of wide streets at first light, empty of people, a water tower on the horizon.
-
----
-
-### [ ] u1-s09 — spread 9
-
-Shot type: Detail
-Depicts: Beat 2. Lena sets her phone face down on the arm of the couch, which for Lena is a bigger deal than anybody in the room understands.
-Spoiler check: PASS. Final beat is Milo sitting down on the coffee table to be level with Pip. Not depicted: no figure is in frame at all.
-
-**Attach these reference images before generating:**
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
-A close view of the worn upholstered arm of a sagging couch, with a single mobile phone lying on it FACE DOWN, screen hidden, set square and deliberately rather than dropped. A hand has just left it and is out of frame. Beyond the arm of the couch the room falls away out of focus. No people and no animals in frame.
-Mid-afternoon.
-Close detail shot at couch height, shallow depth, the phone and the couch arm filling the lower half of the frame.
-Soft indirect daylight, quiet, no drama.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`u1-s09.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A mobile phone lying face down and set square on the worn arm of a sagging couch, with the room out of focus beyond it.
 
 ---
 

@@ -12,18 +12,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ## Before generating
 
-- **1 canonical reference files do not exist**, so nothing is
-  attached for them and their text descriptions are the only authority. Every
-  such block says so explicitly. This is the reason characters drift: a prompt
-  that claims a reference it does not have makes the description sound optional
-  at the exact moment the description is all there is.
-
-  Missing: `loc-old-bell-road.png`
-
-  Generate them from `prompt-sheet-canonical.md`, drop them into
-  `public/images/`, and re-run `npm run prompts`. Every affected prompt then
-  switches to attaching the real file with no further edits.
-
 - **4 roster decisions are open** and section 1 lists them:
     - RESOLVED 2026-07-28 — the reference sheet wins
     - Two goggle girls, introduced eleven pages apart
@@ -35,94 +23,6 @@ in a face is visible as a run. The spread number is on every entry.
   `2:3` landscape and the chapter openers `4:3`.
   Some framing lines were written for a portrait frame and may want a human pass;
   they were deliberately not rewritten.
-
----
-
-## LENA
-
-Canonical reference: `char-lena-canonical.png` · approved: no
-
-**Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
-
-### [ ] u2-s05 — spread 5
-
-Shot type: Character group, high angle
-Depicts: Beats 6 to 9. Felix works out that the four of them are the four of us with better outfits, and Vex, without looking up from the dashcam mount she is rebuilding, says she would wear the armour.
-Spoiler check: PASS. Final beat of the page is “So who told them that’s the job?” Not depicted: nobody is asking a question, Milo’s mouth is closed and no face is turned to him.
-Named figures: Lena, Milo, Vex, Owen, Felix, Dragon (6 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-felix-canonical.png` — Felix
-- `char-vex-canonical.png` — Vex
-- `char-lena-canonical.png` — Lena
-- `char-milo-canonical.png` — Milo
-- `char-owen-canonical.png` — Owen
-- `char-dragon-canonical.png` — Dragon
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
-CHARACTER: Felix. Use the attached canonical reference image "char-felix-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, the shortest of the three boys but clearly a teenager rather than a child, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, bright alert eyes behind large round red-framed glasses with clear lenses, dark eyebrows, a snub nose, and a persistent amused half-grin rather than a wide open one. Short, uneven, tightly textured black hair. A compact brown utility backpack is part of his default silhouette and is worn unless a scene makes it impossible.
-CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
-CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
-CHARACTER: Dragon. Use the attached canonical reference image "char-dragon-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-A mini dragon about the size of a house cat, built from layered paper. Rust-orange body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its default expression is cheerful and slightly gormless.
-FIVE named figures and ONE SMALL ANIMAL around a low scarred coffee table, seen from HIGH ABOVE. **All five people must be present and each must be identifiable from above** — check that the girl with bright mint-green hair in two messy buns is in the frame.
-The table top is the centre of the picture and it is covered: a part-dismantled dashcam mount with its bracket, screws and a small screwdriver laid out in a neat row, a laptop open with its screen turned AWAY from the camera so nothing on it is visible, several dented drink cans, and a mug.
-VEX sits on the floor at one side of the table, cross-legged, bent over the dashcam mount with both hands working on it and her head DOWN — she is not looking up at anybody and she is talking without looking up.
-FELIX is on the edge of a couch leaning in over the table with both hands spread, mid-realisation, head up and turned to the others.
-LENA sits back on a couch behind her laptop with one hand on its edge, looking across at Felix.
-OWEN sits on a second couch with his arms folded, looking at Felix with flat scepticism.
-MILO stands, and is the only one standing, at the far edge of the table with his hands in his pockets, seen from above as a foreshortened figure. His mouth is closed.
-THE MINI DRAGON lies FULL LENGTH ON ITS SIDE in the middle of the slab of sunlight on the bare concrete, legs out, tail straight, belly to the warm floor, comprehensively asleep. Seen from above it is the largest single shape in the picture after the table, and **not one of the five people is looking at it or acknowledging it in any way.** It is not posing, not looking at the camera and not doing anything clever. It found the warmest rectangle in the building and that is the whole of its contribution.
-Exactly five people in frame. No animals.
-Two in the afternoon and the picture is BRIGHT throughout — nothing in gloom anywhere.
-
-**One hard-edged slab of sunlight lies across the floor and over part of one couch**, a clean bright rectangle with crisp parallel edges, falling at a slant. It can only have come from a window high up and outside the frame, and that is the point: it tells the reader the ceiling is a long way up without a single piece of architecture being visible. Warm, strong and clearly drawn, not a soft glow.
-HIGH ANGLE looking down onto the furniture, and **NO EDGE OF THE ROOM IS ANYWHERE IN FRAME.** No wall, no ceiling, no roof truss, no window, no doorway, no corner and no far end. The picture contains nothing but bare concrete floor, the furniture, the people and the animal — the frame itself is the only boundary. **The couches are CROPPED by the frame edge on at least two sides**, so the room plainly continues past the picture in every direction.
-
-This is deliberate and it is the fix for an earlier attempt. A room whose edges you can see is a room you have measured; a room whose furniture runs off the picture has no size at all. The Warehouse is big and this frame refuses to make any claim about it either way.
-
-Every face is tipped up toward the lens and readable. Everything sharp.
-Warm even overhead daylight, no drama, every face readable.
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`u2-s05.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: Seen from directly above, five teenagers around a low table covered with tools, a laptop and drink cans, one of them cross-legged on the floor working on a dismantled camera mount without looking up while another leans in mid-realisation.
 
 ---
 
@@ -145,7 +45,7 @@ Named figures: Milo, Vex, Pip, Owen, Dragon (5 of a maximum 2)
 - `char-vex-canonical.png` — Vex
 - `char-pip-canonical.png` — Pip
 - `char-dragon-canonical.png` — Dragon
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -171,8 +71,8 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
 CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -279,6 +179,64 @@ Aspect ratio: 3:2
 Save as: **`u2-s10.png`** · aspect 3:2
 
 Alt text, already written, do not regenerate: At night, three teenagers slip one at a time under a lifted panel of a nine-foot slatted fence onto a concrete pad beside two dumpsters, a closed pair of steel hatch doors lying flat in the concrete beyond them.
+
+---
+
+## DRAGON
+
+Canonical reference: `char-dragon-canonical.png` · approved: yes
+
+### [ ] u2-s05 — spread 5
+
+Shot type: Animal, single subject
+Depicts: No story beat. The dragon, in the Warehouse, losing an argument with the sun.
+Spoiler check: PASS trivially. No beat is depicted, no person is in frame, and nothing on the page can be pre-empted by an animal lying on the floor.
+Named figures: Dragon (1 of a maximum 2)
+
+**Attach these reference images before generating:**
+- `char-dragon-canonical.png` — Dragon
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+CHARACTER: Dragon. Use the attached canonical reference image "char-dragon-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A mini dragon about the size of a house cat, built from layered paper. Rust-orange body with a paler sandy-cream belly and throat, a row of **dark red triangular plates running down the spine from the back of the head to the tail**, and a long tapering tail. A broad blunt snout with two clear nostrils, a wide mouth showing a few small pale triangular teeth, and large round white eyes with black pupils set forward and close together, with a heavy dark brow over each. Short thick hind legs and small front arms, all four with pale claws. **It has NO WINGS of any kind.** Its default expression is cheerful and slightly gormless.
+ONE ANIMAL AND NOTHING ELSE ALIVE IN THE FRAME. No people, no other animal, no duck, no pig, and no part of any person anywhere in the picture.
+THE MINI DRAGON is lying FLAT ON ITS BACK on a bare, cool, pale concrete floor, belly upward and fully exposed, in a patch of sunlight. Its head is tipped back and turned to one side against the floor, its mouth is slightly open, and it is deeply and comprehensively asleep. All four legs are relaxed and flopped outward and upward, loose rather than rigid, in the boneless way a sleeping animal lies when it has entirely given up on dignity. Its tail is straight out along the floor.
+THE JOKE IS THAT THE SUN HAS MOVED AND IT HAS NOT. A single hard-edged STRIPE of bright sunlight lies across the floor at a slant, with crisp clean parallel edges, and **the stripe is NARROWER than the dragon is long.** It falls across the middle of the animal so that its belly and chest are in the warm bright light while its head at one end and its hind legs and tail at the other lie outside the stripe on plain cool grey concrete. The animal is visibly contorted a little, twisted along its own length, to keep as much of its underside in the light as it can. It has been chasing this rectangle around the floor all afternoon and it is losing.
+It has no wings of any kind. Its rust-orange body and the row of dark red triangular plates down its spine are clearly visible even though it is on its back.
+The floor is otherwise almost bare: a scatter of dust, one dropped bottle cap, and at the very edges of the frame the cropped feet of a couch and one leg of a low wooden table, enough to say this is somebody’s room and nothing more. **No wall, no ceiling, no window and no room edge anywhere in frame.**
+Two in the afternoon.
+CLOSE and slightly high, camera looking down at the animal from above and a little to one side, near enough that the dragon fills most of the frame and the stripe of light runs across the picture on a diagonal. Everything sharp.
+BRIGHT throughout. The sunlit stripe is strong and warm and clearly delineated, and the surrounding concrete is plainly cooler and greyer but still perfectly light and readable — the contrast is between warm and cool, not between lit and dark. Nothing anywhere in the frame is gloomy or in shadow.
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`u2-s05.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A small orange dragon lies flat on its back and fast asleep on a bare concrete floor, twisted slightly to keep its belly inside a narrow stripe of sunlight that is no longer wide enough to cover it.
 
 ---
 
@@ -415,6 +373,7 @@ Named figures: Ottie, Tovar (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-ottie-canonical.png` — Ottie
 - `char-tovar-canonical.png` — Tovar
+- `loc-old-bell-road.png` — location, old bell road
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -440,7 +399,7 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
+SETTING: use the attached canonical establishing image "loc-old-bell-road.png" for this location so it stays the same place between spreads.
 A quiet two-lane rural road on the edge of town: cracked grey asphalt with a faded centre line, a narrow gravel shoulder each side just wide enough that a large truck could ATTEMPT to pass something standing in the road and no wider, a shallow undriveable ditch beyond each shoulder, flat open farmland with a wire fence on posts, telephone poles along one side and a distant treeline. A simple unoccupied checkpoint stands on the gravel at one side: two plastic barriers, two cones, a folding camp chair and a folding table. Nothing blocks the lanes. **The shoulder width is load-bearing — see the note below.**
 CHARACTER: Ottie. Use the attached canonical reference image "char-ottie-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A girl, small and slight inside the armor. Fair skin with a warm flush high on the cheek, a round soft-jawed face and a small pursed mouth. **Short strawberry-blonde hair, tousled and swept up and back as though windblown, with a single loose curl standing away at the crown** — never long, never tied, never braided, never in buns. Heavy-lidded eyes under thin brows with a **pale lilac wash across the lid** and a dark upper lash line, which gives her a permanently unimpressed and faintly tired expression that does not change much whatever is happening around her. No glasses. Worn, head to foot: a **real steel** cuirass with a high gorget and articulated pauldrons over a red under-layer, red sleeves, steel vambraces and couters on both arms, a wide brown leather belt with a plain round steel buckle, **red skirting cut in a ragged fringe** below the belt, steel poleyns at the knee over red hose, steel greaves, and **brown leather buckled shoes**. The steel is scuffed and scratched from use rather than polished.

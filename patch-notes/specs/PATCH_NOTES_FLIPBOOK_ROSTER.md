@@ -1292,28 +1292,34 @@ Same discipline as the empty corner the Warehouse master leaves for Lena’s des
 reference, door shut; state B is Volume 4, door open, with a second room beyond it that no
 reference shows.
 
-**It is a DOOR, not a hatch, and this has now been got wrong TWICE.** The first generation of this
-reference drew it as a panel set high in the wall with its sill about a trunk’s height off the
-floor — caused by a prompt that described what was *visible* (*“only the top part shows above the
-trunks”*) instead of what was *there*. **`u3-s03` attempt 1, 2026-08-04, did exactly the same**,
-from a prompt that did say *“threshold on the floor”* — but said it inside a long sentence listing
-eight other room features, which reads as background dressing.
+**The small door sits BEHIND AND ABOVE THE TRUNK ROW, with its sill a couple of feet off the
+floor. RESOLVED 2026-08-04, and the roster was the thing that was wrong.**
 
-People walk through this door. Chet steps through it and pulls it shut, Ottie stands two feet from
-it, and four people came out of it. **Its threshold is on the floor**, and a panel set high in the
-wall makes Volume 4’s reveal impossible.
+This note previously insisted the threshold was on the floor and blamed the artwork for putting it
+higher. Two `u3-s03` attempts were sent back on that basis before anybody checked what actually
+exists. Everything does the same thing:
 
-**So do not just assert the height — pin it.** Four things do that, and every one of them is either
-a negative or a comparison, because a positive statement of height is what keeps failing:
+- `loc-wardrobe-room.png` — sill at the trunk-lid line, the trunk row running across in front of it
+- `u1-s11.png`, **delivered and in the book** — the same
+- all three `u3-s03` attempts — the same, from three differently-worded prompts
 
-1. **Give the door its own sentence or paragraph.** Never a clause in a list of room contents.
-2. **Say what is NOT beneath it** — no wall, no skirting, no ledge, no trunk under it or in front
-   of it — and say the floor directly in front of it is clear, so its bottom edge is visible
-   *touching* the floor.
-3. **Anchor the height to a figure in frame**, not to a number: its top is about level with the
-   shoulder of a standing teenager. Four and a half feet means nothing to a generator.
-4. **Say it is taller than it is wide.** Both failures came back squarish, which is what makes a
-   door read as a hatch even when its sill is right.
+And Volume 4’s prose, which is the scene that depends on it, says **“Behind the trunks, in the
+north wall, there was a door that didn’t appear on any drawing in any county file.”** *Behind the
+trunks.* The prose and every delivered image agree; the roster was the only dissenting voice, and
+section 1.1 gives the artwork priority over a written description.
+
+**It is also the better room.** A door whose sill is up behind a row of steamer trunks has to be
+climbed over and stooped through, which is why nobody found it in six months, and that is more
+unsettling than a door you could walk straight through.
+
+**Nothing in Volume 4 needs a floor threshold, so nothing has to be re-cut.** Six people *come
+through* it, which now means over the trunks; Ottie stands two feet from it; and Chet steps through
+the **second** door at the back of the small room, which is a different door with no such
+constraint. When Volume 4’s plates are commissioned, show them climbing.
+
+**What the door must still be:** a plain shut door, TALLER THAN IT IS WIDE, with a frame and a
+knob, reading unmistakably as a door and never as a hatch or a service panel. Attempt 1 failed on
+exactly that — a wide squarish panel — and it is the one thing worth checking.
 
 **The visible trunk count is not the canon count.** Twelve read in the reference; the prose says
 thirteen twice, and the row runs off frame past the near corner. Do not "correct" the prose to

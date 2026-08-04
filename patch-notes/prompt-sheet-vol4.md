@@ -1,4 +1,4 @@
-# The Patch Notes, Volume 4: image prompt sheet
+# patch-notes, Volume 4: image prompt sheet
 
 Part Four: The Press Conference · 11 images · generated from the specs, do not hand-edit
 
@@ -211,7 +211,7 @@ CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane
 A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
 Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
 Two figures facing each other at the back of a filling town square, a camera tripod standing between them so that it divides the frame. Crane stands on the left, squared up and unhurried, hands low and still, weight even, his pale blue medical mask covering the lower half of his face so that only his eyes carry the expression, and they are measuring her rather than greeting her. He is slightly the taller. Lena stands on the right with one hand resting on the tripod as though she has been interrupted mid-adjustment, her body angled toward her camera but her face turned fully to him, chin up, wary and interested at once. Neither is holding anything out and no card, paper or object passes between them. Behind and beyond them, smaller and softer, a low stage carries a podium where a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone doing a sound check. Rows of folding chairs, occupied by anonymous unnamed townspeople seen from behind, fill the ground between the two foreground figures and the stage. Exactly three named figures: the two in front, sharp, and the one on the stage, small.
 Exterior, mid-afternoon, twenty-six minutes past two.
 Medium two-shot at standing eye level, framed so the tripod sits between them and the stage recedes on the axis between their heads, deep enough focus that the stage still reads as a place while staying clearly softer than the foreground.
@@ -229,14 +229,14 @@ Alt text, already written, do not regenerate: A uniformed officer in a medical m
 ### [ ] vol4-s07b — spread 8
 
 Shot type: Character portrait
-Depicts: Beat 4. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
+Depicts: Beat 5. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
 Spoiler check: PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.
 Named figures: Lena, Pig (2 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
 - `char-pig-canonical.png` — Pig
-- `loc-warehouse-canonical.png` — location, warehouse pit (stand-in, a delivered scene plate)
+- `loc-warehouse-canonical.png` — location, warehouse pit
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -271,8 +271,8 @@ An eighteen year old girl of medium height within the three girls, slim and prac
 Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased and slept in, satchel strap present
 CHARACTER: Pig. Use the attached canonical reference image "char-pig-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A plump pink pig built from layered paper in a soft dusty rose, with a large round darker-rose snout carrying two clear nostrils, small floppy triangular ears lined a deeper pink, round white eyes with black pupils set wide and a thin dark brow above each, a short curled tail wound into a tight spiral, and four stubby dark brown hooves. He is broad and low, roughly the size of a large dog, and his default expression is placid and faintly pleased.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of three salvaged televisions behind them, a high shelf on the wall above, exposed steel roof trusses and high dusty clerestory windows far above.
+SETTING: use the attached canonical establishing image "loc-warehouse-canonical.png" for this location so it stays the same place between spreads.
+The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above.
 A girl sitting cross-legged on a worn couch late at night, talking directly into a phone that is propped up against a coffee mug on a low table in front of her. She leans slightly forward, caught mid-sentence, one hand open in front of her, and her expression is set and certain rather than nervous or performing. Her clothes are visibly creased and slept in. A small pot-bellied pig is asleep against her hip, completely relaxed, one ear flopped. The phone screen throws the main light up onto her face from below. Behind her the rest of the warehouse falls away into soft shadow with a few small equipment lights in it. Exactly one person and one animal in frame.
 Interior, late night.
 Medium shot from just behind and beside the phone, so the viewer sits roughly where her audience does, camera at seated eye level.
@@ -303,7 +303,7 @@ Named figures: Pip, Felix (2 of a maximum 2)
 **Attach these reference images before generating:**
 - `char-felix-canonical.png` — Felix
 - `char-pip-canonical.png` — Pip
-- `loc-warehouse-canonical.png` — location, warehouse shop (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse shop
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -342,7 +342,7 @@ Wardrobe, unchanged for this scene: faded teal mechanic-style work jacket with t
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks.
 A teenage boy standing at a scarred workbench holding a handmade device up in front of him in both hands, presenting it to people out of frame rather than looking at it himself. The device is roughly the size and shape of a kitchen timer crossed with a smoke detector, hand-cut casing, exposed wire loops, a small dark display panel with no legible characters on it. His shoulders are down and his eyes are heavy but he is plainly delighted, the specific tiredness of somebody who has been up all night on purpose. Solder spool, cutters and a cold half-drunk mug on the bench beside him. Behind him and to one side, a robot girl sits on a plain spare chair pulled into the corner, feet level, hands loose and symmetrical in her lap, head tipped down, looking at the floor and not at him, entirely still and entirely closed off. Exactly two figures in frame.
 Interior, morning.
@@ -462,7 +462,7 @@ CHARACTER: Admiral Crane. Use the attached canonical reference image "char-crane
 A man in his sixties, tall and very upright, thin, with pale weathered skin at the temples and around the eyes, which is the only part of his face visible because a pale blue medical mask covers everything from the bridge of the nose down and is never removed. Grey hair cut short and military. The visible eyes are pale, calm and tired, set in fine lines, under level grey eyebrows. He wears navy dress uniform with a dense block of ribbons and medals across the left breast, and he stands with both hands clasped behind his back.
 Wardrobe, unchanged for this scene: Navy dress uniform, full medals, pale blue medical mask
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
 Around forty people in folding chairs seen from behind, filling most of the paved square, facing a low stage in front of the town hall doors. On the stage a heavyset man in an ill-fitting purple suit and a bright new tie leans into a microphone at a wooden podium, mid sound check, wearing red-lensed glasses. A few steps to his side an older officer in navy dress uniform with full medals stands squared up and still, a pale blue medical mask over the lower half of his face, hands behind his back, watching the crowd rather than the Mayor. In the near foreground a camera tripod stands unattended. Every seated figure is distant, backs turned, no faces legible. Exactly two named figures, both on the stage.
 Exterior, early afternoon.
 Wide establishing shot from behind the back row, camera at standing height, deep focus so both figures on the stage read clearly despite their size.
@@ -485,7 +485,7 @@ Canonical reference: `char-henderson-canonical.png` · approved: no
 
 Shot type: Action moment
 Depicts: Beat 6. Mr. Henderson getting up out of the front row.
-Spoiler check: PASS. Final beat is the city reporter's expression. Not depicted; the reporter and her camera operator are not in frame.
+Spoiler check: PASS, re-read after the page boundary moved on 2026-07-30. The final beat is no longer the crowd's confusion settling — it is now "Admiral Crane was looking at Pip", moved down from the head of spread 7. Neither figure is in this frame: the prompt carries MR_HENDERSON alone, every surrounding figure is turned away and thrown out of focus with no other face legible, and there is no uniformed figure and no bench anywhere in the composition. Nothing needed regenerating.
 Named figures: Mr. Henderson (1 of a maximum 2)
 
 **Attach these reference images before generating:**
@@ -520,7 +520,7 @@ CHARACTER: Mr. Henderson. Use the attached canonical reference image "char-hende
 A man of eighty-one, tall and spare and very slightly stooped, with square shoulders that have not entirely gone, tanned skin deeply lined across the forehead, around the mouth and in crow's feet at the eyes, a long face with hollowed cheeks, kind dark eyes under heavy shelf-like white eyebrows, prominent ears, a strong nose, and a thin mouth that rests in a faint smile and goes up further at one corner. Thick white hair, thinning at the front, worn swept up and back and never tidy. A wristwatch with a small round face on a dark leather strap, always on the same wrist.
 Wardrobe, unchanged for this scene: The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
 An old man rising out of a folding chair in the front row, one hand on the chair back, most of the way up, looking toward the stage off frame. Surrounding seated figures are turned away and thrown out of focus, no other face legible.
 Exterior, early afternoon.
 Medium shot from the side along the front row, camera at seated height, shallow depth.
@@ -641,7 +641,7 @@ Town treatment
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
 SETTING: use the attached canonical establishing image "loc-square.png" for this location so it stays the same place between spreads.
-A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, and space for rows of grey metal folding chairs.
+A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards.
 Rows of empty folding chairs set out in front of a bare podium, a large banner rigged behind the stage but seen almost edge on so that no lettering is legible. No figures anywhere.
 Exterior, early morning before the event.
 Wide establishing shot from behind the last row of chairs, low camera, deep focus.
@@ -663,7 +663,7 @@ Depicts: Beat 3. Room made in the corner. Owen's cans moved without comment.
 Spoiler check: PASS. Final beat is Lena's recorded line about not asking permission. Not depicted; no figures, no camera, nothing recording.
 
 **Attach these reference images before generating:**
-- `loc-warehouse-canonical.png` — location, warehouse terminals (stand-in, a delivered scene plate)
+- `loc-terminals.png` — location, warehouse terminals
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -695,7 +695,7 @@ MUST HOLD, these override anything below that appears to contradict them:
 - The purple brick of the wall behind the desk must read as purple, the cans must read as individually dented, and the grain of the desk must be visible.
 - This is a night scene but it is NOT a dark image and nothing in it falls to featureless black.
 - See the warehouse lighting floor in section 6.1a of the roster.
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "loc-warehouse-canonical.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
+SETTING: use the attached canonical establishing image "loc-terminals.png" for this location so it stays the same place between spreads.
 The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans.
 A cleared corner of desk where a row of dented energy drink cans has been pushed tightly to one side to open a rectangle of bare surface, a small closed laptop set down in the new space, a cable already run to it along the wall. No figures.
 Interior, night.
