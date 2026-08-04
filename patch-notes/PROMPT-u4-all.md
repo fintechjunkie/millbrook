@@ -29,6 +29,19 @@ things that had gone stale. The same fix as Part Three: keep the scene, move the
   which is more novelty than any previous volume had.
 - **s13 is an empty room**, deliberately, and it is the last image of the arc. It echoes `u1-s11`.
 
+**THE ONE FAULT THIS VOLUME KEEPS PRODUCING IS INVENTED LETTERING.** Three of the first eleven
+plates came back with legible words on a prop the prompt had merely named — a desk nameplate, a
+printed mug, and a brass plaque on the stamp reading *PROPERTY OF ORDINANCE SURVEY COUNTY OF
+HEREFGRD*, which is legible, misspelled twice and invents an English county into a small-town
+American story.
+
+The negative block forbids all of it, and forbids it at the FOOT of the prompt — which the roster
+already records as the position where hard constraints get ignored, and is why they are hoisted to
+the head of an assembled prompt. **A general prohibition at the end loses to a specific named
+object at the start.** So whenever a prompt names something that would carry words in real life,
+it now says so at the top AND beside the object. Watch for it on anything with a flat face: mugs,
+plaques, nameplates, spines, boxes, jars, folders.
+
 **Cast ceilings are real here and this volume is the worst offender.** Spread 1 could legitimately
 hold ten named figures and spread 7 has six people coming through a door. Four failed attempts on
 `u1-s02` established that a group plate degrades fast: faces stop being identifiable and named
@@ -185,6 +198,17 @@ points at it. So it has to read unmistakably as a printed event poster — a big
 would sit, a line of lettering under it — with **every character illegible**. Same arrangement as
 Rocco's GOLDEN GLOVES and Wren's stencil.
 
+**Attempt 1 is parked and it failed twice.** It put a desk nameplate reading MAYOR THOMAS DALTON
+and a mug reading THE BUCK STOPS HERE in the frame, both fully legible; and it shot Milo from
+BEHIND, so his face never appeared — and his deliberate, patient blankness *is* the beat. The trick
+is that he says nothing and lets the man read it out loud, which needs a face.
+
+**The lettering fault happened three times across this volume**, on this plate, on `u4-s04` and on
+`u4-s08`. The negative block forbids it, but it forbids it at the FOOT of the prompt, which is the
+position the roster records as being ignored — a general prohibition at the end loses to a specific
+named object at the start. So it is now stated at the top of the prompt as well, and again beside
+each object.
+
 **Monke is in the room and nobody has noticed.** *"Monke came too, and nobody noticed until the
 elevator."* Put him somewhere high and out of the eyeline, doing nothing yet.
 
@@ -195,14 +219,15 @@ Prompt:
 {{CHAR:MILO}}
 {{CHAR:MAYOR_DALTON}}
 {{CHAR:MONKE}}
+ABSOLUTELY NO LETTERING ANYWHERE IN THIS IMAGE. Not on a nameplate, a mug, a plaque, a label, a spine, a poster, a sign or a screen. Every object that in real life would carry printed words is BLANK, plain and unmarked. This overrides anything below that names such an object.
 EXACTLY TWO PEOPLE AND ONE ANIMAL IN FRAME and no others.
-A small-town mayor's office: a wide wooden desk, a high-backed chair behind it, a window air-conditioning unit fitted into the window, and **one whole wall covered in framed photographs of the same man shaking hands with people** — rows of them, hung slightly unevenly. A grey steel filing cabinet against another wall. A door, closed.
+A small-town mayor's office: a wide wooden desk, a high-backed chair behind it, a window air-conditioning unit fitted into the window. **There is NO nameplate on the desk and NO printed mug — any mug, plaque or block on that desk is completely blank and unmarked.** and **one whole wall covered in framed photographs of the same man shaking hands with people** — rows of them, hung slightly unevenly. A grey steel filing cabinet against another wall. A door, closed.
 **TAPED TO THE BACK OF THAT DOOR AT EYE LEVEL: a printed event poster.** It plainly reads as a poster for a town festival — a large block near the middle where a date would sit and a line of lettering beneath it — and **every letter and numeral on it is completely illegible, blurred and unreadable.** No legible text anywhere in the image.
 MAYOR DALTON is behind the desk in his chair, leaning back, **wearing his red 3D glasses**, one hand turned palm-up in the middle of saying something about how little time he has. He is a man with nothing to do performing busyness. He has NOT picked up or looked down at the paper.
-MILO stands on the near side of the desk, upright, both hands returning to his sides. **He has just set a single sheet of printed paper down on the desk FACE UP, squarely in front of Dalton, and let go of it.** His mouth is closed and his expression is completely neutral and patient. He is saying nothing and waiting. The sheet lies flat and plain and its own text is illegible.
+**MILO'S FACE MUST BE VISIBLE AND READABLE — do NOT shoot him from behind.** He stands on the near side of the desk in three-quarter view turned toward the camera, upright, both hands returning to his sides. **He has just set a single sheet of printed paper down on the desk FACE UP, squarely in front of Dalton, and let go of it.** His mouth is closed and his expression is completely neutral and patient. He is saying nothing and waiting. The sheet lies flat and plain and its own text is illegible.
 MONKE is up on top of the grey filing cabinet, sitting still, tail hanging down, doing nothing at all. **Neither person is looking at him and he is not doing anything clever** — not pointing, not reaching, not holding anything.
 Late morning.
-MEDIUM TWO-SHOT at standing height from beside the desk, angled so both faces read clearly, the sheet of paper on the desk is unmistakable between them, the wall of handshake photographs fills the background and the poster on the door is visible. Everything sharp.
+MEDIUM TWO-SHOT at standing height from beside and slightly in FRONT of Milo, angled so **both faces read clearly and neither figure is seen from behind**, the sheet of paper on the desk is unmistakable between them, the wall of handshake photographs fills the background and the poster on the door is visible. Everything sharp.
 BRIGHT — flat even daylight through the window plus the office ceiling light. Every face, the photographs and the poster are clearly readable as objects. Nothing anywhere in the frame is gloomy.
 {{NEGATIVE}}
 Aspect ratio: 3:2
@@ -233,6 +258,10 @@ forbids a clever tell *before* arc one's reveal; arc one is complete and publish
 prose puts the gesture on the page in plain words. Do not quietly drop it citing the old rule — the
 whole joke is that he is right and nobody is looking.
 
+**Attempt 1 is parked and only one thing was wrong: the desk nameplate and the printed mug were
+legible again.** Everything else in it was right — Monke pointing, the glasses off and held, Milo's
+face visible, the poster illegible — so the re-cut changes nothing but the lettering.
+
 **The 3D glasses are OFF from this spread on.** He took them off at the end of the last page, which
 Milo had never seen him do.
 
@@ -243,7 +272,8 @@ Prompt:
 {{CHAR:MAYOR_DALTON}}
 {{CHAR:MILO}}
 {{CHAR:MONKE}}
-EXACTLY TWO PEOPLE AND ONE ANIMAL IN FRAME and no others. The attached plate is this same office — keep the desk, the wall of framed handshake photographs, the grey filing cabinet, the window air-conditioning unit and the poster on the door exactly as they are, and change only the staging below.
+ABSOLUTELY NO LETTERING ANYWHERE IN THIS IMAGE. Not on a nameplate, a mug, a plaque, a label, a spine, a poster, a sign or a screen. Every object that in real life would carry printed words is BLANK, plain and unmarked. This overrides anything below that names such an object.
+EXACTLY TWO PEOPLE AND ONE ANIMAL IN FRAME and no others. **Nothing on the desk carries any lettering: no nameplate, no printed mug, no labelled block — every one of them is blank.** The attached plate is this same office — keep the desk, the wall of framed handshake photographs, the grey filing cabinet, the window air-conditioning unit and the poster on the door exactly as they are, and change only the staging below.
 MAYOR DALTON is on his feet and fully upright in the middle of the room, mid-speech and running on the only fuel he has ever had — one hand raised and open, chest out, chin up, entirely convinced. **His red 3D glasses are OFF and held forgotten in his other hand.** He is looking away toward the window, not at anybody. He is enjoying himself.
 MILO stands to one side with his hands at his sides, watching Dalton and only Dalton, his mouth closed and his expression neutral. He is letting the man talk.
 MONKE is up on the grey filing cabinet and **he has sat up straight and is POINTING with one long arm, directly at the printed poster taped to the back of the door.** His arm is fully extended, his very large round white eyes are on the poster, and the gesture is unmistakable and deliberate. **Neither person is looking at him and neither has noticed.**
@@ -358,9 +388,10 @@ and the thing on the bench — and he does not stop when six people come through
 Spoiler check: PASS. The final beat of the page is *"Hi, Pip… You got tall."* **Chet has not turned
 around and has not spoken.** His back is to them, which is beat 5 exactly.
 
-**Attach `loc-small-room.png`.** This plate must establish the stamp intact in its cradle, because
-`u4-s09` destroys it and `u4-s13` is the same bench swept clean. The last image of the arc only
-works if the reader recognises what is missing.
+**Attach `loc-small-room.png`** for the room, **and `u4-s09.png` for Chet's scale and the bench.**
+This plate must establish the stamp intact in its cradle, because `u4-s09` destroys it and `u4-s13`
+is the same bench swept clean. The last image of the arc only works if the reader recognises what is
+missing.
 
 **The second door is in frame, closed, and unremarked.** It is the last turn in the arc and it lands
 only if it was already in the room and nobody looked at it.
@@ -369,9 +400,16 @@ only if it was already in the room and nobody looked at it.
 BEHIND — Pip and Vex identifiable, the rest as backs and shoulders. That is honest to the moment as
 well: they are all looking away from the camera at the robot.
 
-**Scale is the risk.** The room is built small: Chet is three feet tall, the doors are four and a
-half, and the bench is at a working height for him. A normal workshop with a short robot in it is
-the failure.
+**Attempt 1 is parked and it failed on exactly one thing: CHET WAS DRAWN MAN-SIZED.** He came back
+about four and a half feet against a normal-height workbench with a normal stool under it, when the
+prose on the facing page says *"He was maybe three feet tall"* and the roster says never draw him
+man-sized. Everything else in that attempt was right — six backs with Pip and Vex readable, the
+stamp intact and shimmering, the second door closed, the room lit.
+
+**So attach `u4-s09.png` as well, and use IT as the authority for Chet's size and the bench.** That
+plate is delivered and got him right: his head is about level with the top of the bench, and he is
+plainly less than half the height of a standing teenager. Describing three feet in words has now
+failed once; a picture of it will not.
 
 Prompt:
 
@@ -382,9 +420,9 @@ Prompt:
 {{CHAR:PIP}}
 {{CHAR:VEX}}
 A SMALL, LOW, WINDOWLESS ROOM and it must read as built small rather than as a normal workshop. Bare warm off-white plaster, plain concrete floor, low ceiling, one shaded bulb over the bench.
-CHET is at the workbench against the side wall with **his BACK TO THE CAMERA AND TO EVERYBODY**, working, both hands down at the bench top. **He is THREE FEET TALL** — noticeably shorter than a seated teenager — squat and riveted in chalky bone-grey, a rounded metal box of a head with a shock of stiff straw-blond hair out of the top, an exposed coiled spring for a neck, dented at one hip. **He has not turned around, has not looked up and has not stopped working.** No face is visible.
+CHET is at the workbench against the side wall with **his BACK TO THE CAMERA AND TO EVERYBODY**, working, both hands down at the bench top. **HE IS THREE FEET TALL AND THIS IS THE ONE THING THAT MUST BE RIGHT: THE TOP OF HIS HEAD IS ABOUT LEVEL WITH THE TOP OF THE WORKBENCH, and he is less than half the height of a standing teenager.** Match his size to the second attached plate exactly. He is NOT man-sized and NOT four feet — squat and riveted in chalky bone-grey, a rounded metal box of a head with a shock of stiff straw-blond hair out of the top, an exposed coiled spring for a neck, dented at one hip. **He has not turned around, has not looked up and has not stopped working.** No face is visible.
 ON THE BENCH IN FRONT OF HIM, clearly visible and the brightest small thing in the picture: **THE STAMP — an object like an old library date stamp, brass and glass with a turned wooden handle worn pale, about a hand-span tall, standing UPRIGHT AND INTACT in a shaped wooden cradle.** The air directly above it shimmers faintly with heat. It is not broken, not tipped and nothing is touching it.
-THE BENCH IS LOW, a working height for somebody three feet tall, with a low stool tucked under it and a shelf of plain unlabelled boxes and jars above.
+**THE BENCH IS LOW — a working height for somebody THREE FEET TALL, so its top comes to about Chet's chin and is well below the waist of a standing teenager.** A LOW stool is tucked under it, and a shelf of plain unlabelled boxes and jars sits above. **The room is built small throughout: this is not a normal workshop that happens to contain a short robot.**
 IN THE NEAR WALL, a small plain door about four and a half feet tall standing OPEN, and **SIX FIGURES have come through it and are stopped just inside, seen FROM BEHIND** — a close cluster of backs and shoulders filling the near edge of the frame, all of them facing away from the camera toward Chet. **Only TWO of them are identifiable:** PIP, upright and very still with her blonde hair, red bandana and goggles readable from behind and one side of her face just visible; and VEX beside her, her bright mint-green hair in two messy buns unmistakable. The other four are backs only, no faces.
 IN THE FAR WALL, a SECOND small plain door, also about four and a half feet tall, **CLOSED**. It is completely unremarkable, nobody is looking at it and nothing draws attention to it.
 Midnight.
@@ -413,6 +451,14 @@ not in frame.
 **Attach `loc-small-room.png`.** Keep the stamp intact and in frame if it fits, because `u4-s09`
 needs the reader to have seen it twice.
 
+**Attempt 1 is parked and Chet's scale in it was CORRECT — keep it.** The single fault was a brass
+plaque bolted to the stamp's base reading PROPERTY OF ORDINANCE SURVEY COUNTY OF HEREFGRD: fully
+legible, misspelled twice, and it invents an English county into a small-town American story. That
+is the whole argument for the no-lettering rule in one object.
+
+**The stamp also sat on a little plinth with that plaque rather than in its wooden cradle.** It
+belongs upright in the shaped cradle, as in `loc-small-room.png` and `u4-s09.png`.
+
 **Chet is three feet tall and Felix has to be down at his level**, which is what makes this
 picture — a teenager on his knees to be eye to eye with a robot, delighted, whispering.
 
@@ -426,10 +472,11 @@ Prompt:
 {{LOC:THE_SMALL_ROOM}}
 {{CHAR:FELIX}}
 {{CHAR:CHET}}
+ABSOLUTELY NO LETTERING ANYWHERE IN THIS IMAGE. Not on a nameplate, a mug, a plaque, a label, a spine, a poster, a sign or a screen. Every object that in real life would carry printed words is BLANK, plain and unmarked. This overrides anything below that names such an object.
 EXACTLY ONE PERSON AND ONE ROBOT IN FRAME and no others, and no animals.
 FELIX is down on both knees on the concrete floor, folded right down so that his face is level with the robot's, leaning in close. **He is whispering** — mouth open in a small round shape rather than wide, shoulders up, both hands clasped in front of his chest — and his whole face is pure uncomplicated delight. This is the best thing that has ever happened to him.
 CHET stands facing him, **THREE FEET TALL**, squat and solid, so that his head and the kneeling boy's head are at nearly the same height. Chalky bone-grey enamel with panel seams, rivets, dents and rubbed-through patches, an exposed coiled spring for a neck, a shock of stiff straw-blond hair out of the open top of his head, dented at one hip. **His face is a rounded metal box: a recessed dark band across the upper face holding two large flat white rounded-rectangular eye panels each with a small low black pupil, and BELOW THE EYES A BLANK PANEL WITH NO MOUTH AND NO NOSE.** One recessed indicator lamp glows dull orange-red on his chest. **He is patient and faintly hangdog and not remotely threatening** — the pupils are turned toward Felix, and his posture is that of somebody being asked something for the hundredth time.
-Behind them, the low workbench with the brass and glass stamp still standing upright and INTACT in its wooden cradle, and the plain shelf above. The room is small, low-ceilinged and windowless, warm off-white plaster.
+Behind them, the low workbench with the brass and glass stamp still standing upright and INTACT **in its shaped wooden cradle — NOT on a plinth, and with NO plaque, label or engraved lettering on it or under it anywhere.** The plain shelf above holds unlabelled boxes and jars. The room is small, low-ceilinged and windowless, warm off-white plaster.
 Midnight.
 MEDIUM CLOSE TWO-SHOT at their shared eye level — camera LOW, near the floor — so the two heads read side by side and both faces fill much of the frame. Everything sharp.
 BRIGHT AND WARM from the bulb over the bench. Felix's whole face and every dent and seam of Chet's head are clearly readable, and the eye panels read as lit white with a dark pupil rather than as dark glass. Nothing in the frame is gloomy.
