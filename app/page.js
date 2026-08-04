@@ -251,12 +251,18 @@ export default function Home() {
           labelled placeholder until site-cast.png exists. */}
       <CastStrip />
 
-      {/* Between the cast and the shelf. The terms it explains appear on the first text
-          page of Volume 1, so a reader needs them before the shelf, not after; and faces
-          earn attention while exposition spends it, so the cast goes first. */}
-      <Primer />
-
       <div style={{ maxWidth: 1320, margin: '0 auto', padding: `${space(12)} ${space(5)} ${space(20)}` }}>
+        {/* Between the cast and the shelf. The terms it explains appear on the first text
+            page of Volume 1, so a reader needs them before the shelf, not after; and faces
+            earn attention while exposition spends it, so the cast goes first.
+
+            INSIDE this wrapper, which is the point. It used to sit above it with a
+            maxWidth of its own, so at 1440px it ran 213 to 1213 while every band and the
+            footer ran 73 to 1353 — the one block on the page that did not share the
+            column, standing 140px inboard of everything after it. Sharing the wrapper
+            means it cannot drift again when the wrapper changes. */}
+        <Primer />
+
         {/* Each arc is one band of four volumes. The production totals that used to
             close every band are gone: spreads, plates and word counts are facts about
             making the thing, not reasons to read it, and they undercut a shelf of
