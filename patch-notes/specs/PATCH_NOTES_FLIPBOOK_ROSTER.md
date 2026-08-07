@@ -1416,33 +1416,32 @@ on a new post at the west end. Both of those are plate-level changes to this ref
 neither belongs in it.
 
 **`WATER_TOWER` and `FEED_STORE_ROOF` have to agree with each other, and that is a measurement
-rather than a mood.** *“He'd run a line from the tower's catwalk down to the roof of the feed
-store, which is about two hundred feet of cable and a forty-foot drop in the middle of it.”* He
-gets ninety feet along it, the far anchor starts to walk, and he ends up hanging **over the middle
-of the street** while Vex hauls him in hand over hand from the catwalk. So the tower stands roughly
-two hundred feet from the feed store, it is about forty feet taller at the catwalk, and the line
-between them crosses Main Street. Neither reference may be generated as though the other is
-somewhere else. Same class of constraint as Old Bell Road's shoulders.
+rather than a mood. THE PROSE WAS CHANGED TO MATCH THE DELIVERED ART, 2026-08-07.**
 
-**AND THE DELIVERED ART HAS NOT SETTLED IT.** `loc-main-street.png` and `loc-carters-roof.png`
-both put the water tower in frame, which is genuinely useful — but they put it **at the far end of
-the street beyond a treeline**, which reads as a good deal more than two hundred feet and as
-end-on to the street rather than across it. So the town now has a tower in a fixed place and that
-place does not support the zip line as written.
+The town's tower is now fixed by two references that carry nine pages between them:
+`loc-main-street.png` and `loc-carters-roof.png` both put it **at the far end of the street,
+beyond a treeline**. That is a good deal more than the two hundred feet the prose used to claim,
+and it is end-on to the street rather than across it — so the zip line as originally written
+could not be drawn in the town the art had built.
 
-Three ways out, and it is an authorial call rather than a generation problem:
+Three ways out were available and the cheapest was taken: **the prose moved.** *“About two
+hundred feet of cable”* was Lena's estimate rather than a survey, and nothing in the scene
+depended on the number except the feel of the drop. Moving the tower instead would have meant
+regenerating two otherwise excellent references, one of which is the busiest location in the arc.
 
-1. **Generate `loc-water-tower.png` anyway**, placing the tower close to the back of the Main
-   Street block, and treat the two delivered images as showing a *different, more distant* water
-   tower — which a town does not usually have two of.
-2. **Move the tower in a regeneration of the two street plates.** Expensive: both are otherwise
-   excellent and `loc-main-street.png` carries nine pages.
-3. **Change the prose.** *“About two hundred feet of cable”* is Lena's estimate, not a survey, and
-   nothing in the scene depends on the number except the feel of the drop. The beat that has to
-   survive is that he stops **over the middle of the street** with Vex hauling him in from the
-   catwalk, and a longer run over a treeline and then the street still gives that.
+The line now reads *“from the tower's catwalk, over the trees at the end of the road and then
+down the whole length of Main Street to the roof of the feed store, which is about four hundred
+feet of cable and a forty-foot drop in the middle of it.”* Which fixes the geometry twice over,
+because **the street is now UNDER the whole run rather than crossed once by it**: he gets about
+ninety feet along, the far anchor walks, and wherever he stops he is over the road. Vex still
+hauls him back to the catwalk in four minutes, and ninety feet is a plausible haul where three
+hundred would not have been.
 
-Option 3 is the cheapest and costs the book nothing. Nothing has been changed yet.
+So, for the two references still to be generated: the tower stands beyond the treeline at the end
+of Main Street, about forty feet above the feed store roof at the catwalk, and the cable runs
+down the length of the street rather than across it. Same class of constraint as Old Bell Road's
+shoulders, and the same lesson as the flagpole in `loc-square.png` — **when delivered art and
+prose disagree about geometry, the art has usually already been paid for.**
 
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 2 | not required — stand-in: `vol1-s06.png` |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards. | 6 | `loc-square.png` — **see the note below: the delivered reference has no flagpole and no low wall** |

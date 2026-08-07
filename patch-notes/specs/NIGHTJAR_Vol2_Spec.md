@@ -311,7 +311,7 @@ Not commissioned. The shot type, the depicted beat, the spoiler check, the promp
 
 ## Spread 8
 
-Pages 17 to 18 | Part Two: Patrol | Words 238
+Pages 17 to 18 | Part Two: Patrol | Words 255
 
 ### Text page (left), verbatim
 
@@ -319,7 +319,7 @@ Pages 17 to 18 | Part Two: Patrol | Words 238
 
 They found him at one in the morning at the water tower, because he told them where he’d be. He tells everybody where he’ll be. It’s in the log.
 
-He’d run a line from the tower’s catwalk down to the roof of the feed store, which is about two hundred feet of cable and a forty-foot drop in the middle of it, and he’d built a handle for it out of a bike’s handlebar.
+He’d run a line from the tower’s catwalk, over the trees at the end of the road and then down the whole length of Main Street to the roof of the feed store, which is about four hundred feet of cable and a forty-foot drop in the middle of it, and he’d built a handle for it out of a bike’s handlebar.
 
 “Rapid response,” he called down. “From this position the Nightjar can reach any point on Main Street in under a minute.”
 
