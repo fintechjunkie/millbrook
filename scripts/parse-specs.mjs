@@ -152,6 +152,14 @@ const ARCS = [
     volumes: [1, 2, 3, 4],
     expect: { textPages: 46, images: 50 },
   },
+  {
+    id: 'nightjar',
+    title: 'The Nightjar',
+    spec: (n) => `NIGHTJAR_Vol${n}_Spec.md`,
+    slug: (n) => `n${n}`,
+    volumes: [1, 2, 3, 4],
+    expect: { textPages: 37, images: 41 },
+  },
 ];
 
 function parseVolume(arc, n) {
@@ -503,6 +511,9 @@ console.table(summary);
 //
 // The Patch     38/42 as of 2026-07-29, after all four planned splits.
 // Understudies  46/50 as of 2026-07-31, the initial chunk of the four V3 manuscripts.
+// The Nightjar  37/41 as of 2026-08-07, the initial chunk of the four delivered manuscripts.
+//               Images are PENDING for the whole arc, so `images` here counts spreads that
+//               have a slug reserved and nothing else.
 for (const arc of ARCS) {
   const rows = summary.filter((s) => s.arc === arc.title);
   const got = {

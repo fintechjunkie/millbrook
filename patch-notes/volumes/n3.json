@@ -1,0 +1,684 @@
+{
+  "volume": 3,
+  "arc": "nightjar",
+  "slug": "n3",
+  "imagesPending": true,
+  "source": "NIGHTJAR_Part_3_v2.md",
+  "chapter": "Part Three: Just Break Something",
+  "specVersion": "1 | Date: 2026-08-07",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Nightjar",
+        "part": "Part Three: Just Break Something"
+      },
+      "image": {
+        "slug": "n3-opener",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 275,
+      "words": 269,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Woman On The Bench"
+        },
+        {
+          "t": "p",
+          "v": "The woman in the green cardigan sits on the bench outside the library most afternoons, and she has been sitting there for as long as anybody can remember, and nobody in Millbrook has ever once asked her why."
+        },
+        {
+          "t": "p",
+          "v": "Her name is Delia Stroud. Pip had to look it up."
+        },
+        {
+          "t": "p",
+          "v": "“Mrs. Stroud.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s Miss, but nobody’s called me either one since about 1994.” She moved her bag off the seat. “Sit down, honey. You’re the one who hears things.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know. I’ve been waiting on you a while.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip sat. Delia had a paperback in her lap that she wasn’t reading and a phone beside her on the bench with no buttons on it, and Pip had been listening to that phone for two years without ever knowing whose it was."
+        },
+        {
+          "t": "p",
+          "v": "“I need to reach the robot,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“I figured.”"
+        },
+        {
+          "t": "p",
+          "v": "“I have tried the walls. I have tried the wires. I have said his name out loud in a room he has been in.” Pip put her hands flat on her knees. “He is not answering, and one of my friends is gone, and I am the only person who knows it.”"
+        },
+        {
+          "t": "p",
+          "v": "Delia looked at her for a while."
+        },
+        {
+          "t": "p",
+          "v": "“Can I tell you something about that little fella?” she said. “He’s not hiding from you. He doesn’t hide. He works a list, and when the list is done he goes home and he waits for the next one.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then how does anybody get on the list?”"
+        },
+        {
+          "t": "p",
+          "v": "“Same way you get a plumber, honey.” Delia patted her knee and stood up and picked up her bag. “Just break something.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s01",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 191,
+      "words": 186,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "She started off down the sidewalk and then turned around."
+        },
+        {
+          "t": "p",
+          "v": "“Something real,” she said. “Not a lamp. He knows the difference.”"
+        },
+        {
+          "t": "h",
+          "v": "Two In The Morning"
+        },
+        {
+          "t": "p",
+          "v": "“So we break the road,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“We break the road.”"
+        },
+        {
+          "t": "p",
+          "v": "“I want to say out loud that I’ve wanted to do this since I was nine.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen had the rental paperwork for the jackhammer under a landscaping company that had gone out of business in 2019, which took him eleven minutes and which he described as the easiest thing he’d done all week. Lena set up two cameras. Milo stood at the top of the street with a thermos, because somebody was going to come out of a house and ask what was happening and it was better if that somebody talked to Milo first."
+        },
+        {
+          "t": "p",
+          "v": "At two in the morning, Vex put a jackhammer into the middle of Main Street, six feet from the curb, right where the pothole used to be."
+        },
+        {
+          "t": "p",
+          "v": "It was extremely loud."
+        },
+        {
+          "t": "p",
+          "v": "It took her nine minutes to open a hole about the size of a bathtub, and she was good at it, and she did not stop smiling once."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s02",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 241,
+      "words": 241,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Ida Prewitt came out in a housecoat at ten past."
+        },
+        {
+          "t": "p",
+          "v": "“Morning,” Milo said."
+        },
+        {
+          "t": "p",
+          "v": "“It is not morning.”"
+        },
+        {
+          "t": "p",
+          "v": "“No, ma’am.”"
+        },
+        {
+          "t": "p",
+          "v": "“Why is that girl destroying the street?”"
+        },
+        {
+          "t": "p",
+          "v": "“Utility survey,” Milo said. “There’s a soft spot under the asphalt. If we don’t open it up now, we lose the whole lane in the fall.”"
+        },
+        {
+          "t": "p",
+          "v": "Ida looked at the hole. She looked at Vex, who waved. She looked back at Milo."
+        },
+        {
+          "t": "p",
+          "v": "“Nobody tells this town anything,” she said, and went inside."
+        },
+        {
+          "t": "p",
+          "v": "They swept the loose material into a pile, put four cones around it, and waited."
+        },
+        {
+          "t": "p",
+          "v": "Nothing happened."
+        },
+        {
+          "t": "p",
+          "v": "They waited until four. Lena fell asleep in a lawn chair. Owen ran out of things to check and started checking them again."
+        },
+        {
+          "t": "p",
+          "v": "At about four thirty a figure came along the rooftops on the west side of the street, dropped down onto the awning of the shoe store and then onto the sidewalk, and stood there looking at the hole."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar has questions.”"
+        },
+        {
+          "t": "p",
+          "v": "“Of course he does,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“There is a crater in Main Street.”"
+        },
+        {
+          "t": "p",
+          "v": "“There’s a soft spot under the asphalt.”"
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar has been running a listening post on this street for nine nights. He has a directional dish on the roof of the feed store, and a recorder, and he has heard every car that has come down this road, and he has not heard a work crew.” He walked around the hole. “The Nightjar wants to know who benefits.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s03",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 219,
+      "words": 216,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Nobody benefits,” Owen said. “It’s a hole.”"
+        },
+        {
+          "t": "p",
+          "v": "“That is what they said about the last one.”"
+        },
+        {
+          "t": "p",
+          "v": "He left the way he came, and Vex watched him go up a drainpipe without using his hands much and said, quietly, “He’s so good at that.”"
+        },
+        {
+          "t": "p",
+          "v": "By six the sky was going gray and the hole was still a hole."
+        },
+        {
+          "t": "p",
+          "v": "“He’s not coming,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“Maybe it takes a day.”"
+        },
+        {
+          "t": "p",
+          "v": "“A hole in a road is not urgent. Somebody in this town has a chair with a broken leg and that is the same size problem to him.” Pip stood up. “I need to think about this differently.”"
+        },
+        {
+          "t": "h",
+          "v": "Owen’s Notebook"
+        },
+        {
+          "t": "p",
+          "v": "Owen found it that afternoon, and he found it because he was trying to prove Pip wrong."
+        },
+        {
+          "t": "p",
+          "v": "He keeps an equipment log for the Warehouse. Everything that comes in, everything that goes out, who has it. He started it two years ago because Felix used to take things and not bring them back, except that he did not know that sentence, and could not have said it, and what he had instead was a page."
+        },
+        {
+          "t": "p",
+          "v": "The page said, in his own handwriting, in his own numbering system:"
+        },
+        {
+          "t": "i",
+          "v": "4/12 — receiver mount rebuilt, F. Parts from bin 3."
+        },
+        {
+          "t": "i",
+          "v": "4/19 — F. has the good multimeter. Ask."
+        },
+        {
+          "t": "i",
+          "v": "5/2 — F. returned multimeter (broken)."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s04",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 182,
+      "words": 182,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "There were nine entries with an F in them. Every one of them was in his handwriting, and he had no memory of writing any of them, and the Nightjar prints in capitals and has never once had a name."
+        },
+        {
+          "t": "p",
+          "v": "He sat and looked at the page for a long time."
+        },
+        {
+          "t": "p",
+          "v": "Then he went and found the others in the Pit and put the notebook on the table."
+        },
+        {
+          "t": "p",
+          "v": "“I don’t remember him,” he said. “I want to be clear that I still don’t. But somebody with a name that starts with F broke my multimeter on the second of May and I wrote it down, and there is nobody in this town whose name starts with F.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena picked up the book. “Owen.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know.”"
+        },
+        {
+          "t": "p",
+          "v": "“This is your handwriting.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know it is.”"
+        },
+        {
+          "t": "p",
+          "v": "Milo sat down slowly."
+        },
+        {
+          "t": "p",
+          "v": "“Pip,” he said. “I’m sorry.”"
+        },
+        {
+          "t": "p",
+          "v": "“You do not need to be.”"
+        },
+        {
+          "t": "p",
+          "v": "“No, I do. I sat there and offered to sit with you.” He rubbed his face. “Okay. What do you need?”"
+        },
+        {
+          "t": "p",
+          "v": "“I need him to come,” Pip said, “and the road did not work.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s05",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 234,
+      "words": 229,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Thing Pip Did"
+        },
+        {
+          "t": "p",
+          "v": "She did it at eleven that night and she did not tell anybody first, which is the part Vex never fully forgave."
+        },
+        {
+          "t": "p",
+          "v": "Pip has a panel in her chest about the size of a paperback. Under it there is a board, and on the board there is a small square component that Chet soldered in eleven years ago and that she has never touched. She opened the panel, took the component out, put it in her jacket pocket, and closed the panel."
+        },
+        {
+          "t": "p",
+          "v": "Then she sat down on the loading step behind the Warehouse to wait."
+        },
+        {
+          "t": "p",
+          "v": "What happened next was not what she expected. She thought she would go quiet. Instead everything came in at once, all of it, every wire and every phone and every appliance in a nine-block radius, with nothing sorting it, and she could not tell the fridge from the streetlight from the person walking their dog on Crescent."
+        },
+        {
+          "t": "p",
+          "v": "Vex found her at twenty past eleven, sitting on the step with her hands flat on her knees and her eyes open, saying numbers."
+        },
+        {
+          "t": "p",
+          "v": "“Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "“Twelve. Twelve. Forty-one. Twelve.”"
+        },
+        {
+          "t": "p",
+          "v": "“Pip, look at me.” Vex got down in front of her and did not touch her, because they had talked about that, and then she touched her anyway, both hands on her shoulders. “What did you do?”"
+        },
+        {
+          "t": "p",
+          "v": "Pip’s eyes came halfway back."
+        },
+        {
+          "t": "p",
+          "v": "“I broke something real,” she said."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s06",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 189,
+      "words": 186,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“You broke you.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“That’s not what she meant.”"
+        },
+        {
+          "t": "p",
+          "v": "“It is exactly what she meant.” Pip’s head tilted at a wrong angle. “Nobody was going to come for a road, Vex.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex got her phone out and called Milo and could not get her voice to work properly for the first three seconds of the call."
+        },
+        {
+          "t": "p",
+          "v": "They were still arguing about whether to move her when a door about four and a half feet tall opened in the brick wall of the Warehouse, and Chet came through it fast, without knocking, without apologizing, with the clipboard under his arm and no list on it at all."
+        },
+        {
+          "t": "h",
+          "v": "Nine Minutes"
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” he said. “Okay okay okay. What did you do to yourself?”"
+        },
+        {
+          "t": "p",
+          "v": "“It is in my pocket.”"
+        },
+        {
+          "t": "p",
+          "v": "He took the component out and looked at it and made a noise like a sigh, which he does not need to do either."
+        },
+        {
+          "t": "p",
+          "v": "“That’s the filter. Pip, that’s the filter.” He got the panel open. “This is a nine-minute job and you’re going to hate seven of them. Somebody hold her upright, please, and don’t let her tip.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex held her upright."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s07",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 240,
+      "words": 240,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Chet worked. Nobody said anything for a while, and then Pip’s eyes came the rest of the way back, and the first thing she said was:"
+        },
+        {
+          "t": "p",
+          "v": "“Felix.”"
+        },
+        {
+          "t": "p",
+          "v": "“Who?”"
+        },
+        {
+          "t": "p",
+          "v": "“That is why I did it,” Pip said. “You came to eleven bedrooms on the night of the twelfth. You went to the last house at twenty to six in the morning. There was a television on in that room, and there was a boy asleep on the couch in front of it, and his name was Felix, and you did not put him back the way he was.”"
+        },
+        {
+          "t": "p",
+          "v": "Chet stopped working."
+        },
+        {
+          "t": "p",
+          "v": "“No. I did that whole list. Eleven for eleven, and I check them twice, I always check them twice, and every one of them came out matching.” Then he said, slower, “There was a movie on in that room.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“There was a man on a roof in the rain and he was talking about the guilty.” Chet looked at the sidewalk. “It was a really good movie.”"
+        },
+        {
+          "t": "p",
+          "v": "“Show me,” Vex said. “He’s three blocks from here right now. He’ll be on a roof. He’s always on a roof.”"
+        },
+        {
+          "t": "p",
+          "v": "So they went, the three of them and a monkey who was already on the corner, and they stood at the bottom of the feed store and looked up at a man in a mask, and Chet looked at him for a long, long time with his head at an angle."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s08",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 248,
+      "words": 248,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“There’s nothing wrong with him,” Chet said."
+        },
+        {
+          "t": "p",
+          "v": "“There is everything wrong with him.”"
+        },
+        {
+          "t": "p",
+          "v": "“Pip, I’m telling you what I see. He matches. Whatever he’s supposed to be, that is exactly what he is, right down to the stitching, and I cannot fix a thing that isn’t broken. I don’t have a fault to work from.” He turned around. “I need the original. I need to know what he was before. Is that written down anywhere?”"
+        },
+        {
+          "t": "p",
+          "v": "“No,” Pip said. “There are nine lines in Owen’s notebook and a list on a garage wall. That is all that is left.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then I can’t—”"
+        },
+        {
+          "t": "p",
+          "v": "“It is in me.”"
+        },
+        {
+          "t": "p",
+          "v": "Chet went very still."
+        },
+        {
+          "t": "p",
+          "v": "“I remember him,” Pip said. “I am the only one who does. And you wrote me, so you can read me.”"
+        },
+        {
+          "t": "p",
+          "v": "“Pip.”"
+        },
+        {
+          "t": "p",
+          "v": "“You can read me the way you read a chart.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know I can.” Chet picked his clipboard back up and held it against his chest with both hands. “I did this. I want to say that out loud in front of all three of you before we go any further. Nobody made me look at that television.”"
+        },
+        {
+          "t": "p",
+          "v": "“How long does it take?” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“Twenty minutes. Maybe less.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then that is what we are doing.”"
+        },
+        {
+          "t": "p",
+          "v": "Up on the roof of the feed store, the Nightjar swung a directional dish around to point at the school, and did not look down, and had no idea any of them were there."
+        },
+        {
+          "t": "i",
+          "v": "To be continued in Part Four: Lasso"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n3-s09",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    }
+  ]
+}

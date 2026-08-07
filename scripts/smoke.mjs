@@ -33,7 +33,7 @@ const base = `http://localhost:${port}`;
 // itself, which is also what the reader routes on -- so if the two ever disagree, this fails
 // with a 404 instead of quietly testing a URL nobody uses.
 const volumes = [];
-for (const slug of ['vol1', 'vol2', 'vol3', 'vol4', 'u1', 'u2', 'u3', 'u4']) {
+for (const slug of ['vol1', 'vol2', 'vol3', 'vol4', 'u1', 'u2', 'u3', 'u4', 'n1', 'n2', 'n3', 'n4']) {
   try {
     const v = JSON.parse(readFileSync(join(ROOT, 'patch-notes', 'volumes', `${slug}.json`), 'utf8'));
     volumes.push({ slug, arc: v.arc ?? 'patch-notes' });

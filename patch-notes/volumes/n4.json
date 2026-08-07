@@ -1,0 +1,740 @@
+{
+  "volume": 4,
+  "arc": "nightjar",
+  "slug": "n4",
+  "imagesPending": true,
+  "source": "NIGHTJAR_Part_4_v2.md",
+  "chapter": "Part Four: Lasso",
+  "specVersion": "1 | Date: 2026-08-07",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Nightjar",
+        "part": "Part Four: Lasso"
+      },
+      "image": {
+        "slug": "n4-opener",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 205,
+      "words": 202,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Twenty Minutes"
+        },
+        {
+          "t": "p",
+          "v": "They did it in the alley behind the feed store, because Pip wouldn’t go anywhere with better light and lose the roof."
+        },
+        {
+          "t": "p",
+          "v": "Chet ran a cable out of his own chest plate and put the other end in the port behind her ear, and the two of them sat on a milk crate and a paint bucket and didn’t move."
+        },
+        {
+          "t": "p",
+          "v": "“Is she okay?” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“She’s reading. I’m not doing it to her, she’s handing it to me.”"
+        },
+        {
+          "t": "p",
+          "v": "At sixteen minutes his head came up."
+        },
+        {
+          "t": "p",
+          "v": "“Oh,” he said. “Oh, he was funny.”"
+        },
+        {
+          "t": "p",
+          "v": "“What?”"
+        },
+        {
+          "t": "p",
+          "v": "“He talked the entire time he worked. He talked to the tools.” Chet’s voice did something it hadn’t done before. “He built a thing to keep a lizard off a router and it didn’t work and he kept it anyway.”"
+        },
+        {
+          "t": "p",
+          "v": "“That’s him,” Vex said. “I don’t remember it and that’s him.”"
+        },
+        {
+          "t": "p",
+          "v": "At eighteen minutes Chet unplugged and sat there with his hands on his knees."
+        },
+        {
+          "t": "p",
+          "v": "“I’ve got him,” he said. “I’ve got the whole spec. I can put him back and it takes four seconds.” He looked up at the roofline. “Now I need somebody to hold still for me, and that boy has not held still since Wednesday.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s01",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 210,
+      "words": 204,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Where He Hasn’t Been Yet"
+        },
+        {
+          "t": "p",
+          "v": "Monke was already at the end of the alley."
+        },
+        {
+          "t": "p",
+          "v": "He went east, and they followed, and twice he stopped and sat on a curb to let them catch up. At the corner of Fifth he waited eleven minutes on a mailbox for no reason any of them could see, and then a shape came over the roof of the laundromat, dropped into the lot behind it and went north, and Monke got down and went north too."
+        },
+        {
+          "t": "p",
+          "v": "“He’s tracking him,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“He is not tracking him,” Pip said. “He has not looked at the ground once.”"
+        },
+        {
+          "t": "p",
+          "v": "Chet fell behind twice. The first time it was a fence. The second time it was a mailbox on Fifth with a hinge that had come loose, and he stopped and fixed it, and when Vex came back for him he said, “That was forty seconds,” as though that settled it."
+        },
+        {
+          "t": "p",
+          "v": "At the corner of Route 9 and Bell, Monke turned right, away from the whole town, and kept going."
+        },
+        {
+          "t": "p",
+          "v": "“There’s nothing out there,” Vex said. “There’s the feed lot and the drive-in and then the county line.”"
+        },
+        {
+          "t": "p",
+          "v": "Monke did not slow down."
+        },
+        {
+          "t": "p",
+          "v": "“He is not following him,” Pip said. “He is going somewhere ahead of him.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s02",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 260,
+      "words": 258,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Junie"
+        },
+        {
+          "t": "p",
+          "v": "The Millbrook Auto Vue closed in 1988 and Junie Okafor has been keeping the projection booth running ever since, for nobody, on Tuesdays and Fridays, which she will tell you is a hobby and not a sadness."
+        },
+        {
+          "t": "p",
+          "v": "She had the light on. She came out of the booth with a flashlight when she heard them on the gravel and she was not surprised to see a robot."
+        },
+        {
+          "t": "p",
+          "v": "“You’re here about the boy in the mask,” she said."
+        },
+        {
+          "t": "p",
+          "v": "“Yes,” said three of them at once."
+        },
+        {
+          "t": "p",
+          "v": "“He’s been out back of the concession stand two weeks working on that Buick. It’s been sitting there since I don’t know when.” She pointed with the flashlight. “Got it running Sunday. He told me the Nightjar thanks me for my discretion, and then he asked if I needed anything lifted.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex went and looked. The Buick was cleaned up, tuned, and pointed at the exit."
+        },
+        {
+          "t": "p",
+          "v": "“Miss Okafor,” Pip said. “Have you seen the film?”"
+        },
+        {
+          "t": "p",
+          "v": "“Two hundred times. Nobody else has seen it once.”"
+        },
+        {
+          "t": "p",
+          "v": "“How does it end?”"
+        },
+        {
+          "t": "p",
+          "v": "Junie leaned on the doorframe."
+        },
+        {
+          "t": "p",
+          "v": "“He wins,” she said. “That’s the thing nobody expects when I tell them about it. It wasn’t popular and we only carried it a few weeks, and I never understood that, because it’s a good picture. It’s motivational. There’s a man who decides all by himself that somebody ought to be looking out for people, and then he does it, and he cleans the whole city up.” She smiled a little. “He was the superhero people needed. Nobody bought a ticket.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s03",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 145,
+      "words": 142,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“And then?”"
+        },
+        {
+          "t": "p",
+          "v": "“And then there’s nothing left for him to do there, so he drives out at dawn to go save another town. Camera holds on the road. That’s the picture.”"
+        },
+        {
+          "t": "p",
+          "v": "Nobody said anything."
+        },
+        {
+          "t": "p",
+          "v": "“What time is dawn?” Chet said."
+        },
+        {
+          "t": "p",
+          "v": "“About twenty past five,” said Junie."
+        },
+        {
+          "t": "p",
+          "v": "It was four fifty."
+        },
+        {
+          "t": "h",
+          "v": "The Briefing"
+        },
+        {
+          "t": "p",
+          "v": "He came in over the back fence at five o’clock and stopped dead when he saw four of them standing between him and the Buick."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar had hoped to avoid a goodbye.”"
+        },
+        {
+          "t": "p",
+          "v": "“Tough,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "He looked at Chet for a long moment, and Chet looked back, and neither of them said anything about what the other one was."
+        },
+        {
+          "t": "p",
+          "v": "“Then the Nightjar will use the time,” he said. “Because the Nightjar has something, and he has been carrying it for two days, and there has been nobody to give it to.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s04",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 203,
+      "words": 203,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "He took a cassette out of his coat."
+        },
+        {
+          "t": "p",
+          "v": "“Tuesday night, the listening post picked up a room in a motel on Route 9, forty minutes outside this town. Two men. One of them is an officer. The Nightjar knows the voice.”"
+        },
+        {
+          "t": "p",
+          "v": "“Crane,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar does not use names he cannot confirm.” He held the tape up. “The officer said that containment was the wrong objective. He said you do not contain a thing that rewrites its own file. He said the operation proceeds on the assumption that it can be taken intact.”"
+        },
+        {
+          "t": "p",
+          "v": "“Taken,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“Taken. Not buried. Not sealed. Taken, and kept, and moved.” He turned the tape over in his fingers. “The second man asked what happens to the town if they take it. The officer did not answer him. The tape runs another nine minutes and he never answers him.”"
+        },
+        {
+          "t": "p",
+          "v": "“Does the operation have a name?” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“It does.” The Nightjar handed her the cassette. “They call it Lasso.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip held it in both hands."
+        },
+        {
+          "t": "p",
+          "v": "“Does that help?” he said, and for one second there was nothing in his voice but a kid asking."
+        },
+        {
+          "t": "p",
+          "v": "“Yes,” Pip said. “That helps more than anything anybody has done all week.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s05",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 217,
+      "words": 214,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Four Seconds"
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar has to go now.”"
+        },
+        {
+          "t": "p",
+          "v": "“Wait.”"
+        },
+        {
+          "t": "p",
+          "v": "“There is no crime left in Millbrook. The Nightjar has looked, and looked, and the biggest thing he has found is a man in a motel forty minutes away, and that man is not this town’s problem to solve.” He was already moving toward the Buick. “There is a road, and there are other towns on it, and they have not been looked after.”"
+        },
+        {
+          "t": "p",
+          "v": "“You have an open case,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "He stopped."
+        },
+        {
+          "t": "p",
+          "v": "“On Tuesday I reported a missing person to you,” she said. “You wrote it in the log. I watched you write it.”"
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar remembers.”"
+        },
+        {
+          "t": "p",
+          "v": "“You never closed it.”"
+        },
+        {
+          "t": "p",
+          "v": "“No.” He stood very still. “There is no file on that person anywhere in the county, and a person with no file is a person nobody is coming for.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know where he is,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“Then the Nightjar will bring him home. Tell me where.”"
+        },
+        {
+          "t": "p",
+          "v": "“That is the part you are not going to like.” Pip nodded at Chet. “He can find him. He is the only one who can, and he cannot do it without you, and he has to do it to you.”"
+        },
+        {
+          "t": "p",
+          "v": "The Nightjar looked at the robot for a while."
+        },
+        {
+          "t": "p",
+          "v": "“Say it plainly,” he said. “The Nightjar prefers it plainly.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s06",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 225,
+      "words": 225,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“The missing boy is where you are,” Chet said. “There isn’t room for the both of you. I can bring him back and it takes four seconds, and when I’m done, you won’t be here. I want to be honest with you, because nobody was honest with you when this started, and that was me.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then the Nightjar would be gone.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“And nobody would remember him.”"
+        },
+        {
+          "t": "p",
+          "v": "“I would,” Pip said. “I am very good at that.”"
+        },
+        {
+          "t": "p",
+          "v": "He looked at her, and then at the Buick with its nose pointed at the exit, and then at his own hands."
+        },
+        {
+          "t": "p",
+          "v": "“Is he a good man?” he said."
+        },
+        {
+          "t": "p",
+          "v": "“He is fifteen and he is the best of us. He talks to his tools. He gives everything away. He has never once been on time.”"
+        },
+        {
+          "t": "p",
+          "v": "“And to find him, somebody must stop looking.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "The Nightjar stood in the gravel of a drive-in that closed the year the movie was made, and the sky behind him was starting to go gray, and he did the arithmetic, and it did not take him long."
+        },
+        {
+          "t": "p",
+          "v": "“Then the Nightjar knows his duty,” he said. He put his shoulders back. “The guilty flinch. The Nightjar does not.”"
+        },
+        {
+          "t": "p",
+          "v": "He knelt down in front of Chet like a man being knighted, which nobody had asked him to do."
+        },
+        {
+          "t": "p",
+          "v": "“Four seconds,” Chet said. “Sorry. Sorry.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s07",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 264,
+      "words": 261,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Felix opened his eyes in a gravel lot at five sixteen in the morning wearing a cape."
+        },
+        {
+          "t": "p",
+          "v": "“Why am I outside,” he said."
+        },
+        {
+          "t": "p",
+          "v": "Vex hit him in the shoulder, hard, twice, and then she put her arms around him and stayed there."
+        },
+        {
+          "t": "p",
+          "v": "“Ow. Okay. Ow.” He looked over her head at Pip and Chet and a monkey and a Buick. “Why is everyone crying at a drive-in? Whose car is that? That’s a good car. Somebody fixed the timing on that.”"
+        },
+        {
+          "t": "p",
+          "v": "“You did,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“I did not.”"
+        },
+        {
+          "t": "p",
+          "v": "“You did.”"
+        },
+        {
+          "t": "p",
+          "v": "“Huh,” said Felix, and went and looked under the hood, and that is when Vex sat down in the gravel and put her head on her knees."
+        },
+        {
+          "t": "h",
+          "v": "Bear Crossing"
+        },
+        {
+          "t": "p",
+          "v": "Chet stayed for the sunrise, and then he stayed for another hour, because Vex took him to the garage."
+        },
+        {
+          "t": "p",
+          "v": "He went around that garage like a man in a museum. He picked up the half-built thing with the wire coming out of it, worked out what it was for in about nine seconds, told Felix what he’d gotten wrong, and then the two of them argued about it for twenty minutes."
+        },
+        {
+          "t": "p",
+          "v": "“You know what I like about you,” Chet said. “You build things that don’t work.”"
+        },
+        {
+          "t": "p",
+          "v": "“Thanks.”"
+        },
+        {
+          "t": "p",
+          "v": "“No, that’s the compliment. I’ve been alive eleven hundred years and I have never once built something that didn’t work, because I have never once built something nobody told me to build.” He put the thing down carefully. “I’ve been to four hundred towns. Nobody in any of them ever gave me a chair to sit in.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s08",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 258,
+      "words": 258,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Pip walked him out."
+        },
+        {
+          "t": "p",
+          "v": "“He made those children sick on purpose,” she said. “All eleven of them. He picked them out of a list and he did it for a reason and you cleaned it up and you never asked him why.”"
+        },
+        {
+          "t": "p",
+          "v": "Chet stopped at the wall."
+        },
+        {
+          "t": "p",
+          "v": "“I know,” he said."
+        },
+        {
+          "t": "p",
+          "v": "“I am not sure he should be helped, Chet. I want to say that out loud to somebody before there is a reason to help him.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know,” Chet said again, and that was all he said, and then the door was there and he went through it and the wall was a wall."
+        },
+        {
+          "t": "p",
+          "v": "That night the pothole was fixed."
+        },
+        {
+          "t": "p",
+          "v": "Not patched. Repaired, curb to curb, the whole block, with the edges cut clean and the paint down and the storm grate reset level for the first time since 1979. Millbrook woke up to the best street in the county and everybody was delighted."
+        },
+        {
+          "t": "p",
+          "v": "At the west end of it there was a new sign on a new post."
+        },
+        {
+          "t": "p",
+          "v": "BEAR CROSSING."
+        },
+        {
+          "t": "p",
+          "v": "Owen stood in front of it Tuesday morning with his coffee going cold in his hand."
+        },
+        {
+          "t": "p",
+          "v": "“There is no bear crossing on Main Street,” he said. “There’s no bear crossing anywhere in this county. No ordinance, no survey, no work order. I checked all three twice.”"
+        },
+        {
+          "t": "p",
+          "v": "“So somebody made a mistake,” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“Nothing under that school has ever made one. It does what the paperwork says and there is no paperwork here.” He pointed at the sign. “Somebody wrote this. Not copied it. Wrote it.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s09",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 10,
+      "kind": "spread",
+      "pages": "21 to 22",
+      "declaredWords": 188,
+      "words": 188,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Pip had been quiet the whole time. She put her hand flat on the post."
+        },
+        {
+          "t": "p",
+          "v": "“He told me he had never built anything that nobody asked him to build,” she said. “Eleven hundred years and four hundred towns, and not one thing of his own.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena turned around. “Chet did this?”"
+        },
+        {
+          "t": "p",
+          "v": "“He fixed the street because that is a repair, and then he did not go home.” Pip looked down the length of the new road. “He stood right here and he had an idea, and it was his, and nobody had ordered it. I think he was proud of it.”"
+        },
+        {
+          "t": "p",
+          "v": "“It’s a sign about bears.”"
+        },
+        {
+          "t": "p",
+          "v": "“It is the first thing he has ever wanted.”"
+        },
+        {
+          "t": "p",
+          "v": "Owen had gone very still."
+        },
+        {
+          "t": "p",
+          "v": "“Pip,” he said. “A sign is a document.”"
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“The town has to match the sign.”"
+        },
+        {
+          "t": "p",
+          "v": "They found the bear on Thursday, sitting in the crosswalk outside Carter’s Hardware at nine in the morning, enormous and calm and entirely real, while Mayor Dalton walked toward it with his phone out and his arm already up for the photograph."
+        },
+        {
+          "t": "i",
+          "v": "End of “The Nightjar”"
+        },
+        {
+          "t": "i",
+          "v": "The Digital Slop Squads will return."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n4-s10",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    }
+  ]
+}

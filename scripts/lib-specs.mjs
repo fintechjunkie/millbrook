@@ -26,6 +26,10 @@ export const SPEC_FOR = {
   u2: 'UNDERSTUDIES_Vol2_Spec.md',
   u3: 'UNDERSTUDIES_Vol3_Spec.md',
   u4: 'UNDERSTUDIES_Vol4_Spec.md',
+  n1: 'NIGHTJAR_Vol1_Spec.md',
+  n2: 'NIGHTJAR_Vol2_Spec.md',
+  n3: 'NIGHTJAR_Vol3_Spec.md',
+  n4: 'NIGHTJAR_Vol4_Spec.md',
 };
 
 export const ALL_SLUGS = Object.keys(SPEC_FOR);

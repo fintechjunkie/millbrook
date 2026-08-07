@@ -1,0 +1,640 @@
+{
+  "volume": 2,
+  "arc": "nightjar",
+  "slug": "n2",
+  "imagesPending": true,
+  "source": "NIGHTJAR_Part_2_v2.md",
+  "chapter": "Part Two: Patrol",
+  "specVersion": "1 | Date: 2026-08-07",
+  "date": null,
+  "spreads": [
+    {
+      "n": 0,
+      "kind": "opener",
+      "title": {
+        "title": "WELCOME TO MILLBROOK",
+        "subtitle": "A Digital Slop Story",
+        "series": "The Nightjar",
+        "part": "Part Two: Patrol"
+      },
+      "image": {
+        "slug": "n2-opener",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 1,
+      "kind": "spread",
+      "pages": "3 to 4",
+      "declaredWords": 212,
+      "words": 208,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Crime Radio"
+        },
+        {
+          "t": "p",
+          "v": "The Nightjar patrolled every night from ten until about two, and in a town of four thousand people with no crime in it, that is a long shift."
+        },
+        {
+          "t": "p",
+          "v": "He kept a log. Lena had seen it. It was a spiral notebook with dates in the corner and entries like SUSPICIOUS VAN, RESOLVED and PARTY OF TWO, RESERVOIR, MONITORED."
+        },
+        {
+          "t": "p",
+          "v": "Monday he apprehended a raccoon behind the bakery. He did not hurt the raccoon and the raccoon did not hurt him, and the whole encounter took about nine minutes and ended with the raccoon walking away and the Nightjar watching it go."
+        },
+        {
+          "t": "p",
+          "v": "Tuesday he surveilled a car parked out at the reservoir for forty minutes and wrote down the license plate. It was the Kowalskis. They’ve been married nineteen years."
+        },
+        {
+          "t": "p",
+          "v": "Wednesday he stopped by Rosa’s truck at ten while she was closing."
+        },
+        {
+          "t": "p",
+          "v": "“This vehicle is unmarked after dark.”"
+        },
+        {
+          "t": "p",
+          "v": "“It says Delgado on the side in a foot-high letters, mijo.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then it is marked, and the Nightjar was mistaken, and the Nightjar admits it.” He looked at the fryer. “You should not be alone out here at this hour.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’ve got a phone and a bat.”"
+        },
+        {
+          "t": "p",
+          "v": "“Good. That is good.” He stood there a second longer. “The Nightjar does not eat.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s01",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 2,
+      "kind": "spread",
+      "pages": "5 to 6",
+      "declaredWords": 249,
+      "words": 249,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "Rosa handed him a taco. He ate it. He thanked her formally, in the third person, and left by going over the fence instead of through the open gate eight feet to his left."
+        },
+        {
+          "t": "p",
+          "v": "He had a police scanner and he called it the crime radio. The scanner had been quiet since the Army pulled out in May, so he carried it around a town where nothing was happening, listening to nothing happen."
+        },
+        {
+          "t": "p",
+          "v": "He also had gadgets. He had a grappling hook made out of a bike frame that worked exactly once and was never going to work again. He had a net from the badminton set at the school, which he called the justice net, and which had caught the raccoon. He had caltrops he’d bent out of forks and laid across Crescent one night, and then he’d had to go back at five in the morning and pick every one of them up, because Ida Prewitt walks her beagles at six and the Nightjar is not a monster."
+        },
+        {
+          "t": "p",
+          "v": "He had three hundred printed calling cards that said THE NIGHTJAR WAS HERE. He’d left about forty of them around town so far, mostly in places where nothing had happened."
+        },
+        {
+          "t": "p",
+          "v": "Owen looked the word up on the second day."
+        },
+        {
+          "t": "p",
+          "v": "“It’s a bird,” he said. “A nightjar. It’s a small brown bird about the size of your hand and it eats moths.”"
+        },
+        {
+          "t": "p",
+          "v": "“Does he know?” Lena said."
+        },
+        {
+          "t": "p",
+          "v": "“I told him.”"
+        },
+        {
+          "t": "p",
+          "v": "“And?”"
+        },
+        {
+          "t": "p",
+          "v": "“He said the Nightjar is aware of the bird.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s02",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 3,
+      "kind": "spread",
+      "pages": "7 to 8",
+      "declaredWords": 254,
+      "words": 251,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "Nobody Remembers"
+        },
+        {
+          "t": "p",
+          "v": "Pip spent two days trying to get somebody to listen to her, and it went badly, and it went badly in the worst possible way, which was kindly."
+        },
+        {
+          "t": "p",
+          "v": "Milo listened all the way through. Milo always listens all the way through. Then he asked her whether she’d been running longer than usual lately, and offered to sit with her, and did not once raise his voice or tell her she was wrong."
+        },
+        {
+          "t": "p",
+          "v": "Owen ran the records, because that’s what Owen does when somebody says something he doesn’t believe. He pulled the school enrollment, the county library cards, the youth soccer roster from four years ago, and a photo of the six of them at the reservoir that had been on the Warehouse wall since last summer."
+        },
+        {
+          "t": "p",
+          "v": "“There’s six people in the picture,” he said. “Me, you, Milo, Lena, Vex and him.”"
+        },
+        {
+          "t": "p",
+          "v": "“Show me his face.”"
+        },
+        {
+          "t": "p",
+          "v": "“He’s wearing the mask. He’s always wearing the mask.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then that photograph proves nothing.”"
+        },
+        {
+          "t": "p",
+          "v": "“Pip, it proves there were six of us.”"
+        },
+        {
+          "t": "p",
+          "v": "Lena went through her own footage, and she has a lot of it, and the Nightjar is in all of it going back years. She found a clip from a rainy Tuesday in October where he’s standing under an awning arguing with Owen about whether crime can be prevented in a place that has no crime."
+        },
+        {
+          "t": "p",
+          "v": "She watched it four times and then she came and found Pip."
+        },
+        {
+          "t": "p",
+          "v": "“That’s him,” Lena said. “That’s his voice and that’s his coat and I remember making it.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s03",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 4,
+      "kind": "spread",
+      "pages": "9 to 10",
+      "declaredWords": 198,
+      "words": 196,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“I know you do.”"
+        },
+        {
+          "t": "p",
+          "v": "“So what am I supposed to do with what you’re telling me?”"
+        },
+        {
+          "t": "p",
+          "v": "“Nothing,” Pip said. “I am not asking any of you to feel differently. I am telling you what is true and I understand that it is not going to help.”"
+        },
+        {
+          "t": "p",
+          "v": "That was the part they couldn’t handle, and it was the part that made them worry about her most. Pip wasn’t upset. She just kept saying it."
+        },
+        {
+          "t": "p",
+          "v": "The one thing she did not say out loud, to anybody, was that the Nightjar’s voice sat on the wrong band. She could hear it the way you can hear a piano that’s been tuned to somebody else’s piano. Everything about him was correct and none of it was the person she knew."
+        },
+        {
+          "t": "h",
+          "v": "Vex"
+        },
+        {
+          "t": "p",
+          "v": "Vex came and found her on the third night, out behind the Warehouse, sitting on the loading step."
+        },
+        {
+          "t": "p",
+          "v": "“Okay,” Vex said. “Go through it again.”"
+        },
+        {
+          "t": "p",
+          "v": "“I have gone through it four times.”"
+        },
+        {
+          "t": "p",
+          "v": "“Then go through it a fifth, because I wasn’t listening properly the first four.”"
+        },
+        {
+          "t": "p",
+          "v": "So Pip went through it again. Vex sat next to her with her elbows on her knees and didn’t interrupt, which cost her something."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s04",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 5,
+      "kind": "spread",
+      "pages": "11 to 12",
+      "declaredWords": 148,
+      "words": 148,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "“Here’s where I am,” Vex said when it was done. “I don’t remember any Felix. I’ve tried, and there’s nothing there, and I’m not going to lie to you about it.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know.”"
+        },
+        {
+          "t": "p",
+          "v": "“But you’ve never once made something up. Not to be nice, not to get out of something, not one single time in two years.” She scratched the back of her neck. “Everybody else is looking at you and thinking you’re broken. I’m looking at you and thinking you’re the most reliable thing in this town, and I don’t know what to do with those two facts at the same time, so I’ve decided to go with the second one.”"
+        },
+        {
+          "t": "p",
+          "v": "Pip looked at her."
+        },
+        {
+          "t": "p",
+          "v": "“You do not have to do that.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know. Where are we going?”"
+        },
+        {
+          "t": "p",
+          "v": "That was the moment, and neither of them made a big thing of it, which is why it worked."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s05",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 6,
+      "kind": "spread",
+      "pages": "13 to 14",
+      "declaredWords": 234,
+      "words": 231,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Garage"
+        },
+        {
+          "t": "p",
+          "v": "Monke was waiting at the corner."
+        },
+        {
+          "t": "p",
+          "v": "He was sitting on a fire hydrant at the end of Crescent at eleven at night like he had an appointment, and when they came around the corner he got down and walked, and every time they slowed up he stopped and waited for them."
+        },
+        {
+          "t": "p",
+          "v": "“He’s taking us somewhere,” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“Yes.”"
+        },
+        {
+          "t": "p",
+          "v": "“Do we know that or are we guessing?”"
+        },
+        {
+          "t": "p",
+          "v": "“I do not guess.”"
+        },
+        {
+          "t": "p",
+          "v": "He took them nine blocks to a house neither of them had any reason to visit, and around the side of it to a detached garage with a bad roof."
+        },
+        {
+          "t": "p",
+          "v": "The side door was unlocked. Vex would have gotten in anyway."
+        },
+        {
+          "t": "p",
+          "v": "Inside there were tools everywhere, and a workbench, and a rolling chair with tape on the arm. There was a half-built thing on the floor about the size of a microwave with wire coming out of it and no obvious purpose. There were four bicycles in various states of disassembly and a coffee can full of screws sorted by size."
+        },
+        {
+          "t": "p",
+          "v": "“Whose garage is this?” Vex said."
+        },
+        {
+          "t": "p",
+          "v": "“I do not know. I have never been here.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex stood in the middle of it and turned around slowly. “Somebody uses this. Somebody used this yesterday, the coffee’s still in the cup.”"
+        },
+        {
+          "t": "p",
+          "v": "On the wall, taped up crooked, there was a piece of notebook paper with a list on it in blue ballpoint."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s06",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 7,
+      "kind": "spread",
+      "pages": "15 to 16",
+      "declaredWords": 184,
+      "words": 184,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "THINGS THE DRAGON HAS SET ON FIRE"
+        },
+        {
+          "t": "p",
+          "v": "1. the good extension cord"
+        },
+        {
+          "t": "p",
+          "v": "2. a chair"
+        },
+        {
+          "t": "p",
+          "v": "3. Owen’s mail"
+        },
+        {
+          "t": "p",
+          "v": "4. this list (attempt)"
+        },
+        {
+          "t": "p",
+          "v": "Pip stood in front of it for a while."
+        },
+        {
+          "t": "p",
+          "v": "“I remember this,” she said. “It was on the wall in the Shop and it burned, and he wrote it out again, and he laughed about it for a week.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex read it twice. “This isn’t the Nightjar’s handwriting.”"
+        },
+        {
+          "t": "p",
+          "v": "“No.”"
+        },
+        {
+          "t": "p",
+          "v": "“I’ve seen his log. I’ve seen him print. He does capitals, all of them, every letter.” Vex took her phone out and photographed the list, and then she photographed the workbench, and then she stood there with her thumb over the screen. “Okay. Somebody lives in this garage and it isn’t him.”"
+        },
+        {
+          "t": "p",
+          "v": "“It is his house.”"
+        },
+        {
+          "t": "p",
+          "v": "“I know it’s his house.”"
+        },
+        {
+          "t": "p",
+          "v": "Neither of them said anything for a second."
+        },
+        {
+          "t": "p",
+          "v": "“Pip,” Vex said. “I still don’t remember. I want to, and I don’t.”"
+        },
+        {
+          "t": "p",
+          "v": "“You will not,” Pip said. “That is not how it works. You are not going to wake up one day and have him back. Somebody has to go and get him.”"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s07",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 8,
+      "kind": "spread",
+      "pages": "17 to 18",
+      "declaredWords": 238,
+      "words": 234,
+      "blocks": [
+        {
+          "t": "h",
+          "v": "The Water Tower"
+        },
+        {
+          "t": "p",
+          "v": "They found him at one in the morning at the water tower, because he told them where he’d be. He tells everybody where he’ll be. It’s in the log."
+        },
+        {
+          "t": "p",
+          "v": "He’d run a line from the tower’s catwalk down to the roof of the feed store, which is about two hundred feet of cable and a forty-foot drop in the middle of it, and he’d built a handle for it out of a bike’s handlebar."
+        },
+        {
+          "t": "p",
+          "v": "“Rapid response,” he called down. “From this position the Nightjar can reach any point on Main Street in under a minute.”"
+        },
+        {
+          "t": "p",
+          "v": "“What’s on Main Street?” Vex called up."
+        },
+        {
+          "t": "p",
+          "v": "“Nothing yet.”"
+        },
+        {
+          "t": "p",
+          "v": "“Right, but what’s the—”"
+        },
+        {
+          "t": "p",
+          "v": "He went."
+        },
+        {
+          "t": "p",
+          "v": "The line held for about ninety feet and then the anchor at the feed store end started to walk, and the handlebar slid, and he came to a stop hanging over the middle of the street with one boot hooked over the cable and his cape wrapped twice around his own arm."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar is fine,” he announced."
+        },
+        {
+          "t": "p",
+          "v": "“You’re forty feet up.”"
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar is aware of that.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex was already climbing the tower. She went up the maintenance ladder without slowing down, got out on the catwalk, took hold of the cable and started walking it in hand over hand, which is a thing she could do at eleven years old and has never had a reason to be proud of until now."
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s08",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    },
+    {
+      "n": 9,
+      "kind": "spread",
+      "pages": "19 to 20",
+      "declaredWords": 220,
+      "words": 220,
+      "blocks": [
+        {
+          "t": "p",
+          "v": "It took four minutes. She got him to the catwalk and he came over the rail and sat down hard on the grating."
+        },
+        {
+          "t": "p",
+          "v": "“Thank you,” he said. Not in the third person, and Pip heard it."
+        },
+        {
+          "t": "p",
+          "v": "“Take the mask off,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“No.”"
+        },
+        {
+          "t": "p",
+          "v": "“Please.”"
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar’s face is not the Nightjar’s to give away.” He got up. He looked out over the town for a while, all four thousand people of it, asleep in the dark. “Do you know what troubles the Nightjar?”"
+        },
+        {
+          "t": "p",
+          "v": "“Tell me,” Pip said."
+        },
+        {
+          "t": "p",
+          "v": "“There is no crime in this town. None. Not one.” He tapped the scanner on his belt. “The Nightjar has patrolled and patrolled and caught a raccoon. And a town without crime is not a town without wrongdoing. It is a town where the wrongdoing is somewhere nobody is looking.”"
+        },
+        {
+          "t": "p",
+          "v": "Vex said, carefully, “Where do you figure that would be?”"
+        },
+        {
+          "t": "p",
+          "v": "He pointed south, past the rooftops, at the old elementary school behind its fence."
+        },
+        {
+          "t": "p",
+          "v": "“Something has been under that building for six months,” he said. “It has never once been asked for permission. It has never once been made to explain itself. Nobody has held it accountable, because nobody in Millbrook wants to know.”"
+        },
+        {
+          "t": "p",
+          "v": "He picked up his gear."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar wants to know.”"
+        },
+        {
+          "t": "i",
+          "v": "To be continued in Part Three: Just Break Something"
+        }
+      ],
+      "note": null,
+      "image": {
+        "slug": "n2-s09",
+        "shotType": null,
+        "depicts": null,
+        "spoilerCheck": null,
+        "hardConstraints": null,
+        "prompt": null,
+        "aspect": null,
+        "alt": null
+      }
+    }
+  ]
+}

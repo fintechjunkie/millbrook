@@ -45,7 +45,11 @@ const { roster, expand, rosterOrder, charsIn, nameFor, missingRefs } = createExp
 
 // Title for the sheet header. The arc name lives in the volume JSON; the number
 // is the tail of the slug, so this works for `vol3` and `u1` alike.
-const ARC_TITLE = { patch: 'The Patch Notes', understudies: 'The Understudies' };
+const ARC_TITLE = {
+  patch: 'The Patch Notes',
+  understudies: 'The Understudies',
+  nightjar: 'The Nightjar',
+};
 
 function build(slug) {
   const vol = JSON.parse(readFileSync(join(PN, 'volumes', `${slug}.json`), 'utf8'));

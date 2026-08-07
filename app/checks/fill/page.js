@@ -40,9 +40,13 @@ import u1 from '@/patch-notes/volumes/u1.json';
 import u2 from '@/patch-notes/volumes/u2.json';
 import u3 from '@/patch-notes/volumes/u3.json';
 import u4 from '@/patch-notes/volumes/u4.json';
+import n1 from '@/patch-notes/volumes/n1.json';
+import n2 from '@/patch-notes/volumes/n2.json';
+import n3 from '@/patch-notes/volumes/n3.json';
+import n4 from '@/patch-notes/volumes/n4.json';
 import { color, paper, type as typeTokens, face, space } from '@/lib/millbrook/series';
 
-const VOLUMES = [vol1, vol2, vol3, vol4, u1, u2, u3, u4];
+const VOLUMES = [vol1, vol2, vol3, vol4, u1, u2, u3, u4, n1, n2, n3, n4];
 
 /** The two laptops that matter. 604 is 1280x720, 696 is 1440x900. */
 const SIZES = [604, 696];
