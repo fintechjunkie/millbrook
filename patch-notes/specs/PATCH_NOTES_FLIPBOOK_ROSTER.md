@@ -1393,7 +1393,7 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:BACK_BEDROOM}}` | A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains. | 1 | not required |
 | `{{LOC:AUNT_CAROL_KITCHEN}}` | A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table. | 1 | not required |
 | `{{LOC:AUNT_CAROL_LIVING_ROOM}}` | A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen. | 1 | not required |
-| `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.** | 9 | `loc-main-street.png` — **not yet generated** |
+| `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.** | 9 | `loc-main-street.png` — delivered 2026-08-07 |
 **`MAIN_STREET` was a one-use "not required" location and The Nightjar puts nine pages on it.**
 It is now the arc's busiest place by a wide margin and it carries three specific buildings that
 are climbed, dropped from or landed on. All three have to be in the one generation, and the
@@ -1423,6 +1423,26 @@ of the street** while Vex hauls him in hand over hand from the catwalk. So the t
 two hundred feet from the feed store, it is about forty feet taller at the catwalk, and the line
 between them crosses Main Street. Neither reference may be generated as though the other is
 somewhere else. Same class of constraint as Old Bell Road's shoulders.
+
+**AND THE DELIVERED ART HAS NOT SETTLED IT.** `loc-main-street.png` and `loc-carters-roof.png`
+both put the water tower in frame, which is genuinely useful — but they put it **at the far end of
+the street beyond a treeline**, which reads as a good deal more than two hundred feet and as
+end-on to the street rather than across it. So the town now has a tower in a fixed place and that
+place does not support the zip line as written.
+
+Three ways out, and it is an authorial call rather than a generation problem:
+
+1. **Generate `loc-water-tower.png` anyway**, placing the tower close to the back of the Main
+   Street block, and treat the two delivered images as showing a *different, more distant* water
+   tower — which a town does not usually have two of.
+2. **Move the tower in a regeneration of the two street plates.** Expensive: both are otherwise
+   excellent and `loc-main-street.png` carries nine pages.
+3. **Change the prose.** *“About two hundred feet of cable”* is Lena's estimate, not a survey, and
+   nothing in the scene depends on the number except the feel of the drop. The beat that has to
+   survive is that he stops **over the middle of the street** with Vex hauling him in from the
+   catwalk, and a longer run over a treeline and then the street still gives that.
+
+Option 3 is the cheapest and costs the book nothing. Nothing has been changed yet.
 
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 2 | not required — stand-in: `vol1-s06.png` |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards. | 6 | `loc-square.png` — **see the note below: the delivered reference has no flagpole and no low wall** |
@@ -1506,14 +1526,15 @@ reference; the tarp is absent. **Any plate showing the tent line must add it** �
 shape under a fitted tarp, roped down, near the generator, not identifiable as anything. It is a
 question the arc asks and does not answer, so it must not resolve into a recognisable object.
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
-| `{{LOC:CARTERS_ROOF}}` | The flat tar-and-gravel roof of a three-storey brick building on Main Street, with a low parapet wall about waist height running round the edge, a brick stair head housing, and a rusted fire escape dropping down the rear wall into the alley behind. **The parapet is wide enough and sound enough to stand on.** | 2 | `loc-main-street.png` — **not yet generated.** The same generation carries it |
-| `{{LOC:FEED_STORE_ROOF}}` | The flat roof of a two-storey feed store on Main Street: a low parapet, a tarred surface, a brick chimney stack, and a heavy cast-iron drainpipe on the street elevation with wide brackets, climbable without equipment. The roof is otherwise bare. | 4 | `loc-feed-store.png` — **not yet generated** |
+| `{{LOC:CARTERS_ROOF}}` | The flat tar-and-gravel roof of a three-storey brick building on Main Street, with a low parapet wall about waist height running round the edge, a brick stair head housing, and a rusted fire escape dropping down the rear wall into the alley behind. **The parapet is wide enough and sound enough to stand on.** | 2 | `loc-carters-roof.png` — delivered 2026-08-07 as its own generation |
+| `{{LOC:CARTERS_ALLEY}}` | The service yard behind Carter's Hardware: the three-storey rear elevation in brick with an iron fire escape running down it from the top floor to a drop ladder, a ground-level door, bins, crates and pallets against the walls, a board fence along one side, and a pole with overhead lines. | 1 | `loc-carters-alley.png` — delivered 2026-08-07 |
+| `{{LOC:FEED_STORE_ROOF}}` | The flat roof of a two-storey feed store on Main Street: a low parapet, a tarred surface, a brick chimney stack, and a heavy cast-iron drainpipe on the street elevation with wide brackets, climbable without equipment. The roof is otherwise bare. | 4 | `loc-feed-store.png` — **not yet generated.** First attempt 2026-08-07 came back photographic and was rejected |
 | `{{LOC:FEED_STORE_ALLEY}}` | The service alley behind the same feed store: brick on both sides, a plain steel back door, a dumpster, a stack of pallets, a milk crate and an upturned paint bucket, and no through view at one end. | 1 | `loc-feed-store.png` — **not yet generated.** The same generation carries it |
 | `{{LOC:WATER_TOWER}}` | A municipal water tower on the edge of the built-up part of town: a spherical steel tank on four braced legs, a caged maintenance ladder up one leg, and a narrow catwalk with a pipe handrail running round the tank. **The geometry between this and the feed store roof is load-bearing — see the note below.** | 2 | `loc-water-tower.png` — **not yet generated** |
 | `{{LOC:ROSAS_TRUCK}}` | A gravel parking lot beside a small-town little league field, chain link backstop and low bleachers behind it. A white step-van food truck stands in it with its serving hatch up on a prop, a hand-painted sign reading DELGADO along the side, a striped awning over the window, a fryer and a warmer visible inside, a folding table with a condiment tray, and a small petrol generator on the gravel at the rear with a cable running in. | 6 | `loc-rosas-truck.png` — delivered 2026-08-07 |
 | `{{LOC:FELIX_GARAGE}}` | A detached single-car garage with a sagging roof, standing beside an ordinary house, its interior given over to work: a scarred workbench under a window, a pegboard of hand tools, four bicycles in various states of disassembly, a coffee can of screws sorted by size, a rolling office chair with silver tape across one arm, and on the floor a half-built device about the size of a microwave with wire coming out of it and no obvious purpose. A side door, unlocked. **A clear stretch of plain wall for a taped-up sheet of notebook paper, and a clear space on the bench.** | 4 | `loc-felix-garage.png` — delivered 2026-08-07 |
 | `{{LOC:FELIX_LIVING_ROOM}}` | An ordinary small living room at night: a sagging couch with a blanket over the arm, a boxy older television on a low stand with a VCR under it, a cardboard box of VHS tapes on the floor beside it, and a coffee table carrying hand tools and a half-built device with wire coming out of it. | 2 | `loc-felix-living-room.png` — delivered 2026-08-07 |
-| `{{LOC:DRIVE_IN}}` | The Millbrook Auto Vue, closed since 1988: a wide gravel lot marked out in faded parking rows with rusted speaker posts standing in them, a tall weathered screen at one end on a timber frame, a low flat-roofed concession stand at the centre with a projection booth built on top of it and an external stair up to the booth door, a chain link back fence, and a single exit lane leading out to the road. | 6 | `loc-drive-in.png` — **not yet generated.** First attempt 2026-08-07 came back photographic and was rejected; see the note below |
+| `{{LOC:DRIVE_IN}}` | The Millbrook Auto Vue, closed since 1988: a wide gravel lot marked out in faded parking rows with rusted speaker posts standing in them, a tall weathered screen at one end on a timber frame, a low flat-roofed concession stand at the centre with a projection booth built on top of it and an external stair up to the booth door, a chain link back fence, and a single exit lane leading out to the road. | 6 | `loc-drive-in.png` — delivered 2026-08-07 on the second attempt. The first came back photographic; see the note below |
 | `{{LOC:PROJECTION_BOOTH}}` | The inside of the drive-in's projection booth: a carbon-arc projector on a stand facing a small square port cut in the wall, film cans stacked on a shelf, a rewind bench, a swept concrete floor, and one hanging bulb. Cared for rather than derelict. | 1 | `loc-projection-booth.png` — delivered 2026-08-07 |
 **`loc-drive-in.png` was rejected on its first attempt for being PHOTOGRAPHIC, and it is the first
 reference in the project to fail on style rather than on content.** Every element the block asked

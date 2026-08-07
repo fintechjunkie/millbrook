@@ -213,6 +213,24 @@
     1200,
     1536
   ],
+  "loc-carters-alley.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-carters-roof.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-drive-in.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
   "loc-felix-garage.png": [
     400,
     800,
@@ -226,6 +244,12 @@
     1536
   ],
   "loc-hollow-pine-int.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-main-street.png": [
     400,
     800,
     1200,

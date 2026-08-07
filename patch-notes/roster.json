@@ -691,7 +691,14 @@
       "token": "CARTERS_ROOF",
       "block": "The flat tar-and-gravel roof of a three-storey brick building on Main Street, with a low parapet wall about waist height running round the edge, a brick stair head housing, and a rusted fire escape dropping down the rear wall into the alley behind. **The parapet is wide enough and sound enough to stand on.**",
       "uses": 2,
-      "canonicalRef": "loc-main-street.png",
+      "canonicalRef": "loc-carters-roof.png",
+      "standInRef": null
+    },
+    "CARTERS_ALLEY": {
+      "token": "CARTERS_ALLEY",
+      "block": "The service yard behind Carter's Hardware: the three-storey rear elevation in brick with an iron fire escape running down it from the top floor to a drop ladder, a ground-level door, bins, crates and pallets against the walls, a board fence along one side, and a pole with overhead lines.",
+      "uses": 1,
+      "canonicalRef": "loc-carters-alley.png",
       "standInRef": null
     },
     "FEED_STORE_ROOF": {
