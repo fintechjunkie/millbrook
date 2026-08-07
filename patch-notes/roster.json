@@ -563,9 +563,9 @@
     },
     "MAIN_STREET": {
       "token": "MAIN_STREET",
-      "block": "A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.",
-      "uses": 1,
-      "canonicalRef": null,
+      "block": "A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**",
+      "uses": 9,
+      "canonicalRef": "loc-main-street.png",
       "standInRef": null
     },
     "THE_PARK": {
@@ -612,10 +612,10 @@
     },
     "WAREHOUSE_EXT": {
       "token": "WAREHOUSE_EXT",
-      "block": "The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.",
-      "uses": 1,
-      "canonicalRef": null,
-      "standInRef": "vol4-s03.png"
+      "block": "The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall, **and at the back a single wide concrete loading step two courses high running along the wall beside a plain steel back door**.",
+      "uses": 6,
+      "canonicalRef": "loc-warehouse-ext.png",
+      "standInRef": null
     },
     "VEX_APARTMENT": {
       "token": "VEX_APARTMENT",
@@ -685,6 +685,76 @@
       "block": "A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail.",
       "uses": 1,
       "canonicalRef": null,
+      "standInRef": null
+    },
+    "CARTERS_ROOF": {
+      "token": "CARTERS_ROOF",
+      "block": "The flat tar-and-gravel roof of a three-storey brick building on Main Street, with a low parapet wall about waist height running round the edge, a brick stair head housing, and a rusted fire escape dropping down the rear wall into the alley behind. **The parapet is wide enough and sound enough to stand on.**",
+      "uses": 2,
+      "canonicalRef": "loc-main-street.png",
+      "standInRef": null
+    },
+    "FEED_STORE_ROOF": {
+      "token": "FEED_STORE_ROOF",
+      "block": "The flat roof of a two-storey feed store on Main Street: a low parapet, a tarred surface, a brick chimney stack, and a heavy cast-iron drainpipe on the street elevation with wide brackets, climbable without equipment. The roof is otherwise bare.",
+      "uses": 4,
+      "canonicalRef": "loc-feed-store.png",
+      "standInRef": null
+    },
+    "FEED_STORE_ALLEY": {
+      "token": "FEED_STORE_ALLEY",
+      "block": "The service alley behind the same feed store: brick on both sides, a plain steel back door, a dumpster, a stack of pallets, a milk crate and an upturned paint bucket, and no through view at one end.",
+      "uses": 1,
+      "canonicalRef": "loc-feed-store.png",
+      "standInRef": null
+    },
+    "WATER_TOWER": {
+      "token": "WATER_TOWER",
+      "block": "A municipal water tower on the edge of the built-up part of town: a spherical steel tank on four braced legs, a caged maintenance ladder up one leg, and a narrow catwalk with a pipe handrail running round the tank. **The geometry between this and the feed store roof is load-bearing — see the note below.**",
+      "uses": 2,
+      "canonicalRef": "loc-water-tower.png",
+      "standInRef": null
+    },
+    "ROSAS_TRUCK": {
+      "token": "ROSAS_TRUCK",
+      "block": "A gravel parking lot beside a small-town little league field, chain link backstop and low bleachers behind it. A white step-van food truck stands in it with its serving hatch up on a prop, a hand-painted sign reading DELGADO along the side, a striped awning over the window, a fryer and a warmer visible inside, a folding table with a condiment tray, and a small petrol generator on the gravel at the rear with a cable running in.",
+      "uses": 6,
+      "canonicalRef": "loc-rosas-truck.png",
+      "standInRef": null
+    },
+    "FELIX_GARAGE": {
+      "token": "FELIX_GARAGE",
+      "block": "A detached single-car garage with a sagging roof, standing beside an ordinary house, its interior given over to work: a scarred workbench under a window, a pegboard of hand tools, four bicycles in various states of disassembly, a coffee can of screws sorted by size, a rolling office chair with silver tape across one arm, and on the floor a half-built device about the size of a microwave with wire coming out of it and no obvious purpose. A side door, unlocked. **A clear stretch of plain wall for a taped-up sheet of notebook paper, and a clear space on the bench.**",
+      "uses": 4,
+      "canonicalRef": "loc-felix-garage.png",
+      "standInRef": null
+    },
+    "FELIX_LIVING_ROOM": {
+      "token": "FELIX_LIVING_ROOM",
+      "block": "An ordinary small living room at night: a sagging couch with a blanket over the arm, a boxy older television on a low stand with a VCR under it, a cardboard box of VHS tapes on the floor beside it, and a coffee table carrying hand tools and a half-built device with wire coming out of it.",
+      "uses": 2,
+      "canonicalRef": "loc-felix-living-room.png",
+      "standInRef": null
+    },
+    "DRIVE_IN": {
+      "token": "DRIVE_IN",
+      "block": "The Millbrook Auto Vue, closed since 1988: a wide gravel lot marked out in faded parking rows with rusted speaker posts standing in them, a tall weathered screen at one end on a timber frame, a low flat-roofed concession stand at the centre with a projection booth built on top of it and an external stair up to the booth door, a chain link back fence, and a single exit lane leading out to the road.",
+      "uses": 6,
+      "canonicalRef": "loc-drive-in.png",
+      "standInRef": null
+    },
+    "PROJECTION_BOOTH": {
+      "token": "PROJECTION_BOOTH",
+      "block": "The inside of the drive-in's projection booth: a carbon-arc projector on a stand facing a small square port cut in the wall, film cans stacked on a shelf, a rewind bench, a swept concrete floor, and one hanging bulb. Cared for rather than derelict.",
+      "uses": 1,
+      "canonicalRef": "loc-projection-booth.png",
+      "standInRef": null
+    },
+    "OLD_SCHOOL_C": {
+      "token": "OLD_SCHOOL_C",
+      "block": "The same school again, six months after the unit left in May: the nine-foot chain link fence with its green privacy slats still standing and still taut, the vehicle gate shut and chained, and inside it nothing at all — no trucks, no tents, no generator, the softball field gone back to weeds and the flattened rectangles where the tents stood still visible in the grass. **State C of a single location.**",
+      "uses": 2,
+      "canonicalRef": "loc-old-school-c.png",
       "standInRef": null
     },
     "BENNY_GYM": {

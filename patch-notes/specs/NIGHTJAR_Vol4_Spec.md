@@ -293,7 +293,7 @@ He looked at her, and then at the Buick with its nose pointed at the exit, and t
 
 “Is he a good man?” he said.
 
-“He is fifteen and he is the best of us. He talks to his tools. He gives everything away. He has never once been on time.”
+“He is eighteen and he is the best of us. He talks to his tools. He gives everything away. He has never once been on time.”
 
 “And to find him, somebody must stop looking.”
 

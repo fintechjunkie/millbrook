@@ -1393,7 +1393,37 @@ Recurring locations get a canonical establishing image before spread work begins
 | `{{LOC:BACK_BEDROOM}}` | A small square bedroom holding a single bed, a closet with a visible dent low on the door, a shelf of dull sports trophies, and faded band and athlete posters taped to the walls. Blinds, not curtains. | 1 | not required |
 | `{{LOC:AUNT_CAROL_KITCHEN}}` | A dated kitchen with wood-look cabinets, patterned linoleum, a small round table with a vinyl tablecloth and four mismatched chairs, a single bulb on a chain hanging low over the table. | 1 | not required |
 | `{{LOC:AUNT_CAROL_LIVING_ROOM}}` | A cramped living room with a sagging patterned couch, a doily-covered side table, a boxy older television on a low stand, and an open doorway through to the kitchen. | 1 | not required |
-| `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. | 1 | not required |
+| `{{LOC:MAIN_STREET}}` | A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.** | 9 | `loc-main-street.png` — **not yet generated** |
+**`MAIN_STREET` was a one-use "not required" location and The Nightjar puts nine pages on it.**
+It is now the arc's busiest place by a wide margin and it carries three specific buildings that
+are climbed, dropped from or landed on. All three have to be in the one generation, and the
+reference has to establish where they stand relative to each other, because characters travel
+between them across roofs.
+
+- **Carter's Hardware, three storeys**, the tallest thing on the street, with a flat roof and a
+  parapet a man can stand on. He addresses the whole street from it in Part One and leaves off
+  the back of it on a rope. Its crosswalk is where the bear sits down in Part Four.
+- **The feed store, two storeys**, with a cast-iron drainpipe he climbs without using his hands
+  much, a flat roof he keeps a listening post on, and a service alley behind it.
+- **A shoe store with a fabric awning** he drops onto from the rooftops and then steps down to
+  the sidewalk from. It must look like it would take the weight, and it must be low enough that
+  the drop to the pavement is ordinary.
+
+**The street is generated in its ORDINARY state**, with no hole in it and no new asphalt: Part
+Three opens a bathtub-sized hole in the middle of it at two in the morning, and Part Four has the
+whole block repaired curb to curb with the storm grate reset level and a new BEAR CROSSING sign
+on a new post at the west end. Both of those are plate-level changes to this reference and
+neither belongs in it.
+
+**`WATER_TOWER` and `FEED_STORE_ROOF` have to agree with each other, and that is a measurement
+rather than a mood.** *“He'd run a line from the tower's catwalk down to the roof of the feed
+store, which is about two hundred feet of cable and a forty-foot drop in the middle of it.”* He
+gets ninety feet along it, the far anchor starts to walk, and he ends up hanging **over the middle
+of the street** while Vex hauls him in hand over hand from the catwalk. So the tower stands roughly
+two hundred feet from the feed store, it is about forty feet taller at the catwalk, and the line
+between them crosses Main Street. Neither reference may be generated as though the other is
+somewhere else. Same class of constraint as Old Bell Road's shoulders.
+
 | `{{LOC:THE_PARK}}` | A flat municipal park of mown grass and mature shade trees with a low round stone fountain at its centre and slatted wooden benches on a paved ring around it. | 2 | not required — stand-in: `vol1-s06.png` |
 | `{{LOC:TOWN_HALL_SQUARE}}` | A paved civic square in front of a squat 1960s municipal building of brick and glass, with a low permanent stage, a plain wooden podium, space for rows of grey metal folding chairs, **a flagpole with a low brick sitting wall around its base**, benches, planters and lamp standards. | 6 | `loc-square.png` — **see the note below: the delivered reference has no flagpole and no low wall** |
 
@@ -1415,7 +1445,17 @@ them and this stops being a per-prompt problem.
 | `{{LOC:WAREHOUSE_PIT}}` | The lounge end of a converted warehouse interior: four mismatched couches sagging in the middle arranged around a low scarred coffee table on bare concrete, a wall of FOUR salvaged televisions standing on a heavy timber shelf unit whose top rail is the high shelf, exposed timber roof trusses and high clerestory windows far above. | 7 | `loc-warehouse-canonical.png` — **`loc-pit.png` was abandoned, see 6.1** |
 | `{{LOC:WAREHOUSE_TERMINALS}}` | The desk end of the same warehouse: a long trestle desk against a brick wall carrying three monitors on stacked books, a mechanical keyboard, cable runs stapled along the wall, and a row of dented energy drink cans. | 4 | `loc-terminals.png` |
 | `{{LOC:WAREHOUSE_SHOP}}` | A workbench end of the same warehouse, scarred plywood top under a clamp lamp, hand tools on a pegboard, part-built devices in various states, solder spool, scorch marks. | 1 | `loc-terminals.png` — the delivered file includes Felix’s bench |
-| `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall. | 1 | not required — stand-in: `vol4-s03.png` |
+| `{{LOC:WAREHOUSE_EXT}}` | The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall, **and at the back a single wide concrete loading step two courses high running along the wall beside a plain steel back door**. | 6 | `loc-warehouse-ext.png` — **not yet generated.** The stand-in `vol4-s03.png` no longer covers it; see the note below |
+
+**`WAREHOUSE_EXT` was a one-use stand-in and The Nightjar puts five more pages on it, all on a
+feature the stand-in does not show.** The loading step behind the building is where Vex sits down
+beside Pip and decides to believe her, where Pip pulls her own filter out and comes apart, and
+where Chet arrives through the brick. `vol4-s03.png` is a frontage. The step needs to be real,
+wide enough for two to sit side by side, and the brick beside it needs to be plain and
+uninterrupted, because a four-and-a-half-foot door opens in it.
+
+**And the brick is purple.** Same note as the Warehouse interior — a terminals attempt once came
+back brown.
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
 | `{{LOC:MAPLE_AND_FOURTH_A}}` | A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.** | 1 | `loc-corner-a.png` — stand-in: `vol2-opener.png` |
@@ -1466,6 +1506,16 @@ reference; the tarp is absent. **Any plate showing the tent line must add it** �
 shape under a fitted tarp, roped down, near the generator, not identifiable as anything. It is a
 question the arc asks and does not answer, so it must not resolve into a recognisable object.
 | `{{LOC:HOTEL_ROOM}}` | A tidy budget hotel room, one made double bed, a laminate desk, a wall-mounted television, and an open closet alcove with a hanging rail. | 1 | not required |
+| `{{LOC:CARTERS_ROOF}}` | The flat tar-and-gravel roof of a three-storey brick building on Main Street, with a low parapet wall about waist height running round the edge, a brick stair head housing, and a rusted fire escape dropping down the rear wall into the alley behind. **The parapet is wide enough and sound enough to stand on.** | 2 | `loc-main-street.png` — **not yet generated.** The same generation carries it |
+| `{{LOC:FEED_STORE_ROOF}}` | The flat roof of a two-storey feed store on Main Street: a low parapet, a tarred surface, a brick chimney stack, and a heavy cast-iron drainpipe on the street elevation with wide brackets, climbable without equipment. The roof is otherwise bare. | 4 | `loc-feed-store.png` — **not yet generated** |
+| `{{LOC:FEED_STORE_ALLEY}}` | The service alley behind the same feed store: brick on both sides, a plain steel back door, a dumpster, a stack of pallets, a milk crate and an upturned paint bucket, and no through view at one end. | 1 | `loc-feed-store.png` — **not yet generated.** The same generation carries it |
+| `{{LOC:WATER_TOWER}}` | A municipal water tower on the edge of the built-up part of town: a spherical steel tank on four braced legs, a caged maintenance ladder up one leg, and a narrow catwalk with a pipe handrail running round the tank. **The geometry between this and the feed store roof is load-bearing — see the note below.** | 2 | `loc-water-tower.png` — **not yet generated** |
+| `{{LOC:ROSAS_TRUCK}}` | A gravel parking lot beside a small-town little league field, chain link backstop and low bleachers behind it. A white step-van food truck stands in it with its serving hatch up on a prop, a hand-painted sign reading DELGADO along the side, a striped awning over the window, a fryer and a warmer visible inside, a folding table with a condiment tray, and a small petrol generator on the gravel at the rear with a cable running in. | 6 | `loc-rosas-truck.png` — **not yet generated** |
+| `{{LOC:FELIX_GARAGE}}` | A detached single-car garage with a sagging roof, standing beside an ordinary house, its interior given over to work: a scarred workbench under a window, a pegboard of hand tools, four bicycles in various states of disassembly, a coffee can of screws sorted by size, a rolling office chair with silver tape across one arm, and on the floor a half-built device about the size of a microwave with wire coming out of it and no obvious purpose. A side door, unlocked. **A clear stretch of plain wall for a taped-up sheet of notebook paper, and a clear space on the bench.** | 4 | `loc-felix-garage.png` — **not yet generated** |
+| `{{LOC:FELIX_LIVING_ROOM}}` | An ordinary small living room at night: a sagging couch with a blanket over the arm, a boxy older television on a low stand with a VCR under it, a cardboard box of VHS tapes on the floor beside it, and a coffee table carrying hand tools and a half-built device with wire coming out of it. | 2 | `loc-felix-living-room.png` — **not yet generated** |
+| `{{LOC:DRIVE_IN}}` | The Millbrook Auto Vue, closed since 1988: a wide gravel lot marked out in faded parking rows with rusted speaker posts standing in them, a tall weathered screen at one end on a timber frame, a low flat-roofed concession stand at the centre with a projection booth built on top of it and an external stair up to the booth door, a chain link back fence, and a single exit lane leading out to the road. | 6 | `loc-drive-in.png` — **not yet generated** |
+| `{{LOC:PROJECTION_BOOTH}}` | The inside of the drive-in's projection booth: a carbon-arc projector on a stand facing a small square port cut in the wall, film cans stacked on a shelf, a rewind bench, a swept concrete floor, and one hanging bulb. Cared for rather than derelict. | 1 | `loc-projection-booth.png` — **not yet generated.** A second, interior generation |
+| `{{LOC:OLD_SCHOOL_C}}` | The same school again, six months after the unit left in May: the nine-foot chain link fence with its green privacy slats still standing and still taut, the vehicle gate shut and chained, and inside it nothing at all — no trucks, no tents, no generator, the softball field gone back to weeds and the flattened rectangles where the tents stood still visible in the grass. **State C of a single location.** | 2 | `loc-old-school-c.png` — **not yet generated** |
 | `{{LOC:BENNY_GYM}}` | A small old independent boxing gym in one ground-floor room: a glass shopfront door and street window at the near end, a battered wooden desk beside the door in plain view from the street, a filthy rubber entrance mat, a single heavy bag on a chain hanging free with clear floor around it, and a freestanding water cooler about eleven feet away on the same open run of floor. Speed-bag platform, skipping ropes on pegs, a towel bench, a corkboard, a floor fan, a weight rack. No ring. **The bag-to-cooler sightline is load-bearing — see the note below.** | 2 | `loc-benny-gym.png` |
 | `{{LOC:WARDROBE_ROOM}}` | The costume store under the auditorium stage of the closed elementary school, down a short flight of concrete steps: a long row of old steamer trunks along the back wall on a low ledge, ONE of them standing open with a folded sheet of tissue paper in it and nothing else; a rack of choir robes on a steel pipe, shelves of hat boxes and hats, shoes lined up in pairs with every toe pointing the same way, a typed inventory sheet in a plastic sleeve on the near wall, bare-footprint scuffs in the dust, and a single pendant lamp. **In the back wall, a small plain door about four and a half feet tall, SHUT.** **State A of a pair — see the note below.** | 6 | `loc-wardrobe-room.png` |
 | `{{LOC:THE_SMALL_ROOM}}` | The hidden workshop behind the wardrobe room’s north wall: a SMALL, low-ceilinged, windowless room a few paces across, bare warm off-white plaster and a plain concrete floor. A small plain door about four and a half feet tall at the near end, OPEN, with the dusty edge of the wardrobe room beyond it; a SECOND small door at the far end, CLOSED and entirely unremarkable. Against one side wall a sturdy old wooden workbench at a LOW working height, worn pale on top, with a low stool tucked under it and a shelf of plain unlabelled boxes and jars above. One shaded bulb over the bench. **State A carries the STAMP: an object like an old library date stamp, brass and glass with a turned wooden handle worn pale, a hand-span tall, upright in a shaped wooden cradle, intact, with the air shimmering faintly above it. State B is the same bench swept clean with a folded square of paper towel on it. See the note below.** | 5 | `loc-small-room.png` — **not yet generated; prompt written at `PROMPT-location-behind-the-wall.md`** |
