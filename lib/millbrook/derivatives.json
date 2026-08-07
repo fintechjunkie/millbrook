@@ -28,6 +28,11 @@
     800,
     1023
   ],
+  "char-bear-canonical.png": [
+    400,
+    800,
+    1086
+  ],
   "char-benny-canonical.png": [
     400,
     800,
@@ -93,6 +98,16 @@
     800,
     1086
   ],
+  "char-jennings-canonical.png": [
+    400,
+    800,
+    1086
+  ],
+  "char-junie-canonical.png": [
+    400,
+    800,
+    1086
+  ],
   "char-lena-canonical.png": [
     400,
     800,
@@ -107,6 +122,11 @@
     400,
     800,
     1000
+  ],
+  "char-nightjar-canonical.png": [
+    400,
+    800,
+    1086
   ],
   "char-ottie-canonical.png": [
     400,
@@ -142,6 +162,11 @@
     543
   ],
   "char-rocco-canonical.png": [
+    400,
+    800,
+    1086
+  ],
+  "char-rosa-canonical.png": [
     400,
     800,
     1086

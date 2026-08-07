@@ -1137,23 +1137,47 @@ impossible space in either arc so far.
 
 ## 4.7 The man on the roof — The Nightjar
 
-Not yet generated. Sheet target: `char-nightjar-canonical.png`, 3:4, on the cast ground
-`rgb(238, 221, 197)`. Prompt in `PROMPT-canonical-nightjar.md`.
+Locked 2026-08-07 from delivered art. Sheet: `char-nightjar-canonical.png`, 1086x1448, exactly
+3:4, RGB with no alpha, ground `rgb(235,210,188)`. Archived at
+`reference-source/SECONDARY/The_Nightjar/`. Prompt in `PROMPT-canonical-nightjar.md`.
+
+**Three deviations from the block as written, all kept, and the first one changes the design.**
+
+**The coat came back TEAL on the outside** rather than charcoal with a hidden teal lining, so
+the accent colour is now the garment. Kept, because it is the stronger reading. A reader who
+knows the first two arcs recognises that jacket on sight, which means the dramatic irony runs
+from his first appearance on the parapet instead of waiting for Part Four — and it costs
+nothing in the fiction, because nobody in Millbrook can see him whatever he wears. The cape and
+hood stay charcoal, so the silhouette is still not Felix's.
+
+**He kept Felix's red-orange sneakers** rather than the black work boots the block asked for.
+Same call, same reason: he never changed his shoes.
+
+**The goggles are round rather than oval**, where the supplied reference had wide horizontal
+ovals. Kept, and it is an improvement — Felix's own glasses are large and round, so the disguise
+carries his eyewear silhouette while carrying none of his eyewear.
+
+Three small misses also kept: the eyebrows show above the rims where the block asked for them
+covered, which helps the expression; a little hair shows at the temples under the cap; and the
+goggles have no visible head strap. None of them affects a plate.
+
+**The wardrobe row below has been rewritten to match the art rather than the other way round**,
+which is the same call the project made for Felix's own block in July. Delivered art wins.
 
 ### {{CHAR:THE_NIGHTJAR}} — the Nightjar
 
 **Immutable:** Felix's body, unchanged and not negotiable — an eighteen year old boy, the
 shortest of the three boys, compact and boyish with a straight torso and sturdy hands, dark
 brown skin, a round open face, a snub nose, short uneven tightly textured black hair. Over the
-eyes, a **black eye mask in the shape of swimming goggles**: two large rounded lens ovals filling
-the eye sockets completely, joined by a flat black bridge over the nose and carried round the
-head on a flat black band that passes over the ears. **The lenses are flat opaque white with no
-pupil, no iris and no eye visible through them at any angle.** The mask sits high enough that
-both eyebrows are covered and the ears stay clear. Below the mask the face is entirely Felix's
-and entirely uncovered: cheeks, snub nose, mouth and jaw all legible. **He does not wear his red
-glasses and there are no glasses anywhere on him.**
+eyes, **a pair of black-rimmed round goggles**: two circular lenses in thick flat black rims
+sitting directly over the eye sockets, joined by a short black bridge across the nose. **The
+lenses are flat opaque white with no pupil, no iris and no eye visible through them at any
+angle**, and that is the single most important thing about him. The eyebrows show above the rims.
+The ears are uncovered. Below the goggles the face is entirely Felix's and entirely uncovered:
+cheeks, snub nose, mouth and jaw all legible. **He does not wear his red glasses and there are no
+glasses anywhere on him.**
 
-**Canonical reference:** `char-nightjar-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-nightjar-canonical.png` · Seed: pending · Approved: yes, 2026-08-07
 
 **Generate this sheet FROM `char-felix-canonical.png` and never independently.** The body is the
 same body. In Part Four Chet takes four seconds and Felix opens his eyes in the same gravel in
@@ -1169,8 +1193,9 @@ costume, he is what Felix was rewritten into, and a boy wearing a disguise would
 own glasses on his face. Two lens shapes in one small face is also mud at plate size.
 
 **So teal carries the identity instead**, per the rule in 5.1 about an accent colour that is
-doing identifying work. Felix's teal is in the coat. Nothing in the prose says so and nothing
-needs to: a reader will not consciously register it in Part One and will feel it at the reveal.
+doing identifying work — and the delivered sheet carries it much louder than planned, on the
+outside of the jacket rather than in a lining. See the deviation note above: that is now the
+design rather than a miss, and it is what makes the arc dramatic irony rather than a puzzle.
 
 **His immutable block is NOT an edit to Felix's.** `{{CHAR:FELIX}}` keeps the red glasses,
 because out of costume he still has them and ninety-two delivered plates depend on that block
@@ -1206,7 +1231,7 @@ living room while Chet stands and watches it.
 
 **He is the source and the boy is the copy**, so the mask shape has to match and nothing else
 should. The joke and the sadness are both in the gap: the film's is a costume that fits an
-adult, and Felix's is the same idea made out of what a fifteen-year-old could find. Junie has
+adult, and Felix's is the same idea made out of what a teenager could find. Junie has
 seen the picture two hundred times and nobody else has seen it once.
 
 ## 4.8 Three more of the town — The Nightjar
@@ -1221,7 +1246,7 @@ a few strands escaped at the front. A broad face with strong cheekbones, dark br
 deep smile lines at the corners, and the easy unhurried expression of somebody who has fed this
 town for four years and knows everybody's mother. Small gold hoop earrings.
 
-**Canonical reference:** `char-rosa-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-rosa-canonical.png` · Seed: pending · Approved: yes, 2026-08-07
 
 **She is the arc's warm centre and she is on six pages**, which is more than most of the named
 adults in either previous arc. Her line *“I know that, mija”* and her *“You come back Thursday,
@@ -1241,7 +1266,7 @@ twice a week for thirty-eight years. An expression that is entirely unsurprised,
 already seen the picture two hundred times and a robot in her gravel lot is not the strangest
 thing about tonight.
 
-**Canonical reference:** `char-junie-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-junie-canonical.png` · Seed: pending · Approved: yes, 2026-08-07
 
 **She has run the projection booth of a drive-in that closed in 1988**, for nobody, on Tuesdays
 and Fridays, *“which she will tell you is a hobby and not a sadness.”* Carry that in the posture:
@@ -1257,7 +1282,7 @@ grey hair combed flat across a balding crown, wire-framed glasses, and a permane
 expression — a man who cannot say no to a neighbour and has never wanted to. A plain green
 grocer's apron over a short-sleeved checked shirt.
 
-**Canonical reference:** `char-jennings-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-jennings-canonical.png` · Seed: pending · Approved: yes, 2026-08-07
 
 **He has now appeared in two arcs with no reference and no token**, which is how a character
 drifts. In The Understudies he puts his hand up at the Mayor's press conference and asks
@@ -1275,7 +1300,7 @@ entirely real** — an ordinary animal rendered with the same weight as any othe
 series, never comic, never anthropomorphic, never wearing or holding anything and never standing
 on two legs.
 
-**Canonical reference:** `char-bear-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-bear-canonical.png` · Seed: pending · Approved: yes, 2026-08-07
 
 **It is the last image of the arc** and the whole joke depends on it being ordinary. *“They found
 the bear on Thursday, sitting in the crosswalk outside Carter's Hardware at nine in the morning,
@@ -1343,7 +1368,7 @@ of the token split and it is worth not eroding.
 | `{{WARDROBE:HENDERSON_A}}` | Pale blue-grey button-down shirt with a chest pocket and cream buttons, sleeves rolled to the forearm, tucked into tan pleated trousers with turn-ups, a brown leather belt with a square silver buckle, and worn brown leather shoes. **No running shoes yet** | Vol 3, Tuesday morning |
 | `{{WARDROBE:HENDERSON_B}}` | The same shirt, trousers and belt, but the brown shoes are replaced by brand new white running shoes, one of which still carries a price tag on the tongue | Vol 3 afternoon onward, and Vol 4 |
 | `{{WARDROBE:CARDIGAN_A}}` | Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain | all |
-| `{{WARDROBE:FELIX_B}}` | **The Nightjar.** A dark charcoal knee-length coat, worn open, with a **faded teal lining that shows at the lapel and the turned-back cuff**; a short dark cape to mid-back, fastened at the throat, the same charcoal outside and the same teal inside; a plain black flat cap pulled low so no hair shows at the front and only a little at the nape; a dark long-sleeved shirt and dark practical trousers; scuffed black work boots. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits an eighteen year old quite properly | The Nightjar, all four parts |
+| `{{WARDROBE:FELIX_B}}` | **The Nightjar.** A **faded teal work jacket**, worn open over a dark charcoal shirt, with the sleeves turned back at the cuff; over it a **charcoal cape with an attached hood**, worn down over the shoulders and tied at the throat, plainly hand-cut; a **charcoal flat cap** pulled low; loose dark charcoal trousers with deep turn-ups; **worn red-orange high-top sneakers**. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits quite properly | The Nightjar, all four parts |
 | `{{WARDROBE:ROSA_A}}` | Dark jeans, a plain short-sleeved shirt in faded red, and a canvas apron in oatmeal with a scorch mark low on one side, worn over the top and tied at the back. Sleeves pushed to the elbow. A cloth over one shoulder | all |
 | `{{WARDROBE:JUNIE_A}}` | A quilted olive work jacket over a plain grey sweater, brown corduroy trousers, and flat brown lace-up shoes. A ring of keys on a belt loop | all |
 | `{{WARDROBE:JENNINGS_A}}` | A plain dark green grocer's apron, tied at the waist, over a short-sleeved checked shirt in blue and white and plain dark trousers | all |
@@ -1352,7 +1377,7 @@ The Mayor's new tie and Mr. Henderson's price-tagged shoes are both stated in th
 
 **`FELIX_B` is a wardrobe row and not an edit to `{{CHAR:FELIX}}`, and that split is doing real work here.** Felix's immutable block still carries the red glasses, the teal work jacket and the orange harness straps, because he is himself again on the last two pages of the arc and because ninety-two delivered plates depend on that block not moving. The Nightjar is the same boy in different clothes with his eyes covered — which is exactly the case section 5.1 was written for, one arc later than expected and in the strongest possible form.
 
-**The teal lining is the one invented detail in this table.** Nothing in the prose says the coat is lined, and 5.1 asks that an accent colour doing identifying work be carried into a new outfit somewhere. Felix's teal is that colour. It is deliberately placed where it shows only when he moves — a lapel and a turned cuff — so it never announces itself.
+**The teal jacket is `FELIX_B`'s whole argument and it was not the plan.** The row originally asked for a charcoal coat with the teal hidden in the lining, on the theory that 5.1 only requires an accent colour to be carried into a new outfit *somewhere*. The delivered sheet put the teal on the outside, and that is now the locked state: it turns the arc from a mystery into dramatic irony, because a reader who has met Felix twice already recognises the jacket on the first rooftop and every character in the book still cannot. The charcoal cape, hood and cap are what keep the silhouette from being his.
 
 ---
 

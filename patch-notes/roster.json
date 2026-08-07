@@ -341,13 +341,13 @@
     },
     "THE_NIGHTJAR": {
       "token": "THE_NIGHTJAR",
-      "immutable": "Felix's body, unchanged and not negotiable — an eighteen year old boy, the shortest of the three boys, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, a snub nose, short uneven tightly textured black hair. Over the eyes, a **black eye mask in the shape of swimming goggles**: two large rounded lens ovals filling the eye sockets completely, joined by a flat black bridge over the nose and carried round the head on a flat black band that passes over the ears. **The lenses are flat opaque white with no pupil, no iris and no eye visible through them at any angle.** The mask sits high enough that both eyebrows are covered and the ears stay clear. Below the mask the face is entirely Felix's and entirely uncovered: cheeks, snub nose, mouth and jaw all legible. **He does not wear his red glasses and there are no glasses anywhere on him.**",
+      "immutable": "Felix's body, unchanged and not negotiable — an eighteen year old boy, the shortest of the three boys, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, a snub nose, short uneven tightly textured black hair. Over the eyes, **a pair of black-rimmed round goggles**: two circular lenses in thick flat black rims sitting directly over the eye sockets, joined by a short black bridge across the nose. **The lenses are flat opaque white with no pupil, no iris and no eye visible through them at any angle**, and that is the single most important thing about him. The eyebrows show above the rims. The ears are uncovered. Below the goggles the face is entirely Felix's and entirely uncovered: cheeks, snub nose, mouth and jaw all legible. **He does not wear his red glasses and there are no glasses anywhere on him.**",
       "immutableInactive": null,
       "canonicalRef": "char-nightjar-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     },
     "THE_FILM_NIGHTJAR": {
@@ -368,8 +368,8 @@
       "canonicalRef": "char-rosa-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     },
     "JUNIE": {
@@ -379,8 +379,8 @@
       "canonicalRef": "char-junie-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     },
     "MR_JENNINGS": {
@@ -390,8 +390,8 @@
       "canonicalRef": "char-jennings-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     },
     "THE_BEAR": {
@@ -401,8 +401,8 @@
       "canonicalRef": "char-bear-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     }
   },
@@ -499,7 +499,7 @@
     },
     "FELIX_B": {
       "token": "FELIX_B",
-      "value": "**The Nightjar.** A dark charcoal knee-length coat, worn open, with a **faded teal lining that shows at the lapel and the turned-back cuff**; a short dark cape to mid-back, fastened at the throat, the same charcoal outside and the same teal inside; a plain black flat cap pulled low so no hair shows at the front and only a little at the nape; a dark long-sleeved shirt and dark practical trousers; scuffed black work boots. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits an eighteen year old quite properly",
+      "value": "**The Nightjar.** A **faded teal work jacket**, worn open over a dark charcoal shirt, with the sleeves turned back at the cuff; over it a **charcoal cape with an attached hood**, worn down over the shoulders and tied at the throat, plainly hand-cut; a **charcoal flat cap** pulled low; loose dark charcoal trousers with deep turn-ups; **worn red-orange high-top sneakers**. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits quite properly",
       "storyTime": "The Nightjar, all four parts"
     },
     "ROSA_A": {
