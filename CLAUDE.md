@@ -30,6 +30,42 @@ the spoiler check has to be re-read by hand.
 
 ---
 
+## Where work goes: an arc at a time, on a branch
+
+**The site deploys on push to `main`, with no CI config and no gate.** So `main` is
+production, and anything pushed there is published to readers immediately.
+
+That is fine for a finished arc and wrong for one being built, because the window between
+"prose placed" and "every plate delivered" is weeks long. During it the arc is fully
+readable and looks abandoned: a shelf card with no cover, and one *Not yet generated*
+placeholder on every image page. Adopted 2026-08-07, when The Nightjar landed.
+
+- **A new arc gets a branch, named `arc/<name>`.** Vercel builds a preview deployment for
+  it, so the arc can be read at a real URL while `main` stays clean. `arc/nightjar` is the
+  first one.
+- **It merges to `main` when the arc is readable end to end** — every plate delivered and
+  derived. That is the bar the commit that closed The Understudies met, and nothing
+  smaller is worth the branch.
+- **Site-wide work stays on `main` and ships the day it is right.** Type, the reader, the
+  image pipeline, the checks. Burying a reader fix behind a half-drawn arc is the thing
+  that makes people abandon the branch and push the arc early.
+- **Merge `main` INTO the arc branch, regularly. Never the other way until the end.** This
+  repo commits generated files — `patch-notes/volumes/*.json`, `lib/millbrook/derivatives.json`,
+  `patch-notes/plate-captions.json`. They are append-mostly and shared, so two lines both
+  adding plates conflict. Re-running `npm run parse` and `npm run images` resolves it in
+  seconds, but only if it is caught early rather than at the merge.
+- **One arc in flight at a time, and this one is a hard constraint rather than advice.**
+  Every arc edits the same `ARCS` array in `scripts/parse-specs.mjs` and the same `SPEC_FOR`
+  map in `scripts/lib-specs.mjs`, each with its own declared `expect` counts. Two arc
+  branches conflict there on every merge, on the exact file whose whole job is to fail
+  loudly about miscounted spreads.
+
+**A pending arc does not break a build**, which is what makes the branch previewable at all.
+`prebuild` runs `parse-specs` and `images --check`; the image check only looks at masters
+that exist, so an arc with no art commissioned has nothing to check and passes.
+
+---
+
 ## The prose pipeline
 
 Markdown spec → `volumes/vol*.json` → imported by the reader. Nothing is edited in the
