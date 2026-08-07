@@ -28,6 +28,10 @@ desktop.ini
 .idea/
 *.swp
 
+# Agent worktrees. `git worktree add` puts a whole checkout in here, which is a
+# working directory rather than project source and has its own branch already.
+.claude/worktrees/
+
 # Scratch — work-in-progress generations that are not yet approved.
 # Approved images belong in patch-notes/images/ and ARE committed.
 scratch/
