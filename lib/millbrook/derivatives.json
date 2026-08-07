@@ -213,6 +213,18 @@
     1200,
     1536
   ],
+  "loc-felix-garage.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-felix-living-room.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
   "loc-hollow-pine-int.png": [
     400,
     800,
@@ -226,6 +238,18 @@
     1536
   ],
   "loc-old-school-camp.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-projection-booth.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-rosas-truck.png": [
     400,
     800,
     1200,
@@ -250,6 +274,12 @@
     1536
   ],
   "loc-warehouse-canonical.png": [
+    400,
+    800,
+    1200,
+    1536
+  ],
+  "loc-warehouse-ext.png": [
     400,
     800,
     1200,
