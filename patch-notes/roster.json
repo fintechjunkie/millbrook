@@ -338,6 +338,72 @@
       "approved": true,
       "approvalNote": "yes, 2026-07-31 · Seed: pending",
       "renderingNote": null
+    },
+    "THE_NIGHTJAR": {
+      "token": "THE_NIGHTJAR",
+      "immutable": "Felix's body, unchanged and not negotiable — an eighteen year old boy, the shortest of the three boys, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, a snub nose, short uneven tightly textured black hair. Over the eyes, a **black eye mask in the shape of swimming goggles**: two large rounded lens ovals filling the eye sockets completely, joined by a flat black bridge over the nose and carried round the head on a flat black band that passes over the ears. **The lenses are flat opaque white with no pupil, no iris and no eye visible through them at any angle.** The mask sits high enough that both eyebrows are covered and the ears stay clear. Below the mask the face is entirely Felix's and entirely uncovered: cheeks, snub nose, mouth and jaw all legible. **He does not wear his red glasses and there are no glasses anywhere on him.**",
+      "immutableInactive": null,
+      "canonicalRef": "char-nightjar-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "THE_FILM_NIGHTJAR": {
+      "token": "THE_FILM_NIGHTJAR",
+      "immutable": "A man of about forty in the same style of black goggle-shaped eye mask, on a wet rooftop at night in a long dark coat with the collar up. Adult, tall, heavy through the shoulders — everything the boy copying him is not. Seen only as a picture on a television screen or as a memory of one.",
+      "immutableInactive": null,
+      "canonicalRef": "n1-s06",
+      "refLocation": null,
+      "seed": null,
+      "approved": false,
+      "approvalNote": null,
+      "renderingNote": null
+    },
+    "ROSA": {
+      "token": "ROSA",
+      "immutable": "A Mexican-American woman in her late forties, warm mid-brown skin, solidly and comfortably built, black hair going grey at the temples pulled back into a low working knot with a few strands escaped at the front. A broad face with strong cheekbones, dark brown eyes with deep smile lines at the corners, and the easy unhurried expression of somebody who has fed this town for four years and knows everybody's mother. Small gold hoop earrings.",
+      "immutableInactive": null,
+      "canonicalRef": "char-rosa-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "JUNIE": {
+      "token": "JUNIE",
+      "immutable": "A Black woman in her seventies, deep brown skin, small and spare and upright, close-cropped white natural hair. A narrow face with high cheekbones and steady dark eyes behind large square glasses with a thin gold frame. Not frail: she has been climbing the booth stairs twice a week for thirty-eight years. An expression that is entirely unsurprised, because she has already seen the picture two hundred times and a robot in her gravel lot is not the strangest thing about tonight.",
+      "immutableInactive": null,
+      "canonicalRef": "char-junie-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "MR_JENNINGS": {
+      "token": "MR_JENNINGS",
+      "immutable": "A white man in his sixties, pink-complexioned and heavy through the middle, thin grey hair combed flat across a balding crown, wire-framed glasses, and a permanently obliging expression — a man who cannot say no to a neighbour and has never wanted to. A plain green grocer's apron over a short-sleeved checked shirt.",
+      "immutableInactive": null,
+      "canonicalRef": "char-jennings-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
+    "THE_BEAR": {
+      "token": "THE_BEAR",
+      "immutable": "A full-grown American black bear, glossy black coat with a brown muzzle and a pale tan patch at the chest, small round ears, and small dark eyes. **Enormous, calm and entirely real** — an ordinary animal rendered with the same weight as any other animal in the series, never comic, never anthropomorphic, never wearing or holding anything and never standing on two legs.",
+      "immutableInactive": null,
+      "canonicalRef": "char-bear-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
     }
   },
   "wardrobe": {
@@ -429,6 +495,26 @@
     "CARDIGAN_A": {
       "token": "CARDIGAN_A",
       "value": "Green cardigan with the mismatched third button, plain blouse, reading glasses on their chain",
+      "storyTime": "all"
+    },
+    "FELIX_B": {
+      "token": "FELIX_B",
+      "value": "**The Nightjar.** A dark charcoal knee-length coat, worn open, with a **faded teal lining that shows at the lapel and the turned-back cuff**; a short dark cape to mid-back, fastened at the throat, the same charcoal outside and the same teal inside; a plain black flat cap pulled low so no hair shows at the front and only a little at the nape; a dark long-sleeved shirt and dark practical trousers; scuffed black work boots. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits an eighteen year old quite properly",
+      "storyTime": "The Nightjar, all four parts"
+    },
+    "ROSA_A": {
+      "token": "ROSA_A",
+      "value": "Dark jeans, a plain short-sleeved shirt in faded red, and a canvas apron in oatmeal with a scorch mark low on one side, worn over the top and tied at the back. Sleeves pushed to the elbow. A cloth over one shoulder",
+      "storyTime": "all"
+    },
+    "JUNIE_A": {
+      "token": "JUNIE_A",
+      "value": "A quilted olive work jacket over a plain grey sweater, brown corduroy trousers, and flat brown lace-up shoes. A ring of keys on a belt loop",
+      "storyTime": "all"
+    },
+    "JENNINGS_A": {
+      "token": "JENNINGS_A",
+      "value": "A plain dark green grocer's apron, tied at the waist, over a short-sleeved checked shirt in blue and white and plain dark trousers",
       "storyTime": "all"
     }
   },

@@ -219,7 +219,7 @@ Not commissioned. The shot type, the depicted beat, the spoiler check, the promp
 
 ## Spread 6
 
-Pages 13 to 14 | Part Two: Patrol | Words 234
+Pages 13 to 14 | Part Two: Patrol | Words 275
 
 ### Text page (left), verbatim
 
@@ -248,6 +248,12 @@ Inside there were tools everywhere, and a workbench, and a rolling chair with ta
 “I do not know. I have never been here.”
 
 Vex stood in the middle of it and turned around slowly. “Somebody uses this. Somebody used this yesterday, the coffee’s still in the cup.”
+
+On the workbench, folded and set down square, there was a pair of round glasses with thin red frames.
+
+Pip looked at them for a long moment and did not pick them up.
+
+“The Nightjar does not wear glasses,” she said.
 
 On the wall, taped up crooked, there was a piece of notebook paper with a list on it in blue ballpoint.
 

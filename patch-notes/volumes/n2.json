@@ -336,8 +336,8 @@
       "n": 6,
       "kind": "spread",
       "pages": "13 to 14",
-      "declaredWords": 234,
-      "words": 231,
+      "declaredWords": 275,
+      "words": 272,
       "blocks": [
         {
           "t": "h",
@@ -390,6 +390,18 @@
         {
           "t": "p",
           "v": "Vex stood in the middle of it and turned around slowly. “Somebody uses this. Somebody used this yesterday, the coffee’s still in the cup.”"
+        },
+        {
+          "t": "p",
+          "v": "On the workbench, folded and set down square, there was a pair of round glasses with thin red frames."
+        },
+        {
+          "t": "p",
+          "v": "Pip looked at them for a long moment and did not pick them up."
+        },
+        {
+          "t": "p",
+          "v": "“The Nightjar does not wear glasses,” she said."
         },
         {
           "t": "p",
