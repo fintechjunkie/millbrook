@@ -2,7 +2,7 @@
   "volume": 1,
   "arc": "nightjar",
   "slug": "n1",
-  "imagesPending": true,
+  "imagesPending": false,
   "source": "NIGHTJAR_Part_1_v1.md",
   "chapter": "Part One: Taco Tuesday",
   "specVersion": "1 | Date: 2026-08-07",
@@ -19,13 +19,13 @@
       },
       "image": {
         "slug": "n1-opener",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
+        "shotType": "Establishing (full bleed, both pages)",
+        "depicts": "Millbrook on an ordinary Tuesday evening, before any of it. No story beat.",
+        "spoilerCheck": "PASS. A chapter opener precedes all prose. Deliberately shows no truck, no gravel lot, no figure on any roof and nobody at all — the truck is beat 1 of text page 1 and the man on the parapet is the reveal on text page 8. It establishes only the geography the whole arc runs on: the water tower at one end and the Main Street roofline at the other.",
         "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "prompt": "{{STYLE}}\n{{LOC:MILLBROOK_WIDE}}\nA small flat town of low single-storey houses on a grid of wide streets, mature trees between them, seen from a slight elevation on its edge. A short commercial main street of two- and three-storey brick frontages runs through the middle distance with its lights just coming on, and a municipal water tower on braced steel legs stands beyond the treeline at the far end of it. The two are the furthest apart things in the frame and both are clearly readable.\nEmpty streets. No vehicles, no figures of any kind and nobody on any roof.\nEarly evening in spring, the light going long and gold, the sky clear.\nWide establishing panorama from a slight elevation, deep focus, level horizon, nothing cropped.\nLow warm evening sun raking across the grid from one side, long soft shadows, every roofline and the tower clearly readable.\n{{NEGATIVE}}\nAspect ratio: 2:1",
+        "aspect": "2:1",
+        "alt": "A small town of low houses seen from its edge at golden hour, a short main street of brick frontages with its lights coming on and a water tower standing beyond the trees at the far end."
       }
     },
     {
@@ -79,13 +79,13 @@
       "note": null,
       "image": {
         "slug": "n1-s01",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character action",
+        "depicts": "Beats 5 to 6. Vex has ordered for everybody without asking, one boot up on somebody else's bumper, while Rosa leans out of the hatch reeling off what each of them is having.",
+        "spoilerCheck": "PASS. Final beat is Felix under the awning with a screwdriver he did not ask permission to bring. Not depicted: Felix is not in frame at all, the generator is not being touched, and nothing is wrong with the truck.",
+        "hardConstraints": "exactly three people. Vex must have BOTH mint buns and a boot up on the bumper. Do not add a fourth kid. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:ROSAS_TRUCK}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:VEX}}\n{{CHAR:OWEN}}\nEXACTLY THREE FIGURES AND NOBODY ELSE. Early evening at the food truck, in the middle of an order that was placed without asking anyone.\nVEX is the subject and she is mid-move: **one boot planted up on the front bumper of a parked car** beside the truck, leaning her weight forward onto that knee, an armful of wrapped food held against her chest, her head turned back over her shoulder to call something at the other two. Entirely pleased with herself.\nROSA leans out through the raised serving hatch on her forearms, mid-sentence, one hand lifted off the sill counting something off on her fingers. She is enjoying this and she is not hurrying.\nOWEN stands at the hatch with one hand already out for his food, looking sideways at Vex with his eyebrows down — not angry, itemising a grievance.\nThe awning is out, the hatch light is on, the generator is running at the back of the truck.\nEarly evening, warm, the light going long and gold.\nMedium wide, camera at standing height on the gravel about fifteen feet back, angled so the truck runs across the frame with Vex and the bumper in the near half and Rosa framed in the lit hatch beyond her. All three faces clearly readable.\nLow warm evening sun from one side plus the warm hatch light on Rosa, long soft shadows on the gravel, everything clearly readable.\nHard constraints: exactly three people. Vex must have BOTH mint buns and a boot up on the bumper. Do not add a fourth kid.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A girl with green hair rests one boot on a car bumper with an armful of food, calling back at a boy waiting at the hatch of a food truck, while the woman inside leans out counting off an order on her fingers."
       }
     },
     {
@@ -151,13 +151,13 @@
       "note": null,
       "image": {
         "slug": "n1-s02",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character close, two-shot",
+        "depicts": "Beats 6 to 7. Pip has taken one bite, put the plate down, and listed what is in it. Rosa has leaned out of the window and is staring at her.",
+        "spoilerCheck": "PASS. Final beat is the narrator's line that the real answer was that boring. Not depicted: the generator is not in frame, nothing has failed, and there is no queue.",
+        "hardConstraints": "exactly two people. Pip's face does nothing at all — no smile, no frown. Rosa carries the entire reaction. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:ROSAS_TRUCK}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:PIP}}\nEXACTLY TWO FIGURES AND NOBODY ELSE, and this is a CLOSE shot: only the serving hatch and a short stretch of the truck's flank are in frame, with the two faces filling most of it.\nPIP stands at the hatch, upright and completely level, holding a paper plate down at her side with one bite gone out of what is on it. Her head is straight, her mouth is closed, her eyes are open and pointed at nothing in particular. She has just said something flatly and is not aware it was remarkable.\nROSA has come right out through the hatch on her forearms to look at her properly — head forward, eyebrows up, mouth slightly open, caught between astonishment and delight. She is looking directly at Pip and Pip is not looking back.\nThe whole subject of the picture is the difference between the two faces.\nEarly evening, warm, the light beginning to go.\nCLOSE two-shot at standing height, square to the hatch, the two heads occupying the upper two thirds of the frame and both faces large and fully readable. The gravel lot and the field behind are out of frame entirely.\nWarm hatch light on Rosa from inside the truck plus low evening daylight on Pip, both faces fully readable, no deep shadow.\nHard constraints: exactly two people. Pip's face does nothing at all — no smile, no frown. Rosa carries the entire reaction.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A robotic girl stands at a food truck window holding a plate with one bite taken, her face doing nothing, while the woman inside leans right out to stare at her in astonishment."
       }
     },
     {
@@ -195,13 +195,13 @@
       "note": null,
       "image": {
         "slug": "n1-s03",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character action",
+        "depicts": "Beat 5. Mr. Jennings has opened the store at two in the morning in his slippers, has run out of ginger ale, and is handing over club soda while telling somebody it is the same thing.",
+        "spoilerCheck": "PASS. Final beat is the message on the town emergency line with the Mayor's name on it four times. Not depicted: no telephone, no Mayor, no notice and nothing about the town line.",
+        "hardConstraints": "the slippers must be visible. The queue figures must have no readable faces and must not be any of the children. Nothing in frame carries a brand or a legible label. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{CHAR:MR_JENNINGS}}\n{{WARDROBE:JENNINGS_A}}\nONE NAMED FIGURE. A small-town grocery store open in the middle of the night, described here because it has no reference image: a narrow checkout counter with an old till, shelving behind it, a chest cooler along one wall, fluorescent tubes overhead, a glass front door with black windows beyond it.\nMR. JENNINGS is behind the counter, mid-handover: **both hands pushing a four-pack of plain club soda bottles across the counter** toward a customer, leaning forward over it, mouth open mid-sentence, eyebrows up, entirely earnest. He is explaining something he does not believe.\n**He is wearing SLIPPERS** — soft tartan house slippers, plainly not shoes — and they must be visible below the counter. He came straight from bed.\nThe shelf behind him where the ginger ale was is CONSPICUOUSLY EMPTY, a clean gap with price labels and nothing on it.\nTwo or three ordinary townspeople wait in a short queue at the counter in dressing gowns and coats thrown over nightclothes, seen from behind and to one side, faces away from camera or soft, none of them a named character.\nTwo o'clock in the morning.\nMedium, camera at standing height across the counter, Jennings large in frame and fully lit, the queue soft in the near foreground, the empty shelf clearly readable behind him.\nBright flat fluorescent light from overhead — a lit shop in the middle of the night, not a dark one. Every face and the empty shelf clearly readable, black windows the only thing saying it is night.\nHard constraints: the slippers must be visible. The queue figures must have no readable faces and must not be any of the children. Nothing in frame carries a brand or a legible label.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A grocer in an apron and house slippers pushes a pack of club soda across his counter at two in the morning, explaining something earnestly, with an empty shelf behind him and a short queue of people in dressing gowns waiting."
       }
     },
     {
@@ -239,13 +239,13 @@
       "note": null,
       "image": {
         "slug": "n1-s04",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character close, two-shot",
+        "depicts": "Beat 3. Milo, who never gets sick, is sick, and his mother is sitting on the edge of the bathtub with him telling him about a wedding in 1996.",
+        "spoilerCheck": "PASS. Final beat is Pip alone in the Warehouse saying that something is opening. Not depicted: Pip is not in frame, the Warehouse does not appear, and there is no VHS tape and no television anywhere in this plate.",
+        "hardConstraints": "exactly two people. Milo keeps the orange beanie and the red-lensed glasses. His mother is amused and unhurried, not anxious. Nobody is being sick in frame and there is no bucket, basin or mess of any kind. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{CHAR:MILO}}\nEXACTLY TWO FIGURES. A small ordinary domestic bathroom in the middle of the night, described here because it has no reference image: patterned tile halfway up the walls, a plain bath with a shower curtain pushed to one end, a pedestal basin, a bathmat, a night light or a single overhead fixture.\nMILO sits on the floor with his back against the side of the bath, knees up, arms loose over them, head tipped back against the rim. He is grey and wrung out and completely unembarrassed. His beanie and his small round red-lensed glasses are still on, because they always are.\nHIS MOTHER sits on the edge of the bathtub beside him — a Black woman in her forties, warm brown skin, hair wrapped in a patterned headscarf for the night, a dressing gown over nightclothes, bare feet. She is NOT worried and NOT fussing. She is **mid-anecdote**: turned toward him, one hand lifted off her knee in the middle of describing something, mouth open, eyebrows up, plainly enjoying the story. Her other hand rests flat on the rim of the bath beside his shoulder without touching him.\nThe whole subject is that she is telling him about something that happened thirty years ago while he is on the bathroom floor, and that it is working.\nThe middle of the night.\nClose two-shot at floor height, camera low and across the small room, both faces large and fully readable, the bath running across the frame between them.\nA LIT ROOM at night. Ordinary warm overhead bathroom light, soft and even, both faces fully readable, nothing sinister and no part of the frame falling to featureless black.\nHard constraints: exactly two people. Milo keeps the orange beanie and the red-lensed glasses. His mother is amused and unhurried, not anxious. Nobody is being sick in frame and there is no bucket, basin or mess of any kind.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A boy in a beanie and red-lensed glasses sits on a bathroom floor against the tub in the middle of the night while his mother sits on the rim beside him, mid-story, one hand raised, plainly enjoying herself."
       }
     },
     {
@@ -291,13 +291,13 @@
       "note": null,
       "image": {
         "slug": "n1-s05",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character action",
+        "depicts": "Beats 2 to 4. A door that was not there has opened in a nine-year-old's bedroom wall and a three-foot robot is coming through it with a clipboard, apologising.",
+        "spoilerCheck": "PASS. Final beat is Cassie Reyner, who has had a night like this before and was not believed. Not depicted: Cassie is not in frame, this is not her room, and nothing on the clipboard is legible.",
+        "hardConstraints": "Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{CHAR:CHET}}\nONE NAMED FIGURE plus one child. An ordinary small child's bedroom in the middle of the night, described here because it has no reference image: a single bed against one wall with a rumpled duvet, a bedside table with a lamp, a chest of drawers, a scatter of toys on the carpet, a window with the curtains drawn.\n**A DOORWAY HAS OPENED IN THE PLAIN BEDROOM WALL AND IT DOES NOT BELONG THERE.** It is about four and a half feet tall, a plain rectangular opening with a simple frame, standing open in the middle of an otherwise ordinary papered wall with no architecture around it — no jamb built into the room, no skirting interrupted, nothing to explain it. Beyond it is a flat warm glow and no legible detail whatsoever.\nCHET is **stepping through it, mid-stride**, one foot over the threshold and into the bedroom, a clipboard held against his side under one arm. He is three feet tall and the doorway is not much taller than he is. He is looking up and across at the child with an apologetic, slightly harassed expression, mouth open on a short word. He is not menacing and he is not sneaking.\nTHE CHILD, a nine-year-old in pyjamas, is **sitting bolt upright in bed**, duvet shoved back, both hands flat on the mattress, eyes wide, absolutely awake and staring straight at him. Not screaming and not frightened — astonished.\nThe middle of the night.\nMedium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.\nA LIT ROOM at night: the bedside lamp is on plus the warm spill from the open doorway, so the wall, the bed and both faces are clearly readable. No part of the frame falls to featureless black and nothing about the lighting is sinister.\nHard constraints: Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A small three-foot robot with a clipboard steps through a low doorway that has opened in a child's bedroom wall, apologising, while a nine-year-old sits bolt upright in bed staring at him."
       }
     },
     {
@@ -363,13 +363,13 @@
       "note": null,
       "image": {
         "slug": "n1-s06",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character close",
+        "depicts": "Beat 12. Chet has stopped in the blue flickering living room to watch the television, because he has never seen anything like it.",
+        "spoilerCheck": "PASS. Final beat is Chet telling the sleeping boy he is going to be fine and leaving through the wall. Not depicted: no door is open in this wall, Chet has not started work, and he has not spoken.",
+        "hardConstraints": "nothing on the television screen is text. Chet is three feet tall against the couch and the television stand. Felix stays asleep and his red glasses are on his face or folded on the table beside him. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:FELIX_LIVING_ROOM}}\n{{CHAR:CHET}}\n{{CHAR:FELIX}}\n{{WARDROBE:FELIX_A}}\n{{CHAR:THE_FILM_NIGHTJAR}}\nTHE TELEVISION IN THE ATTACHED REFERENCE IS BLANK AND OFF. HERE IT IS ON AND PLAYING, and what is on it is the subject of the picture.\nON THE SCREEN: a picture of a man in a black eye mask standing on a wet rooftop in the rain at night, in a long dark coat with the collar up, mid-speech with one hand raised. He is an adult, tall and heavy through the shoulders. The image is grainy and slightly washed, the way a worn videotape looks. **It is a PICTURE and not a display: no text, no caption, no subtitles, no channel logo, no interface and nothing legible anywhere on the screen.**\nCHET stands in the middle of the carpet a few feet back from the television with his clipboard hanging forgotten at his side, **stopped mid-step and looking up at the screen**, head tilted back and slightly to one side. He has never seen anything like it. His whole posture is a small machine that has stopped doing its job for a moment.\nFELIX is asleep sitting up on the couch behind him with a blanket over one arm, head tipped back, mouth slightly open, entirely out. He is not woken and he is not looked at.\nTwenty to six in the morning, still dark outside.\nMedium, camera at standing height behind and to one side of Chet, so that the lit screen, Chet looking up at it and the sleeping boy on the couch are all in one frame. Chet is the subject and is fully readable.\nThe room is lit by the television and by one lamp still on: cool flicker from the screen across the carpet and Chet, warm lamplight on the couch. **A LIT ROOM, not a dark one** — the furniture, the carpet, Chet and the sleeping boy all stay clearly readable and no part of the frame falls to featureless black.\nHard constraints: nothing on the television screen is text. Chet is three feet tall against the couch and the television stand. Felix stays asleep and his red glasses are on his face or folded on the table beside him.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A small robot with a clipboard stands in a dim living room at dawn looking up at a television playing an old film of a masked man on a rainy rooftop, while a teenage boy sleeps sitting up on the couch behind him."
       }
     },
     {
@@ -427,13 +427,13 @@
       "note": null,
       "image": {
         "slug": "n1-s07",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character close, two-shot",
+        "depicts": "Beat 8. Rosa is sitting on her own bumper with her keys in her hand and the CLOSED sign written and not taped up, and Milo has sat down on the gravel next to her.",
+        "spoilerCheck": "PASS. Final beat is Milo's speech about the generator and about having a conversation with anybody who says otherwise. Not depicted: he has not started speaking, nobody else has come over, and Lena's footage does not appear.",
+        "hardConstraints": "exactly two people. The hatch is CLOSED. Rosa is still and dry-eyed, not weeping. Milo is on the ground, not crouching and not standing. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:ROSAS_TRUCK}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:MILO}}\nEXACTLY TWO FIGURES. **The truck is SHUT.** The serving hatch is down and latched, the awning is rolled away, the folding table is gone, the generator is silent. This is the same lot the night before and it is empty: no queue, no food, no light.\nROSA sits on the rear bumper of her own truck with her forearms on her knees and **a bunch of keys held loosely in one hand**. She is not crying. She is looking at the middle distance and not at anything, and she has stopped partway through doing something.\nA hand-lettered CLOSED sign made from a square of card rests on the bumper beside her, **not taped up**, with a roll of tape sitting on top of it. Render the sign as brushed lettering shapes with NO legible letters.\nMILO has sat **down on the gravel** beside the bumper, close to her, forearms across his raised knees, looking up and sideways at her face. He is not touching her and not talking yet. Sitting down on the ground next to somebody is the thing he does that nobody else would think of, and it is the point of the plate.\nTen in the morning, flat and grey, the light completely unlike the evening before.\nClose two-shot at low camera height near the gravel, the two of them filling the frame with the shut truck behind them, both faces clearly readable.\nFlat even overcast morning daylight, no long shadows, cool and quiet, everything readable.\nHard constraints: exactly two people. The hatch is CLOSED. Rosa is still and dry-eyed, not weeping. Milo is on the ground, not crouching and not standing.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A woman sits on the back bumper of her closed food truck with her keys in her hand and an untaped CLOSED sign beside her, while a boy sits down on the gravel next to her and looks up at her face."
       }
     },
     {
@@ -495,13 +495,13 @@
       "note": null,
       "image": {
         "slug": "n1-s08",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character action, wide",
+        "depicts": "Beats 2 to 3. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, and his voice is carrying the whole length of Main Street.",
+        "spoilerCheck": "PASS. Final beat is \"The Nightjar has heard your concern. The Nightjar dismisses it.\" Not depicted: he has not moved to the ledge, there is no rope and no bicycle frame in frame, and nobody is laughing.",
+        "hardConstraints": "he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. Exactly three people in the picture and no crowd. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{CHAR:THE_NIGHTJAR}}\n{{WARDROBE:FELIX_B}}\n{{CHAR:LENA}}\n{{CHAR:OWEN}}\nA MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.\nTHE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.\n**His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.\nDown on the sidewalk at the very bottom of the frame and much smaller, LENA and OWEN stand looking up at him — Lena with a camera down at her side, already forgotten; Owen with one hand cupped at his mouth, calling something up. Their faces are turned up and away from camera and are not the subject.\nMid-morning, bright and dry, a clear pale sky behind the roofline.\nWIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.\nHigh clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.\nHard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. Exactly three people in the picture and no crowd.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while two kids on the sidewalk far below look up at him."
       }
     },
     {
@@ -551,13 +551,13 @@
       "note": null,
       "image": {
         "slug": "n1-s09",
-        "shotType": null,
-        "depicts": null,
-        "spoilerCheck": null,
-        "hardConstraints": null,
-        "prompt": null,
-        "aspect": null,
-        "alt": null
+        "shotType": "Character group",
+        "depicts": "Beats 3 to 5. Eleven seconds after a landing that did not sound good, a thumbs up has come up over the parapet, everybody on the street is laughing, and Pip has not moved.",
+        "spoilerCheck": "PASS. Final beat is Milo asking, kindly, who Felix is. Not depicted: nobody has asked Pip anything, nobody has turned to her, and she has not spoken.",
+        "hardConstraints": "only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level. {{NEGATIVE}} Aspect ratio: 3:2 ```",
+        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:MILO}}\n{{CHAR:PIP}}\nEXACTLY THREE FIGURES ON THE STREET AND ONE HAND ON THE ROOF. A group on the sidewalk in the moment after something ridiculous.\nHIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the top of the parapet of the three-storey brick building, thumb up.** Nothing else of the person is visible — no head, no shoulder, no face. Just the hand, held there, entirely serious.\nON THE SIDEWALK BELOW, ROSA is laughing properly with her head back and one hand flat on her chest — the first good thing that has happened to her all morning. MILO is laughing too, bent slightly forward, looking up at the hand.\nPIP stands a little apart from the two of them and **she is completely still**. Not laughing, not smiling, head level, hands at her sides, and she is NOT looking up at the roof — she is looking along the street at nothing, as though counting something. She is the one thing in the frame that is not moving and she should read as slightly outside the group.\nMid-morning, bright and dry.\nMedium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.\nHigh clear morning light, warm and even, no drama, every face readable.\nHard constraints: only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "aspect": "3:2",
+        "alt": "A hand with the thumb up reaches over the parapet of a building high above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way."
       }
     }
   ]
