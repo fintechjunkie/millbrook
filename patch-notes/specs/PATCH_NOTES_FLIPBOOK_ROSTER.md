@@ -1135,6 +1135,39 @@ light, going up much further than the ceiling above their heads had any business
 Plus a wooden chair much too big for him. It is the last image of the arc and the only
 impossible space in either arc so far.
 
+## 4.6c A character who must be small and far will be drawn twice
+
+**Found on `n1-s08`, three attempts running, 2026-08-07.** The plate puts the Nightjar on a
+parapet three storeys up, deliberately small and with his face unreadable, and two of the crew
+on the sidewalk far below. Every attempt came back with him correct on the roof **and a second
+copy of him standing at street level between the two kids** — the same flat cap, charcoal hooded
+cape, teal sleeve and red-orange sneakers.
+
+The third attempt had the constraint hoisted to the head of the prompt, naming every costume
+piece nobody at street level may wear and stating there is no third child. It made no
+difference. The negative block has forbidden duplicated figures since arc one and that made no
+difference either.
+
+**The likely mechanism, and it is worth designing around rather than arguing with.** The prompt
+attaches `char-nightjar-canonical.png`, which is a full-body figure standing at ground level on a
+flat ground — that is what every canonical sheet is. The prompt then asks for that character to
+appear tiny, high up and unreadable. The attachment and the instruction disagree about how the
+character should occupy the frame, and the generation satisfies both: once as the sheet shows
+him, once as the prompt asks.
+
+Three things follow:
+
+1. **When a character is required to be small, far or partly hidden, expect a second full-size
+   copy** and check for it by cropping and upscaling the frame, not by glancing at it. It is easy
+   to miss at full size, and on this plate it sat in a group of three that reads as normal.
+2. **The fix is an edit, not another generation.** Removing one small figure from a plain
+   sidewalk is a clean local change, and by the third attempt everything else in the plate was
+   right. Do not spend a fourth generation on an instruction that has already failed three times.
+3. **Prefer to solve it in the staging.** A plate that needs a character both far and unmistakable
+   is asking for the fault. Where the story allows, put the distant figure in a plate whose other
+   named characters are the ones with attached sheets, and let the distant one be described
+   inline — or accept the duplicate risk knowingly and budget an edit for it.
+
 ## 4.6b Green means ill, and the negative block will not give it to you unasked
 
 **The rule is old and the mechanism is the part that catches people.** Section 2 has said since
