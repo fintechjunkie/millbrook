@@ -1395,15 +1395,15 @@ The two are one man and one performance: helpful past the point of usefulness.
 
 ### {{CHAR:MILOS_MOTHER}} — Milo's mother
 
-**Immutable:** A woman in her early forties, **fair skin with a warm pink flush across the
+**Immutable:** A woman in her late thirties, **fair skin with a warm pink flush across the
 cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a
 warm reddish cast where the light catches it** — short, cut close at the sides and back with
 jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark
 eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small
 mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the
-mouth, and a few silver hairs at one temple. Ordinary height and build.
+mouth. Ordinary height and build. **The delivered sheet carries no silver at the temple — see the deviation note below.**
 
-**Canonical reference:** `char-milos-mother-canonical.png` · Seed: pending · Approved: no
+**Canonical reference:** `char-milos-mother-canonical.png` · Seed: pending · Approved: yes, 2026-08-08
 
 **She exists to match Milo and the first attempt did not.** `n1-s04` was delivered with her as a
 Black woman in a headscarf, which was invented in the prompt and contradicts her son: Milo's block
@@ -1421,6 +1421,13 @@ Do not draw her young. Archived at `reference-source/SECONDARY/Milos_Mother/SUPP
 weary and unimpressed, looking away. A canonical sheet is neutral and doing nothing — the same
 rule that kept Ida's wave out of hers. Her warmth belongs to the plate, where she is mid-anecdote
 about a wedding in 1996 while her son is on the bathroom floor.
+
+**Locked 2026-08-08, with one deviation.** The block asked for early forties and the sheet reads
+closer to late thirties: the faint lines under the eyes and at the nasolabial folds arrived, the
+silver at the temple did not. The block above is amended to match the art rather than the reverse,
+which is the standing rule. She is unambiguously an adult, which was the point of asking. If she
+ever needs to read plainly older, **silver at one temple is the single most legible ageing cue at
+plate size** and it is the only one missing.
 
 **She has exactly one appearance and it is a good one.** She is not worried and she is not
 fussing. Milo never gets sick and has got sick, and what she does about it is tell him a story he

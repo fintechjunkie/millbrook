@@ -37,10 +37,11 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: Beat 3. Milo, who never gets sick, is sick, and his mother is sitting on the edge of the bathtub with him telling him about a wedding in 1996.
 Spoiler check: PASS. Final beat is Pip alone in the Warehouse saying that something is opening. Not depicted: Pip is not in frame, the Warehouse does not appear, and there is no VHS tape and no television anywhere in this plate.
-Named figures: Milo (1 of a maximum 2)
+Named figures: Milo, Milos Mother (2 of a maximum 2)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
+- `char-milos-mother-canonical.png` — Milos Mother
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -70,19 +71,24 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - exactly two people.
 - Milo keeps the orange beanie and the red-lensed glasses.
-- His mother is amused and unhurried, not anxious.
+- His mother is FAIR-SKINNED WITH BLACK HAIR and plainly related to him - a previous attempt drew her as a Black woman in a headscarf, which contradicts her son.
+- She wears no hat.
+- She is amused and unhurried, not anxious.
 - Nobody is being sick in frame and there is no bucket, basin or mess of any kind.
 CHARACTER: Milo. Use the attached canonical reference image "char-milo-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old boy, the tallest of the three boys, slim with long limbs, natural light-to-medium skin of ordinary healthy tone, a long clean-shaven face with a defined jaw, eyebrows and eye shape almost entirely concealed at all times behind small round glasses with red lenses, a straight narrow nose, and a flat unsmiling mouth. Dark reddish-brown hair, jaw-length and slightly messy. He wears an orange ribbed knit beanie at all times. His expression is narrow and controlled and his posture guarded; he should read calm, unreadable and visually restrained. The beanie and the red-lensed glasses are permanent and are never removed.
+CHARACTER: Milos Mother. Use the attached canonical reference image "char-milos-mother-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
+A woman in her late thirties, **fair skin with a warm pink flush across the cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a warm reddish cast where the light catches it** — short, cut close at the sides and back with jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the mouth. Ordinary height and build. **The delivered sheet carries no silver at the temple — see the deviation note below.**
+Wardrobe, unchanged for this scene: **The middle of the night.** A soft blue-grey dressing gown tied at the waist over a plain cream nightdress, and bare feet. **No hat.** She came straight out of bed
 EXACTLY TWO FIGURES. A small ordinary domestic bathroom in the middle of the night, described here because it has no reference image: patterned tile halfway up the walls, a plain bath with a shower curtain pushed to one end, a pedestal basin, a bathmat, a night light or a single overhead fixture.
 **MILO IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face, neck and hands carry a distinct sickly GREEN cast over his own skin tone — a pale, faintly grey-green pallor across the forehead, cheeks and around the mouth, unmistakable at a glance and not subtle. In this world green skin means somebody is ill and it is the signal the reader is meant to read. He is wrung out, not comical.
 MILO sits on the floor with his back against the side of the bath, knees up, arms loose over them, head tipped back against the rim. He is grey and wrung out and completely unembarrassed. His beanie and his small round red-lensed glasses are still on, because they always are.
-HIS MOTHER sits on the edge of the bathtub beside him — a Black woman in her forties, warm brown skin, hair wrapped in a patterned headscarf for the night, a dressing gown over nightclothes, bare feet. She is NOT worried and NOT fussing. She is **mid-anecdote**: turned toward him, one hand lifted off her knee in the middle of describing something, mouth open, eyebrows up, plainly enjoying the story. Her other hand rests flat on the rim of the bath beside his shoulder without touching him.
+HIS MOTHER sits on the edge of the bathtub beside him, in her dressing gown with bare feet, straight out of bed. **She is his mother and must read as related to him**: the same fair skin and the same dark hair, which is the point of the attached sheet. She is NOT worried and NOT fussing. She is **mid-anecdote**: turned toward him, one hand lifted off her knee in the middle of describing something, mouth open, eyebrows up, plainly enjoying the story. Her other hand rests flat on the rim of the bath beside his shoulder without touching him.
 The whole subject is that she is telling him about something that happened thirty years ago while he is on the bathroom floor, and that it is working.
 The middle of the night.
 Close two-shot at floor height, camera low and across the small room, both faces large and fully readable, the bath running across the frame between them.
 A LIT ROOM at night. Ordinary warm overhead bathroom light, soft and even, both faces fully readable, nothing sinister and no part of the frame falling to featureless black.
-Hard constraints: exactly two people. Milo keeps the orange beanie and the red-lensed glasses. His mother is amused and unhurried, not anxious. Nobody is being sick in frame and there is no bucket, basin or mess of any kind.
+Hard constraints: exactly two people. Milo keeps the orange beanie and the red-lensed glasses. His mother is FAIR-SKINNED WITH BLACK HAIR and plainly related to him - a previous attempt drew her as a Black woman in a headscarf, which contradicts her son. She wears no hat. She is amused and unhurried, not anxious. Nobody is being sick in frame and there is no bucket, basin or mess of any kind.
 
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2

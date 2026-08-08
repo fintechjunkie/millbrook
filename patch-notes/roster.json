@@ -396,13 +396,13 @@
     },
     "MILOS_MOTHER": {
       "token": "MILOS_MOTHER",
-      "immutable": "A woman in her early forties, **fair skin with a warm pink flush across the cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a warm reddish cast where the light catches it** — short, cut close at the sides and back with jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the mouth, and a few silver hairs at one temple. Ordinary height and build.",
+      "immutable": "A woman in her late thirties, **fair skin with a warm pink flush across the cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a warm reddish cast where the light catches it** — short, cut close at the sides and back with jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the mouth. Ordinary height and build. **The delivered sheet carries no silver at the temple — see the deviation note below.**",
       "immutableInactive": null,
       "canonicalRef": "char-milos-mother-canonical.png",
       "refLocation": null,
       "seed": "pending",
-      "approved": false,
-      "approvalNote": "no",
+      "approved": true,
+      "approvalNote": "yes, 2026-08-08",
       "renderingNote": null
     },
     "THE_BEAR": {
