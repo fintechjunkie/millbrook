@@ -140,7 +140,8 @@ The awning is out, the hatch light is on, the generator is running at the back o
 Early evening, warm, the light going long and gold.
 Medium wide, camera at standing height on the gravel about fifteen feet back, angled so the truck runs across the frame with Vex and the bumper in the near half and Rosa framed in the lit hatch beyond her. All three faces clearly readable.
 Low warm evening sun from one side plus the warm hatch light on Rosa, long soft shadows on the gravel, everything clearly readable.
-Hard constraints: exactly three people. Vex must have BOTH mint buns and a boot up on the bumper. Do not add a fourth kid.
+SCALE: Rosa is an ordinary-sized woman and NOT a large one. She is no taller than these teenagers — standing on the ground she would be level with Lena and shorter than Milo — and she is leaning out of a hatch here, so she must not tower over the frame or read as bigger-boned than Vex and Owen. Her build is comfortable, not imposing.
+Hard constraints: exactly three people. Vex must have BOTH mint buns and a boot up on the bumper. Do not add a fourth kid. Rosa is not oversized.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -203,7 +204,8 @@ The whole subject of the picture is the difference between the two faces.
 Early evening, warm, the light beginning to go.
 CLOSE two-shot at standing height, square to the hatch, the two heads occupying the upper two thirds of the frame and both faces large and fully readable. The gravel lot and the field behind are out of frame entirely.
 Warm hatch light on Rosa from inside the truck plus low evening daylight on Pip, both faces fully readable, no deep shadow.
-Hard constraints: exactly two people. Pip's face does nothing at all — no smile, no frown. Rosa carries the entire reaction.
+SCALE, AND THIS PLATE IS WHERE IT GOES WRONG. Pip is the TALLEST of the three girls and Rosa is an ordinary-sized woman, so **standing on the same floor Pip would be very slightly the taller of the two**. Rosa is raised here only by the height of the truck floor she is standing on, so her head sits a little above Pip's and no more. Rosa must NOT be drawn broad, heavy, matronly or larger-framed than Pip: their shoulders are a similar width and Pip is the slimmer and straighter of the two.
+Hard constraints: exactly two people. Pip's face does nothing at all — no smile, no frown. Rosa carries the entire reaction. Rosa is not oversized and not taller than a head above Pip.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -470,7 +472,8 @@ MILO has sat **down on the gravel** beside the bumper, close to her, forearms ac
 Ten in the morning, flat and grey, the light completely unlike the evening before.
 Close two-shot at low camera height near the gravel, the two of them filling the frame with the shut truck behind them, both faces clearly readable.
 Flat even overcast morning daylight, no long shadows, cool and quiet, everything readable.
-Hard constraints: exactly two people. The hatch is CLOSED. Rosa is still and dry-eyed, not weeping. Milo is on the ground, not crouching and not standing.
+SCALE: Rosa is an ordinary-sized woman, shorter than Milo when both stand. She is seated on a bumper and he is sitting on the ground, so she is higher in frame for that reason alone — she must not also be drawn bigger, broader or heavier-framed than he is.
+Hard constraints: exactly two people. The hatch is CLOSED. Rosa is still and dry-eyed, not weeping. Milo is on the ground, not crouching and not standing. Rosa is not oversized.
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```

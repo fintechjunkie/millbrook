@@ -1135,6 +1135,42 @@ light, going up much further than the ceiling above their heads had any business
 Plus a wooden chair much too big for him. It is the last image of the arc and the only
 impossible space in either arc so far.
 
+## 4.6a Scale: a canonical sheet cannot carry it, and every block has to
+
+**Added 2026-08-07 after Rosa came back too big in a delivered plate and had to be corrected by
+hand.** It was not a fault in her sheet. It is a fault in the format, and it applies to all
+thirty-six of them.
+
+**A canonical sheet is one figure filling a 3:4 frame on a flat ground.** There is nothing in it
+to measure against, so every sheet in the directory reads as exactly the same height. Attach two
+of them to one prompt and the generator has no information at all about which person is taller,
+so it invents — and it tends to make whoever is described as *solidly built* or *heavy through
+the middle* into the biggest thing in the picture, because build is the only size word it has.
+
+The roster already solved this for everyone it happened to think about. Chet's block carries
+*about three feet tall* and says outright that the sheet cannot show it. The man in the coat is
+*no taller than a young child*. Milo is *the tallest of the three boys*, Owen *slightly shorter
+than Milo and taller than Felix*, Felix *the shortest*, Pip *the tallest of the three girls*, Vex
+*slightly shorter than Lena*. Aunt Carol's block goes further and forbids the failure by name:
+*tall, upright and lean rather than soft — she is **never** drawn stout, heavy or matronly*.
+
+**The three characters added for The Nightjar had no height in their blocks at all**, which is
+why this happened to Rosa first and would have happened to Junie and Mr. Jennings next. All three
+now carry one, expressed against a character the reader already knows rather than in inches.
+
+Three rules follow, and none of them is optional:
+
+1. **Every new character block states a height, relative to somebody already locked.** Inches
+   mean nothing to a generator; *the top of Milo's head clears hers* is checkable in the
+   delivered image.
+2. **Every prompt with two or more figures states the relationship again, in the prompt.** The
+   block is expanded into the prompt anyway, but a scale line placed with the staging — *the top
+   of Pip's head is level with Rosa's eyes* — is what a generation actually obeys. Same reasoning
+   as hoisting a hard constraint to the head.
+3. **Once a plate is delivered with the proportions right, attach it as the scale authority.**
+   This is the u4-s07 lesson: three feet in words had failed twice, and attaching the delivered
+   `u4-s09` fixed it in one pass. A picture of two people standing together beats any sentence.
+
 ## 4.7 The man on the roof — The Nightjar
 
 Locked 2026-08-07 from delivered art. Sheet: `char-nightjar-canonical.png`, 1086x1448, exactly
@@ -1242,8 +1278,11 @@ Not yet generated. Prompts in `PROMPT-canonical-nightjar-town.md`.
 
 ### {{CHAR:ROSA}} — Rosa Delgado
 
-**Immutable:** A Mexican-American woman in her late forties, warm mid-brown skin, solidly and
-comfortably built, black hair going grey at the temples pulled back into a low working knot with
+**Immutable:** A Mexican-American woman in her late forties, **of ordinary height and no taller
+than the teenagers — the top of Milo's head clears hers, and she stands level with Lena**, warm
+mid-brown skin, solidly and
+comfortably built through the shoulders and middle without being large or imposing,
+black hair going grey at the temples pulled back into a low working knot with
 a few strands escaped at the front. A broad face with strong cheekbones, dark brown eyes with
 deep smile lines at the corners, and the easy unhurried expression of somebody who has fed this
 town for four years and knows everybody's mother. Small gold hoop earrings.
@@ -1261,7 +1300,7 @@ hers.
 
 ### {{CHAR:JUNIE}} — Junie Okafor
 
-**Immutable:** A Black woman in her seventies, deep brown skin, small and spare and upright,
+**Immutable:** A Black woman in her seventies, **the shortest adult in the arc — a clear head shorter than any of the six teenagers**, deep brown skin, small and spare and upright,
 close-cropped white natural hair. A narrow face with high cheekbones and steady dark eyes behind
 large square glasses with a thin gold frame. Not frail: she has been climbing the booth stairs
 twice a week for thirty-eight years. An expression that is entirely unsurprised, because she has
@@ -1279,7 +1318,7 @@ is a figure on a flat ground.
 
 ### {{CHAR:MR_JENNINGS}} — Mr. Jennings, the grocer
 
-**Immutable:** A white man in his sixties, pink-complexioned and heavy through the middle, thin
+**Immutable:** A white man in his sixties, **of ordinary height, shorter than Milo and about level with Owen**, pink-complexioned and heavy through the middle but not tall, thin
 grey hair combed flat across a balding crown, wire-framed glasses, and a permanently obliging
 expression — a man who cannot say no to a neighbour and has never wanted to. A plain green
 grocer's apron over a short-sleeved checked shirt.

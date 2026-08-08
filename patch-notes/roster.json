@@ -363,7 +363,7 @@
     },
     "ROSA": {
       "token": "ROSA",
-      "immutable": "A Mexican-American woman in her late forties, warm mid-brown skin, solidly and comfortably built, black hair going grey at the temples pulled back into a low working knot with a few strands escaped at the front. A broad face with strong cheekbones, dark brown eyes with deep smile lines at the corners, and the easy unhurried expression of somebody who has fed this town for four years and knows everybody's mother. Small gold hoop earrings.",
+      "immutable": "A Mexican-American woman in her late forties, **of ordinary height and no taller than the teenagers — the top of Milo's head clears hers, and she stands level with Lena**, warm mid-brown skin, solidly and comfortably built through the shoulders and middle without being large or imposing, black hair going grey at the temples pulled back into a low working knot with a few strands escaped at the front. A broad face with strong cheekbones, dark brown eyes with deep smile lines at the corners, and the easy unhurried expression of somebody who has fed this town for four years and knows everybody's mother. Small gold hoop earrings.",
       "immutableInactive": null,
       "canonicalRef": "char-rosa-canonical.png",
       "refLocation": null,
@@ -374,7 +374,7 @@
     },
     "JUNIE": {
       "token": "JUNIE",
-      "immutable": "A Black woman in her seventies, deep brown skin, small and spare and upright, close-cropped white natural hair. A narrow face with high cheekbones and steady dark eyes behind large square glasses with a thin gold frame. Not frail: she has been climbing the booth stairs twice a week for thirty-eight years. An expression that is entirely unsurprised, because she has already seen the picture two hundred times and a robot in her gravel lot is not the strangest thing about tonight.",
+      "immutable": "A Black woman in her seventies, **the shortest adult in the arc — a clear head shorter than any of the six teenagers**, deep brown skin, small and spare and upright, close-cropped white natural hair. A narrow face with high cheekbones and steady dark eyes behind large square glasses with a thin gold frame. Not frail: she has been climbing the booth stairs twice a week for thirty-eight years. An expression that is entirely unsurprised, because she has already seen the picture two hundred times and a robot in her gravel lot is not the strangest thing about tonight.",
       "immutableInactive": null,
       "canonicalRef": "char-junie-canonical.png",
       "refLocation": null,
@@ -385,7 +385,7 @@
     },
     "MR_JENNINGS": {
       "token": "MR_JENNINGS",
-      "immutable": "A white man in his sixties, pink-complexioned and heavy through the middle, thin grey hair combed flat across a balding crown, wire-framed glasses, and a permanently obliging expression — a man who cannot say no to a neighbour and has never wanted to. A plain green grocer's apron over a short-sleeved checked shirt.",
+      "immutable": "A white man in his sixties, **of ordinary height, shorter than Milo and about level with Owen**, pink-complexioned and heavy through the middle but not tall, thin grey hair combed flat across a balding crown, wire-framed glasses, and a permanently obliging expression — a man who cannot say no to a neighbour and has never wanted to. A plain green grocer's apron over a short-sleeved checked shirt.",
       "immutableInactive": null,
       "canonicalRef": "char-jennings-canonical.png",
       "refLocation": null,
