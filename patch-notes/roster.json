@@ -394,6 +394,17 @@
       "approvalNote": "yes, 2026-08-07",
       "renderingNote": null
     },
+    "MILOS_MOTHER": {
+      "token": "MILOS_MOTHER",
+      "immutable": "A woman in her early forties, **fair skin with a warm pink flush across the cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a warm reddish cast where the light catches it** — short, cut close at the sides and back with jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the mouth, and a few silver hairs at one temple. Ordinary height and build.",
+      "immutableInactive": null,
+      "canonicalRef": "char-milos-mother-canonical.png",
+      "refLocation": null,
+      "seed": "pending",
+      "approved": false,
+      "approvalNote": "no",
+      "renderingNote": null
+    },
     "THE_BEAR": {
       "token": "THE_BEAR",
       "immutable": "A full-grown American black bear, glossy black coat with a brown muzzle and a pale tan patch at the chest, small round ears, and small dark eyes. **Enormous, calm and entirely real** — an ordinary animal rendered with the same weight as any other animal in the series, never comic, never anthropomorphic, never wearing or holding anything and never standing on two legs.",
@@ -511,6 +522,16 @@
       "token": "JUNIE_A",
       "value": "A quilted olive work jacket over a plain grey sweater, brown corduroy trousers, and flat brown lace-up shoes. A ring of keys on a belt loop",
       "storyTime": "all"
+    },
+    "MOTHER_A": {
+      "token": "MOTHER_A",
+      "value": "**Out of the house.** A brown wide-brimmed felt hat trimmed round the crown with orange flowers and green foliage, a dark red ribbed roll-neck sweater, and a black single-breasted blazer worn open. The flowered hat is her signature and the thing the town would know her by",
+      "storyTime": "all, outdoors"
+    },
+    "MOTHER_B": {
+      "token": "MOTHER_B",
+      "value": "**The middle of the night.** A soft blue-grey dressing gown tied at the waist over a plain cream nightdress, and bare feet. **No hat.** She came straight out of bed",
+      "storyTime": "`n1-s04`"
     },
     "JENNINGS_A": {
       "token": "JENNINGS_A",

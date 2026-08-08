@@ -1393,6 +1393,39 @@ The two are one man and one performance: helpful past the point of usefulness.
 
 **The slippers are a Part One detail and belong to the plate, not the sheet.**
 
+### {{CHAR:MILOS_MOTHER}} — Milo's mother
+
+**Immutable:** A woman in her early forties, **fair skin with a warm pink flush across the
+cheeks**, and a scatter of small freckles over the nose and upper cheeks. **Black hair with a
+warm reddish cast where the light catches it** — short, cut close at the sides and back with
+jaw-length wisps loose at the nape and a dark fringe swept across the forehead. Strong dark
+eyebrows. **Heavy-lidded dark eyes with the lids low and level**, a small straight nose, a small
+mouth, and a rounded jaw. Fine lines at the outer corners of the eyes and either side of the
+mouth, and a few silver hairs at one temple. Ordinary height and build.
+
+**Canonical reference:** `char-milos-mother-canonical.png` · Seed: pending · Approved: no
+
+**She exists to match Milo and the first attempt did not.** `n1-s04` was delivered with her as a
+Black woman in a headscarf, which was invented in the prompt and contradicts her son: Milo's block
+is *natural light-to-medium skin of ordinary healthy tone* with *dark reddish-brown hair*. Her
+colouring is now built to make him make sense — pale skin, dark brows, and black hair that reads
+reddish in warm light, which is where his comes from.
+
+**Aged up from supplied art, deliberately.** The author's reference reads as a woman in her early
+twenties. She is the mother of an eighteen-year-old, so the sheet is the same face carried into
+the early forties: the freckles, the heavy lids, the black hair and the pink flush all stay, and
+lines at the eyes and mouth, a slightly fuller jaw and a little silver at the temple are added.
+Do not draw her young. Archived at `reference-source/SECONDARY/Milos_Mother/SUPPLIED_SOURCE.png`.
+
+**The expression on the supplied art is not the expression on the sheet.** The source has her
+weary and unimpressed, looking away. A canonical sheet is neutral and doing nothing — the same
+rule that kept Ida's wave out of hers. Her warmth belongs to the plate, where she is mid-anecdote
+about a wedding in 1996 while her son is on the bathroom floor.
+
+**She has exactly one appearance and it is a good one.** She is not worried and she is not
+fussing. Milo never gets sick and has got sick, and what she does about it is tell him a story he
+has probably heard before. That is the whole character and it should read in one glance.
+
 ### {{CHAR:THE_BEAR}} — the bear
 
 **Immutable:** A full-grown American black bear, glossy black coat with a brown muzzle and a
@@ -1472,6 +1505,8 @@ of the token split and it is worth not eroding.
 | `{{WARDROBE:FELIX_B}}` | **The Nightjar.** A **faded teal work jacket**, worn open over a dark charcoal shirt, with the sleeves turned back at the cuff; over it a **charcoal cape with an attached hood**, worn down over the shoulders and tied at the throat, plainly hand-cut; a **charcoal flat cap** pulled low; loose dark charcoal trousers with deep turn-ups; **worn red-orange high-top sneakers**. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits quite properly | The Nightjar, all four parts |
 | `{{WARDROBE:ROSA_A}}` | Dark jeans, a plain short-sleeved shirt in faded red, and a canvas apron in oatmeal with a scorch mark low on one side, worn over the top and tied at the back. Sleeves pushed to the elbow. A cloth over one shoulder | all |
 | `{{WARDROBE:JUNIE_A}}` | A quilted olive work jacket over a plain grey sweater, brown corduroy trousers, and flat brown lace-up shoes. A ring of keys on a belt loop | all |
+| `{{WARDROBE:MOTHER_A}}` | **Out of the house.** A brown wide-brimmed felt hat trimmed round the crown with orange flowers and green foliage, a dark red ribbed roll-neck sweater, and a black single-breasted blazer worn open. The flowered hat is her signature and the thing the town would know her by | all, outdoors |
+| `{{WARDROBE:MOTHER_B}}` | **The middle of the night.** A soft blue-grey dressing gown tied at the waist over a plain cream nightdress, and bare feet. **No hat.** She came straight out of bed | `n1-s04` |
 | `{{WARDROBE:JENNINGS_A}}` | A plain dark green grocer's apron, tied at the waist, over a short-sleeved checked shirt in blue and white and plain dark trousers | all |
 
 The Mayor's new tie and Mr. Henderson's price-tagged shoes are both stated in the prose, which means an attentive reader can check them. They are the two continuity details most worth getting right.
