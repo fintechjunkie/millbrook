@@ -26,89 +26,6 @@ in a face is visible as a run. The spread number is on every entry.
 
 ---
 
-## LENA
-
-Canonical reference: `char-lena-canonical.png` · approved: no
-
-**Rendering note.** Her face is the book's emotional register and it shows every thought she has. Resist neutral expressions on her.
-
-### [ ] n1-s08 — spread 8
-
-Shot type: Character action, wide
-Depicts: Beats 2 to 3. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, and his voice is carrying the whole length of Main Street.
-Spoiler check: PASS. Final beat is "The Nightjar has heard your concern. The Nightjar dismisses it." Not depicted: he has not moved to the ledge, there is no rope and no bicycle frame in frame, and nobody is laughing.
-Named figures: Lena, Owen, The Nightjar (3 of a maximum 2)
-
-**Attach these reference images before generating:**
-- `char-nightjar-canonical.png` — The Nightjar
-- `char-lena-canonical.png` — Lena
-- `char-owen-canonical.png` — Owen
-- `loc-main-street.png` — location, main street
-
-```
-STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
-
-Paper-Theater Millbrook
-
-A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
-
-Character treatment
-- Each character is built from layered, articulated paper forms.
-- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
-- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
-- Limbs remain long enough for readable full-body gestures.
-- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
-
-The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
-
-Town treatment
-- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
-- Paper seams and imperfect cut edges remain visible.
-- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
-- This physical imperfection naturally supports Millbrook's patched reality.
-
-Palette
-Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-
-MUST HOLD, these override anything below that appears to contradict them:
-- he stands ON TOP of the parapet, not behind it.
-- He is small in frame and his features are NOT readable.
-- EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk.
-- Only one cape and one mask in the picture.
-- Bright mid-morning light and a pale blue sky, not sunset.
-SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
-A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**
-CHARACTER: The Nightjar. Use the attached canonical reference image "char-nightjar-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-Felix's body, unchanged and not negotiable — an eighteen year old boy, the shortest of the three boys, compact and boyish with a straight torso and sturdy hands, dark brown skin, a round open face, a snub nose, short uneven tightly textured black hair. Over the eyes, **a pair of black-rimmed round goggles**: two circular lenses in thick flat black rims sitting directly over the eye sockets, joined by a short black bridge across the nose. **The lenses are flat opaque white with no pupil, no iris and no eye visible through them at any angle**, and that is the single most important thing about him. The eyebrows show above the rims. The ears are uncovered. Below the goggles the face is entirely Felix's and entirely uncovered: cheeks, snub nose, mouth and jaw all legible. **He does not wear his red glasses and there are no glasses anywhere on him.**
-Wardrobe, unchanged for this scene: **The Nightjar.** A **faded teal work jacket**, worn open over a dark charcoal shirt, with the sleeves turned back at the cuff; over it a **charcoal cape with an attached hood**, worn down over the shoulders and tied at the throat, plainly hand-cut; a **charcoal flat cap** pulled low; loose dark charcoal trousers with deep turn-ups; **worn red-orange high-top sneakers**. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits quite properly
-CHARACTER: Lena. Use the attached canonical reference image "char-lena-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old girl of medium height within the three girls, slim and practical in build with slightly narrow shoulders, long lower legs, fair warm skin with a scatter of freckles across the nose and cheeks, a narrow youthful face with a small chin, large round brown eyes that read as startled even at rest, thin mobile eyebrows set high, a small slightly upturned nose, and a wide expressive mouth. Orange hair gathered into **one large, uneven ponytail high at the BACK of her head**, layered and spiky, with loose wisps standing up at the crown and a fringe falling loose over her forehead; that single heavy ponytail is her dominant silhouette and it must never be split into a matched pair. In three-quarter and profile views it swings out to one side and reads as a side ponytail, but it is gathered centrally at the back — the canonical sheet is a three-quarter view and this is what it is showing. A small oval pendant on a thin chain sits at the centre of her chest at all times. Her resting expression is alert and slightly anxious, and her posture is open and earnest with a slight forward lean, as though listening or about to ask a question.
-CHARACTER: Owen. Use the attached canonical reference image "char-owen-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
-An eighteen year old boy, slightly shorter than Milo and taller than Felix, lean and compact, a completely bald head, very pale skin, **strong dark eyebrows**, narrow eyes held in a flat mildly irritated expression, a thin straight nose, and a mouth pressed into a flat line. His silhouette is minimal and clinical. He is human: no glasses, no goggles, no mechanical seams, no robotic joints, no bandana.
-**THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.
-
-A MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.
-THE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.
-**His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.
-Down on the sidewalk at the very bottom of the frame and much smaller, LENA and OWEN stand looking up at him — Lena with a camera down at her side, already forgotten; Owen with one hand cupped at his mouth, calling something up. Their faces are turned up and away from camera and are not the subject.
-Mid-morning, bright and dry, a clear pale sky behind the roofline.
-WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
-High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
-**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** A previous attempt put a SECOND figure in the Nightjar's costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk between the two kids. Nobody at street level wears a cape, a hood, a flat cap, goggles, a mask or anything resembling the costume. The two kids on the sidewalk are an orange-haired girl and a bald boy in ivory, and there is NO THIRD CHILD.
-**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.
-
-Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
-
-No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
-Aspect ratio: 3:2
-```
-
-Save as: **`n1-s08.png`** · aspect 3:2
-
-Alt text, already written, do not regenerate: A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while two kids on the sidewalk far below look up at him.
-
----
-
 ## MILO
 
 Canonical reference: `char-milo-canonical.png` · approved: no
@@ -250,7 +167,7 @@ Alt text, already written, do not regenerate: A woman sits on the back bumper of
 ### [ ] n1-s09 — spread 9
 
 Shot type: Character group
-Depicts: Beats 3 to 5. Eleven seconds after a landing that did not sound good, a thumbs up has come up over the parapet, everybody on the street is laughing, and Pip has not moved.
+Depicts: Beats 1 to 3. Eleven seconds after a landing that did not sound good, a hand has come up over the parapet of the lower roof next door, everybody on the street is laughing, and Pip has not moved.
 Spoiler check: PASS. Final beat is Milo asking, kindly, who Felix is. Not depicted: nobody has asked Pip anything, nobody has turned to her, and she has not spoken.
 Named figures: Milo, Pip, Rosa (3 of a maximum 2)
 
@@ -287,6 +204,7 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 
 MUST HOLD, these override anything below that appears to contradict them:
 - only a hand and forearm appear above the parapet — no head and no face.
+- The hand is on the LOWER roof next door, not the tall building, and it is in scale with that building rather than oversized.
 - Pip is not laughing and is not looking upward.
 - Exactly three people at street level.
 SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
@@ -299,13 +217,14 @@ An eighteen year old boy, the tallest of the three boys, slim with long limbs, n
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 EXACTLY THREE FIGURES ON THE STREET AND ONE HAND ON THE ROOF. A group on the sidewalk in the moment after something ridiculous.
-HIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the top of the parapet of the three-storey brick building, thumb up.** Nothing else of the person is visible — no head, no shoulder, no face. Just the hand, held there, entirely serious.
+HIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the parapet of the building NEXT DOOR to the tall one — the lower roof, one storey down — thumb up.** He went over the side of the tall building on a rope and came down onto that lower roof, so the hand appears over ITS parapet and not the tall one's. Nothing else of the person is visible: no head, no shoulder, no face, no arm beyond the forearm.
+**THE HAND MUST BE IN SCALE WITH THE BUILDING IT IS ON.** A previous attempt drew an enormous arm the size of a person lying across the roofline, which reads as a giant rather than a joke. It is an ordinary teenage hand and forearm at the distance the building is drawn — small, easy to miss for a second, and funnier for it.
 ON THE SIDEWALK BELOW, ROSA is laughing properly with her head back and one hand flat on her chest — the first good thing that has happened to her all morning. MILO is laughing too, bent slightly forward, looking up at the hand.
 PIP stands a little apart from the two of them and **she is completely still**. Not laughing, not smiling, head level, hands at her sides, and she is NOT looking up at the roof — she is looking along the street at nothing, as though counting something. She is the one thing in the frame that is not moving and she should read as slightly outside the group.
 Mid-morning, bright and dry.
 Medium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.
 High clear morning light, warm and even, no drama, every face readable.
-Hard constraints: only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.
+Hard constraints: only a hand and forearm appear above the parapet — no head and no face. The hand is on the LOWER roof next door, not the tall building, and it is in scale with that building rather than oversized. Pip is not laughing and is not looking upward. Exactly three people at street level.
 
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2
@@ -313,7 +232,7 @@ Aspect ratio: 3:2
 
 Save as: **`n1-s09.png`** · aspect 3:2
 
-Alt text, already written, do not regenerate: A hand with the thumb up reaches over the parapet of a building high above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way.
+Alt text, already written, do not regenerate: A hand with the thumb up reaches over the parapet of a low roof above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way.
 
 ---
 
@@ -591,7 +510,7 @@ A small, worn-out humanoid robot, **about three feet tall**, squat and solid. Hi
 ONE NAMED FIGURE plus one child. An ordinary small child's bedroom in the middle of the night, described here because it has no reference image: a single bed against one wall with a rumpled duvet, a bedside table with a lamp, a chest of drawers, a scatter of toys on the carpet, a window with the curtains drawn.
 **A DOORWAY HAS OPENED IN THE PLAIN BEDROOM WALL AND IT DOES NOT BELONG THERE.** It is about four and a half feet tall, a plain rectangular opening with a simple frame, standing open in the middle of an otherwise ordinary papered wall with no architecture around it — no jamb built into the room, no skirting interrupted, nothing to explain it. Beyond it is a flat warm glow and no legible detail whatsoever.
 CHET is **stepping through it, mid-stride**, one foot over the threshold and into the bedroom, a clipboard held against his side under one arm. He is three feet tall and the doorway is not much taller than he is. He is looking up and across at the child with an apologetic, slightly harassed expression, mouth open on a short word. He is not menacing and he is not sneaking.
-**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the ninety-one and Chet has not fixed him yet. Green skin in this world means somebody is ill.
+**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the eleven and Chet has not fixed him yet. Green skin in this world means somebody is ill.
 THE CHILD, a nine-year-old in pyjamas, is **sitting bolt upright in bed**, duvet shoved back, both hands flat on the mattress, eyes wide, absolutely awake and staring straight at him. Not screaming and not frightened — astonished.
 The middle of the night.
 Medium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.
@@ -722,5 +641,73 @@ Aspect ratio: 2:1
 Save as: **`n1-opener.png`** · aspect 2:1
 
 Alt text, already written, do not regenerate: A small town of low houses seen from its edge at golden hour, a short main street of brick frontages with its lights coming on and a water tower standing beyond the trees at the far end.
+
+---
+
+### [ ] n1-s08 — spread 8
+
+Shot type: Character action, wide
+Depicts: Beats 3 to 4. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, looking down at the six of them, and his voice is carrying the whole length of Main Street.
+Spoiler check: PASS. Final beat is "The Nightjar has heard your concern. The Nightjar dismisses it." Not depicted: he has not moved to the ledge, there is no rope and no bicycle frame in frame, and nobody is laughing.
+
+**Attach these reference images before generating:**
+- `loc-main-street.png` — location, main street
+
+```
+STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
+
+Paper-Theater Millbrook
+
+A dimensional-looking but clearly handmade world assembled from flat painted paper shapes.
+
+Character treatment
+- Each character is built from layered, articulated paper forms.
+- No realistic 3D modeling. Depth comes from overlaps, cut edges, and soft physical shadows.
+- Faces use replaceable expression pieces, almost like a sophisticated paper puppet.
+- Limbs remain long enough for readable full-body gestures.
+- Signature objects are slightly exaggerated in size: Owen's phone, Felix's sandwich, Lena's satchel, Milo's glasses.
+
+The result feels like a stop-motion series made from an eccentric community theater's scenery, but polished enough to support a full book.
+
+Town treatment
+- Fountain, bench, trees, storefronts, and pathways occupy separate depth planes.
+- Paper seams and imperfect cut edges remain visible.
+- Repeating objects may differ slightly. One bench slat is too short. One fountain tile is the wrong shade. One distant window has moved between scenes.
+- This physical imperfection naturally supports Millbrook's patched reality.
+
+Palette
+Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
+
+MUST HOLD, these override anything below that appears to contradict them:
+- he stands ON TOP of the parapet, not behind it.
+- He is small in frame and his features are NOT readable.
+- SEVEN FIGURES IN TOTAL - one on the roof and SIX on the sidewalk below, all six seen from behind with no faces visible.
+- Only one cape and one mask in the picture.
+- Bright mid-morning light and a pale blue sky, not sunset.
+SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
+A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**
+Wardrobe, unchanged for this scene: **The Nightjar.** A **faded teal work jacket**, worn open over a dark charcoal shirt, with the sleeves turned back at the cuff; over it a **charcoal cape with an attached hood**, worn down over the shoulders and tied at the throat, plainly hand-cut; a **charcoal flat cap** pulled low; loose dark charcoal trousers with deep turn-ups; **worn red-orange high-top sneakers**. No backpack, no orange harness straps and **no red glasses**. Handmade throughout: the hems are uneven, the cape is a cut blanket, and nothing fits quite properly
+**THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.
+
+A MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.
+THE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.
+**His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.
+**NO CHARACTER REFERENCE SHEETS ARE ATTACHED TO THIS PROMPT AND THAT IS DELIBERATE.** Every figure here is tiny and seen from behind, so no face is drawn and none is needed — and attaching a full-body sheet of a character who must appear small is what produced a second full-size copy of him at street level three times running. The costume colours below are the whole requirement.
+Down on the sidewalk at the very bottom of the frame and MUCH smaller, SIX FIGURES stand in a loose group looking up at him, seen from BEHIND and slightly above so that no face is visible at all. They are: a girl with an orange ponytail and a camera hanging forgotten at her side; a bald boy in an ivory two-piece outfit with one hand cupped at his mouth, calling something up; a boy in an orange knit beanie holding a paper cup; a girl with bright mint-green hair in two buns, arms folded; a slim upright figure with a red bandana and sandy hair who stands straighter than the rest; and a woman in an oatmeal apron with a cloth over one shoulder. They are small, they are a group rather than a line, and they are not the subject.
+Mid-morning, bright and dry, a clear pale sky behind the roofline.
+WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
+High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
+**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** Three previous attempts put a SECOND figure in his costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk among the others. Nobody at street level wears a cape, a hood, a flat cap, goggles or a mask, or anything resembling any of it.
+**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.
+
+Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. SEVEN FIGURES IN TOTAL - one on the roof and SIX on the sidewalk below, all six seen from behind with no faces visible. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
+
+No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
+Aspect ratio: 3:2
+```
+
+Save as: **`n1-s08.png`** · aspect 3:2
+
+Alt text, already written, do not regenerate: A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while a small group of six people on the sidewalk far below look up at him.
 
 ---

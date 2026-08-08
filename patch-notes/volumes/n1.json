@@ -164,20 +164,20 @@
       "n": 3,
       "kind": "spread",
       "pages": "7 to 8",
-      "declaredWords": 240,
-      "words": 238,
+      "declaredWords": 234,
+      "words": 232,
       "blocks": [
         {
           "t": "h",
-          "v": "Ninety-One"
+          "v": "Eleven"
         },
         {
           "t": "p",
-          "v": "It started around midnight and it was in every house in town by two."
+          "v": "It started around midnight and by two it was in eleven houses."
         },
         {
           "t": "p",
-          "v": "Nobody died and nobody nearly died. That should be said up front, because it was never that kind of night. It was the kind where you learn how thin the walls in your house are, and where a whole town’s worth of children discover the same thing at the same time in the same terrible detail."
+          "v": "Nobody died and nobody nearly died. That should be said up front, because it was never that kind of night. It was the kind where you learn how thin the walls in your house are, and where eleven children discover the same thing at the same time in the same terrible detail."
         },
         {
           "t": "p",
@@ -281,7 +281,7 @@
         },
         {
           "t": "p",
-          "v": "Chet worked off the county health roster, because a roster is a document and a document tells you where people are. Ninety-one names in the order the county had typed them, which was not alphabetical and not by street, so his route made no sense and he walked a lot of it."
+          "v": "Chet worked off the county health roster, because a roster is a document and a document tells you where people are. Eleven names in the order the county had typed them, which was not alphabetical and not by street, so his route made no sense and he walked a lot of it."
         },
         {
           "t": "p",
@@ -295,7 +295,7 @@
         "depicts": "Beats 2 to 4. A door that was not there has opened in a nine-year-old's bedroom wall and a three-foot robot is coming through it with a clipboard, apologising.",
         "spoilerCheck": "PASS. Final beat is Cassie Reyner, who has had a night like this before and was not believed. Not depicted: Cassie is not in frame, this is not her room, and nothing on the clipboard is legible.",
         "hardConstraints": "Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible.",
-        "prompt": "{{STYLE}}\n{{CHAR:CHET}}\nONE NAMED FIGURE plus one child. An ordinary small child's bedroom in the middle of the night, described here because it has no reference image: a single bed against one wall with a rumpled duvet, a bedside table with a lamp, a chest of drawers, a scatter of toys on the carpet, a window with the curtains drawn.\n**A DOORWAY HAS OPENED IN THE PLAIN BEDROOM WALL AND IT DOES NOT BELONG THERE.** It is about four and a half feet tall, a plain rectangular opening with a simple frame, standing open in the middle of an otherwise ordinary papered wall with no architecture around it — no jamb built into the room, no skirting interrupted, nothing to explain it. Beyond it is a flat warm glow and no legible detail whatsoever.\nCHET is **stepping through it, mid-stride**, one foot over the threshold and into the bedroom, a clipboard held against his side under one arm. He is three feet tall and the doorway is not much taller than he is. He is looking up and across at the child with an apologetic, slightly harassed expression, mouth open on a short word. He is not menacing and he is not sneaking.\n**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the ninety-one and Chet has not fixed him yet. Green skin in this world means somebody is ill.\nTHE CHILD, a nine-year-old in pyjamas, is **sitting bolt upright in bed**, duvet shoved back, both hands flat on the mattress, eyes wide, absolutely awake and staring straight at him. Not screaming and not frightened — astonished.\nThe middle of the night.\nMedium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.\nA LIT ROOM at night: the bedside lamp is on plus the warm spill from the open doorway, so the wall, the bed and both faces are clearly readable. No part of the frame falls to featureless black and nothing about the lighting is sinister.\nHard constraints: Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "prompt": "{{STYLE}}\n{{CHAR:CHET}}\nONE NAMED FIGURE plus one child. An ordinary small child's bedroom in the middle of the night, described here because it has no reference image: a single bed against one wall with a rumpled duvet, a bedside table with a lamp, a chest of drawers, a scatter of toys on the carpet, a window with the curtains drawn.\n**A DOORWAY HAS OPENED IN THE PLAIN BEDROOM WALL AND IT DOES NOT BELONG THERE.** It is about four and a half feet tall, a plain rectangular opening with a simple frame, standing open in the middle of an otherwise ordinary papered wall with no architecture around it — no jamb built into the room, no skirting interrupted, nothing to explain it. Beyond it is a flat warm glow and no legible detail whatsoever.\nCHET is **stepping through it, mid-stride**, one foot over the threshold and into the bedroom, a clipboard held against his side under one arm. He is three feet tall and the doorway is not much taller than he is. He is looking up and across at the child with an apologetic, slightly harassed expression, mouth open on a short word. He is not menacing and he is not sneaking.\n**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the eleven and Chet has not fixed him yet. Green skin in this world means somebody is ill.\nTHE CHILD, a nine-year-old in pyjamas, is **sitting bolt upright in bed**, duvet shoved back, both hands flat on the mattress, eyes wide, absolutely awake and staring straight at him. Not screaming and not frightened — astonished.\nThe middle of the night.\nMedium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.\nA LIT ROOM at night: the bedside lamp is on plus the warm spill from the open doorway, so the wall, the bed and both faces are clearly readable. No part of the frame falls to featureless black and nothing about the lighting is sinister.\nHard constraints: Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
         "alt": "A small three-foot robot with a clipboard steps through a low doorway that has opened in a child's bedroom wall, apologising, while a nine-year-old sits bolt upright in bed staring at him."
       }
@@ -321,7 +321,7 @@
         },
         {
           "t": "p",
-          "v": "“I know,” Chet said. “Somebody explained it to me after. I read the chart and the chart was the only thing anybody wrote down about you, and that was my fault and not the chart’s.” He looked at his clipboard. “I have got eighty-one more of these to do. Are you going to be okay?”"
+          "v": "“I know,” Chet said. “Somebody explained it to me after. I read the chart and the chart was the only thing anybody wrote down about you, and that was my fault and not the chart’s.” He looked at his clipboard. “I have got eight more of these to do. Are you going to be okay?”"
         },
         {
           "t": "p",
@@ -385,11 +385,11 @@
         },
         {
           "t": "p",
-          "v": "By nine o’clock every child in Millbrook was completely well."
+          "v": "By nine o’clock every one of them was completely well."
         },
         {
           "t": "p",
-          "v": "Not recovering. Well. Ninety-one kids who had been on a bathroom floor at three in the morning were eating breakfast at nine, and every one of them said the same thing about a small man with a clipboard, and every single adult in town decided, all at once and without discussing it, that this had been a twenty-four hour bug."
+          "v": "Not recovering. Well. Eleven kids who had been on a bathroom floor at three in the morning were eating breakfast at nine, and every one of them said the same thing about a small man with a clipboard, and every single adult in town decided, all at once and without discussing it, that this had been a twenty-four hour bug."
         },
         {
           "t": "p",
@@ -405,7 +405,7 @@
         },
         {
           "t": "p",
-          "v": "“Ninety-one children,” she said."
+          "v": "“Eleven children,” she said."
         },
         {
           "t": "p",
@@ -440,9 +440,13 @@
       "n": 8,
       "kind": "spread",
       "pages": "17 to 18",
-      "declaredWords": 218,
-      "words": 211,
+      "declaredWords": 268,
+      "words": 261,
       "blocks": [
+        {
+          "t": "p",
+          "v": "Nobody wanted to be the first to leave, so they walked back into town beside her while she pushed the truck the last hundred yards on the starter, and that is how the six of them came to be standing on Main Street at ten past ten in the morning."
+        },
         {
           "t": "p",
           "v": "“Everybody’s fine,” Lena said. “Everybody’s completely fine, and I have footage of eleven kids saying so, and I’m putting it up at noon.”"
@@ -496,24 +500,24 @@
       "image": {
         "slug": "n1-s08",
         "shotType": "Character action, wide",
-        "depicts": "Beats 2 to 3. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, and his voice is carrying the whole length of Main Street.",
+        "depicts": "Beats 3 to 4. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, looking down at the six of them, and his voice is carrying the whole length of Main Street.",
         "spoilerCheck": "PASS. Final beat is \"The Nightjar has heard your concern. The Nightjar dismisses it.\" Not depicted: he has not moved to the ledge, there is no rope and no bicycle frame in frame, and nobody is laughing.",
-        "hardConstraints": "he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.",
-        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{CHAR:THE_NIGHTJAR}}\n{{WARDROBE:FELIX_B}}\n{{CHAR:LENA}}\n{{CHAR:OWEN}}\n**THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.\n\nA MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.\nTHE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.\n**His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.\nDown on the sidewalk at the very bottom of the frame and much smaller, LENA and OWEN stand looking up at him — Lena with a camera down at her side, already forgotten; Owen with one hand cupped at his mouth, calling something up. Their faces are turned up and away from camera and are not the subject.\nMid-morning, bright and dry, a clear pale sky behind the roofline.\nWIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.\nHigh clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.\n**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** A previous attempt put a SECOND figure in the Nightjar's costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk between the two kids. Nobody at street level wears a cape, a hood, a flat cap, goggles, a mask or anything resembling the costume. The two kids on the sidewalk are an orange-haired girl and a bald boy in ivory, and there is NO THIRD CHILD.\n**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.\n\nHard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. SEVEN FIGURES IN TOTAL - one on the roof and SIX on the sidewalk below, all six seen from behind with no faces visible. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.",
+        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{WARDROBE:FELIX_B}}\n**THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.\n\nA MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.\nTHE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.\n**His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.\n**NO CHARACTER REFERENCE SHEETS ARE ATTACHED TO THIS PROMPT AND THAT IS DELIBERATE.** Every figure here is tiny and seen from behind, so no face is drawn and none is needed — and attaching a full-body sheet of a character who must appear small is what produced a second full-size copy of him at street level three times running. The costume colours below are the whole requirement.\nDown on the sidewalk at the very bottom of the frame and MUCH smaller, SIX FIGURES stand in a loose group looking up at him, seen from BEHIND and slightly above so that no face is visible at all. They are: a girl with an orange ponytail and a camera hanging forgotten at her side; a bald boy in an ivory two-piece outfit with one hand cupped at his mouth, calling something up; a boy in an orange knit beanie holding a paper cup; a girl with bright mint-green hair in two buns, arms folded; a slim upright figure with a red bandana and sandy hair who stands straighter than the rest; and a woman in an oatmeal apron with a cloth over one shoulder. They are small, they are a group rather than a line, and they are not the subject.\nMid-morning, bright and dry, a clear pale sky behind the roofline.\nWIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.\nHigh clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.\n**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** Three previous attempts put a SECOND figure in his costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk among the others. Nobody at street level wears a cape, a hood, a flat cap, goggles or a mask, or anything resembling any of it.\n**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.\n\nHard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. SEVEN FIGURES IN TOTAL - one on the roof and SIX on the sidewalk below, all six seen from behind with no faces visible. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while two kids on the sidewalk far below look up at him."
+        "alt": "A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while a small group of six people on the sidewalk far below look up at him."
       }
     },
     {
       "n": 9,
       "kind": "spread",
       "pages": "19 to 20",
-      "declaredWords": 152,
-      "words": 152,
+      "declaredWords": 168,
+      "words": 168,
       "blocks": [
         {
           "t": "p",
-          "v": "Then he was gone off the back of the roof in a way that involved a rope and a bicycle frame, and the sound he made landing was not a good sound, and eleven seconds later there was a thumbs up over the top of the parapet."
+          "v": "Then he was gone over the side of the roof in a way that involved a rope and a bicycle frame, and he came down onto the roof of the building next door, a storey lower, and the sound he made landing was not a good sound. Eleven seconds later a hand came up over that parapet and gave them a thumbs up."
         },
         {
           "t": "p",
@@ -552,12 +556,12 @@
       "image": {
         "slug": "n1-s09",
         "shotType": "Character group",
-        "depicts": "Beats 3 to 5. Eleven seconds after a landing that did not sound good, a thumbs up has come up over the parapet, everybody on the street is laughing, and Pip has not moved.",
+        "depicts": "Beats 1 to 3. Eleven seconds after a landing that did not sound good, a hand has come up over the parapet of the lower roof next door, everybody on the street is laughing, and Pip has not moved.",
         "spoilerCheck": "PASS. Final beat is Milo asking, kindly, who Felix is. Not depicted: nobody has asked Pip anything, nobody has turned to her, and she has not spoken.",
-        "hardConstraints": "only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.",
-        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:MILO}}\n{{CHAR:PIP}}\nEXACTLY THREE FIGURES ON THE STREET AND ONE HAND ON THE ROOF. A group on the sidewalk in the moment after something ridiculous.\nHIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the top of the parapet of the three-storey brick building, thumb up.** Nothing else of the person is visible — no head, no shoulder, no face. Just the hand, held there, entirely serious.\nON THE SIDEWALK BELOW, ROSA is laughing properly with her head back and one hand flat on her chest — the first good thing that has happened to her all morning. MILO is laughing too, bent slightly forward, looking up at the hand.\nPIP stands a little apart from the two of them and **she is completely still**. Not laughing, not smiling, head level, hands at her sides, and she is NOT looking up at the roof — she is looking along the street at nothing, as though counting something. She is the one thing in the frame that is not moving and she should read as slightly outside the group.\nMid-morning, bright and dry.\nMedium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.\nHigh clear morning light, warm and even, no drama, every face readable.\nHard constraints: only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
+        "hardConstraints": "only a hand and forearm appear above the parapet — no head and no face. The hand is on the LOWER roof next door, not the tall building, and it is in scale with that building rather than oversized. Pip is not laughing and is not looking upward. Exactly three people at street level.",
+        "prompt": "{{STYLE}}\n{{LOC:MAIN_STREET}}\n{{CHAR:ROSA}}\n{{WARDROBE:ROSA_A}}\n{{CHAR:MILO}}\n{{CHAR:PIP}}\nEXACTLY THREE FIGURES ON THE STREET AND ONE HAND ON THE ROOF. A group on the sidewalk in the moment after something ridiculous.\nHIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the parapet of the building NEXT DOOR to the tall one — the lower roof, one storey down — thumb up.** He went over the side of the tall building on a rope and came down onto that lower roof, so the hand appears over ITS parapet and not the tall one's. Nothing else of the person is visible: no head, no shoulder, no face, no arm beyond the forearm.\n**THE HAND MUST BE IN SCALE WITH THE BUILDING IT IS ON.** A previous attempt drew an enormous arm the size of a person lying across the roofline, which reads as a giant rather than a joke. It is an ordinary teenage hand and forearm at the distance the building is drawn — small, easy to miss for a second, and funnier for it.\nON THE SIDEWALK BELOW, ROSA is laughing properly with her head back and one hand flat on her chest — the first good thing that has happened to her all morning. MILO is laughing too, bent slightly forward, looking up at the hand.\nPIP stands a little apart from the two of them and **she is completely still**. Not laughing, not smiling, head level, hands at her sides, and she is NOT looking up at the roof — she is looking along the street at nothing, as though counting something. She is the one thing in the frame that is not moving and she should read as slightly outside the group.\nMid-morning, bright and dry.\nMedium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.\nHigh clear morning light, warm and even, no drama, every face readable.\nHard constraints: only a hand and forearm appear above the parapet — no head and no face. The hand is on the LOWER roof next door, not the tall building, and it is in scale with that building rather than oversized. Pip is not laughing and is not looking upward. Exactly three people at street level.\n\n{{NEGATIVE}}\nAspect ratio: 3:2",
         "aspect": "3:2",
-        "alt": "A hand with the thumb up reaches over the parapet of a building high above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way."
+        "alt": "A hand with the thumb up reaches over the parapet of a low roof above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way."
       }
     }
   ]

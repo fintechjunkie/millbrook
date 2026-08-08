@@ -218,15 +218,15 @@ Alt text: A robotic girl stands at a food truck window holding a plate with one 
 
 ## Spread 3
 
-Pages 7 to 8 | Part One: Taco Tuesday | Words 240
+Pages 7 to 8 | Part One: Taco Tuesday | Words 234
 
 ### Text page (left), verbatim
 
-### Ninety-One
+### Eleven
 
-It started around midnight and it was in every house in town by two.
+It started around midnight and by two it was in eleven houses.
 
-Nobody died and nobody nearly died. That should be said up front, because it was never that kind of night. It was the kind where you learn how thin the walls in your house are, and where a whole town’s worth of children discover the same thing at the same time in the same terrible detail.
+Nobody died and nobody nearly died. That should be said up front, because it was never that kind of night. It was the kind where you learn how thin the walls in your house are, and where eleven children discover the same thing at the same time in the same terrible detail.
 
 Millbrook does not have a hospital. What Millbrook has is a clinic that closes at five and four hundred bathrooms.
 
@@ -331,7 +331,7 @@ He had a clipboard.
 
 The kid did not go back to sleep. The kid watched the whole thing, and told everybody about it at school for the rest of his life, and nobody ever believed him.
 
-Chet worked off the county health roster, because a roster is a document and a document tells you where people are. Ninety-one names in the order the county had typed them, which was not alphabetical and not by street, so his route made no sense and he walked a lot of it.
+Chet worked off the county health roster, because a roster is a document and a document tells you where people are. Eleven names in the order the county had typed them, which was not alphabetical and not by street, so his route made no sense and he walked a lot of it.
 
 He did Cassie Reyner at four fifteen. She woke up while he was standing there and she wasn’t frightened, because she’d already had a night like this once before and nobody had believed her either.
 
@@ -350,7 +350,7 @@ Prompt:
 ONE NAMED FIGURE plus one child. An ordinary small child's bedroom in the middle of the night, described here because it has no reference image: a single bed against one wall with a rumpled duvet, a bedside table with a lamp, a chest of drawers, a scatter of toys on the carpet, a window with the curtains drawn.
 **A DOORWAY HAS OPENED IN THE PLAIN BEDROOM WALL AND IT DOES NOT BELONG THERE.** It is about four and a half feet tall, a plain rectangular opening with a simple frame, standing open in the middle of an otherwise ordinary papered wall with no architecture around it — no jamb built into the room, no skirting interrupted, nothing to explain it. Beyond it is a flat warm glow and no legible detail whatsoever.
 CHET is **stepping through it, mid-stride**, one foot over the threshold and into the bedroom, a clipboard held against his side under one arm. He is three feet tall and the doorway is not much taller than he is. He is looking up and across at the child with an apologetic, slightly harassed expression, mouth open on a short word. He is not menacing and he is not sneaking.
-**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the ninety-one and Chet has not fixed him yet. Green skin in this world means somebody is ill.
+**THE CHILD IS ILL AND HIS SKIN SHOWS IT. Ask for this by name, because the negative block suppresses it otherwise.** His face and hands carry a distinct sickly GREEN cast over his own skin tone — a pale grey-green pallor across the forehead and cheeks, unmistakable at a glance. He is one of the eleven and Chet has not fixed him yet. Green skin in this world means somebody is ill.
 THE CHILD, a nine-year-old in pyjamas, is **sitting bolt upright in bed**, duvet shoved back, both hands flat on the mattress, eyes wide, absolutely awake and staring straight at him. Not screaming and not frightened — astonished.
 The middle of the night.
 Medium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.
@@ -377,7 +377,7 @@ Pages 13 to 14 | Part One: Taco Tuesday | Words 250
 
 “You did it wrong.”
 
-“I know,” Chet said. “Somebody explained it to me after. I read the chart and the chart was the only thing anybody wrote down about you, and that was my fault and not the chart’s.” He looked at his clipboard. “I have got eighty-one more of these to do. Are you going to be okay?”
+“I know,” Chet said. “Somebody explained it to me after. I read the chart and the chart was the only thing anybody wrote down about you, and that was my fault and not the chart’s.” He looked at his clipboard. “I have got eight more of these to do. Are you going to be okay?”
 
 “I’m going to be fine.”
 
@@ -439,9 +439,9 @@ Pages 15 to 16 | Part One: Taco Tuesday | Words 232
 
 ### The Best Morning In Years
 
-By nine o’clock every child in Millbrook was completely well.
+By nine o’clock every one of them was completely well.
 
-Not recovering. Well. Ninety-one kids who had been on a bathroom floor at three in the morning were eating breakfast at nine, and every one of them said the same thing about a small man with a clipboard, and every single adult in town decided, all at once and without discussing it, that this had been a twenty-four hour bug.
+Not recovering. Well. Eleven kids who had been on a bathroom floor at three in the morning were eating breakfast at nine, and every one of them said the same thing about a small man with a clipboard, and every single adult in town decided, all at once and without discussing it, that this had been a twenty-four hour bug.
 
 Ida Prewitt said it was the humidity. Mr. Jennings said it was the club soda. The town’s emergency phone line got a new message crediting swift municipal action.
 
@@ -449,7 +449,7 @@ Rosa Delgado closed her truck.
 
 The crew found her at the little league field at ten, sitting on the bumper with her keys in her hand, and she’d already written the sign that said CLOSED and she hadn’t been able to make herself tape it up.
 
-“Ninety-one children,” she said.
+“Eleven children,” she said.
 
 “Rosa.”
 
@@ -494,9 +494,11 @@ Alt text: A woman sits on the back bumper of her closed food truck with her keys
 
 ## Spread 8
 
-Pages 17 to 18 | Part One: Taco Tuesday | Words 218
+Pages 17 to 18 | Part One: Taco Tuesday | Words 268
 
 ### Text page (left), verbatim
+
+Nobody wanted to be the first to leave, so they walked back into town beside her while she pushed the truck the last hundred yards on the starter, and that is how the six of them came to be standing on Main Street at ten past ten in the morning.
 
 “Everybody’s fine,” Lena said. “Everybody’s completely fine, and I have footage of eleven kids saying so, and I’m putting it up at noon.”
 
@@ -526,7 +528,7 @@ He looked down at the six of them for a long moment, and then he spoke, and his 
 
 Slug: n1-s08
 Shot type: Character action, wide
-Depicts: Beats 2 to 3. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, and his voice is carrying the whole length of Main Street.
+Depicts: Beats 3 to 4. A man in a mask is standing on the parapet of Carter's Hardware three storeys up, looking down at the six of them, and his voice is carrying the whole length of Main Street.
 Spoiler check: PASS. Final beat is "The Nightjar has heard your concern. The Nightjar dismisses it." Not depicted: he has not moved to the ledge, there is no rope and no bicycle frame in frame, and nobody is laughing.
 
 Prompt:
@@ -534,39 +536,37 @@ Prompt:
 ```
 {{STYLE}}
 {{LOC:MAIN_STREET}}
-{{CHAR:THE_NIGHTJAR}}
 {{WARDROBE:FELIX_B}}
-{{CHAR:LENA}}
-{{CHAR:OWEN}}
 **THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.
 
 A MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.
 THE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.
 **His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.
-Down on the sidewalk at the very bottom of the frame and much smaller, LENA and OWEN stand looking up at him — Lena with a camera down at her side, already forgotten; Owen with one hand cupped at his mouth, calling something up. Their faces are turned up and away from camera and are not the subject.
+**NO CHARACTER REFERENCE SHEETS ARE ATTACHED TO THIS PROMPT AND THAT IS DELIBERATE.** Every figure here is tiny and seen from behind, so no face is drawn and none is needed — and attaching a full-body sheet of a character who must appear small is what produced a second full-size copy of him at street level three times running. The costume colours below are the whole requirement.
+Down on the sidewalk at the very bottom of the frame and MUCH smaller, SIX FIGURES stand in a loose group looking up at him, seen from BEHIND and slightly above so that no face is visible at all. They are: a girl with an orange ponytail and a camera hanging forgotten at her side; a bald boy in an ivory two-piece outfit with one hand cupped at his mouth, calling something up; a boy in an orange knit beanie holding a paper cup; a girl with bright mint-green hair in two buns, arms folded; a slim upright figure with a red bandana and sandy hair who stands straighter than the rest; and a woman in an oatmeal apron with a cloth over one shoulder. They are small, they are a group rather than a line, and they are not the subject.
 Mid-morning, bright and dry, a clear pale sky behind the roofline.
 WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
 High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
-**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** A previous attempt put a SECOND figure in the Nightjar's costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk between the two kids. Nobody at street level wears a cape, a hood, a flat cap, goggles, a mask or anything resembling the costume. The two kids on the sidewalk are an orange-haired girl and a bald boy in ivory, and there is NO THIRD CHILD.
+**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** Three previous attempts put a SECOND figure in his costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk among the others. Nobody at street level wears a cape, a hood, a flat cap, goggles or a mask, or anything resembling any of it.
 **BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.
 
-Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
+Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. SEVEN FIGURES IN TOTAL - one on the roof and SIX on the sidewalk below, all six seen from behind with no faces visible. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
 
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while two kids on the sidewalk far below look up at him.
+Alt text: A masked figure in a cape stands on the parapet of a three-storey brick hardware store against a bright sky, addressing the street, while a small group of six people on the sidewalk far below look up at him.
 
 ---
 
 ## Spread 9
 
-Pages 19 to 20 | Part One: Taco Tuesday | Words 152
+Pages 19 to 20 | Part One: Taco Tuesday | Words 168
 
 ### Text page (left), verbatim
 
-Then he was gone off the back of the roof in a way that involved a rope and a bicycle frame, and the sound he made landing was not a good sound, and eleven seconds later there was a thumbs up over the top of the parapet.
+Then he was gone over the side of the roof in a way that involved a rope and a bicycle frame, and he came down onto the roof of the building next door, a storey lower, and the sound he made landing was not a good sound. Eleven seconds later a hand came up over that parapet and gave them a thumbs up.
 
 Everybody laughed. Rosa laughed, which was the first good thing that had happened to her all morning. Owen shook his head and said something about liability. Milo picked up his coffee.
 
@@ -588,7 +588,7 @@ There was a pause of about two seconds, and the pause was the worst part, becaus
 
 Slug: n1-s09
 Shot type: Character group
-Depicts: Beats 3 to 5. Eleven seconds after a landing that did not sound good, a thumbs up has come up over the parapet, everybody on the street is laughing, and Pip has not moved.
+Depicts: Beats 1 to 3. Eleven seconds after a landing that did not sound good, a hand has come up over the parapet of the lower roof next door, everybody on the street is laughing, and Pip has not moved.
 Spoiler check: PASS. Final beat is Milo asking, kindly, who Felix is. Not depicted: nobody has asked Pip anything, nobody has turned to her, and she has not spoken.
 
 Prompt:
@@ -601,18 +601,19 @@ Prompt:
 {{CHAR:MILO}}
 {{CHAR:PIP}}
 EXACTLY THREE FIGURES ON THE STREET AND ONE HAND ON THE ROOF. A group on the sidewalk in the moment after something ridiculous.
-HIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the top of the parapet of the three-storey brick building, thumb up.** Nothing else of the person is visible — no head, no shoulder, no face. Just the hand, held there, entirely serious.
+HIGH UP AND SMALL, at the top of the frame: **a single hand and forearm reaching up over the parapet of the building NEXT DOOR to the tall one — the lower roof, one storey down — thumb up.** He went over the side of the tall building on a rope and came down onto that lower roof, so the hand appears over ITS parapet and not the tall one's. Nothing else of the person is visible: no head, no shoulder, no face, no arm beyond the forearm.
+**THE HAND MUST BE IN SCALE WITH THE BUILDING IT IS ON.** A previous attempt drew an enormous arm the size of a person lying across the roofline, which reads as a giant rather than a joke. It is an ordinary teenage hand and forearm at the distance the building is drawn — small, easy to miss for a second, and funnier for it.
 ON THE SIDEWALK BELOW, ROSA is laughing properly with her head back and one hand flat on her chest — the first good thing that has happened to her all morning. MILO is laughing too, bent slightly forward, looking up at the hand.
 PIP stands a little apart from the two of them and **she is completely still**. Not laughing, not smiling, head level, hands at her sides, and she is NOT looking up at the roof — she is looking along the street at nothing, as though counting something. She is the one thing in the frame that is not moving and she should read as slightly outside the group.
 Mid-morning, bright and dry.
 Medium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.
 High clear morning light, warm and even, no drama, every face readable.
-Hard constraints: only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.
+Hard constraints: only a hand and forearm appear above the parapet — no head and no face. The hand is on the LOWER roof next door, not the tall building, and it is in scale with that building rather than oversized. Pip is not laughing and is not looking upward. Exactly three people at street level.
 
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
 
-Alt text: A hand with the thumb up reaches over the parapet of a building high above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way.
+Alt text: A hand with the thumb up reaches over the parapet of a low roof above a street while a woman and a boy laugh on the sidewalk below, and a robotic girl stands apart from them, completely still and looking the other way.
 
 ---
