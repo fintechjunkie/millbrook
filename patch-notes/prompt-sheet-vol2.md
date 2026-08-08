@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 4. Vex sliding the stolen dashcam back across the laundromat table to Lena.
 Spoiler check: PASS. Final beat is now Pip walking in, moving like a person except for the parts where she doesn't, after the four lines of her exchange with Lena were moved to spread 2 on 2026-07-29. Not depicted; the frame holds only Vex and Lena at the table and Pip is absent from it entirely.
-Named figures: Lena, Vex (2 of a maximum 2)
+Named figures: Lena, Vex (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -94,7 +95,7 @@ Alt text, already written, do not regenerate: Two girls at a laundromat table, o
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 2. The woman behind the counter looking up and smiling at Lena, who has just asked to ask something weird.
 Spoiler check: PASS. Final beat is the three of them out on the sidewalk with no answer. Not depicted; the scene stays inside the shop. Her smile is uncomplicated here, and the flicker belongs to the prose.
-Named figures: Lena, the woman in the green cardigan (2 of a maximum 2)
+Named figures: Lena, the woman in the green cardigan (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -156,7 +157,7 @@ Alt text, already written, do not regenerate: A woman in her sixties in a green 
 Shot type: Object or detail (group)
 Depicts: Beat 6. The arc of patches on Owen's anomaly tracker with the new Maple and Fourth dot on it, and the two groups seeing the pattern together for the first time.
 Spoiler check: HOLD ONE THING. The final beat is Pip naming the frequency filter, which is not depicted — no screen text is legible and she is not speaking in frame. The arc itself is safe, since Owen’s map and its arc are already established in Volume 1 spread 8. But the empty ground at the centre of the arc must stay unlabelled and unrecognisable and must NOT read as a school or a fenced lot, because that is the Volume 3 spread 4 reveal.
-Named figures: Lena, Vex, Pip, Owen (4 of a maximum 2)
+Named figures: Lena, Vex, Pip, Owen (4 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -227,7 +228,7 @@ Alt text, already written, do not regenerate: Four teenagers gathered at a bank 
 Shot type: Character portrait
 Depicts: Beat 1. Milo sitting down on the couch beside Lena, leaving a careful gap.
 Spoiler check: PASS. Final beat is Milo saying they will need help. Not depicted; the receipt is not in frame and neither is speaking.
-Named figures: Lena, Milo (2 of a maximum 2)
+Named figures: Lena, Milo (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -285,7 +286,7 @@ Alt text, already written, do not regenerate: Two teenagers sit at opposite ends
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 3. Lena sliding the bookstore receipt across the kitchen table, Aunt Carol looking at it for longer than she needs to.
 Spoiler check: PASS. Final beat is Aunt Carol filing the receipt away into her box as though it belonged there. Not depicted; the receipt is still on the open table between them and her hands have not moved to it.
-Named figures: Lena, Aunt Carol (2 of a maximum 2)
+Named figures: Lena, Aunt Carol (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -357,7 +358,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 1. Owen turning slowly in his chair to look at Pip, who has just read his config file from across the room.
 Spoiler check: PASS. Final beat is Monke on the high shelf with a granola bar halfway to his mouth. Not depicted; no animal in frame and the high shelves are out of shot.
-Named figures: Pip, Owen (2 of a maximum 2)
+Named figures: Pip, Owen (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
@@ -424,7 +425,7 @@ Canonical reference: `char-owen-canonical.png` · approved: yes
 Shot type: Action moment
 Depicts: Beats 2 and 3. Owen refusing to turn around while Felix erupts from behind the couch.
 Spoiler check: PASS. Final beat is Pip naming the frequency filter on Owen's tracker. Not depicted; Pip is absent and no screen content is legible.
-Named figures: Owen, Felix (2 of a maximum 2)
+Named figures: Owen, Felix (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen

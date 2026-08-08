@@ -395,7 +395,11 @@ function parseRoster() {
     styleName,
     style,
     negative,
-    aspect: { imagePage: '2:3', chapterOpener: '4:3' },
+    // Hardcoded rather than parsed, and it was stale: these still carried the portrait values
+    // the roster superseded twice, while roster section 2 and every delivered prompt say 3:2 and
+    // 2:1. Nothing reads this except the prompt sheet's header note, which is exactly why nobody
+    // noticed it contradicting the `Aspect ratio:` line at the foot of all 102 prompts below it.
+    aspect: { imagePage: '3:2', chapterOpener: '2:1' },
     characters,
     wardrobe,
     locations,

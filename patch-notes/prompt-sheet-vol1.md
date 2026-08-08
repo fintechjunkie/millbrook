@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 1. Lena arriving at the house on Crescent, bag in hand.
 Spoiler check: PASS. Final beat of this page is Lena hitting record and naming the pothole. Not depicted; no phone raised, no filming.
-Named figures: Lena (1 of a maximum 2)
+Named figures: Lena (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -97,7 +98,7 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character portrait or close (group three-shot)
 Depicts: Beat 1. Milo, Owen and Felix on the bench by the fountain, before Lena reaches them.
 Spoiler check: PASS. Final beat is Felix stopping mid-chew when Lena holds out the photo. Not depicted; Lena is absent, nothing is being held out, and Felix is still eating.
-Named figures: Milo, Owen, Felix (3 of a maximum 2)
+Named figures: Milo, Owen, Felix (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -166,7 +167,7 @@ Alt text, already written, do not regenerate: Three teenage boys on a park bench
 Shot type: Character portrait (close, single figure)
 Depicts: Beat 4. Milo on his feet, taller than Lena had thought, warning her off mid-sentence.
 Spoiler check: PASS. The final beat of this page is Lena holding out the dark frame off her dashcam and the three of them reacting to it. Not depicted; no screen and no other figure is in frame.
-Named figures: Milo (1 of a maximum 2)
+Named figures: Milo (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -230,10 +231,11 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Action moment
 Depicts: Beat 3 of this page. Vex walking away with the stolen dashcam, three steps out and not running.
 Spoiler check: PASS. Final beat is the woman with the stroller scolding Lena at the tripod. Not depicted; no stroller, no second adult in frame.
-Named figures: Vex (1 of a maximum 2)
+Named figures: Vex (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
+- `loc-main-street.png` — location, main street
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -262,8 +264,8 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers and a small red shoulder patch, worn open over a plain dark top, a studded choker, olive-green cargo trousers with visible patches and deep turn-ups, a silver chain looping from the belt at the hip, green socks and black high-top boots with pale toe caps. Mint-green buns tied with red
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.
+SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
+A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**
 Walking away down the sidewalk with a small dashcam held loosely at her side, glancing back over one shoulder without stopping. A second figure far behind her at the edge of frame is unfocused and turned away, face not legible.
 Exterior sidewalk, late morning.
 Medium-wide tracking shot from behind and to the side, shallow depth, subject sharp and background compressed.
@@ -283,7 +285,7 @@ Alt text, already written, do not regenerate: A short girl with mint-green hair 
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 6. Pip on the milk-crate stool with her chin lifted and her eyes tilted at the ceiling, Vex at the counter with the laptop.
 Spoiler check: PASS. Final beat is the streetlight across from Aunt Carol's house going off for a single frame. Not depicted; the scene never leaves Vex's apartment, and neither Owen, Monke, Lena nor any exterior appears.
-Named figures: Vex, Pip (2 of a maximum 2)
+Named figures: Vex, Pip (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -345,7 +347,7 @@ Canonical reference: `char-owen-canonical.png` · approved: yes
 Shot type: Character portrait
 Depicts: Beat 1. Owen at his desk after thirty-one hours awake.
 Spoiler check: PASS. Final beat is Owen's line about fresh asphalt with no patch line. Not depicted; no street, no asphalt, no map detail legible.
-Named figures: Owen (1 of a maximum 2)
+Named figures: Owen (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
@@ -408,7 +410,7 @@ Canonical reference: `char-monke-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 4 of this page. Monke on top of the middle monitor, one finger against the glass.
 Spoiler check: PASS. Final beat is Mayor Dalton's speech at the podium. Not depicted; scene does not leave the warehouse.
-Named figures: Monke (1 of a maximum 2)
+Named figures: Monke (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
@@ -472,7 +474,7 @@ Canonical reference: `char-dalton-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 2. The Mayor's grin tightening under questioning, one bead of sweat at the temple.
 Spoiler check: PASS. Final beat is the three boys vanishing from the crowd. Not depicted; no crowd faces in focus.
-Named figures: Mayor Dalton (1 of a maximum 2)
+Named figures: Mayor Dalton (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-dalton-canonical.png` — Mayor Dalton

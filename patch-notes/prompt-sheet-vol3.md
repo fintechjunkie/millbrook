@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 1. Mr. Henderson on the porch swing holding his own steady hands up in front of him, Lena beside him on the swing.
 Spoiler check: PASS. Final beat is Mr. Henderson saying something is going to come and ask him for something. Not depicted; he is looking at his hands, not at her, and nothing in the frame anticipates that line.
-Named figures: Lena, Mr. Henderson (2 of a maximum 2)
+Named figures: Lena, Mr. Henderson (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -100,7 +101,7 @@ Alt text, already written, do not regenerate: An elderly man on a porch swing ho
 Shot type: Atmospheric or empty (ensemble tableau)
 Depicts: Beats 2 to 5. The whole group bedded down in the Warehouse after midnight, the pig on the couch with Lena, Vex awake on the floor beside Cassie, and Pip alone and still in the dark part at the back.
 Spoiler check: PASS. Final beat is Pip's threat to the thing in the wall. Pip is present but SILENT and standing, not speaking, and the wall she faces is an ordinary wall: nothing in the frame glows, hums, answers or hints that anything is inside it. The reader learns what she is doing from the facing prose, not from the plate.
-Named figures: Lena, Milo, Vex, Pip, Owen, Felix, Pig, Cassie (8 of a maximum 2)
+Named figures: Lena, Milo, Vex, Pip, Owen, Felix, Pig, Cassie (8 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -198,11 +199,11 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Character portrait
 Depicts: Beat 1. Vex on the warehouse roof at nine fifteen, making the phone call she would never normally make.
 Spoiler check: HOLD ONE THING. The town is visible below her and it must stay completely ordinary. No fenced-off lot, no empty six-acre rectangle, no boarded-up building, nothing that reads as a significant place. The old school at the centre of the arc is the reveal on spread 5 of this volume and a sharp-eyed reader must not be able to find it here.
-Named figures: Vex (1 of a maximum 2)
+Named figures: Vex (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
-- `vol4-s03.png` — location, warehouse ext (stand-in, a delivered scene plate)
+- `loc-warehouse-ext.png` — location, warehouse ext
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -239,8 +240,8 @@ MUST HOLD, these override anything below that appears to contradict them:
 CHARACTER: Vex. Use the attached canonical reference image "char-vex-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 An eighteen year old girl, slightly shorter than Lena, compact and athletic with a broad stance and a low grounded centre of gravity, warm brown natural skin with freckles across the cheeks and nose, a compact face with a firm jaw and a slightly upturned chin, large expressive eyes usually narrowed or evaluating, strong dark eyebrows, a small nose, and a mouth set like it is about to say something rude. Bright mint-green hair, short, layered and spiky, gathered into **two messy buns, one high on each side of the head**, each held with a small red tie, with loose pointed strands escaping them and framing the face; the spiky mint mass plus that symmetrical pair of high side buns is her dominant silhouette, and it must never be reduced to a single bun or a single ponytail. Her resting posture is guarded and confrontational, arms often crossed, hands on hips, or occupied with a tool. No cap and no goggles.
 Wardrobe, unchanged for this scene: black leather jacket with silver zippers and a small red shoulder patch, worn open over a plain dark top, a studded choker, olive-green cargo trousers with visible patches and deep turn-ups, a silver chain looping from the belt at the hip, green socks and black high-top boots with pale toe caps. Mint-green buns tied with red
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol4-s03.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
+SETTING: use the attached canonical establishing image "loc-warehouse-ext.png" for this location so it stays the same place between spreads.
+The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall, **and at the back a single wide concrete loading step two courses high running along the wall beside a plain steel back door**.
 A girl perched on the parapet at the edge of the flat gravel roof of a low brick industrial building, a phone pressed hard against her ear and her shoulder hunched up to help hold it there. She is sitting on the parapet itself with one boot up on it and one leg hanging over the drop, entirely unbothered by the height, one hand resting loose on the top rail of the steel fire escape she came up — the posture of somebody who is comfortable in places she is not supposed to be, and who could be off this roof in seconds if she needed to be. That ease is only in her body. Her face has none of it: jaw set, eyebrows down, talking fast, the expression of somebody who does not like telephones and is using one anyway because something is wrong. Below and behind her the whole town lies flat and open: rows of low single-storey houses on a grid of wide streets, mature trees between them, a water tower far off on the horizon. Every part of the town is unremarkable and nothing in it is fenced off, boarded up or set apart. Exactly one figure in frame and no other people anywhere, on the roof or in the streets below.
 Exterior, quarter past nine in the morning.
 Medium shot taken from the roof itself, camera at chest height and a little to her side, placed so she fills the near third of the frame and the town falls away past her shoulder into the distance. She is crisp; the town is clear but softer.
@@ -260,7 +261,7 @@ Alt text, already written, do not regenerate: A girl with mint-green hair stands
 Shot type: Character portrait
 Depicts: Beat 1. Vex on her feet in the Pit, ending the two-team argument.
 Spoiler check: PASS. Final beat is Mr. Henderson thinking while the porch swing creaks. Not depicted; the scene never leaves the warehouse.
-Named figures: Vex (1 of a maximum 2)
+Named figures: Vex (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -320,7 +321,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 2. Pip kneeling in front of Cassie with two fingertips just behind her right ear.
 Spoiler check: PASS. Final beat is Felix's conclusion that the patches are payment. Not depicted; the map is not in frame and Felix is absent.
-Named figures: Pip, Cassie (2 of a maximum 2)
+Named figures: Pip, Cassie (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
@@ -382,7 +383,7 @@ Canonical reference: `char-monke-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 4. Monke awake on the high shelf, watching the Pit below, before he climbs down.
 Spoiler check: PASS. Final beat is Monke crossing the floor to sit beside Cassie and Cassie stopping frowning in her sleep. Not depicted; he has not moved, he is still on the shelf, the couch is out of frame below, and nothing in the image shows where he goes next.
-Named figures: Monke (1 of a maximum 2)
+Named figures: Monke (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
@@ -448,7 +449,7 @@ Canonical reference: `char-cassie-canonical.png` · approved: no
 Shot type: Atmospheric or subjective (portrait)
 Depicts: Beat 3. What Cassie is hearing while she lists it — the wasp in the wall, the freezer compressor, the phone buzzing on silent in Lena’s pocket.
 Spoiler check: HOLD ONE THING. The rings must read as SOUND and nothing else. They must not read as a signal, a transmission or a network, must have no source and no direction, and nothing in the walls may be visible. That the patches live on a frequency, and that something is in the wiring, are both later reveals.
-Named figures: Cassie (1 of a maximum 2)
+Named figures: Cassie (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-cassie-canonical.png` — Cassie
@@ -513,7 +514,7 @@ Canonical reference: `char-henderson-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 1. The six miles, in progress — Mr. Henderson running, newspaper still under his arm because he never meant to go anywhere.
 Spoiler check: PASS. Final beat is Aunt Carol at the coffee pot saying she would have left thirty years ago. Not depicted; the scene never enters the kitchen.
-Named figures: Mr. Henderson (1 of a maximum 2)
+Named figures: Mr. Henderson (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-henderson-canonical.png` — Mr. Henderson

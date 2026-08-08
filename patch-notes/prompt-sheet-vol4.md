@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 3. Lena and her aunt watching the announcement from two different rooms.
 Spoiler check: PASS. Final beat is Felix saying the circle finishes today. Not depicted; the scene never leaves the house and no phone is in hand.
-Named figures: Lena, Aunt Carol (2 of a maximum 2)
+Named figures: Lena, Aunt Carol (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -99,12 +100,12 @@ Alt text, already written, do not regenerate: A girl sits forward on a couch wat
 Shot type: Character portrait or close (two-shot)
 Depicts: Beat 4. Lena and Pip on the kerb outside the Warehouse, mid-conversation, as the kid on the bike goes past behind them.
 Spoiler check: PASS. Final beat is Lena sitting with what Pip has told her. Not depicted; they are still talking, both are turned toward each other rather than staring away, and nothing in the frame carries the content of what Pip has admitted.
-Named figures: Lena, Pip (2 of a maximum 2)
+Named figures: Lena, Pip (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
 - `char-pip-canonical.png` — Pip
-- `vol4-s03.png` — location, warehouse ext (stand-in, a delivered scene plate)
+- `loc-warehouse-ext.png` — location, warehouse ext
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -142,8 +143,8 @@ Wardrobe, unchanged for this scene: Same orange collared shirt, visibly creased 
 CHARACTER: Pip. Use the attached canonical reference image "char-pip-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A fully robotic humanoid girl, not a cyborg and not a modified person, the tallest of the three girls, slim and straight with long limbs. Her face material is a pale warm grey with a faint matte sheen and no variation in tone. Round face, large expressive eyes, fine pale eyebrows, small straight nose, and matte purple lips. A circular mechanical port sits beside her ear. Metallic seams, small fasteners and articulated joins are **clearly visible at ordinary scene distance** along the jaw, neck, shoulders, elbows, forearms, wrists, fingers, hips, knees and ankles. Sandy blonde shoulder-length layered hair with side-swept bangs, held back by a **red bandana tied across the head** with a pair of small round aviator goggles resting on top of it, plus a second **red neckerchief knotted at the throat**. Both pieces of red are present and neither replaces the other. Her posture is more vertical and balanced than a human teenager's, and her head turns and hand placements read as exact rather than loose.
 Wardrobe, unchanged for this scene: red bandana with goggles on top, patched doodled denim jacket over plain white shirt
-SETTING: no purpose-made establishing shot exists for this place, so use the attached scene plate "vol4-s03.png" as the authority for the LOCATION ONLY — its architecture, materials, colours, furniture and the position of things in the room. Ignore everything else in that image: ignore its characters, their poses and wardrobe, its staging, its camera angle and its time of day. Those belong to a different page and this prompt specifies its own below.
-The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall.
+SETTING: use the attached canonical establishing image "loc-warehouse-ext.png" for this location so it stays the same place between spreads.
+The outside of a low brick industrial building on a quiet back street, a roller shutter door, a concrete kerb, weeds at the base of the wall, **and at the back a single wide concrete loading step two courses high running along the wall beside a plain steel back door**.
 Two eighteen year old girls sitting side by side on a concrete kerb outside a low brick industrial building, turned slightly toward each other, mid-conversation. The one on the left sits the way a tired person sits, elbows on her knees, shoulders rounded, hands loose, looking sideways at the other with a careful searching expression. The one on the right is a robot and sits noticeably too level and too symmetrical, back straight, both feet flat and side by side, hands placed identically on her knees, meeting the other girl's look without any defensiveness in it; one of her hands has just begun to lift in a small wave, a beat later than it should have. Far back across the road behind them, small in the frame, a young child rides a bicycle past with a backpack much too large for him, one hand off the bars, seen from behind so his face is not visible. He is a background detail and not a subject. Exactly two named figures in the foreground.
 Exterior, early afternoon.
 Medium two-shot from across the pavement, camera low at seated height so their faces read against the wall behind them, moderate depth so both faces stay sharp and the child behind softens without disappearing.
@@ -163,7 +164,7 @@ Alt text, already written, do not regenerate: Two teenage girls sit side by side
 Shot type: Character portrait or close (two-shot, with a third figure at distance)
 Depicts: Beat 1. Crane having crossed the stage and stopped in front of Lena at her tripod, before anything is offered.
 Spoiler check: PASS. Final beat is the Mayor's speech breaking off mid-sentence. He is in frame now, but at the sound check and far from that moment, and nothing has gone wrong yet. No card is in frame or in either hand, which is the other half of this page and the reason the shot is specified as before anything is offered.
-Named figures: Lena, Mayor Dalton, Admiral Crane (3 of a maximum 2)
+Named figures: Lena, Mayor Dalton, Admiral Crane (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -231,7 +232,7 @@ Alt text, already written, do not regenerate: A uniformed officer in a medical m
 Shot type: Character portrait
 Depicts: Beat 5. Lena recording the closing video on the Warehouse couch late at night, the pig asleep against her hip.
 Spoiler check: PASS. Nothing in frame beyond her, the pig and the couch. The completed circle and the school at its centre are both named on this page and neither is depicted; both are public knowledge from Volume 3 spread 4 anyway.
-Named figures: Lena, Pig (2 of a maximum 2)
+Named figures: Lena, Pig (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-lena-canonical.png` — Lena
@@ -298,7 +299,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 2. Felix showing the countdown device he has just spent twelve hours building, with Pip silent in the corner behind him.
 Spoiler check: PASS. Final beat is Pip naming the Mayor as the next patch. Not depicted; her mouth is closed, she is looking at the floor rather than at anybody, nothing in the frame refers to the Mayor, and the device shows no readable numerals.
-Named figures: Pip, Felix (2 of a maximum 2)
+Named figures: Pip, Felix (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-felix-canonical.png` — Felix
@@ -367,7 +368,7 @@ Canonical reference: `char-monke-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 4. Monke at the locked drawer in the dark with one small finger on it, after the lights have gone off and the woman has left.
 Spoiler check: PASS. Final beat is Monke returning to the shelf to wait for morning. Not depicted; no animal appears in frame at all, and the drawer is shut.
-Named figures: Monke (1 of a maximum 2)
+Named figures: Monke (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
@@ -424,7 +425,7 @@ Canonical reference: `char-dalton-canonical.png` · approved: no
 Shot type: Establishing or location (now with two named figures on the stage)
 Depicts: Beats 1 and 2. The square at quarter past two with the chairs filled, the Mayor at the podium doing his sound check in the new tie, and Crane standing at the side of the stage with his mask on and his hands behind his back, watching.
 Spoiler check: PASS, and the previous version of this check was over-cautious. It said no uniformed figure may be present, but Crane standing at the side of the stage IS beat 2 of this page, so showing him gives nothing away. What must stay out is the FINAL beat — Crane crossing the stage to stop in front of Lena — and it does: he is still at the side of the stage, Lena is not in frame, and her tripod stands unattended.
-Named figures: Mayor Dalton, Admiral Crane (2 of a maximum 2)
+Named figures: Mayor Dalton, Admiral Crane (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-dalton-canonical.png` — Mayor Dalton
@@ -486,7 +487,7 @@ Canonical reference: `char-henderson-canonical.png` · approved: no
 Shot type: Action moment
 Depicts: Beat 6. Mr. Henderson getting up out of the front row.
 Spoiler check: PASS, re-read after the page boundary moved on 2026-07-30. The final beat is no longer the crowd's confusion settling — it is now "Admiral Crane was looking at Pip", moved down from the head of spread 7. Neither figure is in this frame: the prompt carries MR_HENDERSON alone, every surrounding figure is turned away and thrown out of focus with no other face legible, and there is no uniformed figure and no bench anywhere in the composition. Nothing needed regenerating.
-Named figures: Mr. Henderson (1 of a maximum 2)
+Named figures: Mr. Henderson (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-henderson-canonical.png` — Mr. Henderson
@@ -546,7 +547,7 @@ Canonical reference: `char-cardigan-canonical.png` · approved: no
 Shot type: Character portrait
 Depicts: Beat 7. The woman in the green cardigan behind her counter at three in the morning, listening to the phone that has no buttons and no cord.
 Spoiler check: PASS, and it is a narrow pass worth stating. The final beat is her looking up through the window at an empty street for no reason. NOT depicted: she is looking down at the counter, the window is behind her and out of the frame, and she is mid-listen rather than finished. The drawer the phone ends up in is also not in frame, which keeps Spread 9 intact.
-Named figures: the woman in the green cardigan (1 of a maximum 2)
+Named figures: the woman in the green cardigan (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-cardigan-canonical.png` — the woman in the green cardigan

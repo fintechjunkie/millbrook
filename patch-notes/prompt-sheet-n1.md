@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: Beat 3. Milo, who never gets sick, is sick, and his mother is sitting on the edge of the bathtub with him telling him about a wedding in 1996.
 Spoiler check: PASS. Final beat is Pip alone in the Warehouse saying that something is opening. Not depicted: Pip is not in frame, the Warehouse does not appear, and there is no VHS tape and no television anywhere in this plate.
-Named figures: Milo, Milos Mother (2 of a maximum 2)
+Named figures: Milo, Milos Mother (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -105,7 +106,7 @@ Alt text, already written, do not regenerate: A boy in a beanie and red-lensed g
 Shot type: Character close, two-shot
 Depicts: Beat 8. Rosa is sitting on her own bumper with her keys in her hand and the CLOSED sign written and not taped up, and Milo has sat down on the gravel next to her.
 Spoiler check: PASS. Final beat is Milo's speech about the generator and about having a conversation with anybody who says otherwise. Not depicted: he has not started speaking, nobody else has come over, and Lena's footage does not appear.
-Named figures: Milo, Rosa (2 of a maximum 2)
+Named figures: Milo, Rosa (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rosa-canonical.png` — Rosa
@@ -175,7 +176,7 @@ Alt text, already written, do not regenerate: A woman sits on the back bumper of
 Shot type: Character group
 Depicts: Beats 1 to 3. Eleven seconds after a landing that did not sound good, a hand has come up over the parapet of the lower roof next door, everybody on the street is laughing, and Pip has not moved.
 Spoiler check: PASS. Final beat is Milo asking, kindly, who Felix is. Not depicted: nobody has asked Pip anything, nobody has turned to her, and she has not spoken.
-Named figures: Milo, Pip, Rosa (3 of a maximum 2)
+Named figures: Milo, Pip, Rosa (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rosa-canonical.png` — Rosa
@@ -251,7 +252,7 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Character action
 Depicts: Beats 5 to 6. Vex has ordered for everybody without asking, one boot up on somebody else's bumper, while Rosa leans out of the hatch reeling off what each of them is having.
 Spoiler check: PASS. Final beat is Felix under the awning with a screwdriver he did not ask permission to bring. Not depicted: Felix is not in frame at all, the generator is not being touched, and nothing is wrong with the truck.
-Named figures: Vex, Owen, Rosa (3 of a maximum 2)
+Named figures: Vex, Owen, Rosa (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rosa-canonical.png` — Rosa
@@ -330,7 +331,7 @@ Canonical reference: `char-pip-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: Beats 6 to 7. Pip has taken one bite, put the plate down, and listed what is in it. Rosa has leaned out of the window and is staring at her.
 Spoiler check: PASS. Final beat is the narrator's line that the real answer was that boring. Not depicted: the generator is not in frame, nothing has failed, and there is no queue.
-Named figures: Pip, Rosa (2 of a maximum 2)
+Named figures: Pip, Rosa (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rosa-canonical.png` — Rosa
@@ -403,7 +404,7 @@ Canonical reference: `char-felix-canonical.png` · approved: no
 Shot type: Character close
 Depicts: Beat 12. Chet has stopped in the blue flickering living room to watch the television, because he has never seen anything like it.
 Spoiler check: PASS. Final beat is Chet telling the sleeping boy he is going to be fine and leaving through the wall. Not depicted: no door is open in this wall, Chet has not started work, and he has not spoken.
-Named figures: Felix, Chet, The Film Nightjar (3 of a maximum 2)
+Named figures: Felix, Chet, The Film Nightjar (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-chet-canonical.png` — Chet
@@ -477,7 +478,7 @@ Canonical reference: `char-chet-canonical.png` · approved: yes
 Shot type: Character action
 Depicts: Beats 2 to 4. A door that was not there has opened in a nine-year-old's bedroom wall and a three-foot robot is coming through it with a clipboard, apologising.
 Spoiler check: PASS. Final beat is Cassie Reyner, who has had a night like this before and was not believed. Not depicted: Cassie is not in frame, this is not her room, and nothing on the clipboard is legible.
-Named figures: Chet (1 of a maximum 2)
+Named figures: Chet (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-chet-canonical.png` — Chet
@@ -542,7 +543,7 @@ Canonical reference: `char-jennings-canonical.png` · approved: yes
 Shot type: Character action
 Depicts: Beat 5. Mr. Jennings has opened the store at two in the morning in his slippers, has run out of ginger ale, and is handing over club soda while telling somebody it is the same thing.
 Spoiler check: PASS. Final beat is the message on the town emergency line with the Mayor's name on it four times. Not depicted: no telephone, no Mayor, no notice and nothing about the town line.
-Named figures: Mr Jennings (1 of a maximum 2)
+Named figures: Mr Jennings (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-jennings-canonical.png` — Mr Jennings

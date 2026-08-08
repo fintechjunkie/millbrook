@@ -137,10 +137,11 @@ function build(slug) {
     L.push('  Vex is expanded below from the entry the roster marks ACTIVE, which is the');
     L.push('  prose version. If the reference sheet wins instead, every Vex prompt changes.');
   }
-  L.push('- **Aspect ratios were changed for the new page geometry.** Image pages are now');
-  L.push(`  \`${roster.aspect.imagePage}\` landscape and the chapter openers \`${roster.aspect.chapterOpener}\`.`);
-  L.push('  Some framing lines were written for a portrait frame and may want a human pass;');
-  L.push('  they were deliberately not rewritten.');
+  L.push('- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**');
+  L.push(`  Image pages are \`${roster.aspect.imagePage}\` landscape and chapter openers`);
+  L.push(`  \`${roster.aspect.chapterOpener}\`, which is what all delivered plates use. This note used`);
+  L.push('  to announce a page-geometry change and quoted the superseded portrait values, which');
+  L.push('  is worse than no note: it contradicted the line at the foot of every prompt below it.');
   L.push('');
   L.push('---');
   L.push('');
@@ -163,7 +164,7 @@ function build(slug) {
       L.push(`Depicts: ${e.depicts}`);
       L.push(`Spoiler check: ${e.spoiler}`);
       if (e.chars.length) {
-        L.push(`Named figures: ${e.chars.map(nameFor).join(', ')} (${e.chars.length} of a maximum 2)`);
+        L.push(`Named figures: ${e.chars.map(nameFor).join(', ')} (${e.chars.length} of a maximum 3)`);
       }
       L.push('');
       if (e.attach.length) {

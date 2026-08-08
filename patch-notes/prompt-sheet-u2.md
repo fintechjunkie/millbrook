@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character group, night, over-the-shoulder
 Depicts: Beats 5 to 8. Nine at night, an hour before curfew: Milo splits them into two teams and Owen objects to being one of the three going out.
 Spoiler check: PASS. Final beat of the page is “Looks. Not is.” Not depicted: Felix has not been asked to build anything, he is not in frame, and nothing is being described or held up.
-Named figures: Milo, Vex, Pip, Owen, Dragon (5 of a maximum 2)
+Named figures: Milo, Vex, Pip, Owen, Dragon (5 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -121,7 +122,7 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Character action, night
 Depicts: Beat 7. At twenty to midnight, three kids go through a fence.
 Spoiler check: PASS. Final beat of the page is the to-be-continued line. Not depicted: nothing of Part Three. They are still outside the building, the boiler hatch is SHUT, and no interior of any kind is visible.
-Named figures: Vex, Pip, Owen (3 of a maximum 2)
+Named figures: Vex, Pip, Owen (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -191,7 +192,7 @@ Canonical reference: `char-dragon-canonical.png` · approved: yes
 Shot type: Animal, single subject
 Depicts: No story beat. The dragon, in the Warehouse, losing an argument with the sun.
 Spoiler check: PASS trivially. No beat is depicted, no person is in frame, and nothing on the page can be pre-empted by an animal lying on the floor.
-Named figures: Dragon (1 of a maximum 2)
+Named figures: Dragon (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-dragon-canonical.png` — Dragon
@@ -249,7 +250,7 @@ Canonical reference: `char-dalton-canonical.png` · approved: no
 Shot type: Character, single figure
 Depicts: Beats 3 and 4. Four royal blue windbreakers on a folding table, and the Mayor officially recognising four people he has never met.
 Spoiler check: PASS. Final beat of the page is Crane turning his head to look at the Mayor for the first time in two days. Not depicted: **Crane is not in frame at all**, and neither is anybody else.
-Named figures: Mayor Dalton (1 of a maximum 2)
+Named figures: Mayor Dalton (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-dalton-canonical.png` — Mayor Dalton
@@ -307,7 +308,7 @@ Canonical reference: `char-cardigan-canonical.png` · approved: no
 Shot type: Character, single figure
 Depicts: Beat 3. The bookshop — one of the three things Pip lists as never having been invented. A shop with forty years of wear in it, in a unit that was empty last week.
 Spoiler check: PASS. Final beat of the page is the line about Mr Henderson’s forty years of medical charts and Cassie’s hearing test. Not depicted: **Henderson is not in frame and neither is Cassie**, no chart or document appears, and nothing about a person being repaired is shown.
-Named figures: the woman in the green cardigan (1 of a maximum 2)
+Named figures: the woman in the green cardigan (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-cardigan-canonical.png` — the woman in the green cardigan
@@ -368,7 +369,7 @@ Canonical reference: `char-ottie-canonical.png` · approved: yes
 Shot type: Character action, wide
 Depicts: Beats 2 and 4. Specialist Tovar puts his shoulder into Dame Ottilie and moves her exactly nothing, and the truck that has already tried both shoulders of the road is stopped in front of her again.
 Spoiler check: PASS. Final beat of the page is Sergeant Reyes hand-carrying nine notes across the softball field. Not depicted: no field, no notes and no camp, and Reyes is not in frame.
-Named figures: Ottie, Tovar (2 of a maximum 2)
+Named figures: Ottie, Tovar (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-ottie-canonical.png` — Ottie
@@ -432,7 +433,7 @@ Canonical reference: `char-rocco-canonical.png` · approved: yes
 Shot type: Character action
 Depicts: Beat 9. The heavy bag comes off its chain, flies eleven feet and takes out the water cooler.
 Spoiler check: PASS. Final beat of the page is “I’ll pay for that.” Not depicted: nobody has spoken, Rocco’s mouth is closed and he has not yet looked at Benny.
-Named figures: Rocco, Benny (2 of a maximum 2)
+Named figures: Rocco, Benny (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rocco-canonical.png` — Rocco
@@ -491,7 +492,7 @@ Alt text, already written, do not regenerate: In an old boxing gym at dawn, a he
 Shot type: Character two-shot
 Depicts: Beats 6 to 8. Rocco stops six feet short of Private Dunphy, thinks about what he is stopping him from honestly and for a long time, and apologises for it being his first day.
 Spoiler check: PASS. Final beat of the page is the punch and Dunphy going down. Not depicted: there is no contact, both are on their feet, Rocco’s hands are DOWN at his sides and Dunphy is upright and unhurt.
-Named figures: Rocco, Dunphy (2 of a maximum 2)
+Named figures: Rocco, Dunphy (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-rocco-canonical.png` — Rocco
@@ -553,7 +554,7 @@ Canonical reference: `char-wren-canonical.png` · approved: yes
 Shot type: Character action, deep frame
 Depicts: Beats 5 and 6. Wren has pinned a soldier to a pine tree by his rifle sling, and she is apologising for it from ninety yards away.
 Spoiler check: PASS. Final beat of the page is Dame Ottilie standing in Old Bell Road in plate armour. Not depicted: no armour, no road and no truck, and Ottie is not in frame.
-Named figures: Wren (1 of a maximum 2)
+Named figures: Wren (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-wren-canonical.png` — Wren
@@ -611,7 +612,7 @@ Canonical reference: `char-unit-soldier-canonical.png` · approved: yes
 Shot type: Character action, single figure
 Depicts: Beat 8. A high school does — once a year, for forty-one years. The corridor where all forty-one of them are hanging on the wall, and a soldier walking past without looking at any of them.
 Spoiler check: PASS. Final beat of the page is Vex’s answer about ninth grade. Not depicted: none of the crew is in frame, there is no boiler hatch, no dumpster pad and no wardrobe room, and nothing about how anybody gets in.
-Named figures: Unit Soldier (1 of a maximum 2)
+Named figures: Unit Soldier (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-unit-soldier-canonical.png` — Unit Soldier

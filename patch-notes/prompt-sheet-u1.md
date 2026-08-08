@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Establishing or location
 Depicts: Beat 3. The new fence: nine feet, dead straight, green slats, thrown up around the school in four hours.
 Spoiler check: PASS. Final beat is Lena giving up on filming outside the hardware store. Not depicted: no camera, no hardware store, and none of the lemonade section.
-Named figures: Lena, Vex (2 of a maximum 2)
+Named figures: Lena, Vex (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -93,7 +94,7 @@ Alt text, already written, do not regenerate: Two girls stand small in the foreg
 Shot type: Character close, two-shot
 Depicts: Beat 7. Lena comes home and finds Aunt Carol in the kitchen filling a thermos for the soldiers.
 Spoiler check: PASS. Final beat is Lena carrying the thermos without smiling. Not depicted: the thermos has not changed hands and nobody has left the kitchen.
-Named figures: Lena, Aunt Carol (2 of a maximum 2)
+Named figures: Lena, Aunt Carol (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-carol-canonical.png` — Aunt Carol
@@ -154,7 +155,7 @@ Canonical reference: `char-milo-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: Beat 7. Admiral Crane, off to the side of the stage with his hands behind his back, has stopped reading the crowd and settled on Milo.
 Spoiler check: PASS. Final beat is Vex asking about the new fence from the wall. Not depicted: Vex is not in frame, the fence is not visible, and nobody has stood up to leave.
-Named figures: Milo, Felix, Mayor Dalton, Admiral Crane (4 of a maximum 2)
+Named figures: Milo, Felix, Mayor Dalton, Admiral Crane (4 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-dalton-canonical.png` — Mayor Dalton
@@ -220,7 +221,7 @@ Alt text, already written, do not regenerate: A masked officer stands with his h
 Shot type: Character group
 Depicts: Beats 1 to 4. The Warehouse doing what it does: the brick in the door, the bad fan, the duck, the pig on the good couch, and the mini dragon asleep on the fridge.
 Spoiler check: PASS. Final beat is Owen spinning his chair around about the orders. Not depicted: Owen is at his desk facing away and no document is visible.
-Named figures: Milo, Owen, Felix, Pig, Dragon, Duck (6 of a maximum 2)
+Named figures: Milo, Owen, Felix, Pig, Dragon, Duck (6 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-milo-canonical.png` — Milo
@@ -288,7 +289,7 @@ Alt text, already written, do not regenerate: A converted warehouse with a pig a
 Shot type: Character close
 Depicts: Beat 12. Pip closes her eyes, which she does not need to do and had never done in front of any of them.
 Spoiler check: PASS. Final beat is four people saying "No" at once. Not depicted: no one else has spoken or reacted, and the answer has not come back.
-Named figures: Milo, Pip (2 of a maximum 2)
+Named figures: Milo, Pip (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
@@ -349,7 +350,7 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Character group, close
 Depicts: Beats 5 to 7. Owen calls the Mayor a liar in real time and Felix asks which part. Four faces, no backdrop.
 Spoiler check: PASS. Final beat is the curfew announcement. The Mayor is not in frame, there is no podium and no crowd, and nothing about a curfew is legible or implied.
-Named figures: Vex, Pip, Owen, Felix (4 of a maximum 2)
+Named figures: Vex, Pip, Owen, Felix (4 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
@@ -414,7 +415,7 @@ Alt text, already written, do not regenerate: Four kids packed close together ou
 Shot type: Character action
 Depicts: Beat 3. Vex practising walking handstands across the warehouse floor with Monke doing exactly the same thing beside her, while Owen works.
 Spoiler check: PASS. Final beat is the "How is that worse?" exchange. Not depicted: Vex is upside down and mid-move, and no argument is legible in the staging.
-Named figures: Vex, Owen, Felix, Monke (4 of a maximum 2)
+Named figures: Vex, Owen, Felix, Monke (4 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -477,7 +478,7 @@ Alt text, already written, do not regenerate: A girl walks across a concrete flo
 Shot type: Character close, two-shot
 Depicts: Beat 6. Vex crouches down in front of Pip with her hands on her knees and does not touch her, because they had talked about that.
 Spoiler check: PASS. Final beat is Pip tilting her head and the whole room going quiet. Not depicted: Pip's head is level and nobody else has reacted.
-Named figures: Vex, Pip (2 of a maximum 2)
+Named figures: Vex, Pip (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -539,7 +540,7 @@ Canonical reference: `char-cassie-canonical.png` · approved: no
 Shot type: Character close, single figure
 Depicts: Beat 5. The fifteen-year-old girl who woke up able to hear a wasp inside a wall, somewhere else in town, still living with it.
 Spoiler check: PASS. Final beat is Milo sitting down on the edge of the coffee table to be level with Pip. Not depicted: nobody from that room is in frame and the Warehouse does not appear at all.
-Named figures: Cassie (1 of a maximum 2)
+Named figures: Cassie (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-cassie-canonical.png` — Cassie
@@ -598,10 +599,11 @@ Canonical reference: `char-ida-canonical.png` · approved: yes
 Shot type: Character action
 Depicts: Beat 3. Ida Prewitt waves at the convoy from the sidewalk and two soldiers wave back — the whole arc in one gesture.
 Spoiler check: PASS. Final beat is Vex hanging up on Lena. Not depicted: no phone call, no roof, and neither Lena nor Vex is in frame.
-Named figures: Ida (1 of a maximum 2)
+Named figures: Ida (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-ida-canonical.png` — Ida
+- `loc-main-street.png` — location, main street
 
 ```
 STYLE: Paper-Theater Millbrook (the project's locked style, reproduced below verbatim)
@@ -627,8 +629,8 @@ Town treatment
 
 Palette
 Warm off-white paper base with subdued town colors and stronger character-specific accents. Printed pencil textures or dry brush may appear on the paper, but no glossy 3D surfaces.
-SETTING: no reference image is attached, so the description below is the only authority for this place and every element in it is required.
-A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks.
+SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
+A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**
 CHARACTER: Ida. Use the attached canonical reference image "char-ida-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
 A woman in her early seventies, small and brisk. Short silver-white hair in close natural curls, worn uncovered with nothing on her head. A round face gone soft at the jaw, deep laugh lines, warm pale skin with freckles across the nose, small gold stud earrings, no spectacles. Her resting expression is mildly pleased and completely unsurprised. Worn: a **buttercup-yellow quilted half-zip anorak** with a chest pocket, a lilac sweatshirt at the neck and cuffs, navy tracksuit trousers with a white side stripe, and white trainers. In her left hand she holds a brown leather lead that splits to **TWO tricolour beagles**, both standing calmly beside her.
 She stands on the sidewalk with her two beagles on their lead, one hand raised in a small unhurried wave, entirely unbothered, as a column of six sand-coloured military cargo trucks with canvas over their beds rolls past her down the middle of the street. From the back of the nearest truck two soldiers in olive field jackets raise a hand and wave back at her. Nobody else is on the street.

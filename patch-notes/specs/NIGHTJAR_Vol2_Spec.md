@@ -2,22 +2,53 @@
 
 Source: `NIGHTJAR_Part_2_v2.md`  
 Chapter: Part Two: Patrol  
-Spreads: 10 (9 text spreads plus 1 chapter opener) | Images: PENDING | Words: 1937  
+Spreads: 10 (9 text spreads plus 1 chapter opener) | Images: 10 | Words: 1937  
 Spec version: 1 | Date: 2026-08-07
 
 Style, negatives, characters, locations and wardrobe states live in `PATCH_NOTES_FLIPBOOK_ROSTER.md`, which is the single source of truth for the series. Do not restate any of it here and do not describe a locked character or location inline. Tokens only.
 
 ## Shot mix, this volume
 
-Images: PENDING. The prose is placed and parsing clean; no plate has been commissioned yet. The word PENDING is what suspends the prompt guards in `parse-specs.mjs`, and writing the prompts is what re-arms them, so remove it in the same edit that fills the image blocks in.
+Images: 10. Character-led 10, establishing 0, detail 0.
 
-9 plates plus the opener. Slugs are reserved below (`n2-opener`, `n2-s01` to `n2-s09`) because a slug is what an image file is named after, and nothing else in the block is written yet.
+**Every plate in this volume has a face in it, including the opener.** Part One's opener was an empty town at golden hour, which is the right way to start an arc and would say nothing at all the second time. This chapter is called Patrol, so the opener is the patrol: one boy alone on a roof at night with a police scanner held up to his ear, which is the whole joke and the whole ache of the chapter in one picture.
 
-**Before writing a single prompt, map the volume's locations.** Arc two went to the Warehouse eight times in twenty-three plates before that was caught. This chapter is roof-and-street heavy in the same way, so print the intended `{{LOC:}}` tokens for all 9 plates first and move the repeats out. Plates are LIGHT unless the scene is outdoors at night, and an interior at night is still a light picture.
+**The Nightjar comes close in this volume, and that is a scheduled release rather than a drift.** Volume 1 kept him deliberately far — small against the sky in s08 and reduced to one hand over a parapet in s09 — so that the reader's certainty grew on the same curve as Pip's investigation. By the end of this chapter Pip has the red glasses, the handwriting and his own voice slipping out of the third person, so the reader has earned the face. `n2-s09` is the first plate in the arc that draws his features at portrait size, and its hard constraints say so.
 
-Character-forward, per the standing authorial instruction: prefer a plate with faces doing something over an empty room, and prefer the funniest or heaviest beat over stage directions. Rewriting prose to earn a plate is allowed and encouraged.
+## Location map, made before any prompt was written
 
-Every plate must depict a beat from its own text page and never that page's final beat, which is the rule all ninety-two delivered plates in the first two arcs follow.
+| Plate | Place | Needs a new reference |
+|---|---|---|
+| `n2-opener` | Feed store roof, night | no |
+| `n2-s01` | Carter's service yard, night | no |
+| `n2-s02` | Rosa's truck, the fence, night | no |
+| `n2-s03` | Main Street under an awning, rain, day | no |
+| `n2-s04` | The Warehouse pit, day | no |
+| `n2-s05` | The Warehouse loading step, night | no |
+| `n2-s06` | A residential corner, night | no |
+| `n2-s07` | Felix's garage, night | no |
+| `n2-s08` | Main Street from roof height, night | no |
+| `n2-s09` | The water tower catwalk, night | no |
+
+**Nine distinct places in ten plates, and not one of them needs a reference generated.** Everything here is delivered already or has a working stand-in, which is the return on the reference push that preceded Part One. Two were commissioned for this arc and had not been used yet: the feed store roof and Carter's service yard.
+
+**One beat was moved to make that true.** The raccoon was apprehended *behind the bakery*, and Millbrook has no bakery reference and two brick alleys already — the roster's warning that the Warehouse and the feed store must not read alike applies with more force to a third. It happens behind the hardware store now, which is the building he stands on in Part One, so the change buys continuity as well as saving a generation.
+
+**Main Street takes two and the Warehouse takes two, and both pairs are separated on every axis available.** Main Street is an overcast October afternoon in the rain at sidewalk level, and a clear night from roof height with a forty-foot drop under it. The Warehouse is a lit daytime interior at the couches, and a night exterior on the loading step round the back. Rosa's truck, which took three plates in Volume 1, takes exactly one here.
+
+**Eight of the ten are at night, because that is what a chapter called Patrol is.** Every one of them is still a LIGHT picture per the standing instruction, and each block names its own light source: a lit serving hatch, a bulkhead lamp over a door, a street lamp on a corner, a garage with the lights switched on, lit shop signs down both sides of a street, a maintenance lamp on a water tank. The sky is a deep blue in all of them and never black.
+
+## New faces, and where each one lands
+
+| Who | Plates | Note |
+|---|---|---|
+| The Nightjar | opener, s01, s02, s03, s08, s09 | Six plates, and his face at readable size in one. |
+| Monke | s06, s07 | First appearance in this arc. |
+| The raccoon | s01 | One use, unnamed, and entirely unbothered. |
+
+**Cast size stays capped at three named figures per plate**, for the reason recorded in Volume 1: Vex is lost out of six-figure crowds and replaced with an invented boy. No plate here carries more than three, and each states its exact headcount in a hard constraint.
+
+Every plate depicts a beat from its own text page and never that page's final beat, which is the rule all one hundred and two delivered plates before it follow.
 
 Page budget, for whoever edits this next. Chunked with the model in `WRITING_GUIDE.md` at an ideal of 28 lines: 9 text pages estimated at 16 to 28 lines, which is 46 to 81 per cent of the column. The short pages are deliberate: each one ends on a landed line rather than mid-scene.
 
@@ -40,14 +71,37 @@ Renders differently: one full bleed image across both pages with the chapter tit
 ### Image, full bleed across both pages
 
 Slug: n2-opener
+Shot type: Establishing with figure (full bleed, both pages)
+Depicts: The Nightjar on patrol, on the roof of the feed store, before any of it. No story beat.
+Spoiler check: PASS. A chapter opener precedes all prose, and he was revealed at the end of Part One, so his presence gives nothing away. Not depicted: there is no cable and no rig of any kind, nobody else on the roof or the street, and no catwalk — the zip line is beat 2 of text page 8.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:FEED_STORE_ROOF}}
+{{CHAR:THE_NIGHTJAR}}
+{{WARDROBE:FELIX_B}}
+EXACTLY ONE FIGURE IN THIS PICTURE AND NO OTHER PEOPLE ANYWHERE, on the roof or on the street below.
+THE NIGHTJAR walks the flat tarred roof of the two-storey feed store, mid-stride and unhurried, a couple of paces in from the low parapet on the street side with the town laid out beyond it. A boxy black police scanner is held up near his shoulder in one hand and a small stack of printed cards is squared in the other. His cape hangs still. He is not sneaking, not posing and not in danger — he is a boy doing a job he gave himself, and the picture should read patient rather than dramatic.
+He stands left of centre at roughly a third of the height of the frame, with the parapet, the street and the rooflines running away to the right.
+**A LIGHT NIGHT PICTURE, not a dark one.** A clear night with a DEEP BLUE sky rather than a black one, a bright moon, warm street lamps and lit shop signs down Main Street below the parapet, and a bulb burning over the stair head behind him. His teal jacket, his charcoal cape and hood, his flat cap and his red-orange sneakers all read clearly, and no part of the frame falls to featureless black.
+Far off beyond the end of the street, small on the horizon, the silhouette of a municipal water tower on braced steel legs.
+Wide, camera on the same roof at standing height and a little behind him, so the parapet, the figure and the whole run of the street beyond are in one frame. Deep focus, level horizon, nothing cropped.
+
+Hard constraints: exactly one person in the entire picture. The building is TWO storeys and its roof is flat and bare. Nothing on the cards or anywhere else is legible. A deep blue night sky, never black, with every colour of his costume readable.
+
+{{NEGATIVE}}
+Aspect ratio: 2:1
+```
+
+Alt text: A masked figure in a cape walks the flat roof of a two-storey building at night with a police scanner held up near his shoulder, a lit main street and a distant water tower spread out beyond the parapet.
 
 ---
 
 ## Spread 1
 
-Pages 3 to 4 | Part Two: Patrol | Words 212
+Pages 3 to 4 | Part Two: Patrol | Words 213
 
 ### Text page (left), verbatim
 
@@ -57,7 +111,7 @@ The Nightjar patrolled every night from ten until about two, and in a town of fo
 
 He kept a log. Lena had seen it. It was a spiral notebook with dates in the corner and entries like SUSPICIOUS VAN, RESOLVED and PARTY OF TWO, RESERVOIR, MONITORED.
 
-Monday he apprehended a raccoon behind the bakery. He did not hurt the raccoon and the raccoon did not hurt him, and the whole encounter took about nine minutes and ended with the raccoon walking away and the Nightjar watching it go.
+Monday he apprehended a raccoon behind the hardware store. He did not hurt the raccoon and the raccoon did not hurt him, and the whole encounter took about nine minutes and ended with the raccoon walking away and the Nightjar watching it go.
 
 Tuesday he surveilled a car parked out at the reservoir for forty minutes and wrote down the license plate. It was the Kowalskis. They’ve been married nineteen years.
 
@@ -76,8 +130,31 @@ Wednesday he stopped by Rosa’s truck at ten while she was closing.
 ### Image page (right)
 
 Slug: n2-s01
+Shot type: Character action
+Depicts: Beat 3. Monday. The raccoon is sitting under the badminton net behind the hardware store, entirely unbothered, and the Nightjar is crouched a respectful distance away with no idea what happens next.
+Spoiler check: PASS. Final beat is "The Nightjar does not eat." Not depicted: Rosa is not in frame, there is no food truck, no fryer and no food of any kind, and nobody has spoken.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:CARTERS_ALLEY}}
+{{CHAR:THE_NIGHTJAR}}
+{{WARDROBE:FELIX_B}}
+EXACTLY ONE PERSON AND EXACTLY ONE ANIMAL. No second figure anywhere.
+THE NIGHTJAR is crouched on his heels on the concrete of the service yard behind the hardware store, forearms across his knees, a good four feet back from the raccoon and plainly keeping that distance on purpose. His head is tilted a little to one side. He has caught it and has no plan whatsoever for what comes after catching it, and that is the joke: his posture is careful, formal and completely stuck.
+A RACCOON sits under a slack white badminton net on the concrete in front of him. It is an ordinary raccoon at ordinary size and it is entirely calm — not struggling, not snarling, not comical. It is up on its haunches looking straight back at him with mild interest, one paw resting on the netting, having plainly already worked out that it can leave whenever it likes.
+The net is a cheap white nylon badminton net, loose and draped over it rather than taut, with no frame and no poles.
+**A LIGHT NIGHT PICTURE.** A bulkhead lamp over the ground-level door is on and throws a broad warm pool across the concrete that both of them sit inside. The brick, the iron fire escape, the bins, the crates and the board fence all stay clearly readable, and no part of the frame falls to featureless black. A deep blue night sky above the roofline, never black.
+Medium, camera low at about crouching height and slightly to one side, so the boy and the raccoon are both fully in frame and roughly the same size in it, facing each other across the concrete.
+
+Hard constraints: exactly one person and exactly one animal. The raccoon is calm and realistic in scale, never cartoonishly large and never frightened. The net is loose and draped, with no poles and no frame. A warmly lit yard, not a dark alley.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A masked figure in a cape crouches on the concrete of a lit service yard at night, four feet from a raccoon sitting calmly under a draped badminton net, the two of them looking straight at each other.
 
 ---
 
@@ -110,8 +187,34 @@ Owen looked the word up on the second day.
 ### Image page (right)
 
 Slug: n2-s02
+Shot type: Character action, wide
+Depicts: Beats 1 to 2. He has eaten the taco, thanked her formally in the third person, and is going over the chain link fence at the edge of the lot instead of through the open gate eight feet to his left.
+Spoiler check: PASS. Final beat is Owen's report that the Nightjar is aware of the bird. Not depicted: Owen and Lena are not in frame, and there is no scanner, no net, no caltrops and no calling card anywhere in the picture.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:ROSAS_TRUCK}}
+{{CHAR:THE_NIGHTJAR}}
+{{WARDROBE:FELIX_B}}
+{{CHAR:ROSA}}
+{{WARDROBE:ROSA_A}}
+EXACTLY TWO PEOPLE.
+**THE OPEN GATE IS THE JOKE AND IT MUST BE IN THE SAME FRAME AS HIM.** A gap in the chain link stands wide open about eight feet to his left, unobstructed and obviously the way out. He is not using it.
+THE NIGHTJAR is halfway over the chain link fence at the edge of the gravel lot: one boot planted on the top rail, one hand on the wire, his body swung across, his cape pulled taut behind him by the movement. He is doing it neatly and with complete seriousness. His face is turned back over his shoulder towards the truck.
+ROSA stands at the raised serving hatch of her food truck with a cloth over one shoulder and both hands flat on the counter, leaning out and watching him do it with the expression of a woman who has decided not to say anything.
+SCALE: Rosa is a grown woman of ordinary height and no taller than the teenagers. The Nightjar is an eighteen year old boy and the shortest of the three boys — standing on the ground he would be a little shorter than her, and nothing here should make him read as a large adult.
+**A LIGHT NIGHT PICTURE.** It is ten at night and the truck is the light source: the serving hatch is bright, the striped awning over it catches the spill, warm light lies across the gravel, and the chain link, the fence line and both figures are all clearly readable. A deep blue night sky, never black.
+Wide, camera at standing height out on the gravel between the truck and the fence, so the lit hatch with Rosa in it, the stretch of gravel, the open gate and the boy going over the fence all sit in one frame, left to right.
+
+Hard constraints: exactly two people. The gate is OPEN and clearly visible in the same frame as the fence he is climbing. He is mid-climb and is not standing on top of the fence. Rosa is amused and unsurprised, never alarmed. A lit lot, not a dark one.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A masked figure swings himself over a chain link fence at the edge of a gravel lot at night while an open gate stands a few feet away, and the woman in the lit hatch of a food truck watches him do it without comment.
 
 ---
 
@@ -148,8 +251,34 @@ She watched it four times and then she came and found Pip.
 ### Image page (right)
 
 Slug: n2-s03
+Shot type: Character action, wide
+Depicts: Beat 6. The clip Lena found: a rainy Tuesday last October, the Nightjar and Owen under a shop awning on Main Street, arguing about whether crime can be prevented in a place that has no crime.
+Spoiler check: PASS. Final beat is Lena saying that is his voice and his coat and she remembers making it. Not depicted: Lena is not in frame, and there is no camera, no screen, no photograph and no Warehouse.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:MAIN_STREET}}
+{{CHAR:THE_NIGHTJAR}}
+{{WARDROBE:FELIX_B}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
+EXACTLY TWO PEOPLE.
+**THIS ONE IS DAYTIME AND IT IS RAINING, and it is the only plate in the volume that is.** An overcast October afternoon: flat grey daylight, steady rain falling past the edge of the awning and pocking the puddles, a wet sidewalk throwing the shop lights back up off it. **Overcast is a LIGHT picture** — every colour in both costumes reads clearly and nothing falls to featureless black.
+Both of them stand under a shop awning on the sidewalk, out of the rain by about two feet, with the wet street behind them.
+THE NIGHTJAR stands with his arms folded and his chin up, mid-sentence, entirely certain of himself. Rain runs off the edge of the awning past his shoulder.
+OWEN faces him half turned, one hand out flat in the air making a point he has clearly made before, eyebrows up, exasperated and enjoying himself. They are arguing the way two friends argue and not the way strangers do, and that warmth is the point of the plate.
+SCALE: Owen is noticeably TALLER than the Nightjar, who is the shortest of the three boys — Owen stands a clear head and brow above him. Do not draw them the same height.
+Medium wide, camera at standing height out on the sidewalk a few paces off, angled a little so the awning, the two of them and the rain-blurred length of Main Street behind are all in frame.
+
+Hard constraints: exactly two people. Daylight and overcast, never night. Rain is visibly falling. Owen is plainly taller than the Nightjar. No camera, no screen and no video-frame border of any kind - this is drawn as a scene and not as footage.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Two boys stand under a shop awning on a rainy main street in the afternoon, one masked and in a cape with his arms folded, the other in an ivory outfit with a hand out flat mid-argument.
 
 ---
 
@@ -184,8 +313,37 @@ So Pip went through it again. Vex sat next to her with her elbows on her knees a
 ### Image page (right)
 
 Slug: n2-s04
+Shot type: Character group
+Depicts: Beats 1 to 4. Pip has finished saying it and is not upset, and the two of them around her cannot handle that the calm is the part that frightens them.
+Spoiler check: PASS. Final beat is Vex sitting down beside her outside and not interrupting, which cost her something. Not depicted: Vex is not in frame, they are not outside, and there is no loading step and nobody sitting on one.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_PIT}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:OWEN}}
+{{WARDROBE:OWEN_A}}
+{{CHAR:MILO}}
+{{WARDROBE:MILO_A}}
+EXACTLY THREE PEOPLE.
+PIP stands in the middle of the lounge end of the warehouse with her arms at her sides, facing the other two, **completely calm**. Her face is doing nothing at all. She has just said something enormous in an ordinary voice and she is not going to say it any louder.
+OWEN sits forward on the edge of one of the sagging couches, elbows on his knees and both hands loosely together, looking up at her, worried and trying not to show it.
+MILO stands a little apart with one hand resting on the back of a couch, head tilted, listening all the way through the way he always does, gentle and unhappy.
+**The subject of the picture is that she is the steadiest person in it.** The two of them are the ones coming apart. She is not.
+SCALE: Milo is the tallest of the three, Owen a little shorter than Milo, and Pip stands about level with Owen. Nobody is a small child and nobody towers over anybody.
+A LIT DAYTIME INTERIOR: high clerestory windows far above throw broad daylight down across the bare concrete and the couches, and the wall of salvaged televisions is dark and switched off. Warm and clearly readable throughout, with no part of the frame falling to featureless black.
+Medium wide, camera at standing height across the low scarred coffee table, so all three of them, the couches and the television wall behind are in one frame.
+
+Hard constraints: exactly three people - Pip, Owen and Milo, and Vex is not among them. Pip's expression is neutral and calm, never distressed, tearful or pleading. The televisions are OFF and nothing on any screen is legible. A bright lit interior.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A robotic girl stands calmly in the middle of a converted warehouse lounge with her arms at her sides, while a boy leans forward on a couch looking up at her and another stands apart with a hand on the couch back, both plainly worried.
 
 ---
 
@@ -212,8 +370,35 @@ That was the moment, and neither of them made a big thing of it, which is why it
 ### Image page (right)
 
 Slug: n2-s05
+Shot type: Character close, two-shot
+Depicts: Beats 1 to 3. Vex has said she does not remember any Felix and is not going to lie about it, and has decided to go with the second of two facts she cannot hold at the same time.
+Spoiler check: PASS. Final beat is "I know. Where are we going?" and the narrator's line about neither of them making a big thing of it. Not depicted: neither has stood up, nobody is going anywhere, and Monke does not appear.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WAREHOUSE_EXT}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+EXACTLY TWO PEOPLE.
+Both of them are sitting side by side on the single wide concrete loading step that runs along the back wall of the warehouse beside the plain steel door, out in the night air.
+VEX sits with her elbows on her knees and her hands loose between them, leaning forward, looking out at nothing rather than at Pip, one hand up scratching the back of her neck. She is saying something she has thought about and does not enjoy saying.
+PIP sits upright beside her with her hands flat on her knees, her head turned to look at Vex's face. She is not upset. She is listening.
+They are close together on the step with their shoulders nearly touching, and neither of them is performing. **This is the moment the two of them become a pair, and it has to read quiet rather than dramatic.**
+SCALE: Pip is the tallest of the three girls and Vex is shorter — sitting side by side, the top of Vex's head comes to about Pip's ear.
+**A LIGHT NIGHT PICTURE.** A bulkhead lamp over the steel door is on directly above them and throws a warm broad pool down over the step and over both faces, which are fully readable. The brick wall, the concrete kerb and the weeds at the base of the wall all stay legible. A deep blue night sky above, never black.
+Close two-shot, camera low at about seated height a few feet in front of them, with both faces clearly in frame.
+
+Hard constraints: exactly two people. Both are SEATED on the concrete step and neither is standing. Both faces are fully lit and readable. Pip's goggles are pushed up on her forehead over the red bandana and are never over her eyes. A warmly lit step, not a dark yard.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Two girls sit side by side on a concrete loading step at night under a wall lamp, one leaning forward with her elbows on her knees looking away, the other sitting upright and watching her face.
 
 ---
 
@@ -260,8 +445,35 @@ On the wall, taped up crooked, there was a piece of notebook paper with a list o
 ### Image page (right)
 
 Slug: n2-s06
+Shot type: Character action
+Depicts: Beats 1 to 3. Monke has been sitting on a fire hydrant at the end of Crescent at eleven at night like he had an appointment, and he is getting down off it to walk as the two of them come round the corner.
+Spoiler check: PASS. Final beat is the sheet of notebook paper taped up crooked on the garage wall. Not depicted: there is no garage, no workbench, no red glasses and no list — nobody has arrived anywhere yet.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:MILLBROOK_RESIDENTIAL}}
+{{CHAR:MONKE}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+EXACTLY TWO PEOPLE AND EXACTLY ONE ANIMAL.
+MONKE is the subject and he is near and large in the foreground. He is on a squat street fire hydrant at the corner in the act of **getting down off it** — one tan hand still on the top of the hydrant, one foot reaching for the sidewalk, tail curled behind him, looking back over his shoulder at the two girls to check that they are coming. He has been waiting a while and he is unhurried about it.
+VEX and PIP have just come round the corner behind him and are further back along the sidewalk, both stopped, both looking at him. Vex has her hands in her jacket pockets. Pip is simply standing, as she does.
+**Monke is doing nothing clever with any object.** He is sitting on a hydrant and climbing off it. He holds nothing, carries nothing, and nothing anywhere in the picture is arranged, folded, stacked or sorted.
+SCALE: Monke is a small monkey about the size of a house cat, and the hydrant comes to roughly the girls' hip height. He must read as SMALL against both of them and against the hydrant, even though he is nearest the camera.
+**A LIGHT NIGHT PICTURE.** A street lamp on the corner is lit directly above, with porch lights along the row of houses behind and warm windows here and there. The sidewalk, the hydrant, the low hedges, the parked sedans and both faces all read clearly. A deep blue night sky, never black.
+Medium, camera low at about hydrant height on the sidewalk, so Monke is near and large in the frame with the two girls standing further back and smaller behind him, all three in focus.
+
+Hard constraints: exactly two people and exactly one animal. Monke is small - about the size of a house cat - and is climbing DOWN off the hydrant rather than sitting still on top of it. He holds no object of any kind. Both girls are stopped and standing. A lit street corner, not a dark one.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A small paper monkey climbs down off a street fire hydrant under a lamp at night, looking back over his shoulder at two girls who have just come round the corner and stopped on the sidewalk.
 
 ---
 
@@ -304,8 +516,37 @@ Neither of them said anything for a second.
 ### Image page (right)
 
 Slug: n2-s07
+Shot type: Character group
+Depicts: Beats 1 to 4. Pip has read the list taped to the garage wall and said she remembers it, and Vex has her phone up photographing it.
+Spoiler check: PASS. Final beat is Pip saying that somebody has to go and get him. Not depicted: neither of them has moved towards the door, nothing has been said about leaving, and the Nightjar does not appear.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:FELIX_GARAGE}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+{{CHAR:MONKE}}
+EXACTLY TWO PEOPLE AND EXACTLY ONE ANIMAL.
+A single sheet of lined notebook paper is taped up CROOKED on a clear stretch of the garage wall at about head height, one corner of it lifting away. It carries a short handwritten list in blue ballpoint, and **the handwriting reads as handwriting while no word of it is legible**.
+PIP stands square in front of the sheet and close to it, arms at her sides, reading it. Her face is doing nothing, which is the point: she is the only person in the room who is not surprised.
+VEX stands half a pace behind her and to one side with her phone held up in both hands, photographing the sheet, her head tipped slightly and her mouth set. She is not looking at Pip.
+On the workbench under the window behind them, clearly visible and in focus, a pair of **round glasses with thin red frames**, folded and set down square on the wood. Nobody is touching them and nobody is looking at them.
+MONKE sits on the seat of the rolling office chair with the silver tape across one arm, at the edge of the frame, watching the two of them. He holds nothing and has arranged nothing.
+SCALE: Pip is the taller of the two girls and the top of Vex's head comes to about Pip's ear. Monke is small, about the size of a house cat, and sits well below both of them.
+**A LIT INTERIOR AT NIGHT.** The overhead bulb and the clamp lamp over the bench are both switched on, so the whole garage is warm and readable — the pegboard of tools, the four bicycles, the coffee can of screws, the half-built thing on the floor. **Light it as though somebody walked in and turned the lights on**, not as if one lamp is fighting the dark, and let no part of the frame fall to featureless black.
+Medium wide, camera at standing height across the garage, so the taped sheet, both girls, the workbench with the red glasses on it and the chair with Monke on it are all in one frame.
+
+Hard constraints: exactly two people and exactly one animal. No text or lettering is legible anywhere in the picture, on the sheet or elsewhere. The red-framed glasses are on the workbench, folded and untouched. Monke holds nothing, and nothing in the garage is neatly arranged, stacked or sorted. A brightly lit garage, not a dark one.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: Two girls stand in a lit garage at night in front of a sheet of notebook paper taped crooked to the wall, one reading it and one photographing it with her phone, with a pair of round red-framed glasses folded on the workbench behind them.
 
 ---
 
@@ -344,8 +585,30 @@ Vex was already climbing the tower. She went up the maintenance ladder without s
 ### Image page (right)
 
 Slug: n2-s08
+Shot type: Character action, wide
+Depicts: Beats 5 to 7. The line has held for ninety feet, the far anchor has started to walk, and he has come to a stop hanging over the middle of Main Street with one boot hooked over the cable and his cape wrapped twice around his own arm.
+Spoiler check: PASS. Final beat is Vex going up the maintenance ladder and walking the cable in hand over hand. Not depicted: Vex is not climbing and is not on the catwalk — she is on the sidewalk with Pip, looking up.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:MAIN_STREET}}
+**NO CHARACTER REFERENCE SHEETS ARE ATTACHED TO THIS PROMPT AND THAT IS DELIBERATE.** Every figure here is small and none of them is a portrait, and attaching a full-body sheet of a character who has to appear small is exactly what produced a second full-size copy of him at ground level three times running on this arc. The costume colours written below are the whole requirement.
+A BOY HANGING FROM A CABLE HIGH OVER THE MIDDLE OF A MAIN STREET AT NIGHT, seen from roof height across the street. He is the subject and he is SMALL IN THE FRAME — a figure against the sky and the rooflines rather than a portrait, and his face is not readable.
+A single steel cable runs the length of the street well above it, from off frame at one end to an anchor on the flat roof of a two-storey building at the other. **The far anchor has come loose and is dragging** — a bracket half out of its fixing with slack forming behind it.
+The BOY hangs from a length of bicycle handlebar hooked over the cable, stopped dead in the middle of the span about forty feet above the road. One boot is hooked up over the cable itself, his other leg hangs, and his charcoal cape is wrapped twice around his own upper arm. His head is up and turned down towards the street, and his whole posture announces that he is completely fine. He wears a faded TEAL work jacket, a charcoal cape with an attached hood, a charcoal flat cap, and worn RED-ORANGE high-top sneakers, with round black-rimmed goggles whose lenses are flat opaque white.
+Far below on the sidewalk and very small, TWO figures stand looking up: a girl with mint-green hair in two buns, and a slim upright figure with a red bandana. They are tiny, they are seen from above, and no face is visible on either of them.
+**A LIGHT NIGHT PICTURE.** Lit shop signs and street lamps down both sides throw plenty of light up the brick frontages, the road surface is bright with it, and the sky is a deep clear blue rather than black. His teal jacket and his red-orange sneakers must read clearly even at that distance.
+Wide, camera at roof height on the opposite side of the street, level with him or a little above, so the length of the street runs away below and behind, the cable crosses the frame, and he hangs small in the middle of it against the sky.
+
+Hard constraints: exactly three people - ONE on the cable and TWO on the sidewalk far below. Only one cape and one mask in the entire picture, and nobody at street level wears a cape, a hood, a flat cap or goggles. He hangs BELOW the cable and is not standing on it. The drop beneath him clearly reads as about forty feet. A lit street, never black.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A masked figure in a cape hangs from a handlebar hooked over a cable high above a lit main street at night with one boot crooked over the line, while two tiny figures on the sidewalk far below look up at him.
 
 ---
 
@@ -386,7 +649,36 @@ He picked up his gear.
 ### Image page (right)
 
 Slug: n2-s09
+Shot type: Character close, two-shot
+Depicts: Beats 1 to 3. He is over the rail and sitting on the catwalk grating, he has said thank you and not in the third person, and Pip has asked him to take the mask off.
+Spoiler check: PASS. Final beat is "The Nightjar wants to know." Not depicted: he has not stood up, he has not pointed south, the old school does not appear anywhere in the frame, and he has not picked up his gear.
 
-Not commissioned. The shot type, the depicted beat, the spoiler check, the prompt and the alt text are all still to be written. Read the shot-mix section at the head of this file before writing any of them.
+Prompt:
+
+```
+{{STYLE}}
+{{LOC:WATER_TOWER}}
+{{CHAR:THE_NIGHTJAR}}
+{{WARDROBE:FELIX_B}}
+{{CHAR:PIP}}
+{{WARDROBE:PIP_A}}
+{{CHAR:VEX}}
+{{WARDROBE:VEX_A}}
+EXACTLY THREE PEOPLE.
+**THIS IS THE FIRST CLOSE LOOK THE READER GETS AT HIS FACE AND IT HAS TO BE FULLY READABLE.** In every plate before this one he has been far away or reduced to a hand over a parapet. Here the camera is close and his face is lit: the round black-rimmed goggles with **flat opaque white lenses and no eye, pupil or iris visible through them at any angle**, the eyebrows showing above the rims, and below the goggles a boy's face entirely uncovered — dark brown skin, a round open face, a snub nose, mouth and jaw all legible. **No red glasses anywhere on him.**
+THE NIGHTJAR sits on the steel grating of the narrow catwalk with his back against the curve of the tank and one knee up, having just come over the rail. He is winded and not admitting it. He has just said thank you and it came out plainly, without the third person, and for this one moment his face is only a tired boy's.
+PIP crouches on the grating directly in front of him, close, down at his eye level, one hand resting on the catwalk between them. She has just asked him to take the mask off. Her face is doing nothing and her eyes are entirely on his.
+VEX stands behind Pip at the pipe handrail with one hand still on it, a little apart, watching the two of them and deliberately staying out of it.
+SCALE: Pip is the tallest of the three girls, and crouched as she is her head is level with his. Vex is shorter than Pip. The Nightjar is an eighteen year old boy and the shortest of the three boys.
+**A LIGHT NIGHT PICTURE.** A maintenance lamp on the tank above them is on and throws clear light down across all three faces, with the warm scattered lights of the sleeping town far below and behind them and a deep blue sky. Every face is fully lit and readable and no part of the frame falls to featureless black.
+Close two-shot on the Nightjar and Pip with Vex behind, camera at crouching height on the catwalk, so the grating, the pipe handrail, the curve of the tank and the town lights below all stay readable around them.
+
+Hard constraints: exactly three people. His face below the goggles is UNCOVERED and fully readable, and the goggle lenses are flat opaque white with no eye showing through. He wears no red glasses. Pip's goggles are pushed up on her forehead over the red bandana and never over her eyes - the two sets of goggles must not read alike. He is SEATED on the grating and Pip is CROUCHED, both of them low. A lit catwalk, never black.
+
+{{NEGATIVE}}
+Aspect ratio: 3:2
+```
+
+Alt text: A masked boy in a cape sits winded on the steel catwalk of a water tower at night with his back to the tank, while a girl crouches in front of him at eye level asking him something and another girl stands behind her at the rail.
 
 ---

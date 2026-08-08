@@ -19,10 +19,11 @@ in a face is visible as a run. The spread number is on every entry.
     - Pip's jacket, minor
   Vex is expanded below from the entry the roster marks ACTIVE, which is the
   prose version. If the reference sheet wins instead, every Vex prompt changes.
-- **Aspect ratios were changed for the new page geometry.** Image pages are now
-  `2:3` landscape and the chapter openers `4:3`.
-  Some framing lines were written for a portrait frame and may want a human pass;
-  they were deliberately not rewritten.
+- **Every prompt carries its own `Aspect ratio:` line and that line is authoritative.**
+  Image pages are `3:2` landscape and chapter openers
+  `2:1`, which is what all delivered plates use. This note used
+  to announce a page-geometry change and quoted the superseded portrait values, which
+  is worse than no note: it contradicted the line at the foot of every prompt below it.
 
 ---
 
@@ -37,7 +38,7 @@ Canonical reference: `char-lena-canonical.png` · approved: no
 Shot type: Character close, two-shot
 Depicts: beats 5 and 6. Sybil puts one finger on the trackpad, every device in the building shuts off, and she apologises.
 Spoiler check: PASS. The final beat of the page is Pip's *"I am fast."* Pip is not in frame and no third figure is, so nothing on the page is pre-empted.
-Named figures: Lena, Sybil (2 of a maximum 2)
+Named figures: Lena, Sybil (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-sybil-canonical.png` — Sybil
@@ -101,7 +102,7 @@ Canonical reference: `char-vex-canonical.png` · approved: yes
 Shot type: Character group, night
 Depicts: beats 1 to 3. *"It's a good fence."* Vex admiring it with two fingers on a post while Owen fails to see the point.
 Spoiler check: PASS. The final beat of the page is *"It pointed at a county drawing. Property line."* Not depicted: the dumpster pad, the fourteen-inch gap and the boiler hatch, all of which belong to spread 2, and nothing of the basement.
-Named figures: Vex, Pip, Owen (3 of a maximum 2)
+Named figures: Vex, Pip, Owen (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -165,7 +166,7 @@ Alt text, already written, do not regenerate: At night, a girl with green hair r
 Shot type: Character action, close
 Depicts: beat 5. *"Owen went third and made a noise he refused to discuss."*
 Spoiler check: PASS. The final beat of the page is *"With you that's the same as no."* Not depicted: the hatch being lifted out of the concrete, which is beat 7, and no interior.
-Named figures: Vex, Pip, Owen (3 of a maximum 2)
+Named figures: Vex, Pip, Owen (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
@@ -229,7 +230,7 @@ Alt text, already written, do not regenerate: At night a teenage boy squeezes si
 Shot type: Establishing with figures
 Depicts: beats 3 and 4. The room is bigger than Owen expected and a great deal fuller — thirteen trunks, the robes, the hat boxes, and the shoes lined up with every toe pointing the same way.
 Spoiler check: PASS. The final beat of the page is *"That isn't how ears work."* Not depicted: Pip at the inventory sheet listening to the north wall, which is beats 8 to 10, and nothing of what is in trunk seven.
-Named figures: Vex, Pip, Owen (3 of a maximum 2)
+Named figures: Vex, Pip, Owen (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-owen-canonical.png` — Owen
@@ -295,7 +296,7 @@ Alt text, already written, do not regenerate: Three teenagers in a lit basement 
 Shot type: Detail with figure, close
 Depicts: beat 13. *"Vex looked into the bottom of trunk seven, at the straw hat lying there next to a pair of rubber boots."*
 Spoiler check: PASS. The final beat of the page is *"We got lucky," she said.* She is looking, not speaking, and the picture stops one beat short of the line.
-Named figures: Vex (1 of a maximum 2)
+Named figures: Vex (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-vex-canonical.png` — Vex
@@ -349,7 +350,7 @@ Alt text, already written, do not regenerate: A girl with green hair leans over 
 Shot type: Character close, two-shot
 Depicts: beats 2 and 3. *"There is a note beside it in pencil, from 2014… It says not returned,"* and Vex sitting with that for a while.
 Spoiler check: PASS, and this one matters more than any other in the volume. The final beat of the page is the closing paragraph — *behind the north wall of a room under a closed school… something that had been on for six months went on being on* — and it is also the arc's central reveal. **Nothing of it appears here.** No wall, no door, no school, no interior of anything but this room, and no hint of anything behind anything.
-Named figures: Vex, Pip, Felix (3 of a maximum 2)
+Named figures: Vex, Pip, Felix (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-pip-canonical.png` — Pip
@@ -414,7 +415,7 @@ Canonical reference: `char-felix-canonical.png` · approved: no
 Shot type: Character close, two-shot with animal
 Depicts: beats 3 to 7. Felix going at the seized right shoulder plate with tin snips, a rubber mallet and a hair dryer, talking the entire time, while Ottie sits perfectly still on a milk crate and answers every question he asks her.
 Spoiler check: PASS. The final beat of the page is Rocco's *"I press a button and the man punches."* Not depicted: the television, the controller and Rocco, who are not in frame at all.
-Named figures: Felix, Pig, Ottie (3 of a maximum 2)
+Named figures: Felix, Pig, Ottie (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-felix-canonical.png` — Felix
@@ -482,7 +483,7 @@ Canonical reference: `char-monke-canonical.png` · approved: no
 Shot type: Animal, two subjects
 Depicts: beats 4 and 5. Monke and the dragon sitting bolt upright ten feet apart, looking right at each other.
 Spoiler check: PASS. The final beat of the page is the two of them falling asleep at the same second twenty minutes later. Here they are wide awake and neither has moved, which is the opposite state.
-Named figures: Monke, Dragon (2 of a maximum 2)
+Named figures: Monke, Dragon (2 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-monke-canonical.png` — Monke
@@ -543,7 +544,7 @@ Canonical reference: `char-ottie-canonical.png` · approved: yes
 Shot type: Character group
 Depicts: beats 2 and 3. Dame Ottilie standing in the road again, the checkpoint held, and the two soldiers who have to keep doing this.
 Spoiler check: PASS. The final beat of the page is Ottie getting between the truck and Dunphy and a five-ton truck hitting a suit of plate. **There is no truck in this frame at all** — no vehicle, nothing coming round the bend, and no impact.
-Named figures: Ottie, Reyes, Dunphy (3 of a maximum 2)
+Named figures: Ottie, Reyes, Dunphy (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-ottie-canonical.png` — Ottie
@@ -606,7 +607,7 @@ Alt text, already written, do not regenerate: Early morning on an empty two-lane
 Shot type: Character group, aftermath
 Depicts: beats 2 to 4. The front end folded like a soda can, Ottie turned round to ask the driver whether he is hurt, and Ray sitting in a cloud of talcum with both hands still on the wheel.
 Spoiler check: PASS. The final beat of the page is Reyes saying *"They're going to hate this"* to nobody at all. She is in frame taking stock, but she is crouched with Dunphy rather than standing alone, so the closing line is not what is depicted.
-Named figures: Ottie, Reyes, Dunphy (3 of a maximum 2)
+Named figures: Ottie, Reyes, Dunphy (3 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-ottie-canonical.png` — Ottie
@@ -674,7 +675,7 @@ Canonical reference: `char-wren-canonical.png` · approved: yes
 Shot type: Character close, single figure, exterior
 Depicts: beat 1, from Milo's list — *"An archer on the roof."* Around six in the evening.
 Spoiler check: PASS. The final beat of the page is *"Item forty-one. Nineteen sixty-eight. A child's coat, black wool, three orange buttons, size six."* This plate is on the roof, four hours and one scene earlier, with nobody else in frame.
-Named figures: Wren (1 of a maximum 2)
+Named figures: Wren (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-wren-canonical.png` — Wren
@@ -731,7 +732,7 @@ Canonical reference: `char-unit-soldier-canonical.png` · approved: yes
 Shot type: Character single, night
 Depicts: beat 2. *"The building settled somewhere above them and three hundred yards away a generator ran."*
 Spoiler check: PASS. The final beat of the page is Pip's *"Yes."* Not depicted: the hum in the north wall, the inventory, and anything at all of the room below. Nobody in this frame knows anybody is under that school, which is the point.
-Named figures: Unit Soldier (1 of a maximum 2)
+Named figures: Unit Soldier (1 of a maximum 3)
 
 **Attach these reference images before generating:**
 - `char-unit-soldier-canonical.png` — Unit Soldier
