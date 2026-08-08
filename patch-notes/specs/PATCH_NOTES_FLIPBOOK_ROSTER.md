@@ -1475,6 +1475,17 @@ uninterrupted, because a four-and-a-half-foot door opens in it.
 
 **And the brick is purple.** Same note as the Warehouse interior — a terminals attempt once came
 back brown.
+
+**THIS ARC HAS TWO BRICK BACK-ALLEYS AND THEY MUST NOT READ ALIKE.** Chet comes through the wall
+beside this loading step in Part Three, and Chet plugs a cable into the back of Pip's ear in the
+feed store alley in Part Four. Both alleys have a plain steel door, a dumpster and a stack of
+pallets in them, because that is what a back alley has.
+
+So the brick is the only thing separating them, and the first `loc-feed-store.png` filed measured
+`rgb(95,72,73)` against this building's `rgb(90,72,68)` — **a maximum channel difference of five,
+which is the same trap as Owen's ivory against the sandy ground.** It was replaced with a
+red-brick generation at `rgb(112,73,51)`. Purple is the Warehouse's and nothing else's, and any
+regeneration of either building has to keep the two apart by more than a hair.
 | `{{LOC:VEX_APARTMENT}}` | A single-room apartment above a shop where every horizontal surface is covered and most of the furniture was something else first, milk crates for stools, a bare bulb, a kitchen counter used as a workbench. | 2 | `loc-vex-apartment.png` — stand-in: `vol1-s07.png` |
 | `{{LOC:LAUNDROMAT}}` | A small laundromat with two banks of white front-loading machines facing each other, a wall-mounted bench along the window, a folding counter, worn vinyl floor, fluorescent tubes overhead. | 1 | not required |
 | `{{LOC:MAPLE_AND_FOURTH_A}}` | A corner retail unit with cheap flat plastic signage, a grey vinyl awning sagging at one corner, a dark window with an illuminated sign in it. **State A of a single location.** | 1 | `loc-corner-a.png` — stand-in: `vol2-opener.png` |
