@@ -547,7 +547,10 @@ Down on the sidewalk at the very bottom of the frame and much smaller, LENA and 
 Mid-morning, bright and dry, a clear pale sky behind the roofline.
 WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
 High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
-Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. Exactly three people in the picture and no crowd.
+**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** A previous attempt put a SECOND figure in the Nightjar's costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk between the two kids. Nobody at street level wears a cape, a hood, a flat cap, goggles, a mask or anything resembling the costume. The two kids on the sidewalk are an orange-haired girl and a bald boy in ivory, and there is NO THIRD CHILD.
+**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.
+
+Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
 
 {{NEGATIVE}}
 Aspect ratio: 3:2

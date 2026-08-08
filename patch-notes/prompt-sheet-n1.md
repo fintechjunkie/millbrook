@@ -73,7 +73,9 @@ Warm off-white paper base with subdued town colors and stronger character-specif
 MUST HOLD, these override anything below that appears to contradict them:
 - he stands ON TOP of the parapet, not behind it.
 - He is small in frame and his features are NOT readable.
-- Exactly three people in the picture and no crowd.
+- EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk.
+- Only one cape and one mask in the picture.
+- Bright mid-morning light and a pale blue sky, not sunset.
 SETTING: use the attached canonical establishing image "loc-main-street.png" for this location so it stays the same place between spreads.
 A short commercial main street of two-storey brick and stucco frontages, angled parking, a scatter of vacant units, wide concrete sidewalk with pressure cracks. **Three specific buildings stand on it and all three are climbed in The Nightjar — see the note below.**
 CHARACTER: The Nightjar. Use the attached canonical reference image "char-nightjar-canonical.png" as the authority for face, build, hair and proportion. Match it; do not reinterpret it. The description below is a check on that image, not a licence to depart from it.
@@ -92,7 +94,10 @@ Down on the sidewalk at the very bottom of the frame and much smaller, LENA and 
 Mid-morning, bright and dry, a clear pale sky behind the roofline.
 WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
 High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
-Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. Exactly three people in the picture and no crowd.
+**ONLY ONE MASKED FIGURE EXISTS IN THIS PICTURE AND HE IS ON THE ROOF.** A previous attempt put a SECOND figure in the Nightjar's costume — flat cap, charcoal cape, teal sleeve, red-orange sneakers — standing on the sidewalk between the two kids. Nobody at street level wears a cape, a hood, a flat cap, goggles, a mask or anything resembling the costume. The two kids on the sidewalk are an orange-haired girl and a bald boy in ivory, and there is NO THIRD CHILD.
+**BRIGHT MID-MORNING DAYLIGHT, NOT SUNSET AND NOT GOLDEN HOUR.** A previous attempt came back at dusk with an orange sky. This is ten in the morning and it is the same minute as the plate that follows it, which is bright and blue-skied; the two sit on facing spreads and must match.
+
+Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. EXACTLY THREE FIGURES IN THE WHOLE IMAGE - one on the roof and two on the sidewalk. Only one cape and one mask in the picture. Bright mid-morning light and a pale blue sky, not sunset.
 
 No text, lettering, numerals, signage copy, captions, watermarks or logos anywhere in the image. No extra, missing or malformed limbs, hands or fingers. No additional faces beyond those specified. No duplicated or mirrored figures. No lens flare, bloom or chromatic aberration. No legible screen or display content and no phone interface elements. No photographic realism, no glossy 3D render finish, no anime house style. No borders, frames or panel gutters. No graphic or decorative drop shadow applied to the image as a whole. No green or unwell cast to any human character's skin unless the prompt asks for it by name. No murky, underlit or crushed interior: whatever the hour, wall colour, furniture and every face in frame stay clearly readable, and large areas of the frame must not fall to featureless black unless the prompt names a single light source and asks for it.
 Aspect ratio: 3:2
