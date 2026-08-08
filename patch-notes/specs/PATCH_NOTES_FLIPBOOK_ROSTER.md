@@ -1135,6 +1135,33 @@ light, going up much further than the ceiling above their heads had any business
 Plus a wooden chair much too big for him. It is the last image of the arc and the only
 impossible space in either arc so far.
 
+## 4.6b Green means ill, and the negative block will not give it to you unasked
+
+**The rule is old and the mechanism is the part that catches people.** Section 2 has said since
+arc one that in this world green skin means somebody is ill, which is why a permanent green tinge
+was taken off Milo and why the negative block gained the clause *no green or unwell cast to any
+human character's skin* — so that the colour stays a signal instead of a style.
+
+**That clause ends "unless the prompt asks for it by name", and the emphasis belongs on the
+second half.** The negative block is on every prompt in the series. A plate of somebody being
+violently ill will therefore come back with perfectly healthy skin unless its prompt overrides
+the block explicitly. It is not enough for the prose on the facing page to say the town is sick.
+
+This was found on delivery, 2026-08-07: three of The Nightjar's Part One plates show characters
+in the middle of the worst night of their lives, none of the three prompts named the colour, and
+all three came back well. `n1-s04` (Milo on the bathroom floor), `n1-s05` (the nine-year-old
+sitting up in bed) and `n1-s06` (Felix asleep in front of the television) now name it.
+
+Two things worth stating so the next arc does not relearn them:
+
+- **Ask for it loudly and describe where.** *A distinct sickly green cast across the forehead,
+  cheeks and around the mouth, unmistakable at a glance and not subtle.* A hedged request loses to
+  a negative clause.
+- **On dark skin it is a different instruction.** Felix's block is deep brown, and green over
+  brown is an ashen olive rather than the pale green a fair-skinned character gets. The prompt
+  says so and adds **do not lighten his skin and do not change his race** — because the obvious
+  way for a generator to make a brown face green is to make it a lighter face.
+
 ## 4.6a Scale: a canonical sheet cannot carry it, and every block has to
 
 **Added 2026-08-07 after Rosa came back too big in a delivered plate and had to be corrected by
