@@ -142,6 +142,7 @@ Medium wide, camera at standing height on the gravel about fifteen feet back, an
 Low warm evening sun from one side plus the warm hatch light on Rosa, long soft shadows on the gravel, everything clearly readable.
 SCALE: Rosa is an ordinary-sized woman and NOT a large one. She is no taller than these teenagers — standing on the ground she would be level with Lena and shorter than Milo — and she is leaning out of a hatch here, so she must not tower over the frame or read as bigger-boned than Vex and Owen. Her build is comfortable, not imposing.
 Hard constraints: exactly three people. Vex must have BOTH mint buns and a boot up on the bumper. Do not add a fourth kid. Rosa is not oversized.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -206,6 +207,7 @@ CLOSE two-shot at standing height, square to the hatch, the two heads occupying 
 Warm hatch light on Rosa from inside the truck plus low evening daylight on Pip, both faces fully readable, no deep shadow.
 SCALE, AND THIS PLATE IS WHERE IT GOES WRONG. Pip is the TALLEST of the three girls and Rosa is an ordinary-sized woman, so **standing on the same floor Pip would be very slightly the taller of the two**. Rosa is raised here only by the height of the truck floor she is standing on, so her head sits a little above Pip's and no more. Rosa must NOT be drawn broad, heavy, matronly or larger-framed than Pip: their shoulders are a similar width and Pip is the slimmer and straighter of the two.
 Hard constraints: exactly two people. Pip's face does nothing at all — no smile, no frown. Rosa carries the entire reaction. Rosa is not oversized and not taller than a head above Pip.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -254,6 +256,7 @@ Two o'clock in the morning.
 Medium, camera at standing height across the counter, Jennings large in frame and fully lit, the queue soft in the near foreground, the empty shelf clearly readable behind him.
 Bright flat fluorescent light from overhead — a lit shop in the middle of the night, not a dark one. Every face and the empty shelf clearly readable, black windows the only thing saying it is night.
 Hard constraints: the slippers must be visible. The queue figures must have no readable faces and must not be any of the children. Nothing in frame carries a brand or a legible label.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -301,6 +304,7 @@ The middle of the night.
 Close two-shot at floor height, camera low and across the small room, both faces large and fully readable, the bath running across the frame between them.
 A LIT ROOM at night. Ordinary warm overhead bathroom light, soft and even, both faces fully readable, nothing sinister and no part of the frame falling to featureless black.
 Hard constraints: exactly two people. Milo keeps the orange beanie and the red-lensed glasses. His mother is amused and unhurried, not anxious. Nobody is being sick in frame and there is no bucket, basin or mess of any kind.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -352,6 +356,7 @@ The middle of the night.
 Medium wide at CHILD-EYE HEIGHT, low and across the room, so that Chet reads as genuinely small against the bed and the doorway, with both of them and the impossible door in one frame.
 A LIT ROOM at night: the bedside lamp is on plus the warm spill from the open doorway, so the wall, the bed and both faces are clearly readable. No part of the frame falls to featureless black and nothing about the lighting is sinister.
 Hard constraints: Chet is THREE FEET TALL — his head must be well below the height of the child sitting up in bed. The doorway must read as a hole in a flat wall rather than as a built door. Nothing on the clipboard is legible.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -417,6 +422,7 @@ Twenty to six in the morning, still dark outside.
 Medium, camera at standing height behind and to one side of Chet, so that the lit screen, Chet looking up at it and the sleeping boy on the couch are all in one frame. Chet is the subject and is fully readable.
 The room is lit by the television and by one lamp still on: cool flicker from the screen across the carpet and Chet, warm lamplight on the couch. **A LIT ROOM, not a dark one** — the furniture, the carpet, Chet and the sleeping boy all stay clearly readable and no part of the frame falls to featureless black.
 Hard constraints: nothing on the television screen is text. Chet is three feet tall against the couch and the television stand. Felix stays asleep and his red glasses are on his face or folded on the table beside him.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -477,6 +483,7 @@ Close two-shot at low camera height near the gravel, the two of them filling the
 Flat even overcast morning daylight, no long shadows, cool and quiet, everything readable.
 SCALE: Rosa is an ordinary-sized woman, shorter than Milo when both stand. She is seated on a bumper and he is sitting on the ground, so she is higher in frame for that reason alone — she must not also be drawn bigger, broader or heavier-framed than he is.
 Hard constraints: exactly two people. The hatch is CLOSED. Rosa is still and dry-eyed, not weeping. Milo is on the ground, not crouching and not standing. Rosa is not oversized.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -531,6 +538,8 @@ Prompt:
 {{WARDROBE:FELIX_B}}
 {{CHAR:LENA}}
 {{CHAR:OWEN}}
+**THE BUILDING MUST READ AS THREE FULL STOREYS AND THAT IS THE FIRST FAULT TO FIX.** A previous attempt put him on what looked like a low wall at roughly the camera's own level, which destroys the scene: the prose says three stories up and the comedy is Owen shouting up at a ledge he has seen the inspection for. **Three countable rows of windows** must run up the brick frontage between the sidewalk and the parapet he is standing on, and the kids at the bottom of the frame must be tiny against it.
+
 A MAN STANDING ON A PARAPET THREE STOREYS UP, SEEN FROM THE STREET BELOW. He is the subject and he is SMALL IN THE FRAME — this is a wide low-angle shot and he is a figure against the sky, not a portrait.
 THE NIGHTJAR stands **on top of the low parapet wall** of the three-storey brick hardware store, not behind it: both boots on the coping, feet apart, weight settled, shoulders back, chin up, arms loose at his sides, cape hanging still. He is mid-declamation with his head turned to take in the length of the street. He is completely at ease at that height, which is the unnerving part.
 **His face is far away and small. Do not bring the camera up to him and do not crop in.** The goggles read as two pale ovals and nothing more.
@@ -539,6 +548,7 @@ Mid-morning, bright and dry, a clear pale sky behind the roofline.
 WIDE, camera at standing height on the opposite sidewalk angled steeply UP, so the brick frontage runs away above the two kids and the masked figure sits small and dark against a bright open sky at the top of the frame. Deep focus, nothing cropped.
 High clear morning light, the sky bright behind him so he reads as a clean silhouette with the colours of his coat and cape still legible. No drama and no deep shadow on the street below.
 Hard constraints: he stands ON TOP of the parapet, not behind it. He is small in frame and his features are NOT readable. Exactly three people in the picture and no crowd.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
@@ -595,6 +605,7 @@ Mid-morning, bright and dry.
 Medium wide at standing height on the sidewalk, angled slightly up so that the three of them occupy the lower two thirds and the hand over the parapet is small and clear at the top. All three faces clearly readable.
 High clear morning light, warm and even, no drama, every face readable.
 Hard constraints: only a hand and forearm appear above the parapet — no head and no face. Pip is not laughing and is not looking upward. Exactly three people at street level.
+
 {{NEGATIVE}}
 Aspect ratio: 3:2
 ```
